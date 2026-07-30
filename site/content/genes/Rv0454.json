@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0454",
+  "gene": "Rv0454",
+  "len_aa": 116,
+  "strand": "+",
+  "start_mtbc0": 544835,
+  "end_mtbc0": 545185,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "dark",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "LKQDFGLDVPQAGNAQNFDGVPEWVQVGVVTFVYRMQMHHVTRPVGAPGSGLAGDSTPVQGRQRVWDLVAGRLTHAPRSSVQAMRPTMFTSAPQRHGIPARGRWWLGYQERSRAWP",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv0454, (MTV037.18), len: 116 aa (start uncertain). Conserved hypothetical protein, showing similarity with AAA63007.1|U15183 hypothetical protein from Mycobacterium leprae (115 aa), FASTA scores: opt: 151, E(): 0.0019, (31.5% identity in 89 aa overlap).",
+    "uniprot_ac": "O86364",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 116,
+    "mw_kda": 12.9,
+    "pi": 11.33,
+    "gravy": -0.481,
+    "instability_index": 48.5,
+    "instability_class": "unstable",
+    "aromaticity": 0.095,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O86364",
+    "reviewed": false,
+    "protein_name": "Uncharacterized protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_0454"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv3249c",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 2,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.166,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP",
+    "tm_helices": 0,
+    "signal_peptide": true,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted secreted protein (signal peptide)"
+  },
+  "string": {
+    "string_id": "83332.Rv0454",
+    "n_partners": 1,
+    "n_context_driven": 1,
+    "partners": [
+      {
+        "rv": "Rv0453",
+        "gene": "PPE11",
+        "product": "PPE family protein PPE11",
+        "hypothetical": false,
+        "combined": 523,
+        "combined_no_tm": 523,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 519,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0453",
+      "gene": "PPE11",
+      "product": "PPE family protein PPE11",
+      "combined_no_tm": 523,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 519,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 49,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 38.1,
+    "band": "very low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8pui-assembly1_A",
+        "evalue": 6.155,
+        "prob": 0.024,
+        "tmscore": 0.2433,
+        "description": "8pui-assembly1_A human PHOX2B C-terminal domain including the polyA fragment at 298K",
+        "significant": false
+      },
+      {
+        "target": "7zd6-assembly1_h",
+        "evalue": 8.124,
+        "prob": 0.008,
+        "tmscore": 0.1238,
+        "description": "7zd6-assembly1_h Complex I from Ovis aries, at pH7.4, Open state",
+        "significant": false
+      }
+    ],
+    "plddt_gated": false
+  }
+}

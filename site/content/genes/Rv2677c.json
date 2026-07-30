@@ -1,0 +1,853 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2677c",
+  "mtbc0": "-",
+  "np_id": "YP_177675.1",
+  "gene": "hemY",
+  "len_aa": 452,
+  "strand": "-",
+  "start_mtbc0": 2992634,
+  "end_mtbc0": 2993992,
+  "product_h37rv": "protoporphyrinogen oxidase",
+  "product_mtbc0_pgap": "",
+  "function_revised": "Protoporphyrinogen oxidase. Pfam: NAD_binding_8 (PF13450.13), Amino_oxidase (PF01593.31).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTPRSYCVVGGGISGLTSAYRLRQAVGDDATITLFEPADRLGGVLRTEHIGGQPMDLGAEAFVLRRPEMPALLAELGLSDRQLASTGARPLIYSQQRLHPLPPQTVVGIPSSAGSMAGLVDDATLARIDAEAARPFTWQVGSDPAVADLVADRFGDQVVARSVDPLLSGVYAGSAATIGLRAAAPSVAAALDRGATSVTDAVRQALPPGSGGPVFGALDGGYQVLLDGLVRRSRVHWVRARVVQLERGWVLRDETGGRWQADAVILAVPAPRLARLVDGIAPRTHAAARQIVSASSAVVALAVPGGTAFPHCSGVLVAGDESPHAKAITLSSRKWGQRGDVALLRLSFGRFGDEPALTASDDQLLAWAADDLVTVFGVAVDPVDVRVRRWIEAMPQYGPGHADVVAELRAGLPPTLAVAGSYLDGIGVPACVGAAGRAVTSVIEALDAQVAR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "NAD_binding_8",
+      "pfam_acc": "PF13450.13",
+      "i_evalue": 5.4e-13,
+      "ali_from": 8,
+      "ali_to": 76,
+      "description": "NAD(P)-binding Rossmann-like domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Amino_oxidase",
+      "pfam_acc": "PF01593.31",
+      "i_evalue": 1.6e-31,
+      "ali_from": 13,
+      "ali_to": 443,
+      "description": "Flavin containing amine oxidoreductase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1232",
+    "cog_cat": "H",
+    "description": "Catalyzes the 6-electron oxidation of protoporphyrinogen-IX to form protoporphyrin-IX",
+    "preferred_name": "hemG",
+    "ec": [
+      "1.3.3.15",
+      "1.3.3.4"
+    ],
+    "kegg_ko": [
+      "K00231"
+    ],
+    "kegg_pathway": [
+      "map00860",
+      "map01100",
+      "map01110"
+    ],
+    "kegg_module": [
+      "M00121"
+    ],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Amino_oxidase"
+    ],
+    "seed_ortholog": "419947.MRA_2705",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WMP1",
+    "reviewed": true,
+    "protein_name": "Coproporphyrinogen III oxidase",
+    "ec": [
+      "1.3.3.15"
+    ],
+    "function": "Involved in coproporphyrin-dependent heme b biosynthesis. Catalyzes the oxidation of coproporphyrinogen III to coproporphyrin III",
+    "go": [
+      "GO:0004729",
+      "GO:0005737",
+      "GO:0006783",
+      "GO:0016491"
+    ],
+    "kegg": [
+      "mtu:Rv2677c",
+      "mtv:RVBD_2677c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.577,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2677c",
+    "n_partners": 40,
+    "n_context_driven": 9,
+    "partners": [
+      {
+        "rv": "Rv2678c",
+        "gene": "hemE",
+        "product": "uroporphyrinogen decarboxylase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 756,
+          "coexpression": 916,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 535
+        }
+      },
+      {
+        "rv": "Rv1485",
+        "gene": "hemZ",
+        "product": "ferrochelatase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 993,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 749,
+          "coexpression": 712,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 582
+        }
+      },
+      {
+        "rv": "Rv2850c",
+        "gene": "",
+        "product": "magnesium chelatase",
+        "hypothetical": false,
+        "combined": 992,
+        "combined_no_tm": 943,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 436,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 875
+        }
+      },
+      {
+        "rv": "Rv2676c",
+        "gene": "hemQ",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 931,
+        "combined_no_tm": 921,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 365,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 167
+        }
+      },
+      {
+        "rv": "Rv0958",
+        "gene": "",
+        "product": "magnesium chelatase",
+        "hypothetical": false,
+        "combined": 909,
+        "combined_no_tm": 907,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 102,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv2679",
+        "gene": "echA15",
+        "product": "enoyl-CoA hydratase EchA15",
+        "hypothetical": false,
+        "combined": 790,
+        "combined_no_tm": 791,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 788,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 56,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3242c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 787,
+        "combined_no_tm": 788,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 776,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2675c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 786,
+        "combined_no_tm": 786,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 776,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 84,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2680",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 703,
+        "combined_no_tm": 703,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 694,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2681",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 698,
+        "combined_no_tm": 698,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 694,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0509",
+        "gene": "hemA",
+        "product": "glutamyl-tRNA reductase",
+        "hypothetical": false,
+        "combined": 737,
+        "combined_no_tm": 576,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 449,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 405
+        }
+      },
+      {
+        "rv": "Rv0510",
+        "gene": "hemC",
+        "product": "porphobilinogen deaminase",
+        "hypothetical": false,
+        "combined": 735,
+        "combined_no_tm": 534,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 245,
+          "coexpression": 263,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 457
+        }
+      },
+      {
+        "rv": "Rv2393",
+        "gene": "che1",
+        "product": "ferrochelatase",
+        "hypothetical": false,
+        "combined": 559,
+        "combined_no_tm": 509,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 58,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 140
+        }
+      },
+      {
+        "rv": "Rv0512",
+        "gene": "hemB",
+        "product": "delta-aminolevulinic acid dehydratase",
+        "hypothetical": false,
+        "combined": 690,
+        "combined_no_tm": 496,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 196,
+          "coexpression": 252,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 411
+        }
+      },
+      {
+        "rv": "Rv0526",
+        "gene": "",
+        "product": "thioredoxin",
+        "hypothetical": false,
+        "combined": 662,
+        "combined_no_tm": 471,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 311,
+          "coexpression": 84,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 389
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2678c",
+      "gene": "hemE",
+      "product": "uroporphyrinogen decarboxylase",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 881,
+        "fusion": 0,
+        "cooccurence": 756,
+        "coexpression": 916,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 535
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): protoporphyrinogen oxidase",
+    "Pfam (hmmscan --cut_ga): NAD_binding_8 PF13450.13 (E=5e-13), Amino_oxidase PF01593.31 (E=2e-31)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 95.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3lov-assembly1_A",
+        "evalue": 2.072e-40,
+        "prob": 1.0,
+        "tmscore": 0.8762,
+        "description": "3lov-assembly1_A Crystal structure of Putative protoporphyrinogen oxidase (YP_001813199.1) from Exiguobacterium sp. 255-15 at 2.06 A resolution",
+        "significant": true
+      },
+      {
+        "target": "2ivd-assembly2_B",
+        "evalue": 2.84e-36,
+        "prob": 1.0,
+        "tmscore": 0.8578,
+        "description": "2ivd-assembly2_B Structure of protoporphyrinogen oxidase from Myxococcus xanthus with acifluorfen",
+        "significant": true
+      },
+      {
+        "target": "2ive-assembly2_B",
+        "evalue": 2.225e-36,
+        "prob": 1.0,
+        "tmscore": 0.8589,
+        "description": "2ive-assembly2_B Structure of protoporphyrinogen oxidase from Myxococcus xanthus",
+        "significant": true
+      },
+      {
+        "target": "2ivd-assembly1_A",
+        "evalue": 7.098e-36,
+        "prob": 1.0,
+        "tmscore": 0.8633,
+        "description": "2ivd-assembly1_A Structure of protoporphyrinogen oxidase from Myxococcus xanthus with acifluorfen",
+        "significant": true
+      },
+      {
+        "target": "3i6d-assembly2_B",
+        "evalue": 5.56e-36,
+        "prob": 1.0,
+        "tmscore": 0.8563,
+        "description": "3i6d-assembly2_B Crystal structure of PPO from bacillus subtilis with AF",
+        "significant": true
+      },
+      {
+        "target": "3i6d-assembly1_A",
+        "evalue": 1.477e-35,
+        "prob": 1.0,
+        "tmscore": 0.8656,
+        "description": "3i6d-assembly1_A Crystal structure of PPO from bacillus subtilis with AF",
+        "significant": true
+      },
+      {
+        "target": "2ive-assembly1_A",
+        "evalue": 2.407e-35,
+        "prob": 1.0,
+        "tmscore": 0.8357,
+        "description": "2ive-assembly1_A Structure of protoporphyrinogen oxidase from Myxococcus xanthus",
+        "significant": true
+      },
+      {
+        "target": "3nks-assembly1_A",
+        "evalue": 1.274e-33,
+        "prob": 1.0,
+        "tmscore": 0.8183,
+        "description": "3nks-assembly1_A Structure of human protoporphyrinogen IX oxidase",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 44.4,
+    "abundance_rank": 1831,
+    "n_ranked": 3519,
+    "abundance_percentile": 48.0,
+    "n_datasets": 11,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 452,
+    "mw_kda": 46.8,
+    "pi": 6.01,
+    "gravy": 0.189,
+    "instability_index": 39.8,
+    "instability_class": "stable",
+    "aromaticity": 0.051,
+    "aliphatic_index": 10128.3,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2696c",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. leprae": {
+        "locus": "ML1044",
+        "identity": 75.4,
+        "evalue": 7.54e-236
+      },
+      "M. marinum": {
+        "locus": "MMAR_2039",
+        "identity": 73.2,
+        "evalue": 1.76e-232
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_2781",
+        "identity": 67.0,
+        "evalue": 1.22e-206
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002761",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_2985c",
+        "identity": 58.4,
+        "evalue": 1.25e-166
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2676c",
+      "gene": null,
+      "strand": "-",
+      "gap": 5
+    },
+    "right": {
+      "locus": "Rv2678c",
+      "gene": "hemE",
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv2675c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2676c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2677c",
+        "gene": "hemY"
+      },
+      {
+        "locus": "Rv2678c",
+        "gene": "hemE"
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable protoporphyrinogen oxidase HemY (protoporphyrinogen-IX oxidase) (protoporphyrinogenase) (PPO)",
+    "legacy_function": "Involved in heme and porphyrin biosynthesis (at the penultimate step). Catalyzes the 6-electron oxidation of protoporphyrinogen IX to form protoporphyrin IX [catalytic activity: protoporphyrinogen-IX + O(2) = protoporphyrin-IX + H(2)O(2)].",
+    "legacy_ec": [
+      "1.3.3.4"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "1.3.3.15",
+      "1.3.3.4"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -5.251,
+    "ci_low": -5.58,
+    "ci_high": -4.902,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 52,
+      "n_total": 53,
+      "frac": 0.981,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 74.9,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 9,
+      "crossgenus_genomes": [
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 44.3,
+      "length_aa": 452,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "1 publication(s) discuss this gene (1 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Discovery and Characterization of HemQ: an essential heme biosynthetic pathway component.",
+        "doi": "10.1074/jbc.M110.142604",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/20543190/",
+        "date": "2010"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 95.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "hemY-DAS-TetOn 18.1",
+    "gene": "hemY",
+    "teton_promoter": "18",
+    "baseline_doublings_median": 0.486,
+    "n_screens": 6,
+    "strain_category": "Excluded - slow growth (less than 1 doubling in a screening wave)",
+    "used_in_pcl": false,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0328",
+  "mtbc0": "mtbc0_000348",
+  "np_id": "NP_214842.1",
+  "gene": "",
+  "len_aa": 200,
+  "strand": "+",
+  "start_mtbc0": 397434,
+  "end_mtbc0": 398036,
+  "product_h37rv": "transcriptional regulator",
+  "product_mtbc0_pgap": "TetR/AcrR family transcriptional regulator",
+  "function_revised": "TetR/AcrR family transcriptional regulator. Pfam: TetR_N (PF00440.30), TetR_C_6 (PF13977.12), TetR_C_31 (PF17940.7).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MQQQRTNRDKLLDGALACLRERGYGNTSSRDIARAAGVNIASINYHFGSKDALLDDALGRCFSTWNQRVQEAFDHSRAAGPAGQILAVLEATVDSFEQIRPAVYACVESYAPALRSEALRERLAAGYADVRQHSVDLAGAALAGTDIAPPENLSTIVSVLMAVIDGLMIQWIADPSATPRSTEVIRALASIGAVVTSQLR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "TetR_N",
+      "pfam_acc": "PF00440.30",
+      "i_evalue": 4.7e-16,
+      "ali_from": 11,
+      "ali_to": 55,
+      "description": "Bacterial regulatory proteins, tetR family"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "TetR_C_6",
+      "pfam_acc": "PF13977.12",
+      "i_evalue": 8e-10,
+      "ali_from": 82,
+      "ali_to": 180,
+      "description": "BetI-type transcriptional repressor, C-terminal"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "TetR_C_31",
+      "pfam_acc": "PF17940.7",
+      "i_evalue": 9.5e-07,
+      "ali_from": 84,
+      "ali_to": 188,
+      "description": "Tetracyclin repressor-like, C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1309",
+    "cog_cat": "K",
+    "description": "Bacterial regulatory proteins, tetR family",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "TetR_C_6",
+      "TetR_N"
+    ],
+    "seed_ortholog": "419947.MRA_0337",
+    "evalue": "2.07e-134"
+  },
+  "uniprot": {
+    "acc": "O07252",
+    "reviewed": false,
+    "protein_name": "Possible transcriptional regulatory protein",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0000976",
+      "GO:0003700",
+      "GO:0005886",
+      "GO:0006355"
+    ],
+    "kegg": [
+      "mtu:Rv0328",
+      "mtv:RVBD_0328"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 1,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.351,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0328",
+    "n_partners": 4,
+    "n_context_driven": 1,
+    "partners": [
+      {
+        "rv": "Rv0327c",
+        "gene": "cyp135A1",
+        "product": "cytochrome P450 Cyp135A1",
+        "hypothetical": false,
+        "combined": 612,
+        "combined_no_tm": 612,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 606,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3066",
+        "gene": "",
+        "product": "DeoR family transcriptional regulator",
+        "hypothetical": false,
+        "combined": 437,
+        "combined_no_tm": 437,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 290,
+          "coexpression": 240,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1014c",
+        "gene": "pth",
+        "product": "peptidyl-tRNA hydrolase",
+        "hypothetical": false,
+        "combined": 400,
+        "combined_no_tm": 401,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 398,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3833",
+        "gene": "",
+        "product": "AraC family transcriptional regulator",
+        "hypothetical": false,
+        "combined": 407,
+        "combined_no_tm": 376,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 62,
+          "fusion": 0,
+          "cooccurence": 333,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 89
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0327c",
+      "gene": "cyp135A1",
+      "product": "cytochrome P450 Cyp135A1",
+      "combined_no_tm": 612,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 606,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 55,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: transcriptional regulator",
+    "MTBC0 PGAP product: TetR/AcrR family transcriptional regulator",
+    "Pfam (hmmscan --cut_ga): TetR_N PF00440.30 (E=5e-16), TetR_C_6 PF13977.12 (E=8e-10), TetR_C_31 PF17940.7 (E=1e-06)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 92.4,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2g3b-assembly1_A",
+        "evalue": 8.836e-06,
+        "prob": 1.0,
+        "tmscore": 0.7255,
+        "description": "2g3b-assembly1_A Crystal structure of putative TetR-family transcriptional regulator from Rhodococcus sp.",
+        "significant": true
+      },
+      {
+        "target": "3f1b-assembly1_A-2",
+        "evalue": 4.257e-05,
+        "prob": 1.0,
+        "tmscore": 0.741,
+        "description": "3f1b-assembly1_A-2 The crystal structure of a TetR-like transcriptional regulator from Rhodococcus sp. RHA1.",
+        "significant": true
+      },
+      {
+        "target": "2gfn-assembly1_A",
+        "evalue": 3.69e-05,
+        "prob": 1.0,
+        "tmscore": 0.7166,
+        "description": "2gfn-assembly1_A Crystal structure of HTH-type transcriptional regulator pksA related protein from Rhodococcus sp. RHA1",
+        "significant": true
+      },
+      {
+        "target": "7xy5-assembly1_A",
+        "evalue": 6.231e-05,
+        "prob": 1.0,
+        "tmscore": 0.7508,
+        "description": "7xy5-assembly1_A HapR_Double Mutant with CHES buffer",
+        "significant": true
+      },
+      {
+        "target": "2nx4-assembly2_D",
+        "evalue": 0.0001777,
+        "prob": 1.0,
+        "tmscore": 0.7582,
+        "description": "2nx4-assembly2_D The Crystal Structure of athe Putative TetR-family transcriptional regulator Rha06780 from Rhodococcus sp. Rha1.",
+        "significant": true
+      },
+      {
+        "target": "6o6n-assembly1_A",
+        "evalue": 7.189e-05,
+        "prob": 1.0,
+        "tmscore": 0.6959,
+        "description": "6o6n-assembly1_A Structure of the regulator FasR from Mycobacterium tuberculosis in complex with C20-CoA",
+        "significant": true
+      },
+      {
+        "target": "1jus-assembly2_E",
+        "evalue": 0.0001158,
+        "prob": 1.0,
+        "tmscore": 0.7038,
+        "description": "1jus-assembly2_E Crystal structure of the multidrug binding transcriptional repressor QacR bound to rhodamine 6G",
+        "significant": true
+      },
+      {
+        "target": "2dg8-assembly1_D",
+        "evalue": 0.0001158,
+        "prob": 1.0,
+        "tmscore": 0.7126,
+        "description": "2dg8-assembly1_D Crystal structure of the putative trasncriptional regulator SCO7518 from Streptomyces coelicolor A3(2)",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 41.1,
+    "abundance_rank": 1884,
+    "n_ranked": 3519,
+    "abundance_percentile": 46.5,
+    "n_datasets": 8,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 200,
+    "mw_kda": 21.4,
+    "pi": 5.61,
+    "gravy": -0.01,
+    "instability_index": 41.6,
+    "instability_class": "unstable",
+    "aromaticity": 0.055,
+    "aliphatic_index": 9725.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "regulatory proteins",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0335",
+        "identity": 99.5,
+        "evalue": 3.23e-138
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000344",
+        "identity": 99.5,
+        "evalue": 3.02e-138
+      },
+      "M. abscessus": {
+        "locus": "MAB_0835c",
+        "identity": 36.7,
+        "evalue": 5.46e-09
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0327c",
+      "gene": "cyp135A1",
+      "strand": "-",
+      "gap": 65
+    },
+    "right": {
+      "locus": "Rv0329c",
+      "gene": null,
+      "strand": "-",
+      "gap": -20
+    },
+    "operon": [
+      {
+        "locus": "Rv0328",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv3597c",
+        "tf_gene": "lsr2",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Possible transcriptional regulatory protein (possibly TetR/AcrR-family)",
+    "legacy_function": "Possibly involved in a transcriptional mechanism.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.676,
+    "ci_low": -0.194,
+    "ci_high": 1.948,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 11,
+      "n_total": 53,
+      "frac": 0.208,
+      "in_mtbap": 3,
+      "in_mkc": 4,
+      "mean_pident": 70.8,
+      "classification": "restricted",
+      "species_present": [
+        "M_attenuatum",
+        "M_basiliense",
+        "M_kyorinense",
+        "M_lacus",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_spongiae"
+      ],
+      "interpretation": "present in a subset of the genus (11/53 NTM; in 3 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 2,
+      "crossgenus_genomes": [
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2"
+      ],
+      "mean_pident": 33.2,
+      "length_aa": 200,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.035,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 92.4,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,887 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3503c",
+  "mtbc0": "mtbc0_003718",
+  "np_id": "NP_218020.1",
+  "gene": "fdxD",
+  "len_aa": 63,
+  "strand": "-",
+  "start_mtbc0": 3946647,
+  "end_mtbc0": 3946838,
+  "product_h37rv": "ferredoxin FdxD",
+  "product_mtbc0_pgap": "ferredoxin",
+  "function_revised": "Ferredoxin. Pfam: Fer4_15 (PF13459.12), Fer4_13 (PF13370.12).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MRVIVDRDRCEGNAVCLGIAPDIFDLDDEDYAVVKTDPIPVDQEDLAEQAIAECPRAALSRGE",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Fer4_15",
+      "pfam_acc": "PF13459.12",
+      "i_evalue": 5.1e-14,
+      "ali_from": 3,
+      "ali_to": 59,
+      "description": "4Fe-4S single cluster domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Fer4_13",
+      "pfam_acc": "PF13370.12",
+      "i_evalue": 1.2e-12,
+      "ali_from": 5,
+      "ali_to": 59,
+      "description": "4Fe-4S single cluster domain of Ferredoxin I"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1141",
+    "cog_cat": "C",
+    "description": "ferredoxin",
+    "preferred_name": "fdxD",
+    "ec": [],
+    "kegg_ko": [
+      "K05337"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Fer4_15"
+    ],
+    "seed_ortholog": "419947.MRA_3543",
+    "evalue": "9.5e-39"
+  },
+  "uniprot": {
+    "acc": "I6X7H4",
+    "reviewed": false,
+    "protein_name": "Ferredoxin",
+    "ec": [],
+    "function": "Ferredoxins are iron-sulfur proteins that transfer electrons in a wide variety of metabolic reactions",
+    "go": [
+      "GO:0005506",
+      "GO:0009055",
+      "GO:0051538"
+    ],
+    "kegg": [
+      "mtu:Rv3503c",
+      "mtv:RVBD_3503c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 2,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.158,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv3503c",
+    "n_partners": 26,
+    "n_context_driven": 11,
+    "partners": [
+      {
+        "rv": "Rv3502c",
+        "gene": "",
+        "product": "3-oxoacyl-ACP reductase",
+        "hypothetical": false,
+        "combined": 726,
+        "combined_no_tm": 726,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 717,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0310c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 545,
+        "combined_no_tm": 545,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 545,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3504",
+        "gene": "fadE26",
+        "product": "acyl-CoA dehydrogenase FadE26",
+        "hypothetical": false,
+        "combined": 515,
+        "combined_no_tm": 515,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 500,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3687c",
+        "gene": "rsfB",
+        "product": "anti-anti-sigma factor RsfB",
+        "hypothetical": false,
+        "combined": 489,
+        "combined_no_tm": 490,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 487,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0311",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 481,
+        "combined_no_tm": 482,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 459,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0926c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 480,
+        "combined_no_tm": 481,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 479,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3505",
+        "gene": "fadE27",
+        "product": "acyl-CoA dehydrogenase FadE27",
+        "hypothetical": false,
+        "combined": 464,
+        "combined_no_tm": 464,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 457,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 53,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0763c",
+        "gene": "",
+        "product": "ferredoxin",
+        "hypothetical": false,
+        "combined": 886,
+        "combined_no_tm": 443,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 439,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 805
+        }
+      },
+      {
+        "rv": "Rv0762c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 434,
+        "combined_no_tm": 434,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 75,
+          "fusion": 0,
+          "cooccurence": 408,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2600",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 419,
+        "combined_no_tm": 420,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 418,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3501c",
+        "gene": "yrbE4A",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 413,
+        "combined_no_tm": 413,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 410,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0764c",
+        "gene": "cyp51",
+        "product": "lanosterol 14-alpha demethylase",
+        "hypothetical": false,
+        "combined": 675,
+        "combined_no_tm": 357,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 334,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 516
+        }
+      },
+      {
+        "rv": "Rv1786",
+        "gene": "",
+        "product": "ferredoxin",
+        "hypothetical": false,
+        "combined": 543,
+        "combined_no_tm": 300,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 297,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 375
+        }
+      },
+      {
+        "rv": "Rv3059",
+        "gene": "cyp136",
+        "product": "cytochrome P450 Cyp136",
+        "hypothetical": false,
+        "combined": 501,
+        "combined_no_tm": 204,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 169,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 400
+        }
+      },
+      {
+        "rv": "Rv2266",
+        "gene": "cyp124",
+        "product": "cytochrome P450 Cyp124",
+        "hypothetical": false,
+        "combined": 594,
+        "combined_no_tm": 199,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 171,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 515
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3502c",
+      "gene": "",
+      "product": "3-oxoacyl-ACP reductase",
+      "combined_no_tm": 726,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 717,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 70,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: ferredoxin FdxD",
+    "MTBC0 PGAP product: ferredoxin",
+    "Pfam (hmmscan --cut_ga): Fer4_15 PF13459.12 (E=5e-14), Fer4_13 PF13370.12 (E=1e-12)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 97.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4id8-assembly1_A",
+        "evalue": 3.321e-07,
+        "prob": 1.0,
+        "tmscore": 0.9233,
+        "description": "4id8-assembly1_A The crystal structure of a [3Fe-4S] ferredoxin associated with CYP194A4 from R. palustris HaA2",
+        "significant": true
+      },
+      {
+        "target": "1siz-assembly1_C",
+        "evalue": 7.444e-06,
+        "prob": 1.0,
+        "tmscore": 0.9103,
+        "description": "1siz-assembly1_C Crystal structure of the [Fe3S4]-ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus",
+        "significant": true
+      },
+      {
+        "target": "3pni-assembly1_A",
+        "evalue": 7.444e-06,
+        "prob": 1.0,
+        "tmscore": 0.9073,
+        "description": "3pni-assembly1_A Crystal structure of D14C [3Fe-4S] Pyrococcus furiosus ferredoxin",
+        "significant": true
+      },
+      {
+        "target": "4dhv-assembly1_A",
+        "evalue": 7.444e-06,
+        "prob": 1.0,
+        "tmscore": 0.9,
+        "description": "4dhv-assembly1_A Crystal structure of the Pyrococcus furiosus ferredoxin D14C variant containing the heterometallic [AgFe3S4] cluster",
+        "significant": true
+      },
+      {
+        "target": "1wtf-assembly1_A",
+        "evalue": 1.509e-05,
+        "prob": 1.0,
+        "tmscore": 0.8909,
+        "description": "1wtf-assembly1_A Crystal structure of Bacillus thermoproteolyticus Ferredoxin Variants Containing Unexpected [3Fe-4S] Cluster that is linked to Coenzyme A at 1.6 A Resolution",
+        "significant": true
+      },
+      {
+        "target": "8amp-assembly1_A",
+        "evalue": 1.06e-05,
+        "prob": 1.0,
+        "tmscore": 0.8689,
+        "description": "8amp-assembly1_A Crystal structure of M.tuberculosis ferredoxin Fdx",
+        "significant": true
+      },
+      {
+        "target": "1vjw-assembly1_A",
+        "evalue": 1.866e-05,
+        "prob": 1.0,
+        "tmscore": 0.8294,
+        "description": "1vjw-assembly1_A STRUCTURE OF OXIDOREDUCTASE (NADP+(A),FERREDOXIN(A))",
+        "significant": true
+      },
+      {
+        "target": "1fxd-assembly1_A-2",
+        "evalue": 0.0001172,
+        "prob": 1.0,
+        "tmscore": 0.893,
+        "description": "1fxd-assembly1_A-2 REFINED CRYSTAL STRUCTURE OF FERREDOXIN II FROM DESULFOVIBRIO GIGAS AT 1.7 ANGSTROMS",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 250.0,
+    "abundance_rank": 739,
+    "n_ranked": 3519,
+    "abundance_percentile": 79.0,
+    "n_datasets": 9,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 63,
+    "mw_kda": 6.9,
+    "pi": 4.06,
+    "gravy": -0.219,
+    "instability_index": 31.8,
+    "instability_class": "stable",
+    "aromaticity": 0.032,
+    "aliphatic_index": 9603.2,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb3533c",
+        "identity": 98.4,
+        "evalue": 6.04e-42
+      },
+      "M. marinum": {
+        "locus": "MMAR_4991",
+        "identity": 93.4,
+        "evalue": 5.91e-37
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5904",
+        "identity": 82.0,
+        "evalue": 2.08e-34
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003608",
+        "identity": 98.4,
+        "evalue": 5.65e-42
+      },
+      "M. abscessus": {
+        "locus": "MAB_4157c",
+        "identity": 68.9,
+        "evalue": 2.29e-27
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 1,
+    "n_in_vivo": 1,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": -3.29,
+        "qval": 0.033,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv3502c",
+      "gene": null,
+      "strand": "-",
+      "gap": 24
+    },
+    "right": {
+      "locus": "Rv3504",
+      "gene": "fadE26",
+      "strand": "+",
+      "gap": 214
+    },
+    "operon": [
+      {
+        "locus": "Rv3502c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3503c",
+        "gene": "fdxD"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0081",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0324",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv0678",
+        "tf_gene": "mmpR5",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 3,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable ferredoxin FdxD",
+    "legacy_function": "Ferredoxins are iron-sulfur proteins that transfer electrons in a wide variety of metabolic reactions.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.198,
+    "ci_low": -1.911,
+    "ci_high": 2.124,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 1,
+      "n_nonsyn": 0,
+      "n_disruptive": 0,
+      "dN_dS": 0.0,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 88.9,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 6,
+      "crossgenus_genomes": [
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 50.9,
+      "length_aa": 63,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 2,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "2 publication(s) discuss this gene (2 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Pharmacologic ascorbate as a pro-drug for hydrogen peroxide release to kill mycobacteria.",
+        "doi": "10.1016/j.biopha.2018.11.078",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30551469/",
+        "date": "2019"
+      },
+      {
+        "title": "Linking cytochrome P450 enzymes from Mycobacterium tuberculosis to their cognate ferredoxin partners.",
+        "doi": "10.1007/s00253-018-9299-4",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30136203/",
+        "date": "2018"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 97.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

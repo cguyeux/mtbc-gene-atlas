@@ -1,0 +1,1091 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1023",
+  "mtbc0": "mtbc0_001099",
+  "np_id": "NP_215539.1",
+  "gene": "eno",
+  "len_aa": 429,
+  "strand": "+",
+  "start_mtbc0": 1151901,
+  "end_mtbc0": 1153190,
+  "product_h37rv": "enolase",
+  "product_mtbc0_pgap": "phosphopyruvate hydratase",
+  "function_revised": "Phosphopyruvate hydratase. Pfam: Enolase_N (PF03952.22), Enolase_C (PF00113.29), MR_MLE_C (PF13378.13).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MPIIEQVGAREILDSRGNPTVEVEVALIDGTFARAAVPSGASTGEHEAVELRDGGDRYGGKGVQKAVQAVLDEIGPAVIGLNADDQRLVDQALVDLDGTPDKSRLGGNAILGVSLAVAKAAADSAELPLFRYVGGPNAHILPVPMMNILNGGAHADTAVDIQEFMVAPIGAPSFVEALRWGAEVYHALKSVLKKEGLSTGLGDEGGFAPDVAGTTAALDLISRAIESAGLRPGADVALALDAAATEFFTDGTGYVFEGTTRTADQMTEFYAGLLGAYPLVSIEDPLSEDDWDGWAALTASIGDRVQIVGDDIFVTNPERLEEGIERGVANALLVKVNQIGTLTETLDAVTLAHHGGYRTMISHRSGETEDTMIADLAVAIGSGQIKTGAPARSERVAKYNQLLRIEEALGDAARYAGDLAFPRFACETK",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Enolase_N",
+      "pfam_acc": "PF03952.22",
+      "i_evalue": 1e-56,
+      "ali_from": 4,
+      "ali_to": 133,
+      "description": "Enolase, N-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Enolase_C",
+      "pfam_acc": "PF00113.29",
+      "i_evalue": 8.8e-125,
+      "ali_from": 139,
+      "ali_to": 418,
+      "description": "Enolase, C-terminal TIM barrel domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "MR_MLE_C",
+      "pfam_acc": "PF13378.13",
+      "i_evalue": 4.2e-08,
+      "ali_from": 263,
+      "ali_to": 380,
+      "description": "Enolase C-terminal domain-like"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG4948",
+    "cog_cat": "F",
+    "description": "Catalyzes the reversible conversion of 2- phosphoglycerate into phosphoenolpyruvate. It is essential for the degradation of carbohydrates via glycolysis",
+    "preferred_name": "eno",
+    "ec": [
+      "4.2.1.11"
+    ],
+    "kegg_ko": [
+      "K01689"
+    ],
+    "kegg_pathway": [
+      "map00010",
+      "map00680",
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01130",
+      "map01200",
+      "map01230",
+      "map03018",
+      "map04066"
+    ],
+    "kegg_module": [
+      "M00001",
+      "M00002",
+      "M00003",
+      "M00346",
+      "M00394"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0008150",
+      "GO:0016020",
+      "GO:0030312",
+      "GO:0040007",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "Enolase_C",
+      "Enolase_N"
+    ],
+    "seed_ortholog": "419947.MRA_1031",
+    "evalue": "2.75e-304"
+  },
+  "uniprot": {
+    "acc": "P9WNL1",
+    "reviewed": true,
+    "protein_name": "Enolase",
+    "ec": [
+      "4.2.1.11"
+    ],
+    "function": "Catalyzes the reversible conversion of 2-phosphoglycerate (2-PG) into phosphoenolpyruvate (PEP). It is essential for the degradation of carbohydrates via glycolysis..; FUNCTION: 'Moonlights' as a plasminogen receptor. Protein purifed from E.coli binds immobilized host (human) plasminogen with a dissociation constant of 360 nM; 0.1 M lysine prevents plasminogen binding. Protein purifed from M.tuberculosis H37Ra binds immobilized host plasminogen with a dissociation constant of 398 nM, in the same paper protein purified from E.coli binds with a dissociation constant of 888 nM. Overexpression (in",
+    "go": [
+      "GO:0000015",
+      "GO:0000287",
+      "GO:0004634",
+      "GO:0005576",
+      "GO:0005886",
+      "GO:0006096",
+      "GO:0009274",
+      "GO:0009986"
+    ],
+    "kegg": [
+      "mtu:Rv1023",
+      "mtv:RVBD_1023"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 11,
+    "syn": 4,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.606,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1023",
+    "n_partners": 218,
+    "n_context_driven": 15,
+    "partners": [
+      {
+        "rv": "Rv1617",
+        "gene": "pykA",
+        "product": "pyruvate kinase",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 987,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 219,
+          "coexpression": 819,
+          "experimental": 153,
+          "database": 900,
+          "textmining": 857
+        }
+      },
+      {
+        "rv": "Rv1437",
+        "gene": "pgk",
+        "product": "phosphoglycerate kinase",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 985,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 685,
+          "coexpression": 858,
+          "experimental": 665,
+          "database": 0,
+          "textmining": 733
+        }
+      },
+      {
+        "rv": "Rv0489",
+        "gene": "gpm1",
+        "product": "2,3-bisphosphoglycerate-dependent phosphoglycerate mutase",
+        "hypothetical": false,
+        "combined": 987,
+        "combined_no_tm": 971,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 665,
+          "experimental": 166,
+          "database": 900,
+          "textmining": 587
+        }
+      },
+      {
+        "rv": "Rv0946c",
+        "gene": "pgi",
+        "product": "glucose-6-phosphate isomerase",
+        "hypothetical": false,
+        "combined": 993,
+        "combined_no_tm": 966,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 799,
+          "experimental": 154,
+          "database": 800,
+          "textmining": 819
+        }
+      },
+      {
+        "rv": "Rv1436",
+        "gene": "gap",
+        "product": "glyceraldehyde 3-phosphate dehydrogenase",
+        "hypothetical": false,
+        "combined": 990,
+        "combined_no_tm": 966,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 591,
+          "coexpression": 842,
+          "experimental": 474,
+          "database": 0,
+          "textmining": 745
+        }
+      },
+      {
+        "rv": "Rv0363c",
+        "gene": "fba",
+        "product": "fructose-bisphosphate aldolase",
+        "hypothetical": false,
+        "combined": 986,
+        "combined_no_tm": 964,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 802,
+          "experimental": 148,
+          "database": 800,
+          "textmining": 636
+        }
+      },
+      {
+        "rv": "Rv1449c",
+        "gene": "tkt",
+        "product": "transketolase",
+        "hypothetical": false,
+        "combined": 967,
+        "combined_no_tm": 945,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 185,
+          "coexpression": 642,
+          "experimental": 157,
+          "database": 800,
+          "textmining": 434
+        }
+      },
+      {
+        "rv": "Rv1438",
+        "gene": "tpi",
+        "product": "triosephosphate isomerase",
+        "hypothetical": false,
+        "combined": 985,
+        "combined_no_tm": 941,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 217,
+          "coexpression": 858,
+          "experimental": 476,
+          "database": 0,
+          "textmining": 762
+        }
+      },
+      {
+        "rv": "Rv0702",
+        "gene": "rplD",
+        "product": "50S ribosomal protein L4",
+        "hypothetical": false,
+        "combined": 943,
+        "combined_no_tm": 937,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 681,
+          "experimental": 794,
+          "database": 0,
+          "textmining": 141
+        }
+      },
+      {
+        "rv": "Rv1127c",
+        "gene": "ppdK",
+        "product": "pyruvate, phosphate dikinase PpdK",
+        "hypothetical": false,
+        "combined": 917,
+        "combined_no_tm": 906,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv1024",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 903,
+        "combined_no_tm": 904,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 216,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0211",
+        "gene": "pckA",
+        "product": "phosphoenolpyruvate carboxykinase",
+        "hypothetical": false,
+        "combined": 918,
+        "combined_no_tm": 900,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 222
+        }
+      },
+      {
+        "rv": "Rv1448c",
+        "gene": "tal",
+        "product": "transaldolase",
+        "hypothetical": false,
+        "combined": 977,
+        "combined_no_tm": 893,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 429,
+          "experimental": 142,
+          "database": 800,
+          "textmining": 797
+        }
+      },
+      {
+        "rv": "Rv1389",
+        "gene": "gmk",
+        "product": "guanylate kinase",
+        "hypothetical": false,
+        "combined": 902,
+        "combined_no_tm": 889,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 340,
+          "coexpression": 267,
+          "experimental": 781,
+          "database": 0,
+          "textmining": 160
+        }
+      },
+      {
+        "rv": "Rv0904c",
+        "gene": "accD3",
+        "product": "acetyl-CoAcarboxylase carboxyl transferase subunit beta",
+        "hypothetical": false,
+        "combined": 883,
+        "combined_no_tm": 880,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 157,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 863,
+          "database": 0,
+          "textmining": 76
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1437",
+      "gene": "pgk",
+      "product": "phosphoglycerate kinase",
+      "combined_no_tm": 985,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 114,
+        "fusion": 0,
+        "cooccurence": 685,
+        "coexpression": 858,
+        "experimental": 665,
+        "database": 0,
+        "textmining": 733
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: enolase",
+    "MTBC0 PGAP product: phosphopyruvate hydratase",
+    "Pfam (hmmscan --cut_ga): Enolase_N PF03952.22 (E=1e-56), Enolase_C PF00113.29 (E=9e-125), MR_MLE_C PF13378.13 (E=4e-08)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "GD",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 96.7,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7dlr-assembly1_A",
+        "evalue": 3.486e-84,
+        "prob": 1.0,
+        "tmscore": 0.9974,
+        "description": "7dlr-assembly1_A Mycobacterium tuberculosis enolase mutant - E163A",
+        "significant": true
+      },
+      {
+        "target": "7e4f-assembly1_A",
+        "evalue": 6.168e-84,
+        "prob": 1.0,
+        "tmscore": 0.997,
+        "description": "7e4f-assembly1_A Mycobacterium tuberculosis enolase mutant - E204A complex with phosphoenolpyruvate",
+        "significant": true
+      },
+      {
+        "target": "6l7d-assembly1_A",
+        "evalue": 6.78e-83,
+        "prob": 1.0,
+        "tmscore": 0.9963,
+        "description": "6l7d-assembly1_A Mycobacterium tuberculosis enolase mutant - S42A",
+        "significant": true
+      },
+      {
+        "target": "7e51-assembly1_E",
+        "evalue": 9.899e-79,
+        "prob": 1.0,
+        "tmscore": 0.9952,
+        "description": "7e51-assembly1_E Structure of PEP bound Enolase from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "7ckp-assembly1_A",
+        "evalue": 7.006e-73,
+        "prob": 1.0,
+        "tmscore": 0.9904,
+        "description": "7ckp-assembly1_A Mycobacterium tuberculosis Enolase",
+        "significant": true
+      },
+      {
+        "target": "5j04-assembly1_A",
+        "evalue": 1.804e-62,
+        "prob": 1.0,
+        "tmscore": 0.9797,
+        "description": "5j04-assembly1_A Crystal structure of Enolase from Synechococcus elongatus, complex with phosphoenolpyruvate",
+        "significant": true
+      },
+      {
+        "target": "4z17-assembly1_A",
+        "evalue": 1.491e-61,
+        "prob": 1.0,
+        "tmscore": 0.971,
+        "description": "4z17-assembly1_A Thermostable enolase from Chloroflexus aurantiacus",
+        "significant": true
+      },
+      {
+        "target": "3zlf-assembly3_C",
+        "evalue": 1.735e-60,
+        "prob": 1.0,
+        "tmscore": 0.9741,
+        "description": "3zlf-assembly3_C Structure of group A Streptococcal enolase K312A mutant",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 1486.0,
+    "abundance_rank": 140,
+    "n_ranked": 3519,
+    "abundance_percentile": 96.1,
+    "n_datasets": 16,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 429,
+    "mw_kda": 44.9,
+    "pi": 4.47,
+    "gravy": 0.024,
+    "instability_index": 32.1,
+    "instability_class": "stable",
+    "aromaticity": 0.056,
+    "aliphatic_index": 9652.7,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1051",
+        "identity": 99.5,
+        "evalue": 3.52e-307
+      },
+      "M. leprae": {
+        "locus": "ML0255",
+        "identity": 89.0,
+        "evalue": 2.43e-276
+      },
+      "M. marinum": {
+        "locus": "MMAR_4462",
+        "identity": 90.9,
+        "evalue": 2.39e-280
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5415",
+        "identity": 86.8,
+        "evalue": 1.53e-267
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001082",
+        "identity": 99.5,
+        "evalue": 3.29e-307
+      },
+      "M. abscessus": {
+        "locus": "MAB_1165",
+        "identity": 85.5,
+        "evalue": 6.35e-261
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 8,
+    "structures": [
+      {
+        "pdb_id": "7cll",
+        "method": "X-ray diffraction",
+        "resolution": 1.99,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "7clk",
+        "method": "X-ray diffraction",
+        "resolution": 2.15,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "7dlr",
+        "method": "X-ray diffraction",
+        "resolution": 2.25,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "7e4f",
+        "method": "X-ray diffraction",
+        "resolution": 2.3,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "7ckp",
+        "method": "X-ray diffraction",
+        "resolution": 2.9,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "6l7d",
+        "method": "X-ray diffraction",
+        "resolution": 3.0,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "7e4x",
+        "method": "Electron Microscopy",
+        "resolution": 3.08,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "7e51",
+        "method": "Electron Microscopy",
+        "resolution": 3.23,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "P9WNL1",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1022",
+      "gene": "lpqU",
+      "strand": "+",
+      "gap": 96
+    },
+    "right": {
+      "locus": "Rv1024",
+      "gene": null,
+      "strand": "+",
+      "gap": 4
+    },
+    "operon": [
+      {
+        "locus": "Rv1023",
+        "gene": "eno"
+      },
+      {
+        "locus": "Rv1024",
+        "gene": null
+      },
+      {
+        "locus": "Rv1025",
+        "gene": null
+      },
+      {
+        "locus": "Rv1026",
+        "gene": null
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable enolase Eno",
+    "legacy_function": "Glycolysis [catalytic activity:2-phospho-D-glycerate = phosphoenolpyruvate + H(2)O]",
+    "legacy_ec": [
+      "4.2.1.11"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "4.2.1.11"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "ptm": {
+    "n_sites": 22,
+    "n_phospho": 3,
+    "sites": [
+      {
+        "pos": 45,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 47,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 50,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 72,
+        "type": "Aspartate methyl ester"
+      },
+      {
+        "pos": 73,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 90,
+        "type": "Aspartate methyl ester"
+      },
+      {
+        "pos": 102,
+        "type": "N6-acetyllysine"
+      },
+      {
+        "pos": 123,
+        "type": "Aspartate methyl ester"
+      },
+      {
+        "pos": 126,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 195,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 198,
+        "type": "Phosphoserine"
+      },
+      {
+        "pos": 199,
+        "type": "Phosphothreonine"
+      },
+      {
+        "pos": 203,
+        "type": "Aspartate methyl ester"
+      },
+      {
+        "pos": 204,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 210,
+        "type": "Aspartate methyl ester"
+      },
+      {
+        "pos": 341,
+        "type": "Phosphothreonine"
+      },
+      {
+        "pos": 367,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 369,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 370,
+        "type": "Aspartate methyl ester"
+      },
+      {
+        "pos": 375,
+        "type": "Aspartate methyl ester"
+      },
+      {
+        "pos": 406,
+        "type": "Glutamate methyl ester (Glu)"
+      },
+      {
+        "pos": 407,
+        "type": "Glutamate methyl ester (Glu)"
+      }
+    ],
+    "note": "Experimentally reported post-translational modification(s). A phosphosite indicates the protein is expressed and is a substrate of the M. tuberculosis Ser/Thr/Tyr kinase signalling network — a regulatory context, NOT a molecular function.",
+    "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+    "reference": {
+      "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+      "db": "UniProtKB",
+      "url": "https://www.uniprot.org"
+    }
+  },
+  "vulnerability": {
+    "vi": -10.902,
+    "ci_low": -12.135,
+    "ci_high": -9.668,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 91.4,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 71.8,
+      "length_aa": 429,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 9,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 9,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "9 publication(s) discuss this gene (9 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Exhaled nitric oxide is associated with inflammatory biomarkers and risk of acute respiratory exacerbations in children with HIV-associated chronic lung disease.",
+        "doi": "10.1111/hiv.13565",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37804064/",
+        "date": "2024"
+      },
+      {
+        "title": "Mycobacterium tuberculosis H37Rv enolase (Rv1023)- expression, characterization and effect of host dependent modifications on protein functionality.",
+        "doi": "10.1016/j.biochi.2023.06.012",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37385399/",
+        "date": "2023"
+      },
+      {
+        "title": "Comparative profiling of agr locus, virulence, and biofilm-production genes of human and ovine non-aureus staphylococci.",
+        "doi": "10.1186/s12917-022-03257-w",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35655210/",
+        "date": "2022"
+      },
+      {
+        "title": "Evidence for the Rapid and Divergent Evolution of Mycoplasmas: Structural and Phylogenetic Analysis of Enolases.",
+        "doi": "10.3389/fmolb.2021.811106",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35145997/",
+        "date": "2021"
+      },
+      {
+        "title": "History of tuberculosis is associated with lower exhaled nitric oxide levels in HIV-infected children.",
+        "doi": "10.1097/QAD.0000000000002265",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/31107249/",
+        "date": "2019"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 96.7,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "eno-tetOn2",
+    "gene": "eno",
+    "teton_promoter": "2",
+    "baseline_doublings_median": 1.757,
+    "n_screens": 6,
+    "strain_category": "Excluded - slow growth (less than 1 doubling in a screening wave)",
+    "used_in_pcl": false,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

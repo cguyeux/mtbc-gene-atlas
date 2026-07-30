@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2356c",
+  "gene": "PPE40",
+  "len_aa": 615,
+  "strand": "-",
+  "start_mtbc0": 2637688,
+  "end_mtbc0": 2639535,
+  "product_h37rv": "PPE family protein PPE40",
+  "function_revised": "PPE family protein PPE40",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VVNFSVLPPEINSGRMFFGAGSGPMLAAAAAWDGLAAELGLAAESFGLVTSGLAGGSGQAWQGAAAAAMVVAAAPYAGWLAAAAARAGGAAVQAKAVAGAFEAARAAMVDPVVVAANRSAFVQLVLSNVFGQNAPAIAAAEATYEQMWAADVAAMVGYHGGASAAAAALAPWQQAVPGLSGLLGGAANAPAAAAQGAAQGLAELTLNLGVGNIGSLNLGSGNIGGTNVGSGNVGGTNLGSGNYGSLNWGSGNTGTGNAGSGNTGDYNPGSGNFGSGNFGSGNIGSLNVGSGNFGTLNLANGNNGDVNFGGGNTGDFNFGGGNNGTLNFGFGNTGSGNFGFGNTGNNNIGIGLTGDGQIGIGGLNSGTGNIGFGNSGNNNIGFFNSGDGNIGFFNSGDGNTGFGNAGNINTGFWNAGNLNTGFGSAGNGNVGIFDGGNSNSGSFNVGFQNTGFGNSGAGNTGFFNAGDSNTGFANAGNVNTGFFNGGDINTGGFNGGNVNTGFGSALTQAGANSGFGNLGTGNSGWGNSDPSGTGNSGFFNTGNGNSGFSNAGPAMLPGFNSGFANIGSFNAGIANSGNNLAGISNSGDDSSGAVNSGSQNSGAFNAGVGLSGFFR",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "PPE family protein PPE40",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "PE/PPE",
+    "comments": "Rv2356c, (MTCY98.25), len: 615 aa. PPE40, Member of Mycobacterium tuberculosis PPE_family, highly similar to others e.g. Q10778|MTCY48.17|YF48_MYCTU hypothetical PPE-family protein (678 aa), FASTA scores: opt: 1888, E(): 1.9e-78, (54.4% identity in 667 aa overlap); Q10540|MTCY31.06c, E241779|MTCY98, P42611|MTV037.06c, Q10813|MTCY274.23c, P71657|MTCY02B10.25c, MTCY03C7.23, P71869|MTCY03C7.24c, etc. Predicted to be an outer membrane protein (See Song et al., 2008).",
+    "uniprot_ac": "P9WHZ7",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "PE/PPE",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 615,
+    "mw_kda": 58.4,
+    "pi": 4.05,
+    "gravy": -0.004,
+    "instability_index": 7.4,
+    "instability_class": "stable",
+    "aromaticity": 0.096,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "P9WHZ7",
+    "reviewed": true,
+    "protein_name": "Uncharacterized PPE family protein PPE40",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0052572"
+    ],
+    "kegg": [
+      "mtv:RVBD_2356c"
+    ],
+    "protein_existence": "1: Evidence at protein level",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG5651",
+    "cog_cat": "N",
+    "description": "Pentapeptide repeats (8 copies)",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 28.7,
+    "abundance_rank": 2097,
+    "n_ranked": 3519,
+    "abundance_percentile": 40.4,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 3,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.55,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv2356c",
+    "n_partners": 103,
+    "n_context_driven": 91,
+    "partners": [
+      {
+        "rv": "Rv2082",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 775,
+        "combined_no_tm": 775,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2853",
+        "gene": "PE_PGRS48",
+        "product": "PE-PGRS family protein PE_PGRS48",
+        "hypothetical": false,
+        "combined": 773,
+        "combined_no_tm": 773,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0124",
+        "gene": "PE_PGRS2",
+        "product": "PE-PGRS family protein PE_PGRS2",
+        "hypothetical": false,
+        "combined": 773,
+        "combined_no_tm": 773,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1243c",
+        "gene": "PE_PGRS23",
+        "product": "PE-PGRS family protein PE_PGRS23",
+        "hypothetical": false,
+        "combined": 773,
+        "combined_no_tm": 773,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1452c",
+        "gene": "PE_PGRS28",
+        "product": "PE-PGRS family protein PE_PGRS28",
+        "hypothetical": false,
+        "combined": 773,
+        "combined_no_tm": 773,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1004c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 772,
+        "combined_no_tm": 772,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0872c",
+        "gene": "PE_PGRS15",
+        "product": "PE-PGRS family protein PE_PGRS15",
+        "hypothetical": false,
+        "combined": 772,
+        "combined_no_tm": 772,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1651c",
+        "gene": "PE_PGRS30",
+        "product": "PE-PGRS family protein PE_PGRS30",
+        "hypothetical": false,
+        "combined": 771,
+        "combined_no_tm": 771,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 771,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2490c",
+        "gene": "PE_PGRS43",
+        "product": "PE-PGRS family protein PE_PGRS43",
+        "hypothetical": false,
+        "combined": 769,
+        "combined_no_tm": 769,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 769,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2209",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 769,
+        "combined_no_tm": 769,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 768,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3864",
+        "gene": "espE",
+        "product": "ESX-1 secretion-associated protein EspE",
+        "hypothetical": false,
+        "combined": 763,
+        "combined_no_tm": 764,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 761,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0977",
+        "gene": "PE_PGRS16",
+        "product": "PE-PGRS family protein PE_PGRS16",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 760,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 760,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0341",
+        "gene": "iniB",
+        "product": "isoniazid inducible protein IniB",
+        "hypothetical": false,
+        "combined": 757,
+        "combined_no_tm": 757,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 755,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3903c",
+        "gene": "cpnT",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 755,
+        "combined_no_tm": 756,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 725,
+          "coexpression": 44,
+          "experimental": 141,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2954c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 750,
+        "combined_no_tm": 751,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 743,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2853",
+      "gene": "PE_PGRS48",
+      "product": "PE-PGRS family protein PE_PGRS48",
+      "combined_no_tm": 773,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 0,
+        "fusion": 0,
+        "cooccurence": 773,
+        "coexpression": 0,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 91.9,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "5xfs-assembly1_B",
+        "evalue": 5.067e-09,
+        "prob": 1.0,
+        "tmscore": 0.9094,
+        "description": "5xfs-assembly1_B Crystal structure of PE8-PPE15 in complex with EspG5 from M. tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "4w4l-assembly1_B",
+        "evalue": 8.279e-07,
+        "prob": 1.0,
+        "tmscore": 0.8397,
+        "description": "4w4l-assembly1_B Crystal structure of EspG5 in complex with PE25 and PPE41 from the ESX-5 type VII secretion system of M. tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "6vj5-assembly1_B",
+        "evalue": 4.873e-06,
+        "prob": 1.0,
+        "tmscore": 0.8377,
+        "description": "6vj5-assembly1_B Structure of PE25-PPE41(A124L) in complex with EspG5 chaperone from the type VII (ESX-5) secretion system",
+        "significant": true
+      },
+      {
+        "target": "6uuj-assembly3_H",
+        "evalue": 2.739e-06,
+        "prob": 1.0,
+        "tmscore": 0.8163,
+        "description": "6uuj-assembly3_H Structure of PE5-PPE4-EspG3 complex from the type VII (ESX-3) secretion system, space group P212121",
+        "significant": true
+      },
+      {
+        "target": "6uuj-assembly2_E",
+        "evalue": 3.418e-06,
+        "prob": 1.0,
+        "tmscore": 0.819,
+        "description": "6uuj-assembly2_E Structure of PE5-PPE4-EspG3 complex from the type VII (ESX-3) secretion system, space group P212121",
+        "significant": true
+      },
+      {
+        "target": "8ako-assembly1_A",
+        "evalue": 0.03931,
+        "prob": 1.0,
+        "tmscore": 0.7311,
+        "description": "8ako-assembly1_A Structure of EspB-EspK complex: the non-identical twin of the PE-PPE-EspG secretion mechanism.",
+        "significant": false
+      },
+      {
+        "target": "6xzc-assembly1_A",
+        "evalue": 0.04693,
+        "prob": 1.0,
+        "tmscore": 0.7165,
+        "description": "6xzc-assembly1_A CryoEM structure of the ring-shaped virulence factor EspB from Mycobacterium tuberculosis",
+        "significant": false
+      },
+      {
+        "target": "7p13-assembly1_A",
+        "evalue": 0.0669,
+        "prob": 1.0,
+        "tmscore": 0.739,
+        "description": "7p13-assembly1_A 2.29 A Mycobacterium tuberculosis EspB.",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF01469",
+      "pfam_name": "Pentapeptide_2",
+      "description": "Pentapeptide_2",
+      "n_matches": "6"
+    },
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF00823",
+      "pfam_name": "PPE",
+      "description": "PPE",
+      "n_matches": "1"
+    }
+  ]
+}

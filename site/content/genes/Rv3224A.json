@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3224A",
+  "gene": "Rv3224A",
+  "len_aa": 62,
+  "strand": "+",
+  "start_mtbc0": 3600635,
+  "end_mtbc0": 3600823,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VRRSASTCGWKTPTRRGTSRPSDSKTLILELPDERAVAIVPVPSKLSLKAAGGPRGAQSGHG",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv3224A, len: 62 aa. Conserved hypothetical protein (possibly gene fragment), overlaps Rv3224. Similar to N-terminus of ML0799|AL583919_131 conserved hypothetical protein from Mycobacterium leprae (135 aa), FASTA scores: opt: 104, E(): 0.78, (59.37% identity in 32 aa overlap). Note that upstream ORF Rv3224B is similar to C-terminus of ML0799. There appears to be no frameshift as sequence is identical in strain CDC1551 and in Mycobacterium bovis. Predicted to be an outer membrane protein (See Song et al., 2008).",
+    "uniprot_ac": "Q6MWZ5",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 62,
+    "mw_kda": 6.5,
+    "pi": 11.31,
+    "gravy": -0.531,
+    "instability_index": 63.8,
+    "instability_class": "unstable",
+    "aromaticity": 0.016,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "Q6MWZ5",
+    "reviewed": false,
+    "protein_name": "Uncharacterized protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_3224A"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG2606",
+    "cog_cat": "S",
+    "description": "Belongs to the prolyl-tRNA editing family. YbaK EbsC subfamily",
+    "preferred_name": "ybaK",
+    "ec": [],
+    "kegg_ko": [
+      "ko:K03976"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "Belongs to the prolyl-tRNA editing family. YbaK EbsC subfamily",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 16.8,
+    "abundance_rank": 2434,
+    "n_ranked": 3519,
+    "abundance_percentile": 30.9,
+    "n_datasets": 1,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 2,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.386,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv3224A",
+    "n_partners": 5,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv3224",
+        "gene": "",
+        "product": "iron-regulated short-chain dehydrogenase/reductase",
+        "hypothetical": false,
+        "combined": 849,
+        "combined_no_tm": 849,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 339,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3224B",
+        "gene": "",
+        "product": "Rv3224B, len: 72 aa. Conserved hypothetical protein (possibly gene fragment), similar to C-terminal part of ML0799|AL583919_131 conserved hy",
+        "hypothetical": false,
+        "combined": 808,
+        "combined_no_tm": 808,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 159,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3221A",
+        "gene": "rshA",
+        "product": "anti-sigma factor RshA",
+        "hypothetical": false,
+        "combined": 420,
+        "combined_no_tm": 420,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 412,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3222c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 418,
+        "combined_no_tm": 418,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 412,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3223c",
+        "gene": "sigH",
+        "product": "ECF RNA polymerase sigma factor SigH",
+        "hypothetical": false,
+        "combined": 415,
+        "combined_no_tm": 415,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 412,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3224",
+      "gene": "",
+      "product": "iron-regulated short-chain dehydrogenase/reductase",
+      "combined_no_tm": 849,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 781,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 339,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 69.4,
+    "band": "low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1b35-assembly1_B",
+        "evalue": 8.886,
+        "prob": 0.063,
+        "tmscore": 0.4572,
+        "description": "1b35-assembly1_B CRICKET PARALYSIS VIRUS (CRPV)",
+        "significant": false
+      },
+      {
+        "target": "7ezx-assembly1_ME",
+        "evalue": 6.808,
+        "prob": 0.045,
+        "tmscore": 0.2673,
+        "description": "7ezx-assembly1_ME Structure of the phycobilisome from the red alga Porphyridium purpureum in Middle Light",
+        "significant": false
+      },
+      {
+        "target": "5hyn-assembly2_F",
+        "evalue": 8.314,
+        "prob": 0.024,
+        "tmscore": 0.2675,
+        "description": "5hyn-assembly2_F Structure of Human Polycomb Repressive Complex 2 (PRC2) with oncogenic histone H3K27M peptide",
+        "significant": false
+      }
+    ],
+    "plddt_gated": false
+  }
+}

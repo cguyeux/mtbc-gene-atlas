@@ -1,0 +1,27 @@
+# Self-contained image for Scaleway Serverless Containers (or any container host).
+# The SQLite catalogue is built INTO the image at build time, so the container
+# needs no external database. Read-mostly atlas; feedback is ephemeral.
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY pyproject.toml /app/
+RUN pip install --no-cache-dir -e .
+
+COPY backend /app/backend
+COPY frontend /app/frontend
+COPY content /app/content
+COPY deploy/entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
+
+# Bake the catalogue (gene_xref.tsv + content/genes/*.json) into a SQLite file.
+RUN ANNOT_DATABASE_URL="sqlite:////app/data/db.sqlite" python -m backend.ingest
+
+# Runtime: serve from a writable copy in /tmp; do not re-ingest.
+ENV PYTHONUNBUFFERED=1 \
+    ANNOT_DATABASE_URL="sqlite:////tmp/app.sqlite" \
+    ANNOT_AUTO_INGEST=false \
+    PORT=8080
+
+EXPOSE 8080
+ENTRYPOINT ["/app/entrypoint.sh"]

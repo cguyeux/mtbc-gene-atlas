@@ -1,0 +1,845 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1198",
+  "mtbc0": "mtbc0_001286",
+  "np_id": "NP_215714.1",
+  "gene": "esxL",
+  "len_aa": 94,
+  "strand": "+",
+  "start_mtbc0": 1349448,
+  "end_mtbc0": 1349732,
+  "product_h37rv": "ESAT-6 like protein EsxL",
+  "product_mtbc0_pgap": "type VII secretion system ESX-5 protein EsxL",
+  "function_revised": "Type VII secretion system ESX-5 protein EsxL. Pfam: WXG100 (PF06013.19).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTINYQFGDVDDHGAMIRAQAGLLEAEHQAIIRDVLTASDFWGGAGSAACQGFITQLGRNFQVIYEQANAHGQKVQAAGNNMAQTDSAVGSSWA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "WXG100",
+      "pfam_acc": "PF06013.19",
+      "i_evalue": 2.6e-14,
+      "ali_from": 3,
+      "ali_to": 87,
+      "description": "Proteins of 100 residues with WXG"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "2BPBT",
+    "cog_cat": "S",
+    "description": "Belongs to the WXG100 family",
+    "preferred_name": "esxL",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005576",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0016020",
+      "GO:0030312",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "WXG100"
+    ],
+    "seed_ortholog": "419947.MRA_1207",
+    "evalue": "1.1e-60"
+  },
+  "uniprot": {
+    "acc": "P9WNJ5",
+    "reviewed": true,
+    "protein_name": "ESAT-6-like protein EsxL",
+    "ec": [],
+    "function": "Induces apoptosis of host cells. Is immunogenic with highly specific seroreactivity towards TB patients' serum",
+    "go": [
+      "GO:0005576",
+      "GO:0005886",
+      "GO:0009274"
+    ],
+    "kegg": [
+      "mtu:Rv1198",
+      "mtv:RVBD_1198"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 17,
+    "syn": 9,
+    "missense": 7,
+    "nonsense": 1,
+    "frameshift": 1,
+    "pN_pS": 0.247,
+    "selection": "purifying",
+    "disrupt_sites": 2,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 1135,
+    "disrupt_frac": 0.0078,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1198",
+    "n_partners": 23,
+    "n_context_driven": 2,
+    "partners": [
+      {
+        "rv": "Rv1197",
+        "gene": "esxK",
+        "product": "ESAT-6 like protein EsxK",
+        "hypothetical": false,
+        "combined": 993,
+        "combined_no_tm": 945,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 626,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 878
+        }
+      },
+      {
+        "rv": "Rv1196",
+        "gene": "PPE18",
+        "product": "PPE family protein PPE18",
+        "hypothetical": false,
+        "combined": 941,
+        "combined_no_tm": 878,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 419,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 799,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 535
+        }
+      },
+      {
+        "rv": "Rv1038c",
+        "gene": "esxJ",
+        "product": "ESAT-6 like protein EsxJ",
+        "hypothetical": false,
+        "combined": 954,
+        "combined_no_tm": 865,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 679
+        }
+      },
+      {
+        "rv": "Rv2347c",
+        "gene": "esxP",
+        "product": "ESAT-6 like protein EsxP",
+        "hypothetical": false,
+        "combined": 920,
+        "combined_no_tm": 865,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 438
+        }
+      },
+      {
+        "rv": "Rv3620c",
+        "gene": "esxW",
+        "product": "ESAT-6 like protein EsxW",
+        "hypothetical": false,
+        "combined": 894,
+        "combined_no_tm": 865,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 255
+        }
+      },
+      {
+        "rv": "Rv1793",
+        "gene": "esxN",
+        "product": "ESAT-6 like protein EsxN",
+        "hypothetical": false,
+        "combined": 911,
+        "combined_no_tm": 860,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 393
+        }
+      },
+      {
+        "rv": "Rv2346c",
+        "gene": "esxO",
+        "product": "ESAT-6 like protein EsxO",
+        "hypothetical": false,
+        "combined": 911,
+        "combined_no_tm": 860,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 394
+        }
+      },
+      {
+        "rv": "Rv3619c",
+        "gene": "esxV",
+        "product": "ESAT-6 like protein EsxV",
+        "hypothetical": false,
+        "combined": 860,
+        "combined_no_tm": 860,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 45
+        }
+      },
+      {
+        "rv": "Rv3874",
+        "gene": "esxB",
+        "product": "ESAT-6-like protein EsxB",
+        "hypothetical": false,
+        "combined": 901,
+        "combined_no_tm": 803,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 803,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 521
+        }
+      },
+      {
+        "rv": "Rv1037c",
+        "gene": "esxI",
+        "product": "ESAT-6 like protein EsxI",
+        "hypothetical": false,
+        "combined": 804,
+        "combined_no_tm": 803,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 803,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 48
+        }
+      },
+      {
+        "rv": "Rv3648c",
+        "gene": "cspA",
+        "product": "cold shock protein A",
+        "hypothetical": false,
+        "combined": 802,
+        "combined_no_tm": 803,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 53,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 800,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3875",
+        "gene": "esxA",
+        "product": "ESAT-6 protein EsxA",
+        "hypothetical": false,
+        "combined": 927,
+        "combined_no_tm": 799,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 799,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 652
+        }
+      },
+      {
+        "rv": "Rv0287",
+        "gene": "esxG",
+        "product": "ESAT-6 like protein EsxG",
+        "hypothetical": false,
+        "combined": 545,
+        "combined_no_tm": 427,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 99,
+          "experimental": 390,
+          "database": 0,
+          "textmining": 239
+        }
+      },
+      {
+        "rv": "Rv3020c",
+        "gene": "esxS",
+        "product": "ESAT-6 like protein EsxS",
+        "hypothetical": false,
+        "combined": 546,
+        "combined_no_tm": 394,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 390,
+          "database": 0,
+          "textmining": 283
+        }
+      },
+      {
+        "rv": "Rv3894c",
+        "gene": "eccC2",
+        "product": "ESX-2 type VII secretion system protein EccC",
+        "hypothetical": false,
+        "combined": 488,
+        "combined_no_tm": 353,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 58,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 337,
+          "database": 0,
+          "textmining": 242
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1197",
+      "gene": "esxK",
+      "product": "ESAT-6 like protein EsxK",
+      "combined_no_tm": 945,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 626,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 860,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 878
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: ESAT-6 like protein EsxL",
+    "MTBC0 PGAP product: type VII secretion system ESX-5 protein EsxL",
+    "Pfam (hmmscan --cut_ga): WXG100 PF06013.19 (E=3e-14)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "GA",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 94.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3fav-assembly2_D",
+        "evalue": 0.05159,
+        "prob": 1.0,
+        "tmscore": 0.829,
+        "description": "3fav-assembly2_D Structure of the CFP10-ESAT6 complex from Mycobacterium tuberculosis",
+        "significant": false
+      },
+      {
+        "target": "1wa8-assembly1_B",
+        "evalue": 0.043,
+        "prob": 1.0,
+        "tmscore": 0.7143,
+        "description": "1wa8-assembly1_B Solution Structure of the CFP-10.ESAT-6 Complex. Major Virulence Determinants of Pathogenic Mycobacteria",
+        "significant": false
+      },
+      {
+        "target": "3fav-assembly1_B",
+        "evalue": 0.1538,
+        "prob": 1.0,
+        "tmscore": 0.852,
+        "description": "3fav-assembly1_B Structure of the CFP10-ESAT6 complex from Mycobacterium tuberculosis",
+        "significant": false
+      },
+      {
+        "target": "4j10-assembly1_A",
+        "evalue": 0.1068,
+        "prob": 0.999,
+        "tmscore": 0.7076,
+        "description": "4j10-assembly1_A The crystal structure of a secreted protein ESXB (SeMet-labeled) from Bacillus anthracis str. Sterne",
+        "significant": false
+      },
+      {
+        "target": "4j7k-assembly1_A",
+        "evalue": 0.1068,
+        "prob": 0.999,
+        "tmscore": 0.7055,
+        "description": "4j7k-assembly1_A The crystal structure of a secreted protein EsxB (Mutant E54Q) from Bacillus anthracis str. Sterne",
+        "significant": false
+      },
+      {
+        "target": "4j7k-assembly2_C",
+        "evalue": 0.1634,
+        "prob": 0.996,
+        "tmscore": 0.6937,
+        "description": "4j7k-assembly2_C The crystal structure of a secreted protein EsxB (Mutant E54Q) from Bacillus anthracis str. Sterne",
+        "significant": false
+      },
+      {
+        "target": "3zbh-assembly2_G",
+        "evalue": 0.07424,
+        "prob": 0.996,
+        "tmscore": 0.6074,
+        "description": "3zbh-assembly2_G Geobacillus thermodenitrificans EsxA crystal form I",
+        "significant": false
+      },
+      {
+        "target": "3gwk-assembly1_C",
+        "evalue": 0.1634,
+        "prob": 0.996,
+        "tmscore": 0.6898,
+        "description": "3gwk-assembly1_C Structure of the homodimeric WXG-100 family protein from Streptococcus agalactiae",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 696.0,
+    "abundance_rank": 317,
+    "n_ranked": 3519,
+    "abundance_percentile": 91.0,
+    "n_datasets": 14,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 94,
+    "mw_kda": 10.0,
+    "pi": 4.72,
+    "gravy": -0.162,
+    "instability_index": 5.2,
+    "instability_class": "stable",
+    "aromaticity": 0.085,
+    "aliphatic_index": 7393.6,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1230",
+        "identity": 98.9,
+        "evalue": 1.71e-64
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001264",
+        "identity": 98.9,
+        "evalue": 1.6e-64
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1197",
+      "gene": "esxK",
+      "strand": "+",
+      "gap": 50
+    },
+    "right": {
+      "locus": "Rv1199c",
+      "gene": null,
+      "strand": "-",
+      "gap": 67
+    },
+    "operon": [
+      {
+        "locus": "Rv1197",
+        "gene": "esxK"
+      },
+      {
+        "locus": "Rv1198",
+        "gene": "esxL"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Putative ESAT-6 like protein EsxL (ESAT-6 like protein 4)",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "MprA",
+        "function": "Transcription factor that regulates multiple stress responsive genes",
+        "category": "Virulence/Persistence",
+        "regulator": "mprA"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.354,
+    "ci_low": -8.35,
+    "ci_high": 9.038,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 1,
+      "n_nonsyn": 0,
+      "n_disruptive": 0,
+      "dN_dS": 0.0,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 49,
+      "n_total": 53,
+      "frac": 0.925,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 86.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_genavense",
+        "M_gordonae",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 49/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 94,
+      "short_gene_caveat": true,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 13,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 12,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "13 publication(s) discuss this gene (12 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Early secreted antigenic target of 6 kda-like proteins of mycobacterium tuberculosis: Diagnostic and vaccine relevance.",
+        "doi": "10.4103/ijmy.ijmy_232_20",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35295018/",
+        "date": "2022"
+      },
+      {
+        "title": "Immunological characterization of chimeras of high specificity antigens from Mycobacterium tuberculosis H37Rv.",
+        "doi": "10.1016/j.tube.2021.102054",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33550109/",
+        "date": "2021"
+      },
+      {
+        "title": "Mycobacterium tuberculosis EsxL induces TNF-α secretion through activation of TLR2 dependent MAPK and NF-κB pathways.",
+        "doi": "10.1016/j.molimm.2020.11.020",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33419561/",
+        "date": "2021"
+      },
+      {
+        "title": "Rescuing ESAT-6 Specific CD4 T Cells From Terminal Differentiation Is Critical for Long-Term Control of Murine Mtb Infection.",
+        "doi": "10.3389/fimmu.2020.585359",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33240275/",
+        "date": "2020"
+      },
+      {
+        "title": "Withdrawal: Mycobacterium tuberculosis EsxL inhibits MHC-II expression by promoting hypermethylation in class-II transactivator loci in macrophages.",
+        "doi": "10.1074/jbc.W119.007461",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30710007/",
+        "date": "2019"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.17,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 16,
+    "total_idr_residues": 16,
+    "idr_regions": [
+      [
+        78,
+        94
+      ]
+    ],
+    "mean_plddt": 94.6,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (16/94 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

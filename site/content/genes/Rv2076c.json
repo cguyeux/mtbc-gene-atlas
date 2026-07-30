@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2076c",
+  "mtbc0": "-",
+  "np_id": "NP_216592.1",
+  "gene": "",
+  "len_aa": 83,
+  "strand": "-",
+  "start_mtbc0": 2333037,
+  "end_mtbc0": 2333288,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "",
+  "function_revised": "Polytopic integral membrane protein with 3 predicted transmembrane helices (DeepTMHMM). RefSeq leaves it 'hypothetical protein'. A topological feature consistent with a membrane transporter/permease or membrane-embedded enzyme; the transported substrate and molecular function are undetermined.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MVVCLIGGVAGSLWPRPAGRLRGGCYFAFMGVAWVLLAISAIANAVKGSLWWDIWSLGLLVLIPAVVYGKMRRSRRISSDQDR",
+  "domains": [],
+  "struct_hits": [
+    {
+      "target": "8e0m-assembly3_I",
+      "evalue": 6.311,
+      "prob": 0.126,
+      "tmscore": 0.5884,
+      "description": "8e0m-assembly3_I Homotrimeric variant of tcTRP9, BGL15",
+      "significant": false
+    },
+    {
+      "target": "8e0m-assembly4_J",
+      "evalue": 6.731,
+      "prob": 0.126,
+      "tmscore": 0.5982,
+      "description": "8e0m-assembly4_J Homotrimeric variant of tcTRP9, BGL15",
+      "significant": false
+    },
+    {
+      "target": "7tj9-assembly1_A",
+      "evalue": 7.18,
+      "prob": 0.126,
+      "tmscore": 0.6029,
+      "description": "7tj9-assembly1_A Cryo-EM structure of the human Nax channel in complex with beta3 solved in GDN",
+      "significant": false
+    },
+    {
+      "target": "8f0r-assembly1_A",
+      "evalue": 7.18,
+      "prob": 0.126,
+      "tmscore": 0.5957,
+      "description": "8f0r-assembly1_A Structure of VSD4-NaV1.7-NaVPas channel chimera bound to the arylsulfonamide inhibitor GNE-3565",
+      "significant": false
+    },
+    {
+      "target": "8f0p-assembly1_A",
+      "evalue": 5.2,
+      "prob": 0.126,
+      "tmscore": 0.5476,
+      "description": "8f0p-assembly1_A Structure of VSD4-NaV1.7-NaVPas channel chimera bound to the hybrid inhibitor GNE-1305",
+      "significant": false
+    },
+    {
+      "target": "6xr2-assembly1_C",
+      "evalue": 8.712,
+      "prob": 0.098,
+      "tmscore": 0.5782,
+      "description": "6xr2-assembly1_C Computationally designed right-handed alpha/alpha homotrimeric toroid with 3 repeats per subunit",
+      "significant": false
+    },
+    {
+      "target": "8f0s-assembly1_A",
+      "evalue": 7.18,
+      "prob": 0.098,
+      "tmscore": 0.5395,
+      "description": "8f0s-assembly1_A Structure of VSD4-NaV1.7-NaVPas channel chimera bound to the hybrid inhibitor GNE-9296",
+      "significant": false
+    },
+    {
+      "target": "8e0m-assembly1_B",
+      "evalue": 9.912,
+      "prob": 0.09,
+      "tmscore": 0.6171,
+      "description": "8e0m-assembly1_B Homotrimeric variant of tcTRP9, BGL15",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "2B3FH",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [],
+    "seed_ortholog": "419947.MRA_2090",
+    "evalue": "2.2e-55"
+  },
+  "uniprot": {
+    "acc": "P9WLL3",
+    "reviewed": true,
+    "protein_name": "Uncharacterized protein Rv2076c",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0005886"
+    ],
+    "kegg": [
+      "mtu:Rv2076c",
+      "mtv:RVBD_2076c"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 1,
+    "syn": 0,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 50.9,
+    "n_residues": 83,
+    "band": "low"
+  },
+  "string": {
+    "string_id": "83332.Rv2076c",
+    "n_partners": 3,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv2077c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 767,
+        "combined_no_tm": 767,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 756,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 85,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2077A",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 676,
+        "combined_no_tm": 677,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 675,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2075c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 478,
+        "combined_no_tm": 478,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 475,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2077c",
+      "gene": "",
+      "product": "transmembrane protein",
+      "combined_no_tm": 767,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 756,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 85,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "DeepTMHMM: 3 transmembrane helices (type TM)",
+    "Integral membrane topology (localisation feature, not a function)",
+    "DeepTMHMM topology prediction (project 'Still unknown gene function', phase8, 2026-06-10). A topological feature, not a demonstrated molecular function."
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 58.8,
+    "band": "low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "9esi-assembly1_U",
+        "evalue": 3.225,
+        "prob": 0.069,
+        "tmscore": 0.4112,
+        "description": "9esi-assembly1_U Structure of a B-state intermediate committed to discard (Bd-II state)",
+        "significant": false
+      },
+      {
+        "target": "3jb9-assembly1_V",
+        "evalue": 6.226,
+        "prob": 0.04,
+        "tmscore": 0.3973,
+        "description": "3jb9-assembly1_V Cryo-EM structure of the yeast spliceosome at 3.6 angstrom resolution",
+        "significant": false
+      },
+      {
+        "target": "9esi-assembly1_S",
+        "evalue": 8.65,
+        "prob": 0.029,
+        "tmscore": 0.411,
+        "description": "9esi-assembly1_S Structure of a B-state intermediate committed to discard (Bd-II state)",
+        "significant": false
+      },
+      {
+        "target": "7zd6-assembly1_q",
+        "evalue": 6.759,
+        "prob": 0.024,
+        "tmscore": 0.3402,
+        "description": "7zd6-assembly1_q Complex I from Ovis aries, at pH7.4, Open state",
+        "significant": false
+      },
+      {
+        "target": "8rgq-assembly1_Z",
+        "evalue": 9.392,
+        "prob": 0.02,
+        "tmscore": 0.3208,
+        "description": "8rgq-assembly1_Z Open Complex I from murine liver",
+        "significant": false
+      }
+    ],
+    "plddt_gated": false
+  },
+  "pfam_tentative": {
+    "pfam_name": "Phage_holin_3_6",
+    "pfam_acc": "PF07332.17",
+    "i_evalue": 0.043,
+    "ali_from": 20,
+    "ali_to": 74,
+    "description": "Putative Actinobacterial Holin-X, holin superfamily III",
+    "note": "tentative: below Pfam gathering threshold (--cut_ga); low-confidence lead"
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 3,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (3 TM helixes)"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 83,
+    "mw_kda": 9.1,
+    "pi": 10.85,
+    "gravy": 0.633,
+    "instability_index": 50.7,
+    "instability_class": "unstable",
+    "aromaticity": 0.108,
+    "aliphatic_index": 11747.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2101c",
+        "identity": 98.8,
+        "evalue": 1.4e-58
+      },
+      "M. marinum": {
+        "locus": "MMAR_5576",
+        "identity": 58.1,
+        "evalue": 3.59e-22
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2075c",
+      "gene": null,
+      "strand": "-",
+      "gap": 157
+    },
+    "right": {
+      "locus": "Rv2077c",
+      "gene": null,
+      "strand": "-",
+      "gap": 34
+    },
+    "operon": [
+      {
+        "locus": "Rv2076c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2077c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2077A",
+        "gene": null
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.442,
+    "ci_low": -0.619,
+    "ci_high": 2.073,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 4,
+      "n_total": 53,
+      "frac": 0.075,
+      "in_mtbap": 0,
+      "in_mkc": 0,
+      "mean_pident": 58.2,
+      "classification": "MTBC-near-specific",
+      "species_present": [
+        "M_liflandii",
+        "M_marinum",
+        "M_pseudoshottsii",
+        "M_ulcerans"
+      ],
+      "interpretation": "absent from the closest MTBAP relatives and nearly all NTM (4/53) — a strong MTBC-restricted candidate (possible host-adaptation innovation, confirm by synteny)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 83,
+      "short_gene_caveat": true,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication in PubMed mentions this gene in its title or abstract — not under its H37Rv locus tag, nor under any of its ortholog identifiers (M. bovis, M. marinum, M. smegmatis, M. leprae, M. abscessus). The atlas annotation rests on sequence/structure evidence, not on a primary study of this gene.",
+    "papers": [],
+    "by_alias": {},
+    "caveat": "A verified absence of literature is itself information: it flags an annotation with no primary study behind it.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.361,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 18,
+    "total_idr_residues": 18,
+    "idr_regions": [
+      [
+        0,
+        18
+      ]
+    ],
+    "mean_plddt": 58.8,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (18/83 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

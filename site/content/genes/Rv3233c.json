@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3233c",
+  "gene": "Rv3233c",
+  "len_aa": 196,
+  "strand": "-",
+  "start_mtbc0": 3609781,
+  "end_mtbc0": 3610371,
+  "product_h37rv": "Possible triacylglycerol synthase (diacylglycerol acyltransferase)",
+  "function_revised": "May be involved in synthesis of triacylglycerol",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VIAGALGNWLMSRGEAVAPTATVRAMAPLSVYADDQLDSTGPGQAISQVTPFLVDLPVGEGNAVVRLSQIAHATESNPTAASLVDARTIVTLSGLAPATLHAMGVRVATSFSARLFNLLITNAPGTQSQMYIAGTKLLETYSVPPLLHNQALAISVTSYNGMLYFGINADRDAMSDVDLLPGLLSQALDELLEASR",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Possible triacylglycerol synthase (diacylglycerol acyltransferase)",
+    "legacy_function": "May be involved in synthesis of triacylglycerol",
+    "legacy_ec": null,
+    "functional_category": "lipid metabolism",
+    "comments": "Rv3233c, (MTCY20B11.08c), len: 196 aa. Possible triacylglycerol synthase (See Daniel et al., 2004), similar to C-terminus of Q9RIU8|SCM11.13c hypothetical 47.1 KDA protein from Streptomyces coelicolor (446 aa), FASTA scores: opt: 308, E(): 1.2e-12, (32.0% identity in 200 aa overlap); and several hypothetical M. tuberculosis proteins e.g. O06343|YY80_MYCTU|Rv3480c|MTCY13E12.33c (497 aa), FASTA scores: opt: 248, E(): 9.8e-09, (27.5% identity in 200 aa overlap); MTCY28_26; MTCY493_29; MTCY31_25; MTCY31_25.",
+    "uniprot_ac": "O05878",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "lipid metabolism",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 196,
+    "mw_kda": 20.4,
+    "pi": 4.69,
+    "gravy": 0.319,
+    "instability_index": 26.6,
+    "instability_class": "stable",
+    "aromaticity": 0.051,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O05878",
+    "reviewed": false,
+    "protein_name": "Possible triacylglycerol synthase (Diacylglycerol acyltransferase)",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0005886",
+      "GO:0008374",
+      "GO:0051701",
+      "GO:0001666",
+      "GO:0071731",
+      "GO:0019432"
+    ],
+    "kegg": [
+      "mtv:RVBD_3233c"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG1020",
+    "cog_cat": "Q",
+    "description": "Protein of unknown function (DUF1298)",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "GA",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 24.2,
+    "abundance_rank": 2206,
+    "n_ranked": 3519,
+    "abundance_percentile": 37.3,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0047c",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv2034",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 0,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv3233c",
+    "n_partners": 51,
+    "n_context_driven": 19,
+    "partners": [
+      {
+        "rv": "Rv3234c",
+        "gene": "tgs3",
+        "product": "diacyglycerol O-acyltransferase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 995,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 900,
+          "cooccurence": 774,
+          "coexpression": 144,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv3371",
+        "gene": "",
+        "product": "diacyglycerol O-acyltransferase",
+        "hypothetical": false,
+        "combined": 839,
+        "combined_no_tm": 772,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 324
+        }
+      },
+      {
+        "rv": "Rv0221",
+        "gene": "",
+        "product": "diacyglycerol O-acyltransferase",
+        "hypothetical": false,
+        "combined": 887,
+        "combined_no_tm": 771,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 768,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 530
+        }
+      },
+      {
+        "rv": "Rv3087",
+        "gene": "",
+        "product": "diacyglycerol O-acyltransferase",
+        "hypothetical": false,
+        "combined": 828,
+        "combined_no_tm": 769,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 768,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 289
+        }
+      },
+      {
+        "rv": "Rv3088",
+        "gene": "tgs4",
+        "product": "diacyglycerol O-acyltransferase",
+        "hypothetical": false,
+        "combined": 857,
+        "combined_no_tm": 760,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 760,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 431
+        }
+      },
+      {
+        "rv": "Rv2285",
+        "gene": "",
+        "product": "diacylglycerol acyltransferase",
+        "hypothetical": false,
+        "combined": 950,
+        "combined_no_tm": 757,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 757,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 803
+        }
+      },
+      {
+        "rv": "Rv3231c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 908,
+        "combined_no_tm": 744,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 740,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 658
+        }
+      },
+      {
+        "rv": "Rv3232c",
+        "gene": "ppk2",
+        "product": "polyphosphate kinase",
+        "hypothetical": false,
+        "combined": 856,
+        "combined_no_tm": 735,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 721,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 90,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 480
+        }
+      },
+      {
+        "rv": "Rv2484c",
+        "gene": "",
+        "product": "diacyglycerol O-acyltransferase",
+        "hypothetical": false,
+        "combined": 929,
+        "combined_no_tm": 701,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 699,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 774
+        }
+      },
+      {
+        "rv": "Rv0501",
+        "gene": "galE2",
+        "product": "UDP-glucose 4-epimerase GalE",
+        "hypothetical": false,
+        "combined": 617,
+        "combined_no_tm": 617,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 602,
+          "coexpression": 56,
+          "experimental": 63,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0502",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 605,
+        "combined_no_tm": 605,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 546,
+          "coexpression": 69,
+          "experimental": 141,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3235",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 597,
+        "combined_no_tm": 598,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 594,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3230c",
+        "gene": "",
+        "product": "stearoyl-CoA 9-desaturase electron transfer protein",
+        "hypothetical": false,
+        "combined": 777,
+        "combined_no_tm": 539,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 537,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 535
+        }
+      },
+      {
+        "rv": "Rv3229c",
+        "gene": "desA3",
+        "product": "stearoyl-CoA 9-desaturase",
+        "hypothetical": false,
+        "combined": 522,
+        "combined_no_tm": 512,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 435,
+          "fusion": 0,
+          "cooccurence": 167,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 62
+        }
+      },
+      {
+        "rv": "Rv3492c",
+        "gene": "",
+        "product": "Mce associated protein",
+        "hypothetical": false,
+        "combined": 512,
+        "combined_no_tm": 512,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 47,
+          "fusion": 0,
+          "cooccurence": 256,
+          "coexpression": 68,
+          "experimental": 160,
+          "database": 256,
+          "textmining": 42
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3234c",
+      "gene": "tgs3",
+      "product": "diacyglycerol O-acyltransferase",
+      "combined_no_tm": 995,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 773,
+        "fusion": 900,
+        "cooccurence": 774,
+        "coexpression": 144,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 870
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 87.0,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7nxg-assembly1_A-2",
+        "evalue": 7.815e-09,
+        "prob": 1.0,
+        "tmscore": 0.6594,
+        "description": "7nxg-assembly1_A-2 Wax synthase 1 from Acinetobacter baylyi (AbWSD1) co-crystallized with myristic acid",
+        "significant": true
+      },
+      {
+        "target": "6chj-assembly1_A",
+        "evalue": 2.451e-08,
+        "prob": 1.0,
+        "tmscore": 0.6421,
+        "description": "6chj-assembly1_A Wax ester synthase/diacylglycerol acyltransferase from Marinobacter aquaeolei VT8",
+        "significant": true
+      },
+      {
+        "target": "6chj-assembly1_B",
+        "evalue": 3.587e-08,
+        "prob": 1.0,
+        "tmscore": 0.6473,
+        "description": "6chj-assembly1_B Wax ester synthase/diacylglycerol acyltransferase from Marinobacter aquaeolei VT8",
+        "significant": true
+      },
+      {
+        "target": "6p1j-assembly1_A",
+        "evalue": 0.001985,
+        "prob": 0.956,
+        "tmscore": 0.4229,
+        "description": "6p1j-assembly1_A The structure of condensation and adenylation domains of teixobactin-producing nonribosomal peptide synthetase Txo2 serine module",
+        "significant": true
+      },
+      {
+        "target": "7x0f-assembly3_C",
+        "evalue": 0.01614,
+        "prob": 0.855,
+        "tmscore": 0.4394,
+        "description": "7x0f-assembly3_C Structure of Pseudomonas NRPS protein, AmbB-TC bound to Ppant",
+        "significant": false
+      },
+      {
+        "target": "7r9x-assembly2_B",
+        "evalue": 0.02858,
+        "prob": 0.663,
+        "tmscore": 0.4191,
+        "description": "7r9x-assembly2_B Crystal structure of a dehydrating condensation domain, AmbE-CmodAA, involved in nonribosomal peptide synthesis",
+        "significant": false
+      },
+      {
+        "target": "7jua-assembly1_A",
+        "evalue": 0.01334,
+        "prob": 0.663,
+        "tmscore": 0.388,
+        "description": "7jua-assembly1_A Crystal structure of the second heterocyclization domain of yersiniabactin synthetase at 2.35 A resolution",
+        "significant": false
+      },
+      {
+        "target": "7jtj-assembly1_A",
+        "evalue": 0.01952,
+        "prob": 0.569,
+        "tmscore": 0.3783,
+        "description": "7jtj-assembly1_A Crystal structure of the second heterocyclization domain of yersiniabactin synthetase",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF06974",
+      "pfam_name": "WS_DGAT_C",
+      "description": "WS_DGAT_C",
+      "n_matches": "1"
+    }
+  ]
+}

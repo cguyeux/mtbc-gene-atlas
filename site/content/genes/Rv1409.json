@@ -1,0 +1,947 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1409",
+  "mtbc0": "mtbc0_001510",
+  "np_id": "NP_215925.1",
+  "gene": "ribG",
+  "len_aa": 339,
+  "strand": "+",
+  "start_mtbc0": 1594538,
+  "end_mtbc0": 1595557,
+  "product_h37rv": "bifunctional riboflavin biosynthesis diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino) uracil reductase",
+  "product_mtbc0_pgap": "bifunctional diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase RibD",
+  "function_revised": "Bifunctional diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase RibD. Pfam: dCMP_cyt_deam_1 (PF00383.30), MafB19-deam (PF14437.13), RibD_C (PF01872.23).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MNVEQVKSIDEAMGLAIEHSYQVKGTTYPNPPVGAVIVDPNGRIVGAGGTEPAGGDHAEVVALRRAGGLATGAIVVVTMEPCNHYGKTPPCVNALIEARVGTVVYAVADPNGIAGGGAGRLSAAGLQVRSGVLAEQVAAGPLREWLHKQRTGLPHVTWKYATSIDGRSAAADGSSQWISSEAARLDLHRRRAIADAILVGTGTVLADDPALTARLADGSLAPQQPLRVVVGKRDIPPEARVLNDEARTMMIRTHEPMEVLRALSDRTDVLLEGGPTLAGAFLRAGAINRILAYVAPILLGGPVTAVDDVGVSNITNALRWQFDSVEKVGPDLLLSLVAR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "dCMP_cyt_deam_1",
+      "pfam_acc": "PF00383.30",
+      "i_evalue": 2.7e-17,
+      "ali_from": 10,
+      "ali_to": 106,
+      "description": "Cytidine and deoxycytidylate deaminase zinc-binding region"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "MafB19-deam",
+      "pfam_acc": "PF14437.13",
+      "i_evalue": 2.1e-07,
+      "ali_from": 30,
+      "ali_to": 113,
+      "description": "MafB19-like deaminase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "RibD_C",
+      "pfam_acc": "PF01872.23",
+      "i_evalue": 1.7e-52,
+      "ali_from": 154,
+      "ali_to": 334,
+      "description": "RibD C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0117",
+    "cog_cat": "H",
+    "description": "Converts 2,5-diamino-6-(ribosylamino)-4(3h)-pyrimidinone 5'-phosphate into 5-amino-6-(ribosylamino)-2,4(1h,3h)- pyrimidinedione 5'-phosphate",
+    "preferred_name": "ribD",
+    "ec": [
+      "1.1.1.193",
+      "3.5.4.26"
+    ],
+    "kegg_ko": [
+      "K11752"
+    ],
+    "kegg_pathway": [
+      "map00740",
+      "map01100",
+      "map01110",
+      "map02024"
+    ],
+    "kegg_module": [
+      "M00125"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006139",
+      "GO:0006725",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009451",
+      "GO:0009987",
+      "GO:0016020",
+      "GO:0016070",
+      "GO:0034641",
+      "GO:0040007",
+      "GO:0043170",
+      "GO:0043412",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044464",
+      "GO:0046483",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:0090304",
+      "GO:1901360"
+    ],
+    "pfams": [
+      "RibD_C",
+      "dCMP_cyt_deam_1"
+    ],
+    "seed_ortholog": "419947.MRA_1418",
+    "evalue": "7.8e-238"
+  },
+  "uniprot": {
+    "acc": "P9WPH1",
+    "reviewed": true,
+    "protein_name": "Riboflavin biosynthesis protein RibD [Includes: Diaminohydroxyphosphoribosylaminopyrimidine deaminase",
+    "ec": [
+      "1.1.1.193",
+      "3.5.4.26"
+    ],
+    "function": "Converts 2,5-diamino-6-(ribosylamino)-4(3h)-pyrimidinone 5'-phosphate into 5-amino-6-(ribosylamino)-2,4(1h,3h)-pyrimidinedione 5'-phosphate",
+    "go": [
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0008270",
+      "GO:0008703",
+      "GO:0008835",
+      "GO:0009231"
+    ],
+    "kegg": [
+      "mtu:Rv1409",
+      "mtv:RVBD_1409"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 6,
+    "syn": 1,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.827,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1409",
+    "n_partners": 172,
+    "n_context_driven": 16,
+    "partners": [
+      {
+        "rv": "Rv1940",
+        "gene": "ribA1",
+        "product": "riboflavin biosynthesis protein RibA",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 48,
+          "cooccurence": 772,
+          "coexpression": 980,
+          "experimental": 759,
+          "database": 900,
+          "textmining": 805
+        }
+      },
+      {
+        "rv": "Rv1415",
+        "gene": "ribA2",
+        "product": "bifunctional riboflavin biosynthesis GTP cyclohydrolase II/3,4-dihydroxy-2-butanone 4-phosphate synthase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 519,
+          "cooccurence": 772,
+          "coexpression": 980,
+          "experimental": 759,
+          "database": 900,
+          "textmining": 812
+        }
+      },
+      {
+        "rv": "Rv1412",
+        "gene": "ribC",
+        "product": "riboflavin synthase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 270,
+          "fusion": 662,
+          "cooccurence": 772,
+          "coexpression": 987,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 627
+        }
+      },
+      {
+        "rv": "Rv1416",
+        "gene": "ribH",
+        "product": "6,7-dimethyl-8-ribityllumazine synthase",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 978,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 270,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 824,
+          "experimental": 336,
+          "database": 0,
+          "textmining": 796
+        }
+      },
+      {
+        "rv": "Rv1722",
+        "gene": "",
+        "product": "carboxylase",
+        "hypothetical": false,
+        "combined": 897,
+        "combined_no_tm": 898,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 883,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1408",
+        "gene": "rpe",
+        "product": "ribulose-phosphate 3-epimerase",
+        "hypothetical": false,
+        "combined": 896,
+        "combined_no_tm": 887,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 89,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 119
+        }
+      },
+      {
+        "rv": "Rv1407",
+        "gene": "fmu",
+        "product": "16S rRNA m5C967 methyltransferase",
+        "hypothetical": false,
+        "combined": 957,
+        "combined_no_tm": 884,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 854,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 240,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 648
+        }
+      },
+      {
+        "rv": "Rv1406",
+        "gene": "fmt",
+        "product": "methionyl-tRNA formyltransferase",
+        "hypothetical": false,
+        "combined": 866,
+        "combined_no_tm": 846,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 846,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 167
+        }
+      },
+      {
+        "rv": "Rv3859c",
+        "gene": "gltB",
+        "product": "glutamate synthase large subunit",
+        "hypothetical": false,
+        "combined": 604,
+        "combined_no_tm": 605,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 169,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2047c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 621,
+        "combined_no_tm": 602,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 57,
+          "experimental": 149,
+          "database": 0,
+          "textmining": 88
+        }
+      },
+      {
+        "rv": "Rv2228c",
+        "gene": "",
+        "product": "multifunctional RNASE H/alpha-ribazole phosphatase/acid phosphatase",
+        "hypothetical": false,
+        "combined": 597,
+        "combined_no_tm": 598,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 479,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 178,
+          "experimental": 136,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2840c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 590,
+        "combined_no_tm": 590,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 270,
+          "fusion": 0,
+          "cooccurence": 151,
+          "coexpression": 55,
+          "experimental": 383,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2438c",
+        "gene": "nadE",
+        "product": "glutamine-dependent NAD(+) synthetase",
+        "hypothetical": false,
+        "combined": 853,
+        "combined_no_tm": 587,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 131,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 659
+        }
+      },
+      {
+        "rv": "Rv2524c",
+        "gene": "fas",
+        "product": "fatty acid synthase",
+        "hypothetical": false,
+        "combined": 751,
+        "combined_no_tm": 580,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 94,
+          "experimental": 66,
+          "database": 0,
+          "textmining": 433
+        }
+      },
+      {
+        "rv": "Rv2727c",
+        "gene": "miaA",
+        "product": "tRNA delta(2)-isopentenylpyrophosphate transferase",
+        "hypothetical": false,
+        "combined": 579,
+        "combined_no_tm": 579,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 137,
+          "fusion": 226,
+          "cooccurence": 0,
+          "coexpression": 421,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1940",
+      "gene": "ribA1",
+      "product": "riboflavin biosynthesis protein RibA",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 544,
+        "fusion": 48,
+        "cooccurence": 772,
+        "coexpression": 980,
+        "experimental": 759,
+        "database": 900,
+        "textmining": 805
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: bifunctional riboflavin biosynthesis diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino) uracil reductase",
+    "MTBC0 PGAP product: bifunctional diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase RibD",
+    "Pfam (hmmscan --cut_ga): dCMP_cyt_deam_1 PF00383.30 (E=3e-17), MafB19-deam PF14437.13 (E=2e-07), RibD_C PF01872.23 (E=2e-52)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 95.9,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8dqc-assembly1_A",
+        "evalue": 5.74e-37,
+        "prob": 1.0,
+        "tmscore": 0.8554,
+        "description": "8dqc-assembly1_A Crystal structure of 3-dehydroquinate dehydratase I from Klebsiella oxytoca (I222 Form)",
+        "significant": true
+      },
+      {
+        "target": "8dqb-assembly1_A",
+        "evalue": 3.347e-37,
+        "prob": 1.0,
+        "tmscore": 0.8307,
+        "description": "8dqb-assembly1_A Crystal structure of 3-dehydroquinate dehydratase I from Klebsiella oxytoca (I23 Form)",
+        "significant": true
+      },
+      {
+        "target": "8dq9-assembly1_B",
+        "evalue": 8.511e-36,
+        "prob": 1.0,
+        "tmscore": 0.863,
+        "description": "8dq9-assembly1_B Crystal structure of GDP bound 3-dehydroquinate dehydratase I from Klebsiella oxytoca",
+        "significant": true
+      },
+      {
+        "target": "3zpc-assembly1_B",
+        "evalue": 3.464e-36,
+        "prob": 1.0,
+        "tmscore": 0.8561,
+        "description": "3zpc-assembly1_B Acinetobacter baumannii RibD, form 1",
+        "significant": true
+      },
+      {
+        "target": "2b3z-assembly1_D",
+        "evalue": 4.963e-36,
+        "prob": 1.0,
+        "tmscore": 0.8279,
+        "description": "2b3z-assembly1_D Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis",
+        "significant": true
+      },
+      {
+        "target": "3zpg-assembly1_A-2",
+        "evalue": 1.019e-35,
+        "prob": 1.0,
+        "tmscore": 0.8368,
+        "description": "3zpg-assembly1_A-2 Acinetobacter baumannii RibD, form 2",
+        "significant": true
+      },
+      {
+        "target": "2hxv-assembly1_A-2",
+        "evalue": 5.694e-32,
+        "prob": 1.0,
+        "tmscore": 0.871,
+        "description": "2hxv-assembly1_A-2 Crystal structure of a diaminohydroxyphosphoribosylaminopyrimidine deaminase/ 5-amino-6-(5-phosphoribosylamino)uracil reductase (tm1828) from thermotoga maritima at 1.80 A resolution",
+        "significant": true
+      },
+      {
+        "target": "8dq9-assembly1_A",
+        "evalue": 4.757e-32,
+        "prob": 1.0,
+        "tmscore": 0.8292,
+        "description": "8dq9-assembly1_A Crystal structure of GDP bound 3-dehydroquinate dehydratase I from Klebsiella oxytoca",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 208.0,
+    "abundance_rank": 826,
+    "n_ranked": 3519,
+    "abundance_percentile": 76.6,
+    "n_datasets": 12,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 339,
+    "mw_kda": 35.4,
+    "pi": 6.18,
+    "gravy": 0.081,
+    "instability_index": 36.2,
+    "instability_class": "stable",
+    "aromaticity": 0.035,
+    "aliphatic_index": 10303.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1444",
+        "identity": 99.4,
+        "evalue": 1.22e-241
+      },
+      "M. leprae": {
+        "locus": "ML0555",
+        "identity": 78.2,
+        "evalue": 8.09e-193
+      },
+      "M. marinum": {
+        "locus": "MMAR_2218",
+        "identity": 88.2,
+        "evalue": 2.58e-216
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3067",
+        "identity": 69.7,
+        "evalue": 3.38e-172
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001489",
+        "identity": 99.4,
+        "evalue": 1.14e-241
+      },
+      "M. abscessus": {
+        "locus": "MAB_2808c",
+        "identity": 65.6,
+        "evalue": 4.16e-158
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1408",
+      "gene": "rpe",
+      "strand": "+",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv1410c",
+      "gene": null,
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv1406",
+        "gene": "fmt"
+      },
+      {
+        "locus": "Rv1407",
+        "gene": "fmu"
+      },
+      {
+        "locus": "Rv1408",
+        "gene": "rpe"
+      },
+      {
+        "locus": "Rv1409",
+        "gene": "ribG"
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0081",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable bifunctional riboflavin biosynthesis protein RibG : diaminohydroxyphosphoribosylaminopyrimidine deaminase (riboflavin-specific deaminase) + 5-amino-6-(5-phosphoribosylamino) uracil reductase (HTP reductase)",
+    "legacy_function": "Involved in riboflavin biosynthesis (at the second and third steps). Converts 2,5-diamino-6-(ribosylamino)-4(3H)-pyrimidinone 5'-phosphate into 5-amino-6-(ribosylamino)-2,4(1H,3H)-pyrimidinedione 5'-phosphate [catalytic activity 1: 2,5-diamino-6-hydroxy-4-(5-phosphoribosylamino)pyrimidine + H(2)O = 5-amino-6-(5-phosphoribosylamino)uracil + NH(3)] [catalytic activity 2: 5-amino-6-(5-phosphoribityla",
+    "legacy_ec": [
+      "1.1.1.193",
+      "3.5.4.26"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "1.1.1.193",
+      "3.5.4.26"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -4.853,
+    "ci_low": -6.288,
+    "ci_high": -3.444,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 3,
+      "n_syn": 1,
+      "n_nonsyn": 2,
+      "n_disruptive": 0,
+      "dN_dS": 0.733,
+      "power": "low",
+      "interpretation": "low power (3 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 81.2,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 11,
+      "crossgenus_genomes": [
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 48.0,
+      "length_aa": 339,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "1 publication(s) discuss this gene (1 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Disruption of riboflavin biosynthesis in mycobacteria establishes riboflavin pathway intermediates as key precursors of MAIT cell agonists.",
+        "doi": "10.1371/journal.ppat.1012632",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40591719/",
+        "date": "2025"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 95.9,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "ribG-Flag-Das-tetON-18",
+    "gene": "ribG",
+    "teton_promoter": "18",
+    "baseline_doublings_median": 4.332,
+    "n_screens": 6,
+    "strain_category": "Used in PCL analysis",
+    "used_in_pcl": true,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

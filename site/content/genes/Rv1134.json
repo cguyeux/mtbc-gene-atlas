@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1134",
+  "mtbc0": "mtbc0_001217",
+  "np_id": "NP_215650.1",
+  "gene": "",
+  "len_aa": 78,
+  "strand": "+",
+  "start_mtbc0": 1270362,
+  "end_mtbc0": 1270598,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "hypothetical protein",
+  "function_revised": "YCII-related domain protein (eggNOG COG3795, nucleotide-metabolism COG category F). RefSeq leaves it 'hypothetical protein'. A defined domain family of still-uncertain biochemical function.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MAAYQKFGQEHAAAIRGGAVLHPTATATTVRVTGARGGDVVTGDGPYEAADLDEQGPFPMETVYLWEDGPNGTTRMTL",
+  "domains": [],
+  "struct_hits": [
+    {
+      "target": "8h1c-assembly1_B",
+      "evalue": 3.699,
+      "prob": 0.034,
+      "tmscore": 0.3912,
+      "description": "8h1c-assembly1_B Cryo-EM structure of Oryza sativa plastid glycyl-tRNA synthetase in complex with two tRNAs (one in tRNA binding state and the other in tRNA locked state)",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "COG3795",
+    "cog_cat": "F",
+    "description": "YCII-related domain",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "DoxX_2",
+      "YCII"
+    ],
+    "seed_ortholog": "419947.MRA_1143",
+    "evalue": "1.67e-50"
+  },
+  "uniprot": {
+    "acc": "O06534",
+    "reviewed": false,
+    "protein_name": "Uncharacterized protein",
+    "ec": [],
+    "function": "",
+    "go": [],
+    "kegg": [
+      "mtu:Rv1134",
+      "mtv:RVBD_1134"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 1,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.347,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 39.4,
+    "n_residues": 78,
+    "band": "very low"
+  },
+  "string": {},
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "eggNOG COG3795 = YCII-related domain (COG category F)",
+    "eggNOG-mapper orthology (COG functional assignment, under-propagated by the auto-curation). A family/activity-level assignment from orthology, not a substrate demonstrated in M. tuberculosis."
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 48.9,
+    "band": "very low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "5mrc-assembly1_66",
+        "evalue": 2.632,
+        "prob": 0.051,
+        "tmscore": 0.2542,
+        "description": "5mrc-assembly1_66 Structure of the yeast mitochondrial ribosome - Class A",
+        "significant": false
+      },
+      {
+        "target": "8om4-assembly1_6",
+        "evalue": 3.66,
+        "prob": 0.034,
+        "tmscore": 0.2259,
+        "description": "8om4-assembly1_6 Small subunit of yeast mitochondrial ribosome.",
+        "significant": false
+      },
+      {
+        "target": "8d8k-assembly1_6",
+        "evalue": 6.625,
+        "prob": 0.029,
+        "tmscore": 0.2561,
+        "description": "8d8k-assembly1_6 Yeast mitochondrial small subunit assembly intermediate (State 2)",
+        "significant": false
+      },
+      {
+        "target": "8xgc-assembly1_I",
+        "evalue": 7.559,
+        "prob": 0.029,
+        "tmscore": 0.294,
+        "description": "8xgc-assembly1_I Structure of yeast replisome associated with FACT and histone hexamer, Composite map",
+        "significant": false
+      },
+      {
+        "target": "8d8j-assembly1_6",
+        "evalue": 7.559,
+        "prob": 0.024,
+        "tmscore": 0.2575,
+        "description": "8d8j-assembly1_6 Yeast mitochondrial small subunit assembly intermediate (State 1)",
+        "significant": false
+      }
+    ],
+    "plddt_gated": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 78,
+    "mw_kda": 8.2,
+    "pi": 4.63,
+    "gravy": -0.327,
+    "instability_index": 12.6,
+    "instability_class": "stable",
+    "aromaticity": 0.077,
+    "aliphatic_index": 6141.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1165",
+        "identity": 100.0,
+        "evalue": 2.61e-54
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001196",
+        "identity": 100.0,
+        "evalue": 2.44e-54
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 1,
+    "n_in_vivo": 0,
+    "phenotypes": [
+      {
+        "condition": "fitness after prolonged in vitro passage",
+        "category": "in vitro passage",
+        "log2fc": -3.37,
+        "qval": 0.028,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1133c",
+      "gene": "metE",
+      "strand": "-",
+      "gap": 575
+    },
+    "right": {
+      "locus": "Rv1135c",
+      "gene": "PPE16",
+      "strand": "-",
+      "gap": 113
+    },
+    "operon": [
+      {
+        "locus": "Rv1134",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Hypothetical protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": true,
+    "ahead_via": [
+      "COG category"
+    ],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -3.279,
+    "ci_low": -14.705,
+    "ci_high": 7.36,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "expression": {
+    "n_imodulons": 2,
+    "imodulons": [
+      {
+        "name": "SG_4",
+        "function": "Single Gene iModulon 4",
+        "category": "Single Gene",
+        "regulator": null
+      },
+      {
+        "name": "SG_5",
+        "function": "Single Gene iModulon 5",
+        "category": "Single Gene",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 2,
+      "n_total": 53,
+      "frac": 0.038,
+      "in_mtbap": 0,
+      "in_mkc": 1,
+      "mean_pident": 57.5,
+      "classification": "MTBC-near-specific",
+      "species_present": [
+        "M_basiliense",
+        "M_paragordonae"
+      ],
+      "interpretation": "absent from the closest MTBAP relatives and nearly all NTM (2/53) — a strong MTBC-restricted candidate (possible host-adaptation innovation, confirm by synteny)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 78,
+      "short_gene_caveat": true,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication in PubMed mentions this gene in its title or abstract — not under its H37Rv locus tag, nor under any of its ortholog identifiers (M. bovis, M. marinum, M. smegmatis, M. leprae, M. abscessus). The atlas annotation rests on sequence/structure evidence, not on a primary study of this gene.",
+    "papers": [],
+    "by_alias": {},
+    "caveat": "A verified absence of literature is itself information: it flags an annotation with no primary study behind it.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.718,
+    "classification": "highly disordered",
+    "n_idr": 1,
+    "longest_idr": 78,
+    "total_idr_residues": 78,
+    "idr_regions": [
+      [
+        0,
+        78
+      ]
+    ],
+    "mean_plddt": 48.9,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (78/78 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

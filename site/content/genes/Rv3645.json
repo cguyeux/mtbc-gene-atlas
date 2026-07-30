@@ -1,0 +1,993 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3645",
+  "mtbc0": "mtbc0_003862",
+  "np_id": "NP_218162.1",
+  "gene": "",
+  "len_aa": 549,
+  "strand": "+",
+  "start_mtbc0": 4106512,
+  "end_mtbc0": 4108161,
+  "product_h37rv": "transmembrane protein",
+  "product_mtbc0_pgap": "adenylate/guanylate cyclase domain-containing protein",
+  "function_revised": "Adenylate/guanylate cyclase domain-containing protein. Pfam: HAMP (PF00672.31), Guanylate_cyc (PF00211.26).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MDAEAFVGFRQVPAARYGGLMATTAALPRRIHAFVRWVVRTPWPLFSLSMLQSDIIGALFVLGFLRYGLPPQDNIQLQDLPPVNLLIFVSTVIILFLAGAVVNLKLLMPVFRWQRRDNLLTEPDPAATELARSRALRMPLYRTLISLAVWATGGGVFILASWSVAKHAAPVVAVATALGATATAIIGYLQSERVLRPVAVAALRSGVPENVNAPGVILRLMLAWIPSTGVPLLAIVLAVAADKIALLHATPEALFNPILMMALAALGIGSVSTLLVAMSIADPLRQLRWALSEVQRGNYNAHMQIYDASELGLLQAGFNDMVRELSERQRLRDLFGRYVGEDVARRALERGTELGGQERDVAVLFVDLVGSTQLAATRPPAEVVQLLNEFFRVVVETVARHGGFVNKFQGDAALAIFGAPIEHPDGAGAALSAARELHDELIPVLGSAEFGIGVSAGRAIAGHIGAQARFEYTVIGDPVNEAARLTELAKLEDGHVLASAIAVSGALDAEALCWDVGEVVELRGRAAPTQLARPMNLAAPEEVSSEVRG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "HAMP",
+      "pfam_acc": "PF00672.31",
+      "i_evalue": 2.7e-09,
+      "ali_from": 275,
+      "ali_to": 326,
+      "description": "HAMP domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Guanylate_cyc",
+      "pfam_acc": "PF00211.26",
+      "i_evalue": 4.8e-13,
+      "ali_from": 359,
+      "ali_to": 504,
+      "description": "Adenylate and Guanylate cyclase catalytic domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG2114",
+    "cog_cat": "T",
+    "description": "COG2114 Adenylate cyclase, family 3 (some proteins contain HAMP domain)",
+    "preferred_name": "cya",
+    "ec": [
+      "4.6.1.1"
+    ],
+    "kegg_ko": [
+      "K01768"
+    ],
+    "kegg_pathway": [
+      "map00230",
+      "map02025",
+      "map04113",
+      "map04213"
+    ],
+    "kegg_module": [
+      "M00695"
+    ],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Guanylate_cyc",
+      "HAMP"
+    ],
+    "seed_ortholog": "419947.MRA_3680",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "I6X7Z3",
+    "reviewed": false,
+    "protein_name": "Probable conserved transmembrane protein",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0004016",
+      "GO:0005886",
+      "GO:0006171",
+      "GO:0035556"
+    ],
+    "kegg": [
+      "mtu:Rv3645",
+      "mtv:RVBD_3645"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 15,
+    "syn": 7,
+    "missense": 8,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.421,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv3645",
+    "n_partners": 47,
+    "n_context_driven": 8,
+    "partners": [
+      {
+        "rv": "Rv0805",
+        "gene": "cpdA",
+        "product": "3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA",
+        "hypothetical": false,
+        "combined": 918,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 196
+        }
+      },
+      {
+        "rv": "Rv2445c",
+        "gene": "ndkA",
+        "product": "nucleoside diphosphate kinase",
+        "hypothetical": false,
+        "combined": 911,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 122
+        }
+      },
+      {
+        "rv": "Rv1617",
+        "gene": "pykA",
+        "product": "pyruvate kinase",
+        "hypothetical": false,
+        "combined": 908,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 47,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 59,
+          "database": 900,
+          "textmining": 93
+        }
+      },
+      {
+        "rv": "Rv2583c",
+        "gene": "relA",
+        "product": "bifunctional (p)ppGpp synthase/hydrolase RelA",
+        "hypothetical": false,
+        "combined": 909,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 119
+        }
+      },
+      {
+        "rv": "Rv1415",
+        "gene": "ribA2",
+        "product": "bifunctional riboflavin biosynthesis GTP cyclohydrolase II/3,4-dihydroxy-2-butanone 4-phosphate synthase",
+        "hypothetical": false,
+        "combined": 814,
+        "combined_no_tm": 814,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 800,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv1940",
+        "gene": "ribA1",
+        "product": "riboflavin biosynthesis protein RibA",
+        "hypothetical": false,
+        "combined": 812,
+        "combined_no_tm": 812,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 800,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv0869c",
+        "gene": "moaA2",
+        "product": "molybdenum cofactor biosynthesis protein MoaA",
+        "hypothetical": false,
+        "combined": 808,
+        "combined_no_tm": 808,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 73,
+          "database": 800,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3609c",
+        "gene": "folE",
+        "product": "GTP cyclohydrolase I",
+        "hypothetical": false,
+        "combined": 808,
+        "combined_no_tm": 808,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 800,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3109",
+        "gene": "moaA1",
+        "product": "cyclic pyranopterin monophosphate synthase",
+        "hypothetical": false,
+        "combined": 807,
+        "combined_no_tm": 807,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 73,
+          "database": 800,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2212",
+        "gene": "",
+        "product": "adenylyl cyclase",
+        "hypothetical": false,
+        "combined": 718,
+        "combined_no_tm": 718,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 59,
+          "fusion": 0,
+          "cooccurence": 674,
+          "coexpression": 45,
+          "experimental": 152,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1647",
+        "gene": "",
+        "product": "adenylate cyclase",
+        "hypothetical": false,
+        "combined": 701,
+        "combined_no_tm": 702,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 59,
+          "fusion": 0,
+          "cooccurence": 654,
+          "coexpression": 47,
+          "experimental": 152,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1675c",
+        "gene": "cmr",
+        "product": "HTH-type transcriptional regulator Cmr",
+        "hypothetical": false,
+        "combined": 790,
+        "combined_no_tm": 625,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 264,
+          "coexpression": 59,
+          "experimental": 387,
+          "database": 198,
+          "textmining": 465
+        }
+      },
+      {
+        "rv": "Rv3676",
+        "gene": "crp",
+        "product": "cAMP receptor protein",
+        "hypothetical": false,
+        "combined": 725,
+        "combined_no_tm": 621,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 257,
+          "coexpression": 58,
+          "experimental": 387,
+          "database": 198,
+          "textmining": 305
+        }
+      },
+      {
+        "rv": "Rv0998",
+        "gene": "",
+        "product": "acetyltransferase Pat",
+        "hypothetical": false,
+        "combined": 697,
+        "combined_no_tm": 611,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 234,
+          "coexpression": 63,
+          "experimental": 387,
+          "database": 198,
+          "textmining": 253
+        }
+      },
+      {
+        "rv": "Rv0104",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 735,
+        "combined_no_tm": 572,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 166,
+          "coexpression": 53,
+          "experimental": 387,
+          "database": 198,
+          "textmining": 407
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2212",
+      "gene": "",
+      "product": "adenylyl cyclase",
+      "combined_no_tm": 718,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 59,
+        "fusion": 0,
+        "cooccurence": 674,
+        "coexpression": 45,
+        "experimental": 152,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: transmembrane protein",
+    "MTBC0 PGAP product: adenylate/guanylate cyclase domain-containing protein",
+    "Pfam (hmmscan --cut_ga): HAMP PF00672.31 (E=3e-09), Guanylate_cyc PF00211.26 (E=5e-13)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 86.5,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1wc1-assembly2_B",
+        "evalue": 9.426e-13,
+        "prob": 1.0,
+        "tmscore": 0.7954,
+        "description": "1wc1-assembly2_B Soluble adenylyl cyclase CyaC from S. platensis in complex with Rp- ATPalphaS",
+        "significant": true
+      },
+      {
+        "target": "4yut-assembly1_B",
+        "evalue": 1.946e-12,
+        "prob": 1.0,
+        "tmscore": 0.7762,
+        "description": "4yut-assembly1_B Crystal structure of photoactivated adenylyl cyclase of a cyanobacteriaOscillatoria acuminata in orthorhombic form",
+        "significant": true
+      },
+      {
+        "target": "3r5g-assembly2_B",
+        "evalue": 5.319e-11,
+        "prob": 1.0,
+        "tmscore": 0.8485,
+        "description": "3r5g-assembly2_B Crystal structure of the adenylyl cyclase CyaB from P. aeruginosa",
+        "significant": true
+      },
+      {
+        "target": "1wc5-assembly1_D",
+        "evalue": 1.041e-11,
+        "prob": 1.0,
+        "tmscore": 0.793,
+        "description": "1wc5-assembly1_D Soluble adenylyl cyclase CyaC from S. platensis in complex with alpha, beta-methylene-ATP in presence of bicarbonate",
+        "significant": true
+      },
+      {
+        "target": "2w01-assembly1_B",
+        "evalue": 1.14e-11,
+        "prob": 1.0,
+        "tmscore": 0.801,
+        "description": "2w01-assembly1_B Crystal structure of the guanylyl cyclase Cya2",
+        "significant": true
+      },
+      {
+        "target": "1wc5-assembly1_A",
+        "evalue": 1.089e-11,
+        "prob": 1.0,
+        "tmscore": 0.7853,
+        "description": "1wc5-assembly1_A Soluble adenylyl cyclase CyaC from S. platensis in complex with alpha, beta-methylene-ATP in presence of bicarbonate",
+        "significant": true
+      },
+      {
+        "target": "6fht-assembly1_A",
+        "evalue": 6.922e-12,
+        "prob": 1.0,
+        "tmscore": 0.7545,
+        "description": "6fht-assembly1_A Crystal structure of an artificial phytochrome regulated adenylate/guanylate cyclase in its dark adapted Pr form",
+        "significant": true
+      },
+      {
+        "target": "5mbg-assembly1_A-2",
+        "evalue": 8.756e-11,
+        "prob": 1.0,
+        "tmscore": 0.8039,
+        "description": "5mbg-assembly1_A-2 Structure of a bacterial light-regulated adenylyl cyclase",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 6,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (6 TM helixes)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 27.6,
+    "abundance_rank": 2118,
+    "n_ranked": 3519,
+    "abundance_percentile": 39.8,
+    "n_datasets": 11,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 549,
+    "mw_kda": 58.8,
+    "pi": 5.92,
+    "gravy": 0.409,
+    "instability_index": 43.9,
+    "instability_class": "unstable",
+    "aromaticity": 0.067,
+    "aliphatic_index": 11610.2,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb3669",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. leprae": {
+        "locus": "ML0201c",
+        "identity": 85.3,
+        "evalue": 3.03e-317
+      },
+      "M. marinum": {
+        "locus": "MMAR_5137",
+        "identity": 85.9,
+        "evalue": 8e-319
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_6154",
+        "identity": 77.3,
+        "evalue": 1.71e-282
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003744",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_0490c",
+        "identity": 69.3,
+        "evalue": 3.12e-234
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 12,
+    "n_in_vivo": 2,
+    "phenotypes": [
+      {
+        "condition": "altered fitness under amino acid starvation",
+        "category": "stress",
+        "log2fc": -6.48,
+        "qval": 0.014,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "altered fitness under tryptophan starvation",
+        "category": "stress",
+        "log2fc": -6.48,
+        "qval": 0.033,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=632) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 5.63,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 10",
+        "category": "in vivo",
+        "log2fc": -5.41,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 45",
+        "category": "in vivo",
+        "log2fc": -5.41,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=667) from Indo-Oceanic lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 4.49,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=631) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 4.45,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=662) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 4.22,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=641) from Indo-Oceanic lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 4.04,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=630) from Euro-American lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 3.96,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=621) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 3.77,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=663) from Euro-American lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 2.96,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv3644c",
+      "gene": null,
+      "strand": "-",
+      "gap": 85
+    },
+    "right": {
+      "locus": "Rv3646c",
+      "gene": "topA",
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv3645",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable conserved transmembrane protein",
+    "legacy_function": "Unknown. Inhibited by polyphosphates.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [
+      "4.6.1.1"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -2.549,
+    "ci_low": -2.961,
+    "ci_high": -2.142,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 84.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 7,
+      "crossgenus_genomes": [
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 50.0,
+      "length_aa": 549,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 7,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 4,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "7 publication(s) discuss this gene (4 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Cyclic AMP is a critical mediator of intrinsic drug resistance and fatty acid metabolism in M. tuberculosis.",
+        "doi": "10.7554/eLife.81177",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36810158/",
+        "date": "2023"
+      },
+      {
+        "title": "Heme b inhibits class III adenylyl cyclases.",
+        "doi": "10.1016/j.cellsig.2022.110568",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36565898/",
+        "date": "2023"
+      },
+      {
+        "title": "Biochemical characterization of the tandem HAMP domain from Natronomonas pharaonis as an intraprotein signal transducer.",
+        "doi": "10.1111/febs.12855",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/24863503/",
+        "date": "2014"
+      },
+      {
+        "title": "HAMP domain-mediated signal transduction probed with a mycobacterial adenylyl cyclase as a reporter.",
+        "doi": "10.1074/jbc.M111.284067",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/22094466/",
+        "date": "2012"
+      },
+      {
+        "title": "Transmembrane receptor chimeras to probe HAMP domain function.",
+        "doi": "10.1016/S0076-6879(10)71007-7",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/20946845/",
+        "date": "2010"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.035,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 19,
+    "total_idr_residues": 19,
+    "idr_regions": [
+      [
+        530,
+        549
+      ]
+    ],
+    "mean_plddt": 86.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "Rv3645::FLAG-DAS Giles::pTetON-10_sspB",
+    "gene": "Rv3645",
+    "teton_promoter": "10",
+    "baseline_doublings_median": 2.959,
+    "n_screens": 6,
+    "strain_category": "Used in PCL analysis",
+    "used_in_pcl": true,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

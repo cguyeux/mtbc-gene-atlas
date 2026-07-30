@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1954A",
+  "gene": "Rv1954A",
+  "len_aa": 100,
+  "strand": "+",
+  "start_mtbc0": 2201277,
+  "end_mtbc0": 2201579,
+  "product_h37rv": "Hypothetical protein",
+  "verdict": "dark",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MARGRVVCIGDAGCDCTPGVFRATAGGMPVLVVIESGTGGDQMARKATSPGKPAPTSGQYRPVGGGNEVTVPKGHRLPPSPKPGQKWVNVDPTKNKSGRG",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Hypothetical protein",
+    "legacy_function": "Unknown",
+    "legacy_ec": null,
+    "functional_category": "unknown",
+    "comments": "Rv1954A, len: 100 aa. Hypothetical unknown protein.",
+    "uniprot_ac": "P0CV86",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "unknown",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 100,
+    "mw_kda": 10.2,
+    "pi": 10.04,
+    "gravy": -0.501,
+    "instability_index": 47.7,
+    "instability_class": "unstable",
+    "aromaticity": 0.03,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "P0CV86",
+    "reviewed": true,
+    "protein_name": "Uncharacterized protein Rv1954A",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_1954A"
+    ],
+    "protein_existence": "2: Evidence at transcript level",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "2ECQY",
+    "cog_cat": null,
+    "description": null,
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "GA",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 20.0,
+    "abundance_rank": 2341,
+    "n_ranked": 3519,
+    "abundance_percentile": 33.5,
+    "n_datasets": 8,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 1,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.697,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1954A",
+    "n_partners": 19,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv2450c",
+        "gene": "rpfE",
+        "product": "resuscitation-promoting factor RpfE",
+        "hypothetical": false,
+        "combined": 881,
+        "combined_no_tm": 881,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 490,
+          "experimental": 769,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1884c",
+        "gene": "rpfC",
+        "product": "resuscitation-promoting factor RpfC",
+        "hypothetical": false,
+        "combined": 881,
+        "combined_no_tm": 881,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 490,
+          "experimental": 769,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2389c",
+        "gene": "rpfD",
+        "product": "resuscitation-promoting factor RpfD",
+        "hypothetical": false,
+        "combined": 870,
+        "combined_no_tm": 870,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 443,
+          "experimental": 769,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0867c",
+        "gene": "rpfA",
+        "product": "resuscitation-promoting factor RpfA",
+        "hypothetical": false,
+        "combined": 870,
+        "combined_no_tm": 870,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 443,
+          "experimental": 769,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1861",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 543,
+        "combined_no_tm": 517,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 59,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 508,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 93
+        }
+      },
+      {
+        "rv": "Rv1955",
+        "gene": "higB",
+        "product": "toxin HigB",
+        "hypothetical": false,
+        "combined": 618,
+        "combined_no_tm": 513,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 513,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 250
+        }
+      },
+      {
+        "rv": "Rv3491",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 432,
+        "combined_no_tm": 432,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 432,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3490",
+        "gene": "otsA",
+        "product": "trehalose-phosphate synthase",
+        "hypothetical": false,
+        "combined": 432,
+        "combined_no_tm": 432,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 432,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1957",
+        "gene": "secBL",
+        "product": "SecB-like chaperone",
+        "hypothetical": false,
+        "combined": 661,
+        "combined_no_tm": 429,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 429,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 431
+        }
+      },
+      {
+        "rv": "Rv1956",
+        "gene": "higA",
+        "product": "antitoxin HigA",
+        "hypothetical": false,
+        "combined": 554,
+        "combined_no_tm": 429,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 429,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 252
+        }
+      },
+      {
+        "rv": "Rv2771c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 412,
+        "combined_no_tm": 413,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 413,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0925c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 412,
+        "combined_no_tm": 413,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 413,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3372",
+        "gene": "otsB2",
+        "product": "trehalose 6-phosphate phosphatase",
+        "hypothetical": false,
+        "combined": 412,
+        "combined_no_tm": 412,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 412,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2006",
+        "gene": "otsB1",
+        "product": "trehalose-6-phosphate phosphatase OtsB",
+        "hypothetical": false,
+        "combined": 412,
+        "combined_no_tm": 412,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 412,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0887c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 406,
+        "combined_no_tm": 372,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 372,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 93
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1955",
+      "gene": "higB",
+      "product": "toxin HigB",
+      "combined_no_tm": 513,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 513,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 0,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 250
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 51.3,
+    "band": "low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  }
+}

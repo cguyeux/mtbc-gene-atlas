@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3476c",
+  "gene": "kgtP",
+  "len_aa": 449,
+  "strand": "-",
+  "start_mtbc0": 3892371,
+  "end_mtbc0": 3893720,
+  "product_h37rv": "Probable dicarboxylic acid transport integral membrane protein KgtP (dicarboxylate transporter)",
+  "function_revised": "Involved in active transport of dicarboxylic acid across the membrane. Responsible for the translocation of the substrate across the membrane.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MTVSIAPPSRPSQAETRRAIWNTIRGSSGNLVEWYDVYVYTVFATYFEDQFFDRADRNSTVYVYAIFAVTFVTRPVGSWFLGRFADRRGRRAALTFSVSLMAACSLIVALVPSRSSIGVAAPILLILCRLVQGFATGGEYGTSATYMSEAATRERRGYFSSFQYVTLVGGHVLAQFTLLVILAVFTREQVHEFGWRIGFAVGGGAAIVVFWLRRTMDESLSQERLTAIKAGRDHDSGSLRELATHYWKPLLLCFLVTLGGTVAFYTYSVNAPAIVKSVYGSQAMTATWINLVGLILLMMLQPIGGMISDKIGRKPLLLWFGVGGLIYTYVLVTYLPETRSPTMSFLLVAVGYVILTGYCSINALVKSELFPAHVRALGVGVGYALANSVFGGTAPLIYQALKERDQVPMFIAYVTACIAVSLIVYVFFIKNKADTYLDREQGFAFYGHA",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable dicarboxylic acid transport integral membrane protein KgtP (dicarboxylate transporter)",
+    "legacy_function": "Involved in active transport of dicarboxylic acid across the membrane. Responsible for the translocation of the substrate across the membrane.",
+    "legacy_ec": null,
+    "functional_category": "cell wall and cell processes",
+    "comments": "Rv3476c, (MTCY13E12.29c), len: 449 aa. Probable kgtP, dicarboxylate-transport integral membrane protein, possibly member of major facilitator superfamily (MFS), highly similar to others e.g. Q9HT43|PA5530 from Pseudomonas aeruginosa (435 aa), FASTA scores: opt: 1209, E(): 2.3e-68, (47.05% identity in 425 aa overlap); Q9I6Q9|PCAT|PA0229 from Pseudomonas aeruginosa (432 aa), FASTA scores: opt: 1131, E(): 1.8e-63, (40.4% identity in 438 aa overlap); Q9WWZ2 from Pseudomonas putida (429 aa), FASTA scores: opt: 1090, E(): 6.5e-61, (41.2% identity in 425 aa overlap); P17448|KGTP_ECOLI|WITA|B2587 from Escherichia coli strain K12 (432 aa), FASTA scores: opt: 1083, E(): 1.8e-60, (40.05% identity in 422 aa overlap); etc. Also similar to O05301|MTCI364.12|Rv1200 hypothetical 44.6 KDA protein from Mycobacterium tuberculosis (425 aa), FASTA scores: E(): 5.2e-25, (28.5% identity in 382 aa overlap). Contains sugar transport protein signatures 1 and 2 (PS00216, PS00217). Belongs to the sugar transporter family.",
+    "uniprot_ac": "I6XHB8",
+    "go": "GO:0016021,GO:0055085,GO:0005215,GO:0008643",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 449,
+    "mw_kda": 49.5,
+    "pi": 9.37,
+    "gravy": 0.458,
+    "instability_index": 38.5,
+    "instability_class": "stable",
+    "aromaticity": 0.136,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "I6XHB8",
+    "reviewed": false,
+    "protein_name": "Alpha-ketoglutarate permease",
+    "ec": [],
+    "function": "Uptake of alpha-ketoglutarate across the boundary membrane with the concomitant import of a cation (symport system)",
+    "go": [
+      "GO:0005886",
+      "GO:0015293",
+      "GO:0022857"
+    ],
+    "kegg": [
+      "mtv:RVBD_3476c"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG0477",
+    "cog_cat": "EGP",
+    "description": "PFAM Sugar (and other) transporter",
+    "preferred_name": "kgtP",
+    "ec": [],
+    "kegg_ko": [
+      "ko:K03761"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 0.57,
+    "abundance_rank": 3343,
+    "n_ranked": 3519,
+    "abundance_percentile": 5.0,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv3473c",
+      "gene": "bpoA",
+      "strand": "-",
+      "gap": 1637
+    },
+    "right": {
+      "locus": "Rv3477",
+      "gene": "PE31",
+      "strand": "+",
+      "gap": 372
+    },
+    "operon": [
+      {
+        "locus": "Rv3476c",
+        "gene": "kgtP"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv2011c",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv3574",
+        "tf_gene": "kstR",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 6,
+    "syn": 3,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.347,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 12,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (12 TM helixes)"
+  },
+  "string": {
+    "string_id": "83332.Rv3476c",
+    "n_partners": 5,
+    "n_context_driven": 1,
+    "partners": [
+      {
+        "rv": "Rv2443",
+        "gene": "dctA",
+        "product": "C4-dicarboxylate-transport transmembrane protein DctA",
+        "hypothetical": false,
+        "combined": 487,
+        "combined_no_tm": 468,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 465,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 77
+        }
+      },
+      {
+        "rv": "Rv1872c",
+        "gene": "lldD2",
+        "product": "L-lactate dehydrogenase",
+        "hypothetical": false,
+        "combined": 490,
+        "combined_no_tm": 438,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 420,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 130
+        }
+      },
+      {
+        "rv": "Rv0694",
+        "gene": "mftD",
+        "product": "mycofactocin system heme/flavin oxidoreductase MftD",
+        "hypothetical": false,
+        "combined": 487,
+        "combined_no_tm": 435,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 417,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 130
+        }
+      },
+      {
+        "rv": "Rv3246c",
+        "gene": "mtrA",
+        "product": "two component DNA-binding response regulator MtrA",
+        "hypothetical": false,
+        "combined": 694,
+        "combined_no_tm": 50,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 692
+        }
+      },
+      {
+        "rv": "Rv0341",
+        "gene": "iniB",
+        "product": "isoniazid inducible protein IniB",
+        "hypothetical": false,
+        "combined": 641,
+        "combined_no_tm": 46,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 640
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2443",
+      "gene": "dctA",
+      "product": "C4-dicarboxylate-transport transmembrane protein DctA",
+      "combined_no_tm": 468,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 0,
+        "fusion": 0,
+        "cooccurence": 465,
+        "coexpression": 46,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 77
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 87.2,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6n3i-assembly1_A",
+        "evalue": 2.647e-10,
+        "prob": 1.0,
+        "tmscore": 0.7748,
+        "description": "6n3i-assembly1_A Crystal structure of a double Trp XylE mutants (G58W/L315W)",
+        "significant": true
+      },
+      {
+        "target": "6rw3-assembly3_C",
+        "evalue": 3.378e-10,
+        "prob": 1.0,
+        "tmscore": 0.7474,
+        "description": "6rw3-assembly3_C The molecular basis for sugar import in malaria parasites.",
+        "significant": true
+      },
+      {
+        "target": "6rw3-assembly2_B",
+        "evalue": 7.019e-10,
+        "prob": 1.0,
+        "tmscore": 0.7602,
+        "description": "6rw3-assembly2_B The molecular basis for sugar import in malaria parasites.",
+        "significant": true
+      },
+      {
+        "target": "9j2n-assembly1_A",
+        "evalue": 1.693e-10,
+        "prob": 1.0,
+        "tmscore": 0.7213,
+        "description": "9j2n-assembly1_A Cryo-EM structure of the human glucose transporter, GLUT7 in outward-facing open conformation",
+        "significant": true
+      },
+      {
+        "target": "6rw3-assembly4_D",
+        "evalue": 8.599e-10,
+        "prob": 1.0,
+        "tmscore": 0.7502,
+        "description": "6rw3-assembly4_D The molecular basis for sugar import in malaria parasites.",
+        "significant": true
+      },
+      {
+        "target": "6h7d-assembly1_A",
+        "evalue": 2.102e-09,
+        "prob": 1.0,
+        "tmscore": 0.7604,
+        "description": "6h7d-assembly1_A Crystal Structure of A. thaliana Sugar Transport Protein 10 in complex with glucose in the outward occluded state",
+        "significant": true
+      },
+      {
+        "target": "6m2l-assembly1_A",
+        "evalue": 4.027e-09,
+        "prob": 1.0,
+        "tmscore": 0.7177,
+        "description": "6m2l-assembly1_A Crystal structure of Plasmodium falciparum hexose transporter PfHT1 bound with C3361",
+        "significant": true
+      },
+      {
+        "target": "7spt-assembly1_A",
+        "evalue": 5.351e-09,
+        "prob": 1.0,
+        "tmscore": 0.7101,
+        "description": "7spt-assembly1_A Crystal structure of exofacial state human glucose transporter GLUT3",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF00083",
+      "pfam_name": "Sugar_tr",
+      "description": "Sugar_tr",
+      "n_matches": "1"
+    }
+  ]
+}

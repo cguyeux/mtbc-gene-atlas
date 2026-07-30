@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Dev server (auto-reload). Default port 9624 (NC_000962.3 + 1, distinct from
+# atlas_mtbc on 9623). Override: ANNOT_DEV_PORT=12345 ./bin/dev
+set -euo pipefail
+cd "$(dirname "$0")/.."
+PORT="${ANNOT_DEV_PORT:-9624}"
+PY="${PYTHON:-.venv/bin/uvicorn}"
+[ -x "$PY" ] || PY="uvicorn"
+exec "$PY" backend.app:app --host 127.0.0.1 --port "$PORT" --reload "$@"

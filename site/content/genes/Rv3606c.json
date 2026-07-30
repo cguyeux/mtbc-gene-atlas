@@ -1,0 +1,881 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3606c",
+  "mtbc0": "mtbc0_003824",
+  "np_id": "NP_218123.1",
+  "gene": "folK",
+  "len_aa": 188,
+  "strand": "-",
+  "start_mtbc0": 4071885,
+  "end_mtbc0": 4072451,
+  "product_h37rv": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridinepyrophosphokinase",
+  "product_mtbc0_pgap": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase",
+  "function_revised": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase. Pfam: HPPK (PF01288.26).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTRVVLSVGSNLGDRLARLRSVADGLGDALIAASPIYEADPWGGVEQGQFLNAVLIADDPTCEPREWLRRAQEFERAAGRVRGQRWGPRNLDVDLIACYQTSATEALVEVTARENHLTLPHPLAHLRAFVLIPWIAVDPTAQLTVAGCPRPVTRLLAELEPADRDSVRLFRPSFDLNSRHPVSRAPES",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "HPPK",
+      "pfam_acc": "PF01288.26",
+      "i_evalue": 1.1e-30,
+      "ali_from": 5,
+      "ali_to": 139,
+      "description": "7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase (HPPK)"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0801",
+    "cog_cat": "H",
+    "description": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase",
+    "preferred_name": "folK",
+    "ec": [
+      "2.7.6.3",
+      "4.1.2.25"
+    ],
+    "kegg_ko": [
+      "K00950",
+      "K13940"
+    ],
+    "kegg_pathway": [
+      "map00790",
+      "map01100"
+    ],
+    "kegg_module": [
+      "M00126",
+      "M00841"
+    ],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "FolB",
+      "HPPK"
+    ],
+    "seed_ortholog": "419947.MRA_3645",
+    "evalue": "3.37e-134"
+  },
+  "uniprot": {
+    "acc": "P9WNC7",
+    "reviewed": true,
+    "protein_name": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase",
+    "ec": [
+      "2.7.6.3"
+    ],
+    "function": "Catalyzes the transfer of pyrophosphate from adenosine triphosphate (ATP) to 6-hydroxymethyl-7,8-dihydropterin, an enzymatic step in folate biosynthesis pathway",
+    "go": [
+      "GO:0003848",
+      "GO:0005524",
+      "GO:0016301",
+      "GO:0046654",
+      "GO:0046656"
+    ],
+    "kegg": [
+      "mtu:Rv3606c",
+      "mtv:RVBD_3606c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.553,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv3606c",
+    "n_partners": 31,
+    "n_context_driven": 12,
+    "partners": [
+      {
+        "rv": "Rv3607c",
+        "gene": "folB",
+        "product": "dihydroneopterin aldolase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 864,
+          "cooccurence": 712,
+          "coexpression": 974,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 718
+        }
+      },
+      {
+        "rv": "Rv3608c",
+        "gene": "folP1",
+        "product": "dihydropteroate synthase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 758,
+          "coexpression": 945,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 571
+        }
+      },
+      {
+        "rv": "Rv3609c",
+        "gene": "folE",
+        "product": "GTP cyclohydrolase I",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 997,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 836,
+          "fusion": 0,
+          "cooccurence": 580,
+          "coexpression": 957,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 586
+        }
+      },
+      {
+        "rv": "Rv1207",
+        "gene": "folP2",
+        "product": "dihydropteroate synthase",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 993,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 753,
+          "coexpression": 731,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 518
+        }
+      },
+      {
+        "rv": "Rv3605c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 882,
+        "combined_no_tm": 882,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3610c",
+        "gene": "ftsH",
+        "product": "zinc metalloprotease FtsH",
+        "hypothetical": false,
+        "combined": 832,
+        "combined_no_tm": 817,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 790,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 163,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 120
+        }
+      },
+      {
+        "rv": "Rv3604c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 737,
+        "combined_no_tm": 737,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 734,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3600c",
+        "gene": "coaX",
+        "product": "type III pantothenate kinase",
+        "hypothetical": false,
+        "combined": 596,
+        "combined_no_tm": 597,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 594,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3601c",
+        "gene": "panD",
+        "product": "aspartate 1-decarboxylase",
+        "hypothetical": false,
+        "combined": 640,
+        "combined_no_tm": 595,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 594,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 148
+        }
+      },
+      {
+        "rv": "Rv3611",
+        "gene": "",
+        "product": "Rv3611, (MTCY07H7B.11c), len: 217 aa. Hypothetical unknown arg-, pro-rich protein. Possible ORF containing several direct repeats.",
+        "hypothetical": false,
+        "combined": 546,
+        "combined_no_tm": 546,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1341",
+        "gene": "rdgB",
+        "product": "non-canonical purine NTP pyrophosphatase",
+        "hypothetical": false,
+        "combined": 544,
+        "combined_no_tm": 515,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 113,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 476,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv3602c",
+        "gene": "panC",
+        "product": "pantothenate synthetase",
+        "hypothetical": false,
+        "combined": 638,
+        "combined_no_tm": 502,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 427,
+          "fusion": 0,
+          "cooccurence": 161,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 303
+        }
+      },
+      {
+        "rv": "Rv3907c",
+        "gene": "pcnA",
+        "product": "poly(A) polymerase PcnA",
+        "hypothetical": false,
+        "combined": 500,
+        "combined_no_tm": 489,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 447,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 62
+        }
+      },
+      {
+        "rv": "Rv2447c",
+        "gene": "folC",
+        "product": "folylpolyglutamate synthase FolC",
+        "hypothetical": false,
+        "combined": 689,
+        "combined_no_tm": 487,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 445,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 419
+        }
+      },
+      {
+        "rv": "Rv0013",
+        "gene": "trpG",
+        "product": "anthranilate synthase component II",
+        "hypothetical": false,
+        "combined": 507,
+        "combined_no_tm": 481,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 168,
+          "coexpression": 353,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 89
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3607c",
+      "gene": "folB",
+      "product": "dihydroneopterin aldolase",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 864,
+        "cooccurence": 712,
+        "coexpression": 974,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 718
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridinepyrophosphokinase",
+    "MTBC0 PGAP product: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase",
+    "Pfam (hmmscan --cut_ga): HPPK PF01288.26 (E=1e-30)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "GD",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 91.3,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2qx0-assembly1_B",
+        "evalue": 1.111e-12,
+        "prob": 1.0,
+        "tmscore": 0.8686,
+        "description": "2qx0-assembly1_B Crystal Structure of Yersinia pestis HPPK (Ternary Complex)",
+        "significant": true
+      },
+      {
+        "target": "4m5j-assembly1_A",
+        "evalue": 7.311e-12,
+        "prob": 1.0,
+        "tmscore": 0.8421,
+        "description": "4m5j-assembly1_A The Identification, Analysis and Structure-Based Development of Novel Inhibitors of 6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase",
+        "significant": true
+      },
+      {
+        "target": "3ilo-assembly1_A",
+        "evalue": 6.88e-12,
+        "prob": 1.0,
+        "tmscore": 0.8244,
+        "description": "3ilo-assembly1_A Crystal structure of E. coli HPPK(D97A) in complex with MgAMPCPP and 6-hydroxymethyl-7,8-dihydropterin",
+        "significant": true
+      },
+      {
+        "target": "8sk1-assembly2_B",
+        "evalue": 4.778e-12,
+        "prob": 1.0,
+        "tmscore": 0.8059,
+        "description": "8sk1-assembly2_B Bacillus anthracis HPPK in complex with bisubstrate inhibitor HP-73",
+        "significant": true
+      },
+      {
+        "target": "3kuh-assembly1_A",
+        "evalue": 2.054e-11,
+        "prob": 1.0,
+        "tmscore": 0.8165,
+        "description": "3kuh-assembly1_A Crystal structure of E. coli HPPK(H115A) in complex with AMPCPP and HP",
+        "significant": true
+      },
+      {
+        "target": "4ad6-assembly1_A",
+        "evalue": 1.053e-11,
+        "prob": 1.0,
+        "tmscore": 0.7998,
+        "description": "4ad6-assembly1_A Synthesis and SAR of guanine based analogues for HPPK inhibitors",
+        "significant": true
+      },
+      {
+        "target": "1cbk-assembly1_B",
+        "evalue": 3.772e-11,
+        "prob": 1.0,
+        "tmscore": 0.8273,
+        "description": "1cbk-assembly1_B 7,8-DIHYDRO-6-HYDROXYMETHYLPTERIN-PYROPHOSPHOKINASE FROM HAEMOPHILUS INFLUENZAE",
+        "significant": true
+      },
+      {
+        "target": "4cyu-assembly2_B",
+        "evalue": 2.958e-11,
+        "prob": 1.0,
+        "tmscore": 0.807,
+        "description": "4cyu-assembly2_B Staphylococcus aureus 7,8-Dihydro-6-hydroxymethylpterin- pyrophosphokinase in complex with AMPCPP",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 33.8,
+    "abundance_rank": 2006,
+    "n_ranked": 3519,
+    "abundance_percentile": 43.0,
+    "n_datasets": 8,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 188,
+    "mw_kda": 20.7,
+    "pi": 5.82,
+    "gravy": -0.172,
+    "instability_index": 37.8,
+    "instability_class": "stable",
+    "aromaticity": 0.059,
+    "aliphatic_index": 9707.4,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb3636c",
+        "identity": 100.0,
+        "evalue": 5.26e-138
+      },
+      "M. leprae": {
+        "locus": "ML0226",
+        "identity": 61.7,
+        "evalue": 5.21e-73
+      },
+      "M. marinum": {
+        "locus": "MMAR_5109",
+        "identity": 66.9,
+        "evalue": 1.47e-75
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_6101",
+        "identity": 64.7,
+        "evalue": 1.55e-71
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003713",
+        "identity": 100.0,
+        "evalue": 4.92e-138
+      },
+      "M. abscessus": {
+        "locus": "MAB_0537",
+        "identity": 53.0,
+        "evalue": 1.43e-56
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv3605c",
+      "gene": null,
+      "strand": "-",
+      "gap": -1
+    },
+    "right": {
+      "locus": "Rv3607c",
+      "gene": "folB",
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv3605c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3606c",
+        "gene": "folK"
+      },
+      {
+        "locus": "Rv3607c",
+        "gene": "folB"
+      },
+      {
+        "locus": "Rv3608c",
+        "gene": "folP1"
+      },
+      {
+        "locus": "Rv3609c",
+        "gene": "folE"
+      },
+      {
+        "locus": "Rv3610c",
+        "gene": "ftsH"
+      }
+    ],
+    "operon_size": 6,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase FolK (7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase) (HPPK) (6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase) (PPPK) (2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase) (7,8-dihydro-6-hydroxymethylpterin-diphosphokinase) (6-hydroxymethyl-7,8-dihydropterin diphosphokinase)",
+    "legacy_function": "Involved in dihydrofolate biosynthesis (at the first step) [catalytic activity: ATP + 2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine = AMP + 2-amino-7,8-dihydro-4-hydroxy-6-(diphosphooxymethyl)pteridine].",
+    "legacy_ec": [
+      "2.7.6.3"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.7.6.3",
+      "4.1.2.25"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -0.611,
+    "ci_low": -0.838,
+    "ci_high": -0.366,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 68.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 45.1,
+      "length_aa": 188,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 68,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 67,
+    "n_other": 5,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "5"
+    },
+    "summary": "68 publication(s) discuss this gene (67 in a M. tuberculosis context, 5 in other mycobacteria — M. smegmatis (5)).",
+    "papers": [
+      {
+        "title": "Sustainable Strategies in Tuberculosis Management: Bridging Ethnobotanical Pharmacology, Advanced Drug Delivery, and AI-Driven Innovation.",
+        "doi": "10.1111/jebm.70121",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41766357/",
+        "date": "2026"
+      },
+      {
+        "title": "Content Analysis of Digital Archives Contributes to the Historical Distribution and Folk Knowledge of the Highly Toxic Cicuta virosa L. in Hungary.",
+        "doi": "10.3390/plants14030315",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39942877/",
+        "date": "2025"
+      },
+      {
+        "title": "Comprehensive metabolic profiling of three plants of Ardisia based on UPLC-QTOF-MS coupled with bioactivity assays.",
+        "doi": "10.1016/j.jep.2025.119327",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39761835/",
+        "date": "2025"
+      },
+      {
+        "title": "Pharmacology, phytochemistry, and traditional uses of Huperzia serrata (Thunb. ex Murray) Trev.",
+        "doi": "10.1016/j.fitote.2024.106304",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39571762/",
+        "date": "2025"
+      },
+      {
+        "title": "Antimycobacterial and Anticancer Properties of Myrtus communis Leaf Extract.",
+        "doi": "10.3390/ph17070872",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39065723/",
+        "date": "2024"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.09,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 16,
+    "total_idr_residues": 16,
+    "idr_regions": [
+      [
+        172,
+        188
+      ]
+    ],
+    "mean_plddt": 91.3,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

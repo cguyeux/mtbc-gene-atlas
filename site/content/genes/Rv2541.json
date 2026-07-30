@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2541",
+  "mtbc0": "-",
+  "np_id": "NP_217057.1",
+  "gene": "",
+  "len_aa": 135,
+  "strand": "+",
+  "start_mtbc0": 2864427,
+  "end_mtbc0": 2864834,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "",
+  "function_revised": "Conserved hypothetical protein; no recognised domain. Function unknown. Foldseek best (non-significant) hit: 3zbh-assembly1_B Geobacillus thermodenitrificans EsxA crystal form I (prob 1.00, TM 0.78).",
+  "verdict": "dark",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MRRRRPPHVNAPTPCDRGDVRPPGCPASIPGVEVAGGTRARLRVTADGLQALAGRCATLAGELSAAVAPSGAVLSWQANAVAVNAAHARAGAAAAAVSARMRATAAALGQAARRYAGQDTAAAAALGAVRPWGTH",
+  "domains": [],
+  "struct_hits": [
+    {
+      "target": "3zbh-assembly1_B",
+      "evalue": 0.124,
+      "prob": 1.0,
+      "tmscore": 0.7823,
+      "description": "3zbh-assembly1_B Geobacillus thermodenitrificans EsxA crystal form I",
+      "significant": false
+    },
+    {
+      "target": "3zbh-assembly4_E",
+      "evalue": 0.1663,
+      "prob": 1.0,
+      "tmscore": 0.7881,
+      "description": "3zbh-assembly4_E Geobacillus thermodenitrificans EsxA crystal form I",
+      "significant": false
+    },
+    {
+      "target": "3zbh-assembly3_C",
+      "evalue": 0.3779,
+      "prob": 0.996,
+      "tmscore": 0.7817,
+      "description": "3zbh-assembly3_C Geobacillus thermodenitrificans EsxA crystal form I",
+      "significant": false
+    },
+    {
+      "target": "6uuj-assembly3_H",
+      "evalue": 0.7639,
+      "prob": 0.949,
+      "tmscore": 0.7367,
+      "description": "6uuj-assembly3_H Structure of PE5-PPE4-EspG3 complex from the type VII (ESX-3) secretion system, space group P212121",
+      "significant": false
+    },
+    {
+      "target": "3ogi-assembly1_B",
+      "evalue": 1.086,
+      "prob": 0.872,
+      "tmscore": 0.6682,
+      "description": "3ogi-assembly1_B Crystal structure of the Mycobacterium tuberculosis H37Rv EsxOP complex (Rv2346c-Rv2347c)",
+      "significant": false
+    },
+    {
+      "target": "8qae-assembly2_C-2",
+      "evalue": 1.952,
+      "prob": 0.692,
+      "tmscore": 0.6673,
+      "description": "8qae-assembly2_C-2 X-ray crystal structure of a de novo designed single-chain antiparallel 6-helix alpha-helical barrel, sc-apCC-6-SLLA",
+      "significant": false
+    },
+    {
+      "target": "2gl2-assembly2_B",
+      "evalue": 3.12,
+      "prob": 0.277,
+      "tmscore": 0.5642,
+      "description": "2gl2-assembly2_B Crystal structure of the tetra mutant (T66G,R67G,F68G,Y69G) of bacterial adhesin FadA",
+      "significant": false
+    },
+    {
+      "target": "3etx-assembly2_B",
+      "evalue": 7.519,
+      "prob": 0.098,
+      "tmscore": 0.4997,
+      "description": "3etx-assembly2_B Crystal structure of bacterial adhesin FadA L14A mutant",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "2B1B8",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [],
+    "seed_ortholog": "1299327.I546_5293",
+    "evalue": "5e-07"
+  },
+  "uniprot": {
+    "acc": "P95012",
+    "reviewed": false,
+    "protein_name": "Hypothetical alanine rich protein",
+    "ec": [],
+    "function": "",
+    "go": [],
+    "kegg": [
+      "mtu:Rv2541",
+      "mtv:RVBD_2541"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 10,
+    "syn": 3,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 2,
+    "pN_pS": 0.976,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 2,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 398,
+    "disrupt_frac": 0.0027,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 69.3,
+    "n_residues": 135,
+    "band": "low"
+  },
+  "string": {
+    "string_id": "83332.Rv2541",
+    "n_partners": 9,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv2540c",
+        "gene": "aroF",
+        "product": "chorismate synthase",
+        "hypothetical": false,
+        "combined": 575,
+        "combined_no_tm": 575,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 569,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2539c",
+        "gene": "aroK",
+        "product": "shikimate kinase",
+        "hypothetical": false,
+        "combined": 573,
+        "combined_no_tm": 573,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 569,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2538c",
+        "gene": "aroB",
+        "product": "3-dehydroquinate synthase",
+        "hypothetical": false,
+        "combined": 570,
+        "combined_no_tm": 570,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 569,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2537c",
+        "gene": "aroD",
+        "product": "3-dehydroquinate dehydratase",
+        "hypothetical": false,
+        "combined": 570,
+        "combined_no_tm": 570,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 569,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2542",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 429,
+        "combined_no_tm": 430,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 426,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3224",
+        "gene": "",
+        "product": "iron-regulated short-chain dehydrogenase/reductase",
+        "hypothetical": false,
+        "combined": 434,
+        "combined_no_tm": 46,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 432
+        }
+      },
+      {
+        "rv": "Rv0991c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 642,
+        "combined_no_tm": 44,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 641
+        }
+      },
+      {
+        "rv": "Rv3729",
+        "gene": "",
+        "product": "transferase",
+        "hypothetical": false,
+        "combined": 870,
+        "combined_no_tm": 42,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv2012",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 803,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 803
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2540c",
+      "gene": "aroF",
+      "product": "chorismate synthase",
+      "combined_no_tm": 575,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 569,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 55,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): hypothetical protein",
+    "Foldseek best: 3zbh-assembly1_B Geobacillus thermodenitrificans EsxA crystal form I (prob 1.00, E=1e-01, TM=0.78)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "Uncertain",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 77.1,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3ogi-assembly1_B",
+        "evalue": 1.94,
+        "prob": 0.72,
+        "tmscore": 0.662,
+        "description": "3ogi-assembly1_B Crystal structure of the Mycobacterium tuberculosis H37Rv EsxOP complex (Rv2346c-Rv2347c)",
+        "significant": false
+      },
+      {
+        "target": "6uuj-assembly3_H",
+        "evalue": 0.8047,
+        "prob": 0.196,
+        "tmscore": 0.3039,
+        "description": "6uuj-assembly3_H Structure of PE5-PPE4-EspG3 complex from the type VII (ESX-3) secretion system, space group P212121",
+        "significant": false
+      },
+      {
+        "target": "8xqx-assembly1_P",
+        "evalue": 0.2798,
+        "prob": 0.196,
+        "tmscore": 0.2203,
+        "description": "8xqx-assembly1_P Cryo-EM structure of the Ycf2-FtsHi motor complex from Chlamydomonas reinhardtii in apo state",
+        "significant": false
+      },
+      {
+        "target": "2gl2-assembly2_B",
+        "evalue": 4.412,
+        "prob": 0.179,
+        "tmscore": 0.5376,
+        "description": "2gl2-assembly2_B Crystal structure of the tetra mutant (T66G,R67G,F68G,Y69G) of bacterial adhesin FadA",
+        "significant": false
+      },
+      {
+        "target": "3etz-assembly2_B",
+        "evalue": 7.933,
+        "prob": 0.126,
+        "tmscore": 0.5614,
+        "description": "3etz-assembly2_B Crystal structure of bacterial adhesin FadA L76A mutant",
+        "significant": false
+      },
+      {
+        "target": "5m48-assembly1_A-2",
+        "evalue": 9.46,
+        "prob": 0.063,
+        "tmscore": 0.3954,
+        "description": "5m48-assembly1_A-2 Coiled coil domain of Rtt103p",
+        "significant": false
+      },
+      {
+        "target": "7n6g-assembly1_3I",
+        "evalue": 8.413,
+        "prob": 0.034,
+        "tmscore": 0.264,
+        "description": "7n6g-assembly1_3I C1 of central pair",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "pfam_tentative": {
+    "pfam_name": "T7SS_ESX_EspC",
+    "pfam_acc": "PF10824.15",
+    "i_evalue": 0.011,
+    "ali_from": 41,
+    "ali_to": 127,
+    "description": "Excreted virulence factor EspC, type VII ESX diderm",
+    "note": "tentative: below Pfam gathering threshold (--cut_ga); low-confidence lead"
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 135,
+    "mw_kda": 13.4,
+    "pi": 11.66,
+    "gravy": 0.014,
+    "instability_index": 39.2,
+    "instability_class": "stable",
+    "aromaticity": 0.022,
+    "aliphatic_index": 7851.9,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2570",
+        "identity": 100.0,
+        "evalue": 5.38e-85
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002630",
+        "identity": 99.0,
+        "evalue": 3.05e-59
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv2540c",
+      "gene": "aroF",
+      "strand": "-",
+      "gap": 14
+    },
+    "right": {
+      "locus": "Rv2542",
+      "gene": null,
+      "strand": "+",
+      "gap": 295
+    },
+    "operon": [
+      {
+        "locus": "Rv2541",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Hypothetical alanine rich protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "SigD",
+        "function": "Sigma Factor that governs the expression of ribosomal genes and plays a role in virulence",
+        "category": "Virulence/Persistence",
+        "regulator": "sigD"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": -7.908,
+    "ci_low": -18.601,
+    "ci_high": 4.365,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 12,
+      "n_syn": 3,
+      "n_nonsyn": 8,
+      "n_disruptive": 0,
+      "dN_dS": 1.123,
+      "power": "ok",
+      "interpretation": "elevated dN/dS vs M. canettii (1.123) — relaxed or positive selection at deep divergence",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 0,
+      "n_total": 53,
+      "frac": 0.0,
+      "in_mtbap": 0,
+      "in_mkc": 0,
+      "mean_pident": 0.0,
+      "classification": "MTBC-specific",
+      "species_present": [],
+      "interpretation": "SENSITIVITY DOWNGRADE: a divergent homolog is detectable at relaxed thresholds (weak hit 89%/39%cov in M_shinjukuense — likely present but divergent); NOT a robust MTBC-specific innovation — present but divergent. The strict tblastn absence was a coverage/identity-threshold artefact.",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)",
+      "sensitivity": "present-divergent-DOWNGRADE",
+      "sensitivity_detail": "weak hit 89%/39%cov in M_shinjukuense — likely present but divergent"
+    },
+    "phylostratum": {
+      "stratum": 0,
+      "stratum_label": "MTBC-specific",
+      "deepest_outgroup_clade": "none",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 135,
+      "short_gene_caveat": false,
+      "interpretation": "absent from the whole genus and from all outgroups tested — a candidate MTBC-specific innovation (confirm by synteny; rule out detection failure for short/divergent ORFs)",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no TB publication mentions this locus tag",
+    "summary": "No TB publication mentions this locus tag in its title or abstract (sweep of a ~330k-abstract PubMed TB corpus). This gene is genuinely unstudied: its darkness reflects absence of investigation, not failure of investigation.",
+    "papers": [],
+    "caveat": "An antigen status or a virulence phenotype is NOT a molecular function: the verdict stays unchanged. This layer adds the missing context, it does not requalify the gene.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep of title+abstract: the H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 1.0,
+    "classification": "highly disordered",
+    "n_idr": 1,
+    "longest_idr": 135,
+    "total_idr_residues": 135,
+    "idr_regions": [
+      [
+        0,
+        135
+      ]
+    ],
+    "mean_plddt": 77.1,
+    "idr_orphan": false,
+    "interpretation": "sequence-based disorder is high but AlphaFold folds it confidently (pLDDT>=70): treat the disorder call with caution (possible metapredict over-call)",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

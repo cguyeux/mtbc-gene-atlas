@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2087",
+  "gene": "Rv2087",
+  "len_aa": 76,
+  "strand": "+",
+  "start_mtbc0": 2343994,
+  "end_mtbc0": 2344224,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MLAGLRPSIGIVGDALDNALCETTTGPHRTECSHGSPFRSGPIRTLADLEDIASAWVEHTCHTQQGVRIPGRLQPA",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Unknown",
+    "legacy_ec": null,
+    "functional_category": "insertion seqs and phages",
+    "comments": "Rv2087, (MTCY49.27), len: 76 aa. Conserved hypothetical protein, similar to but shorter than transposases, but we can find no sequence errors to account for the frameshifts. Start changed since first submission (-45 aa). This region is a possible MT-complex-specific genomic island (See Becq et al., 2007).",
+    "uniprot_ac": "P9WLJ7",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "insertion seqs and phages",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 76,
+    "mw_kda": 8.1,
+    "pi": 6.01,
+    "gravy": -0.236,
+    "instability_index": 46.2,
+    "instability_class": "unstable",
+    "aromaticity": 0.026,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "P9WLJ7",
+    "reviewed": true,
+    "protein_name": "Uncharacterized protein Rv2087",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_2087"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG2801",
+    "cog_cat": "L",
+    "description": "transposition",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0016020",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "transposition",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 1,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.676,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv2087",
+    "n_partners": 11,
+    "n_context_driven": 11,
+    "partners": [
+      {
+        "rv": "Rv2085",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 834,
+        "combined_no_tm": 834,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 584,
+          "fusion": 0,
+          "cooccurence": 588,
+          "coexpression": 108,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 43
+        }
+      },
+      {
+        "rv": "Rv2086",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 769,
+        "combined_no_tm": 769,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 571,
+          "fusion": 0,
+          "cooccurence": 480,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2082",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 661,
+        "combined_no_tm": 659,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 412,
+          "fusion": 0,
+          "cooccurence": 441,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv1733c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 471,
+        "combined_no_tm": 472,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 469,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2088",
+        "gene": "pknJ",
+        "product": "transmembrane serine/threonine-protein kinase PknJ",
+        "hypothetical": false,
+        "combined": 458,
+        "combined_no_tm": 459,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 454,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2305",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 435,
+        "combined_no_tm": 436,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 433,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1947",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 421,
+        "combined_no_tm": 421,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 405,
+          "coexpression": 65,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3899c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 417,
+        "combined_no_tm": 415,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 408,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv2083",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 413,
+        "combined_no_tm": 412,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 410,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2084",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 413,
+        "combined_no_tm": 412,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 410,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3896c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 409,
+        "combined_no_tm": 410,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 406,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1733c",
+      "gene": "",
+      "product": "transmembrane protein",
+      "combined_no_tm": 472,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 0,
+        "fusion": 0,
+        "cooccurence": 469,
+        "coexpression": 46,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 77.3,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6lo8-assembly1_G",
+        "evalue": 7.819,
+        "prob": 0.09,
+        "tmscore": 0.4491,
+        "description": "6lo8-assembly1_G Cryo-EM structure of the TIM22 complex from yeast",
+        "significant": false
+      },
+      {
+        "target": "2l3g-assembly1_A",
+        "evalue": 5.795,
+        "prob": 0.076,
+        "tmscore": 0.3501,
+        "description": "2l3g-assembly1_A Solution NMR Structure of CH domain of Rho guanine nucleotide exchange factor 7 from Homo sapiens, Northeast Structural Genomics Consortium Target HR4495E",
+        "significant": false
+      },
+      {
+        "target": "5njd-assembly1_B",
+        "evalue": 5.795,
+        "prob": 0.045,
+        "tmscore": 0.2874,
+        "description": "5njd-assembly1_B Structure of Interleukin 23 in complex with Briakinumab FAb",
+        "significant": false
+      },
+      {
+        "target": "7ckg-assembly1_B-2",
+        "evalue": 8.302,
+        "prob": 0.029,
+        "tmscore": 0.2706,
+        "description": "7ckg-assembly1_B-2 Crystal structure of TMSiPheRS complexed with TMSiPhe",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  }
+}

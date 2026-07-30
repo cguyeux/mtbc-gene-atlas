@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1242",
+  "mtbc0": "mtbc0_001331",
+  "np_id": "NP_215758.1",
+  "gene": "vapC33",
+  "len_aa": 143,
+  "strand": "+",
+  "start_mtbc0": 1392979,
+  "end_mtbc0": 1393410,
+  "product_h37rv": "ribonuclease VapC33",
+  "product_mtbc0_pgap": "type II toxin-antitoxin system VapC family toxin",
+  "function_revised": "Type II toxin-antitoxin system VapC family toxin. Pfam: PIN (PF01850.28).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MIIPDINLLLYAVITGFPQHRRAHAWWQDTVNGHTRIGLTYPALFGFLRIATSARVLAAPLPTADAIAYVREWLSQPNVDLLTAGPRHLDIALGLLDKLGTASHLTTDVQLAAYGIEYDAEIHSSDTDFARFADLKWTDPLRE",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "PIN",
+      "pfam_acc": "PF01850.28",
+      "i_evalue": 2.4e-06,
+      "ali_from": 2,
+      "ali_to": 134,
+      "description": "PIN domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1848",
+    "cog_cat": "S",
+    "description": "Toxic component of a toxin-antitoxin (TA) module. An RNase",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [
+      "K07064"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0008150",
+      "GO:0016020",
+      "GO:0040008",
+      "GO:0044464",
+      "GO:0045926",
+      "GO:0048519",
+      "GO:0050789",
+      "GO:0065007",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "PIN"
+    ],
+    "seed_ortholog": "419947.MRA_1251",
+    "evalue": "3.96e-102"
+  },
+  "uniprot": {
+    "acc": "P9WF69",
+    "reviewed": true,
+    "protein_name": "Ribonuclease VapC33",
+    "ec": [
+      "3.1.-.-"
+    ],
+    "function": "Toxic component of a type II toxin-antitoxin (TA) system. An RNase (By similarity). Upon expression in M.smegmatis inhibits colony formation. Its toxic effect is neutralized by coexpression with cognate antitoxin VapB33",
+    "go": [
+      "GO:0000287",
+      "GO:0004540",
+      "GO:0005886",
+      "GO:0016788",
+      "GO:0045926"
+    ],
+    "kegg": [
+      "mtu:Rv1242",
+      "mtv:RVBD_1242"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {},
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1242",
+    "n_partners": 30,
+    "n_context_driven": 8,
+    "partners": [
+      {
+        "rv": "Rv1241",
+        "gene": "vapB33",
+        "product": "antitoxin VapB33",
+        "hypothetical": false,
+        "combined": 896,
+        "combined_no_tm": 896,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 152,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1240",
+        "gene": "mdh",
+        "product": "malate dehydrogenase",
+        "hypothetical": false,
+        "combined": 630,
+        "combined_no_tm": 630,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 611,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 88,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0748",
+        "gene": "vapB31",
+        "product": "antitoxin VapB31",
+        "hypothetical": false,
+        "combined": 526,
+        "combined_no_tm": 527,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 508,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2871",
+        "gene": "vapB43",
+        "product": "antitoxin VapB43",
+        "hypothetical": false,
+        "combined": 525,
+        "combined_no_tm": 526,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 508,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0595c",
+        "gene": "vapC4",
+        "product": "ribonuclease VapC4",
+        "hypothetical": false,
+        "combined": 815,
+        "combined_no_tm": 493,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 488,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 651
+        }
+      },
+      {
+        "rv": "Rv0626",
+        "gene": "vapB5",
+        "product": "antitoxin VapB5",
+        "hypothetical": false,
+        "combined": 488,
+        "combined_no_tm": 489,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 58,
+          "fusion": 0,
+          "cooccurence": 478,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1720c",
+        "gene": "vapC12",
+        "product": "ribonuclease VapC12",
+        "hypothetical": false,
+        "combined": 438,
+        "combined_no_tm": 439,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 438,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1239c",
+        "gene": "corA",
+        "product": "magnesium and cobalt transport transmembrane protein CorA",
+        "hypothetical": false,
+        "combined": 424,
+        "combined_no_tm": 425,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 421,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0960",
+        "gene": "vapC9",
+        "product": "ribonuclease VapC9",
+        "hypothetical": false,
+        "combined": 414,
+        "combined_no_tm": 414,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 411,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2548",
+        "gene": "vapC19",
+        "product": "ribonuclease VapC19",
+        "hypothetical": false,
+        "combined": 595,
+        "combined_no_tm": 409,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 407,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 343
+        }
+      },
+      {
+        "rv": "Rv1114",
+        "gene": "vapC32",
+        "product": "ribonuclease VapC32",
+        "hypothetical": false,
+        "combined": 861,
+        "combined_no_tm": 326,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 317,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 803
+        }
+      },
+      {
+        "rv": "Rv1838c",
+        "gene": "vapC13",
+        "product": "ribonuclease VapC13",
+        "hypothetical": false,
+        "combined": 406,
+        "combined_no_tm": 316,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 310,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 168
+        }
+      },
+      {
+        "rv": "Rv0065",
+        "gene": "vapC1",
+        "product": "ribonuclease VapC1",
+        "hypothetical": false,
+        "combined": 545,
+        "combined_no_tm": 308,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 306,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 370
+        }
+      },
+      {
+        "rv": "Rv2549c",
+        "gene": "vapC20",
+        "product": "ribonuclease VapC20",
+        "hypothetical": false,
+        "combined": 653,
+        "combined_no_tm": 295,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 291,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 529
+        }
+      },
+      {
+        "rv": "Rv2010",
+        "gene": "vapC15",
+        "product": "ribonuclease VapC15",
+        "hypothetical": false,
+        "combined": 725,
+        "combined_no_tm": 242,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 234,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 653
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1241",
+      "gene": "vapB33",
+      "product": "antitoxin VapB33",
+      "combined_no_tm": 896,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 152,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: ribonuclease VapC33",
+    "MTBC0 PGAP product: type II toxin-antitoxin system VapC family toxin",
+    "Pfam (hmmscan --cut_ga): PIN PF01850.28 (E=2e-06)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 96.0,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7vwo-assembly3_I",
+        "evalue": 2.647e-12,
+        "prob": 1.0,
+        "tmscore": 0.9459,
+        "description": "7vwo-assembly3_I TA complex from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "8wmm-assembly1_G",
+        "evalue": 5.41e-05,
+        "prob": 1.0,
+        "tmscore": 0.7665,
+        "description": "8wmm-assembly1_G Structure of CbCas9-PcrIIC1 complex bound to 28-bp DNA substrate (20-nt complementary)",
+        "significant": true
+      },
+      {
+        "target": "1w8i-assembly1_A-2",
+        "evalue": 0.0001233,
+        "prob": 1.0,
+        "tmscore": 0.7789,
+        "description": "1w8i-assembly1_A-2 The Structure of gene product af1683 from Archaeoglobus fulgidus.",
+        "significant": true
+      },
+      {
+        "target": "3zvk-assembly1_D",
+        "evalue": 9.188e-05,
+        "prob": 1.0,
+        "tmscore": 0.7304,
+        "description": "3zvk-assembly1_D Crystal structure of VapBC2 from Rickettsia felis bound to a DNA fragment from their promoter",
+        "significant": true
+      },
+      {
+        "target": "4chg-assembly3_E",
+        "evalue": 0.0001387,
+        "prob": 1.0,
+        "tmscore": 0.7399,
+        "description": "4chg-assembly3_E Crystal structure of VapBC15 complex from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "3zvk-assembly1_B",
+        "evalue": 0.0001233,
+        "prob": 1.0,
+        "tmscore": 0.7245,
+        "description": "3zvk-assembly1_B Crystal structure of VapBC2 from Rickettsia felis bound to a DNA fragment from their promoter",
+        "significant": true
+      },
+      {
+        "target": "5ed0-assembly2_B",
+        "evalue": 0.0003354,
+        "prob": 1.0,
+        "tmscore": 0.7312,
+        "description": "5ed0-assembly2_B Structure of the Shigella flexneri VapC mutant D7N",
+        "significant": true
+      },
+      {
+        "target": "5ecw-assembly1_A",
+        "evalue": 0.0002499,
+        "prob": 1.0,
+        "tmscore": 0.7206,
+        "description": "5ecw-assembly1_A Structure of the Shigella flexneri VapC mutant D7A",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 123.0,
+    "abundance_rank": 1151,
+    "n_ranked": 3519,
+    "abundance_percentile": 67.3,
+    "n_datasets": 14,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 143,
+    "mw_kda": 15.9,
+    "pi": 5.58,
+    "gravy": 0.069,
+    "instability_index": 25.9,
+    "instability_class": "stable",
+    "aromaticity": 0.098,
+    "aliphatic_index": 10727.3,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "virulence, detoxification, adaptation",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1274",
+        "identity": 100.0,
+        "evalue": 3.57e-105
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001308",
+        "identity": 100.0,
+        "evalue": 3.34e-105
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1241",
+      "gene": "vapB33",
+      "strand": "+",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv1243c",
+      "gene": "PE_PGRS23",
+      "strand": "-",
+      "gap": 22
+    },
+    "operon": [
+      {
+        "locus": "Rv1241",
+        "gene": "vapB33"
+      },
+      {
+        "locus": "Rv1242",
+        "gene": "vapC33"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible toxin VapC33. Contains PIN domain.",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [
+      "3.1.-.-"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.632,
+    "ci_low": -0.664,
+    "ci_high": 2.529,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 15,
+      "n_total": 53,
+      "frac": 0.283,
+      "in_mtbap": 4,
+      "in_mkc": 4,
+      "mean_pident": 48.8,
+      "classification": "restricted",
+      "species_present": [
+        "M_celatum",
+        "M_decipiens",
+        "M_innocens",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_malmoense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_riyadhense",
+        "M_shinjukuense",
+        "M_syngnathidarum",
+        "M_xenopi"
+      ],
+      "interpretation": "present in a subset of the genus (15/53 NTM; in 4 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 143,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 96.0,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1137c",
+  "gene": "Rv1137c",
+  "len_aa": 122,
+  "strand": "-",
+  "start_mtbc0": 1265087,
+  "end_mtbc0": 1265455,
+  "product_h37rv": "Hypothetical protein",
+  "verdict": "dark",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VLSARCHIRHIGSPGKDARCAHLSATLRPGIGISPTNVGNATVLADGTPAKPIQGAETMQRARHTGSCFSANARGPAISSGNPSRAGCGVPSSTTTPSSTPQAIRLLACTDSDALTVTRTAR",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Hypothetical protein",
+    "legacy_function": "Unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv1137c, (MTCI65.04c), len: 122 aa. Hypothetical unknown protein.",
+    "uniprot_ac": "O06537",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 122,
+    "mw_kda": 12.3,
+    "pi": 10.65,
+    "gravy": -0.221,
+    "instability_index": 48.8,
+    "instability_class": "unstable",
+    "aromaticity": 0.008,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O06537",
+    "reviewed": false,
+    "protein_name": "Uncharacterized protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_1137c"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1404",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 0,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 167,
+    "disrupt_frac": 0.0012,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1137c",
+    "n_partners": 4,
+    "n_context_driven": 2,
+    "partners": [
+      {
+        "rv": "Rv1138c",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 945,
+        "combined_no_tm": 945,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 737,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 801,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0735",
+        "gene": "sigL",
+        "product": "ECF RNA polymerase sigma factor SigL",
+        "hypothetical": false,
+        "combined": 798,
+        "combined_no_tm": 798,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 798,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1139c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 767,
+        "combined_no_tm": 767,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 737,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 152,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0736",
+        "gene": "rslA",
+        "product": "anti-sigma-L factor RslA",
+        "hypothetical": false,
+        "combined": 408,
+        "combined_no_tm": 409,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 409,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1138c",
+      "gene": "",
+      "product": "oxidoreductase",
+      "combined_no_tm": 945,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 737,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 801,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 29.7,
+    "band": "very low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6qlz-assembly3_C",
+        "evalue": 0.4049,
+        "prob": 0.747,
+        "tmscore": 0.5079,
+        "description": "6qlz-assembly3_C IDOL F3ab subdomain",
+        "significant": false
+      },
+      {
+        "target": "6qlz-assembly2_B",
+        "evalue": 0.3832,
+        "prob": 0.72,
+        "tmscore": 0.5097,
+        "description": "6qlz-assembly2_B IDOL F3ab subdomain",
+        "significant": false
+      },
+      {
+        "target": "6qly-assembly1_A",
+        "evalue": 0.5335,
+        "prob": 0.411,
+        "tmscore": 0.4123,
+        "description": "6qly-assembly1_A IDOL FERM domain",
+        "significant": false
+      },
+      {
+        "target": "1shs-assembly1_A",
+        "evalue": 7.957,
+        "prob": 0.063,
+        "tmscore": 0.4346,
+        "description": "1shs-assembly1_A SMALL HEAT SHOCK PROTEIN FROM METHANOCOCCUS JANNASCHII",
+        "significant": false
+      },
+      {
+        "target": "7sqc-assembly1_9E",
+        "evalue": 9.388,
+        "prob": 0.009,
+        "tmscore": 0.1979,
+        "description": "7sqc-assembly1_9E Ciliary C1 central pair apparatus isolated from Chlamydomonas reinhardtii",
+        "significant": false
+      }
+    ],
+    "plddt_gated": false
+  }
+}

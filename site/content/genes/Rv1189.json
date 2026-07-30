@@ -1,0 +1,889 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1189",
+  "mtbc0": "mtbc0_001277",
+  "np_id": "NP_215705.1",
+  "gene": "sigI",
+  "len_aa": 290,
+  "strand": "+",
+  "start_mtbc0": 1340534,
+  "end_mtbc0": 1341406,
+  "product_h37rv": "ECF RNA polymerase sigma factor SigI",
+  "product_mtbc0_pgap": "RNA polymerase sigma factor SigI",
+  "function_revised": "RNA polymerase sigma factor SigI. Pfam: Sigma70_r2 (PF04542.21), Sigma70_r4_2 (PF08281.19).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSQHDPVSAAWRAHRAYLVDLAFRMVGDIGVAEDMVQEAFSRLLRAPVGDIDDERGWLIVVTSRLCLDHIKSASTRRERPQDIAAWHDGDASVSSVDPADRVTLDDEVRLALLIMLERLGPAERVVFVLHEIFGLPYQQIATTIGSQASTCRQLAHRARRKINESRIAASVEPAQHRVVTRAFIEACSNGDLDTLLEVLDPGVAGEIDARKGVVVVGADRVGPTILRHWSHPATVLVAQPVCGQPAVLAFVNRALAGVLALSIEAGKITKIHVLVQPSTLDPLRAELGGG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Sigma70_r2",
+      "pfam_acc": "PF04542.21",
+      "i_evalue": 1e-08,
+      "ali_from": 12,
+      "ali_to": 74,
+      "description": "Sigma-70 region 2"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Sigma70_r4_2",
+      "pfam_acc": "PF08281.19",
+      "i_evalue": 1.8e-11,
+      "ali_from": 111,
+      "ali_to": 162,
+      "description": "Sigma-70, region 4"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1595",
+    "cog_cat": "K",
+    "description": "Belongs to the sigma-70 factor family. ECF subfamily",
+    "preferred_name": "sigI",
+    "ec": [],
+    "kegg_ko": [
+      "K03088"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Sigma70_r2",
+      "Sigma70_r4_2"
+    ],
+    "seed_ortholog": "419947.MRA_1199",
+    "evalue": "3.45e-205"
+  },
+  "uniprot": {
+    "acc": "P9WGH3",
+    "reviewed": true,
+    "protein_name": "Probable ECF RNA polymerase sigma factor SigI",
+    "ec": [],
+    "function": "Sigma factors are initiation factors that promote the attachment of RNA polymerase to specific initiation sites and are then released. Extracytoplasmic function (ECF) sigma factors are held in an inactive form by a cognate anti-sigma factor until released, although no anti-sigma factor is known for this protein (By similarity)",
+    "go": [
+      "GO:0003677",
+      "GO:0006352",
+      "GO:0009409",
+      "GO:0016987"
+    ],
+    "kegg": [
+      "mtu:Rv1189",
+      "mtv:RVBD_1189"
+    ],
+    "evidence": "Evidence at transcript level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 3,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 2,
+    "pN_pS": 0.593,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 2,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 2225,
+    "disrupt_frac": 0.0153,
+    "pseudogene_flag": true
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1189",
+    "n_partners": 97,
+    "n_context_driven": 11,
+    "partners": [
+      {
+        "rv": "Rv1190",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 971,
+        "combined_no_tm": 972,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 741,
+          "fusion": 0,
+          "cooccurence": 284,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1931c",
+        "gene": "",
+        "product": "transcriptional regulator",
+        "hypothetical": false,
+        "combined": 908,
+        "combined_no_tm": 905,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 489,
+          "coexpression": 822,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1725c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 871,
+        "combined_no_tm": 872,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 263,
+          "coexpression": 833,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3167c",
+        "gene": "",
+        "product": "TetR family transcriptional regulator",
+        "hypothetical": false,
+        "combined": 868,
+        "combined_no_tm": 868,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 238,
+          "coexpression": 834,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1675c",
+        "gene": "cmr",
+        "product": "HTH-type transcriptional regulator Cmr",
+        "hypothetical": false,
+        "combined": 870,
+        "combined_no_tm": 865,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 167,
+          "coexpression": 845,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv2488c",
+        "gene": "",
+        "product": "LuxR family transcriptional regulator",
+        "hypothetical": false,
+        "combined": 868,
+        "combined_no_tm": 860,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 215,
+          "coexpression": 829,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv3082c",
+        "gene": "virS",
+        "product": "HTH-type transcriptional regulator VirS",
+        "hypothetical": false,
+        "combined": 844,
+        "combined_no_tm": 838,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 42,
+          "fusion": 0,
+          "cooccurence": 208,
+          "coexpression": 804,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv3736",
+        "gene": "",
+        "product": "AraC/XylS family transcriptional regulator",
+        "hypothetical": false,
+        "combined": 842,
+        "combined_no_tm": 836,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 42,
+          "fusion": 0,
+          "cooccurence": 190,
+          "coexpression": 806,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv0894",
+        "gene": "",
+        "product": "transcriptional regulator",
+        "hypothetical": false,
+        "combined": 833,
+        "combined_no_tm": 833,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 234,
+          "coexpression": 791,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3124",
+        "gene": "moaR1",
+        "product": "transcriptional regulator MoaR",
+        "hypothetical": false,
+        "combined": 833,
+        "combined_no_tm": 833,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 833,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3055",
+        "gene": "",
+        "product": "TetR family transcriptional regulator",
+        "hypothetical": false,
+        "combined": 832,
+        "combined_no_tm": 832,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 183,
+          "coexpression": 803,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3840",
+        "gene": "",
+        "product": "transcriptional regulator",
+        "hypothetical": false,
+        "combined": 831,
+        "combined_no_tm": 832,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 831,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0887c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 831,
+        "combined_no_tm": 831,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 431,
+          "coexpression": 716,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1556",
+        "gene": "",
+        "product": "HTH-type transcriptional regulator",
+        "hypothetical": false,
+        "combined": 828,
+        "combined_no_tm": 829,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 190,
+          "coexpression": 797,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1460",
+        "gene": "sufR",
+        "product": "transcriptional regulator",
+        "hypothetical": false,
+        "combined": 825,
+        "combined_no_tm": 826,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 165,
+          "coexpression": 800,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1931c",
+      "gene": "",
+      "product": "transcriptional regulator",
+      "combined_no_tm": 905,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 0,
+        "fusion": 0,
+        "cooccurence": 489,
+        "coexpression": 822,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 75
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: ECF RNA polymerase sigma factor SigI",
+    "MTBC0 PGAP product: RNA polymerase sigma factor SigI",
+    "Pfam (hmmscan --cut_ga): Sigma70_r2 PF04542.21 (E=1e-08), Sigma70_r4_2 PF08281.19 (E=2e-11)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 77.3,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "5xe7-assembly1_A",
+        "evalue": 5.199e-12,
+        "prob": 1.0,
+        "tmscore": 0.5033,
+        "description": "5xe7-assembly1_A Crystal structure of Mycobacterium tuberculosis extracytoplasmic function sigma factor SigJ",
+        "significant": true
+      },
+      {
+        "target": "7qh5-assembly2_B",
+        "evalue": 3.804e-11,
+        "prob": 1.0,
+        "tmscore": 0.5093,
+        "description": "7qh5-assembly2_B The crystal structure of the sigma factor SigG1 from Streptomyces tsukubaensis NRRL18488",
+        "significant": true
+      },
+      {
+        "target": "5xe7-assembly2_B",
+        "evalue": 5.199e-12,
+        "prob": 1.0,
+        "tmscore": 0.4896,
+        "description": "5xe7-assembly2_B Crystal structure of Mycobacterium tuberculosis extracytoplasmic function sigma factor SigJ",
+        "significant": true
+      },
+      {
+        "target": "5wuq-assembly1_A",
+        "evalue": 0.0006269,
+        "prob": 1.0,
+        "tmscore": 0.6895,
+        "description": "5wuq-assembly1_A Crystal structure of SigW in complex with its anti-sigma RsiW, a zinc binding form",
+        "significant": true
+      },
+      {
+        "target": "5wur-assembly1_A",
+        "evalue": 0.0008039,
+        "prob": 1.0,
+        "tmscore": 0.7028,
+        "description": "5wur-assembly1_A Crystal structure of SigW in complex with its anti-sigma RsiW, an oxdized form",
+        "significant": true
+      },
+      {
+        "target": "5wur-assembly2_B",
+        "evalue": 0.001461,
+        "prob": 1.0,
+        "tmscore": 0.7062,
+        "description": "5wur-assembly2_B Crystal structure of SigW in complex with its anti-sigma RsiW, an oxdized form",
+        "significant": true
+      },
+      {
+        "target": "4kvh-assembly1_A-2",
+        "evalue": 0.0001636,
+        "prob": 1.0,
+        "tmscore": 0.6189,
+        "description": "4kvh-assembly1_A-2 Crystal structure of ketosteroid isomerase fold protein Hmuk_0747",
+        "significant": true
+      },
+      {
+        "target": "3en8-assembly1_A-2",
+        "evalue": 0.001084,
+        "prob": 1.0,
+        "tmscore": 0.762,
+        "description": "3en8-assembly1_A-2 Crystal structure of NTF-2 like protein of unknown function (YP_553245.1) from BURKHOLDERIA XENOVORANS LB400 at 1.85 A resolution",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 0.72,
+    "abundance_rank": 3318,
+    "n_ranked": 3519,
+    "abundance_percentile": 5.7,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 290,
+    "mw_kda": 31.4,
+    "pi": 6.06,
+    "gravy": 0.09,
+    "instability_index": 40.1,
+    "instability_class": "unstable",
+    "aromaticity": 0.041,
+    "aliphatic_index": 10862.1,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "information pathways",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1221",
+        "identity": 100.0,
+        "evalue": 5.37e-209
+      },
+      "M. marinum": {
+        "locus": "MMAR_4487",
+        "identity": 31.3,
+        "evalue": 1.7e-37
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001255",
+        "identity": 100.0,
+        "evalue": 5.02e-209
+      },
+      "M. abscessus": {
+        "locus": "MAB_2999c",
+        "identity": 47.0,
+        "evalue": 4.93e-70
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1188",
+      "gene": null,
+      "strand": "+",
+      "gap": 81
+    },
+    "right": {
+      "locus": "Rv1190",
+      "gene": null,
+      "strand": "+",
+      "gap": 15
+    },
+    "operon": [
+      {
+        "locus": "Rv1189",
+        "gene": "sigI"
+      },
+      {
+        "locus": "Rv1190",
+        "gene": null
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0081",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": true,
+    "regulon_size": 19,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Possible alternative RNA polymerase sigma factor SigI",
+    "legacy_function": "The sigma factor is an initiation factor that promotes attachment of the RNA polymerase to specific initiation sites and then is released",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Unc_7",
+        "function": "Uncharacterized iModulon 7",
+        "category": "Uncharacterized",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 1.005,
+    "ci_low": -1.671,
+    "ci_high": 4.253,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 5,
+      "n_syn": 3,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.119,
+      "power": "low",
+      "interpretation": "low power (5 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 51,
+      "n_total": 53,
+      "frac": 0.962,
+      "in_mtbap": 3,
+      "in_mkc": 6,
+      "mean_pident": 43.4,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 51/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 5,
+      "crossgenus_genomes": [
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 37.2,
+      "length_aa": 290,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 10,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 9,
+    "n_other": 2,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "2"
+    },
+    "summary": "10 publication(s) discuss this gene (9 in a M. tuberculosis context, 2 in other mycobacteria — M. smegmatis (2)).",
+    "papers": [
+      {
+        "title": "Divergent transcriptional regulation of redox-homeostasis and permeability modulate rifampicin tolerance and sensitivity in Mycobacterium tuberculosis.",
+        "doi": "10.1038/s41467-025-67152-2",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41392072/",
+        "date": "2025"
+      },
+      {
+        "title": "Strain identification of Mycobacterium tuberculosis in multidrug-resistant tuberculosis (MDR-TB) patients at Undata Hospital, Palu, Central Sulawesi.",
+        "doi": "10.1016/j.ijtb.2023.04.003",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39067948/",
+        "date": "2024"
+      },
+      {
+        "title": "Mycobacterial DNA-binding protein 1 is critical for BCG survival in stressful environments and simultaneously regulates gene expression.",
+        "doi": "10.1038/s41598-023-40941-9",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37644087/",
+        "date": "2023"
+      },
+      {
+        "title": "Distribution of sigma factors delineates segregation of virulent and avirulent Mycobacterium.",
+        "doi": "10.1007/s00203-020-02172-8",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33432378/",
+        "date": "2021"
+      },
+      {
+        "title": "The C-terminal domain of M. tuberculosis ECF sigma factor I (SigI) interferes in SigI-RNAP interaction.",
+        "doi": "10.1007/s00894-020-4322-y",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/32180013/",
+        "date": "2020"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 77.3,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

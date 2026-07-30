@@ -1,0 +1,956 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2753c",
+  "mtbc0": "mtbc0_002930",
+  "np_id": "NP_217269.1",
+  "gene": "dapA",
+  "len_aa": 300,
+  "strand": "-",
+  "start_mtbc0": 3088637,
+  "end_mtbc0": 3089539,
+  "product_h37rv": "4-hydroxy-tetrahydrodipicolinate synthase",
+  "product_mtbc0_pgap": "4-hydroxy-tetrahydrodipicolinate synthase",
+  "function_revised": "4-hydroxy-tetrahydrodipicolinate synthase. Pfam: DHDPS (PF00701.29).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTTVGFDVAARLGTLLTAMVTPFSGDGSLDTATAARLANHLVDQGCDGLVVSGTTGESPTTTDGEKIELLRAVLEAVGDRARVIAGAGTYDTAHSIRLAKACAAEGAHGLLVVTPYYSKPPQRGLQAHFTAVADATELPMLLYDIPGRSAVPIEPDTIRALASHPNIVGVKDAKADLHSGAQIMADTGLAYYSGDDALNLPWLAMGATGFISVIAHLAAGQLRELLSAFGSGDIATARKINIAVAPLCNAMSRLGGVTLSKAGLRLQGIDVGDPRLPQVAATPEQIDALAADMRAASVLR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "DHDPS",
+      "pfam_acc": "PF00701.29",
+      "i_evalue": 3.6e-77,
+      "ali_from": 13,
+      "ali_to": 295,
+      "description": "Dihydrodipicolinate synthetase family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0329",
+    "cog_cat": "E",
+    "description": "Catalyzes the condensation of (S)-aspartate-beta- semialdehyde (S)-ASA and pyruvate to 4-hydroxy- tetrahydrodipicolinate (HTPA)",
+    "preferred_name": "dapA",
+    "ec": [
+      "4.3.3.7"
+    ],
+    "kegg_ko": [
+      "K01714"
+    ],
+    "kegg_pathway": [
+      "map00261",
+      "map00300",
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01130",
+      "map01230"
+    ],
+    "kegg_module": [
+      "M00016",
+      "M00525",
+      "M00526",
+      "M00527"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0005575",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0006082",
+      "GO:0006520",
+      "GO:0006553",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0008652",
+      "GO:0008840",
+      "GO:0009058",
+      "GO:0009066",
+      "GO:0009067",
+      "GO:0009085",
+      "GO:0009089",
+      "GO:0009987",
+      "GO:0016020",
+      "GO:0016053",
+      "GO:0016829",
+      "GO:0016835",
+      "GO:0016836",
+      "GO:0019752",
+      "GO:0040007",
+      "GO:0043436",
+      "GO:0043648",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044249",
+      "GO:0044281",
+      "GO:0044283",
+      "GO:0044464",
+      "GO:0046394",
+      "GO:0046451",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:1901564",
+      "GO:1901566",
+      "GO:1901576",
+      "GO:1901605",
+      "GO:1901607"
+    ],
+    "pfams": [
+      "DHDPS"
+    ],
+    "seed_ortholog": "419947.MRA_2778",
+    "evalue": "8.14e-209"
+  },
+  "uniprot": {
+    "acc": "P9WP25",
+    "reviewed": true,
+    "protein_name": "4-hydroxy-tetrahydrodipicolinate synthase",
+    "ec": [
+      "4.3.3.7"
+    ],
+    "function": "Catalyzes the condensation of (S)-aspartate-beta-semialdehyde [(S)-ASA] and pyruvate to 4-hydroxy-tetrahydrodipicolinate (HTPA)",
+    "go": [
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0008840",
+      "GO:0009089",
+      "GO:0019877"
+    ],
+    "kegg": [
+      "mtu:Rv2753c",
+      "mtv:RVBD_2753c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 4,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.376,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2753c",
+    "n_partners": 71,
+    "n_context_driven": 12,
+    "partners": [
+      {
+        "rv": "Rv2773c",
+        "gene": "dapB",
+        "product": "4-hydroxy-tetrahydrodipicolinate reductase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 990,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 479,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 778
+        }
+      },
+      {
+        "rv": "Rv3708c",
+        "gene": "asd",
+        "product": "aspartate-semialdehyde dehydrogenase",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 972,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 497,
+          "coexpression": 450,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 877
+        }
+      },
+      {
+        "rv": "Rv1294",
+        "gene": "thrA",
+        "product": "homoserine dehydrogenase",
+        "hypothetical": false,
+        "combined": 962,
+        "combined_no_tm": 939,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 313,
+          "coexpression": 137,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 409
+        }
+      },
+      {
+        "rv": "Rv2752c",
+        "gene": "rnj",
+        "product": "ribonuclease J",
+        "hypothetical": false,
+        "combined": 934,
+        "combined_no_tm": 885,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 839,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 316,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 449
+        }
+      },
+      {
+        "rv": "Rv2754c",
+        "gene": "thyX",
+        "product": "thymidylate synthase ThyX",
+        "hypothetical": false,
+        "combined": 861,
+        "combined_no_tm": 822,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 795,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 162,
+          "database": 0,
+          "textmining": 255
+        }
+      },
+      {
+        "rv": "Rv1293",
+        "gene": "lysA",
+        "product": "diaminopimelate decarboxylase",
+        "hypothetical": false,
+        "combined": 961,
+        "combined_no_tm": 817,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 752,
+          "coexpression": 234,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 800
+        }
+      },
+      {
+        "rv": "Rv2726c",
+        "gene": "dapF",
+        "product": "diaminopimelate epimerase",
+        "hypothetical": false,
+        "combined": 965,
+        "combined_no_tm": 730,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 697,
+          "coexpression": 76,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 877
+        }
+      },
+      {
+        "rv": "Rv3709c",
+        "gene": "ask",
+        "product": "aspartokinase",
+        "hypothetical": false,
+        "combined": 959,
+        "combined_no_tm": 722,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 523,
+          "coexpression": 394,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 862
+        }
+      },
+      {
+        "rv": "Rv3012c",
+        "gene": "gatC",
+        "product": "glutamyl-tRNA(GLN) amidotransferase subunit C",
+        "hypothetical": false,
+        "combined": 736,
+        "combined_no_tm": 721,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 698,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv2785c",
+        "gene": "rpsO",
+        "product": "30S ribosomal protein S15",
+        "hypothetical": false,
+        "combined": 699,
+        "combined_no_tm": 699,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 169,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 653,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2756c",
+        "gene": "hsdM",
+        "product": "type I restriction/modification system DNA methylase HsdM",
+        "hypothetical": false,
+        "combined": 681,
+        "combined_no_tm": 682,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 677,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0948c",
+        "gene": "",
+        "product": "chorismate mutase",
+        "hypothetical": false,
+        "combined": 688,
+        "combined_no_tm": 669,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 650,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 96
+        }
+      },
+      {
+        "rv": "Rv1885c",
+        "gene": "",
+        "product": "chorismate mutase",
+        "hypothetical": false,
+        "combined": 687,
+        "combined_no_tm": 669,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 650,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 96
+        }
+      },
+      {
+        "rv": "Rv0706",
+        "gene": "rplV",
+        "product": "50S ribosomal protein L22",
+        "hypothetical": false,
+        "combined": 662,
+        "combined_no_tm": 662,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 63,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 654,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2762c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 755,
+        "combined_no_tm": 655,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 643,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 73,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 320
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2773c",
+      "gene": "dapB",
+      "product": "4-hydroxy-tetrahydrodipicolinate reductase",
+      "combined_no_tm": 990,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 229,
+        "fusion": 0,
+        "cooccurence": 772,
+        "coexpression": 479,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 778
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 4-hydroxy-tetrahydrodipicolinate synthase",
+    "MTBC0 PGAP product: 4-hydroxy-tetrahydrodipicolinate synthase",
+    "Pfam (hmmscan --cut_ga): DHDPS PF00701.29 (E=4e-77)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 97.8,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3l21-assembly3_F",
+        "evalue": 3.192e-50,
+        "prob": 1.0,
+        "tmscore": 0.9988,
+        "description": "3l21-assembly3_F The crystal structure of a dimeric mutant of dihydrodipicolinate synthase (DAPA, RV2753C) from Mycobacterium Tuberculosis - DHDPS-A204R",
+        "significant": true
+      },
+      {
+        "target": "5j5d-assembly1_A",
+        "evalue": 1.594e-49,
+        "prob": 1.0,
+        "tmscore": 0.9967,
+        "description": "5j5d-assembly1_A Crystal structure of Dihydrodipicolinate Synthase from Mycobacterium tuberculosis in complex with alpha-ketopimelic acid",
+        "significant": true
+      },
+      {
+        "target": "3cpr-assembly1_A",
+        "evalue": 3.293e-36,
+        "prob": 1.0,
+        "tmscore": 0.9938,
+        "description": "3cpr-assembly1_A The crystal structure of Corynebacterium glutamicum dihydrodipicolinate synthase to 2.2 A resolution",
+        "significant": true
+      },
+      {
+        "target": "5ktl-assembly1_A",
+        "evalue": 6.234e-29,
+        "prob": 1.0,
+        "tmscore": 0.9508,
+        "description": "5ktl-assembly1_A Dihydrodipicolinate synthase from the industrial and evolutionarily important cyanobacteria Anabaena variabilis.",
+        "significant": true
+      },
+      {
+        "target": "2yxg-assembly1_D",
+        "evalue": 1.039e-25,
+        "prob": 1.0,
+        "tmscore": 0.9574,
+        "description": "2yxg-assembly1_D Crystal structure of Dihyrodipicolinate Synthase (dapA)",
+        "significant": true
+      },
+      {
+        "target": "3a5f-assembly1_A",
+        "evalue": 1.573e-25,
+        "prob": 1.0,
+        "tmscore": 0.9472,
+        "description": "3a5f-assembly1_A High-resolution structure of DHDPS from Clostridium botulinum in complex with pyruvate",
+        "significant": true
+      },
+      {
+        "target": "6p90-assembly1_B",
+        "evalue": 3.425e-25,
+        "prob": 1.0,
+        "tmscore": 0.9445,
+        "description": "6p90-assembly1_B Crystal structure of PaDHDPS2-H56Q mutant",
+        "significant": true
+      },
+      {
+        "target": "2vc6-assembly1_A",
+        "evalue": 2.217e-24,
+        "prob": 1.0,
+        "tmscore": 0.9496,
+        "description": "2vc6-assembly1_A Structure of MosA from S. meliloti with pyruvate bound",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 727.0,
+    "abundance_rank": 303,
+    "n_ranked": 3519,
+    "abundance_percentile": 91.4,
+    "n_datasets": 14,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 300,
+    "mw_kda": 30.9,
+    "pi": 5.45,
+    "gravy": 0.226,
+    "instability_index": 26.3,
+    "instability_class": "stable",
+    "aromaticity": 0.04,
+    "aliphatic_index": 10196.7,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2774c",
+        "identity": 100.0,
+        "evalue": 7.34e-212
+      },
+      "M. leprae": {
+        "locus": "ML1513c",
+        "identity": 87.0,
+        "evalue": 4.21e-187
+      },
+      "M. marinum": {
+        "locus": "MMAR_1962",
+        "identity": 89.7,
+        "evalue": 1.33e-187
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_2684",
+        "identity": 75.5,
+        "evalue": 1.41e-157
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002840",
+        "identity": 99.7,
+        "evalue": 3.97e-211
+      },
+      "M. abscessus": {
+        "locus": "MAB_3084c",
+        "identity": 70.3,
+        "evalue": 1.86e-144
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 4,
+    "structures": [
+      {
+        "pdb_id": "9pcs",
+        "method": "X-ray diffraction",
+        "resolution": 1.5,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "3l21",
+        "method": "X-ray diffraction",
+        "resolution": 2.1,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "1xxx",
+        "method": "X-ray diffraction",
+        "resolution": 2.28,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "5j5d",
+        "method": "X-ray diffraction",
+        "resolution": 2.4,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "P9WP25",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2752c",
+      "gene": null,
+      "strand": "-",
+      "gap": 30
+    },
+    "right": {
+      "locus": "Rv2754c",
+      "gene": "thyX",
+      "strand": "-",
+      "gap": 68
+    },
+    "operon": [
+      {
+        "locus": "Rv2752c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2753c",
+        "gene": "dapA"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable dihydrodipicolinate synthase DapA (DHDPS) (dihydrodipicolinate synthetase)",
+    "legacy_function": "Involved in biosynthesis of diaminopimelate and lysine from aspartate semialdehyde (at the first step) [catalytic activity: L-aspartate 4-semialdehyde + pyruvate = dihydrodipicolinate + 2 H(2)O].",
+    "legacy_ec": [
+      "4.2.1.52"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "reclassified",
+    "atlas_ec": [
+      "4.3.3.7"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -8.061,
+    "ci_low": -8.96,
+    "ci_high": -7.113,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 4,
+      "n_syn": 3,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.126,
+      "power": "low",
+      "interpretation": "low power (4 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 86.6,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 55.8,
+      "length_aa": 300,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 21,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 21,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "21 publication(s) discuss this gene (21 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Computational screening of natural plant and marine compounds as potential inhibitors of Mycobacterium tuberculosis dihydrodipicolinate synthase.",
+        "doi": "10.1016/j.compbiolchem.2026.108936",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41671945/",
+        "date": "2026"
+      },
+      {
+        "title": "Crystal structure of dihydrodipicolinate synthase from Mycobacterium tuberculosis in complex with pyruvate and insights into allosteric regulation.",
+        "doi": "10.1016/j.ijbiomac.2025.147950",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41022234/",
+        "date": "2025"
+      },
+      {
+        "title": "Fortuitous In Vitro Compound Degradation Produces a Tractable Hit against Mycobacterium tuberculosis Dethiobiotin Synthetase: A Cautionary Tale of What Goes In Does Not Always Come Out.",
+        "doi": "10.1021/acschembio.3c00215",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37651626/",
+        "date": "2023"
+      },
+      {
+        "title": "Mycobacterial chaperonins in cellular proteostasis: Evidence for chaperone function of Cpn60.1 and Cpn60.2-mediated protein folding.",
+        "doi": "10.1111/mmi.15109",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37350285/",
+        "date": "2023"
+      },
+      {
+        "title": "Inhibition of Mycobacterium tuberculosis Dethiobiotin Synthase (MtDTBS): Toward Next-Generation Antituberculosis Agents.",
+        "doi": "10.1021/acschembio.1c00491",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34533923/",
+        "date": "2021"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 97.8,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

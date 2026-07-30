@@ -1,0 +1,818 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0416",
+  "mtbc0": "mtbc0_000436",
+  "np_id": "NP_214930.1",
+  "gene": "thiS",
+  "len_aa": 68,
+  "strand": "+",
+  "start_mtbc0": 505532,
+  "end_mtbc0": 505738,
+  "product_h37rv": "sulfur carrier protein ThiS",
+  "product_mtbc0_pgap": "sulfur carrier protein ThiS",
+  "function_revised": "Sulfur carrier protein ThiS. Pfam: ThiS (PF02597.27).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MIVVVNEQQVEVDEQTTIAALLDSLGFGDRGIAVALNFSVLPRSDWATKICELRKPVRLEVVTAVQGG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "ThiS",
+      "pfam_acc": "PF02597.27",
+      "i_evalue": 5.5e-10,
+      "ali_from": 7,
+      "ali_to": 68,
+      "description": "ThiS family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG2104",
+    "cog_cat": "H",
+    "description": "thiamine biosynthesis protein ThiS",
+    "preferred_name": "thiS",
+    "ec": [],
+    "kegg_ko": [
+      "K03154"
+    ],
+    "kegg_pathway": [
+      "map04122"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "ThiS"
+    ],
+    "seed_ortholog": "419947.MRA_0422",
+    "evalue": "4e-40"
+  },
+  "uniprot": {
+    "acc": "P96262",
+    "reviewed": false,
+    "protein_name": "Possible protein ThiS",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0052837",
+      "GO:0097163",
+      "GO:1902503"
+    ],
+    "kegg": [
+      "mtu:Rv0416",
+      "mtv:RVBD_0416"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 1,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.068,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0416",
+    "n_partners": 45,
+    "n_context_driven": 26,
+    "partners": [
+      {
+        "rv": "Rv0417",
+        "gene": "thiG",
+        "product": "thiazole synthase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 873,
+          "experimental": 926,
+          "database": 0,
+          "textmining": 828
+        }
+      },
+      {
+        "rv": "Rv0414c",
+        "gene": "thiE",
+        "product": "thiamine-phosphate synthase",
+        "hypothetical": false,
+        "combined": 958,
+        "combined_no_tm": 953,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 776,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 798,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 162
+        }
+      },
+      {
+        "rv": "Rv0415",
+        "gene": "thiO",
+        "product": "thiamine biosynthesis oxidoreductase ThiO",
+        "hypothetical": false,
+        "combined": 986,
+        "combined_no_tm": 929,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 430,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 817
+        }
+      },
+      {
+        "rv": "Rv0423c",
+        "gene": "thiC",
+        "product": "phosphomethylpyrimidine synthase",
+        "hypothetical": false,
+        "combined": 851,
+        "combined_no_tm": 842,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 804,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv1334",
+        "gene": "mec",
+        "product": "[CysO",
+        "hypothetical": false,
+        "combined": 848,
+        "combined_no_tm": 827,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 145,
+          "experimental": 790,
+          "database": 0,
+          "textmining": 159
+        }
+      },
+      {
+        "rv": "Rv3625c",
+        "gene": "mesJ",
+        "product": "tRNA(Ile)-lysidine synthase",
+        "hypothetical": false,
+        "combined": 821,
+        "combined_no_tm": 813,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 75,
+          "experimental": 790,
+          "database": 0,
+          "textmining": 86
+        }
+      },
+      {
+        "rv": "Rv0422c",
+        "gene": "thiD",
+        "product": "hydroxymethylpyrimidine/phosphomethylpyrimidine kinase",
+        "hypothetical": false,
+        "combined": 812,
+        "combined_no_tm": 813,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 781,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1173",
+        "gene": "fbiC",
+        "product": "FO synthase",
+        "hypothetical": false,
+        "combined": 771,
+        "combined_no_tm": 761,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 741,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 85
+        }
+      },
+      {
+        "rv": "Rv3206c",
+        "gene": "moeB1",
+        "product": "adenylyltransferase/sulfurtransferase MoeZ",
+        "hypothetical": false,
+        "combined": 774,
+        "combined_no_tm": 749,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 156,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 490,
+          "experimental": 463,
+          "database": 0,
+          "textmining": 140
+        }
+      },
+      {
+        "rv": "Rv3116",
+        "gene": "moeB2",
+        "product": "molybdenum cofactor biosynthesis protein MoeB",
+        "hypothetical": false,
+        "combined": 773,
+        "combined_no_tm": 748,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 156,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 488,
+          "experimental": 463,
+          "database": 0,
+          "textmining": 140
+        }
+      },
+      {
+        "rv": "Rv2743c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 711,
+        "combined_no_tm": 712,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 709,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2338c",
+        "gene": "moeW",
+        "product": "molybdopterin biosynthesis protein MoeW",
+        "hypothetical": false,
+        "combined": 725,
+        "combined_no_tm": 708,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 461,
+          "experimental": 463,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv2337c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 724,
+        "combined_no_tm": 707,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 460,
+          "experimental": 463,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv1355c",
+        "gene": "moeY",
+        "product": "molybdopterin biosynthesis protein MoeY",
+        "hypothetical": false,
+        "combined": 724,
+        "combined_no_tm": 707,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 459,
+          "experimental": 463,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv3196",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 715,
+        "combined_no_tm": 698,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 450,
+          "experimental": 455,
+          "database": 0,
+          "textmining": 98
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0417",
+      "gene": "thiG",
+      "product": "thiazole synthase",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 873,
+        "experimental": 926,
+        "database": 0,
+        "textmining": 828
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: sulfur carrier protein ThiS",
+    "MTBC0 PGAP product: sulfur carrier protein ThiS",
+    "Pfam (hmmscan --cut_ga): ThiS PF02597.27 (E=5e-10)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 95.0,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1zud-assembly1_4",
+        "evalue": 3.125e-05,
+        "prob": 1.0,
+        "tmscore": 0.8376,
+        "description": "1zud-assembly1_4 Structure of ThiS-ThiF protein complex",
+        "significant": true
+      },
+      {
+        "target": "2lek-assembly1_A",
+        "evalue": 0.0002857,
+        "prob": 1.0,
+        "tmscore": 0.7296,
+        "description": "2lek-assembly1_A Solution NMR structure of a Thiamine Biosynthesis (ThiS) Protein RPA3574 from Rhodopseudomonas palustris refined with NH RDCs. Northeast Structural Genomics Consortium target RpR325",
+        "significant": true
+      },
+      {
+        "target": "2k5p-assembly1_A",
+        "evalue": 0.001249,
+        "prob": 1.0,
+        "tmscore": 0.6946,
+        "description": "2k5p-assembly1_A NMR Solution Structure of a Thiamine Biosynthesis Protein from Geobacter Metallireducens: Northeast Structural Genomics Consortium Target GmR137",
+        "significant": true
+      },
+      {
+        "target": "2htm-assembly3_H",
+        "evalue": 0.002442,
+        "prob": 1.0,
+        "tmscore": 0.6999,
+        "description": "2htm-assembly3_H Crystal structure of TTHA0676 from Thermus thermophilus HB8",
+        "significant": true
+      },
+      {
+        "target": "5ztb-assembly1_E",
+        "evalue": 0.002986,
+        "prob": 1.0,
+        "tmscore": 0.6211,
+        "description": "5ztb-assembly1_E Structure of Sulfurtransferase",
+        "significant": true
+      },
+      {
+        "target": "5gha-assembly2_H",
+        "evalue": 0.004175,
+        "prob": 1.0,
+        "tmscore": 0.6345,
+        "description": "5gha-assembly2_H Sulfur Transferase TtuA in complex with Sulfur Carrier TtuB",
+        "significant": true
+      },
+      {
+        "target": "5gha-assembly1_F",
+        "evalue": 0.006675,
+        "prob": 0.998,
+        "tmscore": 0.5983,
+        "description": "5gha-assembly1_F Sulfur Transferase TtuA in complex with Sulfur Carrier TtuB",
+        "significant": true
+      },
+      {
+        "target": "8dgs-assembly1_A",
+        "evalue": 0.01825,
+        "prob": 0.995,
+        "tmscore": 0.6289,
+        "description": "8dgs-assembly1_A Cryo-EM structure of a RAS/RAF complex (state 1)",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 3.19,
+    "abundance_rank": 3081,
+    "n_ranked": 3519,
+    "abundance_percentile": 12.5,
+    "n_datasets": 3,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 68,
+    "mw_kda": 7.4,
+    "pi": 4.61,
+    "gravy": 0.324,
+    "instability_index": 20.6,
+    "instability_class": "stable",
+    "aromaticity": 0.044,
+    "aliphatic_index": 11882.4,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0424",
+        "identity": 100.0,
+        "evalue": 6.24e-44
+      },
+      "M. leprae": {
+        "locus": "ML0298c",
+        "identity": 71.6,
+        "evalue": 2.73e-29
+      },
+      "M. marinum": {
+        "locus": "MMAR_0719",
+        "identity": 76.5,
+        "evalue": 1.12e-28
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_0792",
+        "identity": 51.5,
+        "evalue": 2.73e-16
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000436",
+        "identity": 100.0,
+        "evalue": 5.83e-44
+      },
+      "M. abscessus": {
+        "locus": "MAB_4217c",
+        "identity": 50.0,
+        "evalue": 2.18e-13
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0415",
+      "gene": "thiO",
+      "strand": "+",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv0417",
+      "gene": "thiG",
+      "strand": "+",
+      "gap": -8
+    },
+    "operon": [
+      {
+        "locus": "Rv0415",
+        "gene": "thiO"
+      },
+      {
+        "locus": "Rv0416",
+        "gene": "thiS"
+      },
+      {
+        "locus": "Rv0417",
+        "gene": "thiG"
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible protein ThiS",
+    "legacy_function": "Possibly involved in thiamine biosynthesis.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Unc_9",
+        "function": "Uncharacterized iModulon 9",
+        "category": "Uncharacterized",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": -7.926,
+    "ci_low": -8.953,
+    "ci_high": -6.891,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 66.8,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 4,
+      "crossgenus_genomes": [
+        "Cdiphtheriae_NCTC13129",
+        "Mabscessus_ATCC19977",
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 47.2,
+      "length_aa": 68,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 95.0,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,1144 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0949",
+  "mtbc0": "-",
+  "np_id": "YP_177772.1",
+  "gene": "uvrD1",
+  "len_aa": 771,
+  "strand": "+",
+  "start_mtbc0": 1058260,
+  "end_mtbc0": 1060575,
+  "product_h37rv": "ATP-dependent DNA helicase UvrD",
+  "product_mtbc0_pgap": "",
+  "function_revised": "ATP-dependent DNA helicase UvrD. Pfam: UvrD-helicase (PF00580.28), AAA_19 (PF13245.13), UvrD_C (PF13361.13), UvrD_C_2 (PF13538.13), PcrA_UvrD_tudor (PF21196.4).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSVHATDAKPPGPSPADQLLDGLNPQQRQAVVHEGSPLLIVAGAGSGKTAVLTRRIAYLMAARGVGVGQILAITFTNKAAAEMRERVVGLVGEKARYMWVSTFHSTCVRILRNQAALIEGLNSNFSIYDADDSRRLLQMVGRDLGLDIKRYSPRLLANAISNLKNELIDPHQALAGLTEDSDDLARAVASVYDEYQRRLRAANALDFDDLIGETVAVLQAFPQIAQYYRRRFRHVLVDEYQDTNHAQYVLVRELVGRDSNDGIPPGELCVVGDADQSIYAFRGATIRNIEDFERDYPDTRTILLEQNYRSTQNILSAANSVIARNAGRREKRLWTDAGAGELIVGYVADNEHDEARFVAEEIDALAEGSEITYNDVAVFYRTNNSSRSLEEVLIRAGIPYKVVGGVRFYERKEIRDIVAYLRVLDNPGDAVSLRRILNTPRRGIGDRAEACVAVYAENTGVGFGDALVAAAQGKVPMLNTRAEKAIAGFVEMFDELRGRLDDDLGELVEAVLERTGYRRELEASTDPQELARLDNLNELVSVAHEFSTDRENAAALGPDDEDVPDTGVLADFLERVSLVADADEIPEHGAGVVTLMTLHTAKGLEFPVVFVTGWEDGMFPHMRALDNPTELSEERRLAYVGITRARQRLYVSRAIVRSSWGQPMLNPESRFLREIPQELIDWRRTAPKPSFSAPVSGAGRFGSARPSPTRSGASRRPLLVLQVGDRVTHDKYGLGRVEEVSGVGESAMSLIDFGSSGRVKLMHNHAPVTKL",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "UvrD-helicase",
+      "pfam_acc": "PF00580.28",
+      "i_evalue": 2.2e-92,
+      "ali_from": 23,
+      "ali_to": 297,
+      "description": "UvrD/REP helicase N-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "AAA_19",
+      "pfam_acc": "PF13245.13",
+      "i_evalue": 1.1e-21,
+      "ali_from": 27,
+      "ali_to": 282,
+      "description": "AAA domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "UvrD_C",
+      "pfam_acc": "PF13361.13",
+      "i_evalue": 2.9e-73,
+      "ali_from": 302,
+      "ali_to": 653,
+      "description": "UvrD-like helicase C-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "UvrD_C_2",
+      "pfam_acc": "PF13538.13",
+      "i_evalue": 6.1e-08,
+      "ali_from": 594,
+      "ali_to": 651,
+      "description": "UvrD-like helicase C-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "PcrA_UvrD_tudor",
+      "pfam_acc": "PF21196.4",
+      "i_evalue": 2.2e-07,
+      "ali_from": 723,
+      "ali_to": 770,
+      "description": "PcrA/UvrD tudor domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0210",
+    "cog_cat": "L",
+    "description": "ATP-dependent DNA helicase",
+    "preferred_name": "pcrA",
+    "ec": [
+      "3.6.4.12"
+    ],
+    "kegg_ko": [
+      "K03657"
+    ],
+    "kegg_pathway": [
+      "map03420",
+      "map03430"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0000018",
+      "GO:0000166",
+      "GO:0000287",
+      "GO:0003674",
+      "GO:0003678",
+      "GO:0003824",
+      "GO:0004003",
+      "GO:0004386",
+      "GO:0005488",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0006139",
+      "GO:0006259",
+      "GO:0006281",
+      "GO:0006302",
+      "GO:0006725",
+      "GO:0006807",
+      "GO:0006950",
+      "GO:0006974",
+      "GO:0006996",
+      "GO:0008026",
+      "GO:0008094",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009314",
+      "GO:0009411",
+      "GO:0009416",
+      "GO:0009628",
+      "GO:0009650",
+      "GO:0009892",
+      "GO:0009987",
+      "GO:0010605",
+      "GO:0016020",
+      "GO:0016043",
+      "GO:0016462",
+      "GO:0016787",
+      "GO:0016817",
+      "GO:0016818",
+      "GO:0016887",
+      "GO:0017076",
+      "GO:0017111",
+      "GO:0019219",
+      "GO:0019222",
+      "GO:0030312",
+      "GO:0030554",
+      "GO:0031323",
+      "GO:0031324",
+      "GO:0032392",
+      "GO:0032508",
+      "GO:0032552",
+      "GO:0032554",
+      "GO:0032558",
+      "GO:0032564",
+      "GO:0032991",
+      "GO:0033202",
+      "GO:0033554",
+      "GO:0034641",
+      "GO:0036094",
+      "GO:0040007",
+      "GO:0042623",
+      "GO:0043138",
+      "GO:0043140",
+      "GO:0043167",
+      "GO:0043168",
+      "GO:0043169",
+      "GO:0043170",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044260",
+      "GO:0044424",
+      "GO:0044464",
+      "GO:0045910",
+      "GO:0045934",
+      "GO:0046483",
+      "GO:0046872",
+      "GO:0048519",
+      "GO:0048523",
+      "GO:0050789",
+      "GO:0050794",
+      "GO:0050896",
+      "GO:0051052",
+      "GO:0051053",
+      "GO:0051171",
+      "GO:0051172",
+      "GO:0051276",
+      "GO:0051716",
+      "GO:0060255",
+      "GO:0060542",
+      "GO:0060543",
+      "GO:0065007",
+      "GO:0070035",
+      "GO:0071103",
+      "GO:0071704",
+      "GO:0071840",
+      "GO:0071944",
+      "GO:0080090",
+      "GO:0090304",
+      "GO:0097159",
+      "GO:0097367",
+      "GO:0140097",
+      "GO:1901265",
+      "GO:1901360",
+      "GO:1901363",
+      "GO:1902494"
+    ],
+    "pfams": [
+      "UvrD-helicase",
+      "UvrD_C"
+    ],
+    "seed_ortholog": "419947.MRA_0956",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WMQ1",
+    "reviewed": true,
+    "protein_name": "ATP-dependent DNA helicase UvrD1",
+    "ec": [
+      "5.6.2.4"
+    ],
+    "function": "DNA-dependent ATPase, acting on dsDNA with a 3'-ssDNA tail, unwinding with 3'-to 5'-polarity. A minimal tail of 18 nt is required for activity. Also highly efficient on nicked DNA. Involved in the post-incision events of nucleotide excision repair, as well as in nitrosative and oxidative stress response and possibly in persistence in the host. Inhibits RecA-mediated DNA strand exchange; this does not require ATPase activity. When combined with UvrA greatly inhibits RecA-mediated DNA strand exchange",
+    "go": [
+      "GO:0000287",
+      "GO:0000725",
+      "GO:0003677",
+      "GO:0005524",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006260",
+      "GO:0006302",
+      "GO:0008094",
+      "GO:0009274",
+      "GO:0009650",
+      "GO:0016887",
+      "GO:0032564",
+      "GO:0033202",
+      "GO:0043138",
+      "GO:0060543"
+    ],
+    "kegg": [
+      "mtu:Rv0949",
+      "mtv:RVBD_0949"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 13,
+    "syn": 4,
+    "missense": 9,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.77,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0949",
+    "n_partners": 62,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv3201c",
+        "gene": "adnB",
+        "product": "ATP-dependent DNA helicase",
+        "hypothetical": false,
+        "combined": 951,
+        "combined_no_tm": 952,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 146,
+          "fusion": 0,
+          "cooccurence": 211,
+          "coexpression": 0,
+          "experimental": 371,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3198c",
+        "gene": "uvrD2",
+        "product": "ATP-dependent DNA helicase UvrD",
+        "hypothetical": false,
+        "combined": 950,
+        "combined_no_tm": 926,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 281,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 360
+        }
+      },
+      {
+        "rv": "Rv3202c",
+        "gene": "adnA",
+        "product": "ATP-dependent DNA helicase",
+        "hypothetical": false,
+        "combined": 763,
+        "combined_no_tm": 764,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 146,
+          "fusion": 0,
+          "cooccurence": 144,
+          "coexpression": 55,
+          "experimental": 371,
+          "database": 540,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0937c",
+        "gene": "mku",
+        "product": "non-homologous end joining protein Ku",
+        "hypothetical": false,
+        "combined": 876,
+        "combined_no_tm": 722,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 720,
+          "textmining": 575
+        }
+      },
+      {
+        "rv": "Rv1633",
+        "gene": "uvrB",
+        "product": "excinuclease ABC subunit UvrB",
+        "hypothetical": false,
+        "combined": 984,
+        "combined_no_tm": 719,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 69,
+          "fusion": 0,
+          "cooccurence": 315,
+          "coexpression": 108,
+          "experimental": 564,
+          "database": 0,
+          "textmining": 948
+        }
+      },
+      {
+        "rv": "Rv0948c",
+        "gene": "",
+        "product": "chorismate mutase",
+        "hypothetical": false,
+        "combined": 719,
+        "combined_no_tm": 719,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 718,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2737c",
+        "gene": "recA",
+        "product": "recombinase A",
+        "hypothetical": false,
+        "combined": 946,
+        "combined_no_tm": 716,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 226,
+          "coexpression": 55,
+          "experimental": 632,
+          "database": 0,
+          "textmining": 820
+        }
+      },
+      {
+        "rv": "Rv3715c",
+        "gene": "recR",
+        "product": "recombination protein RecR",
+        "hypothetical": false,
+        "combined": 761,
+        "combined_no_tm": 661,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 650,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 326
+        }
+      },
+      {
+        "rv": "Rv1638",
+        "gene": "uvrA",
+        "product": "excinuclease ABC subunit UvrA",
+        "hypothetical": false,
+        "combined": 969,
+        "combined_no_tm": 639,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 413,
+          "coexpression": 101,
+          "experimental": 349,
+          "database": 0,
+          "textmining": 920
+        }
+      },
+      {
+        "rv": "Rv0002",
+        "gene": "dnaN",
+        "product": "DNA polymerase III subunit beta",
+        "hypothetical": false,
+        "combined": 655,
+        "combined_no_tm": 634,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 58,
+          "fusion": 0,
+          "cooccurence": 318,
+          "coexpression": 77,
+          "experimental": 456,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv3014c",
+        "gene": "ligA",
+        "product": "DNA ligase A",
+        "hypothetical": false,
+        "combined": 711,
+        "combined_no_tm": 588,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 208,
+          "coexpression": 484,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 329
+        }
+      },
+      {
+        "rv": "Rv0667",
+        "gene": "rpoB",
+        "product": "DNA-directed RNA polymerase subunit beta",
+        "hypothetical": false,
+        "combined": 592,
+        "combined_no_tm": 554,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 249,
+          "coexpression": 0,
+          "experimental": 431,
+          "database": 0,
+          "textmining": 123
+        }
+      },
+      {
+        "rv": "Rv2090",
+        "gene": "",
+        "product": "5'-3' exonuclease",
+        "hypothetical": false,
+        "combined": 574,
+        "combined_no_tm": 547,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 301,
+          "coexpression": 0,
+          "experimental": 358,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv2841c",
+        "gene": "nusA",
+        "product": "transcription termination/antitermination protein NusA",
+        "hypothetical": false,
+        "combined": 544,
+        "combined_no_tm": 544,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 64,
+          "fusion": 0,
+          "cooccurence": 265,
+          "coexpression": 391,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3646c",
+        "gene": "topA",
+        "product": "DNA topoisomerase I",
+        "hypothetical": false,
+        "combined": 657,
+        "combined_no_tm": 533,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 185,
+          "coexpression": 60,
+          "experimental": 407,
+          "database": 0,
+          "textmining": 297
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0948c",
+      "gene": "",
+      "product": "chorismate mutase",
+      "combined_no_tm": 719,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 718,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 44,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): ATP-dependent DNA helicase UvrD",
+    "Pfam (hmmscan --cut_ga): UvrD-helicase PF00580.28 (E=2e-92), AAA_19 PF13245.13 (E=1e-21), UvrD_C PF13361.13 (E=3e-73), UvrD_C_2 PF13538.13 (E=6e-08), PcrA_UvrD_tudor PF21196.4 (E=2e-07)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 87.4,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2is1-assembly1_A",
+        "evalue": 5.572e-58,
+        "prob": 1.0,
+        "tmscore": 0.9424,
+        "description": "2is1-assembly1_A Crystal structure of UvrD-DNA-SO4 complex",
+        "significant": true
+      },
+      {
+        "target": "2is6-assembly1_A",
+        "evalue": 8.46e-58,
+        "prob": 1.0,
+        "tmscore": 0.9071,
+        "description": "2is6-assembly1_A Crystal structure of UvrD-DNA-ADPMgF3 ternary complex",
+        "significant": true
+      },
+      {
+        "target": "3pjr-assembly1_A",
+        "evalue": 4.934e-57,
+        "prob": 1.0,
+        "tmscore": 0.914,
+        "description": "3pjr-assembly1_A HELICASE SUBSTRATE COMPLEX",
+        "significant": true
+      },
+      {
+        "target": "2is6-assembly1_B",
+        "evalue": 3.912e-57,
+        "prob": 1.0,
+        "tmscore": 0.8907,
+        "description": "2is6-assembly1_B Crystal structure of UvrD-DNA-ADPMgF3 ternary complex",
+        "significant": true
+      },
+      {
+        "target": "2is4-assembly1_A",
+        "evalue": 2.877e-56,
+        "prob": 1.0,
+        "tmscore": 0.8887,
+        "description": "2is4-assembly1_A Crystal structure of UvrD-DNA-ADPNP ternary complex",
+        "significant": true
+      },
+      {
+        "target": "2is2-assembly1_A",
+        "evalue": 2.256e-54,
+        "prob": 1.0,
+        "tmscore": 0.9182,
+        "description": "2is2-assembly1_A Crystal structure of UvrD-DNA binary complex",
+        "significant": true
+      },
+      {
+        "target": "2is1-assembly2_B",
+        "evalue": 1.444e-53,
+        "prob": 1.0,
+        "tmscore": 0.9419,
+        "description": "2is1-assembly2_B Crystal structure of UvrD-DNA-SO4 complex",
+        "significant": true
+      },
+      {
+        "target": "2is4-assembly1_B",
+        "evalue": 3.067e-55,
+        "prob": 1.0,
+        "tmscore": 0.8991,
+        "description": "2is4-assembly1_B Crystal structure of UvrD-DNA-ADPNP ternary complex",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 23.9,
+    "abundance_rank": 2223,
+    "n_ranked": 3519,
+    "abundance_percentile": 36.9,
+    "n_datasets": 10,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 771,
+    "mw_kda": 85.0,
+    "pi": 5.36,
+    "gravy": -0.273,
+    "instability_index": 41.5,
+    "instability_class": "unstable",
+    "aromaticity": 0.067,
+    "aliphatic_index": 9262.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "information pathways",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0974",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. leprae": {
+        "locus": "ML0153",
+        "identity": 81.4,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_4553",
+        "identity": 88.9,
+        "evalue": 0.0
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5534",
+        "identity": 82.6,
+        "evalue": 0.0
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001002",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_1054",
+        "identity": 75.3,
+        "evalue": 0.0
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 3,
+    "n_in_vivo": 2,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 3.96,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 45",
+        "category": "in vivo",
+        "log2fc": -3.49,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=663) from Euro-American lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 1.92,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {
+    "n_structures": 4,
+    "structures": [
+      {
+        "pdb_id": "9dci",
+        "method": "Electron Microscopy",
+        "resolution": 4.07,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "9des",
+        "method": "Electron Microscopy",
+        "resolution": 7.0,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "9dgy",
+        "method": "Electron Microscopy",
+        "resolution": 7.0,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "9dqs",
+        "method": "X-ray diffraction",
+        "resolution": 2.59,
+        "coverage": 0.07
+      }
+    ],
+    "acc": "P9WMQ1",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0948c",
+      "gene": null,
+      "strand": "-",
+      "gap": 296
+    },
+    "right": {
+      "locus": "Rv0950c",
+      "gene": null,
+      "strand": "-",
+      "gap": 80
+    },
+    "operon": [
+      {
+        "locus": "Rv0949",
+        "gene": "uvrD1"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv2034",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable ATP-dependent DNA helicase II UvrD1",
+    "legacy_function": "Involved in nucleotide excision repair. Has a 3'-5' helicase activity in presence of ATP. Preferred substrate being one with both single and double stranded regions of DNA.",
+    "legacy_ec": [
+      "3.6.4.12"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "3.6.4.12",
+      "5.6.2.4"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "ptm": {
+    "n_sites": 1,
+    "n_phospho": 0,
+    "sites": [
+      {
+        "pos": 2,
+        "type": "N-acetylserine"
+      }
+    ],
+    "note": "Experimentally reported post-translational modification(s). A phosphosite indicates the protein is expressed and is a substrate of the M. tuberculosis Ser/Thr/Tyr kinase signalling network — a regulatory context, NOT a molecular function.",
+    "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+    "reference": {
+      "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+      "db": "UniProtKB",
+      "url": "https://www.uniprot.org"
+    }
+  },
+  "vulnerability": {
+    "vi": -2.031,
+    "ci_low": -6.049,
+    "ci_high": 3.125,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 2,
+      "n_nonsyn": 0,
+      "n_disruptive": 0,
+      "dN_dS": 0.0,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 88.2,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 59.1,
+      "length_aa": 771,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 15,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 11,
+    "n_other": 5,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "5"
+    },
+    "summary": "15 publication(s) discuss this gene (11 in a M. tuberculosis context, 5 in other mycobacteria — M. smegmatis (5)).",
+    "papers": [
+      {
+        "title": "A Conserved Mechanism for Dimerization and Activation of Superfamily 1A UvrD-family Helicases.",
+        "doi": "10.64898/2026.05.20.726581",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/42239346/",
+        "date": "2026"
+      },
+      {
+        "title": "A conundrum resolved: regulation and activation of UvrD-family DNA helicases/translocases.",
+        "doi": "10.1016/j.tibs.2026.02.005",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41839715/",
+        "date": "2026"
+      },
+      {
+        "title": "In vivo nucleotide excision repair by mycobacterial UvrD1 requires ATP hydrolysis but does not depend on cysteine disulfide-mediated dimerization and DNA unwinding.",
+        "doi": "10.1093/nar/gkaf269",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40193706/",
+        "date": "2025"
+      },
+      {
+        "title": "Structural basis for dimerization and activation of UvrD-family helicases.",
+        "doi": "10.1073/pnas.2422330122",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40048277/",
+        "date": "2025"
+      },
+      {
+        "title": "Structural Basis for Dimerization and Activation of UvrD-family Helicases.",
+        "doi": "10.1101/2024.09.05.611425",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39282289/",
+        "date": "2024"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.071,
+    "classification": "ordered",
+    "n_idr": 2,
+    "longest_idr": 32,
+    "total_idr_residues": 55,
+    "idr_regions": [
+      [
+        0,
+        23
+      ],
+      [
+        684,
+        716
+      ]
+    ],
+    "mean_plddt": 87.4,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

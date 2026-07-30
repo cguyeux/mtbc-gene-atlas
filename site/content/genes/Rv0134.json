@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0134",
+  "mtbc0": "mtbc0_000145",
+  "np_id": "NP_214648.1",
+  "gene": "ephF",
+  "len_aa": 300,
+  "strand": "+",
+  "start_mtbc0": 162117,
+  "end_mtbc0": 163019,
+  "product_h37rv": "epoxide hydrolase EphF",
+  "product_mtbc0_pgap": "alpha/beta hydrolase",
+  "function_revised": "Alpha/beta hydrolase. Pfam: Abhydrolase_1 (PF00561.27), Hydrolase_4 (PF12146.16), Abhydrolase_6 (PF12697.14).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MIALPALEGVEHRHVDVAEGVRIHVADAGPADGPAVMLVHGFPQNWWEWRDLIGPLAADGNRVLCPDLRGAGWSSAPRSRYTKTEMADDLAAVLDGLGVAKVKLVAHDWGGPVAFIMMLRHPEKVTGFFGVNTVAPWVKRDLGMLRNMWRFWYQIPMSLPVIGPRVISDPKGRYFRLLTGWVGGGFRVPDDDVRLYLDCMREPGHAEAGSRWYRTFQTREMLRWLRGEYNDARVDVPVRWLHGTGDPVITPDLLDGYAERASDFEVELVDGVGHWIVEQRPELVLDRVRAFLAAGTEQRD",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Abhydrolase_1",
+      "pfam_acc": "PF00561.27",
+      "i_evalue": 1.6e-33,
+      "ali_from": 34,
+      "ali_to": 281,
+      "description": "alpha/beta hydrolase fold"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Hydrolase_4",
+      "pfam_acc": "PF12146.16",
+      "i_evalue": 3.5e-09,
+      "ali_from": 35,
+      "ali_to": 144,
+      "description": "Serine aminopeptidase, S33"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Abhydrolase_6",
+      "pfam_acc": "PF12697.14",
+      "i_evalue": 2.8e-19,
+      "ali_from": 36,
+      "ali_to": 286,
+      "description": "Alpha/beta hydrolase family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG2267",
+    "cog_cat": "I",
+    "description": "epoxide hydrolase",
+    "preferred_name": "ephF",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Abhydrolase_1"
+    ],
+    "seed_ortholog": "419947.MRA_0141",
+    "evalue": "3.42e-235"
+  },
+  "uniprot": {
+    "acc": "P96811",
+    "reviewed": false,
+    "protein_name": "Possible epoxide hydrolase EphF",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0005886",
+      "GO:0016787"
+    ],
+    "kegg": [
+      "mtu:Rv0134",
+      "mtv:RVBD_0134"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 9,
+    "syn": 3,
+    "missense": 5,
+    "nonsense": 1,
+    "frameshift": 4,
+    "pN_pS": 0.66,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 5,
+    "disrupt_mode": "convergent",
+    "disrupt_strains": 55294,
+    "disrupt_frac": 0.3808,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0134",
+    "n_partners": 30,
+    "n_context_driven": 6,
+    "partners": [
+      {
+        "rv": "Rv3171c",
+        "gene": "hpx",
+        "product": "non-heme haloperoxidase Hpx",
+        "hypothetical": false,
+        "combined": 697,
+        "combined_no_tm": 698,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 696,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0554",
+        "gene": "bpoC",
+        "product": "non-heme bromoperoxidase BpoC",
+        "hypothetical": false,
+        "combined": 559,
+        "combined_no_tm": 559,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 559,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2048c",
+        "gene": "pks12",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 531,
+        "combined_no_tm": 504,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 83,
+          "experimental": 441,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv2940c",
+        "gene": "mas",
+        "product": "multifunctional mycocerosic acid synthase",
+        "hypothetical": false,
+        "combined": 530,
+        "combined_no_tm": 503,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 81,
+          "experimental": 441,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv2933",
+        "gene": "ppsC",
+        "product": "phthiocerol synthesis polyketide synthase type I PpsC",
+        "hypothetical": false,
+        "combined": 528,
+        "combined_no_tm": 501,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 77,
+          "experimental": 441,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv1527c",
+        "gene": "pks5",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 526,
+        "combined_no_tm": 499,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 73,
+          "experimental": 441,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv3825c",
+        "gene": "pks2",
+        "product": "phthioceranic/hydroxyphthioceranic acid synthase",
+        "hypothetical": false,
+        "combined": 526,
+        "combined_no_tm": 498,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 72,
+          "experimental": 441,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv0077c",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 489,
+        "combined_no_tm": 489,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 489,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0983",
+        "gene": "pepD",
+        "product": "serine protease PepD",
+        "hypothetical": false,
+        "combined": 485,
+        "combined_no_tm": 484,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 49,
+          "fusion": 0,
+          "cooccurence": 222,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 355,
+          "textmining": 43
+        }
+      },
+      {
+        "rv": "Rv3569c",
+        "gene": "hsaD",
+        "product": "4,5-9,10-diseco-3-hydroxy-5,9,17-trioxoandrosta-1(10),2-diene-4-oate hydrolase",
+        "hypothetical": false,
+        "combined": 472,
+        "combined_no_tm": 473,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 470,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3254",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 471,
+        "combined_no_tm": 462,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 446,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 56
+        }
+      },
+      {
+        "rv": "Rv2946c",
+        "gene": "pks1",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 489,
+        "combined_no_tm": 459,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 82,
+          "experimental": 391,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv1223",
+        "gene": "htrA",
+        "product": "serine protease HtrA",
+        "hypothetical": false,
+        "combined": 455,
+        "combined_no_tm": 455,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 49,
+          "fusion": 0,
+          "cooccurence": 163,
+          "coexpression": 63,
+          "experimental": 0,
+          "database": 355,
+          "textmining": 43
+        }
+      },
+      {
+        "rv": "Rv0132c",
+        "gene": "fgd2",
+        "product": "F420-dependent glucose-6-phosphate dehydrogenase",
+        "hypothetical": false,
+        "combined": 454,
+        "combined_no_tm": 454,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 314,
+          "fusion": 0,
+          "cooccurence": 212,
+          "coexpression": 71,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0125",
+        "gene": "pepA",
+        "product": "serine protease PepA",
+        "hypothetical": false,
+        "combined": 440,
+        "combined_no_tm": 440,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 49,
+          "fusion": 0,
+          "cooccurence": 158,
+          "coexpression": 43,
+          "experimental": 0,
+          "database": 355,
+          "textmining": 43
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3171c",
+      "gene": "hpx",
+      "product": "non-heme haloperoxidase Hpx",
+      "combined_no_tm": 698,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 0,
+        "fusion": 0,
+        "cooccurence": 696,
+        "coexpression": 47,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: epoxide hydrolase EphF",
+    "MTBC0 PGAP product: alpha/beta hydrolase",
+    "Pfam (hmmscan --cut_ga): Abhydrolase_1 PF00561.27 (E=2e-33), Hydrolase_4 PF12146.16 (E=3e-09), Abhydrolase_6 PF12697.14 (E=3e-19)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 93.9,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7jqx-assembly1_A",
+        "evalue": 1.943e-23,
+        "prob": 1.0,
+        "tmscore": 0.8712,
+        "description": "7jqx-assembly1_A Crystal structure of Cfl1 wild-type from Burkholderia cenocepacia",
+        "significant": true
+      },
+      {
+        "target": "7ac0-assembly1_HHH",
+        "evalue": 2.925e-23,
+        "prob": 1.0,
+        "tmscore": 0.8652,
+        "description": "7ac0-assembly1_HHH Epoxide hydrolase CorEH without ligand",
+        "significant": true
+      },
+      {
+        "target": "7jqy-assembly1_B",
+        "evalue": 2.455e-23,
+        "prob": 1.0,
+        "tmscore": 0.8603,
+        "description": "7jqy-assembly1_B Crystal structure of Cfl1-D123S from Burkholderia cenocepacia",
+        "significant": true
+      },
+      {
+        "target": "7jqz-assembly1_J",
+        "evalue": 3.606e-22,
+        "prob": 1.0,
+        "tmscore": 0.8207,
+        "description": "7jqz-assembly1_J Crystal structure of Cfl2 wild-type from Burkholderia cenocepacia",
+        "significant": true
+      },
+      {
+        "target": "4baz-assembly1_A",
+        "evalue": 3.768e-19,
+        "prob": 1.0,
+        "tmscore": 0.8205,
+        "description": "4baz-assembly1_A Structure of a putative epoxide hydrolase Q244E mutant from Pseudomonas aeruginosa.",
+        "significant": true
+      },
+      {
+        "target": "6y9f-assembly1_A",
+        "evalue": 4.235e-19,
+        "prob": 1.0,
+        "tmscore": 0.7836,
+        "description": "6y9f-assembly1_A Crystal structure of putative ancestral haloalkane dehalogenase AncHLD3 (node 3)",
+        "significant": true
+      },
+      {
+        "target": "3u1t-assembly2_B",
+        "evalue": 3.353e-19,
+        "prob": 1.0,
+        "tmscore": 0.7516,
+        "description": "3u1t-assembly2_B Haloalkane Dehalogenase, DmmA, of marine microbial origin",
+        "significant": true
+      },
+      {
+        "target": "3wi7-assembly2_B",
+        "evalue": 1.721e-18,
+        "prob": 1.0,
+        "tmscore": 0.7929,
+        "description": "3wi7-assembly2_B Crystal Structure of the Novel Haloalkane Dehalogenase DatA from Agrobacterium tumefaciens C58",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 46.8,
+    "abundance_rank": 1800,
+    "n_ranked": 3519,
+    "abundance_percentile": 48.9,
+    "n_datasets": 12,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 300,
+    "mw_kda": 33.8,
+    "pi": 5.87,
+    "gravy": -0.196,
+    "instability_index": 32.3,
+    "instability_class": "stable",
+    "aromaticity": 0.1,
+    "aliphatic_index": 8770.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "virulence, detoxification, adaptation",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. marinum": {
+        "locus": "MMAR_0342",
+        "identity": 78.4,
+        "evalue": 8.11e-188
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_6719",
+        "identity": 31.9,
+        "evalue": 6.99e-35
+      },
+      "M. abscessus": {
+        "locus": "MAB_4522c",
+        "identity": 37.5,
+        "evalue": 1.17e-67
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0133",
+      "gene": null,
+      "strand": "+",
+      "gap": 296
+    },
+    "right": {
+      "locus": "Rv0135c",
+      "gene": null,
+      "strand": "-",
+      "gap": -30
+    },
+    "operon": [
+      {
+        "locus": "Rv0134",
+        "gene": "ephF"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible epoxide hydrolase EphF (epoxide hydratase) (arene-oxide hydratase)",
+    "legacy_function": "Thought to be involved in detoxification reactions following oxidative damage to lipids [catalytic activity: an epoxide + H(2)O = a glycol].",
+    "legacy_ec": [
+      "3.3.2.3"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 1.111,
+    "ci_low": -0.625,
+    "ci_high": 3.845,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 1,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.331,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 50,
+      "n_total": 53,
+      "frac": 0.943,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 77.6,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 50/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 2,
+      "crossgenus_genomes": [
+        "Mabscessus_ATCC19977",
+        "Scoelicolor_A3-2"
+      ],
+      "mean_pident": 34.5,
+      "length_aa": 300,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 2,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "2 publication(s) discuss this gene (2 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Tailored phenyl ureas eradicate drug-resistant Mycobacterium tuberculosis by targeting mycolic acid cell wall assembly.",
+        "doi": "10.1039/d5sc02565f",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40313523/",
+        "date": "2025"
+      },
+      {
+        "title": "Changes in Transcript, Metabolite, and Antibody Reactivity During the Early Protective Immune Response in Humans to Mycobacterium tuberculosis Infection.",
+        "doi": "10.1093/cid/ciz785",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/31412355/",
+        "date": "2020"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 93.9,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

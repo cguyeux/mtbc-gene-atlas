@@ -1,0 +1,874 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1704c",
+  "mtbc0": "mtbc0_001813",
+  "np_id": "NP_216220.1",
+  "gene": "cycA",
+  "len_aa": 556,
+  "strand": "-",
+  "start_mtbc0": 1941801,
+  "end_mtbc0": 1943471,
+  "product_h37rv": "D-serine/alanine/glycine transporter protein CycA",
+  "product_mtbc0_pgap": "amino acid permease",
+  "function_revised": "Amino acid permease. Pfam: AA_permease (PF00324.28), AA_permease_2 (PF13520.13).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MPDDIAAADPTDTQPHLRRDLANRHIQLIAIGGAIGTGLFMGSGRTISLAGPAVMVVYGIIGFFVFFVLRAMGELLLSNLNYKSFVDFAADLLGPAAGFFVGWSYWFAWVVTGIADLVAITGYARFWWPGLPIWVPALVTVALILAVNLFSVRHFGELEFWFALIKVAAIVCLIAVGAILVATNFVSPHGVHATIENLWNDNGFFPTGFLGVVSGFQIAFFAYIGVELVGTAAAETADPRRTLPRAINAVPLRVAVFYIGALLAILAVVPWRQFASGESPFVTMFSLAGLAAAASVVNFVVVTAAASSANSGFFSTGRMLFGLADEGHAPAAFHQLNRGGVPAPALLLTAPLLLTSIPLLYAGRSVIGAFTLVTTVSSLLFMFVWAMIIISYLVYRRRHPQRHTDSVYKMPGGVVMCWAVLVFFAFVIWTLTTETETATALAWFPLWFVLLAVGWLVTQRRQSRRSFGFHCQVVGVRQQLGRGMARLAMKIHARPKLRSAVVVEPVSAGEPGARRSAKSVRKLASDDSQSAHCPVAVVGLADGGRDPQYHHDGPDR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "AA_permease",
+      "pfam_acc": "PF00324.28",
+      "i_evalue": 5.7e-106,
+      "ali_from": 25,
+      "ali_to": 438,
+      "description": "Amino acid permease"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "AA_permease_2",
+      "pfam_acc": "PF13520.13",
+      "i_evalue": 1.4e-38,
+      "ali_from": 29,
+      "ali_to": 451,
+      "description": "Amino acid permease"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1113",
+    "cog_cat": "E",
+    "description": "permease",
+    "preferred_name": "cycA",
+    "ec": [],
+    "kegg_ko": [
+      "K03293",
+      "K11737",
+      "K16234"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "AA_permease"
+    ],
+    "seed_ortholog": "419947.MRA_1713",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "O33203",
+    "reviewed": false,
+    "protein_name": "Probable D-serine/alanine/glycine transporter protein CycA",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006865",
+      "GO:0022857"
+    ],
+    "kegg": [
+      "mtu:Rv1704c",
+      "mtv:RVBD_1704c"
+    ],
+    "evidence": "Inferred from homology"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 12,
+    "syn": 3,
+    "missense": 9,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.061,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1704c",
+    "n_partners": 26,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv1705c",
+        "gene": "PPE22",
+        "product": "PPE family protein PPE22",
+        "hypothetical": false,
+        "combined": 716,
+        "combined_no_tm": 716,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 714,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1703c",
+        "gene": "",
+        "product": "methyltransferase",
+        "hypothetical": false,
+        "combined": 673,
+        "combined_no_tm": 673,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 664,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 68,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1706c",
+        "gene": "PPE23",
+        "product": "PPE family protein PPE23",
+        "hypothetical": false,
+        "combined": 566,
+        "combined_no_tm": 566,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 564,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1979c",
+        "gene": "",
+        "product": "permease",
+        "hypothetical": false,
+        "combined": 430,
+        "combined_no_tm": 259,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 51,
+          "fusion": 0,
+          "cooccurence": 227,
+          "coexpression": 71,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 262
+        }
+      },
+      {
+        "rv": "Rv3331",
+        "gene": "sugI",
+        "product": "sugar-transport integral membrane protein SugI",
+        "hypothetical": false,
+        "combined": 449,
+        "combined_no_tm": 232,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 229,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 312
+        }
+      },
+      {
+        "rv": "Rv3772",
+        "gene": "hisC2",
+        "product": "histidinol-phosphate aminotransferase",
+        "hypothetical": false,
+        "combined": 535,
+        "combined_no_tm": 90,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 87,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 511
+        }
+      },
+      {
+        "rv": "Rv3423c",
+        "gene": "alr",
+        "product": "alanine racemase",
+        "hypothetical": false,
+        "combined": 781,
+        "combined_no_tm": 81,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 772
+        }
+      },
+      {
+        "rv": "Rv0407",
+        "gene": "fgd1",
+        "product": "F420-dependent glucose-6-phosphate dehydrogenase",
+        "hypothetical": false,
+        "combined": 587,
+        "combined_no_tm": 73,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 73,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 573
+        }
+      },
+      {
+        "rv": "Rv3859c",
+        "gene": "gltB",
+        "product": "glutamate synthase large subunit",
+        "hypothetical": false,
+        "combined": 410,
+        "combined_no_tm": 67,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 395
+        }
+      },
+      {
+        "rv": "Rv0701",
+        "gene": "rplC",
+        "product": "50S ribosomal protein L3",
+        "hypothetical": false,
+        "combined": 551,
+        "combined_no_tm": 64,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 540
+        }
+      },
+      {
+        "rv": "Rv3261",
+        "gene": "fbiA",
+        "product": "2-phospho-L-lactate transferase",
+        "hypothetical": false,
+        "combined": 421,
+        "combined_no_tm": 64,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 407
+        }
+      },
+      {
+        "rv": "Rv3262",
+        "gene": "fbiB",
+        "product": "coenzyme F420:L-glutamate ligase",
+        "hypothetical": false,
+        "combined": 512,
+        "combined_no_tm": 55,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 506
+        }
+      },
+      {
+        "rv": "Rv1305",
+        "gene": "atpE",
+        "product": "ATP synthase subunit C",
+        "hypothetical": false,
+        "combined": 417,
+        "combined_no_tm": 53,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 53,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 410
+        }
+      },
+      {
+        "rv": "Rv2447c",
+        "gene": "folC",
+        "product": "folylpolyglutamate synthase FolC",
+        "hypothetical": false,
+        "combined": 416,
+        "combined_no_tm": 53,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 53,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 409
+        }
+      },
+      {
+        "rv": "Rv0006",
+        "gene": "gyrA",
+        "product": "DNA gyrase subunit A",
+        "hypothetical": false,
+        "combined": 469,
+        "combined_no_tm": 51,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 464
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1705c",
+      "gene": "PPE22",
+      "product": "PPE family protein PPE22",
+      "combined_no_tm": 716,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 714,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 47,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: D-serine/alanine/glycine transporter protein CycA",
+    "MTBC0 PGAP product: amino acid permease",
+    "Pfam (hmmscan --cut_ga): AA_permease PF00324.28 (E=6e-106), AA_permease_2 PF13520.13 (E=1e-38)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 80.3,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6f34-assembly1_A",
+        "evalue": 1.258e-14,
+        "prob": 1.0,
+        "tmscore": 0.802,
+        "description": "6f34-assembly1_A Crystal structure of a bacterial cationic amino acid transporter (CAT) homologue bound to Arginine.",
+        "significant": true
+      },
+      {
+        "target": "5oqt-assembly1_A",
+        "evalue": 2.579e-14,
+        "prob": 1.0,
+        "tmscore": 0.8079,
+        "description": "5oqt-assembly1_A Crystal structure of a bacterial cationic amino acid transporter (CAT) homologue",
+        "significant": true
+      },
+      {
+        "target": "9h76-assembly1_A",
+        "evalue": 4.281e-14,
+        "prob": 1.0,
+        "tmscore": 0.8284,
+        "description": "9h76-assembly1_A Bacterial LAT transporter BASC in complex with L-Ala and NB53",
+        "significant": true
+      },
+      {
+        "target": "7o82-assembly1_B",
+        "evalue": 3.615e-14,
+        "prob": 1.0,
+        "tmscore": 0.801,
+        "description": "7o82-assembly1_B The L-arginine/agmatine antiporter from E. coli at 1.7 A resolution",
+        "significant": true
+      },
+      {
+        "target": "8a6l-assembly1_B",
+        "evalue": 6.259e-14,
+        "prob": 1.0,
+        "tmscore": 0.7898,
+        "description": "8a6l-assembly1_B Human 4F2hc-LAT2 heterodimeric amino acid transporter in complex with anticalin D11vs",
+        "significant": true
+      },
+      {
+        "target": "8wny-assembly1_B",
+        "evalue": 5.753e-14,
+        "prob": 1.0,
+        "tmscore": 0.7765,
+        "description": "8wny-assembly1_B Cryo EM map of SLC7A10-SLC3A2 complex in the D-serine bound state",
+        "significant": true
+      },
+      {
+        "target": "3ob6-assembly1_A",
+        "evalue": 2.317e-13,
+        "prob": 1.0,
+        "tmscore": 0.8124,
+        "description": "3ob6-assembly1_A Structure of AdiC(N101A) in the open-to-out Arg+ bound conformation",
+        "significant": true
+      },
+      {
+        "target": "8ida-assembly1_B",
+        "evalue": 7.731e-14,
+        "prob": 1.0,
+        "tmscore": 0.7784,
+        "description": "8ida-assembly1_B Overall structure of the LAT1-4F2hc bound with tyrosine",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 12,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (12 TM helixes)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 9.93,
+    "abundance_rank": 2684,
+    "n_ranked": 3519,
+    "abundance_percentile": 23.8,
+    "n_datasets": 8,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 556,
+    "mw_kda": 60.0,
+    "pi": 9.65,
+    "gravy": 0.625,
+    "instability_index": 37.4,
+    "instability_class": "stable",
+    "aromaticity": 0.121,
+    "aliphatic_index": 10773.4,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1730c",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_1093",
+        "identity": 80.0,
+        "evalue": 4.57e-266
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3587",
+        "identity": 62.3,
+        "evalue": 9.07e-201
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001782",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_3866c",
+        "identity": 41.3,
+        "evalue": 2.53e-105
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv1703c",
+      "gene": null,
+      "strand": "-",
+      "gap": -95
+    },
+    "right": {
+      "locus": "Rv1705c",
+      "gene": "PPE22",
+      "strand": "-",
+      "gap": 40
+    },
+    "operon": [
+      {
+        "locus": "Rv1703c",
+        "gene": null
+      },
+      {
+        "locus": "Rv1704c",
+        "gene": "cycA"
+      },
+      {
+        "locus": "Rv1705c",
+        "gene": "PPE22"
+      },
+      {
+        "locus": "Rv1706c",
+        "gene": "PPE23"
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable D-serine/alanine/glycine transporter protein CycA",
+    "legacy_function": "Permease that is involved in the transport across the cytoplasmic membrane of D-alanine, D-serine and glycine",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 1.276,
+    "ci_low": -0.526,
+    "ci_high": 4.048,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 0,
+      "n_nonsyn": 2,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 52,
+      "n_total": 53,
+      "frac": 0.981,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 59.7,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 47.2,
+      "length_aa": 556,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 7,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 7,
+    "n_other": 2,
+    "n_ortholog_tag": 1,
+    "other_species": {
+      "M. marinum": "1",
+      "M. smegmatis": "1"
+    },
+    "summary": "7 publication(s) discuss this gene (7 in a M. tuberculosis context, 2 in other mycobacteria — M. marinum (1), M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "A meta-proteomics approach using autopsy material from the pre-antibiotic era from patients with untreated pulmonary tuberculosis to identify proteins present in early lesions of post-primary tuberculosis.",
+        "doi": "10.1371/journal.pone.0345052",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41920848/",
+        "date": "2026"
+      },
+      {
+        "title": "High clustering rate and genotypic drug-susceptibility screening for the newly recommended anti-tuberculosis drugs among global extensively drug-resistant Mycobacterium tuberculosis isolates.",
+        "doi": "10.1080/22221751.2022.2099304",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35792049/",
+        "date": "2022"
+      },
+      {
+        "title": "Minimum inhibitory concentration of cycloserine against Mycobacterium tuberculosis using the MGIT 960 system and a proposed critical concentration.",
+        "doi": "10.1016/j.ijid.2022.05.030",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35577251/",
+        "date": "2022"
+      },
+      {
+        "title": "DNA vaccination with the Mycobacterium marinum MMAR_4110 antigen inhibits reactivation of a latent mycobacterial infection in the adult Zebrafish.",
+        "doi": "10.1016/j.vaccine.2020.06.053",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/32624250/",
+        "date": "2020"
+      },
+      {
+        "title": "Identification of novel mutations associated with cycloserine resistance in Mycobacterium tuberculosis.",
+        "doi": "10.1093/jac/dkx316",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28961957/",
+        "date": "2017"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.135,
+    "classification": "ordered",
+    "n_idr": 2,
+    "longest_idr": 60,
+    "total_idr_residues": 76,
+    "idr_regions": [
+      [
+        0,
+        16
+      ],
+      [
+        496,
+        556
+      ]
+    ],
+    "mean_plddt": 80.3,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

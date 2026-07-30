@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1984a",
+  "mtbc0": "-",
+  "np_id": "YP_009030034.1",
+  "gene": "",
+  "len_aa": 76,
+  "strand": "+",
+  "start_mtbc0": 2228676,
+  "end_mtbc0": 2228906,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "",
+  "function_revised": "No Pfam domain above threshold; Foldseek indicates a fold similar to 1n91-assembly1_A Solution NMR Structure of Protein yggU from Escherichia coli. N (prob 1.00, TM 0.70). Structure-based, putative.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MTDSVVVRVKPGSHKGPLVEVGPNGELIIYVREPAIDGKANDAVTRLLAAHLQLPKSRVKLVSGATSRFKRFRLSR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "DUF167",
+      "pfam_acc": "PF02594.22",
+      "i_evalue": 2.3e-19,
+      "ali_from": 5,
+      "ali_to": 74,
+      "description": "Uncharacterised ACR, YggU family COG1872"
+    }
+  ],
+  "struct_hits": [
+    {
+      "target": "1n91-assembly1_A",
+      "evalue": 0.0001394,
+      "prob": 1.0,
+      "tmscore": 0.6984,
+      "description": "1n91-assembly1_A Solution NMR Structure of Protein yggU from Escherichia coli. Northeast Structural Genomics Consortium Target ER14.",
+      "significant": true
+    },
+    {
+      "target": "1yh5-assembly1_A",
+      "evalue": 0.0002219,
+      "prob": 1.0,
+      "tmscore": 0.6584,
+      "description": "1yh5-assembly1_A Solution NMR Structure of Protein yggU from Escherichia coli. Northeast Structural Genomics Consortium Target ER14.",
+      "significant": true
+    },
+    {
+      "target": "2m0x-assembly1_A",
+      "evalue": 0.4276,
+      "prob": 0.179,
+      "tmscore": 0.3984,
+      "description": "2m0x-assembly1_A Solution structure of U14Ub1, an engineered ubiquitin variant with increased affinity for USP14",
+      "significant": false
+    },
+    {
+      "target": "8rua-assembly1_A",
+      "evalue": 2.246,
+      "prob": 0.179,
+      "tmscore": 0.6778,
+      "description": "8rua-assembly1_A Crystal structure of Rhizobium etli L-asparaginase ReAV C135A mutant",
+      "significant": false
+    },
+    {
+      "target": "8rud-assembly1_B",
+      "evalue": 3.13,
+      "prob": 0.138,
+      "tmscore": 0.6855,
+      "description": "8rud-assembly1_B Crystal structure of Rhizobium etli L-asparaginase ReAV K138A mutant",
+      "significant": false
+    },
+    {
+      "target": "8rug-assembly1_B",
+      "evalue": 3.13,
+      "prob": 0.138,
+      "tmscore": 0.6878,
+      "description": "8rug-assembly1_B Crystal structure of Rhizobium etli L-asparaginase ReAV C189A mutant",
+      "significant": false
+    },
+    {
+      "target": "8ruf-assembly1_A",
+      "evalue": 3.82,
+      "prob": 0.126,
+      "tmscore": 0.6878,
+      "description": "8ruf-assembly1_A Crystal structure of Rhizobium etli L-asparaginase ReAV D187A mutant",
+      "significant": false
+    },
+    {
+      "target": "7os3-assembly1_AAA",
+      "evalue": 3.82,
+      "prob": 0.126,
+      "tmscore": 0.6837,
+      "description": "7os3-assembly1_AAA Crystal structure of Rhizobium etli inducible L-asparaginase ReAV solved by S-SAD (orthorhombic form START)",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "COG1872",
+    "cog_cat": "S",
+    "description": "Belongs to the UPF0235 family",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [
+      "K09131"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "DUF167"
+    ],
+    "seed_ortholog": "419947.MRA_1997",
+    "evalue": "2.73e-46"
+  },
+  "uniprot": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 0,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 88.7,
+    "n_residues": 76,
+    "band": "confident"
+  },
+  "string": {},
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): hypothetical protein",
+    "Pfam (hmmscan --cut_ga): DUF167 PF02594.22 (E=2e-19)",
+    "Foldseek best: 1n91-assembly1_A Solution NMR Structure of Protein yggU from Escherichia coli. N (prob 1.00, E=1e-04, TM=0.70)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {},
+  "plddt_af": {},
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 76,
+    "mw_kda": 8.3,
+    "pi": 10.97,
+    "gravy": -0.154,
+    "instability_index": 24.4,
+    "instability_class": "stable",
+    "aromaticity": 0.039,
+    "aliphatic_index": 10250.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {},
+  "orthologs": {},
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {},
+  "regulation": {},
+  "mycobrowser": {},
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.778,
+    "ci_low": -0.427,
+    "ci_high": 2.597,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 25,
+      "n_total": 53,
+      "frac": 0.472,
+      "in_mtbap": 2,
+      "in_mkc": 6,
+      "mean_pident": 74.5,
+      "classification": "restricted",
+      "species_present": [
+        "M_attenuatum",
+        "M_basiliense",
+        "M_europaeum",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_innocens",
+        "M_interjectum",
+        "M_kansasii",
+        "M_lacus",
+        "M_liflandii",
+        "M_malmoense",
+        "M_marinum",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shimoidei",
+        "M_syngnathidarum",
+        "M_szulgai"
+      ],
+      "interpretation": "present in a subset of the genus (25/53 NTM; in 2 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 3,
+      "crossgenus_genomes": [
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152"
+      ],
+      "mean_pident": 61.9,
+      "length_aa": 76,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication in PubMed mentions this gene in its title or abstract — not under its H37Rv locus tag, nor under any of its ortholog identifiers (M. bovis, M. marinum, M. smegmatis, M. leprae, M. abscessus). The atlas annotation rests on sequence/structure evidence, not on a primary study of this gene.",
+    "papers": [],
+    "by_alias": {},
+    "caveat": "A verified absence of literature is itself information: it flags an annotation with no primary study behind it.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": null,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

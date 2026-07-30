@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0387c",
+  "gene": "Rv0387c",
+  "len_aa": 244,
+  "strand": "-",
+  "start_mtbc0": 466672,
+  "end_mtbc0": 467406,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VSLLPTLQSFLPPPFDAIPNPIEDLDVLVAAAVAVAAGSLGVSAAQLGEIYRHDVVDEAQKAPHCPAESDQTPAGAAGDGDLPEVGGRVTSPPQPPVAALTGYSANIGGLSVPHSWNLPPAVRQVAAMFPGATPMYMTGSSDGSYAGLAAAGLAGTGLAGLAARGGSAPTPAAAAPAGAGGAGPAATRPAAQQTPAVPAAAAGSAIPGLPPGLPPGVVANLAATLAAIPGATIIVVPPSPNANQ",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv0387c, (MTV036.22c), len: 244 aa. Conserved hypothetical protein, showing some similarity to MTCI237.20c, and M17282|HUMEL20_1 Human elastin gene, exon 1, Elastin (687 aa), FASTA scores: opt: 193, E(): 0.35, (34.4% identity in 189 aa overlap).",
+    "uniprot_ac": "L0T6I4",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 244,
+    "mw_kda": 23.2,
+    "pi": 4.46,
+    "gravy": 0.309,
+    "instability_index": 54.5,
+    "instability_class": "unstable",
+    "aromaticity": 0.033,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "L0T6I4",
+    "reviewed": false,
+    "protein_name": "PPE family C-terminal domain-containing protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG5651",
+    "cog_cat": "N",
+    "description": "PPE family",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "PPE family",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 5.59,
+    "abundance_rank": 2901,
+    "n_ranked": 3519,
+    "abundance_percentile": 17.6,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 1,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 2.775,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv0387c",
+    "n_partners": 5,
+    "n_context_driven": 1,
+    "partners": [
+      {
+        "rv": "Rv0388c",
+        "gene": "PPE9",
+        "product": "Rv0388c, (MTV036.23c), len: 180 aa. PPE9, Member of the Mycobacterium tuberculosis PPE family, highly similar to others e.g. MTCY10G2_10|Z92",
+        "hypothetical": false,
+        "combined": 776,
+        "combined_no_tm": 683,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 626,
+          "fusion": 7,
+          "cooccurence": 0,
+          "coexpression": 187,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 323
+        }
+      },
+      {
+        "rv": "Rv2082",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 591,
+        "combined_no_tm": 47,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 589
+        }
+      },
+      {
+        "rv": "Rv3834c",
+        "gene": "serS",
+        "product": "serine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 436,
+        "combined_no_tm": 47,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 433
+        }
+      },
+      {
+        "rv": "Rv2738c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 520,
+        "combined_no_tm": 44,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 519
+        }
+      },
+      {
+        "rv": "Rv3598c",
+        "gene": "lysS",
+        "product": "lysine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 437,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 437
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0388c",
+      "gene": "PPE9",
+      "product": "Rv0388c, (MTV036.23c), len: 180 aa. PPE9, Member of the Mycobacterium tuberculosis PPE family, highly similar to others e.g. MTCY10G2_10|Z92",
+      "combined_no_tm": 683,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 626,
+        "fusion": 7,
+        "cooccurence": 0,
+        "coexpression": 187,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 323
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 49.0,
+    "band": "very low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF12484",
+      "pfam_name": "PPE-SVP",
+      "description": "PPE-SVP",
+      "n_matches": "1"
+    }
+  ]
+}

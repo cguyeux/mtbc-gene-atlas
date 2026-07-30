@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1949c",
+  "gene": "Rv1949c",
+  "len_aa": 319,
+  "strand": "-",
+  "start_mtbc0": 2199075,
+  "end_mtbc0": 2200034,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "dark",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "WLRQRTGADLQIVSGIAEHLRQASGLAREGAGTIGAAQRRVIYAVQDAHNAGFNVEEDLSVTDTRTSRTFAEQAARQAQAQALAGDIRQRATQLIGVEHEVAAKIATATAPLNTVGFHEPPIAPSLPTPVPHNEKPQIHAVDRSWKQDPPSPMPGDPKDMTAVQARAAWDAVNADIARYNARCGRTFVLPNEQAAYDACIADKGSLFERQAAIRARLGELGVPVEGEPPPAPDPAGPQPNEGLPPPGVSPPAESNLTVGPPSRPIQQARGGESLWDENGGEWRYFPGDNYRYPHWDYNPHDSPTARWQNIPIGDLPTHK",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv1949c, (MTCY09F9.15), len: 319 aa. Conserved hypothetical protein, partial ORF. Rv1949c and Rv1950c|MTCY09F9.14 are similar but frameshifted with respect to Rv2077c|MTCY49.16C|Q10685 hypothetical 33.3 kd protein (323 aa), FASTA scores: opt: 459, E(): 2.8e-16, (54.8% identity in 157 aa overlap). Cosmid sequence appears to be correct, genomic sequence is also frameshifted in Mycobacterium bovis strain AF2122/97. Similar to Mycobacterium tuberculosis hypothetical proteins: Rv2542, Rv2077c, Rv2797c, Rv0963c, etc.",
+    "uniprot_ac": "L0T9Q6",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 319,
+    "mw_kda": 34.5,
+    "pi": 5.62,
+    "gravy": -0.638,
+    "instability_index": 52.2,
+    "instability_class": "unstable",
+    "aromaticity": 0.063,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "L0T9Q6",
+    "reviewed": false,
+    "protein_name": "Uncharacterized protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "28N42",
+    "cog_cat": null,
+    "description": null,
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 1,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.965,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1949c",
+    "n_partners": 6,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv1948c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 877,
+        "combined_no_tm": 877,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 875,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1950c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 839,
+        "combined_no_tm": 833,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 828,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1951c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 833,
+        "combined_no_tm": 833,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 828,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 68,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1953",
+        "gene": "vapC14",
+        "product": "ribonuclease VapC14",
+        "hypothetical": false,
+        "combined": 472,
+        "combined_no_tm": 473,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 466,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 53,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1952",
+        "gene": "vapB14",
+        "product": "antitoxin VapB14",
+        "hypothetical": false,
+        "combined": 467,
+        "combined_no_tm": 468,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 466,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0041",
+        "gene": "leuS",
+        "product": "leucine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 431,
+        "combined_no_tm": 432,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 67,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 414,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1953",
+      "gene": "vapC14",
+      "product": "ribonuclease VapC14",
+      "combined_no_tm": 473,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 466,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 53,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 81.1,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2zdi-assembly1_B-2",
+        "evalue": 3.221,
+        "prob": 0.116,
+        "tmscore": 0.3919,
+        "description": "2zdi-assembly1_B-2 Crystal structure of Prefoldin from Pyrococcus horikoshii OT3",
+        "significant": false
+      },
+      {
+        "target": "4r42-assembly1_C-2",
+        "evalue": 6.677,
+        "prob": 0.082,
+        "tmscore": 0.4088,
+        "description": "4r42-assembly1_C-2 Crystal structure of KatB, a manganese catalase from Anabaena PCC7120",
+        "significant": false
+      },
+      {
+        "target": "4jio-assembly1_A",
+        "evalue": 4.769,
+        "prob": 0.069,
+        "tmscore": 0.3257,
+        "description": "4jio-assembly1_A Bro1 V domain and ubiquitin",
+        "significant": false
+      },
+      {
+        "target": "2zqm-assembly1_A",
+        "evalue": 9.887,
+        "prob": 0.063,
+        "tmscore": 0.4138,
+        "description": "2zqm-assembly1_A Crystal structure of the prefoldin beta subunit from Thermococcus strain KS-1",
+        "significant": false
+      },
+      {
+        "target": "4zwt-assembly1_G",
+        "evalue": 8.838,
+        "prob": 0.051,
+        "tmscore": 0.3524,
+        "description": "4zwt-assembly1_G Crystal Structure of the Bacteriophage T4 recombination mediator protein UvsY, Lattice Type IV",
+        "significant": false
+      },
+      {
+        "target": "1fxk-assembly1_B",
+        "evalue": 9.347,
+        "prob": 0.045,
+        "tmscore": 0.3399,
+        "description": "1fxk-assembly1_B CRYSTAL STRUCTURE OF ARCHAEAL PREFOLDIN (GIMC).",
+        "significant": false
+      },
+      {
+        "target": "5y06-assembly1_A",
+        "evalue": 8.356,
+        "prob": 0.029,
+        "tmscore": 0.23,
+        "description": "5y06-assembly1_A Structural characterization of msmeg_4306 from Mycobacterium smegmatis",
+        "significant": false
+      },
+      {
+        "target": "7o3x-assembly1_D",
+        "evalue": 7.9,
+        "prob": 0.016,
+        "tmscore": 0.1929,
+        "description": "7o3x-assembly1_D Structural basis for VIPP1 oligomerization and maintenance of thylakoid membrane integrity",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  }
+}

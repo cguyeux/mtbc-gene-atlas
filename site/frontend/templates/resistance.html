@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block title %}Resistance tester &middot; {{ site_title }}{% endblock %}
+{% block main %}
+<article class="res">
+  <header class="res-hero">
+    <h1>Drug-resistance tester</h1>
+    <p class="lead">Predict anti-tuberculosis drug resistance for an MTBC strain. Give an
+      <strong>SRA accession</strong>, paste its <strong>variants</strong> (SPDI or VCF), or test a
+      <strong>single mutation</strong>. Matching is reconciled across representations (SNP, MNV, indel),
+      so blind spots such as the gyrA fluoroquinolone MNV are caught.</p>
+    <div class="callout callout-warn">
+      <strong>Research tool, not a clinical diagnostic.</strong> Verdicts come only from catalogued
+      mutation&ndash;resistance associations (WHO catalogue of mutations, 2nd ed. 2023, with tb-profiler and
+      CRyPTIC empirical signal). The absence of a determinant is <em>not</em> evidence of susceptibility,
+      and this output must not be used to guide treatment.
+    </div>
+  </header>
+
+  <section class="res-card">
+    <form action="/resistance" method="post" class="resform">
+      <div class="resform-top">
+        <label class="field">Input type
+          <select name="mode">
+            <option value="auto"{% if mode in (none, 'auto') %} selected{% endif %}>auto-detect</option>
+            <option value="sra"{% if mode == 'sra' %} selected{% endif %}>SRA accession</option>
+            <option value="spdi"{% if mode == 'spdi' %} selected{% endif %}>SPDI variant list</option>
+            <option value="vcf"{% if mode == 'vcf' %} selected{% endif %}>VCF (H37Rv)</option>
+            <option value="mutation"{% if mode == 'mutation' %} selected{% endif %}>single mutation</option>
+          </select>
+        </label>
+        <span class="muted small">Catalogue: {{ stats.n_determinants }} R-associated determinants &middot; {{ stats.n_drugs }} drugs.</span>
+      </div>
+      <textarea name="payload" rows="8" spellcheck="false"
+        placeholder="ERR11252738&#10;&#10;or paste SPDI variants (one per line):&#10;NC_000962.3:2155167:C:G&#10;NC_000962.3:761154:C:T&#10;&#10;or a single mutation:  katG S315T  /  rpoB_p.Ser450Leu  /  rrs n.1401A>G">{{ payload or '' }}</textarea>
+      <div class="resform-actions">
+        <button type="submit">Predict resistance</button>
+        <span class="examples muted small">Try
+          <button type="button" class="chip" data-fill="ERR11252738">an SRA</button>
+          <button type="button" class="chip" data-fill="katG S315T">katG S315T</button>
+          <button type="button" class="chip" data-fill="rpoB S450L&#10;katG S315T">an MDR pair</button>
+        </span>
+      </div>
+    </form>
+  </section>
+
+  {% if ran %}
+  <section class="res-result">
+    <h2>Result</h2>
+
+    {% if error %}<div class="callout callout-err">{{ error }}</div>{% endif %}
+
+    {% if parsed_as == 'sra' and sra_info %}
+      {% if sra_info.n %}<p class="muted">Accession <code>{{ sra_info.accession }}</code> resolved via TBannotator to
+        <strong>{{ sra_info.n }}</strong> variants.</p>{% endif %}
+    {% elif parsed_as == 'mutation' %}
+      {% if mutation_info.recognised %}
+      <p class="muted">Mutation <code>{{ mutation_info.input }}</code> &rarr; <code>{{ mutation_info.spdi }}</code>.</p>
+      {% elif not error %}
+      <div class="callout callout-warn">Mutation <code>{{ mutation_info.input }}</code> was not recognised. Try the WHO
+        form <code>gene_p.AaPosAa</code> (<code>katG_p.Ser315Thr</code>), a 1-letter shorthand (<code>katG S315T</code>),
+        or paste its SPDI.</div>
+      {% endif %}
+    {% elif n_input %}
+      <p class="muted">{{ n_input }} variant(s) parsed as <strong>{{ parsed_as|upper }}</strong>.</p>
+    {% endif %}
+
+    {% if n_input %}
+    <div class="verdict-bar">
+      {% if mdr.pre_xdr %}<span class="pill pill-xdr">pre-XDR</span>
+      {% elif mdr.mdr %}<span class="pill pill-mdr">MDR</span>{% endif %}
+      <span class="pill pill-count">{{ resistant|length }} resistant</span>
+      <span class="muted small">{{ susceptible|length }} drug(s) with no catalogued determinant</span>
+    </div>
+
+    {% if resistant %}
+    <div class="drug-list">
+      {% for drug, v in resistant.items() %}
+      <div class="drug-row">
+        <div class="drug-name"><span class="pill pill-r">R</span> {{ drug }}</div>
+        <div class="drug-dets">
+          {% for d in v.determinants %}
+          <div class="det"><code>{{ d.gene }} {{ d.variant }}</code>
+            <span class="muted small">{{ d.spdi }}{% if d.grade %} &middot; {{ d.grade }}{% endif %}{% if d.source %} &middot; {{ d.source }}{% endif %}</span>
+            {% if d.match == 'MNV' %}<span class="pill pill-mnv">via MNV</span>{% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="muted">No catalogued R-associated determinant carried by the input variants.</p>
+    {% endif %}
+
+    {% if susceptible %}
+    <p class="suscep muted small"><strong>No catalogued determinant</strong> (not evidence of susceptibility):
+      {% for d in susceptible %}<span class="chip-static">{{ d }}</span>{% endfor %}</p>
+    {% endif %}
+    {% endif %}
+  </section>
+  {% endif %}
+
+  <section class="sources">
+    <h2>Method &amp; sources</h2>
+    <ul>
+      <li><strong>Catalogue:</strong> WHO Catalogue of mutations in <em>Mycobacterium tuberculosis</em> complex
+        (2nd ed., 2023), consolidated with the tb-profiler reference database and CRyPTIC empirical signal.
+        Only <code>R-associated</code> determinants drive a verdict.</li>
+      <li><strong>Matching:</strong> reconciled at the variant-representation level (SNP exact, MNV decomposition
+        into component SNPs, indel exact) to avoid the systematic under-call of a raw SPDI equality.</li>
+      <li><strong>SRA resolution:</strong> variants of an accession are fetched on demand from the TBannotator
+        database; coverage depends on whether the accession has been annotated there.</li>
+      <li><strong>Scope:</strong> deterministic catalogue baseline. A lineage-stratified machine-learning
+        residual layer is planned but not yet served here.</li>
+      <li><strong>Companion:</strong> for the gene-level functional annotation of any locus, see the
+        <a href="/genes">gene atlas</a>.</li>
+    </ul>
+  </section>
+</article>
+<script>
+document.querySelectorAll('.chip[data-fill]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var ta = document.querySelector('textarea[name=payload]');
+    ta.value = this.getAttribute('data-fill').replace(/&#10;/g, '\n');
+    ta.focus();
+  });
+});
+</script>
+{% endblock %}

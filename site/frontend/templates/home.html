@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+  <h1>Re-annotating the <em>Mycobacterium tuberculosis</em> complex</h1>
+  <p>
+    Taking over from Mycobrowser: every MTBC gene is re-examined from the
+    <strong>MTBC0 ancestral genome</strong> (Harrison et&nbsp;al. 2024), its legacy
+    annotation verified, and its <em>hypothetical proteins</em> resolved through PGAP,
+    Pfam domains, ESM&nbsp;Atlas signal and the literature &mdash; every claim sourced.
+  </p>
+  <form class="search big" action="/genes" method="get">
+    <input type="text" name="q" placeholder="Search a gene name, Rv tag or product…">
+    <button type="submit">Search</button>
+  </form>
+</section>
+
+<section class="stats">
+  <a class="stat" href="/genes">
+    <span class="num">{{ stats.total }}</span><span class="lab">genes catalogued</span>
+  </a>
+  <a class="stat" href="/genes?hypo=1">
+    <span class="num">{{ stats.hypothetical }}</span><span class="lab">legacy “hypothetical”</span>
+  </a>
+  <div class="stat">
+    <span class="num">{{ stats.pgap_rescued }}</span>
+    <span class="lab">already re-annotated by PGAP on MTBC0</span>
+  </div>
+  <a class="stat" href="/genes?enriched=1">
+    <span class="num">{{ stats.enriched }}</span><span class="lab">fully enriched fiches</span>
+  </a>
+  {% if stats.microproteins %}
+  <a class="stat" href="/microproteins">
+    <span class="num">{{ stats.microproteins }}</span><span class="lab">MS-proven microproteins (separate track)</span>
+  </a>
+  {% endif %}
+</section>
+
+{% if stats.by_verdict %}
+<section class="verdicts">
+  <h2>Curated verdicts</h2>
+  <ul class="verdict-list">
+    {% for v, n in stats.by_verdict.items() %}
+      <li><span class="badge badge-{{ v }}">{{ verdict_label.get(v, v) }}</span> {{ n }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if showcase %}
+<section class="showcase">
+  <h2>Enriched genes</h2>
+  <table class="genes">
+    <thead><tr><th>Gene</th><th>MTBC0</th><th>Legacy</th><th>Revised</th><th>Pfam</th><th>Verdict</th></tr></thead>
+    <tbody>
+      {% for g in showcase %}
+      <tr>
+        <td><a href="/gene/{{ g.rv }}">{{ g.gene_name or g.rv }}</a><br><small>{{ g.rv }}</small></td>
+        <td><code>{{ g.mtbc0 }}</code></td>
+        <td class="muted">{{ g.product_h37rv }}</td>
+        <td>{{ (g.function_revised or g.product_pgap or '')[:80] }}</td>
+        <td>{% for d in (g.domains or []) %}<code>{{ d.pfam_name }}</code> {% endfor %}</td>
+        <td>{% if g.verdict %}<span class="badge badge-{{ g.verdict }}">{{ verdict_label.get(g.verdict, g.verdict) }}</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endif %}
+{% endblock %}

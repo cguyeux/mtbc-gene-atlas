@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0780",
+  "mtbc0": "mtbc0_000829",
+  "np_id": "NP_215294.1",
+  "gene": "purC",
+  "len_aa": 297,
+  "strand": "+",
+  "start_mtbc0": 877767,
+  "end_mtbc0": 878660,
+  "product_h37rv": "phosphoribosylaminoimidazole-succinocarboxamide synthase",
+  "product_mtbc0_pgap": "phosphoribosylaminoimidazolesuccinocarboxamide synthase",
+  "function_revised": "Phosphoribosylaminoimidazolesuccinocarboxamide synthase. Pfam: SAICAR_synt (PF01259.25).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MRPALSDYQHVASGKVREIYRVDDEHLLLVASDRISAYDYVLDSTIPDKGRVLTAMSAFFFGLVDAPNHLAGPPDDPRIPDEVLGRALVVRRLEMLPVECVARGYLTGSGLLDYQATGKVCGIALPPGLVEASRFATPLFTPATKAALGDHDENISFDRVVEMVGALRANQLRDRTLQTYVQAADHALTRGIIIADTKFEFGIDRHGNLLLADEIFTPDSSRYWPADDYRAGVVQTSFDKQFVRSWLTGSESGWDRGSDRPPPPLPEHIVEATRARYINAYERISELKFDDWIGPGA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "SAICAR_synt",
+      "pfam_acc": "PF01259.25",
+      "i_evalue": 2.3e-75,
+      "ali_from": 11,
+      "ali_to": 260,
+      "description": "SAICAR synthetase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0152",
+    "cog_cat": "F",
+    "description": "Belongs to the SAICAR synthetase family",
+    "preferred_name": "purC",
+    "ec": [
+      "6.3.2.6",
+      "6.3.4.13"
+    ],
+    "kegg_ko": [
+      "K01923",
+      "K01945"
+    ],
+    "kegg_pathway": [
+      "map00230",
+      "map01100",
+      "map01110",
+      "map01130"
+    ],
+    "kegg_module": [
+      "M00048"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004639",
+      "GO:0005575",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0006139",
+      "GO:0006163",
+      "GO:0006164",
+      "GO:0006188",
+      "GO:0006189",
+      "GO:0006725",
+      "GO:0006753",
+      "GO:0006793",
+      "GO:0006796",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009058",
+      "GO:0009117",
+      "GO:0009123",
+      "GO:0009124",
+      "GO:0009126",
+      "GO:0009127",
+      "GO:0009150",
+      "GO:0009152",
+      "GO:0009156",
+      "GO:0009161",
+      "GO:0009165",
+      "GO:0009167",
+      "GO:0009168",
+      "GO:0009259",
+      "GO:0009260",
+      "GO:0009987",
+      "GO:0016874",
+      "GO:0016879",
+      "GO:0016881",
+      "GO:0018130",
+      "GO:0019438",
+      "GO:0019637",
+      "GO:0019693",
+      "GO:0034641",
+      "GO:0034654",
+      "GO:0040007",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044249",
+      "GO:0044271",
+      "GO:0044281",
+      "GO:0044424",
+      "GO:0044464",
+      "GO:0046040",
+      "GO:0046390",
+      "GO:0046483",
+      "GO:0055086",
+      "GO:0071704",
+      "GO:0072521",
+      "GO:0072522",
+      "GO:0090407",
+      "GO:1901135",
+      "GO:1901137",
+      "GO:1901293",
+      "GO:1901360",
+      "GO:1901362",
+      "GO:1901564",
+      "GO:1901566",
+      "GO:1901576"
+    ],
+    "pfams": [
+      "SAICAR_synt"
+    ],
+    "seed_ortholog": "419947.MRA_0789",
+    "evalue": "2.03e-221"
+  },
+  "uniprot": {
+    "acc": "P9WHN1",
+    "reviewed": true,
+    "protein_name": "Phosphoribosylaminoimidazole-succinocarboxamide synthase",
+    "ec": [
+      "6.3.2.6"
+    ],
+    "function": "",
+    "go": [
+      "GO:0004639",
+      "GO:0005524",
+      "GO:0006164",
+      "GO:0006189"
+    ],
+    "kegg": [
+      "mtu:Rv0780",
+      "mtv:RVBD_0780"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 1,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.34,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0780",
+    "n_partners": 59,
+    "n_context_driven": 4,
+    "partners": [
+      {
+        "rv": "Rv0772",
+        "gene": "purD",
+        "product": "phosphoribosylamine--glycine ligase",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 994,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 898,
+          "cooccurence": 277,
+          "coexpression": 857,
+          "experimental": 378,
+          "database": 0,
+          "textmining": 732
+        }
+      },
+      {
+        "rv": "Rv0777",
+        "gene": "purB",
+        "product": "adenylosuccinate lyase PurB",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 992,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 857,
+          "experimental": 338,
+          "database": 900,
+          "textmining": 738
+        }
+      },
+      {
+        "rv": "Rv3275c",
+        "gene": "purE",
+        "product": "5-(carboxyamino)imidazole ribonucleotide mutase",
+        "hypothetical": false,
+        "combined": 992,
+        "combined_no_tm": 991,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 163,
+          "fusion": 0,
+          "cooccurence": 300,
+          "coexpression": 858,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv0956",
+        "gene": "purN",
+        "product": "phosphoribosylglycinamide formyltransferase PurN",
+        "hypothetical": false,
+        "combined": 957,
+        "combined_no_tm": 932,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 179,
+          "coexpression": 861,
+          "experimental": 378,
+          "database": 0,
+          "textmining": 407
+        }
+      },
+      {
+        "rv": "Rv0957",
+        "gene": "purH",
+        "product": "bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosinemonophosphate cyclohydrolase",
+        "hypothetical": false,
+        "combined": 982,
+        "combined_no_tm": 925,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 156,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 859,
+          "experimental": 420,
+          "database": 0,
+          "textmining": 772
+        }
+      },
+      {
+        "rv": "Rv0803",
+        "gene": "purL",
+        "product": "phosphoribosylformylglycinamidine synthase 2",
+        "hypothetical": false,
+        "combined": 921,
+        "combined_no_tm": 897,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 207,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 858,
+          "experimental": 162,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv0809",
+        "gene": "purM",
+        "product": "phosphoribosylformylglycinamidine cyclo-ligase PurM",
+        "hypothetical": false,
+        "combined": 936,
+        "combined_no_tm": 892,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 163,
+          "fusion": 0,
+          "cooccurence": 173,
+          "coexpression": 857,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 431
+        }
+      },
+      {
+        "rv": "Rv0808",
+        "gene": "purF",
+        "product": "amidophosphoribosyltransferase",
+        "hypothetical": false,
+        "combined": 916,
+        "combined_no_tm": 891,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 164,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 857,
+          "experimental": 164,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv0788",
+        "gene": "purQ",
+        "product": "phosphoribosylformylglycinamidine synthase",
+        "hypothetical": false,
+        "combined": 911,
+        "combined_no_tm": 884,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 217,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 858,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv0787A",
+        "gene": "purS",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 910,
+        "combined_no_tm": 883,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 215,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 857,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 263
+        }
+      },
+      {
+        "rv": "Rv3276c",
+        "gene": "purK",
+        "product": "5-(carboxyamino)imidazole ribonucleotide synthase",
+        "hypothetical": false,
+        "combined": 952,
+        "combined_no_tm": 869,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 858,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 656
+        }
+      },
+      {
+        "rv": "Rv0782",
+        "gene": "ptrBb",
+        "product": "Rv0782, (MTCY369.26), len: 552 aa. Probable ptrBb,second part of protease II, equivalent to C-terminus of NP_302455.1|NC_002677 protease II ",
+        "hypothetical": false,
+        "combined": 805,
+        "combined_no_tm": 804,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 800,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 62,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0781",
+        "gene": "ptrBa",
+        "product": "Rv0781, (MTCY369.25), len: 236 aa. Probable ptrBa,first part of protease II, equivalent to N-terminus of NP_302455.1|NC_002677 protease II f",
+        "hypothetical": false,
+        "combined": 802,
+        "combined_no_tm": 802,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 800,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0357c",
+        "gene": "purA",
+        "product": "adenylosuccinate synthetase",
+        "hypothetical": false,
+        "combined": 831,
+        "combined_no_tm": 738,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 162,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 661,
+          "experimental": 153,
+          "database": 0,
+          "textmining": 384
+        }
+      },
+      {
+        "rv": "Rv1832",
+        "gene": "gcvB",
+        "product": "glycine dehydrogenase",
+        "hypothetical": false,
+        "combined": 756,
+        "combined_no_tm": 725,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 120,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 700,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 152
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0772",
+      "gene": "purD",
+      "product": "phosphoribosylamine--glycine ligase",
+      "combined_no_tm": 994,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 229,
+        "fusion": 898,
+        "cooccurence": 277,
+        "coexpression": 857,
+        "experimental": 378,
+        "database": 0,
+        "textmining": 732
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: phosphoribosylaminoimidazole-succinocarboxamide synthase",
+    "MTBC0 PGAP product: phosphoribosylaminoimidazolesuccinocarboxamide synthase",
+    "Pfam (hmmscan --cut_ga): SAICAR_synt PF01259.25 (E=2e-75)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 95.3,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6yy6-assembly1_A",
+        "evalue": 3.138e-50,
+        "prob": 1.0,
+        "tmscore": 0.9683,
+        "description": "6yy6-assembly1_A Crystal structure of SAICAR Synthetase (PurC) from Mycobacterium abscessus in complex with inhibitor",
+        "significant": true
+      },
+      {
+        "target": "3r9r-assembly1_A",
+        "evalue": 8.767e-50,
+        "prob": 1.0,
+        "tmscore": 0.9604,
+        "description": "3r9r-assembly1_A Structure of a Phosphoribosylaminoimidazole-succinocarboxamide synthase from Mycobacterium abscessus ATCC 19977 / DSM 44196",
+        "significant": true
+      },
+      {
+        "target": "6yyb-assembly1_A",
+        "evalue": 1.841e-49,
+        "prob": 1.0,
+        "tmscore": 0.9652,
+        "description": "6yyb-assembly1_A Crystal structure of SAICAR Synthetase (PurC) from Mycobacterium abscessus in complex with inhibitor",
+        "significant": true
+      },
+      {
+        "target": "6yya-assembly1_A",
+        "evalue": 3.867e-49,
+        "prob": 1.0,
+        "tmscore": 0.9673,
+        "description": "6yya-assembly1_A Crystal structure of SAICAR Synthetase (PurC) from Mycobacterium abscessus in complex with inhibitor",
+        "significant": true
+      },
+      {
+        "target": "2cnq-assembly1_A",
+        "evalue": 2.838e-33,
+        "prob": 1.0,
+        "tmscore": 0.8746,
+        "description": "2cnq-assembly1_A Atomic resolution structure of SAICAR-synthase from Saccharomyces cerevisiae complexed with ADP, AICAR, succinate",
+        "significant": true
+      },
+      {
+        "target": "1obg-assembly1_A",
+        "evalue": 2.784e-32,
+        "prob": 1.0,
+        "tmscore": 0.87,
+        "description": "1obg-assembly1_A SAICAR-synthase complexed with ATP",
+        "significant": true
+      },
+      {
+        "target": "2cnv-assembly1_A",
+        "evalue": 1.3e-31,
+        "prob": 1.0,
+        "tmscore": 0.8538,
+        "description": "2cnv-assembly1_A SAICAR-synthase from Saccharomyces cerevisiae complexed SAICAR",
+        "significant": true
+      },
+      {
+        "target": "1obd-assembly1_A",
+        "evalue": 1.73e-31,
+        "prob": 1.0,
+        "tmscore": 0.8574,
+        "description": "1obd-assembly1_A SAICAR-synthase complexed with ATP",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 252.0,
+    "abundance_rank": 735,
+    "n_ranked": 3519,
+    "abundance_percentile": 79.1,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 297,
+    "mw_kda": 32.9,
+    "pi": 5.12,
+    "gravy": -0.226,
+    "instability_index": 26.5,
+    "instability_class": "stable",
+    "aromaticity": 0.091,
+    "aliphatic_index": 8936.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0803",
+        "identity": 100.0,
+        "evalue": 3.17e-225
+      },
+      "M. leprae": {
+        "locus": "ML2227c",
+        "identity": 81.5,
+        "evalue": 1.12e-185
+      },
+      "M. marinum": {
+        "locus": "MMAR_4909",
+        "identity": 87.2,
+        "evalue": 1.61e-198
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5841",
+        "identity": 77.5,
+        "evalue": 4.37e-174
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000826",
+        "identity": 100.0,
+        "evalue": 2.96e-225
+      },
+      "M. abscessus": {
+        "locus": "MAB_0689",
+        "identity": 75.8,
+        "evalue": 2.02e-172
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0779c",
+      "gene": null,
+      "strand": "-",
+      "gap": 50
+    },
+    "right": {
+      "locus": "Rv0783c",
+      "gene": "emrB",
+      "strand": "-",
+      "gap": 2581
+    },
+    "operon": [
+      {
+        "locus": "Rv0780",
+        "gene": "purC"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Phosphoribosylaminoimidazole- succinocarboxamide synthase PurC (SAICAR synthetase)",
+    "legacy_function": "Involved in de novo purine biosynthesis (at the seventh step) [catalytic activity: ATP + 1-(5-phosphoribosyl)-4-carboxy-5-aminoimidazole + L-aspartate = ADP + phosphate + 1-(5-phosphoribosyl)-4-(N-succino-carboxamide)-5-aminoimidazole].",
+    "legacy_ec": [
+      "6.3.2.6"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "6.3.2.6",
+      "6.3.4.13"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -7.144,
+    "ci_low": -7.414,
+    "ci_high": -6.858,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 85.8,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 10,
+      "crossgenus_genomes": [
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 62.9,
+      "length_aa": 297,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 8,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 5,
+    "n_other": 4,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. abscessus": "2",
+      "M. smegmatis": "2"
+    },
+    "summary": "8 publication(s) discuss this gene (5 in a M. tuberculosis context, 4 in other mycobacteria — M. abscessus (2), M. smegmatis (2)).",
+    "papers": [
+      {
+        "title": "Fragment-Based Drug Discovery against Mycobacteria: The Success and Challenges.",
+        "doi": "10.3390/ijms231810669",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36142582/",
+        "date": "2022"
+      },
+      {
+        "title": "Development of Inhibitors of SAICAR Synthetase (PurC) from Mycobacterium abscessus Using a Fragment-Based Approach.",
+        "doi": "10.1021/acsinfecdis.1c00432",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35037462/",
+        "date": "2022"
+      },
+      {
+        "title": "Structure-guided fragment-based drug discovery at the synchrotron: screening binding sites and correlations with hotspot mapping.",
+        "doi": "10.1098/rsta.2018.0422",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/31030650/",
+        "date": "2019"
+      },
+      {
+        "title": "Identification of antigenic proteins from Mycobacterium avium subspecies paratuberculosis cell envelope by comparative proteomic analysis.",
+        "doi": "10.1099/mic.0.000606",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/29458660/",
+        "date": "2018"
+      },
+      {
+        "title": "[Identification of differential genomic genes of Mycobacterium tuberculosis H37Rv and attenuated strain H37Ra by suppression subtractive hybridization].",
+        "doi": null,
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16201243/",
+        "date": "2005"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 95.3,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

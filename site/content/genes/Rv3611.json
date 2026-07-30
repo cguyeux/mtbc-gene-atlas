@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3611",
+  "gene": "Rv3611",
+  "len_aa": 217,
+  "strand": "+",
+  "start_mtbc0": 4052950,
+  "end_mtbc0": 4053603,
+  "product_h37rv": "Hypothetical arginine and proline rich protein",
+  "verdict": "dark",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VAIANPAEPGAAGRHHQPRGDRKPRAWRQCGPQNGPRRSQAITPEPGAAGRHHQPRGDRKPRAWRQCGPQNGPRRSQAITPEPGAAGRHHQPRGDRKPRAWRQCGPQNGPRRSQAITPEPGAAGRHHQPRGDRKPRAWRQCGPQNGPRRSQAITPEPGAAGRHHQPRGDRKPRAWRQCGPQNGPRRSQAITPEPGAAGRHWLDQRPVVPDGVGKSDS",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Hypothetical arginine and proline rich protein",
+    "legacy_function": "Unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv3611, (MTCY07H7B.11c), len: 217 aa. Hypothetical unknown arg-, pro-rich protein. Possible ORF containing several direct repeats.",
+    "uniprot_ac": "O06272",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 217,
+    "mw_kda": 23.8,
+    "pi": 11.93,
+    "gravy": -1.585,
+    "instability_index": 51.1,
+    "instability_class": "unstable",
+    "aromaticity": 0.028,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O06272",
+    "reviewed": false,
+    "protein_name": "Hypothetical arginine and proline rich protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_3611"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 9,
+    "syn": 1,
+    "missense": 8,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 2.641,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv3611",
+    "n_partners": 16,
+    "n_context_driven": 6,
+    "partners": [
+      {
+        "rv": "Rv3610c",
+        "gene": "ftsH",
+        "product": "zinc metalloprotease FtsH",
+        "hypothetical": false,
+        "combined": 565,
+        "combined_no_tm": 566,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 566,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3606c",
+        "gene": "folK",
+        "product": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridinepyrophosphokinase",
+        "hypothetical": false,
+        "combined": 546,
+        "combined_no_tm": 546,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3607c",
+        "gene": "folB",
+        "product": "dihydroneopterin aldolase",
+        "hypothetical": false,
+        "combined": 545,
+        "combined_no_tm": 545,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3609c",
+        "gene": "folE",
+        "product": "GTP cyclohydrolase I",
+        "hypothetical": false,
+        "combined": 543,
+        "combined_no_tm": 544,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3608c",
+        "gene": "folP1",
+        "product": "dihydropteroate synthase",
+        "hypothetical": false,
+        "combined": 543,
+        "combined_no_tm": 544,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3605c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 543,
+        "combined_no_tm": 544,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3108",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 632,
+        "combined_no_tm": 47,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 630
+        }
+      },
+      {
+        "rv": "Rv2089c",
+        "gene": "pepE",
+        "product": "dipeptidase PepE",
+        "hypothetical": false,
+        "combined": 549,
+        "combined_no_tm": 44,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 548
+        }
+      },
+      {
+        "rv": "Rv1084",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 643,
+        "combined_no_tm": 43,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 43,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 643
+        }
+      },
+      {
+        "rv": "Rv2719c",
+        "gene": "chiZ",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 444,
+        "combined_no_tm": 42,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 444
+        }
+      },
+      {
+        "rv": "Rv1066",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 657,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 657
+        }
+      },
+      {
+        "rv": "Rv3201c",
+        "gene": "adnB",
+        "product": "ATP-dependent DNA helicase",
+        "hypothetical": false,
+        "combined": 548,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 548
+        }
+      },
+      {
+        "rv": "Rv1187",
+        "gene": "rocA",
+        "product": "pyrroline-5-carboxylate dehydrogenase RocA",
+        "hypothetical": false,
+        "combined": 511,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 511
+        }
+      },
+      {
+        "rv": "Rv0106",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 511,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 511
+        }
+      },
+      {
+        "rv": "Rv3143",
+        "gene": "",
+        "product": "response regulator",
+        "hypothetical": false,
+        "combined": 511,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 511
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3610c",
+      "gene": "ftsH",
+      "product": "zinc metalloprotease FtsH",
+      "combined_no_tm": 566,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 566,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 0,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 36.9,
+    "band": "very low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  }
+}

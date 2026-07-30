@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1502",
+  "mtbc0": "mtbc0_001607",
+  "np_id": "NP_216018.1",
+  "gene": "",
+  "len_aa": 299,
+  "strand": "+",
+  "start_mtbc0": 1702729,
+  "end_mtbc0": 1703628,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "hypothetical protein",
+  "function_revised": "Glycoside-hydrolase fold (PDB 5MUI); putative glycosidase.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MAWRKLGRIFAPSGELDWSRSHAALPVPEWIEGDIFRIYFSGRDGQNRSSIGSVIVDLAVGGKILDIPAEPILRPGARGMFDDCGVSIGSIVRAGDTRLLYYTGWNLAVTVPWKNTIGVAISEAGAPFERWSTFPVVALDERDPFSLSYPWVIQDGGTYRMWYGSNLGWGEGTDEIPHVIRYAQSRDGVHWEKQDRVHIDTSGSDNSAACRPCVVRDAGVYRMWFCARGAKYRIYCATSEDGLTWRQLGKDEGIDVSPDSWDSDMIEYPCVFDHRGQRFMLYSGDGYGRTGFGLAVLEN",
+  "domains": [],
+  "struct_hits": [
+    {
+      "target": "5mui-assembly1_A",
+      "evalue": 7.743e-12,
+      "prob": 1.0,
+      "tmscore": 0.7749,
+      "description": "5mui-assembly1_A Glycoside hydrolase BT_0996",
+      "significant": true
+    },
+    {
+      "target": "7vco-assembly1_A",
+      "evalue": 2.616e-09,
+      "prob": 1.0,
+      "tmscore": 0.6678,
+      "description": "7vco-assembly1_A Frischella perrara beta-fructofuranosidase",
+      "significant": true
+    },
+    {
+      "target": "3r67-assembly2_B",
+      "evalue": 1.501e-08,
+      "prob": 1.0,
+      "tmscore": 0.7364,
+      "description": "3r67-assembly2_B Crystal structure of a putative glycosidase (BT_4094) from BACTEROIDES THETAIOTAOMICRON VPI-5482 at 2.30 A resolution",
+      "significant": true
+    },
+    {
+      "target": "3qc2-assembly2_B",
+      "evalue": 6.266e-09,
+      "prob": 1.0,
+      "tmscore": 0.6948,
+      "description": "3qc2-assembly2_B Crystal structure of a glycosyl hydrolase (BACOVA_03624) from Bacteroides ovatus at 2.30 A resolution",
+      "significant": true
+    },
+    {
+      "target": "7bwc-assembly1_A",
+      "evalue": 3.177e-09,
+      "prob": 1.0,
+      "tmscore": 0.6427,
+      "description": "7bwc-assembly1_A Bombyx mori GH32 beta-fructofuranosidase BmSUC1 mutant D63A in complex with sucrose",
+      "significant": true
+    },
+    {
+      "target": "3qc2-assembly1_A",
+      "evalue": 7.608e-09,
+      "prob": 1.0,
+      "tmscore": 0.6827,
+      "description": "3qc2-assembly1_A Crystal structure of a glycosyl hydrolase (BACOVA_03624) from Bacteroides ovatus at 2.30 A resolution",
+      "significant": true
+    },
+    {
+      "target": "3taw-assembly1_A",
+      "evalue": 2.374e-09,
+      "prob": 1.0,
+      "tmscore": 0.6522,
+      "description": "3taw-assembly1_A Crystal structure of a putative glycoside hydrolase (BDI_3141) from Parabacteroides distasonis ATCC 8503 at 1.70 A resolution",
+      "significant": true
+    },
+    {
+      "target": "5ta7-assembly2_B",
+      "evalue": 1.654e-08,
+      "prob": 1.0,
+      "tmscore": 0.6721,
+      "description": "5ta7-assembly2_B Crystal structure of BuGH117Bwt",
+      "significant": true
+    }
+  ],
+  "eggnog": {
+    "og": "COG1621",
+    "cog_cat": "G",
+    "description": "beta-fructofuranosidase activity",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [],
+    "seed_ortholog": "419947.MRA_1513",
+    "evalue": "3.55e-232"
+  },
+  "uniprot": {
+    "acc": "P9WLW7",
+    "reviewed": true,
+    "protein_name": "Uncharacterized protein Rv1502",
+    "ec": [],
+    "function": "",
+    "go": [],
+    "kegg": [
+      "mtu:Rv1502",
+      "mtv:RVBD_1502"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 14,
+    "syn": 6,
+    "missense": 8,
+    "nonsense": 0,
+    "frameshift": 2,
+    "pN_pS": 0.4,
+    "selection": "purifying",
+    "disrupt_sites": 2,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 8651,
+    "disrupt_frac": 0.0596,
+    "pseudogene_flag": true
+  },
+  "plddt": {
+    "mean_plddt": 95.2,
+    "n_residues": 299,
+    "band": "very high"
+  },
+  "string": {
+    "string_id": "83332.Rv1502",
+    "n_partners": 10,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv1505c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 815,
+        "combined_no_tm": 798,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 97,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 126
+        }
+      },
+      {
+        "rv": "Rv1501",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 766,
+        "combined_no_tm": 767,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 505,
+          "fusion": 0,
+          "cooccurence": 469,
+          "coexpression": 184,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1507c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 762,
+        "combined_no_tm": 761,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 688,
+          "coexpression": 206,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 45
+        }
+      },
+      {
+        "rv": "Rv1500",
+        "gene": "pimF",
+        "product": "glycosyltransferase",
+        "hypothetical": false,
+        "combined": 709,
+        "combined_no_tm": 694,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 466,
+          "fusion": 0,
+          "cooccurence": 431,
+          "coexpression": 75,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 88
+        }
+      },
+      {
+        "rv": "Rv1506c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 609,
+        "combined_no_tm": 609,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 578,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3781",
+        "gene": "rfbE",
+        "product": "O-antigen/lipopolysaccharide ABC transporter ATP-binding protein RfbE",
+        "hypothetical": false,
+        "combined": 475,
+        "combined_no_tm": 456,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 425,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1504c",
+        "gene": "",
+        "product": "Rv1504c, (MTCY277.26c), len: 199 aa. Conserved hypothetical protein, similar to N-terminal region of P27833|RFFA_ECOLI lipopolysaccharide bi",
+        "hypothetical": false,
+        "combined": 463,
+        "combined_no_tm": 417,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 378,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv3242c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 434,
+        "combined_no_tm": 413,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 413,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv1503c",
+        "gene": "",
+        "product": "Rv1503c, (MTCY277.25c), len: 182 aa. Conserved hypothetical protein, similar to C-terminal region of P27833|RFFA_ECOLI lipopolysaccharide bi",
+        "hypothetical": false,
+        "combined": 423,
+        "combined_no_tm": 373,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 322,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv2006",
+        "gene": "otsB1",
+        "product": "trehalose-6-phosphate phosphatase OtsB",
+        "hypothetical": false,
+        "combined": 485,
+        "combined_no_tm": 277,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 113,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 118,
+          "experimental": 150,
+          "database": 0,
+          "textmining": 318
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1500",
+      "gene": "pimF",
+      "product": "glycosyltransferase",
+      "combined_no_tm": 694,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 466,
+        "fusion": 0,
+        "cooccurence": 431,
+        "coexpression": 75,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 88
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "MTBC0 PGAP product: hypothetical protein",
+    "Foldseek best: 5mui-assembly1_A Glycoside hydrolase BT_0996 (prob 1.00, E=8e-12, TM=0.77)",
+    "(structure-only promotion reviewed by hand, 2026-06-01)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 95.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7vco-assembly1_A",
+        "evalue": 8.192e-10,
+        "prob": 1.0,
+        "tmscore": 0.6661,
+        "description": "7vco-assembly1_A Frischella perrara beta-fructofuranosidase",
+        "significant": true
+      },
+      {
+        "target": "8hcj-assembly2_F",
+        "evalue": 7.803e-10,
+        "prob": 1.0,
+        "tmscore": 0.6545,
+        "description": "8hcj-assembly2_F Structure of GH43 family enzyme, Xylan 1, 4 Beta- xylosidase from pseudopedobacter saltans",
+        "significant": true
+      },
+      {
+        "target": "3p2n-assembly1_B",
+        "evalue": 3.531e-09,
+        "prob": 1.0,
+        "tmscore": 0.6746,
+        "description": "3p2n-assembly1_B Discovery and structural characterization of a new glycoside hydrolase family abundant in coastal waters that was annotated as 'hypothetical protein'",
+        "significant": true
+      },
+      {
+        "target": "3taw-assembly1_A",
+        "evalue": 1.333e-09,
+        "prob": 1.0,
+        "tmscore": 0.6667,
+        "description": "3taw-assembly1_A Crystal structure of a putative glycoside hydrolase (BDI_3141) from Parabacteroides distasonis ATCC 8503 at 1.70 A resolution",
+        "significant": true
+      },
+      {
+        "target": "4qqs-assembly1_A",
+        "evalue": 1.761e-08,
+        "prob": 1.0,
+        "tmscore": 0.7123,
+        "description": "4qqs-assembly1_A Crystal structure of a thermostable family-43 glycoside hydrolase",
+        "significant": true
+      },
+      {
+        "target": "5a7v-assembly2_B",
+        "evalue": 1.136e-08,
+        "prob": 1.0,
+        "tmscore": 0.6969,
+        "description": "5a7v-assembly2_B The GH130 family of mannoside phosphorylases contains glycoside hydrolases that target beta-1,2 mannosidic linkages in Candida mannan",
+        "significant": true
+      },
+      {
+        "target": "3r67-assembly2_B",
+        "evalue": 2.729e-08,
+        "prob": 1.0,
+        "tmscore": 0.7103,
+        "description": "3r67-assembly2_B Crystal structure of a putative glycosidase (BT_4094) from BACTEROIDES THETAIOTAOMICRON VPI-5482 at 2.30 A resolution",
+        "significant": true
+      },
+      {
+        "target": "3qef-assembly1_A",
+        "evalue": 8.079e-09,
+        "prob": 1.0,
+        "tmscore": 0.6558,
+        "description": "3qef-assembly1_A The structure and function of an arabinan-specific alpha-1,2-arabinofuranosidase identified from screening the activities of bacterial GH43 glycoside hydrolases",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 7.02,
+    "abundance_rank": 2820,
+    "n_ranked": 3519,
+    "abundance_percentile": 19.9,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 299,
+    "mw_kda": 33.4,
+    "pi": 5.21,
+    "gravy": -0.285,
+    "instability_index": 35.4,
+    "instability_class": "stable",
+    "aromaticity": 0.124,
+    "aliphatic_index": 7565.2,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "unknown",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1541",
+        "identity": 98.9,
+        "evalue": 5.82e-148
+      },
+      "M. marinum": {
+        "locus": "MMAR_2318",
+        "identity": 71.2,
+        "evalue": 2.35e-172
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001587",
+        "identity": 99.7,
+        "evalue": 5.17e-236
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1501",
+      "gene": null,
+      "strand": "+",
+      "gap": 212
+    },
+    "right": {
+      "locus": "Rv1505c",
+      "gene": null,
+      "strand": "-",
+      "gap": 1457
+    },
+    "operon": [
+      {
+        "locus": "Rv1502",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Hypothetical protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.736,
+    "ci_low": -1.301,
+    "ci_high": 3.872,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "expression": {
+    "n_imodulons": 2,
+    "imodulons": [
+      {
+        "name": "Unc_4",
+        "function": "Uncharacterized iModulon 4",
+        "category": "Uncharacterized",
+        "regulator": null
+      },
+      {
+        "name": "Lsr2",
+        "function": "Sequence independent transcription factor that controls a wide variety of genes",
+        "category": "Antibiotic",
+        "regulator": "lsr2"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 5,
+      "n_syn": 2,
+      "n_nonsyn": 3,
+      "n_disruptive": 0,
+      "dN_dS": 0.451,
+      "power": "low",
+      "interpretation": "low power (5 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 4,
+      "n_total": 53,
+      "frac": 0.075,
+      "in_mtbap": 1,
+      "in_mkc": 1,
+      "mean_pident": 75.6,
+      "classification": "restricted",
+      "species_present": [
+        "M_basiliense",
+        "M_marinum",
+        "M_pseudoshottsii",
+        "M_riyadhense"
+      ],
+      "interpretation": "present in a subset of the genus (4/53 NTM; in 1 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 299,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited_ortholog_only",
+    "category_label": "cited in the literature ONLY under an ortholog name",
+    "by_alias": {
+      "M. marinum": "1"
+    },
+    "summary": "Invisible under its H37Rv locus tag: this gene appears in the literature ONLY under its ortholog identifier(s) (M. marinum). Searching 'Rv1502' alone finds nothing.",
+    "papers": [
+      {
+        "title": "Mycobacterium marinum mmar_2318 and mmar_2319 are Responsible for Lipooligosaccharide Biosynthesis and Virulence Toward Dictyostelium.",
+        "doi": "10.3389/fmicb.2015.01458",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/26779131/",
+        "date": "2015"
+      }
+    ],
+    "caveat": "This layer CITES the literature, it does not change the verdict or the function. A gene may be heavily studied (as an antigen, a resistance determinant, a drug target) while its molecular function is settled elsewhere in the fiche.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 95.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

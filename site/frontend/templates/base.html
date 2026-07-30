@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site_title }}{% endblock %}</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">{{ site_title }}</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="{{ q or '' }}">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>{% block main %}{% endblock %}</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST / CNRS UMR 6174 &middot; CC-BY 4.0
+    </small>
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

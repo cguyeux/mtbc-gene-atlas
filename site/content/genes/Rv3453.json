@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3453",
+  "gene": "Rv3453",
+  "len_aa": 110,
+  "strand": "+",
+  "start_mtbc0": 3874404,
+  "end_mtbc0": 3874736,
+  "product_h37rv": "Possible conserved transmembrane protein",
+  "function_revised": "Possible conserved transmembrane protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MPGVITNSESPTAADHDRITATRETLEDYTLRLAPRSYRRWPPAVVGISALGGIAYLADFAIGANVGITWGTANALCGIAIFALVVFVTGLPLAYYAARYNIDLDLIYPR",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Possible conserved transmembrane protein",
+    "legacy_function": "Unknown",
+    "legacy_ec": null,
+    "functional_category": "cell wall and cell processes",
+    "comments": "Rv3453, (MTCY13E12.06), len: 110 aa. Possible conserved transmembrane protein, showing weak similarity with other proteins e.g. Q9F6C3 putative ABC transporter from Propionibacterium thoenii (424 aa), FASTA scores: opt: 104, E(): 6.8, (40.6% identity in 69 aa overlap).",
+    "uniprot_ac": "O06320",
+    "go": "GO:0016021",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 110,
+    "mw_kda": 11.9,
+    "pi": 5.63,
+    "gravy": 0.361,
+    "instability_index": 37.2,
+    "instability_class": "stable",
+    "aromaticity": 0.109,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O06320",
+    "reviewed": false,
+    "protein_name": "Possible conserved transmembrane protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_3453"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG1457",
+    "cog_cat": "F",
+    "description": "Permease for cytosine purines, uracil, thiamine, allantoin",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 0,
+    "syn": 0,
+    "missense": 0,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 1,
+    "disrupt_mode": "reference-fixed",
+    "disrupt_strains": 107510,
+    "disrupt_frac": 0.7404,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 2,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (2 TM helixes)"
+  },
+  "string": {
+    "string_id": "83332.Rv3453",
+    "n_partners": 11,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv3454",
+        "gene": "",
+        "product": "Rv3454, (MTCY13E12.07), len: 422 aa. Probable conserved integral membrane protein, showing some similarity to various proteins (generally tr",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 997,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 545,
+          "fusion": 900,
+          "cooccurence": 774,
+          "coexpression": 729,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1380",
+        "gene": "pyrB",
+        "product": "aspartate carbamoyltransferase",
+        "hypothetical": false,
+        "combined": 584,
+        "combined_no_tm": 585,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 52,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 580,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1384",
+        "gene": "carB",
+        "product": "carbamoyl-phosphate synthase large subunit",
+        "hypothetical": false,
+        "combined": 497,
+        "combined_no_tm": 498,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 52,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 492,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1383",
+        "gene": "carA",
+        "product": "carbamoyl-phosphate synthase small subunit",
+        "hypothetical": false,
+        "combined": 482,
+        "combined_no_tm": 483,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 52,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 477,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0422c",
+        "gene": "thiD",
+        "product": "hydroxymethylpyrimidine/phosphomethylpyrimidine kinase",
+        "hypothetical": false,
+        "combined": 479,
+        "combined_no_tm": 437,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 405,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 114
+        }
+      },
+      {
+        "rv": "Rv1382",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 437,
+        "combined_no_tm": 437,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 437,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3452",
+        "gene": "cut4",
+        "product": "cutinase",
+        "hypothetical": false,
+        "combined": 420,
+        "combined_no_tm": 420,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 418,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3309c",
+        "gene": "upp",
+        "product": "uracil phosphoribosyltransferase",
+        "hypothetical": false,
+        "combined": 465,
+        "combined_no_tm": 412,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 411,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 129
+        }
+      },
+      {
+        "rv": "Rv3451",
+        "gene": "cut3",
+        "product": "cutinase",
+        "hypothetical": false,
+        "combined": 407,
+        "combined_no_tm": 407,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 405,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0414c",
+        "gene": "thiE",
+        "product": "thiamine-phosphate synthase",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 399,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 102,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 358,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 84
+        }
+      },
+      {
+        "rv": "Rv3659c",
+        "gene": "",
+        "product": "conjugal transfer protein",
+        "hypothetical": false,
+        "combined": 414,
+        "combined_no_tm": 48,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 48,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 410
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3454",
+      "gene": "",
+      "product": "Rv3454, (MTCY13E12.07), len: 422 aa. Probable conserved integral membrane protein, showing some similarity to various proteins (generally tr",
+      "combined_no_tm": 997,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 545,
+        "fusion": 900,
+        "cooccurence": 774,
+        "coexpression": 729,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 80.0,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8iuj-assembly1_4C",
+        "evalue": 8.713,
+        "prob": 0.063,
+        "tmscore": 0.4364,
+        "description": "8iuj-assembly1_4C Cryo-EM structure of Euglena gracilis super-complex III2+IV2, composite",
+        "significant": false
+      },
+      {
+        "target": "8bef-assembly1_A",
+        "evalue": 8.713,
+        "prob": 0.04,
+        "tmscore": 0.3309,
+        "description": "8bef-assembly1_A Cryo-EM structure of the Arabidopsis thaliana I+III2 supercomplex (CI membrane core)",
+        "significant": false
+      },
+      {
+        "target": "8bqs-assembly1_A2",
+        "evalue": 8.713,
+        "prob": 0.024,
+        "tmscore": 0.2617,
+        "description": "8bqs-assembly1_A2 Cryo-EM structure of the I-II-III2-IV2 respiratory supercomplex from Tetrahymena thermophila",
+        "significant": false
+      },
+      {
+        "target": "8gym-assembly1_j1",
+        "evalue": 9.378,
+        "prob": 0.016,
+        "tmscore": 0.2375,
+        "description": "8gym-assembly1_j1 Cryo-EM structure of Tetrahymena thermophila respiratory mega-complex MC IV2+(I+III2+II)2",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  }
+}

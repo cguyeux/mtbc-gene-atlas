@@ -1,0 +1,990 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0896",
+  "mtbc0": "mtbc0_000950",
+  "np_id": "NP_215411.1",
+  "gene": "gltA2",
+  "len_aa": 431,
+  "strand": "+",
+  "start_mtbc0": 1002686,
+  "end_mtbc0": 1003981,
+  "product_h37rv": "citrate synthase 1",
+  "product_mtbc0_pgap": "citrate synthase",
+  "function_revised": "Citrate synthase. Pfam: Citrate_synt (PF00285.27).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MADTDDTATLRYPGGEIDLQIVHATEGADGIALGPLLAKTGHTTFDVGFANTAAAKSSITYIDGDAGILRYRGYPIDQLAEKSTFIEVCYLLIYGELPDTDQLAQFTGRIQRHTMLHEDLKRFFDGFPRNAHPMPVLSSVVNALSAYYQDALDPMDNGQVELSTIRLLAKLPTIAAYAYKKSVGQPFLYPDNSLTLVENFLRLTFGFPAEPYQADPEVVRALDMLFILHADHEQNCSTSTVRLVGSSRANLFTSISGGINALWGPLHGGANQAVLEMLEGIRDSGDDVSEFVRKVKNREAGVKLMGFGHRVYKNYDPRARIVKEQADKILAKLGGDDSLLGIAKELEEAALTDDYFIERKLYPNVDFYTGLIYRALGFPTRMFTVLFALGRLPGWIAHWREMHDEGDSKIGRPRQIYTGYTERDYVTIDAR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Citrate_synt",
+      "pfam_acc": "PF00285.27",
+      "i_evalue": 2.1e-142,
+      "ali_from": 48,
+      "ali_to": 414,
+      "description": "Citrate synthase, C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0372",
+    "cog_cat": "C",
+    "description": "Belongs to the citrate synthase family",
+    "preferred_name": "gltA",
+    "ec": [
+      "2.3.3.1"
+    ],
+    "kegg_ko": [
+      "K01647"
+    ],
+    "kegg_pathway": [
+      "map00020",
+      "map00630",
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01130",
+      "map01200",
+      "map01210",
+      "map01230"
+    ],
+    "kegg_module": [
+      "M00009",
+      "M00010",
+      "M00012",
+      "M00740"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0016020",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "Citrate_synt"
+    ],
+    "seed_ortholog": "419947.MRA_0904",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WPD5",
+    "reviewed": true,
+    "protein_name": "Citrate synthase 1",
+    "ec": [
+      "2.3.3.16"
+    ],
+    "function": "",
+    "go": [
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006099",
+      "GO:0036440"
+    ],
+    "kegg": [
+      "mtu:Rv0896",
+      "mtv:RVBD_0896"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 7,
+    "syn": 6,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.054,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0896",
+    "n_partners": 134,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv1475c",
+        "gene": "acn",
+        "product": "iron-regulated aconitate hydratase",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 990,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 242,
+          "coexpression": 699,
+          "experimental": 309,
+          "database": 941,
+          "textmining": 527
+        }
+      },
+      {
+        "rv": "Rv1240",
+        "gene": "mdh",
+        "product": "malate dehydrogenase",
+        "hypothetical": false,
+        "combined": 991,
+        "combined_no_tm": 979,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 658,
+          "experimental": 423,
+          "database": 900,
+          "textmining": 613
+        }
+      },
+      {
+        "rv": "Rv3667",
+        "gene": "acs",
+        "product": "acetyl-CoAsynthetase",
+        "hypothetical": false,
+        "combined": 974,
+        "combined_no_tm": 969,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 649,
+          "experimental": 152,
+          "database": 900,
+          "textmining": 207
+        }
+      },
+      {
+        "rv": "Rv0889c",
+        "gene": "citA",
+        "product": "citrate synthase 2",
+        "hypothetical": false,
+        "combined": 963,
+        "combined_no_tm": 960,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 493,
+          "fusion": 0,
+          "cooccurence": 261,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 131
+        }
+      },
+      {
+        "rv": "Rv2495c",
+        "gene": "bkdC",
+        "product": "branched-chain keto acid dehydrogenase E2 component",
+        "hypothetical": false,
+        "combined": 961,
+        "combined_no_tm": 955,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 424,
+          "experimental": 258,
+          "database": 900,
+          "textmining": 189
+        }
+      },
+      {
+        "rv": "Rv1248c",
+        "gene": "kgd",
+        "product": "multifunctional 2-oxoglutarate dehydrogenase E1 component /2-oxoglutarate dehydrogenase dihydrolipoyllysine-residue succinyltransferase",
+        "hypothetical": false,
+        "combined": 983,
+        "combined_no_tm": 953,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 156,
+          "fusion": 0,
+          "cooccurence": 165,
+          "coexpression": 913,
+          "experimental": 317,
+          "database": 0,
+          "textmining": 661
+        }
+      },
+      {
+        "rv": "Rv1837c",
+        "gene": "glcB",
+        "product": "malate synthase",
+        "hypothetical": false,
+        "combined": 989,
+        "combined_no_tm": 950,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 452,
+          "experimental": 156,
+          "database": 900,
+          "textmining": 793
+        }
+      },
+      {
+        "rv": "Rv2852c",
+        "gene": "mqo",
+        "product": "malate:quinone oxidoreductase",
+        "hypothetical": false,
+        "combined": 969,
+        "combined_no_tm": 941,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 416,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 508
+        }
+      },
+      {
+        "rv": "Rv2967c",
+        "gene": "pca",
+        "product": "pyruvate carboxylase",
+        "hypothetical": false,
+        "combined": 966,
+        "combined_no_tm": 935,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 151,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 223,
+          "experimental": 134,
+          "database": 900,
+          "textmining": 498
+        }
+      },
+      {
+        "rv": "Rv1131",
+        "gene": "prpC",
+        "product": "methylcitrate synthase PrpC",
+        "hypothetical": false,
+        "combined": 923,
+        "combined_no_tm": 920,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 234,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 84
+        }
+      },
+      {
+        "rv": "Rv2455c",
+        "gene": "korA",
+        "product": "2-oxoglutarate oxidoreductase subunit KorA",
+        "hypothetical": false,
+        "combined": 941,
+        "combined_no_tm": 908,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 55,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 101,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 396
+        }
+      },
+      {
+        "rv": "Rv2454c",
+        "gene": "korB",
+        "product": "2-oxoglutarate oxidoreductase subunit KorB",
+        "hypothetical": false,
+        "combined": 924,
+        "combined_no_tm": 905,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 88,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 241
+        }
+      },
+      {
+        "rv": "Rv0211",
+        "gene": "pckA",
+        "product": "phosphoenolpyruvate carboxykinase",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 272
+        }
+      },
+      {
+        "rv": "Rv1098c",
+        "gene": "fum",
+        "product": "fumarate hydratase",
+        "hypothetical": false,
+        "combined": 973,
+        "combined_no_tm": 896,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 426,
+          "experimental": 143,
+          "database": 800,
+          "textmining": 751
+        }
+      },
+      {
+        "rv": "Rv1731",
+        "gene": "gabD2",
+        "product": "succinate-semialdehyde dehydrogenase",
+        "hypothetical": false,
+        "combined": 895,
+        "combined_no_tm": 889,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 61,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 393,
+          "experimental": 145,
+          "database": 800,
+          "textmining": 97
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0889c",
+      "gene": "citA",
+      "product": "citrate synthase 2",
+      "combined_no_tm": 960,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 493,
+        "fusion": 0,
+        "cooccurence": 261,
+        "coexpression": 51,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 131
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: citrate synthase 1",
+    "MTBC0 PGAP product: citrate synthase",
+    "Pfam (hmmscan --cut_ga): Citrate_synt PF00285.27 (E=2e-142)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "GD",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 93.2,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4tvm-assembly1_A-2",
+        "evalue": 2.61e-45,
+        "prob": 1.0,
+        "tmscore": 0.9574,
+        "description": "4tvm-assembly1_A-2 Structure of Citrate Synthase from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "7e8n-assembly1_A-2",
+        "evalue": 2.306e-43,
+        "prob": 1.0,
+        "tmscore": 0.9676,
+        "description": "7e8n-assembly1_A-2 Crystal structure of Type II citrate synthase (HyCS) from Hymenobacter sp. PAMC 26554",
+        "significant": true
+      },
+      {
+        "target": "7e8n-assembly1_B-2",
+        "evalue": 2.131e-41,
+        "prob": 1.0,
+        "tmscore": 0.9502,
+        "description": "7e8n-assembly1_B-2 Crystal structure of Type II citrate synthase (HyCS) from Hymenobacter sp. PAMC 26554",
+        "significant": true
+      },
+      {
+        "target": "2h12-assembly1_E",
+        "evalue": 4.488e-40,
+        "prob": 1.0,
+        "tmscore": 0.9504,
+        "description": "2h12-assembly1_E Structure of Acetobacter aceti citrate synthase complexed with oxaloacetate and carboxymethyldethia coenzyme A (CMX)",
+        "significant": true
+      },
+      {
+        "target": "2h12-assembly1_D",
+        "evalue": 4.826e-39,
+        "prob": 1.0,
+        "tmscore": 0.9542,
+        "description": "2h12-assembly1_D Structure of Acetobacter aceti citrate synthase complexed with oxaloacetate and carboxymethyldethia coenzyme A (CMX)",
+        "significant": true
+      },
+      {
+        "target": "2h12-assembly1_A",
+        "evalue": 6.315e-39,
+        "prob": 1.0,
+        "tmscore": 0.949,
+        "description": "2h12-assembly1_A Structure of Acetobacter aceti citrate synthase complexed with oxaloacetate and carboxymethyldethia coenzyme A (CMX)",
+        "significant": true
+      },
+      {
+        "target": "2h12-assembly1_F",
+        "evalue": 1.237e-38,
+        "prob": 1.0,
+        "tmscore": 0.9484,
+        "description": "2h12-assembly1_F Structure of Acetobacter aceti citrate synthase complexed with oxaloacetate and carboxymethyldethia coenzyme A (CMX)",
+        "significant": true
+      },
+      {
+        "target": "7e8n-assembly1_C-2",
+        "evalue": 5.369e-40,
+        "prob": 1.0,
+        "tmscore": 0.9181,
+        "description": "7e8n-assembly1_C-2 Crystal structure of Type II citrate synthase (HyCS) from Hymenobacter sp. PAMC 26554",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 3876.0,
+    "abundance_rank": 26,
+    "n_ranked": 3519,
+    "abundance_percentile": 99.3,
+    "n_datasets": 16,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 431,
+    "mw_kda": 48.0,
+    "pi": 5.36,
+    "gravy": -0.201,
+    "instability_index": 25.0,
+    "instability_class": "stable",
+    "aromaticity": 0.102,
+    "aliphatic_index": 8990.7,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0920",
+        "identity": 99.5,
+        "evalue": 0.0
+      },
+      "M. leprae": {
+        "locus": "ML2130c",
+        "identity": 91.2,
+        "evalue": 4.76e-298
+      },
+      "M. marinum": {
+        "locus": "MMAR_4640",
+        "identity": 95.4,
+        "evalue": 6.81e-311
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5672",
+        "identity": 86.3,
+        "evalue": 1.28e-275
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000945",
+        "identity": 99.5,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_0944",
+        "identity": 84.5,
+        "evalue": 9.75e-269
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 5,
+    "n_in_vivo": 2,
+    "phenotypes": [
+      {
+        "condition": "altered fitness under amino acid starvation",
+        "category": "stress",
+        "log2fc": -7.11,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "altered fitness under tryptophan starvation",
+        "category": "stress",
+        "log2fc": -7.11,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 10",
+        "category": "in vivo",
+        "log2fc": -6.03,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 45",
+        "category": "in vivo",
+        "log2fc": -6.03,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "altered fitness under Ethambutol",
+        "category": "drug exposure",
+        "log2fc": 4.6,
+        "qval": 0.032,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "4tvm",
+        "method": "X-ray diffraction",
+        "resolution": 2.6,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "P9WPD5",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0895",
+      "gene": null,
+      "strand": "+",
+      "gap": 172
+    },
+    "right": {
+      "locus": "Rv0897c",
+      "gene": null,
+      "strand": "-",
+      "gap": 40
+    },
+    "operon": [
+      {
+        "locus": "Rv0896",
+        "gene": "gltA2"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0967",
+        "tf_gene": "csoR",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable citrate synthase I GltA2",
+    "legacy_function": "Involved in tricarboxylic acid cycle (KREBS cycle) [catalytic activity: citrate + CoA = acetyl-CoA + H2O + oxaloacetate].",
+    "legacy_ec": [
+      "2.3.3.1"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.3.3.1",
+      "2.3.3.16"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Central Carbon Metabolism",
+        "function": "iModulon enriched with the Central Carbon Metabolism KEGG pathway",
+        "category": "Central Carbon",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": -2.763,
+    "ci_low": -3.039,
+    "ci_high": -2.476,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 91.9,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 66.6,
+      "length_aa": 431,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 5,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 5,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "5 publication(s) discuss this gene (5 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Immunological depiction of synthetic B-cell epitopes of Mycobacterium tuberculosis.",
+        "doi": "10.4103/ijmy.ijmy_187_23",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/38149531/",
+        "date": "2023"
+      },
+      {
+        "title": "Mycobacterium tuberculosis CitA activity is modulated by cysteine oxidation and pyruvate binding.",
+        "doi": "10.1039/d3md00058c",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37252106/",
+        "date": "2023"
+      },
+      {
+        "title": "Understanding the Genetic Diversity of Mycobacterium africanum Using Phylogenetics and Population Genomics Approaches.",
+        "doi": "10.3389/fgene.2022.800083",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35495132/",
+        "date": "2022"
+      },
+      {
+        "title": "Proteomic profile of Mycobacterium tuberculosis after eupomatenoid-5 induction reveals potential drug targets.",
+        "doi": "10.2217/fmb-2017-0023",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28686056/",
+        "date": "2017"
+      },
+      {
+        "title": "Descriptive proteomic analysis shows protein variability between closely related clinical isolates of Mycobacterium tuberculosis.",
+        "doi": "10.1002/pmic.200900836",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/20217870/",
+        "date": "2010"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.012,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 93.2,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

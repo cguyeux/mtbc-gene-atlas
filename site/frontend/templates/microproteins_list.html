@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Microproteome &mdash; {{ site_title }}{% endblock %}
+{% block main %}
+<section class="list">
+  <h1>Microproteome <span class="muted">(non-canonical smORFs)</span></h1>
+  <p class="muted" style="max-width:74ch">
+    A separate track of small proteins whose existence is experimentally supported but which the H37Rv annotation
+    excluded. These are <strong>not</strong> counted among the 3906 canonical genes or the dark stock. Each is classified
+    by genomic geometry against the reference CDS set (not the source label): <em>intergenic</em> (a novel locus),
+    <em>antisense</em> (opposite strand of a known gene), or <em>same-strand overlap</em> (an alternative reading
+    frame within a known gene). Existence supported; function unknown. Three orthogonal sources:
+    <strong>mass-spectrometry compendium</strong> (de Souza et al., <em>Sci Rep</em> 2024),
+    <strong>VapC4 ribosome-stalling proteogenomics</strong> (Troian et al., <em>Nucleic Acids Res</em> 2026), and
+    <strong>ribosome-profiling translatome</strong> (Smith et al., <em>eLife</em> 2022; confident subset with MS or
+    coding-signature support).
+  </p>
+
+  <form class="filters" action="/microproteins" method="get">
+    <input type="text" name="q" placeholder="id, host gene, localisation…" value="{{ q or '' }}">
+    <select name="overlap">
+      <option value="">any class</option>
+      {% for k, lab in overlap_label.items() %}
+      <option value="{{ k }}" {% if overlap==k %}selected{% endif %}>{{ lab }} ({{ by_class.get(k, 0) }})</option>
+      {% endfor %}
+    </select>
+    <select name="method">
+      <option value="">any method</option>
+      {% for k, n in by_method.items() %}
+      <option value="{{ k }}" {% if method==k %}selected{% endif %}>{{ k }} ({{ n }})</option>
+      {% endfor %}
+    </select>
+    <label><input type="checkbox" name="essential" value="1" {% if essential=='1' %}checked{% endif %}> essential only ({{ n_ess }})</label>
+    <button type="submit">Filter</button>
+  </form>
+
+  <p class="muted">{{ total }} microprotein{{ 's' if total != 1 else '' }} matched.</p>
+
+  <table class="genes">
+    <thead><tr><th>ID</th><th>Class</th><th>Overlaps</th><th>Length</th><th>Detection</th><th>Localisation</th><th>Essentiality</th></tr></thead>
+    <tbody>
+      {% for m in rows %}
+      <tr>
+        <td><a href="/microprotein/{{ m.id }}">{{ m.id }}</a></td>
+        <td><span class="badge">{{ overlap_label.get(m.overlap_class, m.overlap_class) }}</span></td>
+        <td>{% if m.host_rv %}<a href="/gene/{{ m.host_rv }}">{{ m.host_gene or m.host_rv }}</a>{% else %}<span class="muted">&mdash;</span>{% endif %}</td>
+        <td>{{ m.length_aa }} aa</td>
+        <td class="muted">{% if 'stalling' in (m.detection_method or '') %}ribosome-stalling{% elif 'Ribo-seq' in (m.detection_method or '') %}Ribo-seq{% elif 'MS' in (m.detection_method or '') %}MS{% else %}{{ m.detection_method or '—' }}{% endif %}</td>
+        <td class="muted">{{ m.localization or '—' }}</td>
+        <td>{% if m.essentiality_code == 'ES' %}<span class="badge badge-dark">essential</span>{% else %}<span class="muted">{{ m.essentiality or '—' }}</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if n_pages > 1 %}
+  <nav class="pager">
+    {% set qs = 'q=' ~ (q or '') ~ '&overlap=' ~ (overlap or '') ~ '&essential=' ~ (essential or '') ~ '&method=' ~ (method or '') %}
+    {% if page > 1 %}<a href="/microproteins?{{ qs }}&page={{ page-1 }}">&larr; prev</a>{% endif %}
+    <span>page {{ page }} / {{ n_pages }}</span>
+    {% if page < n_pages %}<a href="/microproteins?{{ qs }}&page={{ page+1 }}">next &rarr;</a>{% endif %}
+  </nav>
+  {% endif %}
+</section>
+{% endblock %}

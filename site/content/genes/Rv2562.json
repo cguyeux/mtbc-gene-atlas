@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2562",
+  "gene": "Rv2562",
+  "len_aa": 129,
+  "strand": "+",
+  "start_mtbc0": 2881758,
+  "end_mtbc0": 2882147,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VAEQKVKRNVELAGVDVILVHRMLKNEVPVSEYLFMTDVVAQCLDESVRKLATPLTHDFEGIGETSTHYIDLATSDMPPAVPDHSFFGLLWADVKFEWHALPYLLGFKKACAGFRSLGRGATEEPAEMG",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv2562, (MTCY9C4.06c), len: 129 aa. Conserved hypothetical protein, highly similar, but shorter 83 aa, to downstream ORF AAK46951|RV2561|MT2638|MTCY9C4.07c conserved hypothetical protein from Mycobacterium tuberculosis (97 aa), FASTA scores: opt: 866, E(): 2.2e-54, (100.0% identity in 129 aa overlap).",
+    "uniprot_ac": "Q50737",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 129,
+    "mw_kda": 14.3,
+    "pi": 5.12,
+    "gravy": -0.011,
+    "instability_index": 41.9,
+    "instability_class": "unstable",
+    "aromaticity": 0.093,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "Q50737",
+    "reviewed": false,
+    "protein_name": null,
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [],
+    "protein_existence": null,
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG2114",
+    "cog_cat": "T",
+    "description": "Protein of unknown function (DUF2652)",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "Protein of unknown function (DUF2652)",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 42.5,
+    "abundance_rank": 1864,
+    "n_ranked": 3519,
+    "abundance_percentile": 47.1,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0081",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0602c",
+        "tf_gene": "tcrA",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv1423",
+        "tf_gene": "whiA",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv3574",
+        "tf_gene": "kstR",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 4,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 1,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.935,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv2562",
+    "n_partners": 13,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv2561",
+        "gene": "",
+        "product": "Rv2561, (MTCY9C4.07c), len: 97 aa. Conserved hypothetical protein, highly similar in part (and longer 33 aa) to upstream ORF AAK46951|RV2562",
+        "hypothetical": false,
+        "combined": 992,
+        "combined_no_tm": 948,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 601,
+          "fusion": 867,
+          "cooccurence": 0,
+          "coexpression": 94,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv2564",
+        "gene": "glnQ",
+        "product": "glutamine ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 692,
+        "combined_no_tm": 681,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 498,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv2565",
+        "gene": "",
+        "product": "NTE family protein",
+        "hypothetical": false,
+        "combined": 581,
+        "combined_no_tm": 564,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 307,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv2563",
+        "gene": "",
+        "product": "glutamine ABC transporter permease",
+        "hypothetical": false,
+        "combined": 496,
+        "combined_no_tm": 495,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 493,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0104",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 437,
+        "combined_no_tm": 423,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 65
+        }
+      },
+      {
+        "rv": "Rv2434c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 435,
+        "combined_no_tm": 421,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 85,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 65
+        }
+      },
+      {
+        "rv": "Rv3728",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 437,
+        "combined_no_tm": 414,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv0073",
+        "gene": "",
+        "product": "glutamine ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 432,
+        "combined_no_tm": 411,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv3239c",
+        "gene": "",
+        "product": "transmembrane transport protein",
+        "hypothetical": false,
+        "combined": 431,
+        "combined_no_tm": 408,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv0998",
+        "gene": "",
+        "product": "acetyltransferase Pat",
+        "hypothetical": false,
+        "combined": 415,
+        "combined_no_tm": 401,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 55,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 65
+        }
+      },
+      {
+        "rv": "Rv1675c",
+        "gene": "cmr",
+        "product": "HTH-type transcriptional regulator Cmr",
+        "hypothetical": false,
+        "combined": 414,
+        "combined_no_tm": 400,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 55,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 65
+        }
+      },
+      {
+        "rv": "Rv3676",
+        "gene": "crp",
+        "product": "cAMP receptor protein",
+        "hypothetical": false,
+        "combined": 414,
+        "combined_no_tm": 399,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 55,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 268,
+          "database": 198,
+          "textmining": 65
+        }
+      },
+      {
+        "rv": "Rv1264",
+        "gene": "",
+        "product": "adenylyl cyclase",
+        "hypothetical": false,
+        "combined": 514,
+        "combined_no_tm": 50,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 510
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2561",
+      "gene": "",
+      "product": "Rv2561, (MTCY9C4.07c), len: 97 aa. Conserved hypothetical protein, highly similar in part (and longer 33 aa) to upstream ORF AAK46951|RV2562",
+      "combined_no_tm": 948,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 601,
+        "fusion": 867,
+        "cooccurence": 0,
+        "coexpression": 94,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 870
+      }
+    }
+  },
+  "plddt_af": {},
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  }
+}

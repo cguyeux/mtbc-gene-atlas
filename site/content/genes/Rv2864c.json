@@ -1,0 +1,996 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2864c",
+  "mtbc0": "mtbc0_003046",
+  "np_id": "NP_217380.1",
+  "gene": "",
+  "len_aa": 603,
+  "strand": "-",
+  "start_mtbc0": 3196120,
+  "end_mtbc0": 3197931,
+  "product_h37rv": "penicillin-binding lipoprotein",
+  "product_mtbc0_pgap": "penicillin-binding protein",
+  "function_revised": "Penicillin-binding protein. Pfam: MecA_N (PF05223.18), Transpeptidase (PF00905.28).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MVTKTTLASATSGLLLLAVVAMSGCTPRPQGPGPAAEKFFAALAIGDTASAAQLSDNPNEAREALNAAWAGLQAAHLDAQVLSAKYAEDTGTVAYRFSWHLPKDRIWTYDGQLKMARDEGRWHVRWTTSGLHPKLGEHQTFALRADPPRRASVNEVGGTDVLVPGYLYHYSLDAGQAGRELFGTAHAVVGALHPFDDTLNDPQLLAEQASSSTQPLDLVTLHADDSNRVAAAIGQLPGVVITPQAELLPTDKHFAPAVLNDVKKAVVDELDGKAGWRVVSVNQNGVDVSVLHEVAPSPASSVSITLDRVVQNAAQHAVNTRGGKAMIVVIKPSTGEILAIAQNAGADADGPVATTGLYPPGSTFKMITAGAAVERDLATPETLLGCPGEIDIGHRTIPNYGGFDLGVVPMSRAFASSCNTTFAELSSRLPPRGLTQAARRYGIGLDYQVDGITTVTGSVPPTVDLAERTEDGFGQGKVLASPFGMALVAATVAAGKTPVPQLIAGRPTAVEGDATPISQKMIDALRPMMRLVVTNGTAKEIAGCGEVFGKTGEAEFPGGSHSWFAGYRGDLAFASLIVGGGSSEYAVRMTKVMFESLPPGYLA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "MecA_N",
+      "pfam_acc": "PF05223.18",
+      "i_evalue": 1.3e-27,
+      "ali_from": 32,
+      "ali_to": 139,
+      "description": "NTF2-like N-terminal transpeptidase domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Transpeptidase",
+      "pfam_acc": "PF00905.28",
+      "i_evalue": 7.2e-33,
+      "ali_from": 326,
+      "ali_to": 581,
+      "description": "Penicillin binding protein transpeptidase domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0768",
+    "cog_cat": "M",
+    "description": "penicillin-binding protein",
+    "preferred_name": "pbp2B",
+    "ec": [
+      "3.4.16.4"
+    ],
+    "kegg_ko": [
+      "K01286"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "MecA_N",
+      "PBP_dimer",
+      "Transpeptidase"
+    ],
+    "seed_ortholog": "419947.MRA_2889",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "O33346",
+    "reviewed": false,
+    "protein_name": "serine-type D-Ala-D-Ala carboxypeptidase (EC 3.4.16.4)",
+    "ec": [
+      "3.4.16.4"
+    ],
+    "function": "",
+    "go": [
+      "GO:0005886",
+      "GO:0008658",
+      "GO:0009274",
+      "GO:0046677",
+      "GO:0071555",
+      "GO:0071972"
+    ],
+    "kegg": [
+      "mtu:Rv2864c",
+      "mtv:RVBD_2864c"
+    ],
+    "evidence": "Predicted",
+    "refreshed": "2026-07-13"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 10,
+    "syn": 7,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.152,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2864c",
+    "n_partners": 63,
+    "n_context_driven": 26,
+    "partners": [
+      {
+        "rv": "Rv2151c",
+        "gene": "ftsQ",
+        "product": "cell division protein FtsQ",
+        "hypothetical": false,
+        "combined": 872,
+        "combined_no_tm": 858,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 270,
+          "coexpression": 153,
+          "experimental": 781,
+          "database": 0,
+          "textmining": 135
+        }
+      },
+      {
+        "rv": "Rv2154c",
+        "gene": "ftsW",
+        "product": "lipid II flippase FtsW",
+        "hypothetical": false,
+        "combined": 800,
+        "combined_no_tm": 787,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 1,
+          "cooccurence": 361,
+          "coexpression": 230,
+          "experimental": 589,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv3682",
+        "gene": "ponA2",
+        "product": "bifunctional penicillin-insensitive transglycosylase/penicillin-sensitive transpeptidase",
+        "hypothetical": false,
+        "combined": 941,
+        "combined_no_tm": 785,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 149,
+          "fusion": 0,
+          "cooccurence": 599,
+          "coexpression": 44,
+          "experimental": 419,
+          "database": 0,
+          "textmining": 738
+        }
+      },
+      {
+        "rv": "Rv0017c",
+        "gene": "rodA",
+        "product": "cell division protein RodA",
+        "hypothetical": false,
+        "combined": 782,
+        "combined_no_tm": 768,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 18,
+          "cooccurence": 311,
+          "coexpression": 222,
+          "experimental": 589,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv2091c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 680,
+        "combined_no_tm": 670,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 670,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 71
+        }
+      },
+      {
+        "rv": "Rv2867c",
+        "gene": "",
+        "product": "GCN5-like N-acetyltransferase",
+        "hypothetical": false,
+        "combined": 614,
+        "combined_no_tm": 614,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 189,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0185",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 562,
+        "combined_no_tm": 562,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 561,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2868c",
+        "gene": "gcpE",
+        "product": "4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)",
+        "hypothetical": false,
+        "combined": 556,
+        "combined_no_tm": 556,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2869c",
+        "gene": "rip",
+        "product": "zinc metalloprotease",
+        "hypothetical": false,
+        "combined": 579,
+        "combined_no_tm": 554,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 528,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 94,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv2870c",
+        "gene": "dxr",
+        "product": "1-deoxy-D-xylulose 5-phosphate reductoisomerase",
+        "hypothetical": false,
+        "combined": 550,
+        "combined_no_tm": 551,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 539,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 65,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2446c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 547,
+        "combined_no_tm": 548,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 0,
+          "cooccurence": 540,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2158c",
+        "gene": "murE",
+        "product": "UDP-N-acetylmuramoylalanyl-D-glutamate--2,6-diaminopimelate ligase",
+        "hypothetical": false,
+        "combined": 551,
+        "combined_no_tm": 522,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 150,
+          "coexpression": 443,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv0863",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 518,
+        "combined_no_tm": 519,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 517,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0050",
+        "gene": "ponA1",
+        "product": "bifunctional penicillin-insensitive transglycosylase/penicillin-sensitive transpeptidase",
+        "hypothetical": false,
+        "combined": 880,
+        "combined_no_tm": 515,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 171,
+          "coexpression": 45,
+          "experimental": 419,
+          "database": 0,
+          "textmining": 762
+        }
+      },
+      {
+        "rv": "Rv0556",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 493,
+        "combined_no_tm": 494,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 491,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3682",
+      "gene": "ponA2",
+      "product": "bifunctional penicillin-insensitive transglycosylase/penicillin-sensitive transpeptidase",
+      "combined_no_tm": 785,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 149,
+        "fusion": 0,
+        "cooccurence": 599,
+        "coexpression": 44,
+        "experimental": 419,
+        "database": 0,
+        "textmining": 738
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: penicillin-binding lipoprotein",
+    "MTBC0 PGAP product: penicillin-binding protein",
+    "Pfam (hmmscan --cut_ga): MecA_N PF05223.18 (E=1e-27), Transpeptidase PF00905.28 (E=7e-33)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 93.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4bl2-assembly1_A",
+        "evalue": 2.19e-33,
+        "prob": 1.0,
+        "tmscore": 0.7351,
+        "description": "4bl2-assembly1_A Crystal structure of PBP2a clinical mutant E150K from MRSA",
+        "significant": true
+      },
+      {
+        "target": "1mws-assembly1_A",
+        "evalue": 9.73e-33,
+        "prob": 1.0,
+        "tmscore": 0.7183,
+        "description": "1mws-assembly1_A Structure of nitrocefin acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.00 A resolution.",
+        "significant": true
+      },
+      {
+        "target": "4cpk-assembly1_A",
+        "evalue": 1.844e-32,
+        "prob": 1.0,
+        "tmscore": 0.7141,
+        "description": "4cpk-assembly1_A Crystal structure of PBP2a double clinical mutant N146K-E150K from MRSA",
+        "significant": true
+      },
+      {
+        "target": "3zg0-assembly1_A",
+        "evalue": 3.313e-32,
+        "prob": 1.0,
+        "tmscore": 0.7268,
+        "description": "3zg0-assembly1_A Crystal structure of ceftaroline acyl-PBP2a from MRSA with non- covalently bound ceftaroline and muramic acid at allosteric site obtained by cocrystallization",
+        "significant": true
+      },
+      {
+        "target": "6h5o-assembly2_B",
+        "evalue": 1.255e-31,
+        "prob": 1.0,
+        "tmscore": 0.7129,
+        "description": "6h5o-assembly2_B Crystal structure of PBP2a from MRSA in complex with piperacillin at active site.",
+        "significant": true
+      },
+      {
+        "target": "1mwu-assembly1_A",
+        "evalue": 6.202e-31,
+        "prob": 1.0,
+        "tmscore": 0.7156,
+        "description": "1mwu-assembly1_A Structure of methicillin acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.60 A resolution.",
+        "significant": true
+      },
+      {
+        "target": "8f3f-assembly1_A",
+        "evalue": 1.155e-33,
+        "prob": 1.0,
+        "tmscore": 0.5345,
+        "description": "8f3f-assembly1_A Crystal structure of Penicillin Binding Protein 5 (PBP5) T485M variant apo form from Enterococcus faecium",
+        "significant": true
+      },
+      {
+        "target": "8f3y-assembly1_A",
+        "evalue": 2.858e-33,
+        "prob": 1.0,
+        "tmscore": 0.5402,
+        "description": "8f3y-assembly1_A Crystal structure of Penicillin Binding Protein 5 (PBP5) Poly-Gly variant penicillin bound form from Enterococcus faecium",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP",
+    "tm_helices": 0,
+    "signal_peptide": true,
+    "lipoprotein": true,
+    "lipobox_cys": 25,
+    "prediction": "predicted lipoprotein (lipobox + signal peptide)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 1.59,
+    "abundance_rank": 3204,
+    "n_ranked": 3519,
+    "abundance_percentile": 9.0,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 603,
+    "mw_kda": 63.0,
+    "pi": 5.56,
+    "gravy": -0.012,
+    "instability_index": 30.2,
+    "instability_class": "stable",
+    "aromaticity": 0.063,
+    "aliphatic_index": 8663.3,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2889c",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. leprae": {
+        "locus": "ML1577c",
+        "identity": 81.5,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_1840",
+        "identity": 85.2,
+        "evalue": 0.0
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_2584",
+        "identity": 74.6,
+        "evalue": 0.0
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002955",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_3167c",
+        "identity": 63.6,
+        "evalue": 9.26e-269
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 3,
+    "n_in_vivo": 1,
+    "phenotypes": [
+      {
+        "condition": "altered fitness under Meropenem",
+        "category": "drug exposure",
+        "log2fc": -4.37,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "Mutants exhibiting altered fitness in the absence of gene marP",
+        "category": "other",
+        "log2fc": -2.38,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 45",
+        "category": "in vivo",
+        "log2fc": -2.2,
+        "qval": 0.002,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2863",
+      "gene": "vapC23",
+      "strand": "+",
+      "gap": 81
+    },
+    "right": {
+      "locus": "Rv2865",
+      "gene": "relF",
+      "strand": "+",
+      "gap": 271
+    },
+    "operon": [
+      {
+        "locus": "Rv2864c",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1985c",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv3246c",
+        "tf_gene": "mtrA",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Possible penicillin-binding lipoprotein",
+    "legacy_function": "Function unknown, possibly involved in cell wall biosynthesis.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [
+      "3.4.16.4"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Rv1828/SigH",
+        "function": "iModulon that maps to the union of the Rv1828 and Rv3223c regulons",
+        "category": "Redox",
+        "regulator": "Rv1828 or sigH"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.099,
+    "ci_low": -3.998,
+    "ci_high": 5.39,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 4,
+      "n_syn": 1,
+      "n_nonsyn": 3,
+      "n_disruptive": 0,
+      "dN_dS": 1.062,
+      "power": "low",
+      "interpretation": "low power (4 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 84.1,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 7,
+      "crossgenus_genomes": [
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 49.9,
+      "length_aa": 603,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "rbtnseq_fitness": {
+    "n_phenotypes": 2,
+    "groups": [
+      "stress"
+    ],
+    "phenotypes": [
+      {
+        "condition": "Meropenem",
+        "group": "stress",
+        "log2": -1.58,
+        "t": -8.294,
+        "direction": "required",
+        "detail": "7H9 with Meropenem 9.6 ug/mL"
+      },
+      {
+        "condition": "Ceftriaxone disodium salt hemi(heptahydrate)",
+        "group": "stress",
+        "log2": -1.001,
+        "t": -6.59,
+        "direction": "required",
+        "detail": "7H9 with Ceftriaxone hemi(heptahydrate) 0.12 mM"
+      }
+    ],
+    "is_pe_ppe": false,
+    "lead": "transposon mutants are specifically depleted under Meropenem (stress) (RB-TnSeq log2=-1.58, t=-8.294), i.e. the gene is required for fitness in that condition — candidate involvement in the Meropenem-related process/utilisation; 2 specific phenotype(s) total.",
+    "source": "RB-TnSeq 95-condition barcoded transposon screen, Mtb (PLoS Biol 2026, doi:10.1371/journal.pbio.3003529)"
+  },
+  "literature": {
+    "n_papers": 4,
+    "n_papers_listed": 4,
+    "category": "studied_elsewhere",
+    "category_label": "biology documented at least as much outside M. tuberculosis",
+    "n_tb": 3,
+    "n_other": 3,
+    "n_ortholog_tag": 1,
+    "other_species": {
+      "M. abscessus": "1",
+      "M. smegmatis": "2"
+    },
+    "summary": "4 publication(s) discuss this gene. **Its biology is documented at least as much OUTSIDE M. tuberculosis as within it** (3 papers in a non-TB mycobacterial context — M. smegmatis (2), M. abscessus (1) — vs 3 in a TB context). Mycobacterial genetics is largely done in M. smegmatis, so part of what is 'known' about this gene is known by proxy.",
+    "papers": [
+      {
+        "title": "Identification of drivers of mycobacterial resistance to peptidoglycan synthesis inhibitors.",
+        "doi": "10.3389/fmicb.2022.985871",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36147841/",
+        "date": "2022"
+      },
+      {
+        "title": "Glby, Encoded by MAB_3167c, Is Required for In Vivo Growth of Mycobacteroides abscessus and Exhibits Mild β-Lactamase Activity.",
+        "doi": "10.1128/jb.00046-22",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35380462/",
+        "date": "2022"
+      },
+      {
+        "title": "Penicillin Binding Proteins and β-Lactamases of Mycobacterium tuberculosis: Reexamination of the Historical Paradigm.",
+        "doi": "10.1128/msphere.00039-22",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35196121/",
+        "date": "2022"
+      },
+      {
+        "title": "Laboratory evolution of Mycobacterium on agar plates for analysis of resistance acquisition and drug sensitivity profiles.",
+        "doi": "10.1038/s41598-021-94645-z",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34302035/",
+        "date": "2021"
+      }
+    ],
+    "papers_elsewhere": [
+      {
+        "title": "Identification of drivers of mycobacterial resistance to peptidoglycan synthesis inhibitors.",
+        "doi": "10.3389/fmicb.2022.985871",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36147841/",
+        "date": "2022"
+      },
+      {
+        "title": "Glby, Encoded by MAB_3167c, Is Required for In Vivo Growth of Mycobacteroides abscessus and Exhibits Mild β-Lactamase Activity.",
+        "doi": "10.1128/jb.00046-22",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35380462/",
+        "date": "2022"
+      },
+      {
+        "title": "Laboratory evolution of Mycobacterium on agar plates for analysis of resistance acquisition and drug sensitivity profiles.",
+        "doi": "10.1038/s41598-021-94645-z",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34302035/",
+        "date": "2021"
+      }
+    ],
+    "caveat": "IMPORTANT — 'better studied elsewhere' does NOT mean 'function established in M. tuberculosis'. Findings obtained in M. smegmatis (a non-pathogenic, fast-growing species with a different lifestyle and regulation), or in M. marinum / M. leprae / M. abscessus, do NOT transfer automatically to M. tuberculosis. Treat this body of work as CONTEXT to verify, not as settled knowledge.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.048,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 29,
+    "total_idr_residues": 29,
+    "idr_regions": [
+      [
+        0,
+        29
+      ]
+    ],
+    "mean_plddt": 93.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

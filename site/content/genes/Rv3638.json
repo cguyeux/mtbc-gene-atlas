@@ -1,0 +1,670 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3638",
+  "mtbc0": "mtbc0_003854",
+  "np_id": "NP_218155.1",
+  "gene": "",
+  "len_aa": 132,
+  "strand": "+",
+  "start_mtbc0": 4100688,
+  "end_mtbc0": 4101435,
+  "product_h37rv": "transposase",
+  "product_mtbc0_pgap": "ATP-binding protein",
+  "function_revised": "ATP-binding protein. Pfam: IstB_IS21 (PF01695.24).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MAAKTATNSRDVAAELAYLTRALKAPTLRGAIEQLADRARTKTWSYEEFLAACLQREVSARESHGGEGRIRAARFPSRKSLEEFDFDHARGLKRDTIAHLGTLDFVTPSNRDRDPRLPGRPPRPIRHRLAMG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "IstB_IS21",
+      "pfam_acc": "PF01695.24",
+      "i_evalue": 1.7e-14,
+      "ali_from": 21,
+      "ali_to": 107,
+      "description": "IstB-like ATP binding protein"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1484",
+    "cog_cat": "L",
+    "description": "IstB-like ATP binding protein",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "IstB_IS21"
+    ],
+    "seed_ortholog": "419947.MRA_3674",
+    "evalue": "2.62e-67"
+  },
+  "uniprot": {
+    "acc": "I6XHU7",
+    "reviewed": false,
+    "protein_name": "Possible transposase",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0005524",
+      "GO:0006260"
+    ],
+    "kegg": [
+      "mtu:Rv3638",
+      "mtv:RVBD_3638"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 6,
+    "syn": 1,
+    "missense": 4,
+    "nonsense": 1,
+    "frameshift": 0,
+    "pN_pS": 1.718,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 377,
+    "disrupt_frac": 0.0026,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv3638",
+    "n_partners": 10,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv3637",
+        "gene": "",
+        "product": "Possible transposase; Rv3637, (MTCY15C10.15c), len: 166 aa. Possible transposase. C-terminal end highly similar to Q9RLQ9|ISTA putative tran",
+        "hypothetical": false,
+        "combined": 980,
+        "combined_no_tm": 980,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 729,
+          "coexpression": 412,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv3428c",
+        "gene": "",
+        "product": "transposase",
+        "hypothetical": false,
+        "combined": 833,
+        "combined_no_tm": 827,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 771,
+          "coexpression": 235,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv0058",
+        "gene": "dnaB",
+        "product": "replicative DNA helicase",
+        "hypothetical": false,
+        "combined": 814,
+        "combined_no_tm": 797,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 103,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 85,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 124
+        }
+      },
+      {
+        "rv": "Rv2943",
+        "gene": "",
+        "product": "insertion sequence element IS1533 transposase",
+        "hypothetical": false,
+        "combined": 804,
+        "combined_no_tm": 797,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 95,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv2813",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 774,
+        "combined_no_tm": 775,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 52,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 772,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3636",
+        "gene": "",
+        "product": "Possible transposase; Rv3636, (MTCY15C10.16c), len: 115 aa. Possible transposase, weakly similar to others e.g. O69924|SC3C8.12 putative tra",
+        "hypothetical": false,
+        "combined": 738,
+        "combined_no_tm": 728,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 419,
+          "fusion": 0,
+          "cooccurence": 526,
+          "coexpression": 92,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv0943c",
+        "gene": "",
+        "product": "monooxygenase",
+        "hypothetical": false,
+        "combined": 474,
+        "combined_no_tm": 474,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 474,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1051c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 450,
+        "combined_no_tm": 451,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 58,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 441,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0071",
+        "gene": "",
+        "product": "maturase",
+        "hypothetical": false,
+        "combined": 413,
+        "combined_no_tm": 408,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 400,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 50
+        }
+      },
+      {
+        "rv": "Rv0620",
+        "gene": "galK",
+        "product": "galactokinase",
+        "hypothetical": false,
+        "combined": 413,
+        "combined_no_tm": 392,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 392,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3637",
+      "gene": "",
+      "product": "Possible transposase; Rv3637, (MTCY15C10.15c), len: 166 aa. Possible transposase. C-terminal end highly similar to Q9RLQ9|ISTA putative tran",
+      "combined_no_tm": 980,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 729,
+        "coexpression": 412,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 76
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: transposase",
+    "MTBC0 PGAP product: ATP-binding protein",
+    "Pfam (hmmscan --cut_ga): IstB_IS21 PF01695.24 (E=2e-14)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 81.6,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8q3w-assembly1_A",
+        "evalue": 2.785e-16,
+        "prob": 1.0,
+        "tmscore": 0.8147,
+        "description": "8q3w-assembly1_A ATP-bound IstB in complex to duplex DNA",
+        "significant": true
+      },
+      {
+        "target": "8q4d-assembly1_O",
+        "evalue": 2.493e-15,
+        "prob": 1.0,
+        "tmscore": 0.8091,
+        "description": "8q4d-assembly1_O IstA-IstB(E167Q) Strand Transfer Complex",
+        "significant": true
+      },
+      {
+        "target": "5bq5-assembly3_C",
+        "evalue": 2.652e-11,
+        "prob": 1.0,
+        "tmscore": 0.7825,
+        "description": "5bq5-assembly3_C Crystal structure of the IstB AAA+ domain bound to ADP-BeF3",
+        "significant": true
+      },
+      {
+        "target": "2hcb-assembly1_A",
+        "evalue": 0.001915,
+        "prob": 1.0,
+        "tmscore": 0.817,
+        "description": "2hcb-assembly1_A Structure of AMPPCP-bound DnaA from Aquifex aeolicus",
+        "significant": true
+      },
+      {
+        "target": "5he8-assembly4_G",
+        "evalue": 0.0009759,
+        "prob": 1.0,
+        "tmscore": 0.7432,
+        "description": "5he8-assembly4_G Bacterial initiation protein",
+        "significant": true
+      },
+      {
+        "target": "2hcb-assembly1_B",
+        "evalue": 0.002026,
+        "prob": 1.0,
+        "tmscore": 0.8148,
+        "description": "2hcb-assembly1_B Structure of AMPPCP-bound DnaA from Aquifex aeolicus",
+        "significant": true
+      },
+      {
+        "target": "2hcb-assembly1_C",
+        "evalue": 0.002398,
+        "prob": 1.0,
+        "tmscore": 0.8137,
+        "description": "2hcb-assembly1_C Structure of AMPPCP-bound DnaA from Aquifex aeolicus",
+        "significant": true
+      },
+      {
+        "target": "1l8q-assembly1_A",
+        "evalue": 0.001292,
+        "prob": 1.0,
+        "tmscore": 0.7544,
+        "description": "1l8q-assembly1_A CRYSTAL STRUCTURE OF DNA REPLICATION INITIATION FACTOR",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 132,
+    "mw_kda": 14.8,
+    "pi": 10.52,
+    "gravy": -0.702,
+    "instability_index": 37.5,
+    "instability_class": "stable",
+    "aromaticity": 0.061,
+    "aliphatic_index": 7121.2,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "insertion seqs and phages",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb3662",
+        "identity": 100.0,
+        "evalue": 8.79e-178
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003737",
+        "identity": 100.0,
+        "evalue": 4.58e-177
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv3635",
+      "gene": null,
+      "strand": "+",
+      "gap": 1574
+    },
+    "right": {
+      "locus": "Rv3639c",
+      "gene": null,
+      "strand": "-",
+      "gap": 153
+    },
+    "operon": [
+      {
+        "locus": "Rv3638",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible transposase",
+    "legacy_function": "Possibly required for the transposition of an insertion element.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "SG_3",
+        "function": "Single Gene iModulon 3",
+        "category": "Single Gene",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 1.077,
+    "ci_low": -0.656,
+    "ci_high": 3.765,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 1,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.345,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 17,
+      "n_total": 53,
+      "frac": 0.321,
+      "in_mtbap": 2,
+      "in_mkc": 2,
+      "mean_pident": 62.7,
+      "classification": "restricted",
+      "species_present": [
+        "M_avium",
+        "M_bouchedurhonense",
+        "M_decipiens",
+        "M_europaeum",
+        "M_gallinarum",
+        "M_gordonae",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_scrofulaceum",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_timonense"
+      ],
+      "interpretation": "present in a subset of the genus (17/53 NTM; in 2 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 2,
+      "crossgenus_genomes": [
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 47.9,
+      "length_aa": 132,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.258,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 26,
+    "total_idr_residues": 26,
+    "idr_regions": [
+      [
+        106,
+        132
+      ]
+    ],
+    "mean_plddt": 81.6,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (26/132 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

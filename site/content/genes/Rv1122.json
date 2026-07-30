@@ -1,0 +1,969 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1122",
+  "mtbc0": "mtbc0_001205",
+  "np_id": "NP_215638.1",
+  "gene": "gnd2",
+  "len_aa": 340,
+  "strand": "+",
+  "start_mtbc0": 1253569,
+  "end_mtbc0": 1254591,
+  "product_h37rv": "6-phosphogluconate dehydrogenase (decarboxylating)",
+  "product_mtbc0_pgap": "decarboxylating 6-phosphogluconate dehydrogenase",
+  "function_revised": "Decarboxylating 6-phosphogluconate dehydrogenase. Pfam: NAD_binding_2 (PF03446.22), F420_oxidored (PF03807.24), TrkA_N (PF02254.25), 6PGD (PF00393.25).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MQLGMIGLGRMGANIVRRLAKGGHDCVVYDHDPDAVKAMAGEDRTTGVASLRELSQRLSAPRVVWVMVPAGNITTAVIEELANTLEAGDIVIDGGNTYYRDDLRHEKLLFKKGIHLLDCGTSGGVWGRERGYCLMIGGDGDAFARAEPIFATVAPGVAAAPRTPGRDGEVAPSEQGYLHCGPCGSGHFVKMVHNGIEYGMMASLAEGLNILRNADVGTRVQHGDAETAPLPNPECYQYDFDIPEVAEVWRRGSVIGSWLLDLTAIALRESPDLAEFSGRVSDSGEGRWTAIAAIDEGVPAPVLTTALQSRFASRDLDDFANKALSAMRKQFGGHAEKPAN",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "NAD_binding_2",
+      "pfam_acc": "PF03446.22",
+      "i_evalue": 4.4e-37,
+      "ali_from": 2,
+      "ali_to": 155,
+      "description": "NAD binding domain of 6-phosphogluconate dehydrogenase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "F420_oxidored",
+      "pfam_acc": "PF03807.24",
+      "i_evalue": 2.5e-05,
+      "ali_from": 3,
+      "ali_to": 94,
+      "description": "NADP oxidoreductase coenzyme F420-dependent"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "TrkA_N",
+      "pfam_acc": "PF02254.25",
+      "i_evalue": 0.00013,
+      "ali_from": 6,
+      "ali_to": 44,
+      "description": "TrkA-N domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "6PGD",
+      "pfam_acc": "PF00393.25",
+      "i_evalue": 2.3e-09,
+      "ali_from": 186,
+      "ali_to": 214,
+      "description": "6-phosphogluconate dehydrogenase, C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1023",
+    "cog_cat": "G",
+    "description": "6-phosphogluconate dehydrogenase",
+    "preferred_name": "gnd2",
+    "ec": [
+      "1.1.1.343",
+      "1.1.1.44"
+    ],
+    "kegg_ko": [
+      "K00033"
+    ],
+    "kegg_pathway": [
+      "map00030",
+      "map00480",
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01130",
+      "map01200"
+    ],
+    "kegg_module": [
+      "M00004",
+      "M00006"
+    ],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "6PGD",
+      "NAD_binding_2"
+    ],
+    "seed_ortholog": "419947.MRA_1131",
+    "evalue": "4.42e-249"
+  },
+  "uniprot": {
+    "acc": "O06574",
+    "reviewed": false,
+    "protein_name": "Probable 6-phosphogluconate dehydrogenase,decarboxylating Gnd2",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0004616",
+      "GO:0005886",
+      "GO:0006098",
+      "GO:0019521",
+      "GO:0050661"
+    ],
+    "kegg": [
+      "mtu:Rv1122",
+      "mtv:RVBD_1122"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 7,
+    "syn": 1,
+    "missense": 6,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 2.01,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1122",
+    "n_partners": 26,
+    "n_context_driven": 8,
+    "partners": [
+      {
+        "rv": "Rv1121",
+        "gene": "zwf1",
+        "product": "glucose-6-phosphate 1-dehydrogenase",
+        "hypothetical": false,
+        "combined": 984,
+        "combined_no_tm": 980,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 851,
+          "fusion": 454,
+          "cooccurence": 754,
+          "coexpression": 121,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 269
+        }
+      },
+      {
+        "rv": "Rv1445c",
+        "gene": "devB",
+        "product": "6-phosphogluconolactonase",
+        "hypothetical": false,
+        "combined": 964,
+        "combined_no_tm": 962,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 577,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv1844c",
+        "gene": "gnd1",
+        "product": "6-phosphogluconate dehydrogenase",
+        "hypothetical": false,
+        "combined": 916,
+        "combined_no_tm": 916,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 194,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1447c",
+        "gene": "zwf2",
+        "product": "glucose-6-phosphate 1-dehydrogenase",
+        "hypothetical": false,
+        "combined": 935,
+        "combined_no_tm": 910,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 145,
+          "fusion": 643,
+          "cooccurence": 718,
+          "coexpression": 80,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 310
+        }
+      },
+      {
+        "rv": "Rv2465c",
+        "gene": "rpiB",
+        "product": "ribose-5-phosphate isomerase B",
+        "hypothetical": false,
+        "combined": 914,
+        "combined_no_tm": 908,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 111,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 112
+        }
+      },
+      {
+        "rv": "Rv1408",
+        "gene": "rpe",
+        "product": "ribulose-phosphate 3-epimerase",
+        "hypothetical": false,
+        "combined": 909,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 58,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 114
+        }
+      },
+      {
+        "rv": "Rv1119c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 520,
+        "combined_no_tm": 521,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 519,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1120c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 519,
+        "combined_no_tm": 519,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 519,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0004",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 708,
+        "combined_no_tm": 463,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 458,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 479
+        }
+      },
+      {
+        "rv": "Rv0003",
+        "gene": "recF",
+        "product": "DNA replication/repair protein RecF",
+        "hypothetical": false,
+        "combined": 590,
+        "combined_no_tm": 461,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 458,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 270
+        }
+      },
+      {
+        "rv": "Rv1448c",
+        "gene": "tal",
+        "product": "transaldolase",
+        "hypothetical": false,
+        "combined": 515,
+        "combined_no_tm": 438,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 154,
+          "coexpression": 256,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 173
+        }
+      },
+      {
+        "rv": "Rv1118c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 411,
+        "combined_no_tm": 412,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 408,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0729",
+        "gene": "xylB",
+        "product": "D-xylulose kinase XylB",
+        "hypothetical": false,
+        "combined": 448,
+        "combined_no_tm": 374,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 151,
+          "coexpression": 235,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv3673c",
+        "gene": "",
+        "product": "membrane-anchored thioredoxin-like protein",
+        "hypothetical": false,
+        "combined": 662,
+        "combined_no_tm": 55,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 658
+        }
+      },
+      {
+        "rv": "Rv0542c",
+        "gene": "menE",
+        "product": "2-succinylbenzoic acid--CoA ligase",
+        "hypothetical": false,
+        "combined": 661,
+        "combined_no_tm": 54,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 657
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1121",
+      "gene": "zwf1",
+      "product": "glucose-6-phosphate 1-dehydrogenase",
+      "combined_no_tm": 980,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 851,
+        "fusion": 454,
+        "cooccurence": 754,
+        "coexpression": 121,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 269
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 6-phosphogluconate dehydrogenase (decarboxylating)",
+    "MTBC0 PGAP product: decarboxylating 6-phosphogluconate dehydrogenase",
+    "Pfam (hmmscan --cut_ga): NAD_binding_2 PF03446.22 (E=4e-37), F420_oxidored PF03807.24 (E=3e-05), TrkA_N PF02254.25 (E=1e-04), 6PGD PF00393.25 (E=2e-09)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 96.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "9ijb-assembly1_A",
+        "evalue": 3.115e-56,
+        "prob": 1.0,
+        "tmscore": 0.9876,
+        "description": "9ijb-assembly1_A Crystal structure and function analysis of a highly potential drug target 6-phosphogluconate dehydrogenase in Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "9ijb-assembly1_C",
+        "evalue": 8.092e-56,
+        "prob": 1.0,
+        "tmscore": 0.98,
+        "description": "9ijb-assembly1_C Crystal structure and function analysis of a highly potential drug target 6-phosphogluconate dehydrogenase in Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "9ijb-assembly1_B",
+        "evalue": 1.012e-53,
+        "prob": 1.0,
+        "tmscore": 0.9885,
+        "description": "9ijb-assembly1_B Crystal structure and function analysis of a highly potential drug target 6-phosphogluconate dehydrogenase in Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "4e21-assembly1_B-2",
+        "evalue": 2.333e-39,
+        "prob": 1.0,
+        "tmscore": 0.9775,
+        "description": "4e21-assembly1_B-2 The crystal structure of 6-phosphogluconate dehydrogenase from Geobacter metallireducens",
+        "significant": true
+      },
+      {
+        "target": "4e21-assembly1_A-2",
+        "evalue": 4.838e-38,
+        "prob": 1.0,
+        "tmscore": 0.9732,
+        "description": "4e21-assembly1_A-2 The crystal structure of 6-phosphogluconate dehydrogenase from Geobacter metallireducens",
+        "significant": true
+      },
+      {
+        "target": "6vpb-assembly1_B-2",
+        "evalue": 1.761e-38,
+        "prob": 1.0,
+        "tmscore": 0.9262,
+        "description": "6vpb-assembly1_B-2 A novel membrane-bound 6-phosphogluconate dehydrogenase from the acetic acid bacteria Gluconacetobacter diazotrophicus (Gd6PGD)",
+        "significant": true
+      },
+      {
+        "target": "6vpb-assembly1_A-2",
+        "evalue": 4.32e-36,
+        "prob": 1.0,
+        "tmscore": 0.9323,
+        "description": "6vpb-assembly1_A-2 A novel membrane-bound 6-phosphogluconate dehydrogenase from the acetic acid bacteria Gluconacetobacter diazotrophicus (Gd6PGD)",
+        "significant": true
+      },
+      {
+        "target": "6xeq-assembly1_C",
+        "evalue": 7.156e-35,
+        "prob": 1.0,
+        "tmscore": 0.8853,
+        "description": "6xeq-assembly1_C Crystal structure of the tetrameric 6-phosphogluconate dehydrogenase from Gluconobacter oxidans",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 854.0,
+    "abundance_rank": 267,
+    "n_ranked": 3519,
+    "abundance_percentile": 92.4,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 340,
+    "mw_kda": 36.4,
+    "pi": 5.24,
+    "gravy": -0.165,
+    "instability_index": 41.2,
+    "instability_class": "unstable",
+    "aromaticity": 0.065,
+    "aliphatic_index": 8355.9,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1153",
+        "identity": 100.0,
+        "evalue": 6.89e-253
+      },
+      "M. marinum": {
+        "locus": "MMAR_4338",
+        "identity": 86.5,
+        "evalue": 2.91e-218
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_0002",
+        "identity": 46.3,
+        "evalue": 4.09e-91
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001184",
+        "identity": 100.0,
+        "evalue": 6.45e-253
+      },
+      "M. abscessus": {
+        "locus": "MAB_0003",
+        "identity": 46.3,
+        "evalue": 3.76e-92
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 7,
+    "n_in_vivo": 0,
+    "phenotypes": [
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=621) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 7.62,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=631) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 7.01,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=667) from Indo-Oceanic lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 6.77,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=662) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 6.34,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=641) from Indo-Oceanic lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 6.08,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=630) from Euro-American lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 5.83,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=663) from Euro-American lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 4.54,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "8ihe",
+        "method": "X-ray diffraction",
+        "resolution": 2.74,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "O06574",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1121",
+      "gene": "zwf1",
+      "strand": "+",
+      "gap": 21
+    },
+    "right": {
+      "locus": "Rv1123c",
+      "gene": "bpoB",
+      "strand": "-",
+      "gap": -8
+    },
+    "operon": [
+      {
+        "locus": "Rv1121",
+        "gene": "zwf1"
+      },
+      {
+        "locus": "Rv1122",
+        "gene": "gnd2"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable 6-phosphogluconate dehydrogenase, decarboxylating Gnd2",
+    "legacy_function": "Involved in hexose monophosphate shunt (pentose phosphate pathway). [catalytic activity: 6-phospho-D-gluconate + NADP+ = D-ribulose 5-phosphate + CO2 + NADPH]",
+    "legacy_ec": [
+      "1.1.1.44"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "1.1.1.343",
+      "1.1.1.44"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -2.968,
+    "ci_low": -3.292,
+    "ci_high": -2.634,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 1,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.335,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 81.9,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 39.5,
+      "length_aa": 340,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "2 publication(s) discuss this gene (1 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Understanding the Genetic Diversity of Mycobacterium africanum Using Phylogenetics and Population Genomics Approaches.",
+        "doi": "10.3389/fgene.2022.800083",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35495132/",
+        "date": "2022"
+      },
+      {
+        "title": "Metabolic adaptation of Mycobacterium avium subsp. paratuberculosis to the gut environment.",
+        "doi": "10.1099/mic.0.062737-0",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/23223439/",
+        "date": "2013"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.018,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 96.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "Rv1122-gnd2_TetOn10.3",
+    "gene": "gnd2",
+    "teton_promoter": "10",
+    "baseline_doublings_median": 3.155,
+    "n_screens": 5,
+    "strain_category": "Excluded - not in all screening waves",
+    "used_in_pcl": false,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

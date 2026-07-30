@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2141c",
+  "mtbc0": "-",
+  "np_id": "YP_177864.1",
+  "gene": "",
+  "len_aa": 448,
+  "strand": "-",
+  "start_mtbc0": 2400376,
+  "end_mtbc0": 2401722,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "",
+  "function_revised": "Contains Peptidase_M28 (PF04389.23), Peptidase_M20 (PF01546.34), M20_dimer (PF07687.20) domain(s); putative function inferred from the domain architecture.",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTDETGASSDHSDDVAQVVSRLIRFDTTNSGEPGTTKGEAECARWVAEQLAEVGYQPEYVESGAPGRGNVFARLAGADSSRGALLIHGHLDVVPAEPAEWSVHPFSGAIEDGYVWGRGAVDMKDMVGMMIVVARHLRQAAIVPPRDLVFAFVADEEHGGKYGSHWLVDNRPDLFDGITEAIGEVGGFSLTVPRHDGGERRLYLIETAEKGIQWMRLTARGRAGHGSMVHDQNAVTAVCEAVARLGRHQFPLVCTDTVAQFLAVVGEETGLAFDLDSPDLAGTIDKLGPMARMLKAVLHDTANPTMLKAGYKANVVPATAEAVVDCRVLPGRRAAFEAEVDALIGPDVTREWVSDLPSYETTFDGDLVAAMNAAVLAVDPDGRTVPYMLSGGTDAKAFARLGIRCFGFSPLRLPPDLDFTSLFHGVDERVPIDGLRFGTEVLTHLLTHC",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Peptidase_M28",
+      "pfam_acc": "PF04389.23",
+      "i_evalue": 8.9e-10,
+      "ali_from": 69,
+      "ali_to": 169,
+      "description": "Peptidase family M28"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Peptidase_M20",
+      "pfam_acc": "PF01546.34",
+      "i_evalue": 5.2e-31,
+      "ali_from": 85,
+      "ali_to": 446,
+      "description": "Peptidase family M20/M25/M40"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "M20_dimer",
+      "pfam_acc": "PF07687.20",
+      "i_evalue": 3.3e-14,
+      "ali_from": 206,
+      "ali_to": 332,
+      "description": "Peptidase dimerisation domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0624",
+    "cog_cat": "E",
+    "description": "deacetylase Succinyl-diaminopimelate desuccinylase and related deacylases",
+    "preferred_name": "dapE2",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "M20_dimer",
+      "Peptidase_M20",
+      "Peptidase_M28"
+    ],
+    "seed_ortholog": "419947.MRA_2155",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "L7N684",
+    "reviewed": false,
+    "protein_name": "Conserved protein",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0016787",
+      "GO:0046872"
+    ],
+    "kegg": [
+      "mtu:Rv2141c",
+      "mtv:RVBD_2141c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 9,
+    "syn": 2,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.179,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2141c",
+    "n_partners": 9,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv2140c",
+        "gene": "TB18.6",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 832,
+        "combined_no_tm": 827,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 816,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 96,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 72
+        }
+      },
+      {
+        "rv": "Rv1652",
+        "gene": "argC",
+        "product": "N-acetyl-gamma-glutamyl-phoshate reductase",
+        "hypothetical": false,
+        "combined": 545,
+        "combined_no_tm": 497,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 403,
+          "experimental": 161,
+          "database": 0,
+          "textmining": 135
+        }
+      },
+      {
+        "rv": "Rv2199c",
+        "gene": "ctaF",
+        "product": "cytochrome c oxidase polypeptide 4",
+        "hypothetical": false,
+        "combined": 492,
+        "combined_no_tm": 492,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 473,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1658",
+        "gene": "argG",
+        "product": "argininosuccinate synthase",
+        "hypothetical": false,
+        "combined": 520,
+        "combined_no_tm": 468,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 375,
+          "experimental": 153,
+          "database": 0,
+          "textmining": 135
+        }
+      },
+      {
+        "rv": "Rv3436c",
+        "gene": "glmS",
+        "product": "glucosamine--fructose-6-phosphate aminotransferase",
+        "hypothetical": false,
+        "combined": 497,
+        "combined_no_tm": 443,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 419,
+          "database": 0,
+          "textmining": 134
+        }
+      },
+      {
+        "rv": "Rv2146c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 439,
+        "combined_no_tm": 440,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 65,
+          "fusion": 0,
+          "cooccurence": 359,
+          "coexpression": 140,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2096c",
+        "gene": "pafB",
+        "product": "proteasome accessory factor B",
+        "hypothetical": false,
+        "combined": 430,
+        "combined_no_tm": 430,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 430,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2467",
+        "gene": "pepN",
+        "product": "aminopeptidase PepN",
+        "hypothetical": false,
+        "combined": 414,
+        "combined_no_tm": 352,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 203,
+          "coexpression": 81,
+          "experimental": 160,
+          "database": 0,
+          "textmining": 134
+        }
+      },
+      {
+        "rv": "Rv1202",
+        "gene": "dapE",
+        "product": "succinyl-diaminopimelate desuccinylase DapE",
+        "hypothetical": false,
+        "combined": 504,
+        "combined_no_tm": 199,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 195,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 407
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2199c",
+      "gene": "ctaF",
+      "product": "cytochrome c oxidase polypeptide 4",
+      "combined_no_tm": 492,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 71,
+        "fusion": 0,
+        "cooccurence": 473,
+        "coexpression": 46,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): hypothetical protein",
+    "Pfam (hmmscan --cut_ga): Peptidase_M28 PF04389.23 (E=9e-10), Peptidase_M20 PF01546.34 (E=5e-31), M20_dimer PF07687.20 (E=3e-14)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 94.4,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7uoi-assembly1_A",
+        "evalue": 2.868e-28,
+        "prob": 1.0,
+        "tmscore": 0.7977,
+        "description": "7uoi-assembly1_A Crystallographic structure of DapE from Enterococcus faecium",
+        "significant": true
+      },
+      {
+        "target": "5vo3-assembly1_A-2",
+        "evalue": 3.885e-28,
+        "prob": 1.0,
+        "tmscore": 0.7754,
+        "description": "5vo3-assembly1_A-2 Crystal structure of DapE in complex with the products (succinic acid and diaminopimelic acid)",
+        "significant": true
+      },
+      {
+        "target": "2rb7-assembly1_B",
+        "evalue": 2.4e-27,
+        "prob": 1.0,
+        "tmscore": 0.783,
+        "description": "2rb7-assembly1_B Crystal structure of co-catalytic metallopeptidase (YP_387682.1) from Desulfovibrio desulfuricans G20 at 1.60 A resolution",
+        "significant": true
+      },
+      {
+        "target": "8f8o-assembly1_A",
+        "evalue": 7.156e-27,
+        "prob": 1.0,
+        "tmscore": 0.7556,
+        "description": "8f8o-assembly1_A Crystal Structure of the Succinyl-diaminopimelate Desuccinylase (DapE) from Acinetobacter baumannii in complex with Succinic and L-Lactic Acids",
+        "significant": true
+      },
+      {
+        "target": "7lgp-assembly1_A",
+        "evalue": 7.184e-26,
+        "prob": 1.0,
+        "tmscore": 0.8005,
+        "description": "7lgp-assembly1_A DapE enzyme from Shigella flexneri",
+        "significant": true
+      },
+      {
+        "target": "3ic1-assembly1_A",
+        "evalue": 6.338e-27,
+        "prob": 1.0,
+        "tmscore": 0.7407,
+        "description": "3ic1-assembly1_A Crystal structure of zinc-bound succinyl-diaminopimelate desuccinylase from Haemophilus influenzae",
+        "significant": true
+      },
+      {
+        "target": "3isz-assembly1_A",
+        "evalue": 2.879e-27,
+        "prob": 1.0,
+        "tmscore": 0.6855,
+        "description": "3isz-assembly1_A Crystal structure of mono-zinc form of succinyl-diaminopimelate desuccinylase from Haemophilus influenzae",
+        "significant": true
+      },
+      {
+        "target": "4ppz-assembly1_A",
+        "evalue": 1.401e-25,
+        "prob": 1.0,
+        "tmscore": 0.7784,
+        "description": "4ppz-assembly1_A Crystal structure of zinc-bound succinyl-diaminopimelate desuccinylase from Neisseria meningitidis MC58",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP",
+    "tm_helices": 0,
+    "signal_peptide": true,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted secreted protein (signal peptide)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 510.0,
+    "abundance_rank": 395,
+    "n_ranked": 3519,
+    "abundance_percentile": 88.8,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 448,
+    "mw_kda": 48.1,
+    "pi": 4.93,
+    "gravy": -0.053,
+    "instability_index": 26.3,
+    "instability_class": "stable",
+    "aromaticity": 0.071,
+    "aliphatic_index": 8600.4,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2165c",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. leprae": {
+        "locus": "ML1288",
+        "identity": 84.2,
+        "evalue": 2.05e-287
+      },
+      "M. marinum": {
+        "locus": "MMAR_3123",
+        "identity": 87.9,
+        "evalue": 1.28e-297
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4200",
+        "identity": 76.6,
+        "evalue": 2.63e-261
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002210",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_2102",
+        "identity": 77.4,
+        "evalue": 8.65e-256
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2140c",
+      "gene": "TB18.6",
+      "strand": "-",
+      "gap": 47
+    },
+    "right": {
+      "locus": "Rvnt22",
+      "gene": "leuU",
+      "strand": "+",
+      "gap": 264
+    },
+    "operon": [
+      {
+        "locus": "Rv2140c",
+        "gene": "TB18.6"
+      },
+      {
+        "locus": "Rv2141c",
+        "gene": null
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Conserved protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 1.042,
+    "ci_low": -0.892,
+    "ci_high": 3.971,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 0,
+      "n_nonsyn": 2,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 85.2,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 10,
+      "crossgenus_genomes": [
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 57.4,
+      "length_aa": 448,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "by_alias": {
+      "H37Rv": "1"
+    },
+    "summary": "1 publication(s) mention this gene (title/abstract), verified against the text. The atlas states the function; these are the primary sources that discuss it.",
+    "papers": [
+      {
+        "title": "Label-Free Comparative Proteomics of Differentially Expressed Mycobacterium tuberculosis Protein in Rifampicin-Related Drug-Resistant Strains.",
+        "doi": "10.3390/pathogens10050607",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34063426/",
+        "date": "2021"
+      }
+    ],
+    "caveat": "This layer CITES the literature, it does not change the verdict or the function. A gene may be heavily studied (as an antigen, a resistance determinant, a drug target) while its molecular function is settled elsewhere in the fiche.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.042,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 19,
+    "total_idr_residues": 19,
+    "idr_regions": [
+      [
+        0,
+        19
+      ]
+    ],
+    "mean_plddt": 94.4,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,887 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0187",
+  "mtbc0": "mtbc0_000201",
+  "np_id": "NP_214701.1",
+  "gene": "",
+  "len_aa": 220,
+  "strand": "+",
+  "start_mtbc0": 219053,
+  "end_mtbc0": 219715,
+  "product_h37rv": "O-methyltransferase",
+  "product_mtbc0_pgap": "O-methyltransferase",
+  "function_revised": "O-methyltransferase. Pfam: Methyltransf_3 (PF01596.24), PCMT (PF01135.26), Methyltransf_31 (PF13847.13), Methyltransf_25 (PF13649.13), Methyltransf_24 (PF13578.13), Methyltransf_11 (PF08241.19).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MGMDQQPNPPDVDAFLDSTLVGDDPALAAALAASDAAELPRIAVSAQQGKFLCLLAGAIQARRVLEIGTLGGFSTIWLARGAGPQGRVVTLEYQPKHAEVARVNLQRAGVADRVEVVVGPALDTLPTLAGGPFDLVFIDADKENNVAYIQWAIRLARRGAVIVVDNVIRGGGILAESDDADAVAARRTLQMMGEHPGLDATAIQTVGRKGWDGFALALVR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Methyltransf_3",
+      "pfam_acc": "PF01596.24",
+      "i_evalue": 4.8e-34,
+      "ali_from": 36,
+      "ali_to": 187,
+      "description": "O-methyltransferase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "PCMT",
+      "pfam_acc": "PF01135.26",
+      "i_evalue": 1.4e-07,
+      "ali_from": 55,
+      "ali_to": 141,
+      "description": "Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Methyltransf_31",
+      "pfam_acc": "PF13847.13",
+      "i_evalue": 5.3e-09,
+      "ali_from": 63,
+      "ali_to": 167,
+      "description": "Methyltransferase domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Methyltransf_25",
+      "pfam_acc": "PF13649.13",
+      "i_evalue": 4e-07,
+      "ali_from": 64,
+      "ali_to": 138,
+      "description": "Methyltransferase domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Methyltransf_24",
+      "pfam_acc": "PF13578.13",
+      "i_evalue": 1.9e-18,
+      "ali_from": 65,
+      "ali_to": 167,
+      "description": "Methyltransferase domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Methyltransf_11",
+      "pfam_acc": "PF08241.19",
+      "i_evalue": 5e-05,
+      "ali_from": 65,
+      "ali_to": 138,
+      "description": "Methyltransferase domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG4122",
+    "cog_cat": "S",
+    "description": "O-methyltransferase",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Methyltransf_3"
+    ],
+    "seed_ortholog": "419947.MRA_0195",
+    "evalue": "3.98e-151"
+  },
+  "uniprot": {
+    "acc": "O07431",
+    "reviewed": true,
+    "protein_name": "Catechol O-methyltransferase",
+    "ec": [
+      "2.1.1.6"
+    ],
+    "function": "Catechol O-methyltransferase that can use various catechol-like compounds such as gallic acid (GA), 3,4-dihydroxy-5-methoxy-benzoic acid (5OMeBA), protocatechuic acid (PCA), 3,4-dihydroxy-benzaldehyde (DHA), dopamine, caffeic acid (CA), luteolin, quercetin, and 5-hydroxyuridine",
+    "go": [
+      "GO:0005886",
+      "GO:0008757",
+      "GO:0016206",
+      "GO:0032259",
+      "GO:0046872"
+    ],
+    "kegg": [
+      "mtu:Rv0187",
+      "mtv:RVBD_0187"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.534,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 1907,
+    "disrupt_frac": 0.0131,
+    "pseudogene_flag": true
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0187",
+    "n_partners": 31,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv0186A",
+        "gene": "mymT",
+        "product": "metallothionein",
+        "hypothetical": false,
+        "combined": 648,
+        "combined_no_tm": 649,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 649,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1445c",
+        "gene": "devB",
+        "product": "6-phosphogluconolactonase",
+        "hypothetical": false,
+        "combined": 637,
+        "combined_no_tm": 638,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 625,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0184",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 546,
+        "combined_no_tm": 547,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0188",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 543,
+        "combined_no_tm": 544,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 541,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1710",
+        "gene": "scpB",
+        "product": "segregation and condensation protein ScpB",
+        "hypothetical": false,
+        "combined": 444,
+        "combined_no_tm": 444,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 136,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 383,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2372c",
+        "gene": "rsmE",
+        "product": "rRNA small subunit methyltransferase E",
+        "hypothetical": false,
+        "combined": 409,
+        "combined_no_tm": 410,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 410,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2928",
+        "gene": "tesA",
+        "product": "thioesterase TesA",
+        "hypothetical": false,
+        "combined": 403,
+        "combined_no_tm": 404,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 47,
+          "fusion": 0,
+          "cooccurence": 400,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1905c",
+        "gene": "aao",
+        "product": "D-amino acid oxidase",
+        "hypothetical": false,
+        "combined": 632,
+        "combined_no_tm": 192,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 176,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 564
+        }
+      },
+      {
+        "rv": "Rv2303c",
+        "gene": "",
+        "product": "antibiotic-resistance protein",
+        "hypothetical": false,
+        "combined": 656,
+        "combined_no_tm": 111,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 69,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 84,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 630
+        }
+      },
+      {
+        "rv": "Rv3034c",
+        "gene": "",
+        "product": "acetyltransferase",
+        "hypothetical": false,
+        "combined": 665,
+        "combined_no_tm": 106,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 76,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 641
+        }
+      },
+      {
+        "rv": "Rv3030",
+        "gene": "",
+        "product": "S-adenosylmethionine-dependent methyltransferase",
+        "hypothetical": false,
+        "combined": 648,
+        "combined_no_tm": 103,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 69,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 76,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 624
+        }
+      },
+      {
+        "rv": "Rv1147",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 710,
+        "combined_no_tm": 100,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 69,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 73,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 691
+        }
+      },
+      {
+        "rv": "Rv3032",
+        "gene": "",
+        "product": "glycogen synthase",
+        "hypothetical": false,
+        "combined": 408,
+        "combined_no_tm": 98,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 66,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 74,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 371
+        }
+      },
+      {
+        "rv": "Rv1694",
+        "gene": "tlyA",
+        "product": "16S/23S rRNA (cytidine-2'-O)-methyltransferase TlyA",
+        "hypothetical": false,
+        "combined": 686,
+        "combined_no_tm": 77,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 674
+        }
+      },
+      {
+        "rv": "Rv1862",
+        "gene": "adhA",
+        "product": "alcohol dehydrogenase A",
+        "hypothetical": false,
+        "combined": 677,
+        "combined_no_tm": 77,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 59,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 59,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 665
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0186A",
+      "gene": "mymT",
+      "product": "metallothionein",
+      "combined_no_tm": 649,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 649,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 0,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: O-methyltransferase",
+    "MTBC0 PGAP product: O-methyltransferase",
+    "Pfam (hmmscan --cut_ga): Methyltransf_3 PF01596.24 (E=5e-34), PCMT PF01135.26 (E=1e-07), Methyltransf_31 PF13847.13 (E=5e-09), Methyltransf_25 PF13649.13 (E=4e-07), Methyltransf_24 PF13578.13 (E=2e-18), Methyltransf_11 PF08241.19 (E=5e-05)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 96.1,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6jcl-assembly1_A",
+        "evalue": 1.237e-42,
+        "prob": 1.0,
+        "tmscore": 0.9936,
+        "description": "6jcl-assembly1_A Crystal structure of cofactor-bound Rv0187 from MTB",
+        "significant": true
+      },
+      {
+        "target": "3tfw-assembly1_B-2",
+        "evalue": 7.391e-30,
+        "prob": 1.0,
+        "tmscore": 0.9534,
+        "description": "3tfw-assembly1_B-2 Crystal structure of a putative O-methyltransferase from Klebsiella pneumoniae",
+        "significant": true
+      },
+      {
+        "target": "8c9t-assembly2_B",
+        "evalue": 1.273e-29,
+        "prob": 1.0,
+        "tmscore": 0.9472,
+        "description": "8c9t-assembly2_B Catechol O-methyltransferase from Streptomyces avermitilis",
+        "significant": true
+      },
+      {
+        "target": "3duw-assembly1_B",
+        "evalue": 1.19e-28,
+        "prob": 1.0,
+        "tmscore": 0.9554,
+        "description": "3duw-assembly1_B Crystal Structural Analysis of the O-methyltransferase from Bacillus cereus in complex SAH",
+        "significant": true
+      },
+      {
+        "target": "5n5d-assembly1_B",
+        "evalue": 6.078e-28,
+        "prob": 1.0,
+        "tmscore": 0.9404,
+        "description": "5n5d-assembly1_B Crystal Structure of the O-Methyltransferase TomG from Streptomyces achromogenes involved in Tomaymycin synthesis in complex with SAM",
+        "significant": true
+      },
+      {
+        "target": "7cvx-assembly1_B",
+        "evalue": 1.494e-26,
+        "prob": 1.0,
+        "tmscore": 0.9589,
+        "description": "7cvx-assembly1_B Crystal structure of Catechol o-methyl transferase (COMT) from Niastella koreensis",
+        "significant": true
+      },
+      {
+        "target": "7cvu-assembly1_A",
+        "evalue": 7.183e-26,
+        "prob": 1.0,
+        "tmscore": 0.9229,
+        "description": "7cvu-assembly1_A Crystal structure of Catechol o-methyl transferase (COMT) from Niastella koreensis",
+        "significant": true
+      },
+      {
+        "target": "7cvu-assembly2_B",
+        "evalue": 1.483e-25,
+        "prob": 1.0,
+        "tmscore": 0.9157,
+        "description": "7cvu-assembly2_B Crystal structure of Catechol o-methyl transferase (COMT) from Niastella koreensis",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 191.0,
+    "abundance_rank": 872,
+    "n_ranked": 3519,
+    "abundance_percentile": 75.2,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 220,
+    "mw_kda": 23.1,
+    "pi": 4.92,
+    "gravy": 0.171,
+    "instability_index": 26.5,
+    "instability_class": "stable",
+    "aromaticity": 0.05,
+    "aliphatic_index": 10563.6,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0193",
+        "identity": 99.5,
+        "evalue": 1.78e-154
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_0224",
+        "identity": 65.0,
+        "evalue": 1.53e-86
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000202",
+        "identity": 99.5,
+        "evalue": 1.66e-154
+      },
+      "M. abscessus": {
+        "locus": "MAB_4548",
+        "identity": 56.9,
+        "evalue": 9.12e-73
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 2,
+    "structures": [
+      {
+        "pdb_id": "6jcl",
+        "method": "X-ray diffraction",
+        "resolution": 1.644,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "6jcm",
+        "method": "X-ray diffraction",
+        "resolution": 2.08,
+        "coverage": 0.99
+      }
+    ],
+    "acc": "O07431",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0186A",
+      "gene": "mymT",
+      "strand": "-",
+      "gap": 153
+    },
+    "right": {
+      "locus": "Rv0188",
+      "gene": null,
+      "strand": "+",
+      "gap": 118
+    },
+    "operon": [
+      {
+        "locus": "Rv0187",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable O-methyltransferase",
+    "legacy_function": "Thought to be involved in transfer of methyl group.",
+    "legacy_ec": [
+      "2.1.1.-"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "reclassified",
+    "atlas_ec": [
+      "2.1.1.6"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.5,
+    "ci_low": -1.798,
+    "ci_high": 3.693,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 4,
+      "n_syn": 2,
+      "n_nonsyn": 2,
+      "n_disruptive": 0,
+      "dN_dS": 0.357,
+      "power": "low",
+      "interpretation": "low power (4 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 64.3,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 7,
+      "crossgenus_genomes": [
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 45.6,
+      "length_aa": 220,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "1 publication(s) discuss this gene (1 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Structural and biochemical characterization of Rv0187, an O-methyltransferase from Mycobacterium tuberculosis.",
+        "doi": "10.1038/s41598-019-44592-7",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/31147608/",
+        "date": "2019"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.059,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 13,
+    "total_idr_residues": 13,
+    "idr_regions": [
+      [
+        0,
+        13
+      ]
+    ],
+    "mean_plddt": 96.1,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

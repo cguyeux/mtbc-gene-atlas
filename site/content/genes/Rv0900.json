@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0900",
+  "mtbc0": "mtbc0_000954",
+  "np_id": "NP_215415.1",
+  "gene": "arfB",
+  "len_aa": 50,
+  "strand": "+",
+  "start_mtbc0": 1007019,
+  "end_mtbc0": 1007171,
+  "product_h37rv": "membrane protein",
+  "product_mtbc0_pgap": "hypothetical protein",
+  "function_revised": "Small membrane protein that post-transcriptionally regulates expression of the major outer-membrane porin OmpATb. RefSeq leaves it 'membrane protein'. Rv0900 lies in an operon with ompATb (Rv0899) and Rv0901; mutations in Rv0900/Rv0901 strongly alter OmpATb expression, demonstrating a regulatory role (Veyron-Churlet 2011).",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MDFVIQWSCYLLAFLGGSAVAWVVVTLSIKRASRDEGAAEAPSAAETGAQ",
+  "domains": [],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "2AYBF",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "arfB",
+    "ec": [],
+    "kegg_ko": [
+      "K16192"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0008150",
+      "GO:0040007",
+      "GO:0044110",
+      "GO:0044116",
+      "GO:0044117",
+      "GO:0044119",
+      "GO:0044403",
+      "GO:0044419",
+      "GO:0051704"
+    ],
+    "pfams": [],
+    "seed_ortholog": "419947.MRA_0907",
+    "evalue": "1.85e-26"
+  },
+  "uniprot": {
+    "acc": "P9WJG7",
+    "reviewed": true,
+    "protein_name": "Uncharacterized membrane protein ArfB",
+    "ec": [],
+    "function": "Required for wild-type expression of ArfA and ammonia secretion, not however part of an ammonia transporter",
+    "go": [
+      "GO:0005886",
+      "GO:0051701"
+    ],
+    "kegg": [
+      "mtu:Rv0900",
+      "mtv:RVBD_0900"
+    ],
+    "evidence": "Evidence at transcript level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 1,
+    "syn": 0,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0900",
+    "n_partners": 7,
+    "n_context_driven": 4,
+    "partners": [
+      {
+        "rv": "Rv0901",
+        "gene": "arfC",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 984,
+        "combined_no_tm": 885,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 63,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv0899",
+        "gene": "arfA",
+        "product": "peptidoglycan-binding protein ArfA",
+        "hypothetical": false,
+        "combined": 969,
+        "combined_no_tm": 777,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 777,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv0898c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 570,
+        "combined_no_tm": 570,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 570,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0897c",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 488,
+        "combined_no_tm": 488,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 485,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1027c",
+        "gene": "kdpE",
+        "product": "transcriptional regulator KdpE",
+        "hypothetical": false,
+        "combined": 433,
+        "combined_no_tm": 47,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 430
+        }
+      },
+      {
+        "rv": "Rv1031",
+        "gene": "kdpC",
+        "product": "potassium-transporting ATPase subunit C",
+        "hypothetical": false,
+        "combined": 646,
+        "combined_no_tm": 46,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 645
+        }
+      },
+      {
+        "rv": "Rv1028A",
+        "gene": "kdpF",
+        "product": "membrane protein KdpF",
+        "hypothetical": false,
+        "combined": 809,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 809
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0901",
+      "gene": "arfC",
+      "product": "membrane protein",
+      "combined_no_tm": 885,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 63,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 870
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Small membrane protein; ompATb-Rv0900-Rv0901 operon; regulates OmpATb post-transcriptionally (Veyron-Churlet 2011, PMID 21802366)",
+    "Curated from the literature crible (project 'Still unknown gene function', 2026-06-09)"
+  ],
+  "references": [
+    {
+      "authors": "Veyron-Churlet R, Brust B, Kremer L, Blanc-Potard AB",
+      "year": 2011,
+      "title": "Expression of OmpATb is dependent on small membrane proteins in Mycobacterium bovis BCG",
+      "journal": "Tuberculosis (Edinb) 91(6):544-8",
+      "doi": "10.1016/j.tube.2011.06.008",
+      "pmid": "21802366"
+    }
+  ],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 80.0,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 1,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (1 TM helix)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 8.38,
+    "abundance_rank": 2748,
+    "n_ranked": 3519,
+    "abundance_percentile": 21.9,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 50,
+    "mw_kda": 5.2,
+    "pi": 4.51,
+    "gravy": 0.482,
+    "instability_index": 25.2,
+    "instability_class": "stable",
+    "aromaticity": 0.1,
+    "aliphatic_index": 9580.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0924",
+        "identity": 100.0,
+        "evalue": 2.89e-30
+      },
+      "M. marinum": {
+        "locus": "MMAR_4636",
+        "identity": 70.0,
+        "evalue": 4.55e-09
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000949",
+        "identity": 100.0,
+        "evalue": 2.7e-30
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0899",
+      "gene": "arfA",
+      "strand": "+",
+      "gap": 12
+    },
+    "right": {
+      "locus": "Rv0901",
+      "gene": "arfC",
+      "strand": "+",
+      "gap": -1
+    },
+    "operon": [
+      {
+        "locus": "Rv0899",
+        "gene": "arfA"
+      },
+      {
+        "locus": "Rv0900",
+        "gene": "arfB"
+      },
+      {
+        "locus": "Rv0901",
+        "gene": "arfC"
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible membrane protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -0.813,
+    "ci_low": -3.392,
+    "ci_high": 2.23,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 29,
+      "n_total": 53,
+      "frac": 0.547,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 63.8,
+      "classification": "genus-core",
+      "species_present": [
+        "M_attenuatum",
+        "M_basiliense",
+        "M_celatum",
+        "M_colombiense",
+        "M_decipiens",
+        "M_florentinum",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_paragordonae",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_shinjukuense",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 29/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 50,
+      "short_gene_caveat": true,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "1 publication(s) discuss this gene (1 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Expression of OmpATb is dependent on small membrane proteins in Mycobacterium bovis BCG.",
+        "doi": "10.1016/j.tube.2011.06.008",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/21802366/",
+        "date": "2011"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.36,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 50,
+    "total_idr_residues": 50,
+    "idr_regions": [
+      [
+        0,
+        50
+      ]
+    ],
+    "mean_plddt": 80.0,
+    "idr_orphan": false,
+    "interpretation": "sequence-based disorder is high but AlphaFold folds it confidently (pLDDT>=70): treat the disorder call with caution (possible metapredict over-call)",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,923 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0652",
+  "mtbc0": "mtbc0_000690",
+  "np_id": "NP_215166.1",
+  "gene": "rplL",
+  "len_aa": 130,
+  "strand": "+",
+  "start_mtbc0": 752935,
+  "end_mtbc0": 753327,
+  "product_h37rv": "50S ribosomal protein L7/L12",
+  "product_mtbc0_pgap": "50S ribosomal protein L7/L12",
+  "function_revised": "50S ribosomal protein L7/L12. Pfam: Ribosomal_L12_N (PF16320.11), Ribosomal_L12 (PF00542.25).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MAKLSTDELLDAFKEMTLLELSDFVKKFEETFEVTAAAPVAVAAAGAAPAGAAVEAAEEQSEFDVILEAAGDKKIGVIKVVREIVSGLGLKEAKDLVDGAPKPLLEKVAKEAADEAKAKLEAAGATVTVK",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Ribosomal_L12_N",
+      "pfam_acc": "PF16320.11",
+      "i_evalue": 3.1e-19,
+      "ali_from": 6,
+      "ali_to": 53,
+      "description": "Ribosomal protein L7/L12 dimerisation domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Ribosomal_L12",
+      "pfam_acc": "PF00542.25",
+      "i_evalue": 7.3e-28,
+      "ali_from": 63,
+      "ali_to": 130,
+      "description": "Ribosomal protein L7/L12 C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0222",
+    "cog_cat": "J",
+    "description": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors. Is thus essential for accurate translation",
+    "preferred_name": "rplL",
+    "ec": [],
+    "kegg_ko": [
+      "K02935"
+    ],
+    "kegg_pathway": [
+      "map03010"
+    ],
+    "kegg_module": [
+      "M00178"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0008150",
+      "GO:0016020",
+      "GO:0030312",
+      "GO:0040007",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "Ribosomal_L12",
+      "Ribosomal_L12_N"
+    ],
+    "seed_ortholog": "419947.MRA_0663",
+    "evalue": "2.83e-64"
+  },
+  "uniprot": {
+    "acc": "P9WHE3",
+    "reviewed": true,
+    "protein_name": "Large ribosomal subunit protein bL12",
+    "ec": [],
+    "function": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors. Is thus essential for accurate translation",
+    "go": [
+      "GO:0003729",
+      "GO:0003735",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006412",
+      "GO:0009274",
+      "GO:0022625"
+    ],
+    "kegg": [
+      "mtu:Rv0652",
+      "mtv:RVBD_0652"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 0,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0652",
+    "n_partners": 188,
+    "n_context_driven": 8,
+    "partners": [
+      {
+        "rv": "Rv0651",
+        "gene": "rplJ",
+        "product": "50S ribosomal protein L10",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 827,
+          "fusion": 0,
+          "cooccurence": 501,
+          "coexpression": 967,
+          "experimental": 969,
+          "database": 0,
+          "textmining": 775
+        }
+      },
+      {
+        "rv": "Rv3443c",
+        "gene": "rplM",
+        "product": "50S ribosomal protein L13",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 997,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 70,
+          "fusion": 0,
+          "cooccurence": 496,
+          "coexpression": 913,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 672
+        }
+      },
+      {
+        "rv": "Rv3442c",
+        "gene": "rpsI",
+        "product": "30S ribosomal protein S9",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 997,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 58,
+          "fusion": 0,
+          "cooccurence": 180,
+          "coexpression": 959,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 585
+        }
+      },
+      {
+        "rv": "Rv0640",
+        "gene": "rplK",
+        "product": "50S ribosomal protein L11",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 996,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 568,
+          "coexpression": 863,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 623
+        }
+      },
+      {
+        "rv": "Rv0708",
+        "gene": "rplP",
+        "product": "50S ribosomal protein L16",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 995,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 393,
+          "coexpression": 875,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 662
+        }
+      },
+      {
+        "rv": "Rv2441c",
+        "gene": "rpmA",
+        "product": "50S ribosomal protein L27",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 994,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 374,
+          "coexpression": 875,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 604
+        }
+      },
+      {
+        "rv": "Rv0721",
+        "gene": "rpsE",
+        "product": "30S ribosomal protein S5",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 994,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 917,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 591
+        }
+      },
+      {
+        "rv": "Rv0682",
+        "gene": "rpsL",
+        "product": "30S ribosomal protein S12",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 994,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 150,
+          "fusion": 0,
+          "cooccurence": 327,
+          "coexpression": 864,
+          "experimental": 927,
+          "database": 0,
+          "textmining": 420
+        }
+      },
+      {
+        "rv": "Rv1643",
+        "gene": "rplT",
+        "product": "50S ribosomal protein L20",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 994,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 396,
+          "coexpression": 863,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 535
+        }
+      },
+      {
+        "rv": "Rv0683",
+        "gene": "rpsG",
+        "product": "30S ribosomal protein S7",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 994,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 150,
+          "fusion": 0,
+          "cooccurence": 369,
+          "coexpression": 863,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv2890c",
+        "gene": "rpsB",
+        "product": "30S ribosomal protein S2",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 993,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 188,
+          "coexpression": 889,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 587
+        }
+      },
+      {
+        "rv": "Rv0641",
+        "gene": "rplA",
+        "product": "50S ribosomal protein L1",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 993,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 186,
+          "fusion": 0,
+          "cooccurence": 398,
+          "coexpression": 864,
+          "experimental": 913,
+          "database": 0,
+          "textmining": 621
+        }
+      },
+      {
+        "rv": "Rv0702",
+        "gene": "rplD",
+        "product": "50S ribosomal protein L4",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 993,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 221,
+          "coexpression": 875,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 583
+        }
+      },
+      {
+        "rv": "Rv3456c",
+        "gene": "rplQ",
+        "product": "50S ribosomal protein L17",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 993,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 113,
+          "fusion": 0,
+          "cooccurence": 297,
+          "coexpression": 871,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 320
+        }
+      },
+      {
+        "rv": "Rv0707",
+        "gene": "rpsC",
+        "product": "30S ribosomal protein S3",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 992,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 173,
+          "coexpression": 875,
+          "experimental": 921,
+          "database": 0,
+          "textmining": 602
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0651",
+      "gene": "rplJ",
+      "product": "50S ribosomal protein L10",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 827,
+        "fusion": 0,
+        "cooccurence": 501,
+        "coexpression": 967,
+        "experimental": 969,
+        "database": 0,
+        "textmining": 775
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 50S ribosomal protein L7/L12",
+    "MTBC0 PGAP product: 50S ribosomal protein L7/L12",
+    "Pfam (hmmscan --cut_ga): Ribosomal_L12_N PF16320.11 (E=3e-19), Ribosomal_L12 PF00542.25 (E=7e-28)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "Uncertain",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 76.2,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8yeq-assembly1_A",
+        "evalue": 2.786e-11,
+        "prob": 1.0,
+        "tmscore": 0.9682,
+        "description": "8yeq-assembly1_A Crystal structure of L7/L12 Ribosomal Protein from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "1rqu-assembly1_B",
+        "evalue": 2.623e-10,
+        "prob": 1.0,
+        "tmscore": 0.5929,
+        "description": "1rqu-assembly1_B NMR structure of L7 dimer from E.coli",
+        "significant": true
+      },
+      {
+        "target": "1ctf-assembly1_A-2",
+        "evalue": 1.176e-06,
+        "prob": 1.0,
+        "tmscore": 0.9584,
+        "description": "1ctf-assembly1_A-2 STRUCTURE OF THE C-TERMINAL DOMAIN OF THE RIBOSOMAL PROTEIN L7/L12 FROM ESCHERICHIA COLI AT 1.7 ANGSTROMS",
+        "significant": true
+      },
+      {
+        "target": "1rqs-assembly1_A",
+        "evalue": 5.568e-07,
+        "prob": 1.0,
+        "tmscore": 0.9253,
+        "description": "1rqs-assembly1_A NMR structure of C-terminal domain of ribosomal protein L7 from E.coli",
+        "significant": true
+      },
+      {
+        "target": "5kcs-assembly1_1L",
+        "evalue": 4.619e-07,
+        "prob": 1.0,
+        "tmscore": 0.9131,
+        "description": "5kcs-assembly1_1L Cryo-EM structure of the Escherichia coli 70S ribosome in complex with antibiotic Evernimycin, mRNA, TetM and P-site tRNA at 3.9A resolution",
+        "significant": true
+      },
+      {
+        "target": "4v4p-assembly1_AJ",
+        "evalue": 8.061e-09,
+        "prob": 1.0,
+        "tmscore": 0.5453,
+        "description": "4v4p-assembly1_AJ Crystal structure of 70S ribosome with thrS operator and tRNAs.",
+        "significant": true
+      },
+      {
+        "target": "2zjq-assembly1_5",
+        "evalue": 8.105e-06,
+        "prob": 1.0,
+        "tmscore": 0.8708,
+        "description": "2zjq-assembly1_5 Interaction of L7 with L11 induced by Microccocin binding to the Deinococcus radiodurans 50S subunit",
+        "significant": true
+      },
+      {
+        "target": "4v5n-assembly1_BL",
+        "evalue": 2.337e-05,
+        "prob": 1.0,
+        "tmscore": 0.9273,
+        "description": "4v5n-assembly1_BL tRNA translocation on the 70S ribosome: the post- translocational translocation intermediate TI(POST)",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 8801.0,
+    "abundance_rank": 6,
+    "n_ranked": 3519,
+    "abundance_percentile": 99.9,
+    "n_datasets": 16,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 130,
+    "mw_kda": 13.4,
+    "pi": 4.59,
+    "gravy": 0.18,
+    "instability_index": 19.9,
+    "instability_class": "stable",
+    "aromaticity": 0.038,
+    "aliphatic_index": 10376.9,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "information pathways",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0671",
+        "identity": 100.0,
+        "evalue": 4.41e-68
+      },
+      "M. leprae": {
+        "locus": "ML1895c",
+        "identity": 80.0,
+        "evalue": 1.59e-62
+      },
+      "M. marinum": {
+        "locus": "MMAR_0991",
+        "identity": 92.3,
+        "evalue": 3.71e-65
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_1365",
+        "identity": 83.8,
+        "evalue": 1.41e-51
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000688",
+        "identity": 100.0,
+        "evalue": 4.13e-68
+      },
+      "M. abscessus": {
+        "locus": "MAB_3876c",
+        "identity": 80.8,
+        "evalue": 5.2e-61
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0651",
+      "gene": "rplJ",
+      "strand": "+",
+      "gap": 36
+    },
+    "right": {
+      "locus": "Rv0653c",
+      "gene": null,
+      "strand": "-",
+      "gap": -8
+    },
+    "operon": [
+      {
+        "locus": "Rv0651",
+        "gene": "rplJ"
+      },
+      {
+        "locus": "Rv0652",
+        "gene": "rplL"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0967",
+        "tf_gene": "csoR",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "50S ribosomal protein L7/L12 RplL (SA1)",
+    "legacy_function": "Involved in translation mechanisms: seems to be the binding site for several of the factors involved in protein synthesis and appears to be essential for accurate translation.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "WhiB1",
+        "function": "Transcription repressor that is redox responsive, found to be nitric oxide sensitive",
+        "category": "Redox",
+        "regulator": "whiB1"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": -11.775,
+    "ci_low": -14.138,
+    "ci_high": -9.325,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 52,
+      "n_total": 53,
+      "frac": 0.981,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 90.3,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 71.1,
+      "length_aa": 130,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 8,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 8,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "8 publication(s) discuss this gene (8 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Potential of High-Affinity, Slow Off-Rate Modified Aptamer Reagents for Mycobacterium tuberculosis Proteins as Tools for Infection Models and Diagnostic Applications.",
+        "doi": "10.1128/JCM.00469-17",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28794178/",
+        "date": "2017"
+      },
+      {
+        "title": "A potential protein adjuvant derived from Mycobacterium tuberculosis Rv0652 enhances dendritic cells-based tumor immunotherapy.",
+        "doi": "10.1371/journal.pone.0104351",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/25102137/",
+        "date": "2014"
+      },
+      {
+        "title": "[Quantitative proteomic analysis of streptomycin resistant and sensitive clinical isolates of Mycobacterium tuberculosis].",
+        "doi": null,
+        "link": "https://pubmed.ncbi.nlm.nih.gov/23627108/",
+        "date": "2013"
+      },
+      {
+        "title": "Mycobacterium tuberculosis Rv0652 stimulates production of tumour necrosis factor and monocytes chemoattractant protein-1 in macrophages through the Toll-like receptor 4 pathway.",
+        "doi": "10.1111/j.1365-2567.2012.03575.x",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/22385341/",
+        "date": "2012"
+      },
+      {
+        "title": "Measurement of the rates of synthesis of three components of ribosomes of Mycobacterium fortuitum: a theoretical approach to qRT-PCR experimentation.",
+        "doi": "10.1371/journal.pone.0011575",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/20644643/",
+        "date": "2010"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.231,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 61,
+    "total_idr_residues": 61,
+    "idr_regions": [
+      [
+        0,
+        61
+      ]
+    ],
+    "mean_plddt": 76.2,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (61/130 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

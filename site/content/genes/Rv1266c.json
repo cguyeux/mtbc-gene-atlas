@@ -1,0 +1,953 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1266c",
+  "mtbc0": "mtbc0_001355",
+  "np_id": "NP_215782.1",
+  "gene": "pknH",
+  "len_aa": 550,
+  "strand": "-",
+  "start_mtbc0": 1422404,
+  "end_mtbc0": 1424056,
+  "product_h37rv": "serine/threonine-protein kinase PknH",
+  "product_mtbc0_pgap": "serine/threonine protein kinase PknH",
+  "function_revised": "Serine/threonine protein kinase PknH. Pfam: Pkinase (PF00069.32), PK_Tyr_Ser-Thr (PF07714.24), PknH_C (PF14032.13).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MPIHDYGEVDGQMFLEMRLVEGTDLDSVLKRFGPLTPPRAVAIITQIASALDAAHADGVMHRDVKPQNILITRDDFAYLVDFGIASATTDEKLTQLGTAVGTWKYMAPERFSNDEVTYRADIYALACVLHECLTGAPPYRADSAGTLVSSHLMGPIPQPSAIRPGIPKAFDAVVARGMAKKPEDRYASAGDLALAAHEALSDPDQDHAADILRRSQESTLPAPPKPVPPPTMPATAMAPRQPPAPPVTPPGVQPAPKPSYTPPAQPGPAGQRPGPTGQPSWAPNSGPMPASGPTPTPQYYQGGGWGAPPSGGPSPWAQTPRKTNPWPLVAGAAAVVLVLVLGAIGIWIAIRPKPVQPPQPVAEERLSALLLNSSEVNAVMGSSSMQPGKPITSMDSSPVTVSLPDCQGALYTSQDPVYAGTGYTAINGLISSEPGDNYEHWVNQAVVAFPTADKARAFVQTSADKWKNCAGKTVTVTNKAKTYRWTFADVKGSPPTITVIDTQEGAEGWECQRAMSVANNVVVDVNACGYQITNQAGQIAAKIVDKVNKE",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Pkinase",
+      "pfam_acc": "PF00069.32",
+      "i_evalue": 1.5e-31,
+      "ali_from": 10,
+      "ali_to": 154,
+      "description": "Protein kinase domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "PK_Tyr_Ser-Thr",
+      "pfam_acc": "PF07714.24",
+      "i_evalue": 6.2e-20,
+      "ali_from": 12,
+      "ali_to": 185,
+      "description": "Protein tyrosine and serine/threonine kinase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "PknH_C",
+      "pfam_acc": "PF14032.13",
+      "i_evalue": 1e-62,
+      "ali_from": 361,
+      "ali_to": 546,
+      "description": "PknH-like extracellular domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0515",
+    "cog_cat": "KLT",
+    "description": "serine threonine protein kinase",
+    "preferred_name": "pknH",
+    "ec": [
+      "2.7.11.1"
+    ],
+    "kegg_ko": [
+      "K08884",
+      "K12132"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004672",
+      "GO:0004674",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0005887",
+      "GO:0006355",
+      "GO:0006464",
+      "GO:0006468",
+      "GO:0006793",
+      "GO:0006796",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009605",
+      "GO:0009607",
+      "GO:0009889",
+      "GO:0009891",
+      "GO:0009893",
+      "GO:0009987",
+      "GO:0010468",
+      "GO:0010556",
+      "GO:0010557",
+      "GO:0010604",
+      "GO:0010628",
+      "GO:0016020",
+      "GO:0016021",
+      "GO:0016301",
+      "GO:0016310",
+      "GO:0016740",
+      "GO:0016772",
+      "GO:0016773",
+      "GO:0019216",
+      "GO:0019219",
+      "GO:0019222",
+      "GO:0019538",
+      "GO:0030312",
+      "GO:0031224",
+      "GO:0031226",
+      "GO:0031323",
+      "GO:0031325",
+      "GO:0031326",
+      "GO:0031328",
+      "GO:0036211",
+      "GO:0040008",
+      "GO:0043085",
+      "GO:0043086",
+      "GO:0043170",
+      "GO:0043207",
+      "GO:0043388",
+      "GO:0043412",
+      "GO:0044092",
+      "GO:0044093",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044260",
+      "GO:0044267",
+      "GO:0044403",
+      "GO:0044419",
+      "GO:0044425",
+      "GO:0044459",
+      "GO:0044464",
+      "GO:0045893",
+      "GO:0045926",
+      "GO:0045935",
+      "GO:0046777",
+      "GO:0046890",
+      "GO:0048518",
+      "GO:0048519",
+      "GO:0048522",
+      "GO:0050789",
+      "GO:0050790",
+      "GO:0050794",
+      "GO:0050896",
+      "GO:0051098",
+      "GO:0051099",
+      "GO:0051101",
+      "GO:0051171",
+      "GO:0051173",
+      "GO:0051252",
+      "GO:0051254",
+      "GO:0051701",
+      "GO:0051704",
+      "GO:0051707",
+      "GO:0052173",
+      "GO:0052200",
+      "GO:0052564",
+      "GO:0052572",
+      "GO:0060255",
+      "GO:0065007",
+      "GO:0065009",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:0075136",
+      "GO:0080090",
+      "GO:0140096",
+      "GO:1901564",
+      "GO:1902680",
+      "GO:1903506",
+      "GO:1903508",
+      "GO:2000112",
+      "GO:2001141"
+    ],
+    "pfams": [
+      "Pkinase",
+      "PknH_C"
+    ],
+    "seed_ortholog": "419947.MRA_1274",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WI71",
+    "reviewed": true,
+    "protein_name": "Serine/threonine-protein kinase PknH",
+    "ec": [
+      "2.7.11.1"
+    ],
+    "function": "May regulate bacterial growth in response to external signals to facilitate adaptation to the host environment. In vitro, phosphorylates several substrates such as EmbR, DevR (DosR), DacB1 and Rv0681",
+    "go": [
+      "GO:0004672",
+      "GO:0004674",
+      "GO:0005524",
+      "GO:0005886",
+      "GO:0006355",
+      "GO:0009274",
+      "GO:0045893",
+      "GO:0045926",
+      "GO:0106310",
+      "GO:1903338"
+    ],
+    "kegg": [
+      "mtu:Rv1266c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 20,
+    "syn": 7,
+    "missense": 13,
+    "nonsense": 0,
+    "frameshift": 2,
+    "pN_pS": 0.612,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 2,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 312,
+    "disrupt_frac": 0.0021,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1266c",
+    "n_partners": 26,
+    "n_context_driven": 2,
+    "partners": [
+      {
+        "rv": "Rv0018c",
+        "gene": "pstP",
+        "product": "phosphoserine/threonine phosphatase PstP",
+        "hypothetical": false,
+        "combined": 888,
+        "combined_no_tm": 842,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 761,
+          "coexpression": 248,
+          "experimental": 163,
+          "database": 0,
+          "textmining": 325
+        }
+      },
+      {
+        "rv": "Rv1267c",
+        "gene": "embR",
+        "product": "transcriptional regulator EmbR",
+        "hypothetical": false,
+        "combined": 956,
+        "combined_no_tm": 762,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 396,
+          "fusion": 0,
+          "cooccurence": 267,
+          "coexpression": 50,
+          "experimental": 500,
+          "database": 0,
+          "textmining": 825
+        }
+      },
+      {
+        "rv": "Rv1827",
+        "gene": "garA",
+        "product": "glycogen accumulation regulator GarA",
+        "hypothetical": false,
+        "combined": 792,
+        "combined_no_tm": 622,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 61,
+          "fusion": 0,
+          "cooccurence": 462,
+          "coexpression": 47,
+          "experimental": 308,
+          "database": 0,
+          "textmining": 474
+        }
+      },
+      {
+        "rv": "Rv0019c",
+        "gene": "fhaB",
+        "product": "FHA domain-containing protein FhaB",
+        "hypothetical": false,
+        "combined": 668,
+        "combined_no_tm": 540,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 61,
+          "fusion": 0,
+          "cooccurence": 349,
+          "coexpression": 0,
+          "experimental": 308,
+          "database": 0,
+          "textmining": 308
+        }
+      },
+      {
+        "rv": "Rv2031c",
+        "gene": "hspX",
+        "product": "alpha-crystallin",
+        "hypothetical": false,
+        "combined": 508,
+        "combined_no_tm": 508,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 500,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0020c",
+        "gene": "fhaA",
+        "product": "FHA domain-containing protein FhaA",
+        "hypothetical": false,
+        "combined": 712,
+        "combined_no_tm": 479,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 61,
+          "fusion": 0,
+          "cooccurence": 259,
+          "coexpression": 45,
+          "experimental": 308,
+          "database": 0,
+          "textmining": 471
+        }
+      },
+      {
+        "rv": "Rv0014c",
+        "gene": "pknB",
+        "product": "serine/threonine-protein kinase PknB",
+        "hypothetical": false,
+        "combined": 613,
+        "combined_no_tm": 415,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 70,
+          "fusion": 0,
+          "cooccurence": 299,
+          "coexpression": 64,
+          "experimental": 155,
+          "database": 0,
+          "textmining": 366
+        }
+      },
+      {
+        "rv": "Rv1747",
+        "gene": "",
+        "product": "ABC transporter ATP-binding protein/permease",
+        "hypothetical": false,
+        "combined": 676,
+        "combined_no_tm": 385,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 108,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 83,
+          "experimental": 308,
+          "database": 0,
+          "textmining": 496
+        }
+      },
+      {
+        "rv": "Rv1364c",
+        "gene": "",
+        "product": "sigma factor regulatory protein",
+        "hypothetical": false,
+        "combined": 522,
+        "combined_no_tm": 376,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 241,
+          "coexpression": 71,
+          "experimental": 184,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv3080c",
+        "gene": "pknK",
+        "product": "serine/threonine-protein kinase PknK",
+        "hypothetical": false,
+        "combined": 512,
+        "combined_no_tm": 347,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 47,
+          "fusion": 0,
+          "cooccurence": 313,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 283
+        }
+      },
+      {
+        "rv": "Rv3360",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 475,
+        "combined_no_tm": 322,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 61,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 308,
+          "database": 0,
+          "textmining": 258
+        }
+      },
+      {
+        "rv": "Rv2914c",
+        "gene": "pknI",
+        "product": "serine/threonine-protein kinase PknI",
+        "hypothetical": false,
+        "combined": 510,
+        "combined_no_tm": 317,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 313,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 311
+        }
+      },
+      {
+        "rv": "Rv2088",
+        "gene": "pknJ",
+        "product": "transmembrane serine/threonine-protein kinase PknJ",
+        "hypothetical": false,
+        "combined": 485,
+        "combined_no_tm": 284,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 277,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 311
+        }
+      },
+      {
+        "rv": "Rv1746",
+        "gene": "pknF",
+        "product": "serine/threonine-protein kinase PknF",
+        "hypothetical": false,
+        "combined": 491,
+        "combined_no_tm": 273,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 269,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 329
+        }
+      },
+      {
+        "rv": "Rv2145c",
+        "gene": "wag31",
+        "product": "cell wall synthesis protein Wag31",
+        "hypothetical": false,
+        "combined": 453,
+        "combined_no_tm": 268,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 171,
+          "experimental": 153,
+          "database": 0,
+          "textmining": 285
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0018c",
+      "gene": "pstP",
+      "product": "phosphoserine/threonine phosphatase PstP",
+      "combined_no_tm": 842,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 71,
+        "fusion": 0,
+        "cooccurence": 761,
+        "coexpression": 248,
+        "experimental": 163,
+        "database": 0,
+        "textmining": 325
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: serine/threonine-protein kinase PknH",
+    "MTBC0 PGAP product: serine/threonine protein kinase PknH",
+    "Pfam (hmmscan --cut_ga): Pkinase PF00069.32 (E=1e-31), PK_Tyr_Ser-Thr PF07714.24 (E=6e-20), PknH_C PF14032.13 (E=1e-62)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 81.6,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4esq-assembly1_A",
+        "evalue": 7.835e-33,
+        "prob": 1.0,
+        "tmscore": 0.9884,
+        "description": "4esq-assembly1_A Crystal structure of the extracellular domain of PknH from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "4ow8-assembly1_A-2",
+        "evalue": 1.055e-21,
+        "prob": 1.0,
+        "tmscore": 0.9271,
+        "description": "4ow8-assembly1_A-2 Crystal structure of kinase domain of PknA from Mtb",
+        "significant": true
+      },
+      {
+        "target": "4eqm-assembly3_C",
+        "evalue": 6.308e-19,
+        "prob": 1.0,
+        "tmscore": 0.883,
+        "description": "4eqm-assembly3_C Structural analysis of Staphylococcus aureus serine/threonine kinase PknB",
+        "significant": true
+      },
+      {
+        "target": "4o0w-assembly1_A",
+        "evalue": 6.286e-15,
+        "prob": 1.0,
+        "tmscore": 0.8197,
+        "description": "4o0w-assembly1_A Crystal structures of human kinase Aurora A",
+        "significant": true
+      },
+      {
+        "target": "4aw1-assembly1_A",
+        "evalue": 4.394e-15,
+        "prob": 1.0,
+        "tmscore": 0.7954,
+        "description": "4aw1-assembly1_A Human PDK1 Kinase Domain in Complex with Allosteric Compound PS210 Bound to the PIF-Pocket",
+        "significant": true
+      },
+      {
+        "target": "4o0s-assembly1_A",
+        "evalue": 1.84e-14,
+        "prob": 1.0,
+        "tmscore": 0.8078,
+        "description": "4o0s-assembly1_A Crystal structures of human kinase Aurora A",
+        "significant": true
+      },
+      {
+        "target": "3d2i-assembly1_A",
+        "evalue": 3.963e-14,
+        "prob": 1.0,
+        "tmscore": 0.8448,
+        "description": "3d2i-assembly1_A Crystal structure of mouse Aurora A (Asn186->Gly, Lys240->Arg, Met302->Leu) in complex with 1-{5-[2-(1-methyl-1H-pyrazolo[4,3-d]pyrimidin-7-ylamino)-ethyl]-thiazol-2-yl}-3-(3-trifluoromethyl-phenyl)-urea",
+        "significant": true
+      },
+      {
+        "target": "9esa-assembly2_BBB",
+        "evalue": 2.918e-15,
+        "prob": 1.0,
+        "tmscore": 0.7469,
+        "description": "9esa-assembly2_BBB Aurora-C with SER mutation in complex with INCENP peptide",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 1,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (1 TM helix)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 134.0,
+    "abundance_rank": 1087,
+    "n_ranked": 3519,
+    "abundance_percentile": 69.1,
+    "n_datasets": 14,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 550,
+    "mw_kda": 58.1,
+    "pi": 5.7,
+    "gravy": -0.252,
+    "instability_index": 42.4,
+    "instability_class": "unstable",
+    "aromaticity": 0.064,
+    "aliphatic_index": 7458.2,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "regulatory proteins",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1297c",
+        "identity": 92.2,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_4171",
+        "identity": 69.8,
+        "evalue": 0.0
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4366",
+        "identity": 56.1,
+        "evalue": 9.2e-101
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001332",
+        "identity": 99.2,
+        "evalue": 0.0
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "4esq",
+        "method": "X-ray diffraction",
+        "resolution": 1.7,
+        "coverage": 0.31
+      }
+    ],
+    "acc": "P9WI71",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv1265",
+      "gene": null,
+      "strand": "+",
+      "gap": 19
+    },
+    "right": {
+      "locus": "Rv1267c",
+      "gene": "embR",
+      "strand": "-",
+      "gap": 340
+    },
+    "operon": [
+      {
+        "locus": "Rv1266c",
+        "gene": "pknH"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable transmembrane serine/threonine-protein kinase H PknH (protein kinase H) (STPK H)",
+    "legacy_function": "Involved in signal transduction (via phosphorylation). Thought to be involved in arabinan metabolism, phosphorylating perhaps EMBR|Rv1267c [catalytic activity: ATP + a protein = ADP + a phosphoprotein].",
+    "legacy_ec": [
+      "2.7.11.1"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.7.11.1"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "ptm": {
+    "n_sites": 1,
+    "n_phospho": 1,
+    "sites": [
+      {
+        "pos": 170,
+        "type": "Phosphothreonine"
+      }
+    ],
+    "note": "Experimentally reported post-translational modification(s). A phosphosite indicates the protein is expressed and is a substrate of the M. tuberculosis Ser/Thr/Tyr kinase signalling network — a regulatory context, NOT a molecular function.",
+    "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+    "reference": {
+      "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+      "db": "UniProtKB",
+      "url": "https://www.uniprot.org"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.745,
+    "ci_low": -0.742,
+    "ci_high": 3.086,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 8,
+      "n_syn": 4,
+      "n_nonsyn": 4,
+      "n_disruptive": 0,
+      "dN_dS": 0.33,
+      "power": "ok",
+      "interpretation": "under purifying selection vs M. canettii (deep divergence; dN/dS=0.33) — a real, constrained gene predating the MTBC clonal expansion",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 1,
+      "n_total": 53,
+      "frac": 0.019,
+      "in_mtbap": 0,
+      "in_mkc": 1,
+      "mean_pident": 69.3,
+      "classification": "MTBC-near-specific",
+      "species_present": [
+        "M_basiliense"
+      ],
+      "interpretation": "absent from the closest MTBAP relatives and nearly all NTM (1/53) — a strong MTBC-restricted candidate (possible host-adaptation innovation, confirm by synteny)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 550,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 26,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 26,
+    "n_other": 2,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "2"
+    },
+    "summary": "26 publication(s) discuss this gene (26 in a M. tuberculosis context, 2 in other mycobacteria — M. smegmatis (2)).",
+    "papers": [
+      {
+        "title": "Pervasive genome structure heterogeneity in Mycobacterium tuberculosis constitutively generates subpopulations with distinct clinical phenotypes.",
+        "doi": "10.1016/j.isci.2026.115045",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/42111220/",
+        "date": "2026"
+      },
+      {
+        "title": "The acetylation of pknH is linked to the ethambutol resistance of Mycobacterium tuberculosis.",
+        "doi": "10.1007/s00203-023-03676-9",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37740776/",
+        "date": "2023"
+      },
+      {
+        "title": "Mycobacterium tuberculosis Transcription Factor EmbR Regulates the Expression of Key Virulence Factors That Aid in Ex Vivo and In Vivo Survival.",
+        "doi": "10.1128/mbio.03836-21",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35471080/",
+        "date": "2022"
+      },
+      {
+        "title": "Computational prediction and validation of specific EmbR binding site on PknH.",
+        "doi": "10.1016/j.synbio.2021.11.006",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34901481/",
+        "date": "2021"
+      },
+      {
+        "title": "Rv0954 Is a Member of the Mycobacterial Cell Division Complex.",
+        "doi": "10.3389/fmicb.2021.626461",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33959103/",
+        "date": "2021"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.291,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 189,
+    "total_idr_residues": 189,
+    "idr_regions": [
+      [
+        205,
+        394
+      ]
+    ],
+    "mean_plddt": 81.6,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (189/550 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

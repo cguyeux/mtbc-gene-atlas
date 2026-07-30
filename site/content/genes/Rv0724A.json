@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0724A",
+  "gene": "Rv0724A",
+  "len_aa": 111,
+  "strand": "-",
+  "start_mtbc0": 817531,
+  "end_mtbc0": 817866,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "SQDRLFDNSTELSVAGSTIATELVPGIVDFDAGRVREMADSFRKHGVDIDMASLVYSGERSHVVDYLRAKGWDVEGTVRTDLFRRNGLPVPAPHDDDPLGEIIFISGRLNG",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv0724A, len: 111 aa. Similarity suggests that this CDS should be continuation of Rv0725c but we can find no frame-shift to account for this. Possible extended protein is very similar to other hypothetical Mycobacterium tuberculosis proteins e.g. Rv1729c|Z81360_12 (312 aa), FASTA scores: opt: 399, E(): 2e-19, (58.7% identity in 109 aa overlap); Rv0731c, Rv0726c, etc. Frame-shift could occur at nt 817866. Same sequence for strain CDC1551 and Mycobacterium bovis.",
+    "uniprot_ac": "Q79FX1",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 111,
+    "mw_kda": 12.2,
+    "pi": 4.76,
+    "gravy": -0.286,
+    "instability_index": 33.3,
+    "instability_class": "stable",
+    "aromaticity": 0.072,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "Q79FX1",
+    "reviewed": false,
+    "protein_name": "SAM-dependent methyltransferase",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG3315",
+    "cog_cat": "Q",
+    "description": "Exhibits S-adenosyl-L-methionine-dependent methyltransferase activity",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0016020",
+      "GO:0030312",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "Exhibits S-adenosyl-L-methionine-dependent methyltransferase activity",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.474,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv0724A",
+    "n_partners": 7,
+    "n_context_driven": 0,
+    "partners": [
+      {
+        "rv": "Rv2765",
+        "gene": "",
+        "product": "hydrolase",
+        "hypothetical": false,
+        "combined": 661,
+        "combined_no_tm": 54,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 657
+        }
+      },
+      {
+        "rv": "Rv2051c",
+        "gene": "ppm1",
+        "product": "polyprenol-monophosphomannose synthase",
+        "hypothetical": false,
+        "combined": 517,
+        "combined_no_tm": 47,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 514
+        }
+      },
+      {
+        "rv": "Rv3680",
+        "gene": "",
+        "product": "anion transporter ATPase",
+        "hypothetical": false,
+        "combined": 804,
+        "combined_no_tm": 46,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 803
+        }
+      },
+      {
+        "rv": "Rv1781c",
+        "gene": "malQ",
+        "product": "4-alpha-glucanotransferase",
+        "hypothetical": false,
+        "combined": 654,
+        "combined_no_tm": 44,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 653
+        }
+      },
+      {
+        "rv": "Rv3366",
+        "gene": "spoU",
+        "product": "tRNA/rRNA methylase SpoU",
+        "hypothetical": false,
+        "combined": 803,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 803
+        }
+      },
+      {
+        "rv": "Rv3812",
+        "gene": "PE_PGRS62",
+        "product": "PE-PGRS family protein PE_PGRS62",
+        "hypothetical": false,
+        "combined": 434,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 434
+        }
+      },
+      {
+        "rv": "Rv0557",
+        "gene": "mgtA",
+        "product": "GDP-mannose-dependent alpha-mannosyltransferase",
+        "hypothetical": false,
+        "combined": 434,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 434
+        }
+      }
+    ],
+    "anchor": null
+  },
+  "plddt_af": {
+    "mean_plddt": 90.7,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6id6-assembly1_A",
+        "evalue": 1.926e-11,
+        "prob": 1.0,
+        "tmscore": 0.9035,
+        "description": "6id6-assembly1_A Crystal structure of Rv0731c from Mycobacterium tuberculosis at 1.63 Angstroms.",
+        "significant": true
+      },
+      {
+        "target": "2ckd-assembly2_B",
+        "evalue": 1.922e-05,
+        "prob": 1.0,
+        "tmscore": 0.7354,
+        "description": "2ckd-assembly2_B Crystal structure of ML2640 from Mycobacterium leprae",
+        "significant": true
+      },
+      {
+        "target": "2uyq-assembly1_A",
+        "evalue": 3.339e-05,
+        "prob": 1.0,
+        "tmscore": 0.7097,
+        "description": "2uyq-assembly1_A Crystal structure of ML2640c from Mycobacterium leprae in complex with S-adenosylmethionine",
+        "significant": true
+      },
+      {
+        "target": "2uyo-assembly1_A",
+        "evalue": 4.108e-05,
+        "prob": 1.0,
+        "tmscore": 0.7015,
+        "description": "2uyo-assembly1_A Crystal structure of ML2640c from Mycobacterium leprae in an hexagonal crystal form",
+        "significant": true
+      },
+      {
+        "target": "8joz-assembly1_A",
+        "evalue": 0.1079,
+        "prob": 0.72,
+        "tmscore": 0.4911,
+        "description": "8joz-assembly1_A Crystal structure of CmoM from E. coli complexed with sinefungin and cellularly expressed tRNA Ser",
+        "significant": false
+      },
+      {
+        "target": "8q9w-assembly1_A",
+        "evalue": 1.963,
+        "prob": 0.138,
+        "tmscore": 0.4643,
+        "description": "8q9w-assembly1_A Crystal structure of HsRNMT complexed with sinefungin and GMP-PnP",
+        "significant": false
+      },
+      {
+        "target": "8q8g-assembly1_B",
+        "evalue": 4.196,
+        "prob": 0.04,
+        "tmscore": 0.3816,
+        "description": "8q8g-assembly1_B Crystal structure of HsRNMT complexed with inhibitor DDD1870799",
+        "significant": false
+      },
+      {
+        "target": "4v6v-assembly1_BJ",
+        "evalue": 2.254,
+        "prob": 0.024,
+        "tmscore": 0.2181,
+        "description": "4v6v-assembly1_BJ Tetracycline resistance protein Tet(O) bound to the ribosome",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  }
+}

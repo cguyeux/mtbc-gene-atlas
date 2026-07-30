@@ -1,0 +1,855 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1350",
+  "mtbc0": "mtbc0_001449",
+  "np_id": "NP_215866.1",
+  "gene": "fabG2",
+  "len_aa": 247,
+  "strand": "+",
+  "start_mtbc0": 1528193,
+  "end_mtbc0": 1528936,
+  "product_h37rv": "3-oxoacyl-ACP reductase FabG",
+  "product_mtbc0_pgap": "3-oxoacyl-ACP reductase FabG",
+  "function_revised": "3-oxoacyl-ACP reductase FabG. Pfam: adh_short (PF00106.32), KR (PF08659.17), adh_short_C2 (PF13561.13).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MASLLNARTAVITGGAQGLGLAIGQRFVAEGARVVLGDVNLEATEVAAKRLGGDDVALAVRCDVTQADDVDILIRTAVERFGGLDVMVNNAGITRDATMRTMTEEQFDQVIAVHLKGTWNGTRLAAAIMRERKRGAIVNMSSVSGKVGMVGQTNYSAAKAGIVGMTKAAAKELAHLGIRVNAIAPGLIRSAMTEAMPQRIWDQKLAEVPMGRAGEPSEVASVAVFLASDLSSYMTGTVLDVTGGRFI",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "adh_short",
+      "pfam_acc": "PF00106.32",
+      "i_evalue": 1.9e-56,
+      "ali_from": 9,
+      "ali_to": 197,
+      "description": "short chain dehydrogenase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "KR",
+      "pfam_acc": "PF08659.17",
+      "i_evalue": 2.5e-20,
+      "ali_from": 9,
+      "ali_to": 185,
+      "description": "KR domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "adh_short_C2",
+      "pfam_acc": "PF13561.13",
+      "i_evalue": 2.9e-63,
+      "ali_from": 16,
+      "ali_to": 244,
+      "description": "Enoyl-(Acyl carrier protein) reductase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1028",
+    "cog_cat": "IQ",
+    "description": "reductase",
+    "preferred_name": "fabG_1",
+    "ec": [
+      "1.1.1.100"
+    ],
+    "kegg_ko": [
+      "K00059"
+    ],
+    "kegg_pathway": [
+      "map00061",
+      "map00333",
+      "map00780",
+      "map01040",
+      "map01100",
+      "map01130",
+      "map01212"
+    ],
+    "kegg_module": [
+      "M00083",
+      "M00572"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0008150",
+      "GO:0040007"
+    ],
+    "pfams": [
+      "adh_short_C2"
+    ],
+    "seed_ortholog": "419947.MRA_1358",
+    "evalue": "1.93e-160"
+  },
+  "uniprot": {
+    "acc": "P9WGR9",
+    "reviewed": true,
+    "protein_name": "Uncharacterized oxidoreductase Rv1350",
+    "ec": [
+      "1.-.-.-"
+    ],
+    "function": "",
+    "go": [
+      "GO:0016616",
+      "GO:0030497"
+    ],
+    "kegg": [
+      "mtu:Rv1350",
+      "mtv:RVBD_1350"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 7,
+    "syn": 0,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1350",
+    "n_partners": 86,
+    "n_context_driven": 9,
+    "partners": [
+      {
+        "rv": "Rv2524c",
+        "gene": "fas",
+        "product": "fatty acid synthase",
+        "hypothetical": false,
+        "combined": 981,
+        "combined_no_tm": 979,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 140,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 506,
+          "experimental": 475,
+          "database": 918,
+          "textmining": 166
+        }
+      },
+      {
+        "rv": "Rv2243",
+        "gene": "fabD",
+        "product": "malonyl CoA-acyl carrier protein transacylase",
+        "hypothetical": false,
+        "combined": 957,
+        "combined_no_tm": 956,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 256,
+          "coexpression": 317,
+          "experimental": 213,
+          "database": 900,
+          "textmining": 80
+        }
+      },
+      {
+        "rv": "Rv3538",
+        "gene": "",
+        "product": "dehydrogenase",
+        "hypothetical": false,
+        "combined": 932,
+        "combined_no_tm": 932,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 49,
+          "fusion": 900,
+          "cooccurence": 0,
+          "coexpression": 113,
+          "experimental": 136,
+          "database": 211,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv3389c",
+        "gene": "htdY",
+        "product": "3-hydroxyacyl-thioester dehydratase HtdY",
+        "hypothetical": false,
+        "combined": 931,
+        "combined_no_tm": 931,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 49,
+          "fusion": 900,
+          "cooccurence": 0,
+          "coexpression": 101,
+          "experimental": 136,
+          "database": 211,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv0769",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 917,
+        "combined_no_tm": 917,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 204,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3559c",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 916,
+        "combined_no_tm": 916,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 187,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0242c",
+        "gene": "fabG4",
+        "product": "3-oxoacyl-ACP reductase FabG",
+        "hypothetical": false,
+        "combined": 918,
+        "combined_no_tm": 913,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 156,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 108
+        }
+      },
+      {
+        "rv": "Rv0649",
+        "gene": "fabD2",
+        "product": "malonyl CoA-acyl carrier protein transacylase",
+        "hypothetical": false,
+        "combined": 901,
+        "combined_no_tm": 901,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1351",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 776,
+        "combined_no_tm": 776,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1349",
+        "gene": "irtB",
+        "product": "iron ABC transporter ATP-binding protein/permease IrtB",
+        "hypothetical": false,
+        "combined": 698,
+        "combined_no_tm": 689,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 528,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 144,
+          "database": 285,
+          "textmining": 70
+        }
+      },
+      {
+        "rv": "Rv1348",
+        "gene": "irtA",
+        "product": "iron ABC transporter ATP-binding protein/permease IrtA",
+        "hypothetical": false,
+        "combined": 692,
+        "combined_no_tm": 678,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 506,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 61,
+          "experimental": 144,
+          "database": 285,
+          "textmining": 83
+        }
+      },
+      {
+        "rv": "Rv2246",
+        "gene": "kasB",
+        "product": "3-oxoacyl-ACP synthase 2",
+        "hypothetical": false,
+        "combined": 597,
+        "combined_no_tm": 574,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 67,
+          "fusion": 0,
+          "cooccurence": 301,
+          "coexpression": 233,
+          "experimental": 248,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv2245",
+        "gene": "kasA",
+        "product": "3-oxoacyl-ACP synthase 1",
+        "hypothetical": false,
+        "combined": 665,
+        "combined_no_tm": 571,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 67,
+          "fusion": 0,
+          "cooccurence": 298,
+          "coexpression": 232,
+          "experimental": 248,
+          "database": 0,
+          "textmining": 252
+        }
+      },
+      {
+        "rv": "Rv0484c",
+        "gene": "",
+        "product": "short-chain type oxidoreductase",
+        "hypothetical": false,
+        "combined": 552,
+        "combined_no_tm": 552,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 47,
+          "fusion": 1,
+          "cooccurence": 543,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1544",
+        "gene": "",
+        "product": "ketoacyl reductase",
+        "hypothetical": false,
+        "combined": 567,
+        "combined_no_tm": 551,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 490,
+          "coexpression": 50,
+          "experimental": 145,
+          "database": 0,
+          "textmining": 76
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3538",
+      "gene": "",
+      "product": "dehydrogenase",
+      "combined_no_tm": 932,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 49,
+        "fusion": 900,
+        "cooccurence": 0,
+        "coexpression": 113,
+        "experimental": 136,
+        "database": 211,
+        "textmining": 46
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 3-oxoacyl-ACP reductase FabG",
+    "MTBC0 PGAP product: 3-oxoacyl-ACP reductase FabG",
+    "Pfam (hmmscan --cut_ga): adh_short PF00106.32 (E=2e-56), KR PF08659.17 (E=2e-20), adh_short_C2 PF13561.13 (E=3e-63)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 96.9,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4nbu-assembly1_D",
+        "evalue": 6.679e-32,
+        "prob": 1.0,
+        "tmscore": 0.9777,
+        "description": "4nbu-assembly1_D Crystal structure of FabG from Bacillus sp",
+        "significant": true
+      },
+      {
+        "target": "4nbv-assembly1_A",
+        "evalue": 8.02e-30,
+        "prob": 1.0,
+        "tmscore": 0.9677,
+        "description": "4nbv-assembly1_A Crystal structure of FabG from Cupriavidus taiwanensis",
+        "significant": true
+      },
+      {
+        "target": "4jro-assembly1_C",
+        "evalue": 3.115e-30,
+        "prob": 1.0,
+        "tmscore": 0.9495,
+        "description": "4jro-assembly1_C Crystal structure of 3-oxoacyl-[acyl-carrier protein]reductase (FabG)from Listeria monocytogenes in complex with NADP+",
+        "significant": true
+      },
+      {
+        "target": "4jro-assembly1_D",
+        "evalue": 1.73e-29,
+        "prob": 1.0,
+        "tmscore": 0.9485,
+        "description": "4jro-assembly1_D Crystal structure of 3-oxoacyl-[acyl-carrier protein]reductase (FabG)from Listeria monocytogenes in complex with NADP+",
+        "significant": true
+      },
+      {
+        "target": "4jro-assembly1_B",
+        "evalue": 4.453e-29,
+        "prob": 1.0,
+        "tmscore": 0.9458,
+        "description": "4jro-assembly1_B Crystal structure of 3-oxoacyl-[acyl-carrier protein]reductase (FabG)from Listeria monocytogenes in complex with NADP+",
+        "significant": true
+      },
+      {
+        "target": "3osu-assembly1_A",
+        "evalue": 1.453e-28,
+        "prob": 1.0,
+        "tmscore": 0.9447,
+        "description": "3osu-assembly1_A Crystal structure of the 3-oxoacyl-acyl carrier protein reductase, FabG, from Staphylococcus aureus",
+        "significant": true
+      },
+      {
+        "target": "3op4-assembly1_A",
+        "evalue": 4.21e-28,
+        "prob": 1.0,
+        "tmscore": 0.9663,
+        "description": "3op4-assembly1_A Crystal structure of putative 3-ketoacyl-(acyl-carrier-protein) reductase from Vibrio cholerae O1 biovar eltor str. N16961 in complex with NADP+",
+        "significant": true
+      },
+      {
+        "target": "4cqm-assembly3_M",
+        "evalue": 2.623e-28,
+        "prob": 1.0,
+        "tmscore": 0.9436,
+        "description": "4cqm-assembly3_M Crystal structure of heterotetrameric human ketoacyl reductase complexed with NAD and NADP",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 33.8,
+    "abundance_rank": 2007,
+    "n_ranked": 3519,
+    "abundance_percentile": 43.0,
+    "n_datasets": 12,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 247,
+    "mw_kda": 25.9,
+    "pi": 7.88,
+    "gravy": 0.203,
+    "instability_index": 21.1,
+    "instability_class": "stable",
+    "aromaticity": 0.036,
+    "aliphatic_index": 9878.5,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "lipid metabolism",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1385",
+        "identity": 100.0,
+        "evalue": 3e-164
+      },
+      "M. marinum": {
+        "locus": "MMAR_4033",
+        "identity": 86.5,
+        "evalue": 8.32e-142
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_2206",
+        "identity": 79.5,
+        "evalue": 3.01e-132
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001426",
+        "identity": 100.0,
+        "evalue": 2.81e-164
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1349",
+      "gene": "irtB",
+      "strand": "+",
+      "gap": 128
+    },
+    "right": {
+      "locus": "Rv1351",
+      "gene": null,
+      "strand": "+",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv1350",
+        "gene": "fabG2"
+      },
+      {
+        "locus": "Rv1351",
+        "gene": null
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable 3-oxoacyl-[acyl-carrier protein] reductase FabG2 (3-ketoacyl-acyl carrier protein reductase)",
+    "legacy_function": "Involved in the fatty acid biosynthesis pathway (first reduction step) [catalytic activity: (3R)-3-hydroxyacyl-[acyl-carrier protein] + NADP+ = 3-oxoacyl-[acyl-carrier protein] + NADPH].",
+    "legacy_ec": [
+      "1.-.-.-"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "1.-.-.-",
+      "1.1.1.100"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.646,
+    "ci_low": -0.909,
+    "ci_high": 3.321,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 85.1,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 45.3,
+      "length_aa": 247,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 3,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "1 publication(s) discuss this gene (1 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Attenuated strains of Mycobacterium avium subspecies paratuberculosis as vaccine candidates against Johne's disease.",
+        "doi": "10.1016/j.vaccine.2014.02.010",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/24565753/",
+        "date": "2014"
+      },
+      {
+        "title": "The essential mycobacterial genes, fabG1 and fabG4, encode 3-oxoacyl-thioester reductases that are functional in yeast mitochondrial fatty acid synthase type 2.",
+        "doi": "10.1007/s00438-009-0474-2",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/19685079/",
+        "date": "2009"
+      },
+      {
+        "title": "Identification of novel virulence determinants in Mycobacterium paratuberculosis by screening a library of insertional mutants.",
+        "doi": "10.1128/IAI.01742-05",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16790754/",
+        "date": "2006"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 96.9,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

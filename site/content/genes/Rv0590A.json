@@ -1,0 +1,594 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0590A",
+  "gene": "Rv0590A",
+  "len_aa": 84,
+  "strand": "+",
+  "start_mtbc0": 688808,
+  "end_mtbc0": 689062,
+  "product_h37rv": "Mce-family related protein",
+  "function_revised": "Mce-family related protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "LLHSSFGHLEGIQQPLIDELAELDHVLGKLPDAYRIIGRAGGIYGDFFNFYLCDISLKVNGLQPGGPVRTVKLFGQPTGRCTPQ",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Mce-family related protein",
+    "legacy_function": "Unknown, but could be involved in host cell invasion.",
+    "legacy_ec": null,
+    "functional_category": "virulence, detoxification, adaptation",
+    "comments": "Rv0590A, len: 84 aa. Probable continuation of mce2B|Rv0590. Can find no frameshift to account for this. Possible nucleotide G missing at 688793 as there are 5 in Mycobacterium bovis but only 4 in CDC1551. Strong similarity to C-terminus of other Mce proteins e.g. AL583926|AL583926_38 from Mycobacterium leprae strain tn (346 aa), FASTA scores: E(): 1.2e-20, (67.85% identity in 84 aa overlap).",
+    "uniprot_ac": "I6X9D2",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "virulence, detoxification, adaptation",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 84,
+    "mw_kda": 9.2,
+    "pi": 6.29,
+    "gravy": -0.01,
+    "instability_index": 28.3,
+    "instability_class": "stable",
+    "aromaticity": 0.095,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "I6X9D2",
+    "reviewed": false,
+    "protein_name": "Mce-family related protein",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [
+      "mtv:RVBD_0590A"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG1463",
+    "cog_cat": "Q",
+    "description": "Virulence factor Mce family protein",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [
+      "ko:K02067"
+    ],
+    "kegg_pathway": [
+      "ko02010",
+      "map02010"
+    ],
+    "kegg_module": [
+      "M00210",
+      "M00669",
+      "M00670"
+    ],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1033c",
+        "tf_gene": "trcR",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv2011c",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv2250c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 3,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 1,
+    "syn": 0,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 193,
+    "disrupt_frac": 0.0013,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv0590A",
+    "n_partners": 27,
+    "n_context_driven": 10,
+    "partners": [
+      {
+        "rv": "Rv0588",
+        "gene": "yrbE2B",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 884,
+        "combined_no_tm": 880,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 791,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 195,
+          "experimental": 343,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv0587",
+        "gene": "yrbE2A",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 881,
+        "combined_no_tm": 877,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 786,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 194,
+          "experimental": 343,
+          "database": 0,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv0590",
+        "gene": "mce2B",
+        "product": "Mce-family protein Mce2B; Rv0590, (MTCY19H5.32c), len: 275 aa. Mce2B; belongs to 24-membered Mycobacterium tuberculosis Mce protein family (",
+        "hypothetical": false,
+        "combined": 951,
+        "combined_no_tm": 864,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 408,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 653
+        }
+      },
+      {
+        "rv": "Rv0591",
+        "gene": "mce2C",
+        "product": "Mce family protein Mce2C",
+        "hypothetical": false,
+        "combined": 818,
+        "combined_no_tm": 801,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 792,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 84,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 121
+        }
+      },
+      {
+        "rv": "Rv0592",
+        "gene": "mce2D",
+        "product": "Mce family protein Mce2D",
+        "hypothetical": false,
+        "combined": 799,
+        "combined_no_tm": 788,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 71,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 92
+        }
+      },
+      {
+        "rv": "Rv0589",
+        "gene": "mce2A",
+        "product": "Mce family protein Mce2A",
+        "hypothetical": false,
+        "combined": 812,
+        "combined_no_tm": 787,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv0586",
+        "gene": "mce2R",
+        "product": "HTH-type transcriptional regulator Mce2R",
+        "hypothetical": false,
+        "combined": 787,
+        "combined_no_tm": 786,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 785,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0594",
+        "gene": "mce2F",
+        "product": "Mce family protein Mce2F",
+        "hypothetical": false,
+        "combined": 797,
+        "combined_no_tm": 784,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv0593",
+        "gene": "lprL",
+        "product": "Mce family lipoprotein LprL",
+        "hypothetical": false,
+        "combined": 796,
+        "combined_no_tm": 784,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 96
+        }
+      },
+      {
+        "rv": "Rv0585c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 545,
+        "combined_no_tm": 544,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0655",
+        "gene": "mkl",
+        "product": "ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 555,
+        "combined_no_tm": 535,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 172,
+          "experimental": 431,
+          "database": 0,
+          "textmining": 84
+        }
+      },
+      {
+        "rv": "Rv1964",
+        "gene": "yrbE3A",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 506,
+        "combined_no_tm": 496,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 135,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 184,
+          "experimental": 343,
+          "database": 0,
+          "textmining": 62
+        }
+      },
+      {
+        "rv": "Rv0168",
+        "gene": "yrbE1B",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 493,
+        "combined_no_tm": 474,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 188,
+          "experimental": 343,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv1965",
+        "gene": "yrbE3B",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 490,
+        "combined_no_tm": 471,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 184,
+          "experimental": 343,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv0167",
+        "gene": "yrbE1A",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 485,
+        "combined_no_tm": 463,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 74,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 188,
+          "experimental": 343,
+          "database": 0,
+          "textmining": 82
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0590",
+      "gene": "mce2B",
+      "product": "Mce-family protein Mce2B; Rv0590, (MTCY19H5.32c), len: 275 aa. Mce2B; belongs to 24-membered Mycobacterium tuberculosis Mce protein family (",
+      "combined_no_tm": 864,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 773,
+        "fusion": 408,
+        "cooccurence": 0,
+        "coexpression": 70,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 653
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 84.8,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6xgt-assembly1_E",
+        "evalue": 3.795,
+        "prob": 0.057,
+        "tmscore": 0.2646,
+        "description": "6xgt-assembly1_E Crystal structure of cyanase from the thermophilic fungus Thermomyces lanuginosus",
+        "significant": false
+      },
+      {
+        "target": "6u4y-assembly1_B",
+        "evalue": 5.959,
+        "prob": 0.057,
+        "tmscore": 0.2997,
+        "description": "6u4y-assembly1_B Crystal Structure of an EZH2-EED Complex in an Oligomeric State",
+        "significant": false
+      },
+      {
+        "target": "2ivq-assembly1_D",
+        "evalue": 3.795,
+        "prob": 0.045,
+        "tmscore": 0.2239,
+        "description": "2ivq-assembly1_D SITE DIRECTED MUTAGENESIS OF KEY RESIDUES INVOLVED IN THE CATALYTIC MECHANISM OF CYANASE",
+        "significant": false
+      },
+      {
+        "target": "6u4y-assembly1_C",
+        "evalue": 8.226,
+        "prob": 0.045,
+        "tmscore": 0.3086,
+        "description": "6u4y-assembly1_C Crystal Structure of an EZH2-EED Complex in an Oligomeric State",
+        "significant": false
+      },
+      {
+        "target": "7ktp-assembly1_A",
+        "evalue": 8.226,
+        "prob": 0.045,
+        "tmscore": 0.3071,
+        "description": "7ktp-assembly1_A PRC2:EZH1_B from a dimeric PRC2 bound to a nucleosome",
+        "significant": false
+      },
+      {
+        "target": "7td5-assembly1_A",
+        "evalue": 6.78,
+        "prob": 0.045,
+        "tmscore": 0.2624,
+        "description": "7td5-assembly1_A Structure of human PRC2-EZH1 containing phosphorylated SUZ12",
+        "significant": false
+      },
+      {
+        "target": "8ouw-assembly1_K",
+        "evalue": 8.226,
+        "prob": 0.045,
+        "tmscore": 0.2993,
+        "description": "8ouw-assembly1_K Cryo-EM structure of CMG helicase bound to TIM-1/TIPN-1 and homodimeric DNSN-1 on fork DNA (Caenorhabditis elegans)",
+        "significant": false
+      },
+      {
+        "target": "9c3h-assembly1_LK",
+        "evalue": 1.867,
+        "prob": 0.04,
+        "tmscore": 0.1827,
+        "description": "9c3h-assembly1_LK Structure of the CNOT3-bound human 80S ribosome with tRNA-ARG in the P-site.",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  }
+}

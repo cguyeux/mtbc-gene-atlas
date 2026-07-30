@@ -1,0 +1,955 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1700",
+  "mtbc0": "mtbc0_001808",
+  "np_id": "NP_216216.1",
+  "gene": "",
+  "len_aa": 207,
+  "strand": "+",
+  "start_mtbc0": 1937597,
+  "end_mtbc0": 1938220,
+  "product_h37rv": "NUDIX hydrolase",
+  "product_mtbc0_pgap": "ADP-ribose diphosphatase",
+  "function_revised": "ADP-ribose diphosphatase. Pfam: NDPSase_N (PF28549.1), NUDIX (PF00293.35).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MAEHDFETISSETLHTGAIFALRRDQVRMPGGGIVTREVVEHFGAVAIVAMDDNGNIPMVYQYRHTYGRRLWELPAGLLDVAGEPPHLTAARELREEVGLQASTWQVLVDLDTAPGFSDESVRVYLATGLREVGRPEAHHEEADMTMGWYPIAEAARRVLRGEIVNSIAIAGVLAVHAVTTGFAQPRPLDTEWIDRPTAFAARRAER",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "NDPSase_N",
+      "pfam_acc": "PF28549.1",
+      "i_evalue": 2.9e-09,
+      "ali_from": 7,
+      "ali_to": 40,
+      "description": "Nucleoside diphosphate sugar hydrolase N-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "NUDIX",
+      "pfam_acc": "PF00293.35",
+      "i_evalue": 1.8e-13,
+      "ali_from": 44,
+      "ali_to": 156,
+      "description": "NUDIX domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0494",
+    "cog_cat": "L",
+    "description": "pfam nudix",
+    "preferred_name": "nudF",
+    "ec": [
+      "3.6.1.13"
+    ],
+    "kegg_ko": [
+      "K01515"
+    ],
+    "kegg_pathway": [
+      "map00230"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "NUDIX"
+    ],
+    "seed_ortholog": "419947.MRA_1709",
+    "evalue": "8.15e-149"
+  },
+  "uniprot": {
+    "acc": "I6X235",
+    "reviewed": true,
+    "protein_name": "ADP-ribose pyrophosphatase",
+    "ec": [
+      "3.6.1.13",
+      "3.6.1.58"
+    ],
+    "function": "Catalyzes the hydrolysis of ADP-ribose (ADPR) to AMP and ribose-5-phosphate. Can also hydrolyze ADP-mannose and ADP-glucose, with lower efficiency. Has weaker activity with NAD, GDP-sugars and UDP-sugars. Also catalyzes the conversion of 8-oxo-dGDP to 8-oxo-dGMP, and 8-oxo-GDP to 8-oxo-GMP. Functions in concert with MutT1 to detoxify 8-oxo-dGTP to 8-oxo-dGMP and may play an important role in supporting cellular growth under oxidative stress. The catalytic efficiency is much higher for the hydrolysis of ADPR than 8-oxo-dGTP, suggesting a more relevant biological role in hydrolysis of ADPR",
+    "go": [
+      "GO:0005829",
+      "GO:0006260",
+      "GO:0006281",
+      "GO:0006753",
+      "GO:0019693",
+      "GO:0044715",
+      "GO:0044716",
+      "GO:0046872",
+      "GO:0047631"
+    ],
+    "kegg": [
+      "mtu:Rv1700",
+      "mtv:RVBD_1700"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 6,
+    "syn": 1,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.724,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1700",
+    "n_partners": 101,
+    "n_context_driven": 10,
+    "partners": [
+      {
+        "rv": "Rv1699",
+        "gene": "pyrG",
+        "product": "CTP synthase",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 983,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 862,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 817
+        }
+      },
+      {
+        "rv": "Rv1701",
+        "gene": "xerD",
+        "product": "tyrosine recombinase XerD",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 976,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 801,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv3433c",
+        "gene": "nnr",
+        "product": "bifunctional ADP-dependent (S)-NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase",
+        "hypothetical": false,
+        "combined": 952,
+        "combined_no_tm": 946,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 149,
+          "fusion": 0,
+          "cooccurence": 228,
+          "coexpression": 78,
+          "experimental": 787,
+          "database": 643,
+          "textmining": 162
+        }
+      },
+      {
+        "rv": "Rv3211",
+        "gene": "rhlE",
+        "product": "ATP-dependent RNA helicase RhlE",
+        "hypothetical": false,
+        "combined": 784,
+        "combined_no_tm": 771,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 71,
+          "experimental": 403,
+          "database": 615,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1253",
+        "gene": "deaD",
+        "product": "ATP-dependent RNA helicase DeaD",
+        "hypothetical": false,
+        "combined": 782,
+        "combined_no_tm": 769,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 61,
+          "experimental": 403,
+          "database": 615,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1698",
+        "gene": "mctB",
+        "product": "copper transporter MctB",
+        "hypothetical": false,
+        "combined": 757,
+        "combined_no_tm": 758,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 754,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1697",
+        "gene": "steA",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 736,
+        "combined_no_tm": 736,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 733,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2524c",
+        "gene": "fas",
+        "product": "fatty acid synthase",
+        "hypothetical": false,
+        "combined": 675,
+        "combined_no_tm": 663,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 151,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 76,
+          "experimental": 362,
+          "database": 406,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv1694",
+        "gene": "tlyA",
+        "product": "16S/23S rRNA (cytidine-2'-O)-methyltransferase TlyA",
+        "hypothetical": false,
+        "combined": 657,
+        "combined_no_tm": 657,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 648,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 66,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1340",
+        "gene": "rphA",
+        "product": "ribonuclease PH",
+        "hypothetical": false,
+        "combined": 683,
+        "combined_no_tm": 653,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 636,
+          "textmining": 127
+        }
+      },
+      {
+        "rv": "Rv1695",
+        "gene": "ppnK",
+        "product": "inorganic polyphosphate/ATP-NAD kinase",
+        "hypothetical": false,
+        "combined": 671,
+        "combined_no_tm": 653,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 648,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 93
+        }
+      },
+      {
+        "rv": "Rv1691",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 656,
+        "combined_no_tm": 644,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 451,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 152,
+          "database": 288,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv3339c",
+        "gene": "icd1",
+        "product": "isocitrate dehydrogenase",
+        "hypothetical": false,
+        "combined": 597,
+        "combined_no_tm": 597,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 67,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 53,
+          "experimental": 0,
+          "database": 581,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2985",
+        "gene": "mutT1",
+        "product": "8-oxo-dGTP diphosphatase",
+        "hypothetical": false,
+        "combined": 609,
+        "combined_no_tm": 582,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 81,
+          "experimental": 135,
+          "database": 500,
+          "textmining": 103
+        }
+      },
+      {
+        "rv": "Rv1391",
+        "gene": "dfp",
+        "product": "bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase",
+        "hypothetical": false,
+        "combined": 580,
+        "combined_no_tm": 581,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 0,
+          "database": 556,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1699",
+      "gene": "pyrG",
+      "product": "CTP synthase",
+      "combined_no_tm": 983,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 862,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 817
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: NUDIX hydrolase",
+    "MTBC0 PGAP product: ADP-ribose diphosphatase",
+    "Pfam (hmmscan --cut_ga): NDPSase_N PF28549.1 (E=3e-09), NUDIX PF00293.35 (E=2e-13)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 95.7,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1mqw-assembly1_A-2",
+        "evalue": 1.374e-41,
+        "prob": 1.0,
+        "tmscore": 0.9927,
+        "description": "1mqw-assembly1_A-2 Structure of the MT-ADPRase in complex with three Mn2+ ions and AMPCPR, a Nudix enzyme",
+        "significant": true
+      },
+      {
+        "target": "5i8u-assembly2_B",
+        "evalue": 4.345e-40,
+        "prob": 1.0,
+        "tmscore": 0.9643,
+        "description": "5i8u-assembly2_B Crystal Structure of the RV1700 (MT ADPRASE) E142Q mutant",
+        "significant": true
+      },
+      {
+        "target": "5i8u-assembly2_A",
+        "evalue": 5.211e-39,
+        "prob": 1.0,
+        "tmscore": 0.9692,
+        "description": "5i8u-assembly2_A Crystal Structure of the RV1700 (MT ADPRASE) E142Q mutant",
+        "significant": true
+      },
+      {
+        "target": "5i8u-assembly4_F",
+        "evalue": 4.617e-38,
+        "prob": 1.0,
+        "tmscore": 0.9611,
+        "description": "5i8u-assembly4_F Crystal Structure of the RV1700 (MT ADPRASE) E142Q mutant",
+        "significant": true
+      },
+      {
+        "target": "1mk1-assembly1_A",
+        "evalue": 5.885e-36,
+        "prob": 1.0,
+        "tmscore": 0.9775,
+        "description": "1mk1-assembly1_A Structure of the MT-ADPRase in complex with ADPR, a Nudix enzyme",
+        "significant": true
+      },
+      {
+        "target": "5i8u-assembly4_E",
+        "evalue": 4.907e-36,
+        "prob": 1.0,
+        "tmscore": 0.9709,
+        "description": "5i8u-assembly4_E Crystal Structure of the RV1700 (MT ADPRASE) E142Q mutant",
+        "significant": true
+      },
+      {
+        "target": "5c7q-assembly1_B",
+        "evalue": 2.682e-19,
+        "prob": 1.0,
+        "tmscore": 0.9363,
+        "description": "5c7q-assembly1_B Crystal Structure of the Bdellovibrio bacteriovorus Nucleoside Diphosphate Sugar Hydrolase",
+        "significant": true
+      },
+      {
+        "target": "5c8l-assembly1_B",
+        "evalue": 7.983e-19,
+        "prob": 1.0,
+        "tmscore": 0.9296,
+        "description": "5c8l-assembly1_B Crystal Structure of the Bdellovibrio bacteriovorus Nucleoside Diphosphate Sugar Hydrolase",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "mcsa": {
+    "mcsa_id": 823,
+    "ec": "3.6.1.13",
+    "n_catalytic": 5,
+    "n_present": 5,
+    "n_identical": 5,
+    "verdict": "ACTIVE-SITE CONSERVED (5/5 catalytic residues identical) -> likely active enzyme",
+    "residues": [
+      {
+        "uniprot_resid": 64,
+        "target_aa": "ARG",
+        "query_aa": "R",
+        "present": true,
+        "identical": true,
+        "role": "electrostatic stabiliser"
+      },
+      {
+        "uniprot_resid": 76,
+        "target_aa": "ALA",
+        "query_aa": "A",
+        "present": true,
+        "identical": true,
+        "role": "metal ligand"
+      },
+      {
+        "uniprot_resid": 93,
+        "target_aa": "GLU",
+        "query_aa": "E",
+        "present": true,
+        "identical": true,
+        "role": "metal ligand"
+      },
+      {
+        "uniprot_resid": 97,
+        "target_aa": "GLU",
+        "query_aa": "E",
+        "present": true,
+        "identical": true,
+        "role": "metal ligand"
+      },
+      {
+        "uniprot_resid": 142,
+        "target_aa": "GLU",
+        "query_aa": "E",
+        "present": true,
+        "identical": true,
+        "role": "metal ligand, proton acceptor"
+      }
+    ]
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 120.0,
+    "abundance_rank": 1164,
+    "n_ranked": 3519,
+    "abundance_percentile": 67.0,
+    "n_datasets": 11,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 207,
+    "mw_kda": 22.9,
+    "pi": 5.25,
+    "gravy": -0.171,
+    "instability_index": 33.8,
+    "instability_class": "stable",
+    "aromaticity": 0.072,
+    "aliphatic_index": 8864.7,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "information pathways",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1726",
+        "identity": 98.6,
+        "evalue": 1.73e-150
+      },
+      "M. marinum": {
+        "locus": "MMAR_2505",
+        "identity": 77.0,
+        "evalue": 4.44e-117
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3745",
+        "identity": 65.7,
+        "evalue": 2.32e-96
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001777",
+        "identity": 99.5,
+        "evalue": 4.84e-152
+      },
+      "M. abscessus": {
+        "locus": "MAB_2365",
+        "identity": 59.9,
+        "evalue": 2.99e-87
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 2,
+    "n_in_vivo": 2,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection, day 45",
+        "category": "in vivo",
+        "log2fc": -6.27,
+        "qval": 0.007,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.06,
+        "qval": 0.017,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "5i8u",
+        "method": "X-ray diffraction",
+        "resolution": 2.0,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "I6X235",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1699",
+      "gene": "pyrG",
+      "strand": "+",
+      "gap": -8
+    },
+    "right": {
+      "locus": "Rv1701",
+      "gene": null,
+      "strand": "+",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv1699",
+        "gene": "pyrG"
+      },
+      {
+        "locus": "Rv1700",
+        "gene": null
+      },
+      {
+        "locus": "Rv1701",
+        "gene": null
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "NUDIX hydrolase",
+    "legacy_function": "NUDIX hydrolases catalyze the hydrolysis of a variety of nucleoside diphoshate derivatives",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [
+      "3.6.1.13",
+      "3.6.1.58"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -0.451,
+    "ci_low": -2.481,
+    "ci_high": 1.665,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 74.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 47.7,
+      "length_aa": 207,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 4,
+    "n_papers_listed": 4,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 4,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "4 publication(s) discuss this gene (4 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Kinetic and mutational studies of the adenosine diphosphate ribose hydrolase from Mycobacterium tuberculosis.",
+        "doi": "10.1007/s10863-016-9681-9",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/27683242/",
+        "date": "2016"
+      },
+      {
+        "title": "Mycobacterium tuberculosis MutT1 (Rv2985) and ADPRase (Rv1700) proteins constitute a two-stage mechanism of 8-oxo-dGTP and 8-oxo-GTP detoxification and adenosine to cytidine mutation avoidance.",
+        "doi": "10.1074/jbc.M112.442566",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/23463507/",
+        "date": "2013"
+      },
+      {
+        "title": "High precision multi-genome scale reannotation of enzyme function by EFICAz.",
+        "doi": "10.1186/1471-2164-7-315",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/17166279/",
+        "date": "2006"
+      },
+      {
+        "title": "Structure and mechanism of MT-ADPRase, a nudix hydrolase from Mycobacterium tuberculosis.",
+        "doi": "10.1016/s0969-2126(03)00154-0",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/12906832/",
+        "date": "2003"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 95.7,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

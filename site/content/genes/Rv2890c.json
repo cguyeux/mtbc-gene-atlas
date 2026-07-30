@@ -1,0 +1,907 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2890c",
+  "mtbc0": "mtbc0_003072",
+  "np_id": "NP_217406.1",
+  "gene": "rpsB",
+  "len_aa": 287,
+  "strand": "-",
+  "start_mtbc0": 3219948,
+  "end_mtbc0": 3220811,
+  "product_h37rv": "30S ribosomal protein S2",
+  "product_mtbc0_pgap": "30S ribosomal protein S2",
+  "function_revised": "30S ribosomal protein S2. Pfam: Ribosomal_S2 (PF00318.26).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MAVVTMKQLLDSGTHFGHQTRRWNPKMKRFIFTDRNGIYIIDLQQTLTFIDKAYEFVKETVAHGGSVLFVGTKKQAQESVAAEATRVGMPYVNQRWLGGMLTNFSTVHKRLQRLKELEAMEQTGGFEGRTKKEILGLTREKNKLERSLGGIRDMAKVPSAIWVVDTNKEHIAVGEARKLGIPVIAILDTNCDPDEVDYPIPGNDDAIRSAALLTRVIASAVAEGLQARAGLGRADGKPEAEAAEPLAEWEQELLASATASATPSATASTTALTDAPAGATEPTTDAS",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Ribosomal_S2",
+      "pfam_acc": "PF00318.26",
+      "i_evalue": 1.2e-99,
+      "ali_from": 9,
+      "ali_to": 224,
+      "description": "Ribosomal protein S2"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0052",
+    "cog_cat": "J",
+    "description": "Belongs to the universal ribosomal protein uS2 family",
+    "preferred_name": "rpsB",
+    "ec": [],
+    "kegg_ko": [
+      "K02967"
+    ],
+    "kegg_pathway": [
+      "map03010"
+    ],
+    "kegg_module": [
+      "M00178",
+      "M00179"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003735",
+      "GO:0005198",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005840",
+      "GO:0005886",
+      "GO:0006412",
+      "GO:0006518",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009058",
+      "GO:0009059",
+      "GO:0009987",
+      "GO:0010467",
+      "GO:0015935",
+      "GO:0016020",
+      "GO:0019538",
+      "GO:0022626",
+      "GO:0022627",
+      "GO:0030312",
+      "GO:0032991",
+      "GO:0034641",
+      "GO:0034645",
+      "GO:0040007",
+      "GO:0043043",
+      "GO:0043170",
+      "GO:0043226",
+      "GO:0043228",
+      "GO:0043229",
+      "GO:0043232",
+      "GO:0043603",
+      "GO:0043604",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044249",
+      "GO:0044260",
+      "GO:0044267",
+      "GO:0044271",
+      "GO:0044391",
+      "GO:0044422",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044445",
+      "GO:0044446",
+      "GO:0044464",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:1901564",
+      "GO:1901566",
+      "GO:1901576",
+      "GO:1990904"
+    ],
+    "pfams": [
+      "Ribosomal_S2"
+    ],
+    "seed_ortholog": "419947.MRA_2915",
+    "evalue": "5.58e-189"
+  },
+  "uniprot": {
+    "acc": "P9WH39",
+    "reviewed": true,
+    "protein_name": "Small ribosomal subunit protein uS2",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0003735",
+      "GO:0005886",
+      "GO:0006412",
+      "GO:0009274",
+      "GO:0022627"
+    ],
+    "kegg": [
+      "mtu:Rv2890c",
+      "mtv:RVBD_2890c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 1,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.653,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2890c",
+    "n_partners": 294,
+    "n_context_driven": 7,
+    "partners": [
+      {
+        "rv": "Rv2055c",
+        "gene": "rpsR2",
+        "product": "30S ribosomal protein S18",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 66,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 732,
+          "experimental": 997,
+          "database": 540,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv0683",
+        "gene": "rpsG",
+        "product": "30S ribosomal protein S7",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 442,
+          "coexpression": 875,
+          "experimental": 928,
+          "database": 925,
+          "textmining": 269
+        }
+      },
+      {
+        "rv": "Rv0718",
+        "gene": "rpsH",
+        "product": "30S ribosomal protein S8",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 89,
+          "fusion": 0,
+          "cooccurence": 220,
+          "coexpression": 865,
+          "experimental": 997,
+          "database": 925,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv0053",
+        "gene": "rpsF",
+        "product": "30S ribosomal protein S6",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 864,
+          "experimental": 999,
+          "database": 844,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv0707",
+        "gene": "rpsC",
+        "product": "30S ribosomal protein S3",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 450,
+          "coexpression": 864,
+          "experimental": 928,
+          "database": 925,
+          "textmining": 841
+        }
+      },
+      {
+        "rv": "Rv3442c",
+        "gene": "rpsI",
+        "product": "30S ribosomal protein S9",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 247,
+          "coexpression": 886,
+          "experimental": 928,
+          "database": 925,
+          "textmining": 588
+        }
+      },
+      {
+        "rv": "Rv0710",
+        "gene": "rpsQ",
+        "product": "30S ribosomal protein S17",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 185,
+          "coexpression": 861,
+          "experimental": 928,
+          "database": 925,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv2785c",
+        "gene": "rpsO",
+        "product": "30S ribosomal protein S15",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 113,
+          "fusion": 0,
+          "cooccurence": 223,
+          "coexpression": 855,
+          "experimental": 928,
+          "database": 925,
+          "textmining": 629
+        }
+      },
+      {
+        "rv": "Rv0721",
+        "gene": "rpsE",
+        "product": "30S ribosomal protein S5",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 279,
+          "coexpression": 864,
+          "experimental": 928,
+          "database": 925,
+          "textmining": 591
+        }
+      },
+      {
+        "rv": "Rv2909c",
+        "gene": "rpsP",
+        "product": "30S ribosomal protein S16",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 306,
+          "coexpression": 888,
+          "experimental": 928,
+          "database": 844,
+          "textmining": 502
+        }
+      },
+      {
+        "rv": "Rv3458c",
+        "gene": "rpsD",
+        "product": "30S ribosomal protein S4",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 273,
+          "coexpression": 885,
+          "experimental": 928,
+          "database": 844,
+          "textmining": 415
+        }
+      },
+      {
+        "rv": "Rv0705",
+        "gene": "rpsS",
+        "product": "30S ribosomal protein S19",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 266,
+          "coexpression": 864,
+          "experimental": 928,
+          "database": 925,
+          "textmining": 619
+        }
+      },
+      {
+        "rv": "Rv0702",
+        "gene": "rplD",
+        "product": "50S ribosomal protein L4",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 261,
+          "coexpression": 874,
+          "experimental": 928,
+          "database": 844,
+          "textmining": 622
+        }
+      },
+      {
+        "rv": "Rv0500B",
+        "gene": "",
+        "product": "Rv0500B, len: 33 aa. Conserved hypothetical protein. Basic protein 18 of the 33 aa are Arg or Lys, with strong similarity to AL079345|SCE68_",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0682",
+        "gene": "rpsL",
+        "product": "30S ribosomal protein S12",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 344,
+          "coexpression": 864,
+          "experimental": 928,
+          "database": 844,
+          "textmining": 266
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0683",
+      "gene": "rpsG",
+      "product": "30S ribosomal protein S7",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 72,
+        "fusion": 0,
+        "cooccurence": 442,
+        "coexpression": 875,
+        "experimental": 928,
+        "database": 925,
+        "textmining": 269
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 30S ribosomal protein S2",
+    "MTBC0 PGAP product: 30S ribosomal protein S2",
+    "Pfam (hmmscan --cut_ga): Ribosomal_S2 PF00318.26 (E=1e-99)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 84.0,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8buu-assembly1_b",
+        "evalue": 2.003e-30,
+        "prob": 1.0,
+        "tmscore": 0.9844,
+        "description": "8buu-assembly1_b ARE-ABCF VmlR2 bound to a 70S ribosome",
+        "significant": true
+      },
+      {
+        "target": "8y39-assembly1_b",
+        "evalue": 1.604e-29,
+        "prob": 1.0,
+        "tmscore": 0.9795,
+        "description": "8y39-assembly1_b cryo-EM structure of Staphylococcus aureus(ATCC 29213) 70S ribosome in complex with MCX-190.",
+        "significant": true
+      },
+      {
+        "target": "7p7u-assembly1_c",
+        "evalue": 2.29e-28,
+        "prob": 1.0,
+        "tmscore": 0.9853,
+        "description": "7p7u-assembly1_c E. faecalis 70S ribosome with P-tRNA, state IV",
+        "significant": true
+      },
+      {
+        "target": "8v9k-assembly1_b",
+        "evalue": 4.956e-32,
+        "prob": 1.0,
+        "tmscore": 0.9465,
+        "description": "8v9k-assembly1_b Cryo-EM structure of the Mycobacterium smegmatis 70S ribosome in complex with hibernation factor Rv2629 (Balon) (Structure 5)",
+        "significant": true
+      },
+      {
+        "target": "7nhm-assembly1_c",
+        "evalue": 4.855e-28,
+        "prob": 1.0,
+        "tmscore": 0.9823,
+        "description": "7nhm-assembly1_c 70S ribosome from Staphylococcus aureus",
+        "significant": true
+      },
+      {
+        "target": "5ngm-assembly1_Ab",
+        "evalue": 8.167e-28,
+        "prob": 1.0,
+        "tmscore": 0.9773,
+        "description": "5ngm-assembly1_Ab 2.9S structure of the 70S ribosome composing the S. aureus 100S complex",
+        "significant": true
+      },
+      {
+        "target": "5iwa-assembly1_B",
+        "evalue": 4.9e-27,
+        "prob": 1.0,
+        "tmscore": 0.9448,
+        "description": "5iwa-assembly1_B Crystal structure of the 30S ribosomal subunit from Thermus thermophilus in complex with the GE81112 peptide antibiotic",
+        "significant": true
+      },
+      {
+        "target": "8cwo-assembly1_B",
+        "evalue": 2.913e-27,
+        "prob": 1.0,
+        "tmscore": 0.9593,
+        "description": "8cwo-assembly1_B Cutibacterium acnes 30S ribosomal subunit with Sarecycline bound, body domain only in the local refined map",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 1191.0,
+    "abundance_rank": 185,
+    "n_ranked": 3519,
+    "abundance_percentile": 94.8,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 287,
+    "mw_kda": 31.1,
+    "pi": 6.03,
+    "gravy": -0.284,
+    "instability_index": 37.3,
+    "instability_class": "stable",
+    "aromaticity": 0.056,
+    "aliphatic_index": 8407.7,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "information pathways",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2914c",
+        "identity": 100.0,
+        "evalue": 8.69e-193
+      },
+      "M. leprae": {
+        "locus": "ML1598c",
+        "identity": 94.9,
+        "evalue": 4.79e-175
+      },
+      "M. marinum": {
+        "locus": "MMAR_1819",
+        "identity": 97.3,
+        "evalue": 6.79e-181
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_2519",
+        "identity": 85.7,
+        "evalue": 5.75e-170
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002981",
+        "identity": 99.7,
+        "evalue": 1.15e-192
+      },
+      "M. abscessus": {
+        "locus": "MAB_3196c",
+        "identity": 89.9,
+        "evalue": 1.92e-165
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2889c",
+      "gene": "tsf",
+      "strand": "-",
+      "gap": 11
+    },
+    "right": {
+      "locus": "Rv2891",
+      "gene": null,
+      "strand": "+",
+      "gap": 283
+    },
+    "operon": [
+      {
+        "locus": "Rv2888c",
+        "gene": "amiC"
+      },
+      {
+        "locus": "Rv2889c",
+        "gene": "tsf"
+      },
+      {
+        "locus": "Rv2890c",
+        "gene": "rpsB"
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "30S ribosomal protein S2 RpsB",
+    "legacy_function": "Involved in translation mechanism.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -11.477,
+    "ci_low": -12.786,
+    "ci_high": -9.976,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 97.2,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 78.6,
+      "length_aa": 287,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "2 publication(s) discuss this gene (1 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Extra-ribosomal functions of Mtb RpsB in imparting stress resilience and drug tolerance to mycobacteria.",
+        "doi": "10.1016/j.biochi.2020.08.007",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/32828823/",
+        "date": "2020"
+      },
+      {
+        "title": "Proteomic comparison of Mycobacterium avium subspecies paratuberculosis grown in vitro and isolated from clinical cases of ovine paratuberculosis.",
+        "doi": "10.1099/mic.0.29129-0",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/17185548/",
+        "date": "2007"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.195,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 56,
+    "total_idr_residues": 56,
+    "idr_regions": [
+      [
+        231,
+        287
+      ]
+    ],
+    "mean_plddt": 84.0,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (56/287 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "H37RvMA::Rv2890c(rpsB)-FLAG/DAS+pTetON-1 sspB",
+    "gene": "rpsB",
+    "teton_promoter": "1",
+    "baseline_doublings_median": 0.566,
+    "n_screens": 1,
+    "strain_category": "Excluded - not in all screening waves",
+    "used_in_pcl": false,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

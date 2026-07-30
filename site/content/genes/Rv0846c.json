@@ -1,0 +1,878 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0846c",
+  "mtbc0": "mtbc0_000901",
+  "np_id": "NP_215361.1",
+  "gene": "mmcO",
+  "len_aa": 504,
+  "strand": "-",
+  "start_mtbc0": 945831,
+  "end_mtbc0": 947345,
+  "product_h37rv": "oxidase",
+  "product_mtbc0_pgap": "multicopper oxidase MmcO",
+  "function_revised": "Multicopper oxidase MmcO. Pfam: Cu-oxidase_3 (PF07732.22), Cu-oxidase (PF00394.29), Cu-oxidase_2 (PF07731.21).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MPELATSGNAFDKRRFSRRGFLGAGIASGFALAACASKPTASGAAGMTAAIDAAEAARPHSGRTVTATLTPQPARIDLGGPIVSTLTYGNTIPGPLIRATVGDEIVVSVTNRLGDPTSVHWHGIALRNDMDGTEPATANIGPGGDFTYRFSVPDPGTYWAHPHVGLQGDHGLYLPVVVDDPTEPGHYDAEWIIILDDWTDGIGKSPQQLYGELTDPNKPTMQNTTGMPEGEGVDSNLLGGDGGDIAYPYYLINGRIPVAATSFKAKPGQRIRIRIINSAADTAFRIALAGHSMTVTHTDGYPVIPTEVDALLIGMAERYDVMVTAAGGVFPLVALAEGKNALARALLSTGAGSPPDPQFRPDELNWRVGTVEMFTAATTANLGRPEPTHDLPVTLGGTMAKYDWTINGEPYSTTNPLHVRLGQRPTLMFDNTTMMYHPIHLHGHTFQMIKADGSPGARKDTVIVLPKQKMRAVLVADNPGVWVMHCHNNYHQVAGMATRLDYIL",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Cu-oxidase_3",
+      "pfam_acc": "PF07732.22",
+      "i_evalue": 6.5e-26,
+      "ali_from": 83,
+      "ali_to": 182,
+      "description": "Multicopper oxidase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Cu-oxidase",
+      "pfam_acc": "PF00394.29",
+      "i_evalue": 1.1e-23,
+      "ali_from": 190,
+      "ali_to": 347,
+      "description": "Multicopper oxidase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Cu-oxidase_2",
+      "pfam_acc": "PF07731.21",
+      "i_evalue": 4.4e-29,
+      "ali_from": 389,
+      "ali_to": 500,
+      "description": "Multicopper oxidase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG2132",
+    "cog_cat": "Q",
+    "description": "PFAM multicopper oxidase",
+    "preferred_name": "mco",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005623",
+      "GO:0030288",
+      "GO:0030313",
+      "GO:0031975",
+      "GO:0042597",
+      "GO:0044464"
+    ],
+    "pfams": [
+      "Cu-oxidase",
+      "Cu-oxidase_2",
+      "Cu-oxidase_3"
+    ],
+    "seed_ortholog": "419947.MRA_0854",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "I6WZK7",
+    "reviewed": true,
+    "protein_name": "Multicopper oxidase MmcO",
+    "ec": [
+      "1.16.3.1"
+    ],
+    "function": "Required for copper resistance. In vitro, oxidizes organic substrates and Fe(2+). May act in vivo by oxidation of toxic periplasmic Cu(+)",
+    "go": [
+      "GO:0004322",
+      "GO:0005507",
+      "GO:0005886",
+      "GO:0042597"
+    ],
+    "kegg": [
+      "mtu:Rv0846c",
+      "mtv:RVBD_0846c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 9,
+    "syn": 1,
+    "missense": 8,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 2.719,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 714,
+    "disrupt_frac": 0.0049,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0846c",
+    "n_partners": 60,
+    "n_context_driven": 1,
+    "partners": [
+      {
+        "rv": "Rv1485",
+        "gene": "hemZ",
+        "product": "ferrochelatase",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 914,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 171,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 175
+        }
+      },
+      {
+        "rv": "Rv1876",
+        "gene": "bfrA",
+        "product": "bacterioferritin BfrA",
+        "hypothetical": false,
+        "combined": 919,
+        "combined_no_tm": 911,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 65,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 125,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 135
+        }
+      },
+      {
+        "rv": "Rv0849",
+        "gene": "",
+        "product": "MFS-type transporter",
+        "hypothetical": false,
+        "combined": 946,
+        "combined_no_tm": 907,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 343,
+          "fusion": 0,
+          "cooccurence": 167,
+          "coexpression": 843,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 455
+        }
+      },
+      {
+        "rv": "Rv3841",
+        "gene": "bfrB",
+        "product": "bacterioferritin BfrB",
+        "hypothetical": false,
+        "combined": 918,
+        "combined_no_tm": 906,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 97,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 166
+        }
+      },
+      {
+        "rv": "Rv0848",
+        "gene": "cysK2",
+        "product": "cysteine synthase CysK",
+        "hypothetical": false,
+        "combined": 951,
+        "combined_no_tm": 901,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 383,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 846,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 534
+        }
+      },
+      {
+        "rv": "Rv0850",
+        "gene": "",
+        "product": "Rv0850, (MTV043.43), len: 110 aa. Putative transposase (fragment), similar in part to others e.g. Q45144|Q4514 transposable element IS31831 ",
+        "hypothetical": false,
+        "combined": 919,
+        "combined_no_tm": 863,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 344,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 800,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 433
+        }
+      },
+      {
+        "rv": "Rv0847",
+        "gene": "lpqS",
+        "product": "lipoprotein LpqS",
+        "hypothetical": false,
+        "combined": 980,
+        "combined_no_tm": 853,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 772,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 380,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv2963",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 973,
+        "combined_no_tm": 803,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 151,
+          "coexpression": 770,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv3529c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 625,
+        "combined_no_tm": 602,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 44,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 62,
+          "experimental": 0,
+          "database": 592,
+          "textmining": 97
+        }
+      },
+      {
+        "rv": "Rv2267c",
+        "gene": "stf3",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 624,
+        "combined_no_tm": 601,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 44,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 59,
+          "experimental": 0,
+          "database": 592,
+          "textmining": 97
+        }
+      },
+      {
+        "rv": "Rv0526",
+        "gene": "",
+        "product": "thioredoxin",
+        "hypothetical": false,
+        "combined": 649,
+        "combined_no_tm": 598,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 435,
+          "experimental": 138,
+          "database": 197,
+          "textmining": 164
+        }
+      },
+      {
+        "rv": "Rv1691",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 619,
+        "combined_no_tm": 596,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 44,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 592,
+          "textmining": 97
+        }
+      },
+      {
+        "rv": "Rv3868",
+        "gene": "eccA1",
+        "product": "ESX-1 secretion system protein EccA1",
+        "hypothetical": false,
+        "combined": 587,
+        "combined_no_tm": 579,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 85,
+          "database": 556,
+          "textmining": 61
+        }
+      },
+      {
+        "rv": "Rv3884c",
+        "gene": "eccA2",
+        "product": "ESX-2 secretion system protein EccA",
+        "hypothetical": false,
+        "combined": 585,
+        "combined_no_tm": 576,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 85,
+          "database": 556,
+          "textmining": 61
+        }
+      },
+      {
+        "rv": "Rv0435c",
+        "gene": "",
+        "product": "ATPase",
+        "hypothetical": false,
+        "combined": 585,
+        "combined_no_tm": 576,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 1,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 85,
+          "database": 556,
+          "textmining": 61
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0847",
+      "gene": "lpqS",
+      "product": "lipoprotein LpqS",
+      "combined_no_tm": 853,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 772,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 380,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 870
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: oxidase",
+    "MTBC0 PGAP product: multicopper oxidase MmcO",
+    "Pfam (hmmscan --cut_ga): Cu-oxidase_3 PF07732.22 (E=6e-26), Cu-oxidase PF00394.29 (E=1e-23), Cu-oxidase_2 PF07731.21 (E=4e-29)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 90.2,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1aoz-assembly1_A",
+        "evalue": 2.3e-39,
+        "prob": 1.0,
+        "tmscore": 0.7111,
+        "description": "1aoz-assembly1_A REFINED CRYSTAL STRUCTURE OF ASCORBATE OXIDASE AT 1.9 ANGSTROMS RESOLUTION",
+        "significant": true
+      },
+      {
+        "target": "1v10-assembly1_A",
+        "evalue": 1.661e-36,
+        "prob": 1.0,
+        "tmscore": 0.7395,
+        "description": "1v10-assembly1_A Structure of Rigidoporus lignosus laccase from hemihedrally twinned crystals",
+        "significant": true
+      },
+      {
+        "target": "6h5y-assembly1_A",
+        "evalue": 2.08e-36,
+        "prob": 1.0,
+        "tmscore": 0.7425,
+        "description": "6h5y-assembly1_A PM1 mutant, 7D5",
+        "significant": true
+      },
+      {
+        "target": "5ehf-assembly1_A",
+        "evalue": 2.904e-37,
+        "prob": 1.0,
+        "tmscore": 0.7173,
+        "description": "5ehf-assembly1_A Laccase from Antrodiella faginea",
+        "significant": true
+      },
+      {
+        "target": "5mhv-assembly1_A",
+        "evalue": 1.326e-36,
+        "prob": 1.0,
+        "tmscore": 0.721,
+        "description": "5mhv-assembly1_A The study of the X-ray induced enzymatic reduction of molecular oxygen to water for laccase from Steccherinum murashkinskyi.The fourth structure of the series with total exposition time 93 min.",
+        "significant": true
+      },
+      {
+        "target": "3t6v-assembly1_A",
+        "evalue": 1.001e-36,
+        "prob": 1.0,
+        "tmscore": 0.7189,
+        "description": "3t6v-assembly1_A Crystal Structure of Laccase from Steccherinum ochraceum",
+        "significant": true
+      },
+      {
+        "target": "6rgh-assembly1_A",
+        "evalue": 1.254e-36,
+        "prob": 1.0,
+        "tmscore": 0.7237,
+        "description": "6rgh-assembly1_A Single crystal serial study of the X-ray induced enzymatic reduction of molecular oxygen to water for laccase from Steccherinum murashkinskyi at sub-atomic resolution. First structure of the series with 15 KGy dose.",
+        "significant": true
+      },
+      {
+        "target": "3x1b-assembly1_B",
+        "evalue": 1.005e-35,
+        "prob": 1.0,
+        "tmscore": 0.7272,
+        "description": "3x1b-assembly1_B Crystal structure of laccase from Lentinus sp. at 1.8 A resolution",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP",
+    "tm_helices": 0,
+    "signal_peptide": true,
+    "lipoprotein": true,
+    "lipobox_cys": 35,
+    "prediction": "predicted lipoprotein (lipobox + signal peptide)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 50.4,
+    "abundance_rank": 1742,
+    "n_ranked": 3519,
+    "abundance_percentile": 50.5,
+    "n_datasets": 14,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 504,
+    "mw_kda": 53.8,
+    "pi": 5.88,
+    "gravy": -0.169,
+    "instability_index": 29.6,
+    "instability_class": "stable",
+    "aromaticity": 0.071,
+    "aliphatic_index": 8019.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0869c",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_4770",
+        "identity": 71.0,
+        "evalue": 1.31e-283
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000896",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_0463c",
+        "identity": 45.7,
+        "evalue": 1.65e-139
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv0845",
+      "gene": null,
+      "strand": "+",
+      "gap": 212
+    },
+    "right": {
+      "locus": "Rv0847",
+      "gene": "lpqS",
+      "strand": "+",
+      "gap": 148
+    },
+    "operon": [
+      {
+        "locus": "Rv0846c",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable oxidase",
+    "legacy_function": "May have multicopper oxidase activity.",
+    "legacy_ec": [
+      "1.-.-.-"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "reclassified",
+    "atlas_ec": [
+      "1.16.3.1"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "RicR",
+        "function": "Copper responsive transcription factor that regulates metal metabolism genes",
+        "category": "Metal Related",
+        "regulator": "ricR"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 1.511,
+    "ci_low": -0.692,
+    "ci_high": 5.013,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 3,
+      "n_syn": 2,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.17,
+      "power": "low",
+      "interpretation": "low power (3 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 47,
+      "n_total": 53,
+      "frac": 0.887,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 69.1,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_colombiense",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 47/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 5,
+      "crossgenus_genomes": [
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Rjostii_RHA1"
+      ],
+      "mean_pident": 44.0,
+      "length_aa": 504,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 5,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 5,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "5 publication(s) discuss this gene (5 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Functional and structural insights into the multicopper oxidase MmcO from Mycobacterium tuberculosis: implications for drug targeting.",
+        "doi": "10.3389/fchem.2025.1565715",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40496775/",
+        "date": "2025"
+      },
+      {
+        "title": "The copper P-type ATPase CtpA is involved in the response of Mycobacterium tuberculosis to redox stress.",
+        "doi": "10.1016/j.biochi.2023.10.017",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39491178/",
+        "date": "2023"
+      },
+      {
+        "title": "Complete Genome Sequencing of Polar Arthrobacter sp. PAMC25284, Copper Tolerance Potential Unraveled with Genomic Analysis.",
+        "doi": "10.1155/2022/1162938",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36061879/",
+        "date": "2022"
+      },
+      {
+        "title": "The multicopper oxidase of Mycobacterium tuberculosis (MmcO) exhibits ferroxidase activity and scavenges reactive oxygen species in activated THP-1 cells.",
+        "doi": "10.1016/j.ijmm.2019.06.004",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/31278055/",
+        "date": "2019"
+      },
+      {
+        "title": "A multicopper oxidase is required for copper resistance in Mycobacterium tuberculosis.",
+        "doi": "10.1128/JB.00546-13",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/23772064/",
+        "date": "2013"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.113,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 58,
+    "total_idr_residues": 58,
+    "idr_regions": [
+      [
+        0,
+        58
+      ]
+    ],
+    "mean_plddt": 90.2,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

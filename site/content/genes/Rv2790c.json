@@ -1,0 +1,956 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2790c",
+  "mtbc0": "mtbc0_002969",
+  "np_id": "NP_217306.3",
+  "gene": "ltp1",
+  "len_aa": 401,
+  "strand": "-",
+  "start_mtbc0": 3121379,
+  "end_mtbc0": 3122584,
+  "product_h37rv": "lipid-transfer protein",
+  "product_mtbc0_pgap": "lipid-transfer protein",
+  "function_revised": "Lipid-transfer protein. Pfam: Thiolase_N (PF00108.30), Thiolase_C_1 (PF22691.3), Thiolase_C (PF02803.25).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MPNQGSSNKVYVIGVGMTKFEKPGRREGWDYPDMARESGTKALRDAGIDYREVEQGYVGYVYGESTSGQRALYELGMTGIPIVNVNNNCSTGSTALYLGAQAIRGGLADCVLALGFEKMQPGALGGGADDRESPLGRHVKALAEIDEFGFPVAPWMFGAAGREHMKKYGTTAEHFAKIGYKNHKHSVNNPYAQFQDEYTLDDILASKMISDPLTKLQCSPTSDGSAAVVLASEDYLANHNLAGRAVEIVGQAMTTDFASTFDGSARNIIGYDMTVQAAQRVYQQSGLGPKDFGVIELHDCFSANELLLYEALGLCGPGEAPELIDDNQTTYGGRWVVNPSGGLISKGHPLGATGLAQCAELTWQLRGTAEARQVDNVTAALQHNIGLGGAAVVTAYQRAER",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Thiolase_N",
+      "pfam_acc": "PF00108.30",
+      "i_evalue": 3e-22,
+      "ali_from": 10,
+      "ali_to": 234,
+      "description": "Thiolase, N-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Thiolase_C_1",
+      "pfam_acc": "PF22691.3",
+      "i_evalue": 7.4e-33,
+      "ali_from": 269,
+      "ali_to": 391,
+      "description": "Thiolase C-terminal domain-like"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Thiolase_C",
+      "pfam_acc": "PF02803.25",
+      "i_evalue": 4.3e-09,
+      "ali_from": 275,
+      "ali_to": 373,
+      "description": "Thiolase, C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0183",
+    "cog_cat": "I",
+    "description": "Belongs to the thiolase family",
+    "preferred_name": "ltp1",
+    "ec": [
+      "2.3.1.16"
+    ],
+    "kegg_ko": [
+      "K00632"
+    ],
+    "kegg_pathway": [
+      "map00071",
+      "map00280",
+      "map00281",
+      "map00362",
+      "map00592",
+      "map00642",
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01130",
+      "map01212"
+    ],
+    "kegg_module": [
+      "M00087",
+      "M00113"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003676",
+      "GO:0003723",
+      "GO:0003729",
+      "GO:0003824",
+      "GO:0003988",
+      "GO:0005488",
+      "GO:0005575",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005739",
+      "GO:0005740",
+      "GO:0005758",
+      "GO:0005777",
+      "GO:0005782",
+      "GO:0006082",
+      "GO:0006629",
+      "GO:0006631",
+      "GO:0006635",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009056",
+      "GO:0009062",
+      "GO:0009987",
+      "GO:0016042",
+      "GO:0016054",
+      "GO:0016408",
+      "GO:0016740",
+      "GO:0016746",
+      "GO:0016747",
+      "GO:0019395",
+      "GO:0019752",
+      "GO:0030258",
+      "GO:0031907",
+      "GO:0031967",
+      "GO:0031970",
+      "GO:0031974",
+      "GO:0031975",
+      "GO:0032787",
+      "GO:0034440",
+      "GO:0042579",
+      "GO:0043226",
+      "GO:0043227",
+      "GO:0043229",
+      "GO:0043231",
+      "GO:0043233",
+      "GO:0043436",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044242",
+      "GO:0044248",
+      "GO:0044255",
+      "GO:0044281",
+      "GO:0044282",
+      "GO:0044422",
+      "GO:0044424",
+      "GO:0044429",
+      "GO:0044438",
+      "GO:0044439",
+      "GO:0044444",
+      "GO:0044446",
+      "GO:0044464",
+      "GO:0046395",
+      "GO:0055114",
+      "GO:0070013",
+      "GO:0071704",
+      "GO:0072329",
+      "GO:0097159",
+      "GO:1901363",
+      "GO:1901575"
+    ],
+    "pfams": [
+      "Thiolase_C",
+      "Thiolase_N"
+    ],
+    "seed_ortholog": "419947.MRA_2814",
+    "evalue": "4.47e-298"
+  },
+  "uniprot": {
+    "acc": "O33332",
+    "reviewed": false,
+    "protein_name": "propanoyl-CoA C-acyltransferase",
+    "ec": [
+      "2.3.1.176"
+    ],
+    "function": "",
+    "go": [
+      "GO:0003985",
+      "GO:0006869",
+      "GO:0008289",
+      "GO:0009274"
+    ],
+    "kegg": [
+      "mtu:Rv2790c",
+      "mtv:RVBD_2790c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 14,
+    "syn": 12,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 7,
+    "pN_pS": 0.053,
+    "selection": "strong purifying",
+    "disrupt_sites": 7,
+    "disrupt_mode": "convergent",
+    "disrupt_strains": 1270,
+    "disrupt_frac": 0.0087,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2790c",
+    "n_partners": 153,
+    "n_context_driven": 10,
+    "partners": [
+      {
+        "rv": "Rv0860",
+        "gene": "fadB",
+        "product": "fatty oxidation protein FadB",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 996,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 81,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 696,
+          "experimental": 804,
+          "database": 942,
+          "textmining": 154
+        }
+      },
+      {
+        "rv": "Rv2789c",
+        "gene": "fadE21",
+        "product": "acyl-CoA dehydrogenase FadE21",
+        "hypothetical": false,
+        "combined": 977,
+        "combined_no_tm": 977,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 847,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 839,
+          "experimental": 135,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0231",
+        "gene": "fadE4",
+        "product": "acyl-CoA dehydrogenase FadE4",
+        "hypothetical": false,
+        "combined": 953,
+        "combined_no_tm": 951,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 201,
+          "coexpression": 365,
+          "experimental": 135,
+          "database": 900,
+          "textmining": 93
+        }
+      },
+      {
+        "rv": "Rv3140",
+        "gene": "fadE23",
+        "product": "acyl-CoA dehydrogenase FadE23",
+        "hypothetical": false,
+        "combined": 945,
+        "combined_no_tm": 942,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 372,
+          "experimental": 135,
+          "database": 900,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv0400c",
+        "gene": "fadE7",
+        "product": "acyl-CoA dehydrogenase FadE7",
+        "hypothetical": false,
+        "combined": 943,
+        "combined_no_tm": 942,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 369,
+          "experimental": 135,
+          "database": 900,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0154c",
+        "gene": "fadE2",
+        "product": "acyl-CoA dehydrogenase FadE2",
+        "hypothetical": false,
+        "combined": 943,
+        "combined_no_tm": 942,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 369,
+          "experimental": 135,
+          "database": 900,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0975c",
+        "gene": "fadE13",
+        "product": "acyl-CoA dehydrogenase FadE13",
+        "hypothetical": false,
+        "combined": 943,
+        "combined_no_tm": 941,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 366,
+          "experimental": 135,
+          "database": 900,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0131c",
+        "gene": "fadE1",
+        "product": "acyl-CoA dehydrogenase FadE1",
+        "hypothetical": false,
+        "combined": 943,
+        "combined_no_tm": 941,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 367,
+          "experimental": 135,
+          "database": 900,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv3280",
+        "gene": "accD5",
+        "product": "propionyl-CoA carboxylase subunit beta",
+        "hypothetical": false,
+        "combined": 931,
+        "combined_no_tm": 928,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 62,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 276,
+          "experimental": 67,
+          "database": 900,
+          "textmining": 85
+        }
+      },
+      {
+        "rv": "Rv2247",
+        "gene": "accD6",
+        "product": "acetyl-/propionyl-CoA carboxylase subunit beta",
+        "hypothetical": false,
+        "combined": 930,
+        "combined_no_tm": 927,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 62,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 269,
+          "experimental": 67,
+          "database": 900,
+          "textmining": 85
+        }
+      },
+      {
+        "rv": "Rv3523",
+        "gene": "ltp3",
+        "product": "lipid carrier protein",
+        "hypothetical": false,
+        "combined": 929,
+        "combined_no_tm": 927,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 288,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0914c",
+        "gene": "",
+        "product": "lipid carrier protein or keto acyl-CoA thiolase",
+        "hypothetical": false,
+        "combined": 926,
+        "combined_no_tm": 927,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 295,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2501c",
+        "gene": "accA1",
+        "product": "acetyl/propionyl-CoA carboxylase subuit alpha",
+        "hypothetical": false,
+        "combined": 928,
+        "combined_no_tm": 925,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 67,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 160,
+          "experimental": 151,
+          "database": 900,
+          "textmining": 88
+        }
+      },
+      {
+        "rv": "Rv0973c",
+        "gene": "accA2",
+        "product": "acetyl/propionyl-CoA carboxylase subuit alpha",
+        "hypothetical": false,
+        "combined": 928,
+        "combined_no_tm": 925,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 67,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 160,
+          "experimental": 151,
+          "database": 900,
+          "textmining": 88
+        }
+      },
+      {
+        "rv": "Rv3285",
+        "gene": "accA3",
+        "product": "bifunctional protein acetyl-/propionyl-CoA carboxylase subunit alpha AccA",
+        "hypothetical": false,
+        "combined": 928,
+        "combined_no_tm": 925,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 67,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 160,
+          "experimental": 151,
+          "database": 900,
+          "textmining": 88
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2789c",
+      "gene": "fadE21",
+      "product": "acyl-CoA dehydrogenase FadE21",
+      "combined_no_tm": 977,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 847,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 839,
+        "experimental": 135,
+        "database": 0,
+        "textmining": 75
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: lipid-transfer protein",
+    "MTBC0 PGAP product: lipid-transfer protein",
+    "Pfam (hmmscan --cut_ga): Thiolase_N PF00108.30 (E=3e-22), Thiolase_C_1 PF22691.3 (E=7e-33), Thiolase_C PF02803.25 (E=4e-09)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 96.7,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6hsp-assembly2_B-2",
+        "evalue": 2.898e-60,
+        "prob": 1.0,
+        "tmscore": 0.9792,
+        "description": "6hsp-assembly2_B-2 Crystal structure of the zebrafish peroxisomal SCP2-thiolase (type-1) in complex with CoA and octanoyl-CoA",
+        "significant": true
+      },
+      {
+        "target": "6hrv-assembly2_B",
+        "evalue": 1.429e-59,
+        "prob": 1.0,
+        "tmscore": 0.9768,
+        "description": "6hrv-assembly2_B Crystal structure of the zebrafish peroxisomal SCP2-thiolase (type-1)",
+        "significant": true
+      },
+      {
+        "target": "6hsp-assembly1_A",
+        "evalue": 4.21e-54,
+        "prob": 1.0,
+        "tmscore": 0.9124,
+        "description": "6hsp-assembly1_A Crystal structure of the zebrafish peroxisomal SCP2-thiolase (type-1) in complex with CoA and octanoyl-CoA",
+        "significant": true
+      },
+      {
+        "target": "6hrv-assembly1_A",
+        "evalue": 9.898e-54,
+        "prob": 1.0,
+        "tmscore": 0.9123,
+        "description": "6hrv-assembly1_A Crystal structure of the zebrafish peroxisomal SCP2-thiolase (type-1)",
+        "significant": true
+      },
+      {
+        "target": "6hsj-assembly1_A",
+        "evalue": 1.084e-52,
+        "prob": 1.0,
+        "tmscore": 0.9097,
+        "description": "6hsj-assembly1_A Crystal structure of the zebrafish peroxisomal SCP2-thiolase (type-1) in complex with CoA",
+        "significant": true
+      },
+      {
+        "target": "7pxp-assembly1_C",
+        "evalue": 4.375e-36,
+        "prob": 1.0,
+        "tmscore": 0.8892,
+        "description": "7pxp-assembly1_C Benzoylsuccinyl-CoA thiolase",
+        "significant": true
+      },
+      {
+        "target": "7pxp-assembly2_H",
+        "evalue": 7.306e-36,
+        "prob": 1.0,
+        "tmscore": 0.8897,
+        "description": "7pxp-assembly2_H Benzoylsuccinyl-CoA thiolase",
+        "significant": true
+      },
+      {
+        "target": "7pxp-assembly1_D",
+        "evalue": 5.19e-36,
+        "prob": 1.0,
+        "tmscore": 0.8782,
+        "description": "7pxp-assembly1_D Benzoylsuccinyl-CoA thiolase",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 185.0,
+    "abundance_rank": 887,
+    "n_ranked": 3519,
+    "abundance_percentile": 74.8,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 401,
+    "mw_kda": 42.9,
+    "pi": 5.18,
+    "gravy": -0.279,
+    "instability_index": 28.2,
+    "instability_class": "stable",
+    "aromaticity": 0.082,
+    "aliphatic_index": 7695.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2813c",
+        "identity": 100.0,
+        "evalue": 6.97e-302
+      },
+      "M. marinum": {
+        "locus": "MMAR_1918",
+        "identity": 84.5,
+        "evalue": 4.58e-257
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002877",
+        "identity": 100.0,
+        "evalue": 6.52e-302
+      },
+      "M. abscessus": {
+        "locus": "MAB_2951c",
+        "identity": 78.8,
+        "evalue": 3.04e-233
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2789c",
+      "gene": "fadE21",
+      "strand": "-",
+      "gap": 25
+    },
+    "right": {
+      "locus": "Rv2791c",
+      "gene": null,
+      "strand": "-",
+      "gap": 32
+    },
+    "operon": [
+      {
+        "locus": "Rv2789c",
+        "gene": "fadE21"
+      },
+      {
+        "locus": "Rv2790c",
+        "gene": "ltp1"
+      },
+      {
+        "locus": "Rv2791c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2792c",
+        "gene": null
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable lipid-transfer protein Ltp1",
+    "legacy_function": "Possibly catalyzes the transfer of a great variety of lipids between membranes.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [
+      "2.3.1.16",
+      "2.3.1.176"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "WhiB4",
+        "function": "Redox-Responsive transcription regulator that regulates protection response during infection",
+        "category": "Redox",
+        "regulator": "whiB4"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.472,
+    "ci_low": -1.354,
+    "ci_high": 3.121,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 8,
+      "n_syn": 6,
+      "n_nonsyn": 0,
+      "n_disruptive": 0,
+      "dN_dS": 0.0,
+      "power": "ok",
+      "interpretation": "under purifying selection vs M. canettii (deep divergence; dN/dS=0.0) — a real, constrained gene predating the MTBC clonal expansion",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 84.7,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 3,
+      "crossgenus_genomes": [
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1"
+      ],
+      "mean_pident": 77.4,
+      "length_aa": 401,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 2,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. leprae": "1",
+      "M. marinum": "1",
+      "M. smegmatis": "1"
+    },
+    "summary": "2 publication(s) discuss this gene (2 in a M. tuberculosis context, 1 in other mycobacteria — M. leprae (1), M. marinum (1), M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "A fragment of 21 ORFs around the direct repeat (DR) region of Mycobacterium tuberculosis is absent from the other sequenced mycobacterial genomes: implications for the evolution of the DR region.",
+        "doi": "10.1002/cfg.380",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/18629072/",
+        "date": "2004"
+      },
+      {
+        "title": "Three-dimensional structure and ligand interactions of the low molecular weight protein tyrosine phosphatase from Campylobacter jejuni.",
+        "doi": "10.1110/ps.062279806",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/17008719/",
+        "date": "2006"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 96.7,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

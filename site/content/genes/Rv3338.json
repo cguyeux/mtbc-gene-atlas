@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3338",
+  "gene": "Rv3338",
+  "len_aa": 214,
+  "strand": "+",
+  "start_mtbc0": 3723904,
+  "end_mtbc0": 3724548,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "LSSAVLADHVERQLDELGWETSHIVGNSLGGWVAFELERRGRARSVTGIAPAGGWTRWSPVKFEVIAKFIAGAPILAVAHILGQRALRLPFSRLLATLPISATPDGVSERELSGIIDDAAHCPAYFQLLVKALVLPGLQELEHTAVPSHVVLCEQDRVVPPSRFSRHFTDSLPAGHRLTVLDGVGHVPMFEAPGRITELITSFIEECCPHVRAS",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv3338, (MTV016.38), len: 214 aa. Hypothetical protein, equivalent to C-termini of Q49926|ML0685 TPEA (putative hydrolase) from Mycobacterium leprae (303 aa), FASTA scores: opt: 984, E(): 2.6e-56, (65.4% identity in 214 aa overlap); and O32873|MLCB1779.02 hypothetical 31.8 KDA protein (similar to alpha/beta hydrolase fold) from Mycobacterium leprae (292 aa), FASTA scores: opt: 984, E(): 2.5e-56, (65.4% identity in 214 aa overlap). Also similar to C-termini of several hypothetical proteins (generally hydrolases) e.g. Q9K3H6|2SCG18.11 putative hydrolase from Streptomyces coelicolor (316 aa), FASTA scores: opt: 213, E(): 1.4e-06, (29.75% identity in 185 aa overlap). Homology suggests that this ORF should be in frame with the previous ORF MTV016.37 but no sequence error could be found.",
+    "uniprot_ac": "O53388",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 214,
+    "mw_kda": 23.2,
+    "pi": 6.2,
+    "gravy": 0.173,
+    "instability_index": 56.3,
+    "instability_class": "unstable",
+    "aromaticity": 0.065,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O53388",
+    "reviewed": true,
+    "protein_name": "Epoxide hydrolase EphH",
+    "ec": [
+      "3.3.2.10"
+    ],
+    "function": "Catalyzes the hydrolysis of epoxide-containing substrates (PubMed:36777032). In vitro, catalyzes the hydrolysis of the synthetic compounds PHOME and styrene oxide (PubMed:36777032). Plays an essential role in subverting phagosomal acidification (PubMed:36777032). Plays a major role in the survival of M.tuberculosis (Mtb) during in vitro acidic stress and protects Mtb in response to phagosomal acidification inside macrophages (PubMed:36777032). Also supports Mtb growth under the nutrient-deprived condition at pH 7.0 (PubMed:36777032)",
+    "go": [
+      "GO:0004301",
+      "GO:0016787"
+    ],
+    "kegg": [
+      "mtv:RVBD_3338"
+    ],
+    "protein_existence": "1: Evidence at protein level",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "function_revised": "Catalyzes the hydrolysis of epoxide-containing substrates (PubMed:36777032). In vitro, catalyzes the hydrolysis of the synthetic compounds PHOME and styrene oxide (PubMed:36777032). Plays an essential role in subverting phagosomal acidification (PubMed:36777032). Plays a major role in the survival of M.tuberculosis (Mtb) during in vitro acidic stress and protects Mtb in response to phagosomal acidification inside macrophages (PubMed:36777032). Also supports Mtb growth under the nutrient-deprived condition at pH 7.0 (PubMed:36777032)",
+  "eggnog": {
+    "og": "COG2021",
+    "cog_cat": "E",
+    "description": "Alpha/beta hydrolase family",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 7.65,
+    "abundance_rank": 2777,
+    "n_ranked": 3519,
+    "abundance_percentile": 21.1,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0967",
+        "tf_gene": "csoR",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.524,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv3338",
+    "n_partners": 30,
+    "n_context_driven": 17,
+    "partners": [
+      {
+        "rv": "Rv3337",
+        "gene": "",
+        "product": "Rv3337, (MTV016.37), len: 128 aa. Conserved hypothetical protein, equivalent to N-terminus of Q49926|ML0685 TPEA (putative hydrolase) from M",
+        "hypothetical": false,
+        "combined": 817,
+        "combined_no_tm": 817,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 200,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0885",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 744,
+        "combined_no_tm": 744,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 744,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3413c",
+        "gene": "rsdA",
+        "product": "anti-sigma-D factor RsdA",
+        "hypothetical": false,
+        "combined": 654,
+        "combined_no_tm": 654,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 654,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3336c",
+        "gene": "trpS",
+        "product": "tryptophan--tRNA ligase",
+        "hypothetical": false,
+        "combined": 619,
+        "combined_no_tm": 619,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 618,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0210",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 613,
+        "combined_no_tm": 613,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 612,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0886",
+        "gene": "fprB",
+        "product": "ferredoxin/ferredoxin--NADP reductase",
+        "hypothetical": false,
+        "combined": 609,
+        "combined_no_tm": 609,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 47,
+          "fusion": 0,
+          "cooccurence": 155,
+          "coexpression": 553,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 42
+        }
+      },
+      {
+        "rv": "Rv3071",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 607,
+        "combined_no_tm": 607,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 607,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2716",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 598,
+        "combined_no_tm": 598,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 598,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3335c",
+        "gene": "yhjD",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 587,
+        "combined_no_tm": 586,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 585,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0479c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 586,
+        "combined_no_tm": 586,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 585,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3287c",
+        "gene": "rsbW",
+        "product": "anti-sigma factor RsbW",
+        "hypothetical": false,
+        "combined": 539,
+        "combined_no_tm": 537,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 526,
+          "coexpression": 64,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv0227c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 519,
+        "combined_no_tm": 520,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 517,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1486c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 512,
+        "combined_no_tm": 512,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 512,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2048c",
+        "gene": "pks12",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 529,
+        "combined_no_tm": 501,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 78,
+          "experimental": 441,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv3825c",
+        "gene": "pks2",
+        "product": "phthioceranic/hydroxyphthioceranic acid synthase",
+        "hypothetical": false,
+        "combined": 529,
+        "combined_no_tm": 501,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 110,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 78,
+          "experimental": 441,
+          "database": 0,
+          "textmining": 95
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3337",
+      "gene": "",
+      "product": "Rv3337, (MTV016.37), len: 128 aa. Conserved hypothetical protein, equivalent to N-terminus of Q49926|ML0685 TPEA (putative hydrolase) from M",
+      "combined_no_tm": 817,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 781,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 200,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 87.8,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1u2e-assembly2_D",
+        "evalue": 4.175e-09,
+        "prob": 1.0,
+        "tmscore": 0.6842,
+        "description": "1u2e-assembly2_D Crystal Structure of the C-C bond hydrolase MhpC",
+        "significant": true
+      },
+      {
+        "target": "7ots-assembly1_A",
+        "evalue": 2.449e-08,
+        "prob": 1.0,
+        "tmscore": 0.6993,
+        "description": "7ots-assembly1_A Crystal structure of human Monoacylglycerol Lipase ABHD6 in complex with oleic acid and octyl glucoside",
+        "significant": true
+      },
+      {
+        "target": "4q3l-assembly2_F",
+        "evalue": 7.512e-08,
+        "prob": 1.0,
+        "tmscore": 0.7068,
+        "description": "4q3l-assembly2_F Crystal structure of MGS-M2, an alpha/beta hydrolase enzyme from a Medee basin deep-sea metagenome library",
+        "significant": true
+      },
+      {
+        "target": "4ccw-assembly1_A",
+        "evalue": 2.749e-07,
+        "prob": 1.0,
+        "tmscore": 0.6477,
+        "description": "4ccw-assembly1_A Crystal structure of naproxen esterase (carboxylesterase NP) from Bacillus subtilis",
+        "significant": true
+      },
+      {
+        "target": "8pi1-assembly3_I",
+        "evalue": 1.609e-05,
+        "prob": 1.0,
+        "tmscore": 0.7367,
+        "description": "8pi1-assembly3_I Bicyclic INCYPRO Pseudomonas fluorescens esterase",
+        "significant": true
+      },
+      {
+        "target": "1a88-assembly1_C",
+        "evalue": 2.743e-06,
+        "prob": 1.0,
+        "tmscore": 0.6558,
+        "description": "1a88-assembly1_C CHLOROPEROXIDASE L",
+        "significant": true
+      },
+      {
+        "target": "1a8q-assembly1_A",
+        "evalue": 4.396e-06,
+        "prob": 1.0,
+        "tmscore": 0.6354,
+        "description": "1a8q-assembly1_A BROMOPEROXIDASE A1",
+        "significant": true
+      },
+      {
+        "target": "4psu-assembly1_A",
+        "evalue": 1.517e-05,
+        "prob": 1.0,
+        "tmscore": 0.6693,
+        "description": "4psu-assembly1_A Crystal structure of alpha/beta hydrolase from Rhodopseudomonas palustris CGA009",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF12697",
+      "pfam_name": "Abhydrolase_6",
+      "description": "Abhydrolase_6",
+      "n_matches": "1"
+    }
+  ]
+}

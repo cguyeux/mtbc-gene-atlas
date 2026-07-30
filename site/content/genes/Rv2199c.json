@@ -1,0 +1,809 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2199c",
+  "mtbc0": "mtbc0_002335",
+  "np_id": "NP_216715.1",
+  "gene": "",
+  "len_aa": 139,
+  "strand": "-",
+  "start_mtbc0": 2489390,
+  "end_mtbc0": 2489809,
+  "product_h37rv": "cytochrome c oxidase polypeptide 4",
+  "product_mtbc0_pgap": "cytochrome c oxidase subunit 4",
+  "function_revised": "Cytochrome c oxidase subunit 4. Pfam: Cyt_c_ox_IV (PF12270.14).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MHIEARLFEFVAAFFVVTAVLYGVLTSMFATGGVEWAGTTALALTGGMALIVATFFRFVARRLDSRPEDYEGAEISDGAGELGFFSPHSWWPIMVALSGSVAAVGIALWLPWLIAAGVAFILASAAGLVFEYYVGPEKH",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Cyt_c_ox_IV",
+      "pfam_acc": "PF12270.14",
+      "i_evalue": 1.9e-50,
+      "ali_from": 1,
+      "ali_to": 137,
+      "description": "Cytochrome c oxidase subunit IV"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "2D9MJ",
+    "cog_cat": "C",
+    "description": "Belongs to the cytochrome c oxidase bacterial subunit CtaF family",
+    "preferred_name": "ctaF",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0016020",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "Cyt_c_ox_IV"
+    ],
+    "seed_ortholog": "419947.MRA_2215",
+    "evalue": "2.93e-93"
+  },
+  "uniprot": {
+    "acc": "P9WP45",
+    "reviewed": true,
+    "protein_name": "Probable cytochrome c oxidase polypeptide 4",
+    "ec": [
+      "7.1.1.9"
+    ],
+    "function": "Part of cytochrome c oxidase, its function is unknown",
+    "go": [
+      "GO:0004129",
+      "GO:0005886",
+      "GO:0022900"
+    ],
+    "kegg": [
+      "mtu:Rv2199c",
+      "mtv:RVBD_2199c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 3,
+    "missense": 0,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.0,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2199c",
+    "n_partners": 72,
+    "n_context_driven": 42,
+    "partners": [
+      {
+        "rv": "Rv3043c",
+        "gene": "ctaD",
+        "product": "cytochrome C oxidase cytochrome 1",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 335,
+          "coexpression": 215,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 597
+        }
+      },
+      {
+        "rv": "Rv2200c",
+        "gene": "ctaC",
+        "product": "cytochrome C oxidase subunit II",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 611,
+          "coexpression": 255,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 902
+        }
+      },
+      {
+        "rv": "Rv2193",
+        "gene": "ctaE",
+        "product": "cytochrome C oxidase subunit III",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 555,
+          "coexpression": 240,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 801
+        }
+      },
+      {
+        "rv": "Rv2194",
+        "gene": "qcrC",
+        "product": "ubiquinol-cytochrome C reductase cytochrome subunit C",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 136,
+          "fusion": 0,
+          "cooccurence": 774,
+          "coexpression": 85,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 434
+        }
+      },
+      {
+        "rv": "Rv2195",
+        "gene": "qcrA",
+        "product": "ubiquinol-cytochrome C reductase rieske iron-sulfur subunit",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 769,
+          "coexpression": 303,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 514
+        }
+      },
+      {
+        "rv": "Rv2196",
+        "gene": "qcrB",
+        "product": "ubiquinol-cytochrome C reductase cytochrome subunit B",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 768,
+          "coexpression": 533,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 490
+        }
+      },
+      {
+        "rv": "Rv2876",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 68,
+          "experimental": 999,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0863",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 987,
+        "combined_no_tm": 987,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 987,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3584",
+        "gene": "lpqE",
+        "product": "lipoprotein LpqE",
+        "hypothetical": false,
+        "combined": 898,
+        "combined_no_tm": 895,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 93,
+          "experimental": 889,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0432",
+        "gene": "sodC",
+        "product": "superoxide dismutase",
+        "hypothetical": false,
+        "combined": 871,
+        "combined_no_tm": 872,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 870,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2468A",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 870,
+        "combined_no_tm": 870,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 870,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2468c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 829,
+        "combined_no_tm": 829,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 324,
+          "coexpression": 83,
+          "experimental": 747,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0528",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 763,
+        "combined_no_tm": 763,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 761,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2197c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 754,
+        "combined_no_tm": 754,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 740,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 93,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2345",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 750,
+        "combined_no_tm": 751,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 747,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2200c",
+      "gene": "ctaC",
+      "product": "cytochrome C oxidase subunit II",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 611,
+        "coexpression": 255,
+        "experimental": 999,
+        "database": 0,
+        "textmining": 902
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: cytochrome c oxidase polypeptide 4",
+    "MTBC0 PGAP product: cytochrome c oxidase subunit 4",
+    "Pfam (hmmscan --cut_ga): Cyt_c_ox_IV PF12270.14 (E=2e-50)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 96.2,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8hcr-assembly1_T",
+        "evalue": 1.456e-17,
+        "prob": 1.0,
+        "tmscore": 0.9354,
+        "description": "8hcr-assembly1_T Cryo-EM structure of the Mycobacterium tuberculosis cytochrome bcc:aa3 supercomplex and a novel inhibitor targeting subunit cytochrome cI",
+        "significant": true
+      },
+      {
+        "target": "9fu0-assembly1_T",
+        "evalue": 5.502e-16,
+        "prob": 1.0,
+        "tmscore": 0.9733,
+        "description": "9fu0-assembly1_T CIII2/CIV respiratory chain supercomplex from Mycobacterium smegmatis",
+        "significant": true
+      },
+      {
+        "target": "6adq-assembly1_H",
+        "evalue": 9.62e-16,
+        "prob": 1.0,
+        "tmscore": 0.9746,
+        "description": "6adq-assembly1_H Respiratory Complex CIII2CIV2SOD2 from Mycobacterium smegmatis",
+        "significant": true
+      },
+      {
+        "target": "7qho-assembly1_T",
+        "evalue": 1.754e-09,
+        "prob": 1.0,
+        "tmscore": 0.9328,
+        "description": "7qho-assembly1_T Cytochrome bcc-aa3 supercomplex (respiratory supercomplex III2/IV2) from Corynebacterium glutamicum (as isolated)",
+        "significant": true
+      },
+      {
+        "target": "8q47-assembly1_A",
+        "evalue": 4.829,
+        "prob": 0.057,
+        "tmscore": 0.2681,
+        "description": "8q47-assembly1_A Inward-facing, open1 proteoliposome complex I at 2.9 A. Initially purified in LMNG.",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 4,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (4 TM helixes)"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 139,
+    "mw_kda": 14.9,
+    "pi": 4.82,
+    "gravy": 0.814,
+    "instability_index": 37.6,
+    "instability_class": "stable",
+    "aromaticity": 0.151,
+    "aliphatic_index": 10467.6,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2222c",
+        "identity": 100.0,
+        "evalue": 4.56e-97
+      },
+      "M. leprae": {
+        "locus": "ML0876",
+        "identity": 91.4,
+        "evalue": 2.37e-91
+      },
+      "M. marinum": {
+        "locus": "MMAR_3243",
+        "identity": 95.0,
+        "evalue": 6.41e-93
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4267",
+        "identity": 64.0,
+        "evalue": 9.27e-59
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002270",
+        "identity": 100.0,
+        "evalue": 4.27e-97
+      },
+      "M. abscessus": {
+        "locus": "MAB_1962",
+        "identity": 66.9,
+        "evalue": 1.5e-69
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "8hcr",
+        "method": "Electron Microscopy",
+        "resolution": 4.5,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "P9WP45",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2198c",
+      "gene": "mmpS3",
+      "strand": "-",
+      "gap": 185
+    },
+    "right": {
+      "locus": "Rv2200c",
+      "gene": "ctaC",
+      "strand": "-",
+      "gap": 7
+    },
+    "operon": [
+      {
+        "locus": "Rv2199c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2200c",
+        "gene": "ctaC"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible conserved integral membrane protein",
+    "legacy_function": "",
+    "legacy_ec": [
+      "1.9.3.1"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "differ",
+    "atlas_ec": [
+      "7.1.1.9"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ],
+    "ec_resolution": {
+      "category": "reclassified",
+      "label": "EC re-numbering (same enzyme, current class differs)",
+      "note": "cytochrome c oxidase: EC 1.9.3.1 became 7.1.1.9 in the 2018 translocase reclassification"
+    }
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -7.71,
+    "ci_low": -11.689,
+    "ci_high": -2.754,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 89.7,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 10,
+      "crossgenus_genomes": [
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 50.8,
+      "length_aa": 139,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 96.2,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1888A",
+  "gene": "Rv1888A",
+  "len_aa": 57,
+  "strand": "-",
+  "start_mtbc0": 2138444,
+  "end_mtbc0": 2138617,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VVPVDLRRDWPTPLRQAGFDPNQPSAWLAEGLLAFLPPDAQDRLLDNITALSAPGSR",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv1888A, len: 57 aa. Conserved hypothetical protein. Possibly continuation of Rv1889c, part of large family of Mycobacterium tuberculosis proteins with conserved N-terminal domain of ~ 120 aa. Includes: C-terminus of Rv0726c|P95074 conserved hypothetical protein (367 aa), FASTA scores: opt: 295, E(): 3.1e-15, (73.684% identity in 57 aa overlap); C-terminus of Rv3399|Q50726|MTCY78.29c conserved hypothetical protein (348 aa), FASTA scores: opt: 504, E(): 7.3e-29, (64.2% identity in 120 aa overlap); C-terminus of Rv0731c; etc.",
+    "uniprot_ac": "Q79FJ0",
+    "go": "GO:0008168",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 57,
+    "mw_kda": 6.2,
+    "pi": 4.54,
+    "gravy": -0.256,
+    "instability_index": 65.9,
+    "instability_class": "unstable",
+    "aromaticity": 0.07,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "Q79FJ0",
+    "reviewed": false,
+    "protein_name": "S-adenosyl-L-methionine-dependent methyltransferase",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0008168",
+      "GO:0032259"
+    ],
+    "kegg": [
+      "mtv:RVBD_1888A"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG3315",
+    "cog_cat": "Q",
+    "description": "Exhibits S-adenosyl-L-methionine-dependent methyltransferase activity",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "Exhibits S-adenosyl-L-methionine-dependent methyltransferase activity",
+  "essentiality": {
+    "dejesus2017": "Uncertain",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv3736",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 1,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.342,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1888A",
+    "n_partners": 6,
+    "n_context_driven": 6,
+    "partners": [
+      {
+        "rv": "Rv1889c",
+        "gene": "",
+        "product": "Rv1889c, (MTCY180.29), len: 118 aa. Conserved hypothetical protein. Part of large family of Mycobacterium tuberculosis proteins with conserv",
+        "hypothetical": false,
+        "combined": 921,
+        "combined_no_tm": 921,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 661,
+          "fusion": 0,
+          "cooccurence": 774,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2751",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 651,
+        "combined_no_tm": 651,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 649,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2794c",
+        "gene": "pptT",
+        "product": "4'-phosphopantetheinyl transferase",
+        "hypothetical": false,
+        "combined": 557,
+        "combined_no_tm": 557,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 556,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1890c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 522,
+        "combined_no_tm": 522,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 515,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1747",
+        "gene": "",
+        "product": "ABC transporter ATP-binding protein/permease",
+        "hypothetical": false,
+        "combined": 418,
+        "combined_no_tm": 419,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 51,
+          "fusion": 0,
+          "cooccurence": 411,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1888c",
+        "gene": "",
+        "product": "Rv1888c, (MTCY180.30), len: 186 aa. Possible transmembrane protein.",
+        "hypothetical": false,
+        "combined": 411,
+        "combined_no_tm": 411,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 409,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1889c",
+      "gene": "",
+      "product": "Rv1889c, (MTCY180.29), len: 118 aa. Conserved hypothetical protein. Part of large family of Mycobacterium tuberculosis proteins with conserv",
+      "combined_no_tm": 921,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 661,
+        "fusion": 0,
+        "cooccurence": 774,
+        "coexpression": 52,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 95.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6id6-assembly1_A",
+        "evalue": 0.0001492,
+        "prob": 1.0,
+        "tmscore": 0.9614,
+        "description": "6id6-assembly1_A Crystal structure of Rv0731c from Mycobacterium tuberculosis at 1.63 Angstroms.",
+        "significant": true
+      },
+      {
+        "target": "2uyo-assembly1_A",
+        "evalue": 0.0002924,
+        "prob": 1.0,
+        "tmscore": 0.9865,
+        "description": "2uyo-assembly1_A Crystal structure of ML2640c from Mycobacterium leprae in an hexagonal crystal form",
+        "significant": true
+      },
+      {
+        "target": "2uyq-assembly1_A",
+        "evalue": 0.0009812,
+        "prob": 1.0,
+        "tmscore": 0.9862,
+        "description": "2uyq-assembly1_A Crystal structure of ML2640c from Mycobacterium leprae in complex with S-adenosylmethionine",
+        "significant": true
+      },
+      {
+        "target": "2qe6-assembly1_A",
+        "evalue": 0.4178,
+        "prob": 0.9,
+        "tmscore": 0.7225,
+        "description": "2qe6-assembly1_A CRYSTAL STRUCTURE OF A PUTATIVE METHYLTRANSFERASE (TFU_2867) FROM THERMOBIFIDA FUSCA YX AT 1.95 A RESOLUTION",
+        "significant": false
+      },
+      {
+        "target": "3o7w-assembly1_A",
+        "evalue": 2.245,
+        "prob": 0.747,
+        "tmscore": 0.88,
+        "description": "3o7w-assembly1_A The Crystal Structure of Human Leucine Carboxyl Methyltransferase 1",
+        "significant": false
+      },
+      {
+        "target": "8fni-assembly1_7",
+        "evalue": 8.06,
+        "prob": 0.098,
+        "tmscore": 0.6842,
+        "description": "8fni-assembly1_7 Cryo-EM structure of RNase-treated RESC-B in trypanosomal RNA editing",
+        "significant": false
+      },
+      {
+        "target": "6i7w-assembly1_A",
+        "evalue": 2.099,
+        "prob": 0.063,
+        "tmscore": 0.3059,
+        "description": "6i7w-assembly1_A Structure of the periplasmic binding protein (PBP) AccA in complex with 2-glucose-2-O-lactic acid phosphate (G2LP) from Agrobacterium fabrum C58",
+        "significant": false
+      },
+      {
+        "target": "8c6r-assembly1_A",
+        "evalue": 4.114,
+        "prob": 0.051,
+        "tmscore": 0.3272,
+        "description": "8c6r-assembly1_A PBP AccA from A. tumefaciens Bo542 in apoform 4",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF04072",
+      "pfam_name": "LCM",
+      "description": "LCM",
+      "n_matches": "1"
+    }
+  ]
+}

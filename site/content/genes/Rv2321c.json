@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2321c",
+  "gene": "rocD2",
+  "len_aa": 181,
+  "strand": "-",
+  "start_mtbc0": 2594154,
+  "end_mtbc0": 2594699,
+  "product_h37rv": "Probable ornithine aminotransferase (C-terminus part) RocD2 (ornithine--oxo-acid aminotransferase)",
+  "function_revised": "Involved in arginine metabolism [catalytic activity: L-ornithine + a 2-oxo acid = L-glutamate 5-semialdehyde + an L-amino acid].",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MIADEIQSGLACTGYPFACDHGGVLPDIYLLGKTLGGGAVPLSAMVADREIFGVVHPGEHGSTFGGNPLAAAIGTPVVSMVVWGECQARSAKLGAHLHQRLADLIGDGAVALRGLGWWADVDIERALAIGTDMSMRLADRGVLLKDTYGAALRFAPPLVITAQEIDCAVRRFADALWEAGS",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable ornithine aminotransferase (C-terminus part) RocD2 (ornithine--oxo-acid aminotransferase)",
+    "legacy_function": "Involved in arginine metabolism [catalytic activity: L-ornithine + a 2-oxo acid = L-glutamate 5-semialdehyde + an L-amino acid].",
+    "legacy_ec": "2.6.1.13",
+    "functional_category": "intermediary metabolism and respiration",
+    "comments": "Rv2321c, (MTCY3G12.13), len: 181 aa. Probable rocD2, ornithine aminotransferase, highly similar to C-terminal region of other ornithine aminotransferases, e.g. Q9FC90|ROCD from Streptomyces coelicolor (407 aa), FASTA scores: opt: 628, E(): 1.2e-32, (55.35% identity in 168 aa overlap); P3802|OAT_BACSU|ROCD from Bacillus subtilis (401 aa), FASTA scores: opt: 477, E(): 4.3e-23, (42.1% identity in 178 aa overlap); BAB42057|ROCD|SA0818 from Staphylococcus aureus subsp. aureus N315 (396 aa), FASTA scores: opt: 437, E(): 1.5e-20, (41.3% identity in 170 aa overlap); etc. Contains PS00600 Aminotransferases class-III pyridoxal-phosphate attachment site. Belongs to class-III of pyridoxal-phosphate-dependent aminotransferases. Rv2322c|MTCY3G12.12 (upstream ORF) and Rv2321c|MTCY3G12.13 appear to be an ornithine aminotransferase homologue but are frameshifted - we can find no sequence error in the cosmid to account for this.",
+    "uniprot_ac": "P71891",
+    "go": "GO:0030170,GO:0004587",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 181,
+    "mw_kda": 18.9,
+    "pi": 5.06,
+    "gravy": 0.339,
+    "instability_index": 33.6,
+    "instability_class": "stable",
+    "aromaticity": 0.066,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "P71891",
+    "reviewed": false,
+    "protein_name": "Probable ornithine aminotransferase (C-terminus part) RocD2 (Ornithine--oxo-acid aminotransferase)",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0030170",
+      "GO:0008483",
+      "GO:0055129"
+    ],
+    "kegg": [
+      "mtv:RVBD_2321c"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG4992",
+    "cog_cat": "E",
+    "description": "Belongs to the class-III pyridoxal-phosphate-dependent aminotransferase family",
+    "preferred_name": "rocD",
+    "ec": [
+      "2.6.1.13"
+    ],
+    "kegg_ko": [
+      "ko:K00819"
+    ],
+    "kegg_pathway": [
+      "ko00330",
+      "ko01100",
+      "ko01110",
+      "ko01130",
+      "map00330",
+      "map01100",
+      "map01110",
+      "map01130"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0023",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv0324",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1674c",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv2324",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv3736",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 5,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 1,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.397,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv2321c",
+    "n_partners": 28,
+    "n_context_driven": 6,
+    "partners": [
+      {
+        "rv": "Rv2322c",
+        "gene": "rocD1",
+        "product": "Rv2322c, (MTCY3G12.12), len: 221 aa. Probable rocD1,ornithine aminotransferase, highly similar to N-terminal region of other ornithine amino",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 900,
+          "cooccurence": 774,
+          "coexpression": 810,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2323c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 997,
+        "combined_no_tm": 982,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 814,
+          "fusion": 458,
+          "cooccurence": 313,
+          "coexpression": 772,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 876
+        }
+      },
+      {
+        "rv": "Rv2320c",
+        "gene": "rocE",
+        "product": "cationic amino acid transporter permease RocE",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 974,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 795,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 865,
+          "experimental": 152,
+          "database": 0,
+          "textmining": 819
+        }
+      },
+      {
+        "rv": "Rv2319c",
+        "gene": "",
+        "product": "universal stress protein",
+        "hypothetical": false,
+        "combined": 984,
+        "combined_no_tm": 954,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 783,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 797,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 667
+        }
+      },
+      {
+        "rv": "Rv1658",
+        "gene": "argG",
+        "product": "argininosuccinate synthase",
+        "hypothetical": false,
+        "combined": 846,
+        "combined_no_tm": 792,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 267,
+          "coexpression": 673,
+          "experimental": 144,
+          "database": 0,
+          "textmining": 290
+        }
+      },
+      {
+        "rv": "Rv1659",
+        "gene": "argH",
+        "product": "argininosuccinate lyase",
+        "hypothetical": false,
+        "combined": 826,
+        "combined_no_tm": 772,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 278,
+          "coexpression": 675,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 271
+        }
+      },
+      {
+        "rv": "Rv1652",
+        "gene": "argC",
+        "product": "N-acetyl-gamma-glutamyl-phoshate reductase",
+        "hypothetical": false,
+        "combined": 834,
+        "combined_no_tm": 767,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 257,
+          "coexpression": 678,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 319
+        }
+      },
+      {
+        "rv": "Rv1654",
+        "gene": "argB",
+        "product": "acetylglutamate kinase",
+        "hypothetical": false,
+        "combined": 831,
+        "combined_no_tm": 762,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 228,
+          "coexpression": 683,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 320
+        }
+      },
+      {
+        "rv": "Rv1653",
+        "gene": "argJ",
+        "product": "bifunctional glutamate N-acetyltransferase/amino-acid acetyltransferase",
+        "hypothetical": false,
+        "combined": 813,
+        "combined_no_tm": 737,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 242,
+          "coexpression": 643,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 318
+        }
+      },
+      {
+        "rv": "Rv1656",
+        "gene": "argF",
+        "product": "ornithine carbamoyltransferase",
+        "hypothetical": false,
+        "combined": 802,
+        "combined_no_tm": 736,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 235,
+          "coexpression": 645,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 281
+        }
+      },
+      {
+        "rv": "Rv1650",
+        "gene": "pheT",
+        "product": "phenylalanine--tRNA ligase subunit beta",
+        "hypothetical": false,
+        "combined": 717,
+        "combined_no_tm": 618,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 532,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 218,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 289
+        }
+      },
+      {
+        "rv": "Rv2324",
+        "gene": "",
+        "product": "AsnC family transcriptional regulator",
+        "hypothetical": false,
+        "combined": 684,
+        "combined_no_tm": 593,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 590,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 256
+        }
+      },
+      {
+        "rv": "Rv1657",
+        "gene": "argR",
+        "product": "arginine repressor",
+        "hypothetical": false,
+        "combined": 534,
+        "combined_no_tm": 464,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 425,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 168
+        }
+      },
+      {
+        "rv": "Rv1213",
+        "gene": "glgC",
+        "product": "glucose-1-phosphate adenylyltransferase",
+        "hypothetical": false,
+        "combined": 497,
+        "combined_no_tm": 443,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 422,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 135
+        }
+      },
+      {
+        "rv": "Rv0041",
+        "gene": "leuS",
+        "product": "leucine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 449,
+        "combined_no_tm": 422,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 403,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 87
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2322c",
+      "gene": "rocD1",
+      "product": "Rv2322c, (MTCY3G12.12), len: 221 aa. Probable rocD1,ornithine aminotransferase, highly similar to N-terminal region of other ornithine amino",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 900,
+        "cooccurence": 774,
+        "coexpression": 810,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 94.9,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2byj-assembly2_C-2",
+        "evalue": 4.109e-15,
+        "prob": 1.0,
+        "tmscore": 0.9361,
+        "description": "2byj-assembly2_C-2 Ornithine aminotransferase mutant Y85I",
+        "significant": true
+      },
+      {
+        "target": "7lk1-assembly1_A",
+        "evalue": 6.57e-15,
+        "prob": 1.0,
+        "tmscore": 0.9377,
+        "description": "7lk1-assembly1_A Ornithine Aminotransferase (OAT) with its potent inhibitor - (S)-3-amino-4,4-difluorocyclopent-1-enecarboxylic acid (SS-1-148) - 1 Hour Soaking",
+        "significant": true
+      },
+      {
+        "target": "7lom-assembly1_A",
+        "evalue": 6.57e-15,
+        "prob": 1.0,
+        "tmscore": 0.9303,
+        "description": "7lom-assembly1_A Ornithine Aminotransferase (OAT) soaked with its inactivator - (1S,3S)-3-amino-4-(difluoromethylene)cyclohexene-1-carboxylic acid",
+        "significant": true
+      },
+      {
+        "target": "4zwm-assembly1_A",
+        "evalue": 3.249e-15,
+        "prob": 1.0,
+        "tmscore": 0.9136,
+        "description": "4zwm-assembly1_A 2.3 A resolution crystal structure of the ornithine aminotransferase from Toxoplasma gondii ME49",
+        "significant": true
+      },
+      {
+        "target": "3ruy-assembly1_B",
+        "evalue": 5.51e-15,
+        "prob": 1.0,
+        "tmscore": 0.9271,
+        "description": "3ruy-assembly1_B Crystal Structure of the Ornithine-oxo acid transaminase RocD from Bacillus anthracis",
+        "significant": true
+      },
+      {
+        "target": "2byl-assembly1_B",
+        "evalue": 8.308e-15,
+        "prob": 1.0,
+        "tmscore": 0.9365,
+        "description": "2byl-assembly1_B Structure of ornithine aminotransferase triple mutant Y85I Y55A G320F",
+        "significant": true
+      },
+      {
+        "target": "1z7d-assembly1_A",
+        "evalue": 5.196e-15,
+        "prob": 1.0,
+        "tmscore": 0.9208,
+        "description": "1z7d-assembly1_A Ornithine aminotransferase PY00104 from Plasmodium Yoelii",
+        "significant": true
+      },
+      {
+        "target": "3ntj-assembly1_B",
+        "evalue": 4.109e-15,
+        "prob": 1.0,
+        "tmscore": 0.9195,
+        "description": "3ntj-assembly1_B Redox regulation of Plasmodium falciparum ornithine delta-aminotransferase",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF00202",
+      "pfam_name": "Aminotran_3",
+      "description": "Aminotran_3",
+      "n_matches": "1"
+    }
+  ]
+}

@@ -1,0 +1,996 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2378c",
+  "mtbc0": "mtbc0_002530",
+  "np_id": "NP_216894.1",
+  "gene": "mbtG",
+  "len_aa": 431,
+  "strand": "-",
+  "start_mtbc0": 2680601,
+  "end_mtbc0": 2681896,
+  "product_h37rv": "L-lysine N6-monooxygenase",
+  "product_mtbc0_pgap": "NADPH-dependent L-lysine N(6)-monooxygenase MbtG",
+  "function_revised": "NADPH-dependent L-lysine N(6)-monooxygenase MbtG. Pfam: Lys_Orn_oxgnase (PF13434.13).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MNPTLAVLGAGAKAVAVAAKASVLRDMGVDVPDVIAVERIGVGANWQASGGWTDGAHRLGTSPEKDVGFPYRSALVPRRNAELDERMTRYSWQSYLIATASFAEWIDRGRPAPTHRRWSQYLAWVADHIGLKVIHGEVERLAVTGDRWALCTHETTVQADALMITGPGQAEKSLLPGNPRVLSIAQFWDRAAGHDRINAERVAVIGGGETAASMLNELFRHRVSTITVISPQVTLFTRGEGFFENSLFSDPTDWAALTFDERRDALARTDRGVFSATVQEALLADDRIHHLRGRVAHAVGRQGQIRLTLSTNRGSENFETVHGFDLVIDGSGADPLWFTSLFSQHTLDLLELGLGGPLTADRLQEAIGYDLAVTDVTPKLFLPTLSGLTQGPGFPNLSCLGLLSDRVLGAGIFTPTKHNDTRRSGEHQSFR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Lys_Orn_oxgnase",
+      "pfam_acc": "PF13434.13",
+      "i_evalue": 5.8e-10,
+      "ali_from": 88,
+      "ali_to": 284,
+      "description": "L-lysine 6-monooxygenase/L-ornithine 5-monooxygenase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG3486",
+    "cog_cat": "Q",
+    "description": "Involved in the biogenesis of the hydroxyphenyloxazoline-containing siderophore mycobactins. this hydroxylase is possibly required for N-hydroxylation of the two lysine residues at some stage during mycobactin assembly catalytic activity L-lysine O(2) N6-hydroxy- L-lysine H(2)O. no information can be found if this enzyme is NADPH dependent or independent",
+    "preferred_name": "mbtG",
+    "ec": [],
+    "kegg_ko": [
+      "K04793"
+    ],
+    "kegg_pathway": [
+      "map01053"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004497",
+      "GO:0006518",
+      "GO:0006725",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009058",
+      "GO:0009237",
+      "GO:0009712",
+      "GO:0009987",
+      "GO:0016491",
+      "GO:0016701",
+      "GO:0016703",
+      "GO:0016705",
+      "GO:0016709",
+      "GO:0018958",
+      "GO:0019184",
+      "GO:0019290",
+      "GO:0019540",
+      "GO:0019748",
+      "GO:0034641",
+      "GO:0040007",
+      "GO:0043043",
+      "GO:0043603",
+      "GO:0043604",
+      "GO:0044237",
+      "GO:0044249",
+      "GO:0044271",
+      "GO:0044550",
+      "GO:0047091",
+      "GO:0051186",
+      "GO:0051188",
+      "GO:0055114",
+      "GO:0071704",
+      "GO:1901360",
+      "GO:1901564",
+      "GO:1901566",
+      "GO:1901576",
+      "GO:1901615"
+    ],
+    "pfams": [
+      "K_oxygenase"
+    ],
+    "seed_ortholog": "419947.MRA_2401",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WKF7",
+    "reviewed": true,
+    "protein_name": "L-lysine N6-monooxygenase MbtG",
+    "ec": [
+      "1.14.13.59"
+    ],
+    "function": "Flavoprotein monooxygenase required for N-hydroxylation of the two acylated lysine residues during mycobactin assembly, thus producing the hydroxamate groups necessary for iron sequestration. Is also able, but less efficiently, to hydroxylate L-lysine (non acylated) in vitro. Shows 5-fold preference for using acetylated lysine over lysine",
+    "go": [
+      "GO:0004497",
+      "GO:0019540",
+      "GO:0047091",
+      "GO:0050660"
+    ],
+    "kegg": [
+      "mtu:Rv2378c",
+      "mtv:RVBD_2378c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 1,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.049,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2378c",
+    "n_partners": 68,
+    "n_context_driven": 42,
+    "partners": [
+      {
+        "rv": "Rv2377c",
+        "gene": "mbtH",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 996,
+        "combined_no_tm": 990,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 915,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 701
+        }
+      },
+      {
+        "rv": "Rv2379c",
+        "gene": "mbtF",
+        "product": "peptide synthetase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 986,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 868,
+          "experimental": 162,
+          "database": 0,
+          "textmining": 820
+        }
+      },
+      {
+        "rv": "Rv2380c",
+        "gene": "mbtE",
+        "product": "peptide synthetase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 983,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 801,
+          "fusion": 3,
+          "cooccurence": 0,
+          "coexpression": 887,
+          "experimental": 322,
+          "database": 0,
+          "textmining": 881
+        }
+      },
+      {
+        "rv": "Rv2383c",
+        "gene": "mbtB",
+        "product": "phenyloxazoline synthase",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 930,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 756,
+          "fusion": 0,
+          "cooccurence": 426,
+          "coexpression": 476,
+          "experimental": 162,
+          "database": 0,
+          "textmining": 948
+        }
+      },
+      {
+        "rv": "Rv2381c",
+        "gene": "mbtD",
+        "product": "polyketide synthetase",
+        "hypothetical": false,
+        "combined": 982,
+        "combined_no_tm": 909,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 502,
+          "fusion": 0,
+          "cooccurence": 215,
+          "coexpression": 785,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 813
+        }
+      },
+      {
+        "rv": "Rv2382c",
+        "gene": "mbtC",
+        "product": "polyketide synthetase",
+        "hypothetical": false,
+        "combined": 989,
+        "combined_no_tm": 851,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 755,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 415,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 932
+        }
+      },
+      {
+        "rv": "Rv1349",
+        "gene": "irtB",
+        "product": "iron ABC transporter ATP-binding protein/permease IrtB",
+        "hypothetical": false,
+        "combined": 882,
+        "combined_no_tm": 827,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 387,
+          "coexpression": 729,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 348
+        }
+      },
+      {
+        "rv": "Rv1347c",
+        "gene": "mbtK",
+        "product": "lysine N-acetyltransferase MbtK",
+        "hypothetical": false,
+        "combined": 921,
+        "combined_no_tm": 794,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 410,
+          "coexpression": 583,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 635
+        }
+      },
+      {
+        "rv": "Rv0955",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 767,
+        "combined_no_tm": 767,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 767,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0256c",
+        "gene": "PPE2",
+        "product": "PPE family protein PPE2",
+        "hypothetical": false,
+        "combined": 754,
+        "combined_no_tm": 755,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 754,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0236c",
+        "gene": "aftD",
+        "product": "alpha-(1->3)-arabinofuranosyltransferase",
+        "hypothetical": false,
+        "combined": 749,
+        "combined_no_tm": 750,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 746,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3604c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 737,
+        "combined_no_tm": 737,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 737,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1159",
+        "gene": "pimE",
+        "product": "polyprenol-phosphate-mannose-dependent alpha-(1-2)-phosphatidylinositol pentamannoside mannosyltransferase",
+        "hypothetical": false,
+        "combined": 698,
+        "combined_no_tm": 698,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 698,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0452",
+        "gene": "",
+        "product": "transcriptional regulator",
+        "hypothetical": false,
+        "combined": 677,
+        "combined_no_tm": 677,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 677,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1348",
+        "gene": "irtA",
+        "product": "iron ABC transporter ATP-binding protein/permease IrtA",
+        "hypothetical": false,
+        "combined": 767,
+        "combined_no_tm": 638,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 135,
+          "fusion": 0,
+          "cooccurence": 546,
+          "coexpression": 153,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 385
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2379c",
+      "gene": "mbtF",
+      "product": "peptide synthetase",
+      "combined_no_tm": 986,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 881,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 868,
+        "experimental": 162,
+        "database": 0,
+        "textmining": 820
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: L-lysine N6-monooxygenase",
+    "MTBC0 PGAP product: NADPH-dependent L-lysine N(6)-monooxygenase MbtG",
+    "Pfam (hmmscan --cut_ga): Lys_Orn_oxgnase PF13434.13 (E=6e-10)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 91.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4d7e-assembly2_A",
+        "evalue": 7.151e-54,
+        "prob": 1.0,
+        "tmscore": 0.9412,
+        "description": "4d7e-assembly2_A An unprecedented NADPH domain conformation in Lysine Monooxygenase NbtG from Nocardia farcinica",
+        "significant": true
+      },
+      {
+        "target": "4d7e-assembly1_B",
+        "evalue": 6.586e-52,
+        "prob": 1.0,
+        "tmscore": 0.9214,
+        "description": "4d7e-assembly1_B An unprecedented NADPH domain conformation in Lysine Monooxygenase NbtG from Nocardia farcinica",
+        "significant": true
+      },
+      {
+        "target": "4d7e-assembly2_C",
+        "evalue": 9.101e-50,
+        "prob": 1.0,
+        "tmscore": 0.9326,
+        "description": "4d7e-assembly2_C An unprecedented NADPH domain conformation in Lysine Monooxygenase NbtG from Nocardia farcinica",
+        "significant": true
+      },
+      {
+        "target": "4d7e-assembly1_D",
+        "evalue": 1.476e-34,
+        "prob": 1.0,
+        "tmscore": 0.9429,
+        "description": "4d7e-assembly1_D An unprecedented NADPH domain conformation in Lysine Monooxygenase NbtG from Nocardia farcinica",
+        "significant": true
+      },
+      {
+        "target": "4tlx-assembly1_D",
+        "evalue": 1.837e-21,
+        "prob": 1.0,
+        "tmscore": 0.7266,
+        "description": "4tlx-assembly1_D Kutzneria sp. 744 ornithine N-hydroxylase, KtzI-FADred-NADP+-L-orn",
+        "significant": true
+      },
+      {
+        "target": "6xbc-assembly2_F",
+        "evalue": 7.899e-17,
+        "prob": 1.0,
+        "tmscore": 0.6984,
+        "description": "6xbc-assembly2_F Crystal structure of Streptomyces sviceus SsDesB",
+        "significant": true
+      },
+      {
+        "target": "5mh4-assembly1_A",
+        "evalue": 9.104e-12,
+        "prob": 1.0,
+        "tmscore": 0.6824,
+        "description": "5mh4-assembly1_A Crystal Structure of Lactococcus lactis Thioredoxin Reductase (FR conformation)",
+        "significant": true
+      },
+      {
+        "target": "4gcm-assembly1_A",
+        "evalue": 1.599e-12,
+        "prob": 1.0,
+        "tmscore": 0.4783,
+        "description": "4gcm-assembly1_A Crystal structure of a thioredoxine reductase (trxB) from Staphylococcus aureus subsp. aureus Mu50 at 1.80 A resolution",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 4.5,
+    "abundance_rank": 2978,
+    "n_ranked": 3519,
+    "abundance_percentile": 15.4,
+    "n_datasets": 8,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 431,
+    "mw_kda": 46.9,
+    "pi": 6.17,
+    "gravy": -0.164,
+    "instability_index": 26.6,
+    "instability_class": "stable",
+    "aromaticity": 0.077,
+    "aliphatic_index": 8853.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "lipid metabolism",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2399c",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_3697",
+        "identity": 67.2,
+        "evalue": 2.75e-208
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4509",
+        "identity": 75.2,
+        "evalue": 1.03e-235
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002456",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_2249",
+        "identity": 69.2,
+        "evalue": 2.23e-217
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 7,
+    "n_in_vivo": 3,
+    "phenotypes": [
+      {
+        "condition": "fitness after prolonged in vitro passage",
+        "category": "in vitro passage",
+        "log2fc": -7.99,
+        "qval": 0.0,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 45",
+        "category": "in vivo",
+        "log2fc": -4.6,
+        "qval": 0.015,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.9,
+        "qval": 0.021,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.22,
+        "qval": 0.0063,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "altered fitness under 6 weeks hypoxia",
+        "category": "stress",
+        "log2fc": -2.01,
+        "qval": 0.0061,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "Mutants exhibiting altered fitness in the absence of gene marP",
+        "category": "other",
+        "log2fc": 1.25,
+        "qval": 0.039,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "altered fitness under 3 weeks hypoxia",
+        "category": "stress",
+        "log2fc": -1.21,
+        "qval": 0.029,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2377c",
+      "gene": null,
+      "strand": "-",
+      "gap": -23
+    },
+    "right": {
+      "locus": "Rv2379c",
+      "gene": "mbtF",
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv2377c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2378c",
+        "gene": "mbtG"
+      },
+      {
+        "locus": "Rv2379c",
+        "gene": "mbtF"
+      },
+      {
+        "locus": "Rv2380c",
+        "gene": "mbtE"
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0135c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Lysine-N-oxygenase MbtG (L-lysine 6-monooxygenase) (lysine N6-hydroxylase)",
+    "legacy_function": "Involved in the biogenesis of the hydroxyphenyloxazoline-containing siderophore mycobactins. This hydroxylase is possibly required for N-hydroxylation of the two lysine residues at some stage during mycobactin assembly [catalytic activity: L-lysine + O(2) = N6-hydroxy-L-lysine + H(2)O. No information can be found if this enzyme is NADPH dependent or independent].",
+    "legacy_ec": [
+      "1.14.13.59"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "1.14.13.59"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "IdeR",
+        "function": "Metal-Dependent DNA-Binding protein that controls genes related to iron metabolism",
+        "category": "Metal Related",
+        "regulator": "ideR"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.619,
+    "ci_low": -1.842,
+    "ci_high": 4.199,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 50,
+      "n_total": 53,
+      "frac": 0.943,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 81.1,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 50/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 3,
+      "crossgenus_genomes": [
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152"
+      ],
+      "mean_pident": 58.8,
+      "length_aa": 431,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 5,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 5,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "5 publication(s) discuss this gene (5 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Development of a multiplex PCR for detection of pathogenic Mycobacterium orygis in cattle tissues harboring tuberculous-like lesions.",
+        "doi": "10.21203/rs.3.rs-6947470/v1",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40951284/",
+        "date": "2025"
+      },
+      {
+        "title": "Discovery of a siderophore export system essential for virulence of Mycobacterium tuberculosis.",
+        "doi": "10.1371/journal.ppat.1003120",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/23431276/",
+        "date": "2013"
+      },
+      {
+        "title": "Lipidomic discovery of deoxysiderophores reveals a revised mycobactin biosynthesis pathway in Mycobacterium tuberculosis.",
+        "doi": "10.1073/pnas.1109958109",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/22232695/",
+        "date": "2012"
+      },
+      {
+        "title": "A genetic locus required for iron acquisition in Mycobacterium tuberculosis.",
+        "doi": "10.1073/pnas.0507924103",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16461464/",
+        "date": "2006"
+      },
+      {
+        "title": "Identification of a Mycobacterium tuberculosis gene cluster encoding the biosynthetic enzymes for assembly of the virulence-conferring siderophore mycobactin.",
+        "doi": "10.1016/s1074-5521(98)90291-5",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/9831524/",
+        "date": "1998"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.032,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 16,
+    "total_idr_residues": 16,
+    "idr_regions": [
+      [
+        415,
+        431
+      ]
+    ],
+    "mean_plddt": 91.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

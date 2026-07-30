@@ -1,0 +1,794 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1224",
+  "mtbc0": "mtbc0_001312",
+  "np_id": "NP_215740.1",
+  "gene": "tatB",
+  "len_aa": 131,
+  "strand": "+",
+  "start_mtbc0": 1375907,
+  "end_mtbc0": 1376302,
+  "product_h37rv": "Sec-independent protein translocase protein TatB",
+  "product_mtbc0_pgap": "Sec-independent protein translocase protein TatB",
+  "function_revised": "Sec-independent protein translocase protein TatB. Pfam: TatA_B_E (PF02416.22).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MFANIGWGEMLVLVMVGLVVLGPERLPGAIRWAASALRQARDYLSGVTSQLREDIGPEFDDLRGHLGELQKLRGMTPRAALTKHLLDGDDSLFTGDFDRPTPKKPDAAGSAGPDATEQIGAGPIPFDSDAT",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "TatA_B_E",
+      "pfam_acc": "PF02416.22",
+      "i_evalue": 7.7e-14,
+      "ali_from": 4,
+      "ali_to": 49,
+      "description": "mttA/Hcf106 family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1826",
+    "cog_cat": "U",
+    "description": "Part of the twin-arginine translocation (Tat) system that transports large folded proteins containing a characteristic twin-arginine motif in their signal peptide across membranes. Together with TatC, TatB is part of a receptor directly interacting with Tat signal peptides. TatB may form an oligomeric binding site that transiently accommodates folded Tat precursor proteins before their translocation",
+    "preferred_name": "tatB",
+    "ec": [],
+    "kegg_ko": [
+      "K03117"
+    ],
+    "kegg_pathway": [
+      "map03060",
+      "map03070"
+    ],
+    "kegg_module": [
+      "M00336"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0008150",
+      "GO:0040007"
+    ],
+    "pfams": [
+      "MttA_Hcf106"
+    ],
+    "seed_ortholog": "419947.MRA_1233",
+    "evalue": "1.74e-88"
+  },
+  "uniprot": {
+    "acc": "P9WG99",
+    "reviewed": true,
+    "protein_name": "Sec-independent protein translocase protein TatB",
+    "ec": [],
+    "function": "Part of the twin-arginine translocation (Tat) system that transports large folded proteins containing a characteristic twin-arginine motif in their signal peptide across membranes. Together with TatC, TatB is part of a receptor directly interacting with Tat signal peptides. TatB may form an oligomeric binding site that transiently accommodates folded Tat precursor proteins before their translocation",
+    "go": [
+      "GO:0009977",
+      "GO:0033281",
+      "GO:0043953",
+      "GO:0065002"
+    ],
+    "kegg": [
+      "mtu:Rv1224",
+      "mtv:RVBD_1224"
+    ],
+    "evidence": "Inferred from homology"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 1,
+    "syn": 0,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": null,
+    "selection": "n/a",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1224",
+    "n_partners": 48,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv1223",
+        "gene": "htrA",
+        "product": "serine protease HtrA",
+        "hypothetical": false,
+        "combined": 967,
+        "combined_no_tm": 966,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 730,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 72
+        }
+      },
+      {
+        "rv": "Rv3396c",
+        "gene": "guaA",
+        "product": "GMP synthase",
+        "hypothetical": false,
+        "combined": 935,
+        "combined_no_tm": 933,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 182,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 921,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv2093c",
+        "gene": "tatC",
+        "product": "Sec-independent protein translocase transmembrane protein TatC",
+        "hypothetical": false,
+        "combined": 984,
+        "combined_no_tm": 930,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 102,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 710,
+          "experimental": 629,
+          "database": 360,
+          "textmining": 782
+        }
+      },
+      {
+        "rv": "Rv1222",
+        "gene": "rseA",
+        "product": "anti-sigma E factor RseA",
+        "hypothetical": false,
+        "combined": 804,
+        "combined_no_tm": 804,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 659,
+          "fusion": 0,
+          "cooccurence": 185,
+          "coexpression": 351,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1337",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 680,
+        "combined_no_tm": 652,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 228,
+          "coexpression": 222,
+          "experimental": 467,
+          "database": 0,
+          "textmining": 121
+        }
+      },
+      {
+        "rv": "Rv1221",
+        "gene": "sigE",
+        "product": "ECF RNA polymerase sigma factor SigE",
+        "hypothetical": false,
+        "combined": 509,
+        "combined_no_tm": 509,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 490,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 76,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3335c",
+        "gene": "yhjD",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 509,
+        "combined_no_tm": 490,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 155,
+          "fusion": 0,
+          "cooccurence": 415,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 77
+        }
+      },
+      {
+        "rv": "Rv0110",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 511,
+        "combined_no_tm": 468,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 467,
+          "database": 0,
+          "textmining": 121
+        }
+      },
+      {
+        "rv": "Rv3221A",
+        "gene": "rshA",
+        "product": "anti-sigma factor RshA",
+        "hypothetical": false,
+        "combined": 454,
+        "combined_no_tm": 455,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 180,
+          "coexpression": 341,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2553c",
+        "gene": "mltG",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 449,
+        "combined_no_tm": 449,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 449,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0846c",
+        "gene": "mmcO",
+        "product": "oxidase",
+        "hypothetical": false,
+        "combined": 469,
+        "combined_no_tm": 436,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 69,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 415,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv0799c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 822,
+        "combined_no_tm": 435,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 403,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 698
+        }
+      },
+      {
+        "rv": "Rv2122c",
+        "gene": "hisE",
+        "product": "phosphoribosyl-ATP pyrophosphatase",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 426,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 393,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3607c",
+        "gene": "folB",
+        "product": "dihydroneopterin aldolase",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 425,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 423,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3013",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 422,
+        "combined_no_tm": 422,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 316,
+          "coexpression": 75,
+          "experimental": 160,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1223",
+      "gene": "htrA",
+      "product": "serine protease HtrA",
+      "combined_no_tm": 966,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 881,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 730,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 72
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: Sec-independent protein translocase protein TatB",
+    "MTBC0 PGAP product: Sec-independent protein translocase protein TatB",
+    "Pfam (hmmscan --cut_ga): TatA_B_E PF02416.22 (E=8e-14)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "GD",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 73.8,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 36.3,
+    "abundance_rank": 1973,
+    "n_ranked": 3519,
+    "abundance_percentile": 44.0,
+    "n_datasets": 9,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 131,
+    "mw_kda": 14.0,
+    "pi": 4.76,
+    "gravy": -0.202,
+    "instability_index": 35.0,
+    "instability_class": "stable",
+    "aromaticity": 0.061,
+    "aliphatic_index": 8648.9,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1256",
+        "identity": 99.2,
+        "evalue": 2.23e-91
+      },
+      "M. leprae": {
+        "locus": "ML1079",
+        "identity": 73.3,
+        "evalue": 1.71e-62
+      },
+      "M. marinum": {
+        "locus": "MMAR_4213",
+        "identity": 75.0,
+        "evalue": 8.43e-58
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5069",
+        "identity": 68.9,
+        "evalue": 3.64e-57
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001289",
+        "identity": 99.2,
+        "evalue": 2.09e-91
+      },
+      "M. abscessus": {
+        "locus": "MAB_1365",
+        "identity": 55.6,
+        "evalue": 1.17e-47
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1223",
+      "gene": "htrA",
+      "strand": "+",
+      "gap": 1
+    },
+    "right": {
+      "locus": "Rv1225c",
+      "gene": null,
+      "strand": "-",
+      "gap": 32
+    },
+    "operon": [
+      {
+        "locus": "Rv1223",
+        "gene": "htrA"
+      },
+      {
+        "locus": "Rv1224",
+        "gene": "tatB"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable protein TatB",
+    "legacy_function": "Involved in proteins export. This sec-independent pathway is termed tat for twin-arginine translocation system. This system mainly transports proteins with bound cofactors that require folding prior to export.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -9.107,
+    "ci_low": -10.017,
+    "ci_high": -8.192,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 73.6,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 7,
+      "crossgenus_genomes": [
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 52.4,
+      "length_aa": 131,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 5,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 5,
+    "n_other": 4,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. leprae": "1",
+      "M. smegmatis": "3"
+    },
+    "summary": "5 publication(s) discuss this gene (5 in a M. tuberculosis context, 4 in other mycobacteria — M. smegmatis (3), M. leprae (1)).",
+    "papers": [
+      {
+        "title": "Identification of novel loci associated with mycobacterial isoniazid resistance.",
+        "doi": "10.1016/j.tube.2015.09.008",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/26786650/",
+        "date": "2016"
+      },
+      {
+        "title": "Identifying novel mycobacterial stress associated genes using a random mutagenesis screen in Mycobacterium smegmatis.",
+        "doi": "10.1016/j.gene.2015.07.063",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/26211627/",
+        "date": "2015"
+      },
+      {
+        "title": "A TatABC-type Tat translocase is required for unimpaired aerobic growth of Corynebacterium glutamicum ATCC13032.",
+        "doi": "10.1371/journal.pone.0123413",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/25837592/",
+        "date": "2015"
+      },
+      {
+        "title": "Inactivation of Rv2525c, a substrate of the twin arginine translocation (Tat) system of Mycobacterium tuberculosis, increases beta-lactam susceptibility and virulence.",
+        "doi": "10.1128/JB.00631-06",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16952959/",
+        "date": "2006"
+      },
+      {
+        "title": "Characterization of the twin-arginine translocase secretion system of Mycobacterium smegmatis.",
+        "doi": "10.1128/JB.188.4.1332-1340.2006",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16452415/",
+        "date": "2006"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.29,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 39,
+    "total_idr_residues": 39,
+    "idr_regions": [
+      [
+        92,
+        131
+      ]
+    ],
+    "mean_plddt": 73.8,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (39/131 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

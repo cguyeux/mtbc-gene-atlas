@@ -1,0 +1,551 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0782",
+  "gene": "ptrBb",
+  "len_aa": 552,
+  "strand": "+",
+  "start_mtbc0": 874732,
+  "end_mtbc0": 876390,
+  "product_h37rv": "Probable protease II PtrBb [second part] (oligopeptidase B)",
+  "function_revised": "Cleaves peptide bonds on the C-terminal side of lysyl and argininyl residues [catalytic activity: hydrolysis of ARG-|-XAA and LYS-|-XAA bonds in oligopeptides, even when P1' residue is proline].",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VTNDIPCGSRIYAPENSTRTRSPGSERESPGQLTTTVYYTTVDAAWRPDTVWRYRLGSGESSERVYHEADDRFWLAVGRTRSNAYLLIAAGSSITSEVRYAHAADPTAQFSVVLPRRDGVEYSVEHAVIAGQDRFLILHNDGAVNFTLVEAPVEDPARQRTLIAHRDDVRLDAVDALAGHLVVSYRREALPRVQLWPIGPDGNYGEPEEISFDSELMSAGLGPNPNWDSPKLRVGAGSFVTPVRIYDIDLVTGERTLLKEQPVLGGYRREDYVERRDWAYGDDGTRIPVSIVHRADIEFPAPALIYGYGAYEICEDPRFSIARLSLLDRGMVFVVAHVRGGGEMGRLWYENGKLLDKKNTFTDFIAVARHLVDTGLTSQQQLVALGGSAGGLLMGAVANMAPDLFAGILAQVPFVDPLTTILDPSLPLTVTEWDEWGNPLNDSDVYAYVKSYSPYENVTAQKYPAILAMTSLNDTRVYYVEPAKWVAALRHAKTDGNSVLLKTQMHAGHGGISGRYERWKETAFQYGWLLATADSDRYGGGQGNDLDGAAPA",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable protease II PtrBb [second part] (oligopeptidase B)",
+    "legacy_function": "Cleaves peptide bonds on the C-terminal side of lysyl and argininyl residues [catalytic activity: hydrolysis of ARG-|-XAA and LYS-|-XAA bonds in oligopeptides, even when P1' residue is proline].",
+    "legacy_ec": "3.4.21.83",
+    "functional_category": "intermediary metabolism and respiration",
+    "comments": "Rv0782, (MTCY369.26), len: 552 aa. Probable ptrBb, second part of protease II, equivalent to C-terminus of NP_302455.1|NC_002677 protease II from Mycobacterium leprae (724 aa). Also highly similar to N-termini of many proteases II e.g. P24555|PTRB_ECOLI|TLP|B1845 protease II from Escherichia coli strains K12 and HB101 (707 aa), FASTA scores: opt: 1251, E(): 0, (42.7% identity in 489 aa overlap); etc. ORFs Rv0782 and Rv0781 appear to be a frameshifted homologues of protease II, but we can find no error in the cosmid sequence to account for this. Belongs to peptidase family S9A; also known as the prolyl oligopeptidase family. Note that previously known as ptrBa. Conserved in M. tuberculosis, M. leprae, M. bovis and M. avium paratuberculosis; predicted to be essential for in vivo survival and pathogenicity (See Ribeiro-Guimaraes and Pessolani, 2007).",
+    "uniprot_ac": "P71834",
+    "go": "GO:0004252,GO:0006508",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 552,
+    "mw_kda": 60.9,
+    "pi": 5.13,
+    "gravy": -0.29,
+    "instability_index": 34.2,
+    "instability_class": "stable",
+    "aromaticity": 0.098,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "P71834",
+    "reviewed": false,
+    "protein_name": "Probable protease II PtrBb [second part] (Oligopeptidase B)",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0004252",
+      "GO:0006508"
+    ],
+    "kegg": [
+      "mtv:RVBD_0782"
+    ],
+    "protein_existence": "3: Inferred from homology",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG1770",
+    "cog_cat": "E",
+    "description": "Oligopeptidase",
+    "preferred_name": "ptrB",
+    "ec": [
+      "3.4.21.83"
+    ],
+    "kegg_ko": [
+      "ko:K01354"
+    ],
+    "kegg_pathway": [
+      "ko05142",
+      "ko05143",
+      "map05142",
+      "map05143"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 23.7,
+    "abundance_rank": 2228,
+    "n_ranked": 3519,
+    "abundance_percentile": 36.7,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0047c",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 10,
+    "syn": 6,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.225,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv0782",
+    "n_partners": 12,
+    "n_context_driven": 4,
+    "partners": [
+      {
+        "rv": "Rv0781",
+        "gene": "ptrBa",
+        "product": "Rv0781, (MTCY369.25), len: 236 aa. Probable ptrBa,first part of protease II, equivalent to N-terminus of NP_302455.1|NC_002677 protease II f",
+        "hypothetical": false,
+        "combined": 994,
+        "combined_no_tm": 995,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 900,
+          "cooccurence": 774,
+          "coexpression": 68,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0780",
+        "gene": "purC",
+        "product": "phosphoribosylaminoimidazole-succinocarboxamide synthase",
+        "hypothetical": false,
+        "combined": 805,
+        "combined_no_tm": 804,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 800,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 62,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2461c",
+        "gene": "clpP1",
+        "product": "ATP-dependent CLP protease proteolytic subunit 1",
+        "hypothetical": false,
+        "combined": 823,
+        "combined_no_tm": 689,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 689,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 455
+        }
+      },
+      {
+        "rv": "Rv0779c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 613,
+        "combined_no_tm": 612,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 611,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1732c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 460,
+        "combined_no_tm": 460,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 460,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2460c",
+        "gene": "clpP2",
+        "product": "ATP-dependent CLP protease proteolytic subunit 2",
+        "hypothetical": false,
+        "combined": 553,
+        "combined_no_tm": 358,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 358,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 333
+        }
+      },
+      {
+        "rv": "Rv0457c",
+        "gene": "",
+        "product": "peptidase",
+        "hypothetical": false,
+        "combined": 568,
+        "combined_no_tm": 340,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 271,
+          "coexpression": 82,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 373
+        }
+      },
+      {
+        "rv": "Rv3716c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 609,
+        "combined_no_tm": 338,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 315,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 434
+        }
+      },
+      {
+        "rv": "Rv0198c",
+        "gene": "zmp1",
+        "product": "zinc metalloprotease",
+        "hypothetical": false,
+        "combined": 459,
+        "combined_no_tm": 227,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 219,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 329
+        }
+      },
+      {
+        "rv": "Rv3588c",
+        "gene": "canB",
+        "product": "carbonic anhydrase",
+        "hypothetical": false,
+        "combined": 608,
+        "combined_no_tm": 170,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 170,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 548
+        }
+      },
+      {
+        "rv": "Rv3195",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 487,
+        "combined_no_tm": 132,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 132,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 434
+        }
+      },
+      {
+        "rv": "Rv1284",
+        "gene": "canA",
+        "product": "beta-carbonic anhydrase",
+        "hypothetical": false,
+        "combined": 503,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 503
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0781",
+      "gene": "ptrBa",
+      "product": "Rv0781, (MTCY369.25), len: 236 aa. Probable ptrBa,first part of protease II, equivalent to N-terminus of NP_302455.1|NC_002677 protease II f",
+      "combined_no_tm": 995,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 773,
+        "fusion": 900,
+        "cooccurence": 774,
+        "coexpression": 68,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 91.1,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7ywp-assembly1_A",
+        "evalue": 4.525e-59,
+        "prob": 1.0,
+        "tmscore": 0.934,
+        "description": "7ywp-assembly1_A Closed conformation of Oligopeptidase B from Serratia proteomaculans with covalently bound TCK",
+        "significant": true
+      },
+      {
+        "target": "7yx7-assembly1_A",
+        "evalue": 1.507e-58,
+        "prob": 1.0,
+        "tmscore": 0.9362,
+        "description": "7yx7-assembly1_A Modified oligopeptidase B from S. proteomaculans in intermediate conformation with 1 spermine molecule at 1.72 A resolution",
+        "significant": true
+      },
+      {
+        "target": "2xe4-assembly1_A",
+        "evalue": 3.241e-58,
+        "prob": 1.0,
+        "tmscore": 0.9119,
+        "description": "2xe4-assembly1_A Structure of Oligopeptidase B from Leishmania major",
+        "significant": true
+      },
+      {
+        "target": "7ne5-assembly1_A",
+        "evalue": 1.507e-58,
+        "prob": 1.0,
+        "tmscore": 0.8797,
+        "description": "7ne5-assembly1_A catalytically non active S532A mutant of oligopeptidase B from S. proteomaculans with modified hinge region",
+        "significant": true
+      },
+      {
+        "target": "7zjz-assembly1_A",
+        "evalue": 4.033e-58,
+        "prob": 1.0,
+        "tmscore": 0.8833,
+        "description": "7zjz-assembly1_A catalytically non active S532A mutant of oligopeptidase B from S. proteomaculans",
+        "significant": true
+      },
+      {
+        "target": "4bp9-assembly6_F",
+        "evalue": 1.067e-55,
+        "prob": 1.0,
+        "tmscore": 0.9154,
+        "description": "4bp9-assembly6_F Oligopeptidase B from Trypanosoma brucei with covalently bound antipain - closed form",
+        "significant": true
+      },
+      {
+        "target": "8rfb-assembly1_A",
+        "evalue": 2.912e-39,
+        "prob": 1.0,
+        "tmscore": 0.8074,
+        "description": "8rfb-assembly1_A Cryo-EM structure of the R243C mutant of human Prolyl Endopeptidase-Like (PREPL) protein involved in Congenital myasthenic syndrome-22 (CMS22)",
+        "significant": true
+      },
+      {
+        "target": "5o3u-assembly3_C",
+        "evalue": 1.2e-37,
+        "prob": 1.0,
+        "tmscore": 0.8193,
+        "description": "5o3u-assembly3_C Structural characterization of the fast and promiscuous macrocyclase from plant - PCY1-S562A bound to Presegetalin F1",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF00326",
+      "pfam_name": "Peptidase_S9",
+      "description": "Peptidase_S9",
+      "n_matches": "1"
+    },
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF02897",
+      "pfam_name": "Peptidase_S9_N",
+      "description": "Peptidase_S9_N",
+      "n_matches": "1"
+    }
+  ]
+}

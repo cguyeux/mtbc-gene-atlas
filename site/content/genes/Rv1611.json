@@ -1,0 +1,981 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1611",
+  "mtbc0": "mtbc0_001717",
+  "np_id": "NP_216127.1",
+  "gene": "trpC",
+  "len_aa": 272,
+  "strand": "+",
+  "start_mtbc0": 1822204,
+  "end_mtbc0": 1823022,
+  "product_h37rv": "indole-3-glycerol phosphate synthase",
+  "product_mtbc0_pgap": "indole-3-glycerol phosphate synthase TrpC",
+  "function_revised": "Indole-3-glycerol phosphate synthase TrpC. Pfam: IGPS (PF00218.28).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSPATVLDSILEGVRADVAAREASVSLSEIKAAAAAAPPPLDVMAALREPGIGVIAEVKRASPSAGALATIADPAKLAQAYQDGGARIVSVVTEQRRFQGSLDDLDAVRASVSIPVLRKDFVVQPYQIHEARAHGADMLLLIVAALEQSVLVSMLDRTESLGMTALVEVHTEQEADRALKAGAKVIGVNARDLMTLDVDRDCFARIAPGLPSSVIRIAESGVRGTADLLAYAGAGADAVLVGEGLVTSGDPRAAVADLVTAGTHPSCPKPAR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "IGPS",
+      "pfam_acc": "PF00218.28",
+      "i_evalue": 1e-76,
+      "ali_from": 7,
+      "ali_to": 258,
+      "description": "Indole-3-glycerol phosphate synthase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0134",
+    "cog_cat": "E",
+    "description": "Belongs to the TrpC family",
+    "preferred_name": "trpC",
+    "ec": [
+      "4.1.1.48"
+    ],
+    "kegg_ko": [
+      "K01609"
+    ],
+    "kegg_pathway": [
+      "map00400",
+      "map01100",
+      "map01110",
+      "map01130",
+      "map01230"
+    ],
+    "kegg_module": [
+      "M00023"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0000162",
+      "GO:0000287",
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004425",
+      "GO:0005488",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0006082",
+      "GO:0006520",
+      "GO:0006568",
+      "GO:0006576",
+      "GO:0006586",
+      "GO:0006725",
+      "GO:0006793",
+      "GO:0006796",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0008652",
+      "GO:0009058",
+      "GO:0009072",
+      "GO:0009073",
+      "GO:0009308",
+      "GO:0009309",
+      "GO:0009987",
+      "GO:0016020",
+      "GO:0016053",
+      "GO:0016829",
+      "GO:0016830",
+      "GO:0016831",
+      "GO:0018130",
+      "GO:0019438",
+      "GO:0019637",
+      "GO:0019693",
+      "GO:0019752",
+      "GO:0030312",
+      "GO:0034641",
+      "GO:0040007",
+      "GO:0042401",
+      "GO:0042430",
+      "GO:0042435",
+      "GO:0043167",
+      "GO:0043169",
+      "GO:0043436",
+      "GO:0044106",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044249",
+      "GO:0044271",
+      "GO:0044281",
+      "GO:0044283",
+      "GO:0044464",
+      "GO:0046219",
+      "GO:0046391",
+      "GO:0046394",
+      "GO:0046483",
+      "GO:0046872",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:1901135",
+      "GO:1901360",
+      "GO:1901362",
+      "GO:1901564",
+      "GO:1901566",
+      "GO:1901576",
+      "GO:1901605",
+      "GO:1901607"
+    ],
+    "pfams": [
+      "IGPS"
+    ],
+    "seed_ortholog": "419947.MRA_1621",
+    "evalue": "1.12e-176"
+  },
+  "uniprot": {
+    "acc": "P9WFX7",
+    "reviewed": true,
+    "protein_name": "Indole-3-glycerol phosphate synthase",
+    "ec": [
+      "4.1.1.48"
+    ],
+    "function": "",
+    "go": [
+      "GO:0000162",
+      "GO:0000287",
+      "GO:0004425",
+      "GO:0005886",
+      "GO:0009274",
+      "GO:0046391"
+    ],
+    "kegg": [
+      "mtu:Rv1611",
+      "mtv:RVBD_1611"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 6,
+    "syn": 3,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.363,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1611",
+    "n_partners": 47,
+    "n_context_driven": 15,
+    "partners": [
+      {
+        "rv": "Rv1613",
+        "gene": "trpA",
+        "product": "tryptophan synthase subunit alpha",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 793,
+          "fusion": 0,
+          "cooccurence": 774,
+          "coexpression": 925,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 754
+        }
+      },
+      {
+        "rv": "Rv1612",
+        "gene": "trpB",
+        "product": "tryptophan synthase subunit beta",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 793,
+          "fusion": 856,
+          "cooccurence": 774,
+          "coexpression": 794,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 569
+        }
+      },
+      {
+        "rv": "Rv1609",
+        "gene": "trpE",
+        "product": "anthranilate synthase component I",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 997,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 778,
+          "fusion": 737,
+          "cooccurence": 769,
+          "coexpression": 653,
+          "experimental": 461,
+          "database": 0,
+          "textmining": 656
+        }
+      },
+      {
+        "rv": "Rv0013",
+        "gene": "trpG",
+        "product": "anthranilate synthase component II",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 994,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 900,
+          "cooccurence": 761,
+          "coexpression": 733,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 602
+        }
+      },
+      {
+        "rv": "Rv2192c",
+        "gene": "trpD",
+        "product": "anthranilate phosphoribosyltransferase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 982,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 169,
+          "fusion": 674,
+          "cooccurence": 774,
+          "coexpression": 734,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 871
+        }
+      },
+      {
+        "rv": "Rv2386c",
+        "gene": "mbtI",
+        "product": "salicylate synthase",
+        "hypothetical": false,
+        "combined": 973,
+        "combined_no_tm": 957,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 151,
+          "fusion": 39,
+          "cooccurence": 766,
+          "coexpression": 646,
+          "experimental": 461,
+          "database": 0,
+          "textmining": 416
+        }
+      },
+      {
+        "rv": "Rv1005c",
+        "gene": "pabB",
+        "product": "para-aminobenzoate synthase component I",
+        "hypothetical": false,
+        "combined": 952,
+        "combined_no_tm": 949,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 52,
+          "cooccurence": 744,
+          "coexpression": 647,
+          "experimental": 461,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1614",
+        "gene": "lgt",
+        "product": "prolipoprotein diacylglyceryl transferase",
+        "hypothetical": false,
+        "combined": 935,
+        "combined_no_tm": 935,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 793,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 700,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1603",
+        "gene": "hisA",
+        "product": "1-(5-phosphoribosyl)-5-((5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase",
+        "hypothetical": false,
+        "combined": 979,
+        "combined_no_tm": 928,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 136,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 725
+        }
+      },
+      {
+        "rv": "Rv1887",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 783,
+        "combined_no_tm": 783,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 783,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1610",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 781,
+        "combined_no_tm": 781,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 778,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0544c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 761,
+        "combined_no_tm": 761,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 761,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0701",
+        "gene": "rplC",
+        "product": "50S ribosomal protein L3",
+        "hypothetical": false,
+        "combined": 732,
+        "combined_no_tm": 733,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 733,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3215",
+        "gene": "entC",
+        "product": "isochorismate synthase",
+        "hypothetical": false,
+        "combined": 803,
+        "combined_no_tm": 730,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 103,
+          "cooccurence": 706,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 300
+        }
+      },
+      {
+        "rv": "Rv2238c",
+        "gene": "ahpE",
+        "product": "peroxiredoxin",
+        "hypothetical": false,
+        "combined": 724,
+        "combined_no_tm": 725,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 716,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1613",
+      "gene": "trpA",
+      "product": "tryptophan synthase subunit alpha",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 793,
+        "fusion": 0,
+        "cooccurence": 774,
+        "coexpression": 925,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 754
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: indole-3-glycerol phosphate synthase",
+    "MTBC0 PGAP product: indole-3-glycerol phosphate synthase TrpC",
+    "Pfam (hmmscan --cut_ga): IGPS PF00218.28 (E=1e-76)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 94.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3t55-assembly1_A",
+        "evalue": 2.019e-47,
+        "prob": 1.0,
+        "tmscore": 0.9946,
+        "description": "3t55-assembly1_A Crystal structure of Mycobacterium tuberculosis Indole Glycerol Phosphate Synthase (IGPS) in complex with Phenoxymethyl Benzoic Acid (PMBA)",
+        "significant": true
+      },
+      {
+        "target": "3t78-assembly1_A",
+        "evalue": 2.9e-45,
+        "prob": 1.0,
+        "tmscore": 0.9891,
+        "description": "3t78-assembly1_A Crystal Structure of Mycobacterium tuberculosis Indole Glycerol Phosphate Synthase (IGPS) in Complex with 5-Fluoroanthranilate",
+        "significant": true
+      },
+      {
+        "target": "3qja-assembly1_A",
+        "evalue": 2.297e-41,
+        "prob": 1.0,
+        "tmscore": 0.9363,
+        "description": "3qja-assembly1_A Crystal Structure of the Mycobacterium tuberculosis Indole-3-glycerol phosphate synthase (TrpC) in apo form",
+        "significant": true
+      },
+      {
+        "target": "6y88-assembly8_H",
+        "evalue": 3.177e-25,
+        "prob": 1.0,
+        "tmscore": 0.9351,
+        "description": "6y88-assembly8_H IGPS (Indole-3-glycerol phosphate synthase) from Pseudomonas aeruginosa in complex with substrate inhibitor rCdRP",
+        "significant": true
+      },
+      {
+        "target": "3tsm-assembly1_B",
+        "evalue": 1.746e-25,
+        "prob": 1.0,
+        "tmscore": 0.894,
+        "description": "3tsm-assembly1_B Crystal structure of Indole-3-glycerol phosphate synthase from Brucella melitensis",
+        "significant": true
+      },
+      {
+        "target": "7ety-assembly1_B",
+        "evalue": 6.939e-23,
+        "prob": 1.0,
+        "tmscore": 0.9185,
+        "description": "7ety-assembly1_B Crystal structure of bifunctional indole-3-glycerol phosphate synthase / phosphoribosylanthranilate isomerase (trpC) from Corynebacterium glutamicum in complex with reduced 1-(O-carboxyphenylamino)-1-deoxyribulose 5-phosphate (rCdRP)",
+        "significant": true
+      },
+      {
+        "target": "1pii-assembly1_A",
+        "evalue": 5.001e-22,
+        "prob": 1.0,
+        "tmscore": 0.9497,
+        "description": "1pii-assembly1_A THREE-DIMENSIONAL STRUCTURE OF THE BIFUNCTIONAL ENZYME PHOSPHORIBOSYLANTHRANILATE ISOMERASE: INDOLEGLYCEROLPHOSPHATE SYNTHASE FROM ESCHERICHIA COLI REFINED AT 2.0 ANGSTROMS RESOLUTION",
+        "significant": true
+      },
+      {
+        "target": "1jcm-assembly1_P",
+        "evalue": 1.469e-21,
+        "prob": 1.0,
+        "tmscore": 0.9386,
+        "description": "1jcm-assembly1_P TRPC STABILITY MUTANT CONTAINING AN ENGINEERED DISULPHIDE BRIDGE AND IN COMPLEX WITH A CDRP-RELATED SUBSTRATE",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 630.0,
+    "abundance_rank": 343,
+    "n_ranked": 3519,
+    "abundance_percentile": 90.3,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 272,
+    "mw_kda": 28.0,
+    "pi": 5.07,
+    "gravy": 0.246,
+    "instability_index": 33.4,
+    "instability_class": "stable",
+    "aromaticity": 0.022,
+    "aliphatic_index": 10772.1,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1637",
+        "identity": 100.0,
+        "evalue": 1.74e-180
+      },
+      "M. leprae": {
+        "locus": "ML1271",
+        "identity": 90.8,
+        "evalue": 8.7e-166
+      },
+      "M. marinum": {
+        "locus": "MMAR_2413",
+        "identity": 91.9,
+        "evalue": 4.77e-167
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3219",
+        "identity": 87.1,
+        "evalue": 1.21e-158
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001683",
+        "identity": 100.0,
+        "evalue": 1.63e-180
+      },
+      "M. abscessus": {
+        "locus": "MAB_2645c",
+        "identity": 85.3,
+        "evalue": 2.45e-156
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 7,
+    "structures": [
+      {
+        "pdb_id": "3qja",
+        "method": "X-ray diffraction",
+        "resolution": 1.29,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "4fb7",
+        "method": "X-ray diffraction",
+        "resolution": 1.3,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "3t44",
+        "method": "X-ray diffraction",
+        "resolution": 1.6,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "3t78",
+        "method": "X-ray diffraction",
+        "resolution": 1.6,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "3t40",
+        "method": "X-ray diffraction",
+        "resolution": 1.752,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "3t55",
+        "method": "X-ray diffraction",
+        "resolution": 2.06,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "9hvb",
+        "method": "X-ray diffraction",
+        "resolution": 2.0,
+        "coverage": 0.92
+      }
+    ],
+    "acc": "P9WFX7",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1610",
+      "gene": null,
+      "strand": "+",
+      "gap": 89
+    },
+    "right": {
+      "locus": "Rv1612",
+      "gene": "trpB",
+      "strand": "+",
+      "gap": 68
+    },
+    "operon": [
+      {
+        "locus": "Rv1611",
+        "gene": "trpC"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable indole-3-glycerol phosphate synthase TrpC",
+    "legacy_function": "Tryptophan biosynthesis pathway (fourth step) [catalytic activity: 1-(2-carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate = 1-(indol-3-YL)glycerol 3-phosphate + CO(2) + H(2)O.]",
+    "legacy_ec": [
+      "4.1.1.48"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "4.1.1.48"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -6.056,
+    "ci_low": -7.088,
+    "ci_high": -4.908,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 3,
+      "n_syn": 2,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.182,
+      "power": "low",
+      "interpretation": "low power (3 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 91.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 62.2,
+      "length_aa": 272,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 3,
+    "n_papers_listed": 3,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 2,
+    "n_other": 1,
+    "n_ortholog_tag": 1,
+    "other_species": {
+      "M. leprae": "1"
+    },
+    "summary": "3 publication(s) discuss this gene (2 in a M. tuberculosis context, 1 in other mycobacteria — M. leprae (1)).",
+    "papers": [
+      {
+        "title": "Mycobacterium leprae and host immune transcriptomic signatures for reactional states in leprosy.",
+        "doi": "10.3389/fmicb.2023.1113318",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37051521/",
+        "date": "2023"
+      },
+      {
+        "title": "Integrated gene co-expression network analysis in the growth phase of Mycobacterium tuberculosis reveals new potential drug targets.",
+        "doi": "10.1039/c3mb70278b",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/24056838/",
+        "date": "2013"
+      },
+      {
+        "title": "Purification and characterization of Mycobacterium tuberculosis indole-3-glycerol phosphate synthase.",
+        "doi": "10.1134/s0006297906130062",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16487066/",
+        "date": "2006"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 94.6,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

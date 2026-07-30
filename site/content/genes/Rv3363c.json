@@ -1,0 +1,850 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3363c",
+  "mtbc0": "mtbc0_003578",
+  "np_id": "NP_217880.1",
+  "gene": "",
+  "len_aa": 122,
+  "strand": "-",
+  "start_mtbc0": 3800844,
+  "end_mtbc0": 3801212,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "DUF742 domain-containing protein",
+  "function_revised": "MarR-family DNA-binding transcriptional regulator (eggNOG COG1846, transcription COG category K). A winged-HTH transcriptional regulator; regulon undetermined.",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MFNPAGDRPKAGLVRPYTLTAGRTGTDVDLPLQAPVQTLPAGPAGRWPAYDMRRRILQLCIGSPSVAEISARLDLPVGVARVLVGDLVTSGYLRVHATLTDRSTRDERHELIGRTLRGLKAL",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "DUF742",
+      "pfam_acc": "PF05331.18",
+      "i_evalue": 2.6e-36,
+      "ali_from": 10,
+      "ali_to": 122,
+      "description": "Protein of unknown function (DUF742)"
+    }
+  ],
+  "struct_hits": [
+    {
+      "target": "8jj9-assembly1_A",
+      "evalue": 0.0455,
+      "prob": 0.992,
+      "tmscore": 0.6818,
+      "description": "8jj9-assembly1_A Human FAM91A1 N terminal domain in complex with TBC1D23",
+      "significant": false
+    },
+    {
+      "target": "8fw5-assembly1_B",
+      "evalue": 0.05873,
+      "prob": 0.991,
+      "tmscore": 0.694,
+      "description": "8fw5-assembly1_B Chimeric HsGATOR1-SpGtr-SpLam complex",
+      "significant": false
+    },
+    {
+      "target": "2yu3-assembly1_A",
+      "evalue": 0.02255,
+      "prob": 0.981,
+      "tmscore": 0.5826,
+      "description": "2yu3-assembly1_A Solution structure of the domain swapped WingedHelix in DNA-directed RNA polymerase III 39 kDa polypeptide",
+      "significant": false
+    },
+    {
+      "target": "8fw5-assembly1_C",
+      "evalue": 0.3984,
+      "prob": 0.855,
+      "tmscore": 0.6847,
+      "description": "8fw5-assembly1_C Chimeric HsGATOR1-SpGtr-SpLam complex",
+      "significant": false
+    },
+    {
+      "target": "3k9t-assembly1_A",
+      "evalue": 0.5843,
+      "prob": 0.473,
+      "tmscore": 0.5568,
+      "description": "3k9t-assembly1_A Crystal structure of putative peptidase (NP_348812.1) from CLOSTRIDIUM ACETOBUTYLICUM at 2.37 A resolution",
+      "significant": false
+    },
+    {
+      "target": "7t3c-assembly1_B",
+      "evalue": 0.7075,
+      "prob": 0.442,
+      "tmscore": 0.5866,
+      "description": "7t3c-assembly1_B GATOR1-RAG-RAGULATOR - Dual Complex",
+      "significant": false
+    },
+    {
+      "target": "3tgn-assembly1_B",
+      "evalue": 2.094,
+      "prob": 0.301,
+      "tmscore": 0.6685,
+      "description": "3tgn-assembly1_B Crystal Structure of the zinc-dependent MarR Family Transcriptional Regulator AdcR in the Zn(II)-bound State",
+      "significant": false
+    },
+    {
+      "target": "6cet-assembly1_N",
+      "evalue": 2.702,
+      "prob": 0.179,
+      "tmscore": 0.5755,
+      "description": "6cet-assembly1_N Cryo-EM structure of GATOR1",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "COG1846",
+    "cog_cat": "K",
+    "description": "Protein of unknown function (DUF742)",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "DUF742"
+    ],
+    "seed_ortholog": "419947.MRA_3403",
+    "evalue": "2.27e-82"
+  },
+  "uniprot": {
+    "acc": "O50392",
+    "reviewed": false,
+    "protein_name": "DUF742 domain-containing protein",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0005886"
+    ],
+    "kegg": [
+      "mtu:Rv3363c",
+      "mtv:RVBD_3363c"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {},
+  "plddt": {
+    "mean_plddt": 58.2,
+    "n_residues": 122,
+    "band": "low"
+  },
+  "string": {
+    "string_id": "83332.Rv3363c",
+    "n_partners": 112,
+    "n_context_driven": 12,
+    "partners": [
+      {
+        "rv": "Rv3362c",
+        "gene": "",
+        "product": "ATP/GTP-binding protein",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 995,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 774,
+          "coexpression": 824,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 892
+        }
+      },
+      {
+        "rv": "Rv3364c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 997,
+        "combined_no_tm": 984,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 774,
+          "coexpression": 458,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv3365c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 997,
+        "combined_no_tm": 981,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 285,
+          "experimental": 138,
+          "database": 0,
+          "textmining": 881
+        }
+      },
+      {
+        "rv": "Rv3361c",
+        "gene": "mfpA",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 995,
+        "combined_no_tm": 967,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 735,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv0860",
+        "gene": "fadB",
+        "product": "fatty oxidation protein FadB",
+        "hypothetical": false,
+        "combined": 797,
+        "combined_no_tm": 788,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 647,
+          "experimental": 165,
+          "database": 315,
+          "textmining": 86
+        }
+      },
+      {
+        "rv": "Rv3028c",
+        "gene": "fixB",
+        "product": "electron transfer flavoprotein subunit alpha",
+        "hypothetical": false,
+        "combined": 668,
+        "combined_no_tm": 654,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 412,
+          "experimental": 419,
+          "database": 0,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv3029c",
+        "gene": "fixA",
+        "product": "electron transfer flavoprotein subunit beta",
+        "hypothetical": false,
+        "combined": 664,
+        "combined_no_tm": 650,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 406,
+          "experimental": 418,
+          "database": 0,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv3153",
+        "gene": "nuoI",
+        "product": "NADH-quinone oxidoreductase subunit I",
+        "hypothetical": false,
+        "combined": 652,
+        "combined_no_tm": 638,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 63,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 82,
+          "experimental": 384,
+          "database": 398,
+          "textmining": 80
+        }
+      },
+      {
+        "rv": "Rv2940c",
+        "gene": "mas",
+        "product": "multifunctional mycocerosic acid synthase",
+        "hypothetical": false,
+        "combined": 619,
+        "combined_no_tm": 588,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 129,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 97,
+          "experimental": 147,
+          "database": 459,
+          "textmining": 113
+        }
+      },
+      {
+        "rv": "Rv3825c",
+        "gene": "pks2",
+        "product": "phthioceranic/hydroxyphthioceranic acid synthase",
+        "hypothetical": false,
+        "combined": 619,
+        "combined_no_tm": 588,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 129,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 97,
+          "experimental": 147,
+          "database": 459,
+          "textmining": 113
+        }
+      },
+      {
+        "rv": "Rv2048c",
+        "gene": "pks12",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 619,
+        "combined_no_tm": 588,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 129,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 97,
+          "experimental": 147,
+          "database": 459,
+          "textmining": 113
+        }
+      },
+      {
+        "rv": "Rv1043c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 586,
+        "combined_no_tm": 587,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 226,
+          "coexpression": 44,
+          "experimental": 134,
+          "database": 431,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2933",
+        "gene": "ppsC",
+        "product": "phthiocerol synthesis polyketide synthase type I PpsC",
+        "hypothetical": false,
+        "combined": 617,
+        "combined_no_tm": 586,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 129,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 92,
+          "experimental": 147,
+          "database": 459,
+          "textmining": 113
+        }
+      },
+      {
+        "rv": "Rv1527c",
+        "gene": "pks5",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 615,
+        "combined_no_tm": 584,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 129,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 87,
+          "experimental": 147,
+          "database": 459,
+          "textmining": 113
+        }
+      },
+      {
+        "rv": "Rv0673",
+        "gene": "echA4",
+        "product": "enoyl-CoA hydratase EchA4",
+        "hypothetical": false,
+        "combined": 577,
+        "combined_no_tm": 578,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 326,
+          "experimental": 154,
+          "database": 315,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3362c",
+      "gene": "",
+      "product": "ATP/GTP-binding protein",
+      "combined_no_tm": 995,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 774,
+        "coexpression": 824,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 892
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "eggNOG ortholog COG1846 (COG category K), e-value 2.27e-82",
+    "NCBI COG name for COG1846: DNA-binding transcriptional regulator, MarR family",
+    "COG-number rescue: the eggNOG og is a NAMED COG (NCBI COG database) whose function the eggNOG description field (a DUF) had masked; under-propagated by both the auto-curation and the description-based phase18. Family-level orthology, not a substrate demonstrated in M. tuberculosis."
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 86.2,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8jj9-assembly1_A",
+        "evalue": 0.005642,
+        "prob": 1.0,
+        "tmscore": 0.6864,
+        "description": "8jj9-assembly1_A Human FAM91A1 N terminal domain in complex with TBC1D23",
+        "significant": true
+      },
+      {
+        "target": "8fw5-assembly1_B",
+        "evalue": 0.0222,
+        "prob": 0.993,
+        "tmscore": 0.6392,
+        "description": "8fw5-assembly1_B Chimeric HsGATOR1-SpGtr-SpLam complex",
+        "significant": false
+      },
+      {
+        "target": "8ae6-assembly1_S",
+        "evalue": 0.05533,
+        "prob": 0.992,
+        "tmscore": 0.7154,
+        "description": "8ae6-assembly1_S Cryo-EM structure of the SEA complex wing (SEACIT)",
+        "significant": false
+      },
+      {
+        "target": "8jj9-assembly1_B",
+        "evalue": 0.0455,
+        "prob": 0.99,
+        "tmscore": 0.6764,
+        "description": "8jj9-assembly1_B Human FAM91A1 N terminal domain in complex with TBC1D23",
+        "significant": false
+      },
+      {
+        "target": "2yu3-assembly1_A",
+        "evalue": 0.0222,
+        "prob": 0.988,
+        "tmscore": 0.6016,
+        "description": "2yu3-assembly1_A Solution structure of the domain swapped WingedHelix in DNA-directed RNA polymerase III 39 kDa polypeptide",
+        "significant": false
+      },
+      {
+        "target": "7t3a-assembly1_B",
+        "evalue": 0.1292,
+        "prob": 0.949,
+        "tmscore": 0.6619,
+        "description": "7t3a-assembly1_B GATOR1-RAG-RAGULATOR - Inhibitory Complex",
+        "significant": false
+      },
+      {
+        "target": "8fw5-assembly1_C",
+        "evalue": 0.204,
+        "prob": 0.941,
+        "tmscore": 0.6985,
+        "description": "8fw5-assembly1_C Chimeric HsGATOR1-SpGtr-SpLam complex",
+        "significant": false
+      },
+      {
+        "target": "1rnl-assembly1_A",
+        "evalue": 0.3437,
+        "prob": 0.817,
+        "tmscore": 0.7624,
+        "description": "1rnl-assembly1_A THE NITRATE/NITRITE RESPONSE REGULATOR PROTEIN NARL FROM NARL",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 3.92,
+    "abundance_rank": 3019,
+    "n_ranked": 3519,
+    "abundance_percentile": 14.2,
+    "n_datasets": 5,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 122,
+    "mw_kda": 13.2,
+    "pi": 10.43,
+    "gravy": -0.127,
+    "instability_index": 57.3,
+    "instability_class": "unstable",
+    "aromaticity": 0.041,
+    "aliphatic_index": 10073.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb3398c",
+        "identity": 99.2,
+        "evalue": 1.01e-85
+      },
+      "M. marinum": {
+        "locus": "MMAR_1167",
+        "identity": 82.3,
+        "evalue": 1.89e-60
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_1639",
+        "identity": 68.2,
+        "evalue": 7.04e-48
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003466",
+        "identity": 99.2,
+        "evalue": 9.49e-86
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv3362c",
+      "gene": null,
+      "strand": "-",
+      "gap": -20
+    },
+    "right": {
+      "locus": "Rv3364c",
+      "gene": null,
+      "strand": "-",
+      "gap": -23
+    },
+    "operon": [
+      {
+        "locus": "Rv3361c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3362c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3363c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3364c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3365c",
+        "gene": null
+      }
+    ],
+    "operon_size": 5,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": true,
+    "ahead_via": [
+      "COG category"
+    ],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -0.357,
+    "ci_low": -1.779,
+    "ci_high": 1.358,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 51,
+      "n_total": 53,
+      "frac": 0.962,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 77.4,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 51/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 3,
+      "crossgenus_genomes": [
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2"
+      ],
+      "mean_pident": 46.4,
+      "length_aa": 122,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication in PubMed mentions this gene in its title or abstract — not under its H37Rv locus tag, nor under any of its ortholog identifiers (M. bovis, M. marinum, M. smegmatis, M. leprae, M. abscessus). The atlas annotation rests on sequence/structure evidence, not on a primary study of this gene.",
+    "papers": [],
+    "by_alias": {},
+    "caveat": "A verified absence of literature is itself information: it flags an annotation with no primary study behind it.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.344,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 42,
+    "total_idr_residues": 42,
+    "idr_regions": [
+      [
+        0,
+        42
+      ]
+    ],
+    "mean_plddt": 86.2,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (42/122 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

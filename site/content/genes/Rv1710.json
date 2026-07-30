@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1710",
+  "mtbc0": "mtbc0_001820",
+  "np_id": "NP_216226.1",
+  "gene": "scpB",
+  "len_aa": 231,
+  "strand": "+",
+  "start_mtbc0": 1950161,
+  "end_mtbc0": 1950856,
+  "product_h37rv": "segregation and condensation protein ScpB",
+  "product_mtbc0_pgap": "SMC-Scp complex subunit ScpB",
+  "function_revised": "SMC-Scp complex subunit ScpB. Pfam: SMC_ScpB (PF04079.23).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTEHMPEHDPSYGIPDIAEPAELDADELKRVLEALLLVIDTPVTADALAAATEQPVYRVAAKLQLMADELTGRDSGIDLRHTSEGWRMYTRARFAPYVEKLLLDGARTKLTRAALETLAVVAYRQPVTRARVSAVRGVNVDAVMRTLLARGLITEVGTDADTGAVTFATTELFLERLGLTSLSELPDIAPLLPDVDTIDDLSESLDSEPRFIKLTGELASEQTLSFDVDRD",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "SMC_ScpB",
+      "pfam_acc": "PF04079.23",
+      "i_evalue": 1.3e-45,
+      "ali_from": 31,
+      "ali_to": 188,
+      "description": "Segregation and condensation complex subunit ScpB"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1386",
+    "cog_cat": "D",
+    "description": "Participates in chromosomal partition during cell division. May act via the formation of a condensin-like complex containing Smc and ScpA that pull DNA away from mid-cell into both cell halves",
+    "preferred_name": "scpB",
+    "ec": [],
+    "kegg_ko": [
+      "K06024"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "SMC_ScpB"
+    ],
+    "seed_ortholog": "419947.MRA_1720",
+    "evalue": "4.98e-155"
+  },
+  "uniprot": {
+    "acc": "I6XCB2",
+    "reviewed": false,
+    "protein_name": "Possible segregation and condensation protein ScpB",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0051301",
+      "GO:0051304"
+    ],
+    "kegg": [
+      "mtu:Rv1710",
+      "mtv:RVBD_1710"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 1,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.358,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1710",
+    "n_partners": 35,
+    "n_context_driven": 15,
+    "partners": [
+      {
+        "rv": "Rv1709",
+        "gene": "scpA",
+        "product": "segregation and condensation protein ScpA",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 944,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 957
+        }
+      },
+      {
+        "rv": "Rv1712",
+        "gene": "cmk",
+        "product": "cytidylate kinase",
+        "hypothetical": false,
+        "combined": 990,
+        "combined_no_tm": 983,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 220,
+          "coexpression": 829,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 489
+        }
+      },
+      {
+        "rv": "Rv1711",
+        "gene": "",
+        "product": "RNA pseudouridine synthase",
+        "hypothetical": false,
+        "combined": 988,
+        "combined_no_tm": 977,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 814,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 509
+        }
+      },
+      {
+        "rv": "Rv1713",
+        "gene": "engA",
+        "product": "GTPase Der",
+        "hypothetical": false,
+        "combined": 981,
+        "combined_no_tm": 971,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 190,
+          "coexpression": 723,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 390
+        }
+      },
+      {
+        "rv": "Rv1708",
+        "gene": "",
+        "product": "initiation inhibitor protein",
+        "hypothetical": false,
+        "combined": 923,
+        "combined_no_tm": 919,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 286,
+          "coexpression": 111,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv2922c",
+        "gene": "smc",
+        "product": "chromosome partition protein Smc",
+        "hypothetical": false,
+        "combined": 938,
+        "combined_no_tm": 814,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 770,
+          "coexpression": 57,
+          "experimental": 167,
+          "database": 0,
+          "textmining": 681
+        }
+      },
+      {
+        "rv": "Rv1707",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 756,
+        "combined_no_tm": 757,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 757,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1703c",
+        "gene": "",
+        "product": "methyltransferase",
+        "hypothetical": false,
+        "combined": 709,
+        "combined_no_tm": 709,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 389,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1714",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 518,
+        "combined_no_tm": 519,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 489,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 97,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1716",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 496,
+        "combined_no_tm": 496,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 489,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1715",
+        "gene": "fadB3",
+        "product": "3-hydroxybutyryl-CoA dehydrogenase FadB",
+        "hypothetical": false,
+        "combined": 496,
+        "combined_no_tm": 495,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 488,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2155c",
+        "gene": "murD",
+        "product": "UDP-N-acetylmuramoylalanine--D-glutamate ligase",
+        "hypothetical": false,
+        "combined": 490,
+        "combined_no_tm": 490,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 461,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1717",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 484,
+        "combined_no_tm": 484,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 476,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1706A",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 460,
+        "combined_no_tm": 459,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 459,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2786c",
+        "gene": "ribF",
+        "product": "bifunctional riboflavin kinase /FMN adenylyltransferase",
+        "hypothetical": false,
+        "combined": 459,
+        "combined_no_tm": 459,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 442,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1709",
+      "gene": "scpA",
+      "product": "segregation and condensation protein ScpA",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 881,
+        "fusion": 0,
+        "cooccurence": 773,
+        "coexpression": 944,
+        "experimental": 928,
+        "database": 0,
+        "textmining": 957
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: segregation and condensation protein ScpB",
+    "MTBC0 PGAP product: SMC-Scp complex subunit ScpB",
+    "Pfam (hmmscan --cut_ga): SMC_ScpB PF04079.23 (E=1e-45)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 80.7,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2z99-assembly1_A-2",
+        "evalue": 9.755e-27,
+        "prob": 1.0,
+        "tmscore": 0.5476,
+        "description": "2z99-assembly1_A-2 Crystal Structure of ScpB from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "3w6j-assembly2_E",
+        "evalue": 4.159e-16,
+        "prob": 1.0,
+        "tmscore": 0.5114,
+        "description": "3w6j-assembly2_E Crystal structure of ScpAB core complex",
+        "significant": true
+      },
+      {
+        "target": "3w6j-assembly1_C",
+        "evalue": 8.59e-15,
+        "prob": 1.0,
+        "tmscore": 0.4872,
+        "description": "3w6j-assembly1_C Crystal structure of ScpAB core complex",
+        "significant": true
+      },
+      {
+        "target": "4i98-assembly1_B",
+        "evalue": 6.071e-14,
+        "prob": 1.0,
+        "tmscore": 0.4973,
+        "description": "4i98-assembly1_B Crystal structure of the complex between ScpA(residues 1-160)-ScpB(residues 1-183)",
+        "significant": true
+      },
+      {
+        "target": "4i98-assembly1_C",
+        "evalue": 5.523e-13,
+        "prob": 1.0,
+        "tmscore": 0.4841,
+        "description": "4i98-assembly1_C Crystal structure of the complex between ScpA(residues 1-160)-ScpB(residues 1-183)",
+        "significant": true
+      },
+      {
+        "target": "1t6s-assembly1_A",
+        "evalue": 7.108e-13,
+        "prob": 1.0,
+        "tmscore": 0.4512,
+        "description": "1t6s-assembly1_A Crystal structure of a conserved hypothetical protein from Chlorobium tepidum",
+        "significant": true
+      },
+      {
+        "target": "6juv-assembly1_A",
+        "evalue": 5.023e-10,
+        "prob": 1.0,
+        "tmscore": 0.3784,
+        "description": "6juv-assembly1_A Crytsal structure of ScpB derived from Pyrococcus yayanosii",
+        "significant": true
+      },
+      {
+        "target": "3w6k-assembly2_E",
+        "evalue": 0.0001514,
+        "prob": 1.0,
+        "tmscore": 0.9004,
+        "description": "3w6k-assembly2_E Crystal structure of dimer of ScpB N-terminal domain complexed with ScpA peptide",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 47.8,
+    "abundance_rank": 1783,
+    "n_ranked": 3519,
+    "abundance_percentile": 49.4,
+    "n_datasets": 12,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 231,
+    "mw_kda": 25.3,
+    "pi": 4.51,
+    "gravy": -0.067,
+    "instability_index": 24.8,
+    "instability_class": "stable",
+    "aromaticity": 0.048,
+    "aliphatic_index": 10393.9,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1737",
+        "identity": 99.6,
+        "evalue": 6.38e-158
+      },
+      "M. leprae": {
+        "locus": "ML1369",
+        "identity": 77.9,
+        "evalue": 1.12e-120
+      },
+      "M. marinum": {
+        "locus": "MMAR_2525",
+        "identity": 79.1,
+        "evalue": 2.6e-124
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3741",
+        "identity": 79.1,
+        "evalue": 1.31e-108
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001789",
+        "identity": 99.6,
+        "evalue": 5.96e-158
+      },
+      "M. abscessus": {
+        "locus": "MAB_2369",
+        "identity": 70.5,
+        "evalue": 5.66e-93
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 1,
+    "n_in_vivo": 1,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.33,
+        "qval": 0.0094,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1709",
+      "gene": "scpA",
+      "strand": "+",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv1711",
+      "gene": null,
+      "strand": "+",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv1707",
+        "gene": null
+      },
+      {
+        "locus": "Rv1708",
+        "gene": null
+      },
+      {
+        "locus": "Rv1709",
+        "gene": "scpA"
+      },
+      {
+        "locus": "Rv1710",
+        "gene": "scpB"
+      },
+      {
+        "locus": "Rv1711",
+        "gene": null
+      },
+      {
+        "locus": "Rv1712",
+        "gene": "cmk"
+      },
+      {
+        "locus": "Rv1713",
+        "gene": "engA"
+      }
+    ],
+    "operon_size": 7,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible segregation and condensation protein ScpB",
+    "legacy_function": "Involved in chromosome structure and partitioning",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -7.061,
+    "ci_low": -10.05,
+    "ci_high": -3.167,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 81.7,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 10,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 58.6,
+      "length_aa": 231,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 5,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 4,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "5 publication(s) discuss this gene (4 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Biochemical and functional characterization of the SMC holocomplex from Mycobacterium smegmatis.",
+        "doi": "10.1099/mic.0.001011",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33350902/",
+        "date": "2021"
+      },
+      {
+        "title": "Characterization of Streptococcus lutetiensis isolated from clinical mastitis of dairy cows.",
+        "doi": "10.3168/jds.2020-18347",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33162075/",
+        "date": "2021"
+      },
+      {
+        "title": "Crystal structure and domain characterization of ScpB from Mycobacterium tuberculosis.",
+        "doi": "10.1002/prot.21981",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/18300244/",
+        "date": "2008"
+      },
+      {
+        "title": "Cloning, expression, purification, crystallization and X-ray crystallographic analysis of ScpB (Rv1710) from Mycobacterium tuberculosis.",
+        "doi": "10.1107/S1744309107056953",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/18084093/",
+        "date": "2007"
+      },
+      {
+        "title": "Serum carboxypeptidase B levels during acute and mild Babesia bovis and acute Babesia bigemina infections of cattle.",
+        "doi": "10.1007/BF00927535",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/7456644/",
+        "date": "1980"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.074,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 17,
+    "total_idr_residues": 17,
+    "idr_regions": [
+      [
+        0,
+        17
+      ]
+    ],
+    "mean_plddt": 80.7,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

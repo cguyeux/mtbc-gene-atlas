@@ -1,0 +1,1004 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1326c",
+  "mtbc0": "mtbc0_001423",
+  "np_id": "NP_215842.1",
+  "gene": "glgB",
+  "len_aa": 731,
+  "strand": "-",
+  "start_mtbc0": 1500819,
+  "end_mtbc0": 1503014,
+  "product_h37rv": "1,4-alpha-glucan branching protein",
+  "product_mtbc0_pgap": "1%2C4-alpha-glucan branching protein GlgB",
+  "function_revised": "1%2C4-alpha-glucan branching protein GlgB. Pfam: GlgB_N (PF22019.3), CBM_48 (PF02922.25), Alpha-amylase (PF00128.32), Alpha-amylase_C (PF02806.25).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSRSEKLTGEHLAPEPAEMARLVAGTHHNPHGILGAHEYGDHTVIRAFRPHAVEVVALVGKDRFSLQHLDSGLFAVALPFVDLIDYRLQVTYEGCEPHTVADAYRFLPTLGEVDLHLFAEGRHERLWEVLGAHPRSFTTADGVVSGVSFAVWAPNAKGVSLIGEFNGWNGHEAPMRVLGPSGVWELFWPDFPCDGLYKFRVHGADGVVTDRADPFAFGTEVPPQTASRVTSSDYTWGDDDWMAGRALRNPVNEAMSTYEVHLGSWRPGLSYRQLARELTDYIVDQGFTHVELLPVAEHPFAGSWGYQVTSYYAPTSRFGTPDDFRALVDALHQAGIGVIVDWVPAHFPKDAWALGRFDGTPLYEHSDPKRGEQLDWGTYVFDFGRPEVRNFLVANALYWLQEFHIDGLRVDAVASMLYLDYSRPEGGWTPNVHGGRENLEAVQFLQEMNATAHKVAPGIVTIAEESTSWPGVTRPTNIGGLGFSMKWNMGWMHDTLDYVSRDPVYRSYHHHEMTFSMLYAFSENYVLPLSHDEVVHGKGTLWGRMPGNNHVKAAGLRSLLAYQWAHPGKQLLFMGQEFGQRAEWSEQRGLDWFQLDENGFSNGIQRLVRDINDIYRCHPALWSLDTTPEGYSWIDANDSANNVLSFMRYGSDGSVLACVFNFAGAEHRDYRLGLPRAGRWREVLNTDATIYHGSGIGNLGGVDATDDPWHGRPASAVLVLPPTSALWLTPA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "GlgB_N",
+      "pfam_acc": "PF22019.3",
+      "i_evalue": 2.1e-25,
+      "ali_from": 16,
+      "ali_to": 104,
+      "description": "alpha-1,4-glucan branching enzyme GlgB, N-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "CBM_48",
+      "pfam_acc": "PF02922.25",
+      "i_evalue": 2.5e-23,
+      "ali_from": 130,
+      "ali_to": 216,
+      "description": "Carbohydrate-binding module 48 (Isoamylase N-terminal domain)"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Alpha-amylase",
+      "pfam_acc": "PF00128.32",
+      "i_evalue": 3.3e-09,
+      "ali_from": 280,
+      "ali_to": 348,
+      "description": "Alpha amylase, catalytic domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Alpha-amylase_C",
+      "pfam_acc": "PF02806.25",
+      "i_evalue": 3.3e-25,
+      "ali_from": 633,
+      "ali_to": 730,
+      "description": "Alpha amylase, C-terminal all-beta domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0296",
+    "cog_cat": "G",
+    "description": "Catalyzes the formation of the alpha-1,6-glucosidic linkages in glycogen by scission of a 1,4-alpha-linked oligosaccharide from growing alpha-1,4-glucan chains and the subsequent attachment of the oligosaccharide to the alpha-1,6 position",
+    "preferred_name": "glgB",
+    "ec": [
+      "2.4.1.18"
+    ],
+    "kegg_ko": [
+      "K00700"
+    ],
+    "kegg_pathway": [
+      "map00500",
+      "map01100",
+      "map01110"
+    ],
+    "kegg_module": [
+      "M00565"
+    ],
+    "cazy": [
+      "CBM48",
+      "GH13"
+    ],
+    "go": [
+      "GO:0000271",
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0003844",
+      "GO:0005575",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0005975",
+      "GO:0005976",
+      "GO:0005977",
+      "GO:0005978",
+      "GO:0006073",
+      "GO:0006091",
+      "GO:0006112",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009058",
+      "GO:0009059",
+      "GO:0009250",
+      "GO:0009987",
+      "GO:0015980",
+      "GO:0016020",
+      "GO:0016051",
+      "GO:0016740",
+      "GO:0016757",
+      "GO:0016758",
+      "GO:0033692",
+      "GO:0034637",
+      "GO:0034645",
+      "GO:0040007",
+      "GO:0043170",
+      "GO:0044042",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044249",
+      "GO:0044260",
+      "GO:0044262",
+      "GO:0044264",
+      "GO:0044464",
+      "GO:0055114",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:1901576"
+    ],
+    "pfams": [
+      "Alpha-amylase",
+      "Alpha-amylase_C",
+      "CBM_48"
+    ],
+    "seed_ortholog": "419947.MRA_1334",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WN45",
+    "reviewed": true,
+    "protein_name": "1,4-alpha-glucan branching enzyme GlgB",
+    "ec": [
+      "2.4.1.18"
+    ],
+    "function": "Essential enzyme that catalyzes the formation of the alpha-1,6-glucosidic linkages in glucan chains by scission of a 1,4-alpha-linked oligosaccharide from growing alpha-1,4-glucan chains and the subsequent attachment of the oligosaccharide to the alpha-1,6 position. Is involved in the biosynthesis of both glycogen and capsular alpha-D-glucan",
+    "go": [
+      "GO:0003844",
+      "GO:0004553",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0005978",
+      "GO:0009250",
+      "GO:0043169",
+      "GO:0045227"
+    ],
+    "kegg": [
+      "mtu:Rv1326c",
+      "mtv:RVBD_1326c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 17,
+    "syn": 8,
+    "missense": 9,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.354,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1326c",
+    "n_partners": 52,
+    "n_context_driven": 8,
+    "partners": [
+      {
+        "rv": "Rv1327c",
+        "gene": "glgE",
+        "product": "alpha-1,4-glucan:maltose-1-phosphate maltosyltransferase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 351,
+          "coexpression": 844,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 965
+        }
+      },
+      {
+        "rv": "Rv1328",
+        "gene": "glgP",
+        "product": "glycogen phosphorylase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 995,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 768,
+          "fusion": 0,
+          "cooccurence": 224,
+          "coexpression": 732,
+          "experimental": 147,
+          "database": 900,
+          "textmining": 937
+        }
+      },
+      {
+        "rv": "Rv1781c",
+        "gene": "malQ",
+        "product": "4-alpha-glucanotransferase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 991,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 98,
+          "fusion": 736,
+          "cooccurence": 441,
+          "coexpression": 409,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 773
+        }
+      },
+      {
+        "rv": "Rv1564c",
+        "gene": "treX",
+        "product": "maltooligosyl trehalose synthase",
+        "hypothetical": false,
+        "combined": 993,
+        "combined_no_tm": 981,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 296,
+          "coexpression": 704,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 666
+        }
+      },
+      {
+        "rv": "Rv3032",
+        "gene": "",
+        "product": "glycogen synthase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 977,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 410,
+          "experimental": 203,
+          "database": 955,
+          "textmining": 890
+        }
+      },
+      {
+        "rv": "Rv0127",
+        "gene": "mak",
+        "product": "maltokinase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 949,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 899,
+          "cooccurence": 164,
+          "coexpression": 348,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 955
+        }
+      },
+      {
+        "rv": "Rv1213",
+        "gene": "glgC",
+        "product": "glucose-1-phosphate adenylyltransferase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 944,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 178,
+          "fusion": 1,
+          "cooccurence": 763,
+          "coexpression": 734,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 959
+        }
+      },
+      {
+        "rv": "Rv0126",
+        "gene": "treS",
+        "product": "trehalose synthase/amylase TreS",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 935,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 267,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 965
+        }
+      },
+      {
+        "rv": "Rv1212c",
+        "gene": "glgA",
+        "product": "capsular glucan synthase",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 910,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 236,
+          "coexpression": 410,
+          "experimental": 203,
+          "database": 777,
+          "textmining": 954
+        }
+      },
+      {
+        "rv": "Rv3068c",
+        "gene": "pgmA",
+        "product": "phosphoglucomutase PgmA",
+        "hypothetical": false,
+        "combined": 917,
+        "combined_no_tm": 906,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 687,
+          "cooccurence": 0,
+          "coexpression": 696,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv3031",
+        "gene": "",
+        "product": "1,4-alpha-glucan-branching protein",
+        "hypothetical": false,
+        "combined": 987,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 70,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 875
+        }
+      },
+      {
+        "rv": "Rv2610c",
+        "gene": "pimA",
+        "product": "alpha-(1-2)-phosphatidylinositol mannosyltransferase",
+        "hypothetical": false,
+        "combined": 817,
+        "combined_no_tm": 783,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 414,
+          "experimental": 203,
+          "database": 572,
+          "textmining": 192
+        }
+      },
+      {
+        "rv": "Rv2729c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 805,
+        "combined_no_tm": 782,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 411,
+          "experimental": 203,
+          "database": 572,
+          "textmining": 143
+        }
+      },
+      {
+        "rv": "Rv0806c",
+        "gene": "cpsY",
+        "product": "exopolysaccharide phosphotransferase CpsY",
+        "hypothetical": false,
+        "combined": 792,
+        "combined_no_tm": 782,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 411,
+          "experimental": 203,
+          "database": 572,
+          "textmining": 88
+        }
+      },
+      {
+        "rv": "Rv2188c",
+        "gene": "pimB",
+        "product": "alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase",
+        "hypothetical": false,
+        "combined": 819,
+        "combined_no_tm": 781,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 407,
+          "experimental": 203,
+          "database": 572,
+          "textmining": 212
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1327c",
+      "gene": "glgE",
+      "product": "alpha-1,4-glucan:maltose-1-phosphate maltosyltransferase",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 351,
+        "coexpression": 844,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 965
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 1,4-alpha-glucan branching protein",
+    "MTBC0 PGAP product: 1%2C4-alpha-glucan branching protein GlgB",
+    "Pfam (hmmscan --cut_ga): GlgB_N PF22019.3 (E=2e-25), CBM_48 PF02922.25 (E=3e-23), Alpha-amylase PF00128.32 (E=3e-09), Alpha-amylase_C PF02806.25 (E=3e-25)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 95.7,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3k1d-assembly1_A",
+        "evalue": 0.0,
+        "prob": 1.0,
+        "tmscore": 0.9747,
+        "description": "3k1d-assembly1_A Crystal structure of glycogen branching enzyme synonym: 1,4-alpha-D-glucan:1,4-alpha-D-GLUCAN 6-glucosyl-transferase from mycobacterium tuberculosis H37RV",
+        "significant": true
+      },
+      {
+        "target": "6klf-assembly1_A",
+        "evalue": 1.149e-94,
+        "prob": 1.0,
+        "tmscore": 0.8339,
+        "description": "6klf-assembly1_A Crystal structure of branching enzyme D434A mutant from Cyanothece sp. ATCC 51142",
+        "significant": true
+      },
+      {
+        "target": "5gqx-assembly1_A",
+        "evalue": 6.827e-94,
+        "prob": 1.0,
+        "tmscore": 0.8357,
+        "description": "5gqx-assembly1_A Crystal structure of branching enzyme W610N mutant from Cyanothece sp. ATCC 51142 in complex with maltoheptaose",
+        "significant": true
+      },
+      {
+        "target": "5gr0-assembly1_A",
+        "evalue": 2.905e-93,
+        "prob": 1.0,
+        "tmscore": 0.8312,
+        "description": "5gr0-assembly1_A Crystal structure of branching enzyme D501A mutant from Cyanothece sp. ATCC 51142",
+        "significant": true
+      },
+      {
+        "target": "5gr4-assembly1_A",
+        "evalue": 1.461e-92,
+        "prob": 1.0,
+        "tmscore": 0.8364,
+        "description": "5gr4-assembly1_A Crystal structure of branching enzyme L541A mutant from Cyanothece sp. ATCC 51142 in complex with maltoheptaose",
+        "significant": true
+      },
+      {
+        "target": "5gqy-assembly1_A",
+        "evalue": 7.918e-93,
+        "prob": 1.0,
+        "tmscore": 0.8358,
+        "description": "5gqy-assembly1_A Crystal structure of branching enzyme from Cyanothece sp. ATCC 51142 in complex with maltoheptaose",
+        "significant": true
+      },
+      {
+        "target": "5gr5-assembly1_A",
+        "evalue": 2.55e-92,
+        "prob": 1.0,
+        "tmscore": 0.8363,
+        "description": "5gr5-assembly1_A Crystal structure of branching enzyme W610A mutant from Cyanothece sp. ATCC 51142",
+        "significant": true
+      },
+      {
+        "target": "5gqz-assembly1_A",
+        "evalue": 3.369e-92,
+        "prob": 1.0,
+        "tmscore": 0.8351,
+        "description": "5gqz-assembly1_A Crystal structure of branching enzyme Y500A mutant from Cyanothece sp. ATCC 51142",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 191.0,
+    "abundance_rank": 870,
+    "n_ranked": 3519,
+    "abundance_percentile": 75.3,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 731,
+    "mw_kda": 81.7,
+    "pi": 5.43,
+    "gravy": -0.288,
+    "instability_index": 28.2,
+    "instability_class": "stable",
+    "aromaticity": 0.122,
+    "aliphatic_index": 7658.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1361c",
+        "identity": 99.6,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_4072",
+        "identity": 88.6,
+        "evalue": 0.0
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4918",
+        "identity": 81.8,
+        "evalue": 0.0
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001400",
+        "identity": 99.6,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_1467c",
+        "identity": 76.9,
+        "evalue": 0.0
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "3k1d",
+        "method": "X-ray diffraction",
+        "resolution": 2.33,
+        "coverage": 0.99
+      }
+    ],
+    "acc": "P9WN45",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv1325c",
+      "gene": "PE_PGRS24",
+      "strand": "-",
+      "gap": 151
+    },
+    "right": {
+      "locus": "Rv1327c",
+      "gene": "glgE",
+      "strand": "-",
+      "gap": 7
+    },
+    "operon": [
+      {
+        "locus": "Rv1326c",
+        "gene": "glgB"
+      },
+      {
+        "locus": "Rv1327c",
+        "gene": "glgE"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0023",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv0302",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "1,4-alpha-glucan branching enzyme GlgB (glycogen branching enzyme)",
+    "legacy_function": "Involved in glycogen biosynthesis (cytoplasmic polysaccharides) (third step) [catalytic activity: formation of 1,6-glucosidic linkages of glycogen].",
+    "legacy_ec": [
+      "2.4.1.18"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.4.1.18"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -11.661,
+    "ci_low": -12.512,
+    "ci_high": -10.777,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 6,
+      "n_syn": 2,
+      "n_nonsyn": 4,
+      "n_disruptive": 0,
+      "dN_dS": 0.631,
+      "power": "low",
+      "interpretation": "low power (6 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 51,
+      "n_total": 53,
+      "frac": 0.962,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 87.7,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 51/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 59.9,
+      "length_aa": 731,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 16,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 15,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "16 publication(s) discuss this gene (15 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "An Epistatic Network Describes oppA and glgB as Relevant Genes for Mycobacterium tuberculosis.",
+        "doi": "10.3389/fmolb.2022.856212",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35712352/",
+        "date": "2022"
+      },
+      {
+        "title": "Metabolic Network for the Biosynthesis of Intra- and Extracellular α-Glucans Required for Virulence of Mycobacterium tuberculosis.",
+        "doi": "10.1371/journal.ppat.1005768",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/27513637/",
+        "date": "2016"
+      },
+      {
+        "title": "Assembly of α-Glucan by GlgE and GlgB in Mycobacteria and Streptomycetes.",
+        "doi": "10.1021/acs.biochem.6b00209",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/27221142/",
+        "date": "2016"
+      },
+      {
+        "title": "A murine monoclonal antibody to glycogen: characterization of epitope-fine specificity by saturation transfer difference (STD) NMR spectroscopy and its use in mycobacterial capsular α-glucan research.",
+        "doi": "10.1002/cbic.201402713",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/25766777/",
+        "date": "2015"
+      },
+      {
+        "title": "Structure of mycobacterial maltokinase, the missing link in the essential GlgE-pathway.",
+        "doi": "10.1038/srep08026",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/25619172/",
+        "date": "2015"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.012,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 95.7,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "glgB-FLAG-tetOn-6",
+    "gene": "glgB",
+    "teton_promoter": "6",
+    "baseline_doublings_median": 4.175,
+    "n_screens": 6,
+    "strain_category": "Used in PCL analysis",
+    "used_in_pcl": true,
+    "in_hypomorph_panel": true,
+    "drug_target_moa": "GlgB",
+    "reference_compounds_phenocopying": 1,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

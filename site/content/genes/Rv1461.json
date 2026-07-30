@@ -1,0 +1,909 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1461",
+  "mtbc0": "mtbc0_001563",
+  "np_id": "NP_215977.1",
+  "gene": "sufB",
+  "len_aa": 846,
+  "strand": "+",
+  "start_mtbc0": 1656794,
+  "end_mtbc0": 1659334,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "intein-containing Fe-S cluster assembly protein SufB",
+  "function_revised": "Intein-containing Fe-S cluster assembly protein SufB. Pfam: SufBD_N (PF19295.6), SUFBD_core (PF01458.24).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTLTPEASKSVAQPPTQAPLTQEEAIASLGRYGYGWADSDVAGANAQRGLSEAVVRDISAKKNEPDWMLQSRLKALRIFDRKPIPKWGSNLDGIDFDNIKYFVRSTEKQAASWDDLPEDIRNTYDRLGIPEAEKQRLVAGVAAQYESEVVYHQIREDLEAQGVIFLDTDTGLREHPDIFKEYFGTVIPAGDNKFSALNTAVWSGGSFIYVPPGVHVDIPLQAYFRINTENMGQFERTLIIADEGSYVHYVEGCLPAGELITTADGDLRPIESIRVGDFVTGHDGRPHRVTAVQVRDLDGELFTFTPMSPANAFSVTAEHPLLAIPRDEVRVMRKERNGWKAEVNSTKLRSAEPRWIAAKDVAEGDFLIYPKPKPIPHRTVLPLEFARLAGYYLAEGHACLTNGCESLIFSFHSDEFEYVEDVRQACKSLYEKSGSVLIEEHKHSARVTVYTKAGYAAMRDNVGIGSSNKKLSDLLMRQDETFLRELVDAYVNGDGNVTRRNGAVWKRVHTTSRLWAFQLQSILARLGHYATVELRRPGGPGVIMGRNVVRKDIYQVQWTEGGRGPKQARDCGDYFAVPIKKRAVREAHEPVYNLDVENPDSYLAYGFAVHNCTAPIYKSDSLHSAVVEIIVKPHARVRYTTIQNWSNNVYNLVTKRARAEAGATMEWIDGNIGSKVTMKYPAVWMTGEHAKGEVLSVAFAGEDQHQDTGAKMLHLAPNTSSNIVSKSVARGGGRTSYRGLVQVNKGAHGSRSSVKCDALLVDTVSRSDTYPYVDIREDDVTMGHEATVSKVSENQLFYLMSRGLTEDEAMAMVVRGFVEPIAKELPMEYALELNRLIELQMEGAVG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "SufBD_N",
+      "pfam_acc": "PF19295.6",
+      "i_evalue": 1.3e-07,
+      "ali_from": 159,
+      "ali_to": 221,
+      "description": "SufBD protein N-terminal region"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "SUFBD_core",
+      "pfam_acc": "PF01458.24",
+      "i_evalue": 7.5e-78,
+      "ali_from": 609,
+      "ali_to": 817,
+      "description": "SUF system FeS cluster assembly, SufBD core domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0719",
+    "cog_cat": "O",
+    "description": "assembly protein SufB",
+    "preferred_name": "sufB",
+    "ec": [],
+    "kegg_ko": [
+      "K09014"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004518",
+      "GO:0004519",
+      "GO:0005575",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0006139",
+      "GO:0006725",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009987",
+      "GO:0016787",
+      "GO:0016788",
+      "GO:0034641",
+      "GO:0040007",
+      "GO:0043170",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044464",
+      "GO:0046483",
+      "GO:0071704",
+      "GO:0090304",
+      "GO:0090305",
+      "GO:1901360"
+    ],
+    "pfams": [
+      "UPF0051"
+    ],
+    "seed_ortholog": "419947.MRA_1470",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WFP7",
+    "reviewed": true,
+    "protein_name": "Iron-sulfur cluster assembly SufBD family protein Rv1461 [Cleaved into: Endonuclease PI-MtuHIIP",
+    "ec": [
+      "3.1.-.-"
+    ],
+    "function": "",
+    "go": [
+      "GO:0004519",
+      "GO:0005829",
+      "GO:0006314",
+      "GO:0016226",
+      "GO:0016539",
+      "GO:0016787",
+      "GO:1990229"
+    ],
+    "kegg": [
+      "mtu:Rv1461",
+      "mtv:RVBD_1461"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 19,
+    "syn": 12,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.182,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1461",
+    "n_partners": 16,
+    "n_context_driven": 10,
+    "partners": [
+      {
+        "rv": "Rv1463",
+        "gene": "sufC",
+        "product": "ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 791,
+          "fusion": 266,
+          "cooccurence": 774,
+          "coexpression": 937,
+          "experimental": 788,
+          "database": 0,
+          "textmining": 154
+        }
+      },
+      {
+        "rv": "Rv1464",
+        "gene": "csd",
+        "product": "cysteine desulfurase",
+        "hypothetical": false,
+        "combined": 990,
+        "combined_no_tm": 990,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 782,
+          "experimental": 161,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1465",
+        "gene": "",
+        "product": "nitrogen fixation related protein",
+        "hypothetical": false,
+        "combined": 987,
+        "combined_no_tm": 986,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 791,
+          "fusion": 0,
+          "cooccurence": 751,
+          "coexpression": 755,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 154
+        }
+      },
+      {
+        "rv": "Rv1462",
+        "gene": "sufD",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 967,
+        "combined_no_tm": 968,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 321,
+          "coexpression": 801,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1466",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 951,
+        "combined_no_tm": 946,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 797,
+          "fusion": 0,
+          "cooccurence": 724,
+          "coexpression": 110,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 146
+        }
+      },
+      {
+        "rv": "Rv3778c",
+        "gene": "",
+        "product": "aminotransferase",
+        "hypothetical": false,
+        "combined": 888,
+        "combined_no_tm": 881,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 618,
+          "coexpression": 647,
+          "experimental": 161,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1460",
+        "gene": "sufR",
+        "product": "transcriptional regulator",
+        "hypothetical": false,
+        "combined": 830,
+        "combined_no_tm": 823,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 783,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 219,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 77
+        }
+      },
+      {
+        "rv": "Rv3700c",
+        "gene": "egtE",
+        "product": "pyridoxal-phosphate-dependent protein EgtE",
+        "hypothetical": false,
+        "combined": 761,
+        "combined_no_tm": 746,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 183,
+          "coexpression": 648,
+          "experimental": 161,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv2204c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 648,
+        "combined_no_tm": 602,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 419,
+          "experimental": 306,
+          "database": 0,
+          "textmining": 153
+        }
+      },
+      {
+        "rv": "Rv1459c",
+        "gene": "mptB",
+        "product": "alpha-(1->6)-mannopyranosyltransferase",
+        "hypothetical": false,
+        "combined": 575,
+        "combined_no_tm": 572,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 569,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 48
+        }
+      },
+      {
+        "rv": "Rv3284",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 475,
+        "combined_no_tm": 450,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 266,
+          "experimental": 240,
+          "database": 0,
+          "textmining": 87
+        }
+      },
+      {
+        "rv": "Rv1457c",
+        "gene": "",
+        "product": "antibiotic ABC transporter permease",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 417,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 415,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 55
+        }
+      },
+      {
+        "rv": "Rv1458c",
+        "gene": "",
+        "product": "antibiotic ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 403,
+        "combined_no_tm": 403,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 403,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3052c",
+        "gene": "nrdI",
+        "product": "NrdI protein",
+        "hypothetical": false,
+        "combined": 403,
+        "combined_no_tm": 400,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 151,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 322,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv0005",
+        "gene": "gyrB",
+        "product": "DNA gyrase subunit B",
+        "hypothetical": false,
+        "combined": 452,
+        "combined_no_tm": 144,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 136,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 386
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1463",
+      "gene": "sufC",
+      "product": "ABC transporter ATP-binding protein",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 791,
+        "fusion": 266,
+        "cooccurence": 774,
+        "coexpression": 937,
+        "experimental": 788,
+        "database": 0,
+        "textmining": 154
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: hypothetical protein",
+    "MTBC0 PGAP product: intein-containing Fe-S cluster assembly protein SufB",
+    "Pfam (hmmscan --cut_ga): SufBD_N PF19295.6 (E=1e-07), SUFBD_core PF01458.24 (E=8e-78)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 81.2,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "5awf-assembly2_E",
+        "evalue": 6.342e-18,
+        "prob": 1.0,
+        "tmscore": 0.8889,
+        "description": "5awf-assembly2_E Crystal structure of SufB-SufC-SufD complex from Escherichia coli",
+        "significant": true
+      },
+      {
+        "target": "5awf-assembly1_A",
+        "evalue": 6.053e-18,
+        "prob": 1.0,
+        "tmscore": 0.8909,
+        "description": "5awf-assembly1_A Crystal structure of SufB-SufC-SufD complex from Escherichia coli",
+        "significant": true
+      },
+      {
+        "target": "5awg-assembly2_E",
+        "evalue": 1.616e-17,
+        "prob": 1.0,
+        "tmscore": 0.8537,
+        "description": "5awg-assembly2_E Crystal structure of Hg-bound SufB-SufC-SufD complex from Escherichia coli",
+        "significant": true
+      },
+      {
+        "target": "5awg-assembly1_A",
+        "evalue": 4.909e-16,
+        "prob": 1.0,
+        "tmscore": 0.9164,
+        "description": "5awg-assembly1_A Crystal structure of Hg-bound SufB-SufC-SufD complex from Escherichia coli",
+        "significant": true
+      },
+      {
+        "target": "7qsu-assembly1_A",
+        "evalue": 2.407e-15,
+        "prob": 1.0,
+        "tmscore": 0.7072,
+        "description": "7qsu-assembly1_A Crystal structure of homing endonuclease-associated TliVMA intein (C1A, d333-339)",
+        "significant": true
+      },
+      {
+        "target": "4dn7-assembly1_B",
+        "evalue": 2.679e-12,
+        "prob": 1.0,
+        "tmscore": 0.8755,
+        "description": "4dn7-assembly1_B CRYSTAL STRUCTURE OF putative ABC transporter, ATP-binding protein from Methanosarcina mazei Go1",
+        "significant": true
+      },
+      {
+        "target": "7qss-assembly1_A",
+        "evalue": 2.838e-13,
+        "prob": 1.0,
+        "tmscore": 0.6088,
+        "description": "7qss-assembly1_A Crystal structure of homing endonuclease-associated TliVMA intein (C1A)",
+        "significant": true
+      },
+      {
+        "target": "1ef0-assembly2_A",
+        "evalue": 5.087e-15,
+        "prob": 1.0,
+        "tmscore": 0.5344,
+        "description": "1ef0-assembly2_A CRYSTAL STRUCTURE OF PI-SCEI MINIPRECURSOR",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 101.0,
+    "abundance_rank": 1287,
+    "n_ranked": 3519,
+    "abundance_percentile": 63.5,
+    "n_datasets": 11,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 846,
+    "mw_kda": 94.2,
+    "pi": 5.97,
+    "gravy": -0.365,
+    "instability_index": 35.1,
+    "instability_class": "stable",
+    "aromaticity": 0.086,
+    "aliphatic_index": 8206.9,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1496",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. leprae": {
+        "locus": "ML0593",
+        "identity": 52.1,
+        "evalue": 3.46e-270
+      },
+      "M. marinum": {
+        "locus": "MMAR_2266",
+        "identity": 54.8,
+        "evalue": 5.72e-282
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3122",
+        "identity": 53.0,
+        "evalue": 2.86e-269
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001543",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_2749c",
+        "identity": 53.6,
+        "evalue": 1.21e-270
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1460",
+      "gene": null,
+      "strand": "+",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv1462",
+      "gene": null,
+      "strand": "+",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv1460",
+        "gene": null
+      },
+      {
+        "locus": "Rv1461",
+        "gene": null
+      },
+      {
+        "locus": "Rv1462",
+        "gene": null
+      },
+      {
+        "locus": "Rv1463",
+        "gene": null
+      },
+      {
+        "locus": "Rv1464",
+        "gene": "csd"
+      },
+      {
+        "locus": "Rv1465",
+        "gene": null
+      },
+      {
+        "locus": "Rv1466",
+        "gene": null
+      }
+    ],
+    "operon_size": 7,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0081",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0678",
+        "tf_gene": "mmpR5",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv1460",
+        "tf_gene": "sufR",
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1816",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 4,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Conserved protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": [
+      "3.1.-.-"
+    ],
+    "conserved_hypothetical": true,
+    "atlas_ahead": true,
+    "ahead_via": [
+      "EC number",
+      "COG category",
+      "requalified function"
+    ],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "3.1.-.-"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -7.788,
+    "ci_low": -8.455,
+    "ci_high": -7.131,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Rv2621c",
+        "function": "iModulon labeled with predicted regulon with unknown function",
+        "category": "Unknown Function",
+        "regulator": "Rv2621c"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 4,
+      "n_syn": 3,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.104,
+      "power": "low",
+      "interpretation": "low power (4 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 6,
+      "n_total": 53,
+      "frac": 0.113,
+      "in_mtbap": 2,
+      "in_mkc": 3,
+      "mean_pident": 93.4,
+      "classification": "restricted",
+      "species_present": [
+        "M_innocens",
+        "M_kansasii",
+        "M_malmoense",
+        "M_pseudokansasii",
+        "M_riyadhense",
+        "M_shinjukuense"
+      ],
+      "interpretation": "present in a subset of the genus (6/53 NTM; in 2 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 846,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "by_alias": {
+      "H37Rv": "2"
+    },
+    "summary": "2 publication(s) mention this gene (title/abstract), verified against the text. The atlas states the function; these are the primary sources that discuss it.",
+    "papers": [
+      {
+        "title": "Iron homeostasis in Mycobacterium tuberculosis is essential for persistence.",
+        "doi": "10.1038/s41598-018-35012-3",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30478257/",
+        "date": "2018"
+      },
+      {
+        "title": "Rv1460, a SufR homologue, is a repressor of the suf operon in Mycobacterium tuberculosis.",
+        "doi": "10.1371/journal.pone.0200145",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/29979728/",
+        "date": "2018"
+      }
+    ],
+    "caveat": "This layer CITES the literature, it does not change the verdict or the function. A gene may be heavily studied (as an antigen, a resistance determinant, a drug target) while its molecular function is settled elsewhere in the fiche.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.025,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 21,
+    "total_idr_residues": 21,
+    "idr_regions": [
+      [
+        0,
+        21
+      ]
+    ],
+    "mean_plddt": 81.2,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

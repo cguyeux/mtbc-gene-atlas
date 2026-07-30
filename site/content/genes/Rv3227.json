@@ -1,0 +1,1060 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3227",
+  "mtbc0": "mtbc0_003436",
+  "np_id": "NP_217744.1",
+  "gene": "aroA",
+  "len_aa": 450,
+  "strand": "+",
+  "start_mtbc0": 3625519,
+  "end_mtbc0": 3626871,
+  "product_h37rv": "3-phosphoshikimate 1-carboxyvinyltransferase",
+  "product_mtbc0_pgap": "3-phosphoshikimate 1-carboxyvinyltransferase",
+  "function_revised": "3-phosphoshikimate 1-carboxyvinyltransferase. Pfam: EPSP_synthase (PF00275.26).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MKTWPAPTAPTPVRATVTVPGSKSQTNRALVLAALAAAQGRGASTISGALRSRDTELMLDALQTLGLRVDGVGSELTVSGRIEPGPGARVDCGLAGTVLRFVPPLAALGSVPVTFDGDQQARGRPIAPLLDALRELGVAVDGTGLPFRVRGNGSLAGGTVAIDASASSQFVSGLLLSAASFTDGLTVQHTGSSLPSAPHIAMTAAMLRQAGVDIDDSTPNRWQVRPGPVAARRWDIEPDLTNAVAFLSAAVVSGGTVRITGWPRVSVQPADHILAILRQLNAVVIHADSSLEVRGPTGYDGFDVDLRAVGELTPSVAALAALASPGSVSRLSGIAHLRGHETDRLAALSTEINRLGGTCRETPDGLVITATPLRPGIWRAYADHRMAMAGAIIGLRVAGVEVDDIAATTKTLPEFPRLWAEMVGPGQGWGYPQPRSGQRARRATGQGSGG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "EPSP_synthase",
+      "pfam_acc": "PF00275.26",
+      "i_evalue": 1.9e-119,
+      "ali_from": 8,
+      "ali_to": 417,
+      "description": "EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0128",
+    "cog_cat": "E",
+    "description": "Catalyzes the transfer of the enolpyruvyl moiety of phosphoenolpyruvate (PEP) to the 5-hydroxyl of shikimate-3- phosphate (S3P) to produce enolpyruvyl shikimate-3-phosphate and inorganic phosphate",
+    "preferred_name": "aroA",
+    "ec": [
+      "2.5.1.19"
+    ],
+    "kegg_ko": [
+      "K00800"
+    ],
+    "kegg_pathway": [
+      "map00400",
+      "map01100",
+      "map01110",
+      "map01130",
+      "map01230"
+    ],
+    "kegg_module": [
+      "M00022"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0003866",
+      "GO:0005575",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006082",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009058",
+      "GO:0009423",
+      "GO:0009987",
+      "GO:0016020",
+      "GO:0016053",
+      "GO:0016740",
+      "GO:0016765",
+      "GO:0019752",
+      "GO:0043436",
+      "GO:0043648",
+      "GO:0043650",
+      "GO:0044237",
+      "GO:0044249",
+      "GO:0044281",
+      "GO:0044283",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044464",
+      "GO:0046394",
+      "GO:0046417",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:1901576"
+    ],
+    "pfams": [
+      "EPSP_synthase"
+    ],
+    "seed_ortholog": "419947.MRA_3268",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WPY5",
+    "reviewed": true,
+    "protein_name": "3-phosphoshikimate 1-carboxyvinyltransferase",
+    "ec": [
+      "2.5.1.19"
+    ],
+    "function": "Catalyzes the transfer of the enolpyruvyl moiety of phosphoenolpyruvate (PEP) to the 5-hydroxyl of shikimate-3-phosphate (S3P) to produce enolpyruvyl shikimate-3-phosphate and inorganic phosphate",
+    "go": [
+      "GO:0003866",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0008652",
+      "GO:0009073",
+      "GO:0009423"
+    ],
+    "kegg": [
+      "mtu:Rv3227",
+      "mtv:RVBD_3227"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 18,
+    "syn": 9,
+    "missense": 9,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.401,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv3227",
+    "n_partners": 32,
+    "n_context_driven": 8,
+    "partners": [
+      {
+        "rv": "Rv2540c",
+        "gene": "aroF",
+        "product": "chorismate synthase",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 989,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 154,
+          "fusion": 0,
+          "cooccurence": 508,
+          "coexpression": 770,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 561
+        }
+      },
+      {
+        "rv": "Rv2552c",
+        "gene": "aroE",
+        "product": "shikimate 5-dehydrogenase",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 987,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 898,
+          "cooccurence": 637,
+          "coexpression": 646,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 657
+        }
+      },
+      {
+        "rv": "Rv2538c",
+        "gene": "aroB",
+        "product": "3-dehydroquinate synthase",
+        "hypothetical": false,
+        "combined": 992,
+        "combined_no_tm": 986,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 148,
+          "fusion": 900,
+          "cooccurence": 645,
+          "coexpression": 580,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 510
+        }
+      },
+      {
+        "rv": "Rv2539c",
+        "gene": "aroK",
+        "product": "shikimate kinase",
+        "hypothetical": false,
+        "combined": 988,
+        "combined_no_tm": 977,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 562,
+          "coexpression": 471,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 529
+        }
+      },
+      {
+        "rv": "Rv1712",
+        "gene": "cmk",
+        "product": "cytidylate kinase",
+        "hypothetical": false,
+        "combined": 923,
+        "combined_no_tm": 913,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 896,
+          "cooccurence": 0,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 160
+        }
+      },
+      {
+        "rv": "Rv3228",
+        "gene": "rsgA",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 948,
+        "combined_no_tm": 904,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 208,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 485
+        }
+      },
+      {
+        "rv": "Rv3226c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 886,
+        "combined_no_tm": 788,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 787,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 485
+        }
+      },
+      {
+        "rv": "Rv3754",
+        "gene": "tyrA",
+        "product": "prephenate dehydrogenase TyrA",
+        "hypothetical": false,
+        "combined": 763,
+        "combined_no_tm": 691,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 648,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv3859c",
+        "gene": "gltB",
+        "product": "glutamate synthase large subunit",
+        "hypothetical": false,
+        "combined": 686,
+        "combined_no_tm": 687,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 150,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 647,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0948c",
+        "gene": "",
+        "product": "chorismate mutase",
+        "hypothetical": false,
+        "combined": 716,
+        "combined_no_tm": 678,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 660,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv1885c",
+        "gene": "",
+        "product": "chorismate mutase",
+        "hypothetical": false,
+        "combined": 716,
+        "combined_no_tm": 678,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 660,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv0884c",
+        "gene": "serC",
+        "product": "phosphoserine aminotransferase",
+        "hypothetical": false,
+        "combined": 733,
+        "combined_no_tm": 677,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 650,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 208
+        }
+      },
+      {
+        "rv": "Rv1650",
+        "gene": "pheT",
+        "product": "phenylalanine--tRNA ligase subunit beta",
+        "hypothetical": false,
+        "combined": 683,
+        "combined_no_tm": 639,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 388,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 435,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 157
+        }
+      },
+      {
+        "rv": "Rv1600",
+        "gene": "hisC1",
+        "product": "histidinol-phosphate aminotransferase",
+        "hypothetical": false,
+        "combined": 598,
+        "combined_no_tm": 542,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 235,
+          "coexpression": 404,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 159
+        }
+      },
+      {
+        "rv": "Rv3772",
+        "gene": "hisC2",
+        "product": "histidinol-phosphate aminotransferase",
+        "hypothetical": false,
+        "combined": 543,
+        "combined_no_tm": 494,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 150,
+          "coexpression": 408,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 135
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2540c",
+      "gene": "aroF",
+      "product": "chorismate synthase",
+      "combined_no_tm": 989,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 154,
+        "fusion": 0,
+        "cooccurence": 508,
+        "coexpression": 770,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 561
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: 3-phosphoshikimate 1-carboxyvinyltransferase",
+    "MTBC0 PGAP product: 3-phosphoshikimate 1-carboxyvinyltransferase",
+    "Pfam (hmmscan --cut_ga): EPSP_synthase PF00275.26 (E=2e-119)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 93.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2o15-assembly1_A",
+        "evalue": 4.251e-86,
+        "prob": 1.0,
+        "tmscore": 0.9906,
+        "description": "2o15-assembly1_A Mycobacterium tuberculosis epsp synthase after partial products withdrawal",
+        "significant": true
+      },
+      {
+        "target": "2bjb-assembly1_A",
+        "evalue": 1.811e-78,
+        "prob": 1.0,
+        "tmscore": 0.8264,
+        "description": "2bjb-assembly1_A Mycobacterium Tuberculosis Epsp Synthase In Unliganded State",
+        "significant": true
+      },
+      {
+        "target": "8umk-assembly2_B",
+        "evalue": 3.417e-40,
+        "prob": 1.0,
+        "tmscore": 0.8926,
+        "description": "8umk-assembly2_B EPSPS TIPS variant complexed with glyphosate and shikimate-3-phosphate",
+        "significant": true
+      },
+      {
+        "target": "8umm-assembly2_B",
+        "evalue": 1.576e-40,
+        "prob": 1.0,
+        "tmscore": 0.871,
+        "description": "8umm-assembly2_B EPSPS TIPS K296R variant complexed with glyphosate and shikimate-3-phosphate",
+        "significant": true
+      },
+      {
+        "target": "8umm-assembly1_A",
+        "evalue": 2e-40,
+        "prob": 1.0,
+        "tmscore": 0.8774,
+        "description": "8umm-assembly1_A EPSPS TIPS K296R variant complexed with glyphosate and shikimate-3-phosphate",
+        "significant": true
+      },
+      {
+        "target": "3fk1-assembly1_A",
+        "evalue": 1.059e-39,
+        "prob": 1.0,
+        "tmscore": 0.9199,
+        "description": "3fk1-assembly1_A E. coli EPSP synthase (TIPS mutation) liganded with S3P and glyphosate",
+        "significant": true
+      },
+      {
+        "target": "8uml-assembly2_B",
+        "evalue": 8.349e-40,
+        "prob": 1.0,
+        "tmscore": 0.8847,
+        "description": "8uml-assembly2_B EPSPS TIPS P126S variant complexed with glyphosate and shikimate-3-phosphate",
+        "significant": true
+      },
+      {
+        "target": "1x8r-assembly1_A",
+        "evalue": 2.588e-39,
+        "prob": 1.0,
+        "tmscore": 0.9193,
+        "description": "1x8r-assembly1_A EPSPS liganded with the (S)-phosphonate analog of the tetrahedral reaction intermediate",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 133.0,
+    "abundance_rank": 1092,
+    "n_ranked": 3519,
+    "abundance_percentile": 69.0,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 450,
+    "mw_kda": 46.4,
+    "pi": 9.17,
+    "gravy": 0.063,
+    "instability_index": 39.9,
+    "instability_class": "stable",
+    "aromaticity": 0.04,
+    "aliphatic_index": 9437.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb3256",
+        "identity": 99.6,
+        "evalue": 1.44e-320
+      },
+      "M. leprae": {
+        "locus": "ML0792c",
+        "identity": 79.7,
+        "evalue": 9.73e-238
+      },
+      "M. marinum": {
+        "locus": "MMAR_1320",
+        "identity": 83.0,
+        "evalue": 5.02e-249
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_1890",
+        "identity": 68.3,
+        "evalue": 8.41e-197
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003328",
+        "identity": 99.8,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_3546",
+        "identity": 62.4,
+        "evalue": 2.05e-180
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 6,
+    "n_in_vivo": 0,
+    "phenotypes": [
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=621) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 6.38,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=631) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 5.96,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=667) from Indo-Oceanic lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 5.37,
+        "qval": 0.014,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=632) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 5.36,
+        "qval": 0.0049,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=662) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 5.16,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=641) from Indo-Oceanic lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": 4.78,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {
+    "n_structures": 7,
+    "structures": [
+      {
+        "pdb_id": "2o0b",
+        "method": "X-ray diffraction",
+        "resolution": 1.15,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "2o0d",
+        "method": "X-ray diffraction",
+        "resolution": 1.6,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "2bjb",
+        "method": "X-ray diffraction",
+        "resolution": 1.8,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "2o0e",
+        "method": "X-ray diffraction",
+        "resolution": 1.81,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "2o15",
+        "method": "X-ray diffraction",
+        "resolution": 1.95,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "2o0x",
+        "method": "X-ray diffraction",
+        "resolution": 1.96,
+        "coverage": 1.0
+      },
+      {
+        "pdb_id": "2o0z",
+        "method": "X-ray diffraction",
+        "resolution": 2.0,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "P9WPY5",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv3226c",
+      "gene": null,
+      "strand": "-",
+      "gap": 54
+    },
+    "right": {
+      "locus": "Rv3228",
+      "gene": null,
+      "strand": "+",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv3227",
+        "gene": "aroA"
+      },
+      {
+        "locus": "Rv3228",
+        "gene": null
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0967",
+        "tf_gene": "csoR",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "3-phosphoshikimate 1-carboxyvinyltransferase AroA (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)",
+    "legacy_function": "Involved in the biosynthesis of chorismate within the biosynthesis of aromatic amino acids (the shikimate pathway). Acts in the sixth step of this pathway. [catalytic activity: phosphoenolpyruvate + 3-phosphoshikimate = orthophosphate + O(5)-(1-carboxyvinyl)-3-phosphoshikimate].",
+    "legacy_ec": [
+      "2.5.1.19"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.5.1.19"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -9.008,
+    "ci_low": -10.471,
+    "ci_high": -7.528,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 18,
+      "n_syn": 11,
+      "n_nonsyn": 4,
+      "n_disruptive": 0,
+      "dN_dS": 0.146,
+      "power": "ok",
+      "interpretation": "under purifying selection vs M. canettii (deep divergence; dN/dS=0.146) — a real, constrained gene predating the MTBC clonal expansion",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 80.9,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 52.5,
+      "length_aa": 450,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 8,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 10,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "8 publication(s) discuss this gene (10 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "EPSP Synthase-Depleted Cells Are Aromatic Amino Acid Auxotrophs in Mycobacterium smegmatis.",
+        "doi": "10.1128/Spectrum.00009-21",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34937164/",
+        "date": "2021"
+      },
+      {
+        "title": "An attenuated Salmonella-vectored vaccine elicits protective immunity against Mycobacterium tuberculosis.",
+        "doi": "10.1016/j.vaccine.2009.08.096",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/19733584/",
+        "date": "2009"
+      },
+      {
+        "title": "Novel bacterial delivery system with attenuated Salmonella typhimurium carrying plasmid encoding Mtb antigen 85A for mucosal immunization: establishment of proof of principle in TB mouse model.",
+        "doi": "10.1196/annals.1352.030",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16387702/",
+        "date": "2005"
+      },
+      {
+        "title": "One-step purification of 5-enolpyruvylshikimate-3-phosphate synthase enzyme from Mycobacterium tuberculosis.",
+        "doi": "10.1016/s1046-5928(02)00708-8",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/12699693/",
+        "date": "2003"
+      },
+      {
+        "title": "The common aromatic amino acid biosynthesis pathway is essential in Mycobacterium tuberculosis.",
+        "doi": "10.1099/00221287-148-10-3069",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/12368440/",
+        "date": "2002"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.098,
+    "classification": "ordered",
+    "n_idr": 2,
+    "longest_idr": 25,
+    "total_idr_residues": 45,
+    "idr_regions": [
+      [
+        0,
+        20
+      ],
+      [
+        425,
+        450
+      ]
+    ],
+    "mean_plddt": 93.6,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

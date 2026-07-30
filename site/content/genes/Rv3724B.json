@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3724B",
+  "gene": "cut5b",
+  "len_aa": 187,
+  "strand": "+",
+  "start_mtbc0": 4169606,
+  "end_mtbc0": 4170169,
+  "product_h37rv": "Probable cutinase [second part] Cut5b",
+  "function_revised": "Hydrolysis of cutin (a polyester that forms the structure of plant cuticle).",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VAPGSHLVLAASEDCSSTHCVSQVGAKSLGVYAVNYPASNDFASSDFPKTVIDGIRDAGSHIQSMAMSCPQTRQVLGGYSQGAAVAGYVTSAVVPPAVPVQAVPAPMAPEVANHVAAVTLFGAPSAQFLGQYGAPPIAIGPLYQPKTLQLCADGDSICGDGNSPVAHGLYAVNGMVGQGANFAASRL",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable cutinase [second part] Cut5b",
+    "legacy_function": "Hydrolysis of cutin (a polyester that forms the structure of plant cuticle).",
+    "legacy_ec": "3.1.1.-",
+    "functional_category": "cell wall and cell processes",
+    "comments": "Rv3724B, (MTV025.072), len: 187 aa. Probable cut5b, truncated cutinase, similar to C-terminal end of others e.g. Q9XB09|RVD2-RV1758 protein (fragment) from Mycobacterium bovis BCG (143 aa) FASTA scores: opt: 335, E(): 3.4e-12, (53.25% identity in 92 aa overlap); Q9KK87 serine esterase cutinase from Mycobacterium avium (220 aa), FASTA scores: opt: 251, E(): 2.5e-07, (44.05% identity in 168 aa overlap). Also similar to proteins from Mycobacterium tuberculosis e.g. O06793|Rv1758|MTCY28.24 hypothetical 17.9 KDA protein (174 aa), FASTA scores: opt: 641, E(): 2.5e-29, (57.25% identity in 166 aa overlap); O06319|Rv3452|MTCY13E12.05 hypothetical 23.1 KDA protein (226 aa), FASTA scores: opt: 385, E(): 7.5e-15, (46.65% identity in 165 aa overlap); O06318|CUT3_MYCTU|Rv3451|MT3557|MTCY13E12.04 probable cutinase precursor (247 aa), FASTA scores: opt: 307, E(): 1.9e-10, (40.7% identity in 167 aa overlap); Q10837|CUT1_MYCTU|Rv1984c|MT2037|MTCY39.35 probable cutinase precursor (217 aa), FASTA scores: opt: 261, E(): 6.7e-08, (50.9% identity in 169 aa overlap); etc; and U00015_11 from Mycobacterium lepra. 5'-end of gene is Rv3724A|CUT5A; frameshifting may occur near position 4169668.",
+    "uniprot_ac": "Q79FA4",
+    "go": "GO:0008152,GO:0016787",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 187,
+    "mw_kda": 18.8,
+    "pi": 5.56,
+    "gravy": 0.257,
+    "instability_index": 45.7,
+    "instability_class": "unstable",
+    "aromaticity": 0.064,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "Q79FA4",
+    "reviewed": true,
+    "protein_name": "Probable carboxylesterase Culp7",
+    "ec": [
+      "3.1.1.-"
+    ],
+    "function": "May have a role in cell wall processes (PubMed:26177502). Does not exhibit cutinase activity (PubMed:19225166)",
+    "go": [
+      "GO:0005737",
+      "GO:0005886",
+      "GO:0106435",
+      "GO:0016298",
+      "GO:0016042"
+    ],
+    "kegg": [
+      "mtv:RVBD_3724B"
+    ],
+    "protein_existence": "2: Evidence at transcript level",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "2A1QU",
+    "cog_cat": "M",
+    "description": "hydrolysis of cutin, a polyester that forms the structure of plant cuticle",
+    "preferred_name": "cut5",
+    "ec": [
+      "3.1.1.74"
+    ],
+    "kegg_ko": [
+      "ko:K08095"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 23.7,
+    "abundance_rank": 2229,
+    "n_ranked": 3519,
+    "abundance_percentile": 36.7,
+    "n_datasets": 5,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 1,
+    "n_in_vivo": 1,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.3,
+        "qval": 0.042,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0465c",
+        "tf_gene": "ramB",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 7,
+    "syn": 2,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.849,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 43208,
+    "disrupt_frac": 0.2976,
+    "pseudogene_flag": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv3724B",
+    "n_partners": 89,
+    "n_context_driven": 25,
+    "partners": [
+      {
+        "rv": "Rv3724A",
+        "gene": "cut5a",
+        "product": "Rv3724A, (MTV025.072), len: 80 aa. Probable cut5a,truncated cutinase precursor, similar to N-terminal end of others e.g. Q9KK87 serine ester",
+        "hypothetical": false,
+        "combined": 972,
+        "combined_no_tm": 797,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 88,
+          "cooccurence": 0,
+          "coexpression": 99,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv0185",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 651,
+        "combined_no_tm": 651,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 647,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1747",
+        "gene": "",
+        "product": "ABC transporter ATP-binding protein/permease",
+        "hypothetical": false,
+        "combined": 662,
+        "combined_no_tm": 649,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 68,
+          "experimental": 249,
+          "database": 530,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv0153c",
+        "gene": "ptbB",
+        "product": "phosphotyrosine protein phosphatase",
+        "hypothetical": false,
+        "combined": 652,
+        "combined_no_tm": 638,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 629,
+          "database": 0,
+          "textmining": 80
+        }
+      },
+      {
+        "rv": "Rv3725",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 640,
+        "combined_no_tm": 638,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 638,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv1125",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 634,
+        "combined_no_tm": 634,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 630,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3157",
+        "gene": "nuoM",
+        "product": "NADH-quinone oxidoreductase subunit M",
+        "hypothetical": false,
+        "combined": 648,
+        "combined_no_tm": 631,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 629,
+          "database": 0,
+          "textmining": 88
+        }
+      },
+      {
+        "rv": "Rv0434",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 613,
+        "combined_no_tm": 613,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 143,
+          "database": 561,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1355c",
+        "gene": "moeY",
+        "product": "molybdopterin biosynthesis protein MoeY",
+        "hypothetical": false,
+        "combined": 620,
+        "combined_no_tm": 606,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 197,
+          "coexpression": 46,
+          "experimental": 153,
+          "database": 464,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv1278",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 606,
+        "combined_no_tm": 606,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 168,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 544,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0020c",
+        "gene": "fhaA",
+        "product": "FHA domain-containing protein FhaA",
+        "hypothetical": false,
+        "combined": 598,
+        "combined_no_tm": 599,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 53,
+          "experimental": 167,
+          "database": 530,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0832",
+        "gene": "PE_PGRS12",
+        "product": "PE-PGRS family protein PE_PGRS12",
+        "hypothetical": false,
+        "combined": 601,
+        "combined_no_tm": 598,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 152,
+          "database": 543,
+          "textmining": 51
+        }
+      },
+      {
+        "rv": "Rv3036c",
+        "gene": "TB22.2",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 601,
+        "combined_no_tm": 598,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 152,
+          "database": 543,
+          "textmining": 51
+        }
+      },
+      {
+        "rv": "Rv2328",
+        "gene": "PE23",
+        "product": "PE family protein PE23",
+        "hypothetical": false,
+        "combined": 601,
+        "combined_no_tm": 598,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 152,
+          "database": 543,
+          "textmining": 51
+        }
+      },
+      {
+        "rv": "Rv3812",
+        "gene": "PE_PGRS62",
+        "product": "PE-PGRS family protein PE_PGRS62",
+        "hypothetical": false,
+        "combined": 601,
+        "combined_no_tm": 598,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 152,
+          "database": 543,
+          "textmining": 51
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3724A",
+      "gene": "cut5a",
+      "product": "Rv3724A, (MTV025.072), len: 80 aa. Probable cut5a,truncated cutinase precursor, similar to N-terminal end of others e.g. Q9KK87 serine ester",
+      "combined_no_tm": 797,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 773,
+        "fusion": 88,
+        "cooccurence": 0,
+        "coexpression": 99,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 870
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 88.9,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2axe-assembly1_A",
+        "evalue": 5.701e-06,
+        "prob": 1.0,
+        "tmscore": 0.6374,
+        "description": "2axe-assembly1_A IODINATED COMPLEX OF ACETYL XYLAN ESTERASE AT 1.80 ANGSTROMS",
+        "significant": true
+      },
+      {
+        "target": "8jct-assembly1_A",
+        "evalue": 1.346e-05,
+        "prob": 1.0,
+        "tmscore": 0.6333,
+        "description": "8jct-assembly1_A Crystal structure of fungal cutinase from Aspergillus fumigatiaffinis",
+        "significant": true
+      },
+      {
+        "target": "1qoz-assembly2_B",
+        "evalue": 3.818e-05,
+        "prob": 1.0,
+        "tmscore": 0.6514,
+        "description": "1qoz-assembly2_B Catalytic core domain of acetyl xylan esterase from Trichoderma reesei",
+        "significant": true
+      },
+      {
+        "target": "5x88-assembly1_A",
+        "evalue": 3.377e-05,
+        "prob": 1.0,
+        "tmscore": 0.642,
+        "description": "5x88-assembly1_A A crystal structure of cutinases from Malbranchea cinnamomea",
+        "significant": true
+      },
+      {
+        "target": "7cw1-assembly2_B",
+        "evalue": 7.97e-05,
+        "prob": 1.0,
+        "tmscore": 0.6121,
+        "description": "7cw1-assembly2_B Crystal structure of a biodegradable plastic-degrading cutinase-like enzyme from the phyllosphere yeast, Pseudozyma antarctica, solved by getting the phase from anomalous scattering of uncovalently coordinated arsenic (cacodylate).",
+        "significant": true
+      },
+      {
+        "target": "1g66-assembly1_A",
+        "evalue": 7.05e-05,
+        "prob": 1.0,
+        "tmscore": 0.6225,
+        "description": "1g66-assembly1_A ACETYLXYLAN ESTERASE AT 0.90 ANGSTROM RESOLUTION",
+        "significant": true
+      },
+      {
+        "target": "2czq-assembly2_B",
+        "evalue": 6.236e-05,
+        "prob": 1.0,
+        "tmscore": 0.581,
+        "description": "2czq-assembly2_B A novel cutinase-like protein from Cryptococcus sp.",
+        "significant": true
+      },
+      {
+        "target": "3aja-assembly1_A",
+        "evalue": 0.0001302,
+        "prob": 1.0,
+        "tmscore": 0.5403,
+        "description": "3aja-assembly1_A Crystal Structure of MSMEG_6394",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF01083",
+      "pfam_name": "Cutinase",
+      "description": "Cutinase",
+      "n_matches": "1"
+    }
+  ]
+}

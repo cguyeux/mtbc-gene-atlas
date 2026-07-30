@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2308a",
+  "mtbc0": "-",
+  "np_id": "YP_009030038.1",
+  "gene": "",
+  "len_aa": 110,
+  "strand": "+",
+  "start_mtbc0": 2581145,
+  "end_mtbc0": 2581477,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "",
+  "function_revised": "3'-5' exonuclease of the DEDDh / RNase-T superfamily (Mut-7-like exoribonuclease fold); nuclease activity RefSeq leaves this locus uncharacterised.",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MLEVDKVTHVVDENLLRLGVALSPSEKTRPGLAARPSTTCYRKASSTPTGSPSSGVGWVVISNDRHLRTRPVEAELAVAHKLKVVHLHGRVGGLVRVGTADAAGCAVAGH",
+  "domains": [],
+  "struct_hits": [
+    {
+      "target": "1zud-assembly3_1",
+      "evalue": 2.569,
+      "prob": 0.082,
+      "tmscore": 0.5509,
+      "description": "1zud-assembly3_1 Structure of ThiS-ThiF protein complex",
+      "significant": false
+    },
+    {
+      "target": "2i22-assembly1_A",
+      "evalue": 5.875,
+      "prob": 0.076,
+      "tmscore": 0.4973,
+      "description": "2i22-assembly1_A Crystal structure of Escherichia coli phosphoheptose isomerase in complex with reaction substrate sedoheptulose 7-phosphate",
+      "significant": false
+    },
+    {
+      "target": "6yub-assembly1_A",
+      "evalue": 4.555,
+      "prob": 0.051,
+      "tmscore": 0.4486,
+      "description": "6yub-assembly1_A Crystal structure of Uba4 from Chaetomium thermophilum",
+      "significant": false
+    },
+    {
+      "target": "7u58-assembly1_B",
+      "evalue": 4.01,
+      "prob": 0.051,
+      "tmscore": 0.4812,
+      "description": "7u58-assembly1_B YcaO-mediated ATP-dependent peptidase activity in ribosomal peptide biosynthesis",
+      "significant": false
+    },
+    {
+      "target": "7u58-assembly1_A",
+      "evalue": 4.01,
+      "prob": 0.051,
+      "tmscore": 0.4889,
+      "description": "7u58-assembly1_A YcaO-mediated ATP-dependent peptidase activity in ribosomal peptide biosynthesis",
+      "significant": false
+    },
+    {
+      "target": "5gaj-assembly1_A",
+      "evalue": 4.01,
+      "prob": 0.045,
+      "tmscore": 0.3543,
+      "description": "5gaj-assembly1_A Solution NMR structure of De novo designed PLOOP2X3_50 fold protein, Northeast Structural Genomics Consortium (NESG) target OR258",
+      "significant": false
+    },
+    {
+      "target": "1prx-assembly1_B",
+      "evalue": 9.775,
+      "prob": 0.024,
+      "tmscore": 0.4083,
+      "description": "1prx-assembly1_B HORF6 A NOVEL HUMAN PEROXIDASE ENZYME",
+      "significant": false
+    },
+    {
+      "target": "8oif-assembly1_A",
+      "evalue": 8.607,
+      "prob": 0.024,
+      "tmscore": 0.411,
+      "description": "8oif-assembly1_A Structure of the UBE1L activating enzyme bound to ISG15 and UBE2L6",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "2CC52",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [],
+    "seed_ortholog": "710685.MycrhN_3231",
+    "evalue": "2.66e-24"
+  },
+  "uniprot": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 2,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.19,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 44.1,
+    "n_residues": 110,
+    "band": "very low"
+  },
+  "string": {},
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "HHpred (Neff 9.09): top hit 8Q66_A Mut-7 exonuclease Prob 98.8%, E 1.7e-8, 93 aligned cols; corroborated by RNase P (PRORP metallonuclease) and PIN-domain nuclease hits; strong purifying",
+    "HHpred web (MPI Bioinformatics Toolkit, profile-profile remote homology), interpreted in project 'Still unknown gene function', 2026-06-10. A fold/family-level assignment, not a demonstrated function."
+  ],
+  "references": [],
+  "essentiality": {},
+  "plddt_af": {},
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  },
+  "pfam_tentative": {
+    "pfam_name": "PIN_10",
+    "pfam_acc": "PF18478.8",
+    "i_evalue": 0.00024,
+    "ali_from": 57,
+    "ali_to": 88,
+    "description": "PIN like domain",
+    "note": "tentative: below Pfam gathering threshold (--cut_ga); low-confidence lead"
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 110,
+    "mw_kda": 11.5,
+    "pi": 9.77,
+    "gravy": -0.043,
+    "instability_index": 28.4,
+    "instability_class": "stable",
+    "aromaticity": 0.018,
+    "aliphatic_index": 9563.6,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {},
+  "orthologs": {},
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv2308",
+      "gene": null,
+      "strand": "+",
+      "gap": 9
+    },
+    "right": {
+      "locus": "Rvnt24",
+      "gene": "metV",
+      "strand": "-",
+      "gap": 286
+    },
+    "operon": [
+      {
+        "locus": "Rv2308",
+        "gene": null
+      },
+      {
+        "locus": "Rv2308a",
+        "gene": null
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {},
+  "rd": {},
+  "expression": {
+    "n_imodulons": 2,
+    "imodulons": [
+      {
+        "name": "WhiB4",
+        "function": "Redox-Responsive transcription regulator that regulates protection response during infection",
+        "category": "Redox",
+        "regulator": "whiB4"
+      },
+      {
+        "name": "Unc_9",
+        "function": "Uncharacterized iModulon 9",
+        "category": "Uncharacterized",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": null,
+    "ci_low": null,
+    "ci_high": null,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 3,
+      "n_total": 53,
+      "frac": 0.057,
+      "in_mtbap": 0,
+      "in_mkc": 1,
+      "mean_pident": 39.7,
+      "classification": "MTBC-near-specific",
+      "species_present": [
+        "M_lepromatosis",
+        "M_malmoense",
+        "M_persicum"
+      ],
+      "interpretation": "absent from the closest MTBAP relatives and nearly all NTM (3/53) — a strong MTBC-restricted candidate (possible host-adaptation innovation, confirm by synteny)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 110,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication in PubMed mentions this gene in its title or abstract — not under its H37Rv locus tag, nor under any of its ortholog identifiers (M. bovis, M. marinum, M. smegmatis, M. leprae, M. abscessus). The atlas annotation rests on sequence/structure evidence, not on a primary study of this gene.",
+    "papers": [],
+    "by_alias": {},
+    "caveat": "A verified absence of literature is itself information: it flags an annotation with no primary study behind it.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.109,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": null,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

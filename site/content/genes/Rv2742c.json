@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2742c",
+  "mtbc0": "-",
+  "np_id": "NP_217258.1",
+  "gene": "",
+  "len_aa": 277,
+  "strand": "-",
+  "start_mtbc0": 3055515,
+  "end_mtbc0": 3056348,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "",
+  "function_revised": "Component of the mycobacterial Psp-like (phage-shock-protein) envelope-stress system. RefSeq leaves it 'hypothetical'. Rv2742c belongs to a four-gene module (clgR-pspA[Rv2744c]-rv2743c-rv2742c) regulated by ClgR and required for envelope integrity, surface-stress tolerance, MprAB-sigmaE stress signalling and intramacrophage growth; the module is restricted to tuberculous mycobacteria (Datta 2015).",
+  "verdict": "requalified",
+  "confidence": "medium",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MLVDELGVKIVHAQHVPAPYLVQRMREIHERDENRQRHAQVDVQRRRDQPERGQHQHRRNRDADHHPDGRTLAGQIVAHPVSHRVRQPRPVAIADVLPRVGPRADCVVAHSLQGSPRRRERRRGQTAHQRLGRRSGNAIACPLYLENAAGPEPDTKRAEGRRFGAFGGGDLRWMADRVPRQGSGRRGLGSRSGAGVPQGADARGWRHTADGVPRVGQPAIRRGVPGFWCWLDHVLTGFGGRNAICAIEDGVEPRVAWWALCTDFDVPRSMGRRTPGG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "DUF3046",
+      "pfam_acc": "PF11248.14",
+      "i_evalue": 4e-12,
+      "ali_from": 228,
+      "ali_to": 268,
+      "description": "Protein of unknown function (DUF3046)"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "2B8YK",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "DUF3046"
+    ],
+    "seed_ortholog": "419947.MRA_2768",
+    "evalue": "1.08e-206"
+  },
+  "uniprot": {
+    "acc": "O33285",
+    "reviewed": true,
+    "protein_name": "Putative envelope-preserving system protein Rv2742c",
+    "ec": [],
+    "function": "Involved in preservation of envelope integrity and tolerance to surface stress. Reverses the inhibitory effect of PspA on ClgR activity. Facilitates intracellular growth of M.tuberculosis",
+    "go": [
+      "GO:0005886"
+    ],
+    "kegg": [
+      "mtu:Rv2742c",
+      "mtv:RVBD_2742c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 6,
+    "syn": 1,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 1.788,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 9764,
+    "disrupt_frac": 0.0672,
+    "pseudogene_flag": true
+  },
+  "plddt": {
+    "mean_plddt": 45.4,
+    "n_residues": 277,
+    "band": "very low"
+  },
+  "string": {
+    "string_id": "83332.Rv2742c",
+    "n_partners": 5,
+    "n_context_driven": 2,
+    "partners": [
+      {
+        "rv": "Rv2743c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 955,
+        "combined_no_tm": 668,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 572,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 257,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv2744c",
+        "gene": "35kd_ag",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 789,
+        "combined_no_tm": 554,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 540,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 547
+        }
+      },
+      {
+        "rv": "Rv2745c",
+        "gene": "clgR",
+        "product": "transcriptional regulator ClgR",
+        "hypothetical": false,
+        "combined": 909,
+        "combined_no_tm": 372,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 363,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 861
+        }
+      },
+      {
+        "rv": "Rv0983",
+        "gene": "pepD",
+        "product": "serine protease PepD",
+        "hypothetical": false,
+        "combined": 894,
+        "combined_no_tm": 222,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 222,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      },
+      {
+        "rv": "Rv2461c",
+        "gene": "clpP1",
+        "product": "ATP-dependent CLP protease proteolytic subunit 1",
+        "hypothetical": false,
+        "combined": 433,
+        "combined_no_tm": 46,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 431
+        }
+      }
+    ],
+    "anchor": null
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Member of the clgR-pspA-rv2743c-rv2742c Psp-like envelope-stress module (Datta 2015, PMID 25899163)",
+    "Required for envelope integrity, surface-stress tolerance and intramacrophage growth",
+    "Curated from the literature crible (project 'Still unknown gene function', 2026-06-09)"
+  ],
+  "references": [
+    {
+      "authors": "Datta P, Ravi J, Guerrini V, Chauhan R, Neiditch MB, Shell SS, Fortune SM, Hancioglu B, Igoshin OA, Gennaro ML",
+      "year": 2015,
+      "title": "The Psp system of Mycobacterium tuberculosis integrates envelope stress-sensing and envelope-preserving functions",
+      "journal": "Mol Microbiol 97(3):408-22",
+      "doi": "10.1111/mmi.13037",
+      "pmid": "25899163"
+    }
+  ],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 46.6,
+    "band": "very low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 0.02,
+    "abundance_rank": 3510,
+    "n_ranked": 3519,
+    "abundance_percentile": 0.3,
+    "n_datasets": 1,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 277,
+    "mw_kda": 30.9,
+    "pi": 11.4,
+    "gravy": -0.825,
+    "instability_index": 63.7,
+    "instability_class": "unstable",
+    "aromaticity": 0.047,
+    "aliphatic_index": 6584.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2763c",
+        "identity": 100.0,
+        "evalue": 9.95e-138
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2741",
+      "gene": "PE_PGRS47",
+      "strand": "+",
+      "gap": 23
+    },
+    "right": {
+      "locus": "Rv2743c",
+      "gene": null,
+      "strand": "-",
+      "gap": 71
+    },
+    "operon": [
+      {
+        "locus": "Rv2742c",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1828",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical arginine rich protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": true,
+    "ahead_via": [
+      "curated function (UniProt)",
+      "requalified function"
+    ],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Rv1776c+WhiB4",
+        "function": "iModulon that maps to the intersection of the Rv1776c and Rv3681c regulon",
+        "category": "Redox",
+        "regulator": "Rv1776c and whiB4 "
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.234,
+    "ci_low": -0.534,
+    "ci_high": 1.182,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 2,
+      "n_total": 53,
+      "frac": 0.038,
+      "in_mtbap": 2,
+      "in_mkc": 0,
+      "mean_pident": 60.3,
+      "classification": "restricted",
+      "species_present": [
+        "M_decipiens",
+        "M_riyadhense"
+      ],
+      "interpretation": "present in a subset of the genus (2/53 NTM; in 2 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 277,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "by_alias": {
+      "H37Rv": "1"
+    },
+    "summary": "1 publication(s) mention this gene (title/abstract), verified against the text. The atlas states the function; these are the primary sources that discuss it.",
+    "papers": [
+      {
+        "title": "The Psp system of Mycobacterium tuberculosis integrates envelope stress-sensing and envelope-preserving functions.",
+        "doi": "10.1111/mmi.13037",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/25899163/",
+        "date": "2015"
+      }
+    ],
+    "caveat": "This layer CITES the literature, it does not change the verdict or the function. A gene may be heavily studied (as an antigen, a resistance determinant, a drug target) while its molecular function is settled elsewhere in the fiche.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 1.0,
+    "classification": "highly disordered",
+    "n_idr": 1,
+    "longest_idr": 277,
+    "total_idr_residues": 277,
+    "idr_regions": [
+      [
+        0,
+        277
+      ]
+    ],
+    "mean_plddt": 46.6,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (277/277 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

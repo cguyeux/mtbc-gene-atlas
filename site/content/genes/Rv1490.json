@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1490",
+  "mtbc0": "mtbc0_001594",
+  "np_id": "NP_216006.1",
+  "gene": "",
+  "len_aa": 435,
+  "strand": "+",
+  "start_mtbc0": 1689127,
+  "end_mtbc0": 1690434,
+  "product_h37rv": "membrane protein",
+  "product_mtbc0_pgap": "hypothetical protein",
+  "function_revised": "Contains Rv1490 (PF27463.1) domain(s); putative function inferred from the domain architecture.",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSQCFAVKGIGGADQATLGSAEILVKYAQLADKRARVYVLVSTWLVVWGIWHVYFVEAVFPNAILWLHYYAASYEFGFVRRGLGGELIRMLTGDHFFAGAYTVLWTSITVWLIALAVVVWLILSTGNRSERRIMLALLVPVLPFAFSYAIYNPHPELFGMTALVAFSIFLTRAHTSRTRVILSTLYGLTMAVLALIHEAIPLEFALGAVLAIIVLSKNATGATRRICTALAIGPGTVSVLLLAVVGRRDIADQLCAHIPHGMVENPWAVATTPQRVLDYIFGRVESHADYHDWVCEHVTPWFNLDWITSAKLVAVVGFRALFGAFLLGLLFFVATTSMIRYVSAVPVRTFFAELRGNLALPVLASALLVPLFITAVDWTRWWVMITLDVAIVYILYAIDRPEIEQPPSRRNVQVFVCVVLVLAVIPTGSANNIGR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Rv1490",
+      "pfam_acc": "PF27463.1",
+      "i_evalue": 1.4e-171,
+      "ali_from": 38,
+      "ali_to": 423,
+      "description": "Uncharacterised membrane protein Rv1490"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "2A2DJ",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0008150",
+      "GO:0040007"
+    ],
+    "pfams": [],
+    "seed_ortholog": "419947.MRA_1500",
+    "evalue": "1.43e-309"
+  },
+  "uniprot": {
+    "acc": "P9WLX1",
+    "reviewed": true,
+    "protein_name": "Uncharacterized protein Rv1490",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0005886"
+    ],
+    "kegg": [
+      "mtu:Rv1490",
+      "mtv:RVBD_1490"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 20,
+    "syn": 7,
+    "missense": 13,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.637,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 300,
+    "disrupt_frac": 0.0021,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1490",
+    "n_partners": 3,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv1489A",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 508,
+        "combined_no_tm": 509,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 506,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1489",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 437,
+        "combined_no_tm": 438,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 434,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1488",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 414,
+        "combined_no_tm": 414,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 413,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": null
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: membrane protein",
+    "MTBC0 PGAP product: hypothetical protein",
+    "Pfam (hmmscan --cut_ga): Rv1490 PF27463.1 (E=1e-171)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 91.2,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6ftg-assembly1_5",
+        "evalue": 0.2603,
+        "prob": 0.837,
+        "tmscore": 0.3838,
+        "description": "6ftg-assembly1_5 Subtomogram average of OST-containing ribosome-translocon complexes from canine rough microsomal membranes",
+        "significant": false
+      },
+      {
+        "target": "6gxc-assembly1_A",
+        "evalue": 0.09742,
+        "prob": 0.817,
+        "tmscore": 0.3334,
+        "description": "6gxc-assembly1_A Bacterial oligosaccharyltransferase PglB in complex with an inhibitory peptide and a reactive lipid-linked oligosaccharide analog",
+        "significant": false
+      },
+      {
+        "target": "5ogl-assembly1_A",
+        "evalue": 0.1102,
+        "prob": 0.772,
+        "tmscore": 0.3206,
+        "description": "5ogl-assembly1_A Structure of bacterial oligosaccharyltransferase PglB in complex with an acceptor peptide and an lipid-linked oligosaccharide analog",
+        "significant": false
+      },
+      {
+        "target": "8b6l-assembly1_I",
+        "evalue": 0.3327,
+        "prob": 0.601,
+        "tmscore": 0.3345,
+        "description": "8b6l-assembly1_I Subtomogram average of the human Sec61-TRAP-OSTA-translocon",
+        "significant": false
+      },
+      {
+        "target": "8pn9-assembly1_A",
+        "evalue": 0.6674,
+        "prob": 0.569,
+        "tmscore": 0.3785,
+        "description": "8pn9-assembly1_A Structure of human oligosaccharyltransferase OST-A complex bound to NGI-1",
+        "significant": false
+      },
+      {
+        "target": "8agb-assembly1_A",
+        "evalue": 0.3762,
+        "prob": 0.537,
+        "tmscore": 0.3229,
+        "description": "8agb-assembly1_A Structure of yeast oligosaccharylransferase complex with lipid-linked oligosaccharide bound",
+        "significant": false
+      },
+      {
+        "target": "8age-assembly1_A",
+        "evalue": 0.5439,
+        "prob": 0.505,
+        "tmscore": 0.3529,
+        "description": "8age-assembly1_A Structure of yeast oligosaccharylransferase complex with acceptor peptide bound",
+        "significant": false
+      },
+      {
+        "target": "8agc-assembly1_A",
+        "evalue": 0.7244,
+        "prob": 0.473,
+        "tmscore": 0.3568,
+        "description": "8agc-assembly1_A Structure of yeast oligosaccharylransferase complex with lipid-linked oligosaccharide and non-acceptor peptide bound",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 11,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (11 TM helixes)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 0.21,
+    "abundance_rank": 3431,
+    "n_ranked": 3519,
+    "abundance_percentile": 2.5,
+    "n_datasets": 2,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 435,
+    "mw_kda": 48.1,
+    "pi": 8.95,
+    "gravy": 0.759,
+    "instability_index": 34.4,
+    "instability_class": "stable",
+    "aromaticity": 0.122,
+    "aliphatic_index": 12439.1,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1527",
+        "identity": 99.8,
+        "evalue": 9.09e-313
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001574",
+        "identity": 99.5,
+        "evalue": 2.44e-312
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1489A",
+      "gene": null,
+      "strand": "+",
+      "gap": 149
+    },
+    "right": {
+      "locus": "Rv1491c",
+      "gene": null,
+      "strand": "-",
+      "gap": 578
+    },
+    "operon": [
+      {
+        "locus": "Rv1490",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0967",
+        "tf_gene": "csoR",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv3849",
+        "tf_gene": "espR",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable membrane protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.826,
+    "ci_low": -0.653,
+    "ci_high": 3.264,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 10,
+      "n_syn": 4,
+      "n_nonsyn": 5,
+      "n_disruptive": 0,
+      "dN_dS": 0.429,
+      "power": "ok",
+      "interpretation": "under purifying selection vs M. canettii (deep divergence; dN/dS=0.429) — a real, constrained gene predating the MTBC clonal expansion",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 18,
+      "n_total": 53,
+      "frac": 0.34,
+      "in_mtbap": 1,
+      "in_mkc": 0,
+      "mean_pident": 42.0,
+      "classification": "restricted",
+      "species_present": [
+        "M_asiaticum",
+        "M_avium",
+        "M_bouchedurhonense",
+        "M_colombiense",
+        "M_europaeum",
+        "M_florentinum",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_mantenii",
+        "M_marseillense",
+        "M_paraffinicum",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_shigaense",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_timonense",
+        "M_triplex"
+      ],
+      "interpretation": "present in a subset of the genus (18/53 NTM; in 1 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 435,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "1 publication(s) discuss this gene (1 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Peptides derived from the Mycobacterium tuberculosis Rv1490 surface protein implicated in inhibition of epithelial cell entry: potential vaccine candidates?",
+        "doi": "10.1016/j.vaccine.2008.05.092",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/18585422/",
+        "date": "2008"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.037,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 16,
+    "total_idr_residues": 16,
+    "idr_regions": [
+      [
+        0,
+        16
+      ]
+    ],
+    "mean_plddt": 91.2,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "Rv1490::FLAG-DAS Giles::pTetON-18_sspB",
+    "gene": "Rv1490",
+    "teton_promoter": "18",
+    "baseline_doublings_median": 4.368,
+    "n_screens": 5,
+    "strain_category": "Excluded - not in all screening waves",
+    "used_in_pcl": false,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

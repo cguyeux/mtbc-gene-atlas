@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1136",
+  "gene": "Rv1136",
+  "len_aa": 113,
+  "strand": "+",
+  "start_mtbc0": 1264606,
+  "end_mtbc0": 1264947,
+  "product_h37rv": "Possible enoyl-CoA hydratase",
+  "function_revised": "Involved in carnitine metabolism.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MVITINRPEARNAVNGAVSIVVGDALEEAHDNPDVRAVVITGAGDKSLCAGADLKAIARRENPYHPHHGEWGIAGYRHHFIDKPTSAAVSGTALDDGAEPALASDLVVADEHT",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Possible enoyl-CoA hydratase",
+    "legacy_function": "Involved in carnitine metabolism.",
+    "legacy_ec": "5.-.-.-",
+    "functional_category": "lipid metabolism",
+    "comments": "Rv1136, (MTCI65.03), len: 113 aa. Probable enoyl-CoA hydratase (possible gene fragment). Some similarity to N-terminus of carnitine racemases and enoyl-CoA hydratases (but much shorter) e.g. I41014 carnitine racemase from Escherichia coli (297 aa), FASTA scores: opt: 258, E(): 2.5e-11, (44.5% identity in 110 aa overlap); and Rv0222 putative enoyl-CoA hydratase from M. tuberculosis (262 aa).",
+    "uniprot_ac": "O06536",
+    "go": "GO:0008152,GO:0016853",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "lipid metabolism",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 113,
+    "mw_kda": 11.8,
+    "pi": 5.15,
+    "gravy": -0.184,
+    "instability_index": 5.4,
+    "instability_class": "stable",
+    "aromaticity": 0.035,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O06536",
+    "reviewed": false,
+    "protein_name": "Possible enoyl-CoA hydratase",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0016829",
+      "GO:0006635"
+    ],
+    "kegg": [
+      "mtv:RVBD_1136"
+    ],
+    "protein_existence": "3: Inferred from homology",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG1024",
+    "cog_cat": "I",
+    "description": "Belongs to the enoyl-CoA hydratase isomerase family",
+    "preferred_name": "echA1_1",
+    "ec": [
+      "4.2.1.149",
+      "4.2.1.17"
+    ],
+    "kegg_ko": [
+      "ko:K01692",
+      "ko:K08299"
+    ],
+    "kegg_pathway": [
+      "ko00071",
+      "ko00280",
+      "ko00281",
+      "ko00310",
+      "ko00360",
+      "ko00362",
+      "ko00380",
+      "ko00410",
+      "ko00627",
+      "ko00640",
+      "ko00650",
+      "ko00903",
+      "ko00930",
+      "ko01100",
+      "ko01110",
+      "ko01120",
+      "ko01130",
+      "ko01212",
+      "map00071",
+      "map00280",
+      "map00281",
+      "map00310",
+      "map00360",
+      "map00362",
+      "map00380",
+      "map00410",
+      "map00627",
+      "map00640",
+      "map00650",
+      "map00903",
+      "map00930",
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01130",
+      "map01212"
+    ],
+    "kegg_module": [
+      "M00032",
+      "M00087"
+    ],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1990c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1136",
+    "n_partners": 150,
+    "n_context_driven": 15,
+    "partners": [
+      {
+        "rv": "Rv1135A",
+        "gene": "",
+        "product": "Rv1135A, len: 80 aa. Possible acetyl-CoA acetyltransferase (possible gene fragment), highly similar to other acetyl-CoA acetyltransferases e",
+        "hypothetical": false,
+        "combined": 952,
+        "combined_no_tm": 950,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 811,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 396,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv2524c",
+        "gene": "fas",
+        "product": "fatty acid synthase",
+        "hypothetical": false,
+        "combined": 815,
+        "combined_no_tm": 788,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 149,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 644,
+          "experimental": 146,
+          "database": 278,
+          "textmining": 164
+        }
+      },
+      {
+        "rv": "Rv3563",
+        "gene": "fadE32",
+        "product": "acyl-CoA dehydrogenase FadE32",
+        "hypothetical": false,
+        "combined": 792,
+        "combined_no_tm": 784,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 69,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 323,
+          "experimental": 154,
+          "database": 643,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv3373",
+        "gene": "echA18",
+        "product": "enoyl-CoA hydratase",
+        "hypothetical": false,
+        "combined": 780,
+        "combined_no_tm": 772,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 63,
+          "fusion": 0,
+          "cooccurence": 766,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0905",
+        "gene": "echA6",
+        "product": "enoyl-CoA hydratase EchA6",
+        "hypothetical": false,
+        "combined": 771,
+        "combined_no_tm": 763,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 754,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1141c",
+        "gene": "echA11",
+        "product": "enoyl-CoA hydratase EchA11",
+        "hypothetical": false,
+        "combined": 767,
+        "combined_no_tm": 759,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 749,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv3039c",
+        "gene": "echA17",
+        "product": "enoyl-CoA hydratase EchA17",
+        "hypothetical": false,
+        "combined": 751,
+        "combined_no_tm": 752,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 750,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1142c",
+        "gene": "echA10",
+        "product": "enoyl-CoA hydratase EchA10",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 751,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 743,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1323",
+        "gene": "fadA4",
+        "product": "acetyl-CoA acetyltransferase",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 751,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 390,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv1074c",
+        "gene": "fadA3",
+        "product": "beta-ketoacyl CoA thiolase FadA",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 751,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 390,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv0859",
+        "gene": "fadA",
+        "product": "acyltransferase",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 750,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 388,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv3556c",
+        "gene": "fadA6",
+        "product": "acetyl-CoA acetyltransferase FadA",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 750,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 388,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv3546",
+        "gene": "fadA5",
+        "product": "acetyl-CoA acetyltransferase FadA",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 750,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 61,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 396,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv3522",
+        "gene": "ltp4",
+        "product": "lipid transfer protein",
+        "hypothetical": false,
+        "combined": 762,
+        "combined_no_tm": 748,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 391,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 97
+        }
+      },
+      {
+        "rv": "Rv3523",
+        "gene": "ltp3",
+        "product": "lipid carrier protein",
+        "hypothetical": false,
+        "combined": 758,
+        "combined_no_tm": 748,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 61,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 390,
+          "experimental": 298,
+          "database": 447,
+          "textmining": 81
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1135A",
+      "gene": "",
+      "product": "Rv1135A, len: 80 aa. Possible acetyl-CoA acetyltransferase (possible gene fragment), highly similar to other acetyl-CoA acetyltransferases e",
+      "combined_no_tm": 950,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 811,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 396,
+        "experimental": 298,
+        "database": 447,
+        "textmining": 81
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 95.3,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3r0o-assembly1_B",
+        "evalue": 1.356e-15,
+        "prob": 1.0,
+        "tmscore": 0.9767,
+        "description": "3r0o-assembly1_B Crystal structure of carnitinyl-CoA hydratase from Mycobacterium avium",
+        "significant": true
+      },
+      {
+        "target": "3r9t-assembly1_C",
+        "evalue": 1.268e-15,
+        "prob": 1.0,
+        "tmscore": 0.9621,
+        "description": "3r9t-assembly1_C Structure of EchA1_1 from Mycobacterium paratuberculosis ATCC BAA-968 / K-10",
+        "significant": true
+      },
+      {
+        "target": "3r9s-assembly1_C",
+        "evalue": 1.656e-15,
+        "prob": 1.0,
+        "tmscore": 0.9591,
+        "description": "3r9s-assembly1_C Structure of a carnitinyl-CoA dehydratase from Mycobacterium avium 104",
+        "significant": true
+      },
+      {
+        "target": "3r9s-assembly1_B",
+        "evalue": 1.145e-14,
+        "prob": 1.0,
+        "tmscore": 0.9299,
+        "description": "3r9s-assembly1_B Structure of a carnitinyl-CoA dehydratase from Mycobacterium avium 104",
+        "significant": true
+      },
+      {
+        "target": "3qxi-assembly1_C",
+        "evalue": 4.765e-09,
+        "prob": 1.0,
+        "tmscore": 0.8827,
+        "description": "3qxi-assembly1_C Crystal structure of enoyl-CoA hydratase EchA1 from Mycobacterium marinum",
+        "significant": true
+      },
+      {
+        "target": "3qxi-assembly1_A",
+        "evalue": 5.621e-08,
+        "prob": 1.0,
+        "tmscore": 0.8115,
+        "description": "3qxi-assembly1_A Crystal structure of enoyl-CoA hydratase EchA1 from Mycobacterium marinum",
+        "significant": true
+      },
+      {
+        "target": "5z7r-assembly1_A",
+        "evalue": 1.095e-07,
+        "prob": 1.0,
+        "tmscore": 0.8069,
+        "description": "5z7r-assembly1_A Crystal structure of crotonase from Clostridium acetobutylicum",
+        "significant": true
+      },
+      {
+        "target": "4elx-assembly1_D",
+        "evalue": 4.156e-07,
+        "prob": 1.0,
+        "tmscore": 0.7536,
+        "description": "4elx-assembly1_D Structure of apo E.coli. 1,4-dihydroxy-2- naphthoyl CoA synthases with Cl",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF00378",
+      "pfam_name": "ECH_1",
+      "description": "ECH_1",
+      "n_matches": "1"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% from "_network.html" import network_svg %}
+{% block title %}Interaction network{% if center %} · {{ center }}{% endif %} — {{ site_title }}{% endblock %}
+{% block main %}
+<article class="network">
+  <h1>Functional interaction network</h1>
+  <p class="muted">STRING v12 network (guilt-by-association). Node colour = annotation verdict, dashed outline = still
+    hypothetical; edge colour = evidence type, width &prop; score. <strong>Drag nodes to rearrange</strong>,
+    hover to highlight neighbours, click a partner to re-centre, click the centre to open its gene page.</p>
+
+  <form class="net-jump" action="/network" method="get" style="margin:.6rem 0">
+    <input type="text" name="center" placeholder="centre on a gene (e.g. Rv3222c)" value="{{ center }}">
+    <input type="hidden" name="hops" value="{{ hops }}">
+    <button type="submit">Go</button>
+  </form>
+
+  {% if graph %}
+  <p class="muted" style="margin:.3rem 0">
+    Centre <strong>{{ graph.center_rv }}</strong> &middot; {{ graph.n_nodes }} genes shown{% if graph.anchor %}
+    &middot; anchor <code>{{ graph.anchor }}</code>{% endif %} &middot;
+    <a href="/gene/{{ graph.center_rv }}">open gene page &#8594;</a> &middot;
+    {% if hops == 1 %}<a href="/network?center={{ graph.center_rv }}&hops=2">expand to 2 hops &#8594;</a>
+    {% else %}<a href="/network?center={{ graph.center_rv }}&hops=1">&#8592; back to 1 hop</a>{% endif %}
+  </p>
+
+  <div class="net-controls" style="display:flex; gap:1rem; align-items:center; flex-wrap:wrap; font-size:.85rem; margin:.4rem 0; color:#555">
+    <span>Evidence:
+      <label><input type="checkbox" class="net-chan" value="experimental" checked> <span style="color:#2e7d32">experimental</span></label>
+      <label><input type="checkbox" class="net-chan" value="context" checked> <span style="color:#ef6c00">context</span></label>
+      <label><input type="checkbox" class="net-chan" value="other" checked> <span style="color:#9e9e9e">co-expr/other</span></label>
+    </span>
+    <span>Min score <input type="range" id="net-score" min="0" max="1000" step="50" value="0" style="vertical-align:middle">
+      <span id="net-score-val">0</span></span>
+  </div>
+
+  <div id="net-interactive" hidden></div>
+  <div id="net-static">{{ network_svg(graph) }}</div>
+  <script type="application/json" id="net-data">{{ graph|tojson }}</script>
+  <script src="/static/js/network.js" defer></script>
+
+  <p class="muted" style="margin-top:.5rem">
+    edges: <span style="color:#2e7d32">&#9644;</span> experimental/database (measured) &middot;
+    <span style="color:#ef6c00">&#9644;</span> genomic-context &middot;
+    <span style="color:#9e9e9e">&#9644;</span> co-expression / other &nbsp;|&nbsp;
+    nodes: <span style="color:#2e7d32">&#9679;</span> resolved &middot;
+    <span style="color:#1565c0">&#9679;</span> family assigned &middot;
+    <span style="color:#8a8a8a">&#9679;</span> dark &middot; dashed = hypothetical.
+  </p>
+  {% elif center %}
+  <p class="note">No STRING interaction network for <code>{{ center }}</code> (unmapped or no partners above threshold).</p>
+  {% else %}
+  <p class="muted">Enter a gene above to materialise its interaction network, or reach it from any gene page.</p>
+  {% endif %}
+</article>
+{% endblock %}

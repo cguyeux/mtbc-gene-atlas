@@ -1,0 +1,880 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2373c",
+  "mtbc0": "mtbc0_002525",
+  "np_id": "NP_216889.1",
+  "gene": "dnaJ2",
+  "len_aa": 382,
+  "strand": "-",
+  "start_mtbc0": 2677032,
+  "end_mtbc0": 2678180,
+  "product_h37rv": "chaperone protein DnaJ",
+  "product_mtbc0_pgap": "molecular chaperone DnaJ",
+  "function_revised": "Molecular chaperone DnaJ. Pfam: DnaJ (PF00226.37), DnaJ_C (PF01556.24), DnaJ_CXXCXGXG (PF00684.26).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MARDYYGLLGVSKNASDADIKRAYRKLARELHPDVNPDEAAQAKFKEISVAYEVLSDPDKRRIVDLGGDPLESAAAGGNGFGGFGGLGDVFEAFFGGGFGGGAASRGPIGRVRPGSDSLLRMRLDLEECATGVTKQVTVDTAVLCDRCQGKGTNGDSVPIPCDTCGGRGEVQTVQRSLLGQMLTSRPCPTCRGVGVVIPDPCQQCMGDGRIRARREISVKIPAGVGDGMRVRLAAQGEVGPGGGPAGDLYVEVHEQAHDVFVREGDHLHCTVSVPMVDAALGVTVTVDAILDGLSEITIPPGTQPGSVITLRGRGMPHLRSNTRGDLHVHVEVVVPTRLDHQDIELLRELKGRRDREVAEVRSTHAAAGGLFSRLRETFTGR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "DnaJ",
+      "pfam_acc": "PF00226.37",
+      "i_evalue": 2.8e-25,
+      "ali_from": 4,
+      "ali_to": 65,
+      "description": "DnaJ domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "DnaJ_C",
+      "pfam_acc": "PF01556.24",
+      "i_evalue": 3.7e-45,
+      "ali_from": 121,
+      "ali_to": 336,
+      "description": "DnaJ C terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "DnaJ_CXXCXGXG",
+      "pfam_acc": "PF00684.26",
+      "i_evalue": 4.4e-14,
+      "ali_from": 145,
+      "ali_to": 209,
+      "description": "DnaJ central domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0484",
+    "cog_cat": "O",
+    "description": "ATP binding to DnaK triggers the release of the substrate protein, thus completing the reaction cycle. Several rounds of ATP-dependent interactions between DnaJ, DnaK and GrpE are required for fully efficient folding. Also involved, together with DnaK and GrpE, in the DNA replication of plasmids through activation of initiation proteins",
+    "preferred_name": "dnaJ",
+    "ec": [],
+    "kegg_ko": [
+      "K03686"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0008150",
+      "GO:0030312",
+      "GO:0040007",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "DnaJ",
+      "DnaJ_C",
+      "DnaJ_CXXCXGXG"
+    ],
+    "seed_ortholog": "419947.MRA_2396",
+    "evalue": "3.37e-272"
+  },
+  "uniprot": {
+    "acc": "P9WNV7",
+    "reviewed": true,
+    "protein_name": "Chaperone protein DnaJ 2",
+    "ec": [],
+    "function": "Participates actively in the response to hyperosmotic and heat shock by preventing the aggregation of stress-denatured proteins and by disaggregating proteins, also in an autonomous, DnaK-independent fashion. Unfolded proteins bind initially to DnaJ; upon interaction with the DnaJ-bound protein, DnaK hydrolyzes its bound ATP, resulting in the formation of a stable complex. GrpE releases ADP from DnaK; ATP binding to DnaK triggers the release of the substrate protein, thus completing the reaction cycle. Several rounds of ATP-dependent interactions between DnaJ, DnaK and GrpE are required for fu",
+    "go": [
+      "GO:0005524",
+      "GO:0005737",
+      "GO:0006260",
+      "GO:0008270",
+      "GO:0009274",
+      "GO:0009408",
+      "GO:0031072",
+      "GO:0042026",
+      "GO:0051082"
+    ],
+    "kegg": [
+      "mtu:Rv2373c",
+      "mtv:RVBD_2373c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 3,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.597,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2373c",
+    "n_partners": 303,
+    "n_context_driven": 17,
+    "partners": [
+      {
+        "rv": "Rv0350",
+        "gene": "dnaK",
+        "product": "chaperone protein DnaK",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 986,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 74,
+          "fusion": 318,
+          "cooccurence": 773,
+          "coexpression": 633,
+          "experimental": 476,
+          "database": 601,
+          "textmining": 773
+        }
+      },
+      {
+        "rv": "Rv2372c",
+        "gene": "rsmE",
+        "product": "rRNA small subunit methyltransferase E",
+        "hypothetical": false,
+        "combined": 967,
+        "combined_no_tm": 966,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 872,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 714,
+          "experimental": 158,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv2299c",
+        "gene": "htpG",
+        "product": "chaperone protein HtpG",
+        "hypothetical": false,
+        "combined": 971,
+        "combined_no_tm": 958,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 208,
+          "coexpression": 694,
+          "experimental": 542,
+          "database": 655,
+          "textmining": 340
+        }
+      },
+      {
+        "rv": "Rv2264c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 942,
+        "combined_no_tm": 934,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 74,
+          "fusion": 0,
+          "cooccurence": 217,
+          "coexpression": 630,
+          "experimental": 476,
+          "database": 601,
+          "textmining": 175
+        }
+      },
+      {
+        "rv": "Rv2374c",
+        "gene": "hrcA",
+        "product": "heat-inducible transcription repressor HrcA",
+        "hypothetical": false,
+        "combined": 971,
+        "combined_no_tm": 933,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 790,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 692,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 591
+        }
+      },
+      {
+        "rv": "Rv3446c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 929,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 74,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 628,
+          "experimental": 476,
+          "database": 601,
+          "textmining": 175
+        }
+      },
+      {
+        "rv": "Rv0312",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 929,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 74,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 626,
+          "experimental": 476,
+          "database": 601,
+          "textmining": 175
+        }
+      },
+      {
+        "rv": "Rv0351",
+        "gene": "grpE",
+        "product": "stress response protein GrpE",
+        "hypothetical": false,
+        "combined": 969,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 145,
+          "fusion": 0,
+          "cooccurence": 283,
+          "coexpression": 748,
+          "experimental": 439,
+          "database": 0,
+          "textmining": 707
+        }
+      },
+      {
+        "rv": "Rv0640",
+        "gene": "rplK",
+        "product": "50S ribosomal protein L11",
+        "hypothetical": false,
+        "combined": 866,
+        "combined_no_tm": 856,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 172,
+          "coexpression": 115,
+          "experimental": 818,
+          "database": 0,
+          "textmining": 112
+        }
+      },
+      {
+        "rv": "Rv0714",
+        "gene": "rplN",
+        "product": "50S ribosomal protein L14",
+        "hypothetical": false,
+        "combined": 861,
+        "combined_no_tm": 854,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 192,
+          "coexpression": 80,
+          "experimental": 819,
+          "database": 0,
+          "textmining": 95
+        }
+      },
+      {
+        "rv": "Rv3456c",
+        "gene": "rplQ",
+        "product": "50S ribosomal protein L17",
+        "hypothetical": false,
+        "combined": 851,
+        "combined_no_tm": 851,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 150,
+          "experimental": 825,
+          "database": 0,
+          "textmining": 46
+        }
+      },
+      {
+        "rv": "Rv3417c",
+        "gene": "groEL1",
+        "product": "chaperonin GroEL",
+        "hypothetical": false,
+        "combined": 940,
+        "combined_no_tm": 846,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 264,
+          "coexpression": 555,
+          "experimental": 155,
+          "database": 493,
+          "textmining": 626
+        }
+      },
+      {
+        "rv": "Rv0440",
+        "gene": "groEL2",
+        "product": "molecular chaperone GroEL",
+        "hypothetical": false,
+        "combined": 935,
+        "combined_no_tm": 846,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 259,
+          "coexpression": 556,
+          "experimental": 155,
+          "database": 493,
+          "textmining": 602
+        }
+      },
+      {
+        "rv": "Rv0723",
+        "gene": "rplO",
+        "product": "50S ribosomal protein L15",
+        "hypothetical": false,
+        "combined": 846,
+        "combined_no_tm": 839,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 137,
+          "experimental": 821,
+          "database": 0,
+          "textmining": 85
+        }
+      },
+      {
+        "rv": "Rv3443c",
+        "gene": "rplM",
+        "product": "50S ribosomal protein L13",
+        "hypothetical": false,
+        "combined": 844,
+        "combined_no_tm": 836,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 92,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 68,
+          "experimental": 822,
+          "database": 0,
+          "textmining": 92
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0350",
+      "gene": "dnaK",
+      "product": "chaperone protein DnaK",
+      "combined_no_tm": 986,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 74,
+        "fusion": 318,
+        "cooccurence": 773,
+        "coexpression": 633,
+        "experimental": 476,
+        "database": 601,
+        "textmining": 773
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: chaperone protein DnaJ",
+    "MTBC0 PGAP product: molecular chaperone DnaJ",
+    "Pfam (hmmscan --cut_ga): DnaJ PF00226.37 (E=3e-25), DnaJ_C PF01556.24 (E=4e-45), DnaJ_CXXCXGXG PF00684.26 (E=4e-14)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "GD",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 85.0,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6jzb-assembly1_A",
+        "evalue": 7.234e-28,
+        "prob": 1.0,
+        "tmscore": 0.8313,
+        "description": "6jzb-assembly1_A Structural characterization of DnaJ from Streptococcus pneumonia presents a new tetramer of Hsp40 family",
+        "significant": true
+      },
+      {
+        "target": "7zhs-assembly1_A",
+        "evalue": 1.134e-24,
+        "prob": 1.0,
+        "tmscore": 0.7374,
+        "description": "7zhs-assembly1_A 3D reconstruction of the cylindrical assembly of DnaJA2 delta G/F by imposing D5 symmetry",
+        "significant": true
+      },
+      {
+        "target": "1nlt-assembly1_A",
+        "evalue": 2.108e-20,
+        "prob": 1.0,
+        "tmscore": 0.8532,
+        "description": "1nlt-assembly1_A The crystal structure of Hsp40 Ydj1",
+        "significant": true
+      },
+      {
+        "target": "8j07-assembly1_u",
+        "evalue": 1.359e-24,
+        "prob": 1.0,
+        "tmscore": 0.604,
+        "description": "8j07-assembly1_u 96nm repeat of human respiratory doublet microtubule and associated axonemal complexes",
+        "significant": true
+      },
+      {
+        "target": "8j07-assembly1_v",
+        "evalue": 2.096e-25,
+        "prob": 1.0,
+        "tmscore": 0.5433,
+        "description": "8j07-assembly1_v 96nm repeat of human respiratory doublet microtubule and associated axonemal complexes",
+        "significant": true
+      },
+      {
+        "target": "3lz8-assembly1_A",
+        "evalue": 6.489e-18,
+        "prob": 1.0,
+        "tmscore": 0.8217,
+        "description": "3lz8-assembly1_A Structure of a putative chaperone dnaj from klebsiella pneumoniae subsp. pneumoniae mgh 78578 at 2.9 a resolution.",
+        "significant": true
+      },
+      {
+        "target": "4j80-assembly2_D",
+        "evalue": 4.492e-23,
+        "prob": 1.0,
+        "tmscore": 0.5098,
+        "description": "4j80-assembly2_D Thermus thermophilus DnaJ",
+        "significant": true
+      },
+      {
+        "target": "3agz-assembly1_A",
+        "evalue": 4.47e-17,
+        "prob": 1.0,
+        "tmscore": 0.7697,
+        "description": "3agz-assembly1_A Crystal structure of human Hsp40 Hdj1 peptide-binding domain complexed with a C-terminal peptide of Hsp70",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 288.0,
+    "abundance_rank": 662,
+    "n_ranked": 3519,
+    "abundance_percentile": 81.2,
+    "n_datasets": 13,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 382,
+    "mw_kda": 40.5,
+    "pi": 6.23,
+    "gravy": -0.243,
+    "instability_index": 30.8,
+    "instability_class": "stable",
+    "aromaticity": 0.039,
+    "aliphatic_index": 8340.3,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "virulence, detoxification, adaptation",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2394c",
+        "identity": 99.7,
+        "evalue": 2.14e-275
+      },
+      "M. leprae": {
+        "locus": "ML0625",
+        "identity": 88.2,
+        "evalue": 4.39e-243
+      },
+      "M. marinum": {
+        "locus": "MMAR_3683",
+        "identity": 88.2,
+        "evalue": 6.19e-247
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4504",
+        "identity": 78.4,
+        "evalue": 1.1e-218
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002451",
+        "identity": 99.2,
+        "evalue": 9.51e-274
+      },
+      "M. abscessus": {
+        "locus": "MAB_1666",
+        "identity": 73.8,
+        "evalue": 5.23e-201
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2372c",
+      "gene": null,
+      "strand": "-",
+      "gap": 13
+    },
+    "right": {
+      "locus": "Rv2374c",
+      "gene": "hrcA",
+      "strand": "-",
+      "gap": 74
+    },
+    "operon": [
+      {
+        "locus": "Rv2372c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2373c",
+        "gene": "dnaJ2"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable chaperone protein DnaJ2",
+    "legacy_function": "Acts as a co-chaperone. Stimulates, jointly with GRPE, the ATPase activity of DNAK|Rv0350.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -4.649,
+    "ci_low": -5.192,
+    "ci_high": -4.01,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 88.3,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 55.7,
+      "length_aa": 382,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 8,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 7,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "8 publication(s) discuss this gene (7 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Bacterial J-Domains with C-Terminal Tags Contact the Substrate Binding Domain of DnaK and Sequester Chaperone Activity.",
+        "doi": "10.1002/cbic.202300261",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37556312/",
+        "date": "2023"
+      },
+      {
+        "title": "HtpG Is a Metal-Dependent Chaperone Which Assists the DnaK/DnaJ/GrpE Chaperone System of Mycobacterium tuberculosis via Direct Association with DnaJ2.",
+        "doi": "10.1128/spectrum.00312-23",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37022172/",
+        "date": "2023"
+      },
+      {
+        "title": "Protein Cofactor Mimics Disrupt Essential Chaperone Function in Stressed Mycobacteria.",
+        "doi": "10.1021/acsinfecdis.1c00651",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35412813/",
+        "date": "2022"
+      },
+      {
+        "title": "Role of HrcA in stress management in Mycobacterium tuberculosis.",
+        "doi": "10.1111/jam.15428",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34953162/",
+        "date": "2022"
+      },
+      {
+        "title": "Reconstitution of a Mycobacterium tuberculosis proteostasis network highlights essential cofactor interactions with chaperone DnaK.",
+        "doi": "10.1073/pnas.1617644113",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/27872278/",
+        "date": "2016"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.113,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 43,
+    "total_idr_residues": 43,
+    "idr_regions": [
+      [
+        66,
+        109
+      ]
+    ],
+    "mean_plddt": 85.0,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

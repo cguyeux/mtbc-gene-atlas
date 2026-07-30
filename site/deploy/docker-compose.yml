@@ -1,0 +1,24 @@
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    environment:
+      ANNOT_DATABASE_URL: postgresql+psycopg2://annot:annot@db:5432/annot
+      ANNOT_AUTO_INGEST: "true"
+    ports:
+      - "9624:8000"   # 9624 = NC_000962.3 + 1, distinct from atlas_mtbc (9623)
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: annot
+      POSTGRES_PASSWORD: annot
+      POSTGRES_DB: annot
+    volumes:
+      - annot_db:/var/lib/postgresql/data
+
+volumes:
+  annot_db:

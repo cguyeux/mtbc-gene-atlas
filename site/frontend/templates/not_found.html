@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Not found &mdash; {{ site_title }}{% endblock %}
+{% block main %}
+<section class="prose">
+  <h1>Gene not found</h1>
+  <p>No gene <code>{{ rv }}</code> in the catalogue. It may lack a 1:1 RefSeq anchor between
+     MTBC0 and H37Rv (PE/PPE, paralogues, pseudogenes are not yet joined).</p>
+  <p><a href="/genes">Back to the gene list</a></p>
+</section>
+{% endblock %}

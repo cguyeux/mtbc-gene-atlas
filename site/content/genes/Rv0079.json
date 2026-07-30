@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0079",
+  "mtbc0": "mtbc0_000089",
+  "np_id": "NP_214593.1",
+  "gene": "",
+  "len_aa": 273,
+  "strand": "+",
+  "start_mtbc0": 88367,
+  "end_mtbc0": 89188,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "dormancy-associated translation inhibitor",
+  "function_revised": "DATIN (Dormancy-Associated Translation Inhibitor), a DosR-regulon protein. Pfam Ribosom_S30AE_C (PF16321) places it in the ribosome-associated / hibernation-factor family; it is proposed to bind the 30S/70S ribosomal subunits and inhibit or stabilise translation during dormancy. The activity remains a (well-argued) prediction.",
+  "verdict": "requalified",
+  "confidence": "medium",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MEPKRSRLVVCAPEPSHAREFPDVAVFSGGRANASQAERLARAVGRVLADRGVTGGARVRLTMANCADGPTLVQINLQVGDTPLRAQAATAGIDDLRPALIRLDRQIVRASAQWCPRPWPDRPRRRLTTPAEALVTRRKPVVLRRATPLQAIAAMDAMDYDVHLFTDAETGEDAVVYRAGPSGLRLARQHHVFPPGWSRCRAPAGPPVPLIVNSRPTPVLTEAAAVDRAREHGLPFLFFTDQATGRGQLLYSRYDGNLGLITPTGDGVADGLA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Ribosom_S30AE_C",
+      "pfam_acc": "PF16321.11",
+      "i_evalue": 3.2e-11,
+      "ali_from": 132,
+      "ali_to": 181,
+      "description": "Sigma 54 modulation/S30EA ribosomal protein C terminus"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1544",
+    "cog_cat": "J",
+    "description": "Sigma 54 modulation/S30EA ribosomal protein C terminus",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0005488",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005840",
+      "GO:0005886",
+      "GO:0006417",
+      "GO:0006448",
+      "GO:0008150",
+      "GO:0009889",
+      "GO:0009890",
+      "GO:0009892",
+      "GO:0010468",
+      "GO:0010556",
+      "GO:0010558",
+      "GO:0010605",
+      "GO:0010608",
+      "GO:0010629",
+      "GO:0015935",
+      "GO:0016020",
+      "GO:0017148",
+      "GO:0019222",
+      "GO:0022626",
+      "GO:0022627",
+      "GO:0030312",
+      "GO:0031323",
+      "GO:0031324",
+      "GO:0031326",
+      "GO:0031327",
+      "GO:0032268",
+      "GO:0032269",
+      "GO:0032991",
+      "GO:0034248",
+      "GO:0034249",
+      "GO:0043021",
+      "GO:0043022",
+      "GO:0043024",
+      "GO:0043226",
+      "GO:0043228",
+      "GO:0043229",
+      "GO:0043232",
+      "GO:0044391",
+      "GO:0044422",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044445",
+      "GO:0044446",
+      "GO:0044464",
+      "GO:0044877",
+      "GO:0045900",
+      "GO:0048519",
+      "GO:0048523",
+      "GO:0050789",
+      "GO:0050794",
+      "GO:0051171",
+      "GO:0051172",
+      "GO:0051246",
+      "GO:0051248",
+      "GO:0060255",
+      "GO:0065007",
+      "GO:0071944",
+      "GO:0080090",
+      "GO:1990904",
+      "GO:2000112",
+      "GO:2000113"
+    ],
+    "pfams": [
+      "Ribosom_S30AE_C"
+    ],
+    "seed_ortholog": "419947.MRA_0083",
+    "evalue": "6.15e-195"
+  },
+  "uniprot": {
+    "acc": "P9WMA9",
+    "reviewed": true,
+    "protein_name": "Dormancy associated translation inhibitor",
+    "ec": [],
+    "function": "Involved in translation regulation. Inhibits protein synthesis and decreases bacterial growth when expressed in E.coli. Can also stimulate macrophages and peripheral blood mononuclear cells (PBMC) to secrete important cytokines that may be significant in granuloma formation and its maintenance. Increases secretion of IFN-gamma, TNF, IL-1 beta and IL-8 through human Toll-like receptor 2 (TLR2) signaling pathway",
+    "go": [
+      "GO:0005886",
+      "GO:0009274",
+      "GO:0022627",
+      "GO:0043024",
+      "GO:0045900"
+    ],
+    "kegg": [
+      "mtu:Rv0079",
+      "mtv:RVBD_0079"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.578,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0079",
+    "n_partners": 104,
+    "n_context_driven": 11,
+    "partners": [
+      {
+        "rv": "Rv0080",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 989,
+        "combined_no_tm": 983,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 860,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 435
+        }
+      },
+      {
+        "rv": "Rv2785c",
+        "gene": "rpsO",
+        "product": "30S ribosomal protein S15",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 922,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 88,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv3442c",
+        "gene": "rpsI",
+        "product": "30S ribosomal protein S9",
+        "hypothetical": false,
+        "combined": 928,
+        "combined_no_tm": 921,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 132
+        }
+      },
+      {
+        "rv": "Rv0721",
+        "gene": "rpsE",
+        "product": "30S ribosomal protein S5",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 919,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 112
+        }
+      },
+      {
+        "rv": "Rv3459c",
+        "gene": "rpsK",
+        "product": "30S ribosomal protein S11",
+        "hypothetical": false,
+        "combined": 918,
+        "combined_no_tm": 919,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0705",
+        "gene": "rpsS",
+        "product": "30S ribosomal protein S19",
+        "hypothetical": false,
+        "combined": 921,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv0710",
+        "gene": "rpsQ",
+        "product": "30S ribosomal protein S17",
+        "hypothetical": false,
+        "combined": 921,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0683",
+        "gene": "rpsG",
+        "product": "30S ribosomal protein S7",
+        "hypothetical": false,
+        "combined": 920,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 64
+        }
+      },
+      {
+        "rv": "Rv0707",
+        "gene": "rpsC",
+        "product": "30S ribosomal protein S3",
+        "hypothetical": false,
+        "combined": 919,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 57
+        }
+      },
+      {
+        "rv": "Rv2890c",
+        "gene": "rpsB",
+        "product": "30S ribosomal protein S2",
+        "hypothetical": false,
+        "combined": 918,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0718",
+        "gene": "rpsH",
+        "product": "30S ribosomal protein S8",
+        "hypothetical": false,
+        "combined": 918,
+        "combined_no_tm": 918,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 829,
+          "database": 540,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1630",
+        "gene": "rpsA",
+        "product": "30S ribosomal protein S1",
+        "hypothetical": false,
+        "combined": 913,
+        "combined_no_tm": 909,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 806,
+          "database": 540,
+          "textmining": 88
+        }
+      },
+      {
+        "rv": "Rv1996",
+        "gene": "",
+        "product": "universal stress protein",
+        "hypothetical": false,
+        "combined": 927,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 903,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 286
+        }
+      },
+      {
+        "rv": "Rv0055",
+        "gene": "rpsR1",
+        "product": "30S ribosomal protein S18",
+        "hypothetical": false,
+        "combined": 891,
+        "combined_no_tm": 892,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 773,
+          "database": 540,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2055c",
+        "gene": "rpsR2",
+        "product": "30S ribosomal protein S18",
+        "hypothetical": false,
+        "combined": 891,
+        "combined_no_tm": 891,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 773,
+          "database": 540,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": null
+  },
+  "esm": {
+    "protein_hash": "8541bcd1d8970c9fd3afccd98f2db90c",
+    "mean_plddt": null,
+    "n_homologs": 10,
+    "max_similarity": 0.8699434664622019,
+    "top_sae_features": [
+      {
+        "index": 10679,
+        "activation": 0.750110976394956,
+        "label": "Charged N-terminal subdomain activation"
+      },
+      {
+        "index": 7305,
+        "activation": 0.6947240947783472,
+        "label": "Polyanion-binding beta-sheet surfaces"
+      },
+      {
+        "index": 3221,
+        "activation": 0.5049153634290493,
+        "label": "N-terminal basic interaction tails"
+      },
+      {
+        "index": 8334,
+        "activation": 0.4848046997889567,
+        "label": "Terminal interface-proximal polar segments"
+      },
+      {
+        "index": 7365,
+        "activation": 0.4755370581939371,
+        "label": "Basic aromatic nucleotide-contacting surfaces"
+      },
+      {
+        "index": 128,
+        "activation": 0.47013327647677383,
+        "label": "Ordered amphipathic interface segments"
+      },
+      {
+        "index": 12878,
+        "activation": 0.4647180354827671,
+        "label": "Loop-to-helix interface motifs"
+      },
+      {
+        "index": 7998,
+        "activation": 0.45883668097157176,
+        "label": "Intrinsic disorder/low-complexity detector"
+      }
+    ]
+  },
+  "evidence": [
+    "MTBC0 PGAP product: 'dormancy-associated translation inhibitor'",
+    "Pfam: Ribosom_S30AE_C PF16321 (E=3.2e-11) -- ribosome-associated / hibernation-factor C-terminal domain",
+    "Member of the DosR dormancy regulon"
+  ],
+  "references": [
+    {
+      "authors": "",
+      "year": 2012,
+      "title": "Mycobacterium tuberculosis DosR Regulon Gene Rv0079 Encodes a Putative, 'Dormancy Associated Translation Inhibitor (DATIN)'",
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0038709",
+      "pmid": "22701698"
+    }
+  ],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 86.9,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8wi9-assembly1_w",
+        "evalue": 4.497e-18,
+        "prob": 1.0,
+        "tmscore": 0.4468,
+        "description": "8wi9-assembly1_w Cryo- EM structure of Mycobacterium smegmatis 30S ribosomal subunit (body 2) of 70S ribosome, bS1 and RafH.",
+        "significant": true
+      },
+      {
+        "target": "8wif-assembly1_w",
+        "evalue": 0.0007893,
+        "prob": 1.0,
+        "tmscore": 0.7974,
+        "description": "8wif-assembly1_w Cryo- EM structure of Mycobacterium smegmatis 30S ribosomal subunit (body 2) of 70S ribosome and RafH.",
+        "significant": true
+      },
+      {
+        "target": "5myj-assembly1_A",
+        "evalue": 2.735e-05,
+        "prob": 1.0,
+        "tmscore": 0.4358,
+        "description": "5myj-assembly1_A Structure of 70S ribosome from Lactococcus lactis",
+        "significant": true
+      },
+      {
+        "target": "2ywq-assembly1_A",
+        "evalue": 0.004914,
+        "prob": 1.0,
+        "tmscore": 0.699,
+        "description": "2ywq-assembly1_A Crystal structure of Thermus thermophilus Protein Y N-terminal domain",
+        "significant": true
+      },
+      {
+        "target": "5njt-assembly1_x",
+        "evalue": 0.003881,
+        "prob": 1.0,
+        "tmscore": 0.6726,
+        "description": "5njt-assembly1_x Structure of the Bacillus subtilis hibernating 100S ribosome reveals the basis for 70S dimerization.",
+        "significant": true
+      },
+      {
+        "target": "3lyv-assembly1_B-2",
+        "evalue": 0.01421,
+        "prob": 1.0,
+        "tmscore": 0.8826,
+        "description": "3lyv-assembly1_B-2 Crystal structure of a domain of ribosome-associated factor Y from streptococcus pyogenes serotype M6. Northeast Structural Genomics Consortium target id DR64A",
+        "significant": false
+      },
+      {
+        "target": "6t7o-assembly1_B",
+        "evalue": 0.02563,
+        "prob": 0.998,
+        "tmscore": 0.8209,
+        "description": "6t7o-assembly1_B X-ray structure of the C-terminal domain of S. aureus Hibernating Promoting Factor (CTD-SaHPF)",
+        "significant": false
+      },
+      {
+        "target": "6s0x-assembly1_v",
+        "evalue": 6.246e-05,
+        "prob": 0.998,
+        "tmscore": 0.388,
+        "description": "6s0x-assembly1_v Erythromycin Resistant Staphylococcus aureus 70S ribosome (delta R88 A89 uL22) in complex with erythromycin.",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 343.0,
+    "abundance_rank": 584,
+    "n_ranked": 3519,
+    "abundance_percentile": 83.4,
+    "n_datasets": 10,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 273,
+    "mw_kda": 29.5,
+    "pi": 10.21,
+    "gravy": -0.239,
+    "instability_index": 42.1,
+    "instability_class": "unstable",
+    "aromaticity": 0.051,
+    "aliphatic_index": 8586.1,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0082",
+        "identity": 99.6,
+        "evalue": 3.91e-198
+      },
+      "M. marinum": {
+        "locus": "MMAR_3705",
+        "identity": 64.2,
+        "evalue": 1.88e-114
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3935",
+        "identity": 35.4,
+        "evalue": 1.07e-26
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000089",
+        "identity": 99.6,
+        "evalue": 3.65e-198
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0078B",
+      "gene": null,
+      "strand": "-",
+      "gap": 199
+    },
+    "right": {
+      "locus": "Rv0080",
+      "gene": null,
+      "strand": "+",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv0079",
+        "gene": null
+      },
+      {
+        "locus": "Rv0080",
+        "gene": null
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv3133c",
+        "tf_gene": "devR",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Unknown protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": true,
+    "ahead_via": [
+      "curated function (UniProt)",
+      "COG category",
+      "requalified function"
+    ],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.528,
+    "ci_low": -4.4,
+    "ci_high": 6.855,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "expression": {
+    "n_imodulons": 3,
+    "imodulons": [
+      {
+        "name": "DevR-1",
+        "function": "Transcription factor that is one of the primary regulators of hypoxia onset response",
+        "category": "Redox",
+        "regulator": "devR"
+      },
+      {
+        "name": "Fumarate Reductase",
+        "function": "iModulon enriched with the Fumarate Reductase Gene Ontology term",
+        "category": "Central Carbon",
+        "regulator": null
+      },
+      {
+        "name": "DevR-2",
+        "function": "Transcription factor that is one of the primary regulators of hypoxia onset response",
+        "category": "Redox",
+        "regulator": "devR"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 25,
+      "n_total": 53,
+      "frac": 0.472,
+      "in_mtbap": 3,
+      "in_mkc": 6,
+      "mean_pident": 55.0,
+      "classification": "restricted",
+      "species_present": [
+        "M_attenuatum",
+        "M_basiliense",
+        "M_cookii",
+        "M_europaeum",
+        "M_gallinarum",
+        "M_gordonae",
+        "M_innocens",
+        "M_kansasii",
+        "M_lacus",
+        "M_liflandii",
+        "M_malmoense",
+        "M_marinum",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_szulgai",
+        "M_ulcerans"
+      ],
+      "interpretation": "present in a subset of the genus (25/53 NTM; in 3 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 1,
+      "crossgenus_genomes": [
+        "Nfarcinica_IFM10152"
+      ],
+      "mean_pident": 40.3,
+      "length_aa": 273,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 5,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "by_alias": {
+      "H37Rv": "4",
+      "M. smegmatis": "1"
+    },
+    "summary": "5 publication(s) mention this gene (title/abstract), verified against the text. The atlas states the function; these are the primary sources that discuss it.",
+    "papers": [
+      {
+        "title": "Homoplastic single nucleotide polymorphisms contributed to phenotypic diversity in Mycobacterium tuberculosis.",
+        "doi": "10.1038/s41598-020-64895-4",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/32415151/",
+        "date": "2020"
+      },
+      {
+        "title": "Dormancy Associated Translation Inhibitor (DATIN/Rv0079) of Mycobacterium tuberculosis interacts with TLR2 and induces proinflammatory cytokine expression.",
+        "doi": "10.1016/j.cyto.2013.06.310",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/23819907/",
+        "date": "2013"
+      },
+      {
+        "title": "Mycobacterium tuberculosis DosR regulon gene Rv0079 encodes a putative, 'dormancy associated translation inhibitor (DATIN)'.",
+        "doi": "10.1371/journal.pone.0038709",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/22719925/",
+        "date": "2012"
+      },
+      {
+        "title": "The dormancy regulator DosR controls ribosome stability in hypoxic mycobacteria.",
+        "doi": "10.1074/jbc.M112.364851",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/22544737/",
+        "date": "2012"
+      },
+      {
+        "title": "Function prediction of Rv0079, a hypothetical Mycobacterium tuberculosis DosR regulon protein.",
+        "doi": "10.1080/07391102.2009.10507316",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/19795912/",
+        "date": "2009"
+      }
+    ],
+    "caveat": "This layer CITES the literature, it does not change the verdict or the function. A gene may be heavily studied (as an antigen, a resistance determinant, a drug target) while its molecular function is settled elsewhere in the fiche.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.022,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 86.9,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

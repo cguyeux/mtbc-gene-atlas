@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_track.html" import track_svg %}
+{% block title %}Genome browser · {{ site_title }}{% endblock %}
+{% block main %}
+<article class="browse">
+  <h1>Genome browser</h1>
+  <p class="muted">Linear view of the <em>M. tuberculosis</em> complex genome (MTBC0 ancestral coordinates,
+    H37Rv locus tags). Each arrow is a gene, pointing in its coding direction and coloured by annotation verdict.
+    Click a gene to open its page.</p>
+
+  <form class="browse-jump" action="/browse" method="get" style="margin:.6rem 0">
+    <input type="text" name="center" placeholder="jump to a gene (e.g. Rv3222c)" value="{{ track.center_rv }}">
+    <input type="hidden" name="span" value="{{ track.span }}">
+    <button type="submit">Go</button>
+  </form>
+
+  <div class="browse-nav" style="display:flex; gap:.4rem; align-items:center; flex-wrap:wrap; margin:.4rem 0">
+    <a class="btn" href="/browse?pos={{ track.center - track.span // 2 }}&span={{ track.span }}">&#9664; Pan left</a>
+    <a class="btn" href="/browse?pos={{ track.center + track.span // 2 }}&span={{ track.span }}">Pan right &#9654;</a>
+    <a class="btn" href="/browse?pos={{ track.center }}&span={{ track.zin }}">&#43; Zoom in</a>
+    <a class="btn" href="/browse?pos={{ track.center }}&span={{ track.zout }}">&minus; Zoom out</a>
+    <span class="muted">window {{ '{:,}'.format(track.w0).replace(',', ' ') }}&ndash;{{ '{:,}'.format(track.w1).replace(',', ' ') }} bp
+      ({{ '{:,}'.format(track.span).replace(',', ' ') }} bp)</span>
+  </div>
+
+  {{ track_svg(track) }}
+
+  <p class="muted" style="margin-top:.5rem">
+    <span style="color:#2e7d32">&#9632;</span> resolved (requalified) &nbsp;
+    <span style="color:#1565c0">&#9632;</span> family assigned &nbsp;
+    <span style="color:#8a8a8a">&#9632;</span> still unknown (dark) &nbsp;&middot;&nbsp;
+    the centred gene is outlined in black.
+  </p>
+</article>
+{% endblock %}

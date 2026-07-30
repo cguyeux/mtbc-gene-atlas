@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2668",
+  "mtbc0": "mtbc0_002842",
+  "np_id": "NP_217184.1",
+  "gene": "",
+  "len_aa": 173,
+  "strand": "+",
+  "start_mtbc0": 3006936,
+  "end_mtbc0": 3007457,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "hypothetical protein",
+  "function_revised": "No Pfam domain above threshold; Foldseek indicates a fold similar to 3cfu-assembly1_A Crystal structure of the yjhA protein from Bacillus subtilis. N (prob 1.00, TM 0.61). Structure-based, putative.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MRRWLIVLATLLVAAAGVAAANDVPRAWAGDAPIGHIGDTLRVDTGTYVADVTVSSVVPVDPPPGFGYTRSGVPVKSFPDSSVTRADVTVRAVRVPNSFILATNFSFTGVTPFADAYKPRPCDASDWLDAALGNAPQGSIVRGGVYWDAYRDPVSVVVLLDKKTGQHLAQWNL",
+  "domains": [],
+  "struct_hits": [
+    {
+      "target": "3cfu-assembly1_A",
+      "evalue": 0.0002713,
+      "prob": 1.0,
+      "tmscore": 0.6118,
+      "description": "3cfu-assembly1_A Crystal structure of the yjhA protein from Bacillus subtilis. Northeast Structural Genomics Consortium target SR562",
+      "significant": true
+    },
+    {
+      "target": "3cfu-assembly2_B",
+      "evalue": 0.0007951,
+      "prob": 1.0,
+      "tmscore": 0.6579,
+      "description": "3cfu-assembly2_B Crystal structure of the yjhA protein from Bacillus subtilis. Northeast Structural Genomics Consortium target SR562",
+      "significant": true
+    },
+    {
+      "target": "5bxg-assembly1_A",
+      "evalue": 0.0008854,
+      "prob": 1.0,
+      "tmscore": 0.5188,
+      "description": "5bxg-assembly1_A Crystal structure of an uncharacterized beta-sandwich protein (CD630_09570) from Clostridium difficile 630 at 1.90 A resolution",
+      "significant": true
+    },
+    {
+      "target": "4les-assembly1_A",
+      "evalue": 0.01374,
+      "prob": 0.992,
+      "tmscore": 0.4877,
+      "description": "4les-assembly1_A 2.2 Angstrom Crystal Structure of Conserved Hypothetical Protein from Bacillus anthracis.",
+      "significant": false
+    },
+    {
+      "target": "3nrf-assembly1_B",
+      "evalue": 0.01169,
+      "prob": 0.981,
+      "tmscore": 0.4839,
+      "description": "3nrf-assembly1_B Crystal structure of an apag protein (PA1934) from pseudomonas aeruginosa pao1 at 1.50 A resolution",
+      "significant": false
+    },
+    {
+      "target": "4eae-assembly1_B",
+      "evalue": 0.009949,
+      "prob": 0.961,
+      "tmscore": 0.4268,
+      "description": "4eae-assembly1_B The crystal structure of a functionally unknown protein from Listeria monocytogenes EGD-e",
+      "significant": true
+    },
+    {
+      "target": "4eae-assembly1_A",
+      "evalue": 0.008935,
+      "prob": 0.949,
+      "tmscore": 0.4052,
+      "description": "4eae-assembly1_A The crystal structure of a functionally unknown protein from Listeria monocytogenes EGD-e",
+      "significant": true
+    },
+    {
+      "target": "1tza-assembly1_B",
+      "evalue": 0.02112,
+      "prob": 0.72,
+      "tmscore": 0.3604,
+      "description": "1tza-assembly1_B X-ray structure of Northeast Structural Genomics Consortium target SoR45",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "2ARUH",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [],
+    "seed_ortholog": "419947.MRA_2696",
+    "evalue": "1.4e-121"
+  },
+  "uniprot": {
+    "acc": "P71965",
+    "reviewed": false,
+    "protein_name": "Possible exported alanine and valine rich protein",
+    "ec": [],
+    "function": "",
+    "go": [],
+    "kegg": [
+      "mtu:Rv2668",
+      "mtv:RVBD_2668"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 7,
+    "syn": 2,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.875,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 84.5,
+    "n_residues": 173,
+    "band": "confident"
+  },
+  "string": {
+    "string_id": "83332.Rv2668",
+    "n_partners": 3,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv2669",
+        "gene": "",
+        "product": "GCN5-like N-acetyltransferase",
+        "hypothetical": false,
+        "combined": 841,
+        "combined_no_tm": 841,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 839,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2667",
+        "gene": "clpC2",
+        "product": "ATP-dependent protease ATP-binding subunit ClpC",
+        "hypothetical": false,
+        "combined": 787,
+        "combined_no_tm": 787,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 786,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2666",
+        "gene": "",
+        "product": "Probable transposase for insertion sequence element IS1081 (fragment); Required for the transposition of the insertion element.",
+        "hypothetical": false,
+        "combined": 518,
+        "combined_no_tm": 518,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 518,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2669",
+      "gene": "",
+      "product": "GCN5-like N-acetyltransferase",
+      "combined_no_tm": 841,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 839,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 55,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: hypothetical protein",
+    "MTBC0 PGAP product: hypothetical protein",
+    "Foldseek best: 3cfu-assembly1_A Crystal structure of the yjhA protein from Bacillus subtilis. N (prob 1.00, E=3e-04, TM=0.61)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": true,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 87.6,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "3cfu-assembly1_A",
+        "evalue": 0.001433,
+        "prob": 1.0,
+        "tmscore": 0.5713,
+        "description": "3cfu-assembly1_A Crystal structure of the yjhA protein from Bacillus subtilis. Northeast Structural Genomics Consortium target SR562",
+        "significant": true
+      },
+      {
+        "target": "4eae-assembly1_A",
+        "evalue": 0.004546,
+        "prob": 0.994,
+        "tmscore": 0.477,
+        "description": "4eae-assembly1_A The crystal structure of a functionally unknown protein from Listeria monocytogenes EGD-e",
+        "significant": true
+      },
+      {
+        "target": "3nrf-assembly1_B",
+        "evalue": 0.01096,
+        "prob": 0.99,
+        "tmscore": 0.5114,
+        "description": "3nrf-assembly1_B Crystal structure of an apag protein (PA1934) from pseudomonas aeruginosa pao1 at 1.50 A resolution",
+        "significant": false
+      },
+      {
+        "target": "5bxg-assembly1_A",
+        "evalue": 0.005664,
+        "prob": 0.99,
+        "tmscore": 0.4578,
+        "description": "5bxg-assembly1_A Crystal structure of an uncharacterized beta-sandwich protein (CD630_09570) from Clostridium difficile 630 at 1.90 A resolution",
+        "significant": true
+      },
+      {
+        "target": "4eae-assembly1_B",
+        "evalue": 0.007457,
+        "prob": 0.912,
+        "tmscore": 0.372,
+        "description": "4eae-assembly1_B The crystal structure of a functionally unknown protein from Listeria monocytogenes EGD-e",
+        "significant": true
+      },
+      {
+        "target": "6zlx-assembly1_A",
+        "evalue": 0.06725,
+        "prob": 0.473,
+        "tmscore": 0.3425,
+        "description": "6zlx-assembly1_A The structure of the ClpX-associated factor PDIP38",
+        "significant": false
+      },
+      {
+        "target": "1tza-assembly1_A",
+        "evalue": 0.04835,
+        "prob": 0.382,
+        "tmscore": 0.3275,
+        "description": "1tza-assembly1_A X-ray structure of Northeast Structural Genomics Consortium target SoR45",
+        "significant": false
+      },
+      {
+        "target": "2f1e-assembly1_A",
+        "evalue": 0.1044,
+        "prob": 0.301,
+        "tmscore": 0.3419,
+        "description": "2f1e-assembly1_A Solution structure of ApaG protein",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP",
+    "tm_helices": 0,
+    "signal_peptide": true,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted secreted protein (signal peptide)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 170.0,
+    "abundance_rank": 931,
+    "n_ranked": 3519,
+    "abundance_percentile": 73.6,
+    "n_datasets": 9,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 173,
+    "mw_kda": 18.4,
+    "pi": 6.71,
+    "gravy": 0.149,
+    "instability_index": 28.2,
+    "instability_class": "stable",
+    "aromaticity": 0.092,
+    "aliphatic_index": 9294.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2687",
+        "identity": 98.3,
+        "evalue": 6.27e-125
+      },
+      "M. marinum": {
+        "locus": "MMAR_2047",
+        "identity": 89.9,
+        "evalue": 4.38e-108
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002752",
+        "identity": 98.8,
+        "evalue": 7.13e-126
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv2667",
+      "gene": "clpC2",
+      "strand": "+",
+      "gap": 78
+    },
+    "right": {
+      "locus": "Rv2669",
+      "gene": null,
+      "strand": "+",
+      "gap": 28
+    },
+    "operon": [
+      {
+        "locus": "Rv2668",
+        "gene": null
+      },
+      {
+        "locus": "Rv2669",
+        "gene": null
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0967",
+        "tf_gene": "csoR",
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Possible exported alanine and valine rich protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.19,
+    "ci_low": -2.499,
+    "ci_high": 3.319,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 4,
+      "n_syn": 1,
+      "n_nonsyn": 3,
+      "n_disruptive": 0,
+      "dN_dS": 1.055,
+      "power": "low",
+      "interpretation": "low power (4 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 50,
+      "n_total": 53,
+      "frac": 0.943,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 82.6,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 50/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 2,
+      "stratum_label": "Mycobacteriaceae",
+      "deepest_outgroup_clade": "Mycobacteriaceae",
+      "n_crossgenus_genomes": 1,
+      "crossgenus_genomes": [
+        "Mabscessus_ATCC19977"
+      ],
+      "mean_pident": 45.5,
+      "length_aa": 173,
+      "short_gene_caveat": false,
+      "interpretation": "detected in the sister family Mycobacteriaceae (M. abscessus) but not in the broader Corynebacteriales — a Mycobacteriaceae-restricted gene (single-genome rung: interpret with care)",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication in PubMed mentions this gene in its title or abstract — not under its H37Rv locus tag, nor under any of its ortholog identifiers (M. bovis, M. marinum, M. smegmatis, M. leprae, M. abscessus). The atlas annotation rests on sequence/structure evidence, not on a primary study of this gene.",
+    "papers": [],
+    "by_alias": {},
+    "caveat": "A verified absence of literature is itself information: it flags an annotation with no primary study behind it.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.116,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 20,
+    "total_idr_residues": 20,
+    "idr_regions": [
+      [
+        0,
+        20
+      ]
+    ],
+    "mean_plddt": 87.6,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,829 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0317c",
+  "mtbc0": "mtbc0_000337",
+  "np_id": "NP_214831.1",
+  "gene": "glpQ2",
+  "len_aa": 256,
+  "strand": "-",
+  "start_mtbc0": 388496,
+  "end_mtbc0": 389266,
+  "product_h37rv": "glycerophosphoryl diester phosphodiesterase GlpQ",
+  "product_mtbc0_pgap": "glycerophosphodiester phosphodiesterase",
+  "function_revised": "Glycerophosphodiester phosphodiesterase. Pfam: GDPD (PF03009.24).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MEFLRHGGRIAMAHRGFTSFRLPMNSMGAFQEAAKLGFRYIETDVRATRDGVAVILHDRRLAPGVGLSGAVDRLDWRDVRKAQLGAGQSIPTLEDLLTALPDMRVNIDIKAASAIEPTVNVIERCNAHNRVLIGSFSERRRRRALRLLTKRVASSAGTGALLAWLTARPLGSRAYAWRMMRDIDCVQLPSRLGGVPVITPARVRGFHAAGRQVHAWTVDEPDVMHTLLDMDVDGIITDRADLLRDVLIARGEWDGA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "GDPD",
+      "pfam_acc": "PF03009.24",
+      "i_evalue": 1.2e-52,
+      "ali_from": 14,
+      "ali_to": 241,
+      "description": "Glycerophosphoryl diester phosphodiesterase family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0584",
+    "cog_cat": "C",
+    "description": "glycerophosphoryl diester phosphodiesterase",
+    "preferred_name": "glpQ2",
+    "ec": [
+      "3.1.4.46"
+    ],
+    "kegg_ko": [
+      "K01126"
+    ],
+    "kegg_pathway": [
+      "map00564"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "GDPD"
+    ],
+    "seed_ortholog": "419947.MRA_0326",
+    "evalue": "5.24e-183"
+  },
+  "uniprot": {
+    "acc": "O07244",
+    "reviewed": true,
+    "protein_name": "Probable glycerophosphodiester phosphodiesterase 2",
+    "ec": [
+      "3.1.4.46"
+    ],
+    "function": "Glycerophosphodiester phosphodiesterase hydrolyzes glycerophosphodiesters into glycerol-3-phosphate (G3P) and the corresponding alcohol",
+    "go": [
+      "GO:0006629",
+      "GO:0008889",
+      "GO:0046872"
+    ],
+    "kegg": [
+      "mtu:Rv0317c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 6,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 1,
+    "frameshift": 1,
+    "pN_pS": 0.715,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 2,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 1054,
+    "disrupt_frac": 0.0073,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0317c",
+    "n_partners": 20,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv3842c",
+        "gene": "glpQ1",
+        "product": "glycerophosphoryl diester phosphodiesterase",
+        "hypothetical": false,
+        "combined": 952,
+        "combined_no_tm": 952,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 543,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2277c",
+        "gene": "",
+        "product": "glycerolphosphodiesterase",
+        "hypothetical": false,
+        "combined": 943,
+        "combined_no_tm": 943,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 455,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3302c",
+        "gene": "glpD2",
+        "product": "glycerol-3-phosphate dehydrogenase",
+        "hypothetical": false,
+        "combined": 697,
+        "combined_no_tm": 678,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 287,
+          "experimental": 142,
+          "database": 500,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv2249c",
+        "gene": "glpD1",
+        "product": "glycerol-3-phosphate dehydrogenase",
+        "hypothetical": false,
+        "combined": 695,
+        "combined_no_tm": 676,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 283,
+          "experimental": 142,
+          "database": 500,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv3696c",
+        "gene": "glpK",
+        "product": "glycerol kinase",
+        "hypothetical": false,
+        "combined": 672,
+        "combined_no_tm": 539,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 175,
+          "coexpression": 444,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 319
+        }
+      },
+      {
+        "rv": "Rv0318c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 413,
+        "combined_no_tm": 412,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 402,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 57,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0200",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 405,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv3492c",
+        "gene": "",
+        "product": "Mce associated protein",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 405,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0199",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 404,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0178",
+        "gene": "",
+        "product": "Mce associated membrane protein",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 404,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1362c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 424,
+        "combined_no_tm": 403,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1363c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 422,
+        "combined_no_tm": 402,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv2508c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 401,
+        "combined_no_tm": 402,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 299,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1972",
+        "gene": "",
+        "product": "Mce associated membrane protein",
+        "hypothetical": false,
+        "combined": 422,
+        "combined_no_tm": 401,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv2390c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 422,
+        "combined_no_tm": 401,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 401,
+          "textmining": 75
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3842c",
+      "gene": "glpQ1",
+      "product": "glycerophosphoryl diester phosphodiesterase",
+      "combined_no_tm": 952,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 0,
+        "fusion": 0,
+        "cooccurence": 543,
+        "coexpression": 0,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: glycerophosphoryl diester phosphodiesterase GlpQ",
+    "MTBC0 PGAP product: glycerophosphodiester phosphodiesterase",
+    "Pfam (hmmscan --cut_ga): GDPD PF03009.24 (E=1e-52)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 92.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8ghi-assembly1_A",
+        "evalue": 2.597e-20,
+        "prob": 1.0,
+        "tmscore": 0.8236,
+        "description": "8ghi-assembly1_A Crystal structure of Staphylococcus aureus Lysophosphatidylglycerol phospholipase D",
+        "significant": true
+      },
+      {
+        "target": "7ymq-assembly2_B",
+        "evalue": 4.475e-18,
+        "prob": 1.0,
+        "tmscore": 0.8035,
+        "description": "7ymq-assembly2_B Crystal structure of lysoplasmalogen specific phopholipase D, F211L mutant",
+        "significant": true
+      },
+      {
+        "target": "2pz0-assembly1_A",
+        "evalue": 4.206e-18,
+        "prob": 1.0,
+        "tmscore": 0.8189,
+        "description": "2pz0-assembly1_A Crystal structure of Glycerophosphodiester Phosphodiesterase (GDPD) from T. tengcongensis",
+        "significant": true
+      },
+      {
+        "target": "5t9b-assembly1_G",
+        "evalue": 1.135e-17,
+        "prob": 1.0,
+        "tmscore": 0.7875,
+        "description": "5t9b-assembly1_G Crystal structure of B. subtilis 168 GlpQ in complex with glycerol-3-phosphate (5 minute soak)",
+        "significant": true
+      },
+      {
+        "target": "5t9c-assembly1_E",
+        "evalue": 1.984e-17,
+        "prob": 1.0,
+        "tmscore": 0.7842,
+        "description": "5t9c-assembly1_E Crystal structure of B. subtilis 168 GlpQ in complex with glycerol-3-phosphate (1 hour soak)",
+        "significant": true
+      },
+      {
+        "target": "7ymp-assembly6_F",
+        "evalue": 8.793e-17,
+        "prob": 1.0,
+        "tmscore": 0.8076,
+        "description": "7ymp-assembly6_F Crystal structure of lysoplasmalogen specific phospholipase D",
+        "significant": true
+      },
+      {
+        "target": "3l12-assembly1_B",
+        "evalue": 6.91e-18,
+        "prob": 1.0,
+        "tmscore": 0.7594,
+        "description": "3l12-assembly1_B Crystal structure of Putative glycerophosphoryl diester phosphodiesterase (YP_165505.1) from Silicibacter pomeroyi DSS-3 at 1.60 A resolution",
+        "significant": true
+      },
+      {
+        "target": "5t91-assembly1_A",
+        "evalue": 3.925e-17,
+        "prob": 1.0,
+        "tmscore": 0.7946,
+        "description": "5t91-assembly1_A Crystal structure of B. subtilis 168 GlpQ in complex with bicine",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "mcsa": {
+    "mcsa_id": 300,
+    "ec": "3.1.4.46",
+    "n_catalytic": 8,
+    "n_present": 8,
+    "n_identical": 7,
+    "verdict": "ACTIVE-SITE CONSERVED (7/8 catalytic residues identical) -> likely active enzyme",
+    "residues": [
+      {
+        "uniprot_resid": 8,
+        "target_aa": "HIS",
+        "query_aa": "H",
+        "present": true,
+        "identical": true,
+        "role": "hydrogen bond acceptor, hydrogen bond donor, proton acceptor, proton donor"
+      },
+      {
+        "uniprot_resid": 9,
+        "target_aa": "ARG",
+        "query_aa": "R",
+        "present": true,
+        "identical": true,
+        "role": "electrostatic stabiliser, hydrogen bond donor, steric role"
+      },
+      {
+        "uniprot_resid": 35,
+        "target_aa": "GLU",
+        "query_aa": "E",
+        "present": true,
+        "identical": true,
+        "role": "metal ligand"
+      },
+      {
+        "uniprot_resid": 37,
+        "target_aa": "ASP",
+        "query_aa": "D",
+        "present": true,
+        "identical": true,
+        "role": "metal ligand"
+      },
+      {
+        "uniprot_resid": 50,
+        "target_aa": "HIS",
+        "query_aa": "H",
+        "present": true,
+        "identical": true,
+        "role": "hydrogen bond acceptor, hydrogen bond donor, proton acceptor, proton donor"
+      },
+      {
+        "uniprot_resid": 110,
+        "target_aa": "GLU",
+        "query_aa": "D",
+        "present": true,
+        "identical": false,
+        "role": "metal ligand"
+      },
+      {
+        "uniprot_resid": 112,
+        "target_aa": "LYS",
+        "query_aa": "K",
+        "present": true,
+        "identical": true,
+        "role": "electrostatic stabiliser, hydrogen bond donor"
+      },
+      {
+        "uniprot_resid": 230,
+        "target_aa": "ASP",
+        "query_aa": "D",
+        "present": true,
+        "identical": true,
+        "role": "hydrogen bond acceptor, increase acidity, increase basicity"
+      }
+    ]
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 63.4,
+    "abundance_rank": 1605,
+    "n_ranked": 3519,
+    "abundance_percentile": 54.4,
+    "n_datasets": 11,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 256,
+    "mw_kda": 28.3,
+    "pi": 10.4,
+    "gravy": -0.1,
+    "instability_index": 41.3,
+    "instability_class": "unstable",
+    "aromaticity": 0.055,
+    "aliphatic_index": 9722.7,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0325c",
+        "identity": 99.6,
+        "evalue": 1.65e-186
+      },
+      "M. marinum": {
+        "locus": "MMAR_0494",
+        "identity": 71.9,
+        "evalue": 4.85e-128
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000333",
+        "identity": 99.6,
+        "evalue": 1.54e-186
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv0316",
+      "gene": null,
+      "strand": "+",
+      "gap": 23
+    },
+    "right": {
+      "locus": "Rvnt04",
+      "gene": "glyU",
+      "strand": "-",
+      "gap": 260
+    },
+    "operon": [
+      {
+        "locus": "Rv0317c",
+        "gene": "glpQ2"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible glycerophosphoryl diester phosphodiesterase GlpQ2 (glycerophosphodiester phosphodiesterase)",
+    "legacy_function": "Glycerophosphoryl diester phosphodiesterase hydrolyzes deacylated phospholipids to G3P and the corresponding alcohols [catalytic activity: a glycerophosphodiester + H(2)O = an alcohol + SN-glycerol 3-phosphate].",
+    "legacy_ec": [
+      "3.1.4.46"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "3.1.4.46"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 1.267,
+    "ci_low": -0.877,
+    "ci_high": 4.738,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 27,
+      "n_total": 53,
+      "frac": 0.509,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 72.7,
+      "classification": "genus-core",
+      "species_present": [
+        "M_attenuatum",
+        "M_basiliense",
+        "M_decipiens",
+        "M_florentinum",
+        "M_genavense",
+        "M_gordonae",
+        "M_innocens",
+        "M_kansasii",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_marinum",
+        "M_montefiorense",
+        "M_paragordonae",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_shigaense",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_szulgai",
+        "M_triplex",
+        "M_ulcerans"
+      ],
+      "interpretation": "conserved across the genus (present in 27/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 3,
+      "crossgenus_genomes": [
+        "Cacnes_KPA171202",
+        "Mluteus_NCTC2665",
+        "Scoelicolor_A3-2"
+      ],
+      "mean_pident": 38.9,
+      "length_aa": 256,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 92.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

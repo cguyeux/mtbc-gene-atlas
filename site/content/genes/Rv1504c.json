@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1504c",
+  "gene": "Rv1504c",
+  "len_aa": 199,
+  "strand": "-",
+  "start_mtbc0": 1694545,
+  "end_mtbc0": 1695144,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VSDHKVPFNRPYMTGRELAYIAEAHSCGHLAGDGPFTRRSHAWLEQQTGCRKALLTPSCTAALEMMALLLDIEEGDEVILPSYTFVSTANAFVLRGGVPVFVDIRPDTLNIDETRIVDAITPRTKAIVPVHYAGVACEMDAIMKIATHHNLAVVEDAAQGAMASYRGRALGSIGDLGALSFHETKNVISGEGGALLVNS",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv1504c, (MTCY277.26c), len: 199 aa. Conserved hypothetical protein, similar to N-terminal region of P27833|RFFA_ECOLI lipopolysaccharide biosynthesis protein from Escherichia coli (376 aa), FASTA scores: opt: 863, E(): 0, (68.0% identity in 194 aa overlap); Rv1503c and Rv1504c are similar to RFFA_ECOLI but are separated by a stop codon, sequence appears to be correct so possible pseudogene.",
+    "uniprot_ac": "L0T6V0",
+    "go": "GO:0030170,GO:0003824",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 199,
+    "mw_kda": 21.3,
+    "pi": 5.56,
+    "gravy": 0.099,
+    "instability_index": 46.3,
+    "instability_class": "unstable",
+    "aromaticity": 0.06,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "L0T6V0",
+    "reviewed": false,
+    "protein_name": "Aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme",
+    "ec": [],
+    "function": null,
+    "go": [],
+    "kegg": [],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG0399",
+    "cog_cat": "E",
+    "description": "Belongs to the DegT DnrJ EryC1 family",
+    "preferred_name": "wecE",
+    "ec": [
+      "2.6.1.102",
+      "2.6.1.104",
+      "2.6.1.59"
+    ],
+    "kegg_ko": [
+      "ko:K02805",
+      "ko:K13010",
+      "ko:K18653"
+    ],
+    "kegg_pathway": [
+      "ko00520",
+      "map00520"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "Belongs to the DegT DnrJ EryC1 family",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 18.8,
+    "abundance_rank": 2376,
+    "n_ranked": 3519,
+    "abundance_percentile": 32.5,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0023",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv0158",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv0324",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0602c",
+        "tf_gene": "tcrA",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0678",
+        "tf_gene": "mmpR5",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0691c",
+        "tf_gene": "mftR",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv1033c",
+        "tf_gene": "trcR",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv1423",
+        "tf_gene": "whiA",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv1956",
+        "tf_gene": "higA",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv3249c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 10,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 1,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 2.375,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1504c",
+    "n_partners": 25,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv1503c",
+        "gene": "",
+        "product": "Rv1503c, (MTCY277.25c), len: 182 aa. Conserved hypothetical protein, similar to C-terminal region of P27833|RFFA_ECOLI lipopolysaccharide bi",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 900,
+          "cooccurence": 774,
+          "coexpression": 733,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 441
+        }
+      },
+      {
+        "rv": "Rv1505c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 978,
+        "combined_no_tm": 977,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 516,
+          "fusion": 0,
+          "cooccurence": 651,
+          "coexpression": 875,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv1506c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 845,
+        "combined_no_tm": 822,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 518,
+          "fusion": 0,
+          "cooccurence": 621,
+          "coexpression": 104,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 166
+        }
+      },
+      {
+        "rv": "Rv1507c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 819,
+        "combined_no_tm": 813,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 327,
+          "fusion": 0,
+          "cooccurence": 717,
+          "coexpression": 96,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv1500",
+        "gene": "pimF",
+        "product": "glycosyltransferase",
+        "hypothetical": false,
+        "combined": 684,
+        "combined_no_tm": 673,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 585,
+          "coexpression": 199,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 77
+        }
+      },
+      {
+        "rv": "Rv3784",
+        "gene": "",
+        "product": "dTDP-glucose 4,6-dehydratase",
+        "hypothetical": false,
+        "combined": 626,
+        "combined_no_tm": 603,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 74,
+          "fusion": 0,
+          "cooccurence": 162,
+          "coexpression": 529,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv1752",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 576,
+        "combined_no_tm": 537,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 510,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 124
+        }
+      },
+      {
+        "rv": "Rv3464",
+        "gene": "rmlB",
+        "product": "dTDP-glucose 4,6-dehydratase",
+        "hypothetical": false,
+        "combined": 758,
+        "combined_no_tm": 498,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 74,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 480,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 539
+        }
+      },
+      {
+        "rv": "Rv3264c",
+        "gene": "manB",
+        "product": "D-alpha-D-mannose-1-phosphate guanylyltransferase ManB",
+        "hypothetical": false,
+        "combined": 525,
+        "combined_no_tm": 498,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 481,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 93
+        }
+      },
+      {
+        "rv": "Rv0334",
+        "gene": "rmlA",
+        "product": "glucose-1-phosphate thymidylyltransferase",
+        "hypothetical": false,
+        "combined": 526,
+        "combined_no_tm": 484,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 454,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 120
+        }
+      },
+      {
+        "rv": "Rv2047c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 465,
+        "combined_no_tm": 444,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 412,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv1502",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 463,
+        "combined_no_tm": 417,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 378,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv3404c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 438,
+        "combined_no_tm": 405,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 385,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 96
+        }
+      },
+      {
+        "rv": "Rv3034c",
+        "gene": "",
+        "product": "acetyltransferase",
+        "hypothetical": false,
+        "combined": 439,
+        "combined_no_tm": 404,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 384,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv1406",
+        "gene": "fmt",
+        "product": "methionyl-tRNA formyltransferase",
+        "hypothetical": false,
+        "combined": 435,
+        "combined_no_tm": 401,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 381,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 96
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1503c",
+      "gene": "",
+      "product": "Rv1503c, (MTCY277.25c), len: 182 aa. Conserved hypothetical protein, similar to C-terminal region of P27833|RFFA_ECOLI lipopolysaccharide bi",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 781,
+        "fusion": 900,
+        "cooccurence": 774,
+        "coexpression": 733,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 441
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 96.5,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4zah-assembly1_B",
+        "evalue": 1.94e-30,
+        "prob": 1.0,
+        "tmscore": 0.98,
+        "description": "4zah-assembly1_B Crystal structure of sugar aminotransferase WecE with External Aldimine VII from Escherichia coli K-12",
+        "significant": true
+      },
+      {
+        "target": "6blg-assembly1_A",
+        "evalue": 4.172e-30,
+        "prob": 1.0,
+        "tmscore": 0.9799,
+        "description": "6blg-assembly1_A Crystal Structure of Sugar Transaminase from Klebsiella pneumoniae Complexed with PLP",
+        "significant": true
+      },
+      {
+        "target": "4piw-assembly1_A",
+        "evalue": 4.172e-30,
+        "prob": 1.0,
+        "tmscore": 0.9815,
+        "description": "4piw-assembly1_A Crystal structure of sugar aminotransferase WecE from Escherichia coli K-12",
+        "significant": true
+      },
+      {
+        "target": "4zah-assembly2_D",
+        "evalue": 6.95e-30,
+        "prob": 1.0,
+        "tmscore": 0.9796,
+        "description": "4zah-assembly2_D Crystal structure of sugar aminotransferase WecE with External Aldimine VII from Escherichia coli K-12",
+        "significant": true
+      },
+      {
+        "target": "4zah-assembly4_G",
+        "evalue": 1.593e-29,
+        "prob": 1.0,
+        "tmscore": 0.9808,
+        "description": "4zah-assembly4_G Crystal structure of sugar aminotransferase WecE with External Aldimine VII from Escherichia coli K-12",
+        "significant": true
+      },
+      {
+        "target": "4zah-assembly4_H",
+        "evalue": 1.929e-29,
+        "prob": 1.0,
+        "tmscore": 0.9801,
+        "description": "4zah-assembly4_H Crystal structure of sugar aminotransferase WecE with External Aldimine VII from Escherichia coli K-12",
+        "significant": true
+      },
+      {
+        "target": "4piw-assembly3_F",
+        "evalue": 1.151e-28,
+        "prob": 1.0,
+        "tmscore": 0.981,
+        "description": "4piw-assembly3_F Crystal structure of sugar aminotransferase WecE from Escherichia coli K-12",
+        "significant": true
+      },
+      {
+        "target": "3dr4-assembly2_D",
+        "evalue": 3.082e-22,
+        "prob": 1.0,
+        "tmscore": 0.971,
+        "description": "3dr4-assembly2_D GDP-perosamine synthase K186A mutant from Caulobacter crescentus with bound sugar ligand",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF01041",
+      "pfam_name": "DegT_DnrJ_EryC1",
+      "description": "DegT_DnrJ_EryC1",
+      "n_matches": "1"
+    }
+  ]
+}

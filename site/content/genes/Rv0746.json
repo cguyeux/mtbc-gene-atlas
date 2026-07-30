@@ -1,0 +1,746 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0746",
+  "mtbc0": "-",
+  "np_id": "YP_177750.1",
+  "gene": "PE_PGRS9",
+  "len_aa": 783,
+  "strand": "+",
+  "start_mtbc0": 835701,
+  "end_mtbc0": 838052,
+  "product_h37rv": "PE-PGRS family protein PE_PGRS9",
+  "product_mtbc0_pgap": "",
+  "function_revised": "PE-PGRS family protein PE_PGRS9. Pfam: PE (PF00934.26), PGRS (PF21526.3).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSFVLAMPEVLGSAATDLAALGSVLGAADAAAAATTTGIVAAAQDEVSAAIAALFSAHGRAYQVASAQAAAVHAQFVEALSAGAGAYASAEAAGAAVLANPAQSVQQDLLAAVNAQSVALTGRPLIGNGANGAPGTGANGAPGGWLLGNGGAGGSAAAGSGLPGGAGGAAGLFGTGGAGGAGGSSTVGDGEAGGAGGSGGWLLGTGGVGGVGGLGAGAGGAGGVGGAGGLLGAGGHGGAGGLGAVTGGVGGTGGAGGLLAGLLAGPGGAGGTGGRGFLNNGGVGGAGGNAGLLFGAGGTGGSGGAGLGGDGGAGGAGGNTGVLFGNAGSGGTGGFGDTDGGAGGAGGDAGWLGSGGVGGAGGFGETGDGGVGGAGGKAGLLIGNGGAGGAGGQGAVTGGTGGAGGDGVLIGNGGNAGIGGTGPTAGDTGAGGISGLLLGADGFNTPASASPLHTLKQQALAAINAPTQTLTGRPLIGNGTPGAVGSGATGAPGGWLLGDGGAGGSGAAGSGAPGGAGGAAGLWGTGGAGGAGGSSAGGGGAGGAGGAGGWLLGDGGAGGIGGASTVLGGTGGGGGVGGLWGAGGAGGAGGTGLVGGDGGAGGAGGTGGLLAGLIGAGGGHGGTGGLSTNGDGGVGGAGGNAGMLAGPGGAGGAGGDGENLDTGGDGGAGGSAGLLFGSGGAGGAGGFGFLGGDGGAGGNAGLLLSSGGAGGFGGFGTAGGVGGAGGNAGWLGFGGAGGVGGSAGLIGTGGNGGNGGTGANAGSPGTGGAGGLLLGQNGLNGLP",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "PE",
+      "pfam_acc": "PF00934.26",
+      "i_evalue": 6.8e-29,
+      "ali_from": 4,
+      "ali_to": 93,
+      "description": "PE family"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "PGRS",
+      "pfam_acc": "PF21526.3",
+      "i_evalue": 1.2e-07,
+      "ali_from": 126,
+      "ali_to": 202,
+      "description": "PGRS repeats"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0657",
+    "cog_cat": "I",
+    "description": "PE family",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "PE"
+    ],
+    "seed_ortholog": "83332.Rv0746",
+    "evalue": "6.56e-88"
+  },
+  "uniprot": {
+    "acc": "Q79FW8",
+    "reviewed": false,
+    "protein_name": "PE-PGRS family protein PE_PGRS9",
+    "ec": [],
+    "function": "",
+    "go": [],
+    "kegg": [
+      "mtu:Rv0746"
+    ],
+    "evidence": "Predicted"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 28,
+    "syn": 11,
+    "missense": 17,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.662,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 410,
+    "disrupt_frac": 0.0028,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0746",
+    "n_partners": 10,
+    "n_context_driven": 3,
+    "partners": [
+      {
+        "rv": "Rv0745",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 723,
+        "combined_no_tm": 723,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 723,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0743c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 457,
+        "combined_no_tm": 456,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 456,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0744c",
+        "gene": "",
+        "product": "transcriptional regulator",
+        "hypothetical": false,
+        "combined": 457,
+        "combined_no_tm": 456,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 456,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0198c",
+        "gene": "zmp1",
+        "product": "zinc metalloprotease",
+        "hypothetical": false,
+        "combined": 407,
+        "combined_no_tm": 407,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 59,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 396,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1175c",
+        "gene": "fadH",
+        "product": "NADPH dependent 2,4-dienoyl-CoA reductase FadH",
+        "hypothetical": false,
+        "combined": 441,
+        "combined_no_tm": 43,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 440
+        }
+      },
+      {
+        "rv": "Rv2544",
+        "gene": "lppB",
+        "product": "lipoprotein LppB",
+        "hypothetical": false,
+        "combined": 441,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 441
+        }
+      },
+      {
+        "rv": "Rv2543",
+        "gene": "lppA",
+        "product": "lipoprotein LppA",
+        "hypothetical": false,
+        "combined": 439,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 439
+        }
+      },
+      {
+        "rv": "Rv2178c",
+        "gene": "aroG",
+        "product": "phospho-2-dehydro-3-deoxyheptonate aldolase AroG",
+        "hypothetical": false,
+        "combined": 432,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 432
+        }
+      },
+      {
+        "rv": "Rv0388c",
+        "gene": "PPE9",
+        "product": "Rv0388c, (MTV036.23c), len: 180 aa. PPE9, Member of the Mycobacterium tuberculosis PPE family, highly similar to others e.g. MTCY10G2_10|Z92",
+        "hypothetical": false,
+        "combined": 432,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 432
+        }
+      },
+      {
+        "rv": "Rv2126c",
+        "gene": "PE_PGRS37",
+        "product": "PE-PGRS family protein PE_PGRS37",
+        "hypothetical": false,
+        "combined": 431,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 431
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0744c",
+      "gene": "",
+      "product": "transcriptional regulator",
+      "combined_no_tm": 456,
+      "confidence": "medium",
+      "channels": {
+        "neighborhood": 456,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 0,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): PE-PGRS family protein PE_PGRS9",
+    "Pfam (hmmscan --cut_ga): PE PF00934.26 (E=7e-29), PGRS PF21526.3 (E=1e-07)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 92.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "5xfs-assembly1_A",
+        "evalue": 2.125e-05,
+        "prob": 1.0,
+        "tmscore": 0.9725,
+        "description": "5xfs-assembly1_A Crystal structure of PE8-PPE15 in complex with EspG5 from M. tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "4w4k-assembly1_A",
+        "evalue": 0.0007886,
+        "prob": 1.0,
+        "tmscore": 0.9311,
+        "description": "4w4k-assembly1_A Crystal structure of a PE25-PPE41 heterodimer from a type VII secretion system of M. tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "4w4k-assembly2_C",
+        "evalue": 0.001351,
+        "prob": 1.0,
+        "tmscore": 0.9413,
+        "description": "4w4k-assembly2_C Crystal structure of a PE25-PPE41 heterodimer from a type VII secretion system of M. tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "2g38-assembly2_C",
+        "evalue": 0.002314,
+        "prob": 1.0,
+        "tmscore": 0.9298,
+        "description": "2g38-assembly2_C A PE/PPE Protein Complex from Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "7jjv-assembly1_A",
+        "evalue": 1.799e-08,
+        "prob": 0.998,
+        "tmscore": 0.4397,
+        "description": "7jjv-assembly1_A Crystal waters on the nine polyproline type II helical bundle springtail antifreeze protein from Granisotoma rainieri match the ice lattice",
+        "significant": true
+      },
+      {
+        "target": "8qi0-assembly1_D",
+        "evalue": 5.461,
+        "prob": 0.04,
+        "tmscore": 0.3926,
+        "description": "8qi0-assembly1_D 340A Vipp1 H1-6 helical tubes",
+        "significant": false
+      },
+      {
+        "target": "8akx-assembly1_2",
+        "evalue": 8.662,
+        "prob": 0.04,
+        "tmscore": 0.4665,
+        "description": "8akx-assembly1_2 305 A SynPspA rod after incubation with ATP",
+        "significant": false
+      },
+      {
+        "target": "8akx-assembly1_3",
+        "evalue": 8.662,
+        "prob": 0.04,
+        "tmscore": 0.4665,
+        "description": "8akx-assembly1_3 305 A SynPspA rod after incubation with ATP",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 783,
+    "mw_kda": 64.2,
+    "pi": 4.05,
+    "gravy": 0.318,
+    "instability_index": 18.3,
+    "instability_class": "stable",
+    "aromaticity": 0.033,
+    "aliphatic_index": 7033.2,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "PE/PPE",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0767",
+        "identity": 88.8,
+        "evalue": 2.49e-63
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv0745",
+      "gene": null,
+      "strand": "+",
+      "gap": 19
+    },
+    "right": {
+      "locus": "Rv0747",
+      "gene": "PE_PGRS10",
+      "strand": "+",
+      "gap": 398
+    },
+    "operon": [
+      {
+        "locus": "Rv0745",
+        "gene": null
+      },
+      {
+        "locus": "Rv0746",
+        "gene": "PE_PGRS9"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1404",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "PE-PGRS family protein PE_PGRS9",
+    "legacy_function": "Function unknown",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "SigD",
+        "function": "Sigma Factor that governs the expression of ribosomal genes and plays a role in virulence",
+        "category": "Virulence/Persistence",
+        "regulator": "sigD"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.794,
+    "ci_low": -1.183,
+    "ci_high": 2.978,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 0,
+      "n_total": 53,
+      "frac": 0.0,
+      "in_mtbap": 0,
+      "in_mkc": 0,
+      "mean_pident": 0.0,
+      "classification": "MTBC-specific",
+      "species_present": [],
+      "interpretation": "absent from ALL 53 non-MTBC Mycobacterium genomes tested (incl. the closest MTBAP relatives) — a candidate MTBC-specific genetic innovation / host-adaptation factor (confirm by synteny; rule out a short/low-complexity ORF and extreme divergence)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 0,
+      "stratum_label": "MTBC-specific",
+      "deepest_outgroup_clade": "none",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 783,
+      "short_gene_caveat": false,
+      "interpretation": "absent from the whole genus and from all outgroups tested — a candidate MTBC-specific innovation (confirm by synteny; rule out detection failure for short/divergent ORFs)",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "rbtnseq_fitness": {
+    "n_phenotypes": 3,
+    "groups": [
+      "pe/ppe"
+    ],
+    "phenotypes": [
+      {
+        "condition": "Isoniazid.0.025.ug.mL",
+        "group": "pe/ppe",
+        "log2": 0.787,
+        "t": 3.793,
+        "direction": "advantage",
+        "detail": null
+      },
+      {
+        "condition": "L.Asparagine..C.",
+        "group": "pe/ppe",
+        "log2": -0.768,
+        "t": -3.632,
+        "direction": "required",
+        "detail": null
+      },
+      {
+        "condition": "Ofloxacin.0.8.ug.mL",
+        "group": "pe/ppe",
+        "log2": 0.766,
+        "t": 3.223,
+        "direction": "advantage",
+        "detail": null
+      }
+    ],
+    "is_pe_ppe": true,
+    "lead": "transposon mutants are specifically enriched under Isoniazid.0.025.ug.mL (stress/antibiotic) (RB-TnSeq log2=0.787, t=3.793), i.e. loss of the gene confers a fitness advantage there — candidate Isoniazid.0.025.ug.mL-susceptibility/activation factor whose disruption is beneficial; 3 specific phenotype(s) total.",
+    "source": "RB-TnSeq 95-condition barcoded transposon screen, Mtb (PLoS Biol 2026, doi:10.1371/journal.pbio.3003529)"
+  },
+  "literature": {
+    "n_papers": 4,
+    "n_papers_listed": 4,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 4,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "4 publication(s) discuss this gene (4 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Molecular characteristics of drug-susceptible Mycobacterium tuberculosis clinical isolates based on treatment duration.",
+        "doi": "10.24171/j.phrp.2024.0101",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39511960/",
+        "date": "2024"
+      },
+      {
+        "title": "An overview to understand the role of PE_PGRS family proteins in Mycobacterium tuberculosis H37 Rv and their potential as new drug targets.",
+        "doi": "10.1002/bab.1266",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/24975480/",
+        "date": "2015"
+      },
+      {
+        "title": "In vitro analysis of rates and spectra of mutations in a polymorphic region of the Rv0746 PE_PGRS gene of Mycobacterium tuberculosis.",
+        "doi": "10.1128/JB.01647-06",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/17172340/",
+        "date": "2007"
+      },
+      {
+        "title": "PE_PGRS proteins are differentially expressed by Mycobacterium tuberculosis in host tissues.",
+        "doi": "10.1016/j.micinf.2006.03.015",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/16798044/",
+        "date": "2006"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.269,
+    "classification": "partially disordered",
+    "n_idr": 3,
+    "longest_idr": 158,
+    "total_idr_residues": 241,
+    "idr_regions": [
+      [
+        331,
+        370
+      ],
+      [
+        508,
+        552
+      ],
+      [
+        625,
+        783
+      ]
+    ],
+    "mean_plddt": 92.6,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (241/783 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

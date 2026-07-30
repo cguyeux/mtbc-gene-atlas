@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2386a",
+  "mtbc0": "-",
+  "np_id": "YP_009030039.1",
+  "gene": "",
+  "len_aa": 69,
+  "strand": "+",
+  "start_mtbc0": 2680458,
+  "end_mtbc0": 2680667,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "",
+  "function_revised": "Sm-like fold (SCOP b.38.1.6) small protein of the DUF903 / YgdI-YgdR family (a large converging cascade of HHpred hits at 90-94%; plus the self-named Mtb family PF29823 at 99.95%). Confident fold and family assignment. The DUF903 family is generically annotated as putative lipoproteins, but our own DeepTMHMM prediction sees Rv2386a as globular (no signal peptide / lipobox), so the lipoprotein label is NOT supported here. The molecular function of this family is not established.",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MFVIRLADGEEVHGECDELTINPATGVLTVCRVDGFEETTTHYSPSAWRSVTHRKRGVGVRPSLVSTAQ",
+  "domains": [],
+  "struct_hits": [
+    {
+      "target": "1y96-assembly2_D",
+      "evalue": 0.3176,
+      "prob": 0.981,
+      "tmscore": 0.6879,
+      "description": "1y96-assembly2_D crystal structure of the Gemin6/Gemin7 heterodimer from the human SMN complex",
+      "significant": false
+    },
+    {
+      "target": "3ifv-assembly1_A",
+      "evalue": 0.541,
+      "prob": 0.795,
+      "tmscore": 0.5947,
+      "description": "3ifv-assembly1_A Crystal structure of the Haloferax volcanii proliferating cell nuclear antigen",
+      "significant": false
+    },
+    {
+      "target": "3ifv-assembly1_B",
+      "evalue": 0.9775,
+      "prob": 0.72,
+      "tmscore": 0.6379,
+      "description": "3ifv-assembly1_B Crystal structure of the Haloferax volcanii proliferating cell nuclear antigen",
+      "significant": false
+    },
+    {
+      "target": "3ifv-assembly1_C",
+      "evalue": 1.239,
+      "prob": 0.632,
+      "tmscore": 0.6223,
+      "description": "3ifv-assembly1_C Crystal structure of the Haloferax volcanii proliferating cell nuclear antigen",
+      "significant": false
+    },
+    {
+      "target": "7jil-assembly1_P",
+      "evalue": 0.3575,
+      "prob": 0.569,
+      "tmscore": 0.4284,
+      "description": "7jil-assembly1_P 70S ribosome Flavobacterium johnsoniae",
+      "significant": false
+    },
+    {
+      "target": "7jsw-assembly1_p",
+      "evalue": 0.4024,
+      "prob": 0.569,
+      "tmscore": 0.4457,
+      "description": "7jsw-assembly1_p ArfB Rescue of a 70S Ribosome stalled on truncated mRNA with a partial A-site codon (+2-III)",
+      "significant": false
+    },
+    {
+      "target": "5h1s-assembly1_R",
+      "evalue": 0.453,
+      "prob": 0.569,
+      "tmscore": 0.4207,
+      "description": "5h1s-assembly1_R Structure of the large subunit of the chloro-ribosome",
+      "significant": false
+    },
+    {
+      "target": "5jte-assembly1_BP",
+      "evalue": 0.3793,
+      "prob": 0.537,
+      "tmscore": 0.43,
+      "description": "5jte-assembly1_BP Cryo-EM structure of an ErmBL-stalled ribosome in complex with A-, P-, and E-tRNA",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "2AXCA",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [],
+    "seed_ortholog": "419947.MRA_2410",
+    "evalue": "3.93e-45"
+  },
+  "uniprot": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 1,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.073,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 76.4,
+    "n_residues": 69,
+    "band": "confident"
+  },
+  "string": {},
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): hypothetical protein",
+    "Foldseek best: 1y96-assembly2_D crystal structure of the Gemin6/Gemin7 heterodimer from the hum (prob 0.98, E=3e-01, TM=0.69)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [
+    {
+      "authors": "Zimmermann L, Stephens A, Nam SZ, et al.",
+      "year": 2018,
+      "title": "A Completely Reimplemented MPI Bioinformatics Toolkit with a New HHpred Server at its Core",
+      "journal": "Journal of Molecular Biology",
+      "doi": "10.1016/j.jmb.2017.12.007"
+    }
+  ],
+  "essentiality": {},
+  "plddt_af": {},
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 69,
+    "mw_kda": 7.6,
+    "pi": 5.82,
+    "gravy": -0.236,
+    "instability_index": 51.0,
+    "instability_class": "unstable",
+    "aromaticity": 0.058,
+    "aliphatic_index": 7753.6,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {},
+  "orthologs": {},
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv2386c",
+      "gene": "mbtI",
+      "strand": "-",
+      "gap": 452
+    },
+    "right": {
+      "locus": "Rv2387",
+      "gene": null,
+      "strand": "+",
+      "gap": 97
+    },
+    "operon": [
+      {
+        "locus": "Rv2386a",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {},
+  "rd": {},
+  "hhpred": {
+    "top_hits": [
+      "PF29823 Rv2386A self-family (99.95%)",
+      "b.38.1.6 Sm-like fold / DUF903 YgdI-YgdR (90-94%, E~1-4, 13+ converging hits)"
+    ],
+    "source": "HHpred (MPI Toolkit)",
+    "no_confident_hit": false,
+    "note": ""
+  },
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Sulfur Metabolism",
+        "function": "Kegg Map that displays the transport and metabolism of sulfur",
+        "category": "Sulfur Metabolism",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.159,
+    "ci_low": -1.083,
+    "ci_high": 1.711,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 1,
+      "n_nonsyn": 0,
+      "n_disruptive": 0,
+      "dN_dS": 0.0,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 40,
+      "n_total": 53,
+      "frac": 0.755,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 76.1,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_basiliense",
+        "M_celatum",
+        "M_colombiense",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_genavense",
+        "M_gordonae",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_szulgai",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 40/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 69,
+      "short_gene_caveat": true,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "n_papers_listed": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication in PubMed mentions this gene in its title or abstract — not under its H37Rv locus tag, nor under any of its ortholog identifiers (M. bovis, M. marinum, M. smegmatis, M. leprae, M. abscessus). The atlas annotation rests on sequence/structure evidence, not on a primary study of this gene.",
+    "papers": [],
+    "by_alias": {},
+    "caveat": "A verified absence of literature is itself information: it flags an annotation with no primary study behind it.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.217,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 15,
+    "total_idr_residues": 15,
+    "idr_regions": [
+      [
+        54,
+        69
+      ]
+    ],
+    "mean_plddt": null,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (15/69 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

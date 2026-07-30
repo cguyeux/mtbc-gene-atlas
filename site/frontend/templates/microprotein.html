@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}{{ m.id }} &mdash; microprotein &mdash; {{ site_title }}{% endblock %}
+{% block main %}
+<article class="gene">
+  <header class="gene-head">
+    <h1>{{ m.id }} <span class="muted">microprotein</span></h1>
+    <div class="badges">
+      <span class="badge">{{ overlap_label.get(m.overlap_class, m.overlap_class) }}</span>
+      <span class="badge">existence proven (MS)</span>
+      <span class="badge badge-dark">function unknown</span>
+      {% if m.essentiality_code == 'ES' %}<span class="badge badge-dark">essential</span>{% endif %}
+      {% if m.length_aa %}<span class="badge">{{ m.length_aa }} aa</span>{% endif %}
+    </div>
+  </header>
+
+  <section>
+    <p style="max-width:72ch">A non-canonical small protein (smORF) excluded from the H37Rv annotation, detected
+      by proteogenomics with a high-confidence peptide-spectrum match. It is served here as part of a
+      <strong>separate microproteome track</strong>: it is not one of the 3906 canonical genes and does not count
+      in the dark stock. Its <strong>existence is proven; its molecular function is unknown.</strong>
+      {% if m.overlap_class == 'sense_overlap' and host %}
+      It lies on the <strong>same strand within {{ host.gene_name or host.host_rv }}</strong>, i.e. an alternative
+      reading frame of a known gene (dual coding) rather than a new locus.
+      {% elif m.overlap_class == 'antisense' and host %}
+      It is encoded <strong>antisense</strong> to {{ host.gene_name or m.host_rv }} on the opposite strand.
+      {% elif m.overlap_class == 'intergenic' %}
+      It maps to an <strong>intergenic region</strong> (a genuinely novel locus, no overlapping CDS).
+      {% endif %}
+    </p>
+  </section>
+
+  <section>
+    <h2>Evidence &amp; coordinates</h2>
+    {% if m.extra and m.extra.now_annotated_as %}
+    <p class="note">&#9888; This ORF is <strong>now officially annotated as {{ m.extra.now_annotated_as }}</strong> in H37Rv,
+      but it is absent from this atlas's canonical gene set (it was added to the reference after this atlas was built). Listed
+      here as a flagged gap.</p>
+    {% endif %}
+    <table class="genes">
+      <tbody>
+        <tr><th>Detection method</th><td>{{ m.detection_method or '—' }}</td></tr>
+        <tr><th>Existence evidence</th><td>{{ m.ms_evidence }}{% if m.tier %} <span class="muted">(tier {{ m.tier }})</span>{% endif %}</td></tr>
+        {% if m.extra and m.extra.transcript_class %}<tr><th>Transcript</th><td>{{ m.extra.transcript_class }}</td></tr>{% endif %}
+        {% if m.extra and m.extra.n_cysteines is not none %}<tr><th>Cysteines</th><td>{{ m.extra.n_cysteines }} <span class="muted">(the VapC4 method targets Cys codons)</span></td></tr>{% endif %}
+        {% if m.extra and m.extra.ribo_ret_smith2022 %}<tr><th>Cross-validation</th><td>also detected by Ribo-RET (Smith et al. 2022)</td></tr>{% endif %}
+        {% if m.start %}<tr><th>H37Rv coordinates</th><td>{{ m.start }}&ndash;{{ m.end }} ({{ m.strand }} strand)</td></tr>{% endif %}
+        <tr><th>Length</th><td>{{ m.length_aa }} amino acids</td></tr>
+        {% if m.start_codon %}<tr><th>Start codon</th><td>{{ m.start_codon }}</td></tr>{% endif %}
+        {% if m.shine_dalgarno %}<tr><th>Shine-Dalgarno</th><td>{{ m.shine_dalgarno }}</td></tr>{% endif %}
+        {% if m.folding_free_energy is not none %}<tr><th>Folding free energy</th><td>{{ m.folding_free_energy }}</td></tr>{% endif %}
+        {% if m.localization %}<tr><th>Predicted localisation</th><td>{{ m.localization }}{% if m.localization_reliability %} <span class="muted">({{ m.localization_reliability }})</span>{% endif %}</td></tr>{% endif %}
+        {% if m.essentiality %}<tr><th>Essentiality (TnSeq)</th><td>{% if m.essentiality_code == 'ES' %}<strong>essential</strong>{% else %}{{ m.essentiality }}{% endif %}</td></tr>{% endif %}
+        {% if m.conserved_in %}<tr><th>Conservation</th><td>homologues detected in {{ m.conserved_in|join(', ') }}</td></tr>{% endif %}
+        {% if m.host_rv %}<tr><th>Overlaps locus</th><td><a href="/gene/{{ m.host_rv }}">{{ m.host_gene or m.host_rv }}</a> ({{ m.host_rv }}) <span class="muted">&mdash; by genomic geometry</span></td></tr>{% endif %}
+        {% if m.surrounding_genes %}<tr><th>Neighbouring genes</th><td class="muted">{{ m.surrounding_genes }}</td></tr>{% endif %}
+      </tbody>
+    </table>
+  </section>
+
+  {% if m.sequence %}
+  <section>
+    <h2>Sequence</h2>
+    <pre style="white-space:pre-wrap;word-break:break-all"><code>{{ m.sequence }}</code></pre>
+  </section>
+  {% endif %}
+
+  <p class="muted">Source: {{ m.source }}. Overlap class is assigned by geometry against the H37Rv CDS set,
+    not by the source's own label. <a href="/microproteins">&larr; all microproteins</a></p>
+</article>
+{% endblock %}

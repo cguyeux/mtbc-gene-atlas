@@ -1,0 +1,847 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1107c",
+  "mtbc0": "mtbc0_001189",
+  "np_id": "NP_215623.1",
+  "gene": "xseB",
+  "len_aa": 85,
+  "strand": "-",
+  "start_mtbc0": 1242406,
+  "end_mtbc0": 1242663,
+  "product_h37rv": "exodeoxyribonuclease VII small subunit",
+  "product_mtbc0_pgap": "exodeoxyribonuclease VII small subunit",
+  "function_revised": "Exodeoxyribonuclease VII small subunit. Pfam: Exonuc_VII_S (PF02609.22).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MVCDPNGDDTGRTHATVPVSQLGYEACRDELMEVVRLLEQGGLDLDASLRLWERGEQLAKRCEEHLAGARQRVSDVLAGDEAQNG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Exonuc_VII_S",
+      "pfam_acc": "PF02609.22",
+      "i_evalue": 2.9e-16,
+      "ali_from": 24,
+      "ali_to": 74,
+      "description": "Exonuclease VII small subunit"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1722",
+    "cog_cat": "L",
+    "description": "Bidirectionally degrades single-stranded DNA into large acid-insoluble oligonucleotides, which are then degraded further into small acid-soluble oligonucleotides",
+    "preferred_name": "xseB",
+    "ec": [
+      "3.1.11.6"
+    ],
+    "kegg_ko": [
+      "K03602"
+    ],
+    "kegg_pathway": [
+      "map03430"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Exonuc_VII_S"
+    ],
+    "seed_ortholog": "419947.MRA_1118",
+    "evalue": "3.75e-57"
+  },
+  "uniprot": {
+    "acc": "P9WF29",
+    "reviewed": true,
+    "protein_name": "Exodeoxyribonuclease 7 small subunit",
+    "ec": [
+      "3.1.11.6"
+    ],
+    "function": "Bidirectionally degrades single-stranded DNA into large acid-insoluble oligonucleotides, which are then degraded further into small acid-soluble oligonucleotides",
+    "go": [
+      "GO:0005829",
+      "GO:0006308",
+      "GO:0008855",
+      "GO:0009318"
+    ],
+    "kegg": [
+      "mtu:Rv1107c",
+      "mtv:RVBD_1107c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {},
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1107c",
+    "n_partners": 58,
+    "n_context_driven": 20,
+    "partners": [
+      {
+        "rv": "Rv1108c",
+        "gene": "xseA",
+        "product": "exodeoxyribonuclease VII large subunit",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 890,
+          "experimental": 474,
+          "database": 900,
+          "textmining": 622
+        }
+      },
+      {
+        "rv": "Rv1109c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 886,
+        "combined_no_tm": 886,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1106c",
+        "gene": "",
+        "product": "3 beta-hydroxysteroid dehydrogenase/delta 5-->4-isomerase",
+        "hypothetical": false,
+        "combined": 888,
+        "combined_no_tm": 884,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv1110",
+        "gene": "lytB2",
+        "product": "4-hydroxy-3-methylbut-2-enyl diphosphate reductase",
+        "hypothetical": false,
+        "combined": 808,
+        "combined_no_tm": 788,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 782,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 130
+        }
+      },
+      {
+        "rv": "Rv0510",
+        "gene": "hemC",
+        "product": "porphobilinogen deaminase",
+        "hypothetical": false,
+        "combined": 678,
+        "combined_no_tm": 678,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 678,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2050",
+        "gene": "rbpA",
+        "product": "RNA polymerase-binding protein RbpA",
+        "hypothetical": false,
+        "combined": 637,
+        "combined_no_tm": 637,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 636,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2699c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 587,
+        "combined_no_tm": 587,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 587,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3195",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 576,
+        "combined_no_tm": 577,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 574,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0807",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 569,
+        "combined_no_tm": 569,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 565,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1390",
+        "gene": "rpoZ",
+        "product": "DNA-directed RNA polymerase subunit omega",
+        "hypothetical": false,
+        "combined": 669,
+        "combined_no_tm": 568,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 113,
+          "fusion": 0,
+          "cooccurence": 530,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv1830",
+        "gene": "",
+        "product": "HTH-type transcriptional regulator",
+        "hypothetical": false,
+        "combined": 567,
+        "combined_no_tm": 567,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 557,
+          "coexpression": 63,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2588c",
+        "gene": "yajC",
+        "product": "membrane protein secretion factor YajC",
+        "hypothetical": false,
+        "combined": 572,
+        "combined_no_tm": 531,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 70,
+          "fusion": 0,
+          "cooccurence": 167,
+          "coexpression": 443,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 126
+        }
+      },
+      {
+        "rv": "Rv1423",
+        "gene": "whiA",
+        "product": "transcriptional regulator WhiA",
+        "hypothetical": false,
+        "combined": 529,
+        "combined_no_tm": 529,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 525,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1540",
+        "gene": "",
+        "product": "RNA pseudouridine synthase",
+        "hypothetical": false,
+        "combined": 542,
+        "combined_no_tm": 523,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 197,
+          "coexpression": 414,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 79
+        }
+      },
+      {
+        "rv": "Rv2173",
+        "gene": "idsA2",
+        "product": "geranylgeranyl pyrophosphate synthetase IdsA",
+        "hypothetical": false,
+        "combined": 552,
+        "combined_no_tm": 516,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 178,
+          "coexpression": 417,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 111
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1108c",
+      "gene": "xseA",
+      "product": "exodeoxyribonuclease VII large subunit",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 890,
+        "experimental": 474,
+        "database": 900,
+        "textmining": 622
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: exodeoxyribonuclease VII small subunit",
+    "MTBC0 PGAP product: exodeoxyribonuclease VII small subunit",
+    "Pfam (hmmscan --cut_ga): Exonuc_VII_S PF02609.22 (E=3e-16)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 87.4,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1vp7-assembly3_E",
+        "evalue": 0.005934,
+        "prob": 1.0,
+        "tmscore": 0.8467,
+        "description": "1vp7-assembly3_E Crystal structure of Exodeoxyribonuclease VII small subunit (NP_881400.1) from Bordetella pertussis at 2.40 A resolution",
+        "significant": true
+      },
+      {
+        "target": "1vp7-assembly1_B",
+        "evalue": 0.007647,
+        "prob": 1.0,
+        "tmscore": 0.8341,
+        "description": "1vp7-assembly1_B Crystal structure of Exodeoxyribonuclease VII small subunit (NP_881400.1) from Bordetella pertussis at 2.40 A resolution",
+        "significant": true
+      },
+      {
+        "target": "1vp7-assembly1_A",
+        "evalue": 0.01119,
+        "prob": 1.0,
+        "tmscore": 0.8728,
+        "description": "1vp7-assembly1_A Crystal structure of Exodeoxyribonuclease VII small subunit (NP_881400.1) from Bordetella pertussis at 2.40 A resolution",
+        "significant": false
+      },
+      {
+        "target": "8txr-assembly1_k",
+        "evalue": 0.01979,
+        "prob": 1.0,
+        "tmscore": 0.9256,
+        "description": "8txr-assembly1_k E. coli ExoVII(H238A)",
+        "significant": false
+      },
+      {
+        "target": "8txr-assembly1_h",
+        "evalue": 0.03286,
+        "prob": 1.0,
+        "tmscore": 0.9143,
+        "description": "8txr-assembly1_h E. coli ExoVII(H238A)",
+        "significant": false
+      },
+      {
+        "target": "8txr-assembly1_d",
+        "evalue": 0.03286,
+        "prob": 1.0,
+        "tmscore": 0.9289,
+        "description": "8txr-assembly1_d E. coli ExoVII(H238A)",
+        "significant": false
+      },
+      {
+        "target": "8txr-assembly1_b",
+        "evalue": 0.03974,
+        "prob": 1.0,
+        "tmscore": 0.9386,
+        "description": "8txr-assembly1_b E. coli ExoVII(H238A)",
+        "significant": false
+      },
+      {
+        "target": "8txr-assembly1_f",
+        "evalue": 0.03501,
+        "prob": 1.0,
+        "tmscore": 0.9304,
+        "description": "8txr-assembly1_f E. coli ExoVII(H238A)",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 116.0,
+    "abundance_rank": 1187,
+    "n_ranked": 3519,
+    "abundance_percentile": 66.3,
+    "n_datasets": 11,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 85,
+    "mw_kda": 9.3,
+    "pi": 4.54,
+    "gravy": -0.552,
+    "instability_index": 33.1,
+    "instability_class": "stable",
+    "aromaticity": 0.024,
+    "aliphatic_index": 8376.5,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "information pathways",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1137c",
+        "identity": 100.0,
+        "evalue": 5.84e-61
+      },
+      "M. leprae": {
+        "locus": "ML1941",
+        "identity": 69.1,
+        "evalue": 9.28e-37
+      },
+      "M. marinum": {
+        "locus": "MMAR_4358",
+        "identity": 77.6,
+        "evalue": 2.26e-40
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5227",
+        "identity": 72.3,
+        "evalue": 1.15e-29
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001168",
+        "identity": 100.0,
+        "evalue": 5.46e-61
+      },
+      "M. abscessus": {
+        "locus": "MAB_1254c",
+        "identity": 69.1,
+        "evalue": 1.67e-29
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv1106c",
+      "gene": null,
+      "strand": "-",
+      "gap": 9
+    },
+    "right": {
+      "locus": "Rv1108c",
+      "gene": "xseA",
+      "strand": "-",
+      "gap": -11
+    },
+    "operon": [
+      {
+        "locus": "Rv1106c",
+        "gene": null
+      },
+      {
+        "locus": "Rv1107c",
+        "gene": "xseB"
+      },
+      {
+        "locus": "Rv1108c",
+        "gene": "xseA"
+      },
+      {
+        "locus": "Rv1109c",
+        "gene": null
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1990c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable exodeoxyribonuclease VII (small subunit) XseB (exonuclease VII small subunit)",
+    "legacy_function": "Bidirectionally degrades single-stranded DNA into large acid-insoluble oligonucleotides, which are then degraded further into small acid-soluble oligonucleotides [catalytic activity: exonucleolytic cleavage in either 5'- to 3'- or 3'- to 5'-direction to yield 5'-phosphomononucleotides.]",
+    "legacy_ec": [
+      "3.1.11.6"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "3.1.11.6"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -0.632,
+    "ci_low": -1.673,
+    "ci_high": 0.511,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 76.7,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 58.3,
+      "length_aa": 85,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.376,
+    "classification": "partially disordered",
+    "n_idr": 2,
+    "longest_idr": 18,
+    "total_idr_residues": 32,
+    "idr_regions": [
+      [
+        0,
+        18
+      ],
+      [
+        71,
+        85
+      ]
+    ],
+    "mean_plddt": 87.4,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (32/85 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

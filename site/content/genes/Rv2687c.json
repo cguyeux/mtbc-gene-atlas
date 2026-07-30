@@ -1,0 +1,829 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2687c",
+  "mtbc0": "mtbc0_002861",
+  "np_id": "NP_217203.1",
+  "gene": "",
+  "len_aa": 237,
+  "strand": "-",
+  "start_mtbc0": 3026450,
+  "end_mtbc0": 3027163,
+  "product_h37rv": "antibiotic ABC transporter permease",
+  "product_mtbc0_pgap": "fluoroquinolone transporter permease",
+  "function_revised": "Fluoroquinolone transporter permease. Pfam: FLQE3_permease (PF24686.2).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTRLVPALRLELTLQVRQKFLHAAVFSGLIWLAVLLPMPVSLRPVAEPYVLVGDIAIIGFFFVGGTVFFEKQERTIGAIVSTPLRFWEYLAAKLTVLLAISLFVAVVVATIVHGLGYHLLPLVAGIVLGTLLMLLVGFSSSLPFASVTDWFLAAVIPLAIMLAPPVVHYSGLWPNPVLYLIPTQGPLLLLGAAFDQVSLAPWQVGYAVVYPIVCAAGLCRAAKALFGRYVVQRSGVL",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "FLQE3_permease",
+      "pfam_acc": "PF24686.2",
+      "i_evalue": 8.1e-119,
+      "ali_from": 2,
+      "ali_to": 234,
+      "description": "Fluoroquinolones export permease protein family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1668",
+    "cog_cat": "CP",
+    "description": "thought to be involved in active transport of unidentified antibiotic across the membrane (export) antibiotic resistance by an export mechanism. responsible for the translocation of the substrate across the membrane",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [
+      "K16906"
+    ],
+    "kegg_pathway": [
+      "map02010"
+    ],
+    "kegg_module": [
+      "M00224"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0005215",
+      "GO:0006810",
+      "GO:0008150",
+      "GO:0015562",
+      "GO:0022857",
+      "GO:0051179",
+      "GO:0051234",
+      "GO:0055085"
+    ],
+    "pfams": [
+      "ABC2_membrane"
+    ],
+    "seed_ortholog": "419947.MRA_2715",
+    "evalue": "2.99e-159"
+  },
+  "uniprot": {
+    "acc": "P9WJB1",
+    "reviewed": true,
+    "protein_name": "Fluoroquinolones export permease protein Rv2687c",
+    "ec": [],
+    "function": "Part of the ABC transporter complex Rv2686c/Rv2687c/Rv2688c involved in fluoroquinolones export. Confers resistance to ciprofloxacin and, to a lesser extent, norfloxacin, moxifloxacin and sparfloxacin. Probably responsible for the translocation of the substrate across the membrane",
+    "go": [
+      "GO:0005886",
+      "GO:0015562",
+      "GO:0046677",
+      "GO:0055085"
+    ],
+    "kegg": [
+      "mtu:Rv2687c",
+      "mtv:RVBD_2687c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 10,
+    "syn": 6,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.258,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2687c",
+    "n_partners": 39,
+    "n_context_driven": 36,
+    "partners": [
+      {
+        "rv": "Rv2686c",
+        "gene": "",
+        "product": "antibiotic ABC transporter permease",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 774,
+          "coexpression": 783,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2688c",
+        "gene": "",
+        "product": "antibiotic ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 996,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 765,
+          "coexpression": 298,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv1978",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 773,
+        "combined_no_tm": 773,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0210",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 739,
+        "combined_no_tm": 739,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 739,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3912",
+        "gene": "rsmA",
+        "product": "anti-sigma-M factor RsmA",
+        "hypothetical": false,
+        "combined": 734,
+        "combined_no_tm": 734,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 734,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0955",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 700,
+        "combined_no_tm": 700,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 697,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1182",
+        "gene": "papA3",
+        "product": "acyltransferase papA3",
+        "hypothetical": false,
+        "combined": 681,
+        "combined_no_tm": 682,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 640,
+          "coexpression": 44,
+          "experimental": 133,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1181",
+        "gene": "pks4",
+        "product": "polyketide beta-ketoacyl synthase",
+        "hypothetical": false,
+        "combined": 681,
+        "combined_no_tm": 681,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 640,
+          "coexpression": 44,
+          "experimental": 144,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0097",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 673,
+        "combined_no_tm": 673,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 673,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0849",
+        "gene": "",
+        "product": "MFS-type transporter",
+        "hypothetical": false,
+        "combined": 667,
+        "combined_no_tm": 667,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 631,
+          "coexpression": 47,
+          "experimental": 130,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3824c",
+        "gene": "papA1",
+        "product": "acyltransferase",
+        "hypothetical": false,
+        "combined": 651,
+        "combined_no_tm": 652,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 606,
+          "coexpression": 44,
+          "experimental": 133,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0804",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 646,
+        "combined_no_tm": 634,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 598,
+          "coexpression": 98,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv3820c",
+        "gene": "papA2",
+        "product": "trehalose-2-sulfate acyltransferase",
+        "hypothetical": false,
+        "combined": 626,
+        "combined_no_tm": 626,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 578,
+          "coexpression": 0,
+          "experimental": 133,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2633c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 604,
+        "combined_no_tm": 604,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 604,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3405c",
+        "gene": "",
+        "product": "HTH-type transcriptional regulator",
+        "hypothetical": false,
+        "combined": 603,
+        "combined_no_tm": 604,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 602,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2686c",
+      "gene": "",
+      "product": "antibiotic ABC transporter permease",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 774,
+        "coexpression": 783,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: antibiotic ABC transporter permease",
+    "MTBC0 PGAP product: fluoroquinolone transporter permease",
+    "Pfam (hmmscan --cut_ga): FLQE3_permease PF24686.2 (E=8e-119)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 94.8,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7znq-assembly1_y",
+        "evalue": 0.006763,
+        "prob": 1.0,
+        "tmscore": 0.6724,
+        "description": "7znq-assembly1_y ABC transporter complex NosDFYL in GDN",
+        "significant": true
+      },
+      {
+        "target": "8k0x-assembly1_C",
+        "evalue": 0.006468,
+        "prob": 1.0,
+        "tmscore": 0.6057,
+        "description": "8k0x-assembly1_C ABCG25 Wild Type purified with DDM in the ABA-bound state",
+        "significant": true
+      },
+      {
+        "target": "8wbx-assembly1_B",
+        "evalue": 0.004734,
+        "prob": 1.0,
+        "tmscore": 0.5622,
+        "description": "8wbx-assembly1_B Cryo-EM structure of the ABCG25 bound to ABA",
+        "significant": true
+      },
+      {
+        "target": "7o0z-assembly1_D",
+        "evalue": 0.01104,
+        "prob": 1.0,
+        "tmscore": 0.5897,
+        "description": "7o0z-assembly1_D ABC transporter NosFY, nucleotide-free in GDN",
+        "significant": false
+      },
+      {
+        "target": "6hbu-assembly1_A",
+        "evalue": 0.01971,
+        "prob": 1.0,
+        "tmscore": 0.6292,
+        "description": "6hbu-assembly1_A Cryo-EM structure of the ABCG2 E211Q mutant bound to ATP and Magnesium",
+        "significant": false
+      },
+      {
+        "target": "8iwj-assembly1_A",
+        "evalue": 0.005658,
+        "prob": 1.0,
+        "tmscore": 0.4771,
+        "description": "8iwj-assembly1_A ABCG25 Wild Type in Apo-state",
+        "significant": true
+      },
+      {
+        "target": "8i3a-assembly1_B",
+        "evalue": 0.02816,
+        "prob": 1.0,
+        "tmscore": 0.5518,
+        "description": "8i3a-assembly1_B Cryo-EM structure of abscisic acid transporter AtABCG25 in outward conformation",
+        "significant": false
+      },
+      {
+        "target": "8eop-assembly1_A",
+        "evalue": 0.06569,
+        "prob": 0.999,
+        "tmscore": 0.5899,
+        "description": "8eop-assembly1_A Cryo-EM Structure of Nanodisc reconstituted human ABCA7 EQ mutant in ATP bound closed state",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 6,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (6 TM helixes)"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 237,
+    "mw_kda": 25.6,
+    "pi": 9.43,
+    "gravy": 1.127,
+    "instability_index": 31.0,
+    "instability_class": "stable",
+    "aromaticity": 0.114,
+    "aliphatic_index": 14227.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2706c",
+        "identity": 100.0,
+        "evalue": 4.67e-163
+      },
+      "M. marinum": {
+        "locus": "MMAR_2027",
+        "identity": 72.2,
+        "evalue": 1.26e-112
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_1503",
+        "identity": 75.1,
+        "evalue": 2.52e-122
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002771",
+        "identity": 100.0,
+        "evalue": 4.36e-163
+      },
+      "M. abscessus": {
+        "locus": "MAB_1859",
+        "identity": 67.2,
+        "evalue": 1.83e-101
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 1,
+    "n_in_vivo": 1,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": -1.29,
+        "qval": 0.0091,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2686c",
+      "gene": null,
+      "strand": "-",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv2688c",
+      "gene": null,
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv2686c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2687c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2688c",
+        "gene": null
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Antibiotic-transport integral membrane leucine and valine rich protein ABC transporter",
+    "legacy_function": "Thought to be involved in active transport of unidentified antibiotic across the membrane (export): antibiotic resistance by an export mechanism. Responsible for the translocation of the substrate across the membrane.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.79,
+    "ci_low": -1.451,
+    "ci_high": 3.883,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 5,
+      "n_syn": 4,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.097,
+      "power": "low",
+      "interpretation": "low power (5 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 16,
+      "n_total": 53,
+      "frac": 0.302,
+      "in_mtbap": 3,
+      "in_mkc": 4,
+      "mean_pident": 74.1,
+      "classification": "restricted",
+      "species_present": [
+        "M_basiliense",
+        "M_decipiens",
+        "M_gallinarum",
+        "M_gordonae",
+        "M_innocens",
+        "M_kansasii",
+        "M_lacus",
+        "M_liflandii",
+        "M_marinum",
+        "M_persicum",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_ulcerans"
+      ],
+      "interpretation": "present in a subset of the genus (16/53 NTM; in 3 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 2,
+      "stratum_label": "Mycobacteriaceae",
+      "deepest_outgroup_clade": "Mycobacteriaceae",
+      "n_crossgenus_genomes": 1,
+      "crossgenus_genomes": [
+        "Mabscessus_ATCC19977"
+      ],
+      "mean_pident": 67.2,
+      "length_aa": 237,
+      "short_gene_caveat": false,
+      "interpretation": "detected in the sister family Mycobacteriaceae (M. abscessus) but not in the broader Corynebacteriales — a Mycobacteriaceae-restricted gene (single-genome rung: interpret with care)",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 4,
+    "n_papers_listed": 4,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 4,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "4 publication(s) discuss this gene (4 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "RNA expression analysis of efflux pump genes in clinical isolates of multidrug-resistant and extensively drug-resistant Mycobacterium tuberculosis in South Korea.",
+        "doi": "10.1016/j.meegid.2017.01.002",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28062386/",
+        "date": "2017"
+      },
+      {
+        "title": "Novel epitopes identified from efflux pumps of Mycobacterium tuberculosis could induce cytotoxic T lymphocyte response.",
+        "doi": "10.7717/peerj.1229",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/26417538/",
+        "date": "2015"
+      },
+      {
+        "title": "Incidence of moxifloxacin resistance in clinical Mycobacterium tuberculosis isolates in Houston, Texas.",
+        "doi": "10.1128/JCM.00231-11",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/21653760/",
+        "date": "2011"
+      },
+      {
+        "title": "Rv2686c-Rv2687c-Rv2688c, an ABC fluoroquinolone efflux pump in Mycobacterium tuberculosis.",
+        "doi": "10.1128/AAC.48.8.3175-3178.2004",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/15273144/",
+        "date": "2004"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 94.8,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

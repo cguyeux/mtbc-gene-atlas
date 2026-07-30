@@ -1,0 +1,837 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1750c",
+  "mtbc0": "mtbc0_001863",
+  "np_id": "NP_216266.1",
+  "gene": "fadD1",
+  "len_aa": 532,
+  "strand": "-",
+  "start_mtbc0": 1990041,
+  "end_mtbc0": 1991639,
+  "product_h37rv": "fatty-acid--CoA ligase FadD1",
+  "product_mtbc0_pgap": "fatty-acid--CoA ligase FadD1",
+  "function_revised": "Fatty-acid--CoA ligase FadD1. Pfam: AMP-binding (PF00501.35), AMP-binding_C (PF13193.13).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTDTIQSLLRQHVSDPTIAVKYGGLQWTWSQYLAESAARAAALITIADPQRPTHIGSLLGNTPEMLAQLAAAGLGGYVLCGLNTTRRGDALAADVRRADCQIVVTDADHRALLDGLDLAGARILDTSTPRWAELVAGDGAFVPYREVDTMDPFMMIFTSGTSGNPKAVPVSHLMATFAGRSLTERFGLTEQDTCYVSMPLFHSNAVVAGWAPAVVSGAAIAPATFSATGFLDDVRRYHATYMNYVGKPLAYILATPERDDDADNPLRVAFGNEANDKDIEEFSRRFGVQVEDGFGSTENAVIVIREPGTPPGSIGRGAHGVAVYNGETVTECAVARFDAHGALTNADEAIGELVNTTGSGFFTGYYNDPEANAERMRHGMYWSGDLAYRDSEGWIYLAGRTADWMRVDGENLTAAPIERILLRYKAINRVAVYAVPDEYVGDQVMAALVLRAGDTFDPDAFEAFLDAQPDLSTKARPRYIRIAADLPSTATHKVLKRQLIDEGTAVGKADTLWVREPRGSAYHHASGPAKAI",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "AMP-binding",
+      "pfam_acc": "PF00501.35",
+      "i_evalue": 2.6e-39,
+      "ali_from": 18,
+      "ali_to": 366,
+      "description": "AMP-binding enzyme"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "AMP-binding_C",
+      "pfam_acc": "PF13193.13",
+      "i_evalue": 4.5e-08,
+      "ali_from": 417,
+      "ali_to": 493,
+      "description": "AMP-binding enzyme C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0318",
+    "cog_cat": "IQ",
+    "description": "Activates fatty acids by binding to coenzyme A",
+    "preferred_name": "fadD1",
+    "ec": [],
+    "kegg_ko": [
+      "K00666"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "AMP-binding",
+      "AMP-binding_C"
+    ],
+    "seed_ortholog": "419947.MRA_1761",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P72007",
+    "reviewed": false,
+    "protein_name": "Medium/long-chain-fatty-acid--CoA ligase FadD17",
+    "ec": [
+      "6.2.1.2",
+      "6.2.1.3"
+    ],
+    "function": "",
+    "go": [
+      "GO:0001676",
+      "GO:0004467",
+      "GO:0005324",
+      "GO:0005524",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0031956",
+      "GO:0044539"
+    ],
+    "kegg": [
+      "mtu:Rv1750c",
+      "mtv:RVBD_1750c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 11,
+    "syn": 3,
+    "missense": 8,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.901,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 287,
+    "disrupt_frac": 0.002,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1750c",
+    "n_partners": 94,
+    "n_context_driven": 7,
+    "partners": [
+      {
+        "rv": "Rv3513c",
+        "gene": "fadD18",
+        "product": "fatty-acid--CoA ligase FadD18",
+        "hypothetical": false,
+        "combined": 774,
+        "combined_no_tm": 761,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 760,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 97
+        }
+      },
+      {
+        "rv": "Rv3515c",
+        "gene": "fadD19",
+        "product": "acyl-CoA synthetase",
+        "hypothetical": false,
+        "combined": 816,
+        "combined_no_tm": 749,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 748,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 298
+        }
+      },
+      {
+        "rv": "Rv0719",
+        "gene": "rplF",
+        "product": "50S ribosomal protein L6",
+        "hypothetical": false,
+        "combined": 695,
+        "combined_no_tm": 695,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 402,
+          "database": 510,
+          "textmining": 42
+        }
+      },
+      {
+        "rv": "Rv1527c",
+        "gene": "pks5",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 706,
+        "combined_no_tm": 680,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 143,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 200,
+          "experimental": 388,
+          "database": 328,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv2933",
+        "gene": "ppsC",
+        "product": "phthiocerol synthesis polyketide synthase type I PpsC",
+        "hypothetical": false,
+        "combined": 705,
+        "combined_no_tm": 680,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 143,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 199,
+          "experimental": 388,
+          "database": 328,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv2048c",
+        "gene": "pks12",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 705,
+        "combined_no_tm": 680,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 143,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 199,
+          "experimental": 388,
+          "database": 328,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv2940c",
+        "gene": "mas",
+        "product": "multifunctional mycocerosic acid synthase",
+        "hypothetical": false,
+        "combined": 705,
+        "combined_no_tm": 680,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 143,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 199,
+          "experimental": 388,
+          "database": 328,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv3825c",
+        "gene": "pks2",
+        "product": "phthioceranic/hydroxyphthioceranic acid synthase",
+        "hypothetical": false,
+        "combined": 704,
+        "combined_no_tm": 679,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 143,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 196,
+          "experimental": 388,
+          "database": 328,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv3800c",
+        "gene": "pks13",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 880,
+        "combined_no_tm": 635,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 119,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 209,
+          "experimental": 313,
+          "database": 328,
+          "textmining": 685
+        }
+      },
+      {
+        "rv": "Rv2380c",
+        "gene": "mbtE",
+        "product": "peptide synthetase",
+        "hypothetical": false,
+        "combined": 650,
+        "combined_no_tm": 635,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 3,
+          "cooccurence": 168,
+          "coexpression": 220,
+          "experimental": 465,
+          "database": 0,
+          "textmining": 83
+        }
+      },
+      {
+        "rv": "Rv2946c",
+        "gene": "pks1",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 663,
+        "combined_no_tm": 631,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 149,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 172,
+          "experimental": 313,
+          "database": 328,
+          "textmining": 126
+        }
+      },
+      {
+        "rv": "Rv2932",
+        "gene": "ppsB",
+        "product": "phthiocerol synthesis polyketide synthase type I PpsB",
+        "hypothetical": false,
+        "combined": 630,
+        "combined_no_tm": 608,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 175,
+          "experimental": 313,
+          "database": 328,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv1661",
+        "gene": "pks7",
+        "product": "polyketide synthase",
+        "hypothetical": false,
+        "combined": 630,
+        "combined_no_tm": 608,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 175,
+          "experimental": 313,
+          "database": 328,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv1181",
+        "gene": "pks4",
+        "product": "polyketide beta-ketoacyl synthase",
+        "hypothetical": false,
+        "combined": 629,
+        "combined_no_tm": 608,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 174,
+          "experimental": 313,
+          "database": 328,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv0405",
+        "gene": "pks6",
+        "product": "membrane bound polyketide synthase",
+        "hypothetical": false,
+        "combined": 617,
+        "combined_no_tm": 599,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 174,
+          "experimental": 313,
+          "database": 328,
+          "textmining": 87
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3513c",
+      "gene": "fadD18",
+      "product": "fatty-acid--CoA ligase FadD18",
+      "combined_no_tm": 761,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 0,
+        "fusion": 0,
+        "cooccurence": 760,
+        "coexpression": 44,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 97
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: fatty-acid--CoA ligase FadD1",
+    "MTBC0 PGAP product: fatty-acid--CoA ligase FadD1",
+    "Pfam (hmmscan --cut_ga): AMP-binding PF00501.35 (E=3e-39), AMP-binding_C PF13193.13 (E=4e-08)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 93.0,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "5bsw-assembly2_B",
+        "evalue": 1.915e-35,
+        "prob": 1.0,
+        "tmscore": 0.8188,
+        "description": "5bsw-assembly2_B Crystal structure of 4-coumarate:CoA ligase delta-V341 mutant complexed with feruloyl adenylate",
+        "significant": true
+      },
+      {
+        "target": "8weu-assembly1_A-2",
+        "evalue": 3.772e-34,
+        "prob": 1.0,
+        "tmscore": 0.8456,
+        "description": "8weu-assembly1_A-2 Crystal structure of Feruoyl-CoA Synthetase from Amycolatopsis thermoflava",
+        "significant": true
+      },
+      {
+        "target": "8wev-assembly1_A-2",
+        "evalue": 1.29e-34,
+        "prob": 1.0,
+        "tmscore": 0.819,
+        "description": "8wev-assembly1_A-2 Crystal structure of Feruoyl-CoA Synthetase complexed with AMP from Amycolatopsis thermoflava",
+        "significant": true
+      },
+      {
+        "target": "5ie0-assembly2_B",
+        "evalue": 2.078e-34,
+        "prob": 1.0,
+        "tmscore": 0.8157,
+        "description": "5ie0-assembly2_B Crystal structure of a plant enzyme",
+        "significant": true
+      },
+      {
+        "target": "4wv3-assembly1_A",
+        "evalue": 1.519e-32,
+        "prob": 1.0,
+        "tmscore": 0.8503,
+        "description": "4wv3-assembly1_A Crystal structure of the anthranilate CoA ligase AuaEII in complex with anthranoyl-AMP",
+        "significant": true
+      },
+      {
+        "target": "5ie3-assembly2_B",
+        "evalue": 6.45e-34,
+        "prob": 1.0,
+        "tmscore": 0.8226,
+        "description": "5ie3-assembly2_B Crystal structure of a plant enzyme",
+        "significant": true
+      },
+      {
+        "target": "5ie2-assembly2_B",
+        "evalue": 3.554e-34,
+        "prob": 1.0,
+        "tmscore": 0.8131,
+        "description": "5ie2-assembly2_B Crystal structure of a plant enzyme",
+        "significant": true
+      },
+      {
+        "target": "7tz4-assembly1_A",
+        "evalue": 6.594e-33,
+        "prob": 1.0,
+        "tmscore": 0.818,
+        "description": "7tz4-assembly1_A Salicylate Adenylate PchD from Pseudomonas aeruginosa containing 4-cyanosalicyl-AMS",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 9.13,
+    "abundance_rank": 2722,
+    "n_ranked": 3519,
+    "abundance_percentile": 22.7,
+    "n_datasets": 9,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 532,
+    "mw_kda": 57.4,
+    "pi": 5.04,
+    "gravy": -0.142,
+    "instability_index": 29.4,
+    "instability_class": "stable",
+    "aromaticity": 0.086,
+    "aliphatic_index": 8265.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "lipid metabolism",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1779c",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. marinum": {
+        "locus": "MMAR_2625",
+        "identity": 81.3,
+        "evalue": 0.0
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4952",
+        "identity": 65.7,
+        "evalue": 2.16e-247
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001831",
+        "identity": 100.0,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_2609",
+        "identity": 61.1,
+        "evalue": 4.15e-228
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv1749c",
+      "gene": null,
+      "strand": "-",
+      "gap": 83
+    },
+    "right": {
+      "locus": "Rv1751",
+      "gene": null,
+      "strand": "+",
+      "gap": 53
+    },
+    "operon": [
+      {
+        "locus": "Rv1750c",
+        "gene": "fadD1"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Possible fatty-acid-CoA ligase FadD1 (fatty-acid-CoA synthetase) (fatty-acid-CoA synthase)",
+    "legacy_function": "Function unknown, but supposed involvement in lipid degradation.",
+    "legacy_ec": [
+      "6.2.1.-"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "reclassified",
+    "atlas_ec": [
+      "6.2.1.2",
+      "6.2.1.3"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 1.251,
+    "ci_low": -0.298,
+    "ci_high": 4.049,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 3,
+      "n_syn": 2,
+      "n_nonsyn": 0,
+      "n_disruptive": 0,
+      "dN_dS": 0.0,
+      "power": "low",
+      "interpretation": "low power (3 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 51,
+      "n_total": 53,
+      "frac": 0.962,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 77.2,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 51/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 6,
+      "crossgenus_genomes": [
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 53.3,
+      "length_aa": 532,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 2,
+    "n_other": 1,
+    "n_ortholog_tag": 1,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "2 publication(s) discuss this gene (2 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Biochemical characterization of acyl-coenzyme A synthetases involved in mycobacterial steroid side-chain catabolism and molecular design: synthesis of an anti-mycobacterial agent.",
+        "doi": "10.1007/s13205-019-1703-y",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30997306/",
+        "date": "2019"
+      },
+      {
+        "title": "Protein-protein interaction networks suggest different targets have different propensities for triggering drug resistance.",
+        "doi": "10.1007/s11693-011-9076-5",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/22132058/",
+        "date": "2010"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 93.0,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

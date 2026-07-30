@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0543c",
+  "mtbc0": "mtbc0_000572",
+  "np_id": "NP_215057.1",
+  "gene": "",
+  "len_aa": 100,
+  "strand": "-",
+  "start_mtbc0": 639124,
+  "end_mtbc0": 639426,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "DUF3349 domain-containing protein",
+  "function_revised": "Member of the DUF3349 (PF11829) protein superfamily, found predominantly in Mycobacterium and Rhodococcus. The inaugural DUF3349 structure was solved for Rv0543c by NMR: a monomeric five-alpha-helix bundle (Buchko 2011); comparative structures show two structural subfamilies (Buchko 2020). Biological function unknown but family-restricted to these genera.",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MNRFLTSIVAWLRAGYPEGIPPTDSFAVLALLCRRLSHDEVKAVANELMRLGDFDQIDIGVVITHFTDELPSPEDVERVRARLAAQGWPLDDVRDREEHA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "DUF3349",
+      "pfam_acc": "PF11829.14",
+      "i_evalue": 1.1e-33,
+      "ali_from": 4,
+      "ali_to": 92,
+      "description": "Protein of unknown function (DUF3349)"
+    }
+  ],
+  "struct_hits": [
+    {
+      "target": "2kvc-assembly1_A",
+      "evalue": 8.417e-12,
+      "prob": 1.0,
+      "tmscore": 0.8261,
+      "description": "2kvc-assembly1_A Solution structure of the Mycobacterium tuberculosis protein Rv0543c, a member of the DUF3349 superfamily. Seattle Structural Genomics Center for Infectious Disease target MytuD.17112.a",
+      "significant": true
+    },
+    {
+      "target": "2lky-assembly1_A",
+      "evalue": 1.512e-07,
+      "prob": 1.0,
+      "tmscore": 0.7341,
+      "description": "2lky-assembly1_A Solution structure of MSMEG_1053, the second DUF3349 annotated protein in the genome of Mycobacterium smegmatis, Seattle Structural Genomics Center for Infectious Disease target MysmA.17112.b",
+      "significant": true
+    },
+    {
+      "target": "5m30-assembly1_A",
+      "evalue": 5.93,
+      "prob": 0.014,
+      "tmscore": 0.2032,
+      "description": "5m30-assembly1_A Structure of TssK from T6SS EAEC in complex with nanobody nb18",
+      "significant": false
+    }
+  ],
+  "eggnog": {
+    "og": "2E7QJ",
+    "cog_cat": "S",
+    "description": "Protein of unknown function (DUF3349)",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "DUF3349"
+    ],
+    "seed_ortholog": "419947.MRA_0550",
+    "evalue": "2.81e-68"
+  },
+  "uniprot": {
+    "acc": "O06409",
+    "reviewed": false,
+    "protein_name": "Conserved protein",
+    "ec": [],
+    "function": "",
+    "go": [],
+    "kegg": [
+      "mtu:Rv0543c",
+      "mtv:RVBD_0543c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 1,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.662,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 63.1,
+    "n_residues": 100,
+    "band": "low"
+  },
+  "string": {
+    "string_id": "83332.Rv0543c",
+    "n_partners": 12,
+    "n_context_driven": 12,
+    "partners": [
+      {
+        "rv": "Rv0545c",
+        "gene": "pitA",
+        "product": "low-affinity inorganic phosphate transporter",
+        "hypothetical": false,
+        "combined": 848,
+        "combined_no_tm": 848,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 803,
+          "fusion": 0,
+          "cooccurence": 226,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0544c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 808,
+        "combined_no_tm": 808,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 803,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0542c",
+        "gene": "menE",
+        "product": "2-succinylbenzoic acid--CoA ligase",
+        "hypothetical": false,
+        "combined": 806,
+        "combined_no_tm": 807,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 795,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 95,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0541c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 797,
+        "combined_no_tm": 797,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 792,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 64,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0547c",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 514,
+        "combined_no_tm": 515,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 512,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0184",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 497,
+        "combined_no_tm": 497,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 494,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0185",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 479,
+        "combined_no_tm": 480,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 475,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3804c",
+        "gene": "fbpA",
+        "product": "diacylglycerol acyltransferase/mycolyltransferase Ag85A",
+        "hypothetical": false,
+        "combined": 439,
+        "combined_no_tm": 439,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 432,
+          "coexpression": 53,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3256c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 436,
+        "combined_no_tm": 436,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 428,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3454",
+        "gene": "",
+        "product": "Rv3454, (MTCY13E12.07), len: 422 aa. Probable conserved integral membrane protein, showing some similarity to various proteins (generally tr",
+        "hypothetical": false,
+        "combined": 435,
+        "combined_no_tm": 436,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 432,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0129c",
+        "gene": "fbpC",
+        "product": "diacylglycerol acyltransferase/mycolyltransferase Ag85C",
+        "hypothetical": false,
+        "combined": 431,
+        "combined_no_tm": 432,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 428,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0546c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 410,
+        "combined_no_tm": 410,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 406,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0545c",
+      "gene": "pitA",
+      "product": "low-affinity inorganic phosphate transporter",
+      "combined_no_tm": 848,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 803,
+        "fusion": 0,
+        "cooccurence": 226,
+        "coexpression": 83,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Inaugural DUF3349 superfamily NMR structure: 5-alpha-helix bundle (Buchko 2011, PMID 21144816)",
+    "DUF3349 has two structural subfamilies; Mycobacterium/Rhodococcus-restricted (Buchko 2020, PMID 31658388)",
+    "Curated from the literature crible (project 'Still unknown gene function', 2026-06-09)"
+  ],
+  "references": [
+    {
+      "authors": "Buchko GW, Phan I, Myler PJ, Terwilliger TC, Kim CY",
+      "year": 2011,
+      "title": "Inaugural structure from the DUF3349 superfamily of proteins, Mycobacterium tuberculosis Rv0543c",
+      "journal": "Arch Biochem Biophys 506(2):150-6",
+      "doi": "10.1016/j.abb.2010.12.001",
+      "pmid": "21144816"
+    }
+  ],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 81.0,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2kvc-assembly1_A",
+        "evalue": 7.315e-11,
+        "prob": 1.0,
+        "tmscore": 0.815,
+        "description": "2kvc-assembly1_A Solution structure of the Mycobacterium tuberculosis protein Rv0543c, a member of the DUF3349 superfamily. Seattle Structural Genomics Center for Infectious Disease target MytuD.17112.a",
+        "significant": true
+      },
+      {
+        "target": "2lky-assembly1_A",
+        "evalue": 2.163e-08,
+        "prob": 1.0,
+        "tmscore": 0.7864,
+        "description": "2lky-assembly1_A Solution structure of MSMEG_1053, the second DUF3349 annotated protein in the genome of Mycobacterium smegmatis, Seattle Structural Genomics Center for Infectious Disease target MysmA.17112.b",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 168.0,
+    "abundance_rank": 937,
+    "n_ranked": 3519,
+    "abundance_percentile": 73.4,
+    "n_datasets": 13,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 100,
+    "mw_kda": 11.3,
+    "pi": 4.78,
+    "gravy": -0.186,
+    "instability_index": 36.1,
+    "instability_class": "stable",
+    "aromaticity": 0.07,
+    "aliphatic_index": 9850.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0557c",
+        "identity": 99.0,
+        "evalue": 1.26e-71
+      },
+      "M. leprae": {
+        "locus": "ML2258c",
+        "identity": 74.5,
+        "evalue": 1.01e-51
+      },
+      "M. marinum": {
+        "locus": "MMAR_0889",
+        "identity": 78.9,
+        "evalue": 5.38e-55
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_1063",
+        "identity": 61.2,
+        "evalue": 3.92e-41
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000571",
+        "identity": 99.0,
+        "evalue": 1.18e-71
+      },
+      "M. abscessus": {
+        "locus": "MAB_3951",
+        "identity": 67.7,
+        "evalue": 8.44e-46
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv0542c",
+      "gene": "menE",
+      "strand": "-",
+      "gap": 68
+    },
+    "right": {
+      "locus": "Rv0544c",
+      "gene": null,
+      "strand": "-",
+      "gap": 59
+    },
+    "operon": [
+      {
+        "locus": "Rv0543c",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Conserved protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -7.806,
+    "ci_low": -9.468,
+    "ci_high": -6.072,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 76.3,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 3,
+      "stratum_label": "Corynebacteriales",
+      "deepest_outgroup_clade": "Corynebacteriales",
+      "n_crossgenus_genomes": 6,
+      "crossgenus_genomes": [
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 50.3,
+      "length_aa": 100,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "by_alias": {
+      "H37Rv": "2",
+      "M. smegmatis": "1"
+    },
+    "summary": "2 publication(s) mention this gene (title/abstract), verified against the text. The atlas states the function; these are the primary sources that discuss it.",
+    "papers": [
+      {
+        "title": "Structural diversity in the Mycobacteria DUF3349 superfamily.",
+        "doi": "10.1002/pro.3758",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/31658388/",
+        "date": "2020"
+      },
+      {
+        "title": "Inaugural structure from the DUF3349 superfamily of proteins, Mycobacterium tuberculosis Rv0543c.",
+        "doi": "10.1016/j.abb.2010.12.001",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/21144816/",
+        "date": "2011"
+      }
+    ],
+    "caveat": "This layer CITES the literature, it does not change the verdict or the function. A gene may be heavily studied (as an antigen, a resistance determinant, a drug target) while its molecular function is settled elsewhere in the fiche.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 81.0,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3224B",
+  "gene": "Rv3224B",
+  "len_aa": 72,
+  "strand": "+",
+  "start_mtbc0": 3600801,
+  "end_mtbc0": 3601019,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VPKAAMAKPAAAEQATGYVVGGISPFGQRKRLRTVVDVSALSWDRVLRCRQTALGRHGGPAGPDHLDQRDHR",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": null,
+    "functional_category": "conserved hypotheticals",
+    "comments": "Rv3224B, len: 72 aa. Conserved hypothetical protein (possibly gene fragment), similar to C-terminal part of ML0799|AL583919_131 conserved hypothetical protein from Mycobacterium leprae (135 aa), FASTA scores: opt: 229, E(): 2e-09, (60.00% identity in 70 aa overlap). Note that downstream ORF Rv3224A is similar to N-terminus of ML0799. There appears to be no frameshift as sequence is identical in strain CDC1551 and in Mycobacterium bovis. Predicted to be an outer membrane protein (See Song et al., 2008).",
+    "uniprot_ac": "Q6MWZ4",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 72,
+    "mw_kda": 7.8,
+    "pi": 10.81,
+    "gravy": -0.508,
+    "instability_index": 38.3,
+    "instability_class": "stable",
+    "aromaticity": 0.042,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "Q6MWZ4",
+    "reviewed": false,
+    "protein_name": "Uncharacterized protein",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0002161"
+    ],
+    "kegg": [
+      "mtv:RVBD_3224B"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG2606",
+    "cog_cat": "S",
+    "description": "Belongs to the prolyl-tRNA editing family. YbaK EbsC subfamily",
+    "preferred_name": "ybaK",
+    "ec": [],
+    "kegg_ko": [
+      "ko:K03976"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "Belongs to the prolyl-tRNA editing family. YbaK EbsC subfamily",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 33.1,
+    "abundance_rank": 2014,
+    "n_ranked": 3519,
+    "abundance_percentile": 42.8,
+    "n_datasets": 1,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 5,
+    "n_in_vivo": 5,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.87,
+        "qval": 0.047,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.41,
+        "qval": 0.04,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.2,
+        "qval": 0.025,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.08,
+        "qval": 0.01,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 2.05,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv3223c",
+        "tf_gene": "sigH",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv3224B",
+    "n_partners": 12,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv3224",
+        "gene": "",
+        "product": "iron-regulated short-chain dehydrogenase/reductase",
+        "hypothetical": false,
+        "combined": 886,
+        "combined_no_tm": 886,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 83,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3224A",
+        "gene": "",
+        "product": "Rv3224A, len: 62 aa. Conserved hypothetical protein (possibly gene fragment), overlaps Rv3224. Similar to N-terminus of ML0799|AL583919_131 ",
+        "hypothetical": false,
+        "combined": 808,
+        "combined_no_tm": 808,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 781,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 159,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3221A",
+        "gene": "rshA",
+        "product": "anti-sigma factor RshA",
+        "hypothetical": false,
+        "combined": 719,
+        "combined_no_tm": 720,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 717,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3223c",
+        "gene": "sigH",
+        "product": "ECF RNA polymerase sigma factor SigH",
+        "hypothetical": false,
+        "combined": 718,
+        "combined_no_tm": 718,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 717,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3222c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 418,
+        "combined_no_tm": 418,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 412,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2572c",
+        "gene": "aspS",
+        "product": "aspartate--tRNA ligase",
+        "hypothetical": false,
+        "combined": 604,
+        "combined_no_tm": 120,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 108,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 569
+        }
+      },
+      {
+        "rv": "Rv1007c",
+        "gene": "metS",
+        "product": "methionine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 579,
+        "combined_no_tm": 118,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 113,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 542
+        }
+      },
+      {
+        "rv": "Rv1640c",
+        "gene": "lysX",
+        "product": "bifunctional lysine--tRNA ligase/phosphatidylglycerol lysyltransferase",
+        "hypothetical": false,
+        "combined": 606,
+        "combined_no_tm": 112,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 112,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 575
+        }
+      },
+      {
+        "rv": "Rv2614c",
+        "gene": "thrS",
+        "product": "threonine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 555,
+        "combined_no_tm": 103,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 525
+        }
+      },
+      {
+        "rv": "Rv3598c",
+        "gene": "lysS",
+        "product": "lysine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 596,
+        "combined_no_tm": 102,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 570
+        }
+      },
+      {
+        "rv": "Rv1689",
+        "gene": "tyrS",
+        "product": "tyrosine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 504,
+        "combined_no_tm": 101,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 95,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 472
+        }
+      },
+      {
+        "rv": "Rv3625c",
+        "gene": "mesJ",
+        "product": "tRNA(Ile)-lysidine synthase",
+        "hypothetical": false,
+        "combined": 693,
+        "combined_no_tm": 95,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 69,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 68,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 675
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3224",
+      "gene": "",
+      "product": "iron-regulated short-chain dehydrogenase/reductase",
+      "combined_no_tm": 886,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 881,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 83,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 80.8,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": true
+  }
+}

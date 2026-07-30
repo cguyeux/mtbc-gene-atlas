@@ -1,0 +1,27 @@
+{# Reusable linear genome-track SVG (server-rendered). `track` = dict from _browse_track(). #}
+{% macro track_svg(track, height=120) %}
+<div class="genome-track" style="overflow-x:auto; border:1px solid #e3e3e3; border-radius:6px; background:#fafafa">
+  <svg viewBox="0 0 {{ track.width }} {{ height }}" width="100%" style="min-width:640px; display:block"
+       font-family="system-ui, sans-serif">
+    <line x1="0" y1="52" x2="{{ track.width }}" y2="52" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="4" y="12" font-size="9" fill="#aaa">+ strand</text>
+    <text x="4" y="88" font-size="9" fill="#aaa">&minus; strand</text>
+    {% for it in track['items'] %}
+    <a href="/gene/{{ it.rv }}">
+      <title>{{ it.name }} ({{ it.rv }}) — {{ it.verdict or 'n/a' }}{% if it.product %}: {{ it.product }}{% endif %}</title>
+      <polygon points="{{ it.pts }}" fill="{{ it.color }}"
+               stroke="{% if it.is_center %}#111{% else %}#ffffff{% endif %}"
+               stroke-width="{% if it.is_center %}2{% else %}0.6{% endif %}"
+               {% if it.is_center %}opacity="1"{% else %}opacity="0.9"{% endif %}/>
+      {% if it.label %}<text x="{{ it.cx }}" y="{{ it.ty }}" text-anchor="middle" font-size="10"
+              fill="{% if it.is_center %}#111{% else %}#444{% endif %}"
+              font-weight="{% if it.is_center %}600{% else %}400{% endif %}">{{ it.name }}</text>{% endif %}
+    </a>
+    {% endfor %}
+    {% for t in track.ticks %}
+    <line x1="{{ t.x }}" y1="100" x2="{{ t.x }}" y2="105" stroke="#bbb"/>
+    <text x="{{ t.x }}" y="116" text-anchor="middle" font-size="9" fill="#999">{{ '{:,}'.format(t.kb).replace(',', ' ') }} kb</text>
+    {% endfor %}
+  </svg>
+</div>
+{% endmacro %}

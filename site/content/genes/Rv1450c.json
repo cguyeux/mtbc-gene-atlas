@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1450c",
+  "mtbc0": "-",
+  "np_id": "YP_177812.1",
+  "gene": "PE_PGRS27",
+  "len_aa": 1329,
+  "strand": "-",
+  "start_mtbc0": 1630638,
+  "end_mtbc0": 1634627,
+  "product_h37rv": "PE-PGRS family protein PE_PGRS27",
+  "product_mtbc0_pgap": "",
+  "function_revised": "PE-PGRS family protein PE_PGRS27. Pfam: PE (PF00934.26), PGRS (PF21526.3).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSLVIVAPETVAAAALDVARIGSSIGAANAAAAGSTTSVLAAGADEVSAAIATLFGSHAREYQAISTQVAAFHDRFAQTLSAAVGSYVSAEATNAAPLATLEHNVLNALNAPTQALLGRPLIGDGAAGAPGTGQAGGAGGILWGNGGAGGSGAPGQVGGAGGAAGLFGTGGAGGAGGAGAAGGAGGSGGWLLGNGGVGGAGGQSLLGGATGGAGGNAGLFGVGGTGGPGGPGGPGGVGGTGGAGGLGGTLYGAGGHGGAGGPGPIGGVGGHGGVGGAAGLLGVGGHGGAGGHGAEGVAGAAGEDLSPHGTSGGVGGDAGDGGTGGRGGWLAGAGGAGGAGGVGGTGGAGGAGFSRALIVAGDNGGDPGAGGAGGTGGAGSTIGAHGAAGASPTSGGNGGAGGNGAHFSSGGKAGGNGGAGGAGGLVGNGGAGGAGGNGAPGAPPSGGDPNGGGGGAGGAGGKGGDGGAQAGDGGAGGAGGKGGNGGNGATGATGLNGLGAGADGTDGGKGGNGGAGGGGGAGGQGGKALAATHQDGSMGAGGAGGNGGAGGMGGDGGNGAKGTFDNGGDGVGGNGGNGGSRGIGGAGGIGGAGSTAGADGARGATPTSGGNGGTGGNGANATVAGGAGGAGGKGGNGGLVGNGGAGGKGGDGMAGVAGSSPTTAGESGTSGQNGGAGGAGGAGGRGGDFGGDGGTGGAGGNGANGANATTPGAKGGDGGHGGPGAQGGNGGQGGPGGLAGNLFGQNGIQGVGGSGGKGGAGGLAGDGGNGANGNFAFGDGNGGHGGNGGNPGAGGQGGSGGAGSTPGAKGAHGFTPTSGGDGGDGGNGGNSQVVGGNGGDGGNGGNGGSAGTGGNGGRGGDGAFGGMSANATNPGENGPNGNPGGNGGAGGAGGAGLNGGNGGAGGNGGLGGFGGNGAAGANGVAVGAPGQPGGAGGHGGAGGNGGAGGNGGQGVVSDGAGGAGGAGGDGGAPGDGANGGNGQGAGAFAGGGGGRGGDGGNAGNAGAGGPGGTGSTAGKAGPAGSILHDGGNGGHGGHGAASGGNGGPGGHGGNGGNGGTGANGGNGGIGGTGGAGSTGAKGVLGTNEGDGGDGGRGGNGGRGGNGGQGLTGAGGNGGTGGTPGNGGNGGNGASGDLVTSPGDGGGGGRGGDAGRGGDAGLGGSSGPGGTPGDWGTGGTGGTGGTGGQGANGGLTGGRGGTGGNGGNGNTGGTGGAGGTGGTGHNGSQPGMGGNGGAGGFGGNGFAGVGGRGGMGGSGGTGGTGDAGPFGTGTGGTGGHGGQGGGGGFSILLGLGGLGGLGSPGSIATGTAGGAGGGGGFGGLGGGEFV",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "PE",
+      "pfam_acc": "PF00934.26",
+      "i_evalue": 1.4e-33,
+      "ali_from": 4,
+      "ali_to": 94,
+      "description": "PE family"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "PGRS",
+      "pfam_acc": "PF21526.3",
+      "i_evalue": 1.3e-11,
+      "ali_from": 122,
+      "ali_to": 191,
+      "description": "PGRS repeats"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG3391",
+    "cog_cat": "S",
+    "description": "PE family",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "PE"
+    ],
+    "seed_ortholog": "419947.MRA_1459",
+    "evalue": "2.12e-55"
+  },
+  "uniprot": {
+    "acc": "Q79FP2",
+    "reviewed": false,
+    "protein_name": "PE-PGRS family protein PE_PGRS27",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0009274"
+    ],
+    "kegg": [
+      "mtu:Rv1450c",
+      "mtv:RVBD_1450c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 28,
+    "syn": 13,
+    "missense": 15,
+    "nonsense": 0,
+    "frameshift": 5,
+    "pN_pS": 0.468,
+    "selection": "purifying",
+    "disrupt_sites": 5,
+    "disrupt_mode": "convergent",
+    "disrupt_strains": 1657,
+    "disrupt_frac": 0.0114,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1450c",
+    "n_partners": 6,
+    "n_context_driven": 0,
+    "partners": [
+      {
+        "rv": "Rv0198c",
+        "gene": "zmp1",
+        "product": "zinc metalloprotease",
+        "hypothetical": false,
+        "combined": 407,
+        "combined_no_tm": 407,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 59,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 396,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1795",
+        "gene": "eccD5",
+        "product": "ESX-5 type VII secretion system protein EccD",
+        "hypothetical": false,
+        "combined": 407,
+        "combined_no_tm": 361,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 360,
+          "database": 0,
+          "textmining": 110
+        }
+      },
+      {
+        "rv": "Rv1797",
+        "gene": "eccE5",
+        "product": "ESX-5 type VII secretion system protein EccE",
+        "hypothetical": false,
+        "combined": 648,
+        "combined_no_tm": 234,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 234,
+          "database": 0,
+          "textmining": 560
+        }
+      },
+      {
+        "rv": "Rv1796",
+        "gene": "mycP5",
+        "product": "membrane-anchored mycosin MycP",
+        "hypothetical": false,
+        "combined": 583,
+        "combined_no_tm": 195,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 49,
+          "experimental": 177,
+          "database": 0,
+          "textmining": 504
+        }
+      },
+      {
+        "rv": "Rv2465c",
+        "gene": "rpiB",
+        "product": "ribose-5-phosphate isomerase B",
+        "hypothetical": false,
+        "combined": 405,
+        "combined_no_tm": 48,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 48,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 401
+        }
+      },
+      {
+        "rv": "Rv3558",
+        "gene": "PPE64",
+        "product": "PPE family protein PPE64",
+        "hypothetical": false,
+        "combined": 870,
+        "combined_no_tm": 41,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 870
+        }
+      }
+    ],
+    "anchor": null
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Annotation from H37Rv (no MTBC0 1:1 anchor; H37Rv protein used): PE-PGRS family protein PE_PGRS27",
+    "Pfam (hmmscan --cut_ga): PE PF00934.26 (E=1e-33), PGRS PF21526.3 (E=1e-11)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 68.4,
+    "band": "low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 12.4,
+    "abundance_rank": 2588,
+    "n_ranked": 3519,
+    "abundance_percentile": 26.5,
+    "n_datasets": 1,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 1329,
+    "mw_kda": 107.4,
+    "pi": 5.16,
+    "gravy": -0.265,
+    "instability_index": 12.2,
+    "instability_class": "stable",
+    "aromaticity": 0.022,
+    "aliphatic_index": 4121.9,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "PE/PPE",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {},
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv1449c",
+      "gene": "tkt",
+      "strand": "-",
+      "gap": 438
+    },
+    "right": {
+      "locus": "Rv1451",
+      "gene": null,
+      "strand": "+",
+      "gap": 401
+    },
+    "operon": [
+      {
+        "locus": "Rv1450c",
+        "gene": "PE_PGRS27"
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "PE-PGRS family protein PE_PGRS27",
+    "legacy_function": "Function unknown",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "SigD",
+        "function": "Sigma Factor that governs the expression of ribosomal genes and plays a role in virulence",
+        "category": "Virulence/Persistence",
+        "regulator": "sigD"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.626,
+    "ci_low": -0.76,
+    "ci_high": 2.917,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 17,
+      "n_syn": 4,
+      "n_nonsyn": 6,
+      "n_disruptive": 0,
+      "dN_dS": 0.609,
+      "power": "ok",
+      "interpretation": "elevated dN/dS vs M. canettii (0.609) — relaxed or positive selection at deep divergence",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 0,
+      "n_total": 53,
+      "frac": 0.0,
+      "in_mtbap": 0,
+      "in_mkc": 0,
+      "mean_pident": 0.0,
+      "classification": "MTBC-specific",
+      "species_present": [],
+      "interpretation": "absent from ALL 53 non-MTBC Mycobacterium genomes tested (incl. the closest MTBAP relatives) — a candidate MTBC-specific genetic innovation / host-adaptation factor (confirm by synteny; rule out a short/low-complexity ORF and extreme divergence)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 0,
+      "stratum_label": "MTBC-specific",
+      "deepest_outgroup_clade": "none",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 1329,
+      "short_gene_caveat": false,
+      "interpretation": "absent from the whole genus and from all outgroups tested — a candidate MTBC-specific innovation (confirm by synteny; rule out detection failure for short/divergent ORFs)",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.811,
+    "classification": "highly disordered",
+    "n_idr": 1,
+    "longest_idr": 1091,
+    "total_idr_residues": 1091,
+    "idr_regions": [
+      [
+        238,
+        1329
+      ]
+    ],
+    "mean_plddt": 68.4,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (1091/1329 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

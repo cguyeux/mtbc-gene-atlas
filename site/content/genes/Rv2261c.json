@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2261c",
+  "gene": "Rv2261c",
+  "len_aa": 140,
+  "strand": "-",
+  "start_mtbc0": 2534042,
+  "end_mtbc0": 2534464,
+  "product_h37rv": "Conserved hypothetical protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "LHIAPLISYEMTFSDLTRHAARLGAALLVYQSSTSTFQGSWAQPQLAAQPAVRAVEAGIPAVHASLSGDSSAFDTRGRRLAWCSAEFNGAIVVNVPLASNVTLYLRLGDWVPVTAFVVMGAGFAVFLRRSLARVSDCADK",
+  "is_hypothetical": true,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown; thought to be involved in lipid metabolism.",
+    "legacy_ec": null,
+    "functional_category": "lipid metabolism",
+    "comments": "Rv2261c, (MTV022.11c), len: 140 aa. Conserved hypothetical protein, with function unknown but some similarity to C-terminal end of PCC6803 apolipoprotein N-acyltransferase from Synechocystis sp. Note that next ORF shows similarity to N-terminal part of P74055 apolipoprotein N-acyltransferase from Escherichia coli (519 aa), FASTA scores: opt: 142, E(): 0.007, (29.9% identity in 117 aa overlap), suggesting possible frameshift. Sequence of clones from two sources has been checked but no error found.",
+    "uniprot_ac": "I6XDW5",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "lipid metabolism",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 140,
+    "mw_kda": 14.9,
+    "pi": 8.82,
+    "gravy": 0.355,
+    "instability_index": 39.4,
+    "instability_class": "stable",
+    "aromaticity": 0.093,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "I6XDW5",
+    "reviewed": false,
+    "protein_name": "CN hydrolase domain-containing protein",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0005886",
+      "GO:0016410",
+      "GO:0042158"
+    ],
+    "kegg": [
+      "mtv:RVBD_2261c"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG0815",
+    "cog_cat": "M",
+    "description": "Transfers the fatty acyl group on membrane lipoproteins",
+    "preferred_name": "lnt",
+    "ec": [],
+    "kegg_ko": [
+      "ko:K03820"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [
+      "GT2"
+    ],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "function_revised": "Transfers the fatty acyl group on membrane lipoproteins",
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 2,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.349,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 1,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (1 TM helix)"
+  },
+  "string": {
+    "string_id": "83332.Rv2261c",
+    "n_partners": 12,
+    "n_context_driven": 6,
+    "partners": [
+      {
+        "rv": "Rv2262c",
+        "gene": "",
+        "product": "Conserved hypothetical protein; Catalyzes the phospholipid dependent N-acylation of the N- terminal cysteine of apolipoprotein, the last ste",
+        "hypothetical": false,
+        "combined": 991,
+        "combined_no_tm": 991,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 891,
+          "cooccurence": 571,
+          "coexpression": 254,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2263",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 554,
+        "combined_no_tm": 555,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 553,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2209",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 460,
+        "combined_no_tm": 440,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 431,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv2819c",
+        "gene": "csm5",
+        "product": "CRISPR type III-associated RAMP protein Csm5",
+        "hypothetical": false,
+        "combined": 424,
+        "combined_no_tm": 425,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 421,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2337c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 424,
+        "combined_no_tm": 424,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 412,
+          "coexpression": 61,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0355c",
+        "gene": "PPE8",
+        "product": "PPE family protein PPE8",
+        "hypothetical": false,
+        "combined": 404,
+        "combined_no_tm": 404,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 398,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2490c",
+        "gene": "PE_PGRS43",
+        "product": "PE-PGRS family protein PE_PGRS43",
+        "hypothetical": false,
+        "combined": 404,
+        "combined_no_tm": 404,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 404,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0842",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 404,
+        "combined_no_tm": 382,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 372,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv1004c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 414,
+        "combined_no_tm": 380,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 371,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv1539",
+        "gene": "lspA",
+        "product": "lipoprotein signal peptidase",
+        "hypothetical": false,
+        "combined": 933,
+        "combined_no_tm": 76,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 76,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 931
+        }
+      },
+      {
+        "rv": "Rv1614",
+        "gene": "lgt",
+        "product": "prolipoprotein diacylglyceryl transferase",
+        "hypothetical": false,
+        "combined": 506,
+        "combined_no_tm": 73,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 489
+        }
+      },
+      {
+        "rv": "Rv3623",
+        "gene": "lpqG",
+        "product": "lipoprotein LpqG",
+        "hypothetical": false,
+        "combined": 876,
+        "combined_no_tm": 44,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 876
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2262c",
+      "gene": "",
+      "product": "Conserved hypothetical protein; Catalyzes the phospholipid dependent N-acylation of the N- terminal cysteine of apolipoprotein, the last ste",
+      "combined_no_tm": 991,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 773,
+        "fusion": 891,
+        "cooccurence": 571,
+        "coexpression": 254,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 94.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8aq2-assembly1_A",
+        "evalue": 1.454e-05,
+        "prob": 1.0,
+        "tmscore": 0.8158,
+        "description": "8aq2-assembly1_A In meso structure of the membrane integral lipoprotein N-acyltransferase Lnt from P. aeruginosa covalently linked with TITC",
+        "significant": true
+      },
+      {
+        "target": "5vrg-assembly1_A",
+        "evalue": 5.955e-05,
+        "prob": 1.0,
+        "tmscore": 0.7792,
+        "description": "5vrg-assembly1_A Structural insights into lipoprotein N-acylation by Escherichia coli apolipoprotein N-acyltransferase",
+        "significant": true
+      },
+      {
+        "target": "5n6h-assembly1_A",
+        "evalue": 8.747e-05,
+        "prob": 1.0,
+        "tmscore": 0.7802,
+        "description": "5n6h-assembly1_A Structure of the membrane integral lipoprotein N-acyltransferase Lnt from E. coli",
+        "significant": true
+      },
+      {
+        "target": "6nwr-assembly1_A",
+        "evalue": 7.695e-05,
+        "prob": 1.0,
+        "tmscore": 0.778,
+        "description": "6nwr-assembly1_A Thioester acyl-intermediate of Apolipoprotein N-acyltransferase (Lnt)",
+        "significant": true
+      },
+      {
+        "target": "7aci-assembly1_A",
+        "evalue": 9.326e-05,
+        "prob": 1.0,
+        "tmscore": 0.7814,
+        "description": "7aci-assembly1_A In meso structure of apolipoprotein N-acyltransferase, Lnt, from Escherichia coli in 9.8 monoacylglycerol",
+        "significant": true
+      },
+      {
+        "target": "5n6l-assembly1_A",
+        "evalue": 0.0001205,
+        "prob": 1.0,
+        "tmscore": 0.7997,
+        "description": "5n6l-assembly1_A Structure of the membrane integral lipoprotein N-acyltransferase Lnt C387A mutant from E. coli",
+        "significant": true
+      },
+      {
+        "target": "5n6l-assembly2_B",
+        "evalue": 0.000113,
+        "prob": 1.0,
+        "tmscore": 0.782,
+        "description": "5n6l-assembly2_B Structure of the membrane integral lipoprotein N-acyltransferase Lnt C387A mutant from E. coli",
+        "significant": true
+      },
+      {
+        "target": "5xhq-assembly1_A",
+        "evalue": 0.000166,
+        "prob": 1.0,
+        "tmscore": 0.8175,
+        "description": "5xhq-assembly1_A Apolipoprotein N-acyl Transferase",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF00795",
+      "pfam_name": "CN_hydrolase",
+      "description": "CN_hydrolase",
+      "n_matches": "1"
+    }
+  ]
+}

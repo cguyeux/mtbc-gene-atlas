@@ -1,0 +1,882 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2921c",
+  "mtbc0": "mtbc0_003103",
+  "np_id": "NP_217437.1",
+  "gene": "ftsY",
+  "len_aa": 422,
+  "strand": "-",
+  "start_mtbc0": 3253868,
+  "end_mtbc0": 3255136,
+  "product_h37rv": "signal recognition particle receptor FtsY",
+  "product_mtbc0_pgap": "signal recognition particle-docking protein FtsY",
+  "function_revised": "Signal recognition particle-docking protein FtsY. Pfam: SRP54_N (PF02881.25), SRP54 (PF00448.29), AAA_30 (PF13604.13).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MWEGLWIATAVIAALVVIAALTLGLVLYRRRRISLSPRPERGVVDRSGGYTASSGITFSQTPTTQPAERIDTSGLPAVGDDATVPRDAPKRTIADVHLPEFEPEPQAPEVPEADAIAPPEGRLERLRGRLARSQNALGRGLLGLIGGGDLDEDSWQDVEDTLLVADLGPAATASVVSQLRSRLASGNVRTEADARAVLRDVLINELQPGMDRSIRALPHAGHPSVLLVVGVNGTGKTTTVGKLARVLVADGRRVVLGAADTFRAAAADQLQTWAARVGAAVVRGPEGADPASVAFDAVDKGIAAGADVVLIDTAGRLHTKVGLMDELDKVKRVVTRRASVDEVLLVLDATIGQNGLAQARVFAEVVDISGAVLTKLDGTAKGGIVFRVQQELGVPVKLVGLGEGPDDLAPFEPAAFVDALLG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "SRP54_N",
+      "pfam_acc": "PF02881.25",
+      "i_evalue": 1.2e-08,
+      "ali_from": 138,
+      "ali_to": 202,
+      "description": "SRP54-type protein, helical bundle domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "SRP54",
+      "pfam_acc": "PF00448.29",
+      "i_evalue": 1.7e-72,
+      "ali_from": 223,
+      "ali_to": 422,
+      "description": "SRP54-type protein, GTPase domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "AAA_30",
+      "pfam_acc": "PF13604.13",
+      "i_evalue": 1.2e-06,
+      "ali_from": 224,
+      "ali_to": 320,
+      "description": "AAA domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0552",
+    "cog_cat": "U",
+    "description": "Involved in targeting and insertion of nascent membrane proteins into the cytoplasmic membrane. Acts as a receptor for the complex formed by the signal recognition particle (SRP) and the ribosome-nascent chain (RNC)",
+    "preferred_name": "ftsY",
+    "ec": [],
+    "kegg_ko": [
+      "K03110"
+    ],
+    "kegg_pathway": [
+      "map02024",
+      "map03060",
+      "map03070"
+    ],
+    "kegg_module": [
+      "M00335"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0005886",
+      "GO:0016020",
+      "GO:0030312",
+      "GO:0044464",
+      "GO:0071944"
+    ],
+    "pfams": [
+      "SRP54",
+      "SRP54_N"
+    ],
+    "seed_ortholog": "419947.MRA_2946",
+    "evalue": "3.93e-289"
+  },
+  "uniprot": {
+    "acc": "P9WGD9",
+    "reviewed": true,
+    "protein_name": "Signal recognition particle receptor FtsY",
+    "ec": [
+      "3.6.5.4"
+    ],
+    "function": "Involved in targeting and insertion of nascent membrane proteins into the cytoplasmic membrane. Acts as a receptor for the complex formed by the signal recognition particle (SRP) and the ribosome-nascent chain (RNC) (By similarity). Most of the substrate proteins are involved in stress regulation, lipid metabolism, intermediary metabolism, and cell wall processes. Shows GTPase activity. Can also hydrolyze ATP, UTP and CTP",
+    "go": [
+      "GO:0003924",
+      "GO:0005047",
+      "GO:0005525",
+      "GO:0005737",
+      "GO:0005886",
+      "GO:0006605",
+      "GO:0006614",
+      "GO:0009274"
+    ],
+    "kegg": [
+      "mtu:Rv2921c",
+      "mtv:RVBD_2921c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 1,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.55,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2921c",
+    "n_partners": 116,
+    "n_context_driven": 23,
+    "partners": [
+      {
+        "rv": "Rv2916c",
+        "gene": "ffh",
+        "product": "signal recognition particle protein",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 995,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 306,
+          "coexpression": 222,
+          "experimental": 829,
+          "database": 935,
+          "textmining": 811
+        }
+      },
+      {
+        "rv": "Rv0732",
+        "gene": "secY",
+        "product": "preprotein translocase SecY",
+        "hypothetical": false,
+        "combined": 994,
+        "combined_no_tm": 985,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 403,
+          "experimental": 644,
+          "database": 935,
+          "textmining": 628
+        }
+      },
+      {
+        "rv": "Rv3362c",
+        "gene": "",
+        "product": "ATP/GTP-binding protein",
+        "hypothetical": false,
+        "combined": 980,
+        "combined_no_tm": 974,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 70,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 928,
+          "database": 647,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv1440",
+        "gene": "secG",
+        "product": "protein-export membrane protein SecG",
+        "hypothetical": false,
+        "combined": 979,
+        "combined_no_tm": 948,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 474,
+          "database": 900,
+          "textmining": 623
+        }
+      },
+      {
+        "rv": "Rv0638",
+        "gene": "secE1",
+        "product": "preprotein translocase SecE",
+        "hypothetical": false,
+        "combined": 989,
+        "combined_no_tm": 946,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 51,
+          "experimental": 474,
+          "database": 900,
+          "textmining": 810
+        }
+      },
+      {
+        "rv": "Rv0703",
+        "gene": "rplW",
+        "product": "50S ribosomal protein L23",
+        "hypothetical": false,
+        "combined": 937,
+        "combined_no_tm": 921,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 194,
+          "coexpression": 223,
+          "experimental": 883,
+          "database": 0,
+          "textmining": 244
+        }
+      },
+      {
+        "rv": "Rv1004c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 916,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 228,
+          "experimental": 829,
+          "database": 378,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv3921c",
+        "gene": "yidC",
+        "product": "membrane protein insertase YidC",
+        "hypothetical": false,
+        "combined": 954,
+        "combined_no_tm": 914,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 171,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 494
+        }
+      },
+      {
+        "rv": "Rv1821",
+        "gene": "secA2",
+        "product": "accessory Sec system translocase SecA2",
+        "hypothetical": false,
+        "combined": 979,
+        "combined_no_tm": 904,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 797
+        }
+      },
+      {
+        "rv": "Rv2588c",
+        "gene": "yajC",
+        "product": "membrane protein secretion factor YajC",
+        "hypothetical": false,
+        "combined": 984,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 848
+        }
+      },
+      {
+        "rv": "Rv0723",
+        "gene": "rplO",
+        "product": "50S ribosomal protein L15",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 104,
+          "fusion": 0,
+          "cooccurence": 171,
+          "coexpression": 105,
+          "experimental": 871,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv0714",
+        "gene": "rplN",
+        "product": "50S ribosomal protein L14",
+        "hypothetical": false,
+        "combined": 911,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 181,
+          "coexpression": 46,
+          "experimental": 886,
+          "database": 0,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv0701",
+        "gene": "rplC",
+        "product": "50S ribosomal protein L3",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 187,
+          "experimental": 884,
+          "database": 0,
+          "textmining": 267
+        }
+      },
+      {
+        "rv": "Rv3240c",
+        "gene": "secA1",
+        "product": "protein translocase subunit SecA",
+        "hypothetical": false,
+        "combined": 983,
+        "combined_no_tm": 901,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 839
+        }
+      },
+      {
+        "rv": "Rv0720",
+        "gene": "rplR",
+        "product": "50S ribosomal protein L18",
+        "hypothetical": false,
+        "combined": 913,
+        "combined_no_tm": 900,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 104,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 51,
+          "experimental": 892,
+          "database": 0,
+          "textmining": 166
+        }
+      }
+    ],
+    "anchor": null
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: signal recognition particle receptor FtsY",
+    "MTBC0 PGAP product: signal recognition particle-docking protein FtsY",
+    "Pfam (hmmscan --cut_ga): SRP54_N PF02881.25 (E=1e-08), SRP54 PF00448.29 (E=2e-72), AAA_30 PF13604.13 (E=1e-06)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 78.9,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1vma-assembly2_B",
+        "evalue": 1.671e-29,
+        "prob": 1.0,
+        "tmscore": 0.9279,
+        "description": "1vma-assembly2_B Crystal structure of Cell division protein ftsY (TM0570) from Thermotoga maritima at 1.60 A resolution",
+        "significant": true
+      },
+      {
+        "target": "6cy1-assembly1_B",
+        "evalue": 2.873e-28,
+        "prob": 1.0,
+        "tmscore": 0.8825,
+        "description": "6cy1-assembly1_B Crystal structure of Signal recognition particle receptor FtsY from Elizabethkingia anophelis",
+        "significant": true
+      },
+      {
+        "target": "2og2-assembly1_A",
+        "evalue": 2.208e-27,
+        "prob": 1.0,
+        "tmscore": 0.9136,
+        "description": "2og2-assembly1_A Crystal structure of chloroplast FtsY from Arabidopsis thaliana",
+        "significant": true
+      },
+      {
+        "target": "6cy5-assembly1_B",
+        "evalue": 1.042e-27,
+        "prob": 1.0,
+        "tmscore": 0.8995,
+        "description": "6cy5-assembly1_B Crystal structure of Signal recognition particle receptor FtsY from Elizabethkingia anophelis in complex with GDP",
+        "significant": true
+      },
+      {
+        "target": "6cy5-assembly1_A",
+        "evalue": 1.6e-27,
+        "prob": 1.0,
+        "tmscore": 0.8991,
+        "description": "6cy5-assembly1_A Crystal structure of Signal recognition particle receptor FtsY from Elizabethkingia anophelis in complex with GDP",
+        "significant": true
+      },
+      {
+        "target": "2q9a-assembly2_B",
+        "evalue": 1.099e-27,
+        "prob": 1.0,
+        "tmscore": 0.8715,
+        "description": "2q9a-assembly2_B Structure of Apo FTSY",
+        "significant": true
+      },
+      {
+        "target": "2q9b-assembly2_B",
+        "evalue": 3.215e-27,
+        "prob": 1.0,
+        "tmscore": 0.885,
+        "description": "2q9b-assembly2_B Structure of FTSY:GMPPNP Complex",
+        "significant": true
+      },
+      {
+        "target": "7o9h-assembly1_A",
+        "evalue": 1.994e-26,
+        "prob": 1.0,
+        "tmscore": 0.8946,
+        "description": "7o9h-assembly1_A Escherichia coli FtsY in complex with pppGpp",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP+TM",
+    "tm_helices": 1,
+    "signal_peptide": true,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein with signal peptide (1 TM helix)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 140.0,
+    "abundance_rank": 1054,
+    "n_ranked": 3519,
+    "abundance_percentile": 70.1,
+    "n_datasets": 12,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 422,
+    "mw_kda": 44.0,
+    "pi": 5.18,
+    "gravy": 0.103,
+    "instability_index": 33.3,
+    "instability_class": "stable",
+    "aromaticity": 0.033,
+    "aliphatic_index": 10748.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2945c",
+        "identity": 100.0,
+        "evalue": 5.03e-292
+      },
+      "M. leprae": {
+        "locus": "ML1628c",
+        "identity": 81.5,
+        "evalue": 4.42e-229
+      },
+      "M. marinum": {
+        "locus": "MMAR_1786",
+        "identity": 80.5,
+        "evalue": 2.25e-242
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_2424",
+        "identity": 68.4,
+        "evalue": 6.2e-213
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003012",
+        "identity": 99.5,
+        "evalue": 4.5e-290
+      },
+      "M. abscessus": {
+        "locus": "MAB_3241c",
+        "identity": 65.4,
+        "evalue": 1.47e-184
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2920c",
+      "gene": "amt",
+      "strand": "-",
+      "gap": 364
+    },
+    "right": {
+      "locus": "Rv2922c",
+      "gene": "smc",
+      "strand": "-",
+      "gap": 49
+    },
+    "operon": [
+      {
+        "locus": "Rv2921c",
+        "gene": "ftsY"
+      },
+      {
+        "locus": "Rv2922c",
+        "gene": "smc"
+      },
+      {
+        "locus": "Rv2922A",
+        "gene": "acyP"
+      },
+      {
+        "locus": "Rv2923c",
+        "gene": null
+      }
+    ],
+    "operon_size": 4,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable cell division protein FtsY (SRP receptor) (signal recognition particle receptor)",
+    "legacy_function": "Probably involved in the reception and insertion of a subset of proteins at the membrane: possibly membrane receptor for FFH|Rv2916c.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [
+      "3.6.5.4"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -9.527,
+    "ci_low": -10.326,
+    "ci_high": -8.734,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 52,
+      "n_total": 53,
+      "frac": 0.981,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 83.6,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 11,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 70.6,
+      "length_aa": 422,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 4,
+    "n_papers_listed": 4,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 3,
+    "n_other": 1,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "1"
+    },
+    "summary": "4 publication(s) discuss this gene (3 in a M. tuberculosis context, 1 in other mycobacteria — M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "A multifactorial assessment of the SRP pathway constituent FtsY as a vital mycobacterial constituent.",
+        "doi": "10.1002/bab.2294",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34837716/",
+        "date": "2022"
+      },
+      {
+        "title": "Essential biochemical, biophysical and computational inputs on efficient functioning of Mycobacterium tuberculosis H37Rv FtsY.",
+        "doi": "10.1016/j.ijbiomac.2020.12.182",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/33412199/",
+        "date": "2021"
+      },
+      {
+        "title": "Characterization of FtsY, its interaction with Ffh, and proteomic identification of their potential substrates in Mycobacterium tuberculosis.",
+        "doi": "10.1139/cjm-2017-0385",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/29361248/",
+        "date": "2018"
+      },
+      {
+        "title": "Nitrogen regulation in Corynebacterium glutamicum: isolation of genes involved and biochemical characterization of corresponding proteins.",
+        "doi": "10.1111/j.1574-6968.1999.tb13518.x",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/10227160/",
+        "date": "1999"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.235,
+    "classification": "partially disordered",
+    "n_idr": 1,
+    "longest_idr": 131,
+    "total_idr_residues": 131,
+    "idr_regions": [
+      [
+        0,
+        131
+      ]
+    ],
+    "mean_plddt": 78.9,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (131/422 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

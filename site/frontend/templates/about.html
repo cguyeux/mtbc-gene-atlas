@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}About &mdash; {{ site_title }}{% endblock %}
+{% block main %}
+<article class="prose">
+  <h1>About</h1>
+  <p>
+    Mycobrowser, the reference annotation resource for <em>Mycobacterium</em>, is no longer
+    maintained, and a large share of MTBC genes are still labelled <em>hypothetical protein</em>.
+    This site takes over that role and re-annotates the MTBC gene set, with two distinctive choices.
+  </p>
+  <h2>Anchored on the ancestral genome</h2>
+  <p>
+    Annotation starts from <strong>MTBC0</strong>, the imputed ancestral genome of the most recent
+    common ancestor of the MTBC (Harrison et&nbsp;al. 2024), rather than from H37Rv. Each protein
+    shown here is the ancestral MTBC0 sequence; H37Rv remains as the historical anchor (its Rv
+    locus tag and legacy product).
+  </p>
+  <h2>A traceable, graded pipeline</h2>
+  <p>
+    Every gene goes through: the MTBC0 PGAP re-annotation, a Pfam domain scan
+    (<code>hmmscan --cut_ga</code>), the ESM&nbsp;Atlas protein-language-model signal (used only as
+    an exploratory indicator), and a literature check. Each fiche carries an explicit verdict
+    (<span class="badge badge-requalified">Resolved</span>,
+    <span class="badge badge-family_assigned">Family assigned</span>,
+    <span class="badge badge-dark">Still unknown</span>), a confidence level, and a
+    <strong>Sources</strong> section that cites the provenance of every field.
+  </p>
+  <h2>What the atlas changed vs Mycobrowser</h2>
+  <p>
+    A per-gene changelog (one row per gene) records, for every gene, the Mycobrowser legacy annotation,
+    the atlas result (verdict, revised function, EC), and <strong>what is new</strong>: the novelty class,
+    whether the atlas is ahead of Mycobrowser, the EC status, the evidence that provided the handle, and the
+    annotation route (literature-curated vs orthology/structure). Highlights: <strong>869 of the 1013
+    Mycobrowser &ldquo;conserved hypotheticals&rdquo; now carry a functional handle</strong>, 304 EC numbers
+    were updated, and 220 genes remain honestly unknown.
+  </p>
+  <p><a class="btn" href="/changelog.csv">&#8681;&nbsp;Download the per-gene changelog (CSV)</a> &middot;
+     also queryable via the <a href="/api/v1/docs">JSON API</a>.</p>
+
+  <h2>Anchored in the literature &mdash; including under other names</h2>
+  <p>
+    Every gene carries an <strong>In the literature</strong> section. Publications are found not only under the
+    H37Rv locus tag, but also under the <strong>gene name</strong> and under the identifiers the gene bears in
+    related species (<em>M.&nbsp;bovis</em>, <em>M.&nbsp;marinum</em>, <em>M.&nbsp;smegmatis</em>,
+    <em>M.&nbsp;leprae</em>, <em>M.&nbsp;abscessus</em>). This matters: a gene may be well characterised under the
+    name of its ortholog and completely invisible to a search on its <code>Rv</code> tag. Each hit is verified
+    against the abstract text, so a stated absence of literature is a verified absence &mdash; itself an
+    informative statement about an annotation with no primary study behind it.
+  </p>
+  <p>
+    Two consequences are made explicit on the fiche. A gene can be <strong>dark yet heavily studied</strong>
+    (Rv2660c has no known molecular function, but is a component of the H56 vaccine candidate in clinical trials),
+    which separates &ldquo;dark because nobody looked&rdquo; from &ldquo;dark despite being studied&rdquo;. And a
+    gene can have its <strong>biology documented mostly outside <em>M.&nbsp;tuberculosis</em></strong>, because
+    mycobacterial genetics is largely done in <em>M.&nbsp;smegmatis</em>; the fiche says so, and warns that such
+    findings do not transfer automatically to <em>M.&nbsp;tuberculosis</em>.
+  </p>
+
+  <p class="muted">FEMTO-ST Institute, CNRS UMR 6174, Université de Franche-Comté. Content under CC-BY 4.0.</p>
+</article>
+{% endblock %}

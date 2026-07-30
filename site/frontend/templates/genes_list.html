@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Genes &mdash; {{ site_title }}{% endblock %}
+{% block main %}
+<section class="list">
+  <h1>Genes</h1>
+  <form class="filters" action="/genes" method="get">
+    <input type="text" name="q" placeholder="gene, Rv, product…" value="{{ q or '' }}">
+    <select name="verdict">
+      <option value="">any verdict</option>
+      <option value="requalified" {% if verdict=='requalified' %}selected{% endif %}>Resolved</option>
+      <option value="family_assigned" {% if verdict=='family_assigned' %}selected{% endif %}>Family assigned</option>
+      <option value="dark" {% if verdict=='dark' %}selected{% endif %}>Still unknown</option>
+    </select>
+    <label><input type="checkbox" name="hypo" value="1" {% if hypo=='1' %}checked{% endif %}> legacy hypothetical</label>
+    <label><input type="checkbox" name="enriched" value="1" {% if enriched=='1' %}checked{% endif %}> enriched only</label>
+    <label><input type="checkbox" name="review" value="1" {% if review=='1' %}checked{% endif %}> to review</label>
+    <button type="submit">Filter</button>
+  </form>
+
+  <p class="muted">{{ total }} gene{{ 's' if total != 1 else '' }} matched.</p>
+
+  <table class="genes">
+    <thead><tr><th>Gene</th><th>MTBC0</th><th>Legacy (H37Rv)</th><th>MTBC0 PGAP / revised</th><th>Pfam</th><th>Verdict</th></tr></thead>
+    <tbody>
+      {% for g in rows %}
+      <tr {% if g.is_hypothetical %}class="hypo"{% endif %}>
+        <td><a href="/gene/{{ g.rv }}">{{ g.gene_name or g.rv }}</a><br><small>{{ g.rv }}</small></td>
+        <td><code>{{ g.mtbc0 }}</code></td>
+        <td class="muted">{{ g.product_h37rv }}</td>
+        <td>{{ g.function_revised or g.product_pgap or '—' }}</td>
+        <td>{% for d in (g.domains or []) %}<code title="{{ d.pfam_acc }}">{{ d.pfam_name }}</code> {% endfor %}</td>
+        <td>{% if g.verdict %}<span class="badge badge-{{ g.verdict }}">{{ verdict_label.get(g.verdict, g.verdict) }}</span>{% elif g.enriched %}<span class="badge">enriched</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if n_pages > 1 %}
+  <nav class="pager">
+    {% set qs = 'q=' ~ (q or '') ~ '&verdict=' ~ (verdict or '') ~ '&hypo=' ~ (hypo or '') ~ '&enriched=' ~ (enriched or '') ~ '&review=' ~ (review or '') %}
+    {% if page > 1 %}<a href="/genes?{{ qs }}&page={{ page-1 }}">&larr; prev</a>{% endif %}
+    <span>page {{ page }} / {{ n_pages }}</span>
+    {% if page < n_pages %}<a href="/genes?{{ qs }}&page={{ page+1 }}">next &rarr;</a>{% endif %}
+  </nav>
+  {% endif %}
+</section>
+{% endblock %}

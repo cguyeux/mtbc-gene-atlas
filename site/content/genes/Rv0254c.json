@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0254c",
+  "mtbc0": "mtbc0_000270",
+  "np_id": "NP_214768.1",
+  "gene": "cobU",
+  "len_aa": 174,
+  "strand": "-",
+  "start_mtbc0": 306207,
+  "end_mtbc0": 306731,
+  "product_h37rv": "bifunctional cobinamide kinase/cobinamide phosphate guanylyltransferase",
+  "product_mtbc0_pgap": "bifunctional adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase",
+  "function_revised": "Bifunctional adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase. Pfam: CobU (PF02283.23).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MRILVTGGVRSGKSTHAEALLGDAADVVYVAPGRPAAGSDPDWDARVALHRARRPPTWLTVETADVATALSEARSPVLVDCLGTWLTAIMDGEALWSAATADVYAVLEARLDGLCAALTGLPTAIVVTNEVGLGVVPSHSSGVLFRDLLGTINRRVAAVCDEVHLVIAGRVLKL",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "CobU",
+      "pfam_acc": "PF02283.23",
+      "i_evalue": 4.8e-48,
+      "ali_from": 3,
+      "ali_to": 174,
+      "description": "Cobinamide kinase / cobinamide phosphate guanyltransferase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG2087",
+    "cog_cat": "H",
+    "description": "cobinamide kinase",
+    "preferred_name": "cobU",
+    "ec": [
+      "2.7.1.156",
+      "2.7.7.62"
+    ],
+    "kegg_ko": [
+      "K02231"
+    ],
+    "kegg_pathway": [
+      "map00860",
+      "map01100"
+    ],
+    "kegg_module": [
+      "M00122"
+    ],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "CobU",
+      "Lactamase_B_2"
+    ],
+    "seed_ortholog": "419947.MRA_0263",
+    "evalue": "2.93e-119"
+  },
+  "uniprot": {
+    "acc": "O53676",
+    "reviewed": false,
+    "protein_name": "Adenosylcobinamide kinase",
+    "ec": [
+      "2.7.1.156",
+      "2.7.7.62"
+    ],
+    "function": "Catalyzes ATP-dependent phosphorylation of adenosylcobinamide and addition of GMP to adenosylcobinamide phosphate",
+    "go": [
+      "GO:0005524",
+      "GO:0005525",
+      "GO:0008820",
+      "GO:0009236",
+      "GO:0043752"
+    ],
+    "kegg": [
+      "mtu:Rv0254c",
+      "mtv:RVBD_0254c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 3,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.13,
+    "selection": "strong purifying",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 381,
+    "disrupt_frac": 0.0026,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0254c",
+    "n_partners": 42,
+    "n_context_driven": 12,
+    "partners": [
+      {
+        "rv": "Rv2207",
+        "gene": "cobT",
+        "product": "nicotinate-nucleotide-dimethylbenzimidazol phosphoribosyltransferase",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 994,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 461,
+          "fusion": 899,
+          "cooccurence": 768,
+          "coexpression": 557,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 421
+        }
+      },
+      {
+        "rv": "Rv2208",
+        "gene": "cobS",
+        "product": "adenosylcobinamide-GDP ribazoletransferase",
+        "hypothetical": false,
+        "combined": 995,
+        "combined_no_tm": 990,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 461,
+          "fusion": 0,
+          "cooccurence": 772,
+          "coexpression": 300,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 539
+        }
+      },
+      {
+        "rv": "Rv0255c",
+        "gene": "cobQ1",
+        "product": "cobyric acid synthase",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 989,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 757,
+          "fusion": 640,
+          "cooccurence": 769,
+          "coexpression": 525,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 845
+        }
+      },
+      {
+        "rv": "Rv2236c",
+        "gene": "cobD",
+        "product": "cobalamin biosynthesis transmembrane protein CobD",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 988,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 178,
+          "fusion": 0,
+          "cooccurence": 764,
+          "coexpression": 459,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 845
+        }
+      },
+      {
+        "rv": "Rv2849c",
+        "gene": "cobO",
+        "product": "cob(I)alamin adenosyltransferase",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 967,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 636,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 965
+        }
+      },
+      {
+        "rv": "Rv1314c",
+        "gene": "",
+        "product": "cob(I)yrinic acid a,c-diamide adenosyltransferase",
+        "hypothetical": false,
+        "combined": 933,
+        "combined_no_tm": 908,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 309
+        }
+      },
+      {
+        "rv": "Rv2848c",
+        "gene": "cobB",
+        "product": "cobyrinic acid A,C-diamide synthase",
+        "hypothetical": false,
+        "combined": 931,
+        "combined_no_tm": 879,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 624,
+          "coexpression": 649,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 457
+        }
+      },
+      {
+        "rv": "Rv2066",
+        "gene": "cobIJ",
+        "product": "bifunctional S-adenosyl-L-methionine-precorrin-2 methyl transferase/precorrin-3 methylase",
+        "hypothetical": false,
+        "combined": 877,
+        "combined_no_tm": 707,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 388,
+          "fusion": 0,
+          "cooccurence": 257,
+          "coexpression": 407,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 600
+        }
+      },
+      {
+        "rv": "Rv0256c",
+        "gene": "PPE2",
+        "product": "PPE family protein PPE2",
+        "hypothetical": false,
+        "combined": 891,
+        "combined_no_tm": 693,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 690,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 660
+        }
+      },
+      {
+        "rv": "Rv2065",
+        "gene": "cobH",
+        "product": "precorrin-8X methylmutase",
+        "hypothetical": false,
+        "combined": 881,
+        "combined_no_tm": 673,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 154,
+          "fusion": 0,
+          "cooccurence": 427,
+          "coexpression": 379,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 654
+        }
+      },
+      {
+        "rv": "Rv2071c",
+        "gene": "cobM",
+        "product": "precorrin-4 C(11)-methyltransferase",
+        "hypothetical": false,
+        "combined": 954,
+        "combined_no_tm": 634,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 156,
+          "fusion": 0,
+          "cooccurence": 461,
+          "coexpression": 261,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 880
+        }
+      },
+      {
+        "rv": "Rv2135c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 571,
+        "combined_no_tm": 546,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 419,
+          "coexpression": 226,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv2072c",
+        "gene": "cobL",
+        "product": "precorrin-6Y C(5,15)-methyltransferase",
+        "hypothetical": false,
+        "combined": 971,
+        "combined_no_tm": 523,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 270,
+          "fusion": 0,
+          "cooccurence": 271,
+          "coexpression": 176,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 943
+        }
+      },
+      {
+        "rv": "Rv2847c",
+        "gene": "cysG",
+        "product": "multifunctional uroporphyrin-III C-methyltransferase/precorrin-2 oxidase/ferrochelatase",
+        "hypothetical": false,
+        "combined": 725,
+        "combined_no_tm": 476,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 270,
+          "fusion": 138,
+          "cooccurence": 162,
+          "coexpression": 124,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 498
+        }
+      },
+      {
+        "rv": "Rv2206",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 461,
+        "combined_no_tm": 461,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 461,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2207",
+      "gene": "cobT",
+      "product": "nicotinate-nucleotide-dimethylbenzimidazol phosphoribosyltransferase",
+      "combined_no_tm": 994,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 461,
+        "fusion": 899,
+        "cooccurence": 768,
+        "coexpression": 557,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 421
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: bifunctional cobinamide kinase/cobinamide phosphate guanylyltransferase",
+    "MTBC0 PGAP product: bifunctional adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase",
+    "Pfam (hmmscan --cut_ga): CobU PF02283.23 (E=5e-48)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 94.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1c9k-assembly1_A",
+        "evalue": 1.247e-15,
+        "prob": 1.0,
+        "tmscore": 0.8933,
+        "description": "1c9k-assembly1_A THE THREE DIMENSIONAL STRUCTURE OF ADENOSYLCOBINAMIDE KINASE/ ADENOSYLCOBINAMIDE PHOSPHATE GUALYLYLTRANSFERASE (COBU) COMPLEXED WITH GMP: EVIDENCE FOR A SUBSTRATE INDUCED TRANSFERASE ACTIVE SITE",
+        "significant": true
+      },
+      {
+        "target": "1c9k-assembly1_C",
+        "evalue": 1.396e-14,
+        "prob": 1.0,
+        "tmscore": 0.8745,
+        "description": "1c9k-assembly1_C THE THREE DIMENSIONAL STRUCTURE OF ADENOSYLCOBINAMIDE KINASE/ ADENOSYLCOBINAMIDE PHOSPHATE GUALYLYLTRANSFERASE (COBU) COMPLEXED WITH GMP: EVIDENCE FOR A SUBSTRATE INDUCED TRANSFERASE ACTIVE SITE",
+        "significant": true
+      },
+      {
+        "target": "1cbu-assembly1_C",
+        "evalue": 2.574e-15,
+        "prob": 1.0,
+        "tmscore": 0.7806,
+        "description": "1cbu-assembly1_C ADENOSYLCOBINAMIDE KINASE/ADENOSYLCOBINAMIDE PHOSPHATE GUANYLYLTRANSFERASE (COBU) FROM SALMONELLA TYPHIMURIUM",
+        "significant": true
+      },
+      {
+        "target": "7tm8-assembly1_A",
+        "evalue": 1.777e-14,
+        "prob": 1.0,
+        "tmscore": 0.8096,
+        "description": "7tm8-assembly1_A Crystal structure of Bifunctional adenosylcobalamin biosynthesis protein from Klebsiella pneumoniae",
+        "significant": true
+      },
+      {
+        "target": "7tm8-assembly1_B",
+        "evalue": 8.541e-14,
+        "prob": 1.0,
+        "tmscore": 0.8504,
+        "description": "7tm8-assembly1_B Crystal structure of Bifunctional adenosylcobalamin biosynthesis protein from Klebsiella pneumoniae",
+        "significant": true
+      },
+      {
+        "target": "7tm8-assembly1_C",
+        "evalue": 3.06e-14,
+        "prob": 1.0,
+        "tmscore": 0.7998,
+        "description": "7tm8-assembly1_C Crystal structure of Bifunctional adenosylcobalamin biosynthesis protein from Klebsiella pneumoniae",
+        "significant": true
+      },
+      {
+        "target": "1cbu-assembly1_B",
+        "evalue": 6.315e-14,
+        "prob": 1.0,
+        "tmscore": 0.8156,
+        "description": "1cbu-assembly1_B ADENOSYLCOBINAMIDE KINASE/ADENOSYLCOBINAMIDE PHOSPHATE GUANYLYLTRANSFERASE (COBU) FROM SALMONELLA TYPHIMURIUM",
+        "significant": true
+      },
+      {
+        "target": "8yes-assembly1_F",
+        "evalue": 1.659e-13,
+        "prob": 1.0,
+        "tmscore": 0.8291,
+        "description": "8yes-assembly1_F Crystal structure of adenosylcobinamide kinase / adenosylcobinamide phosphate guanylyltransferase complexed with adenosylcobinamide-phosphate",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 12.9,
+    "abundance_rank": 2562,
+    "n_ranked": 3519,
+    "abundance_percentile": 27.2,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 174,
+    "mw_kda": 18.1,
+    "pi": 5.49,
+    "gravy": 0.411,
+    "instability_index": 32.0,
+    "instability_class": "stable",
+    "aromaticity": 0.04,
+    "aliphatic_index": 11436.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0260c",
+        "identity": 99.4,
+        "evalue": 1.86e-122
+      },
+      "M. marinum": {
+        "locus": "MMAR_3251",
+        "identity": 47.2,
+        "evalue": 2.27e-41
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4274",
+        "identity": 45.8,
+        "evalue": 3.11e-37
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000270",
+        "identity": 99.4,
+        "evalue": 1.74e-122
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 1,
+    "n_in_vivo": 0,
+    "phenotypes": [
+      {
+        "condition": "fitness after prolonged in vitro passage",
+        "category": "in vitro passage",
+        "log2fc": -1.72,
+        "qval": 0.048,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv0253",
+      "gene": "nirD",
+      "strand": "+",
+      "gap": 15
+    },
+    "right": {
+      "locus": "Rv0255c",
+      "gene": "cobQ1",
+      "strand": "-",
+      "gap": 24
+    },
+    "operon": [
+      {
+        "locus": "Rv0254c",
+        "gene": "cobU"
+      },
+      {
+        "locus": "Rv0255c",
+        "gene": "cobQ1"
+      },
+      {
+        "locus": "Rv0256c",
+        "gene": "PPE2"
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1033c",
+        "tf_gene": "trcR",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable bifunctional cobalamin biosynthesis protein CobU: cobinamide kinase + cobinamide phosphate guanylyltransferase",
+    "legacy_function": "Involved in cobalamin biosynthesis.",
+    "legacy_ec": [
+      "2.-.-.-"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "reclassified",
+    "atlas_ec": [
+      "2.7.1.156",
+      "2.7.7.62"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.661,
+    "ci_low": -0.705,
+    "ci_high": 2.31,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 52,
+      "n_total": 53,
+      "frac": 0.981,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 50.3,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 10,
+      "crossgenus_genomes": [
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 45.7,
+      "length_aa": 174,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 1,
+    "n_papers_listed": 1,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 1,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "1 publication(s) discuss this gene (1 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Mycobacterium tuberculosis protein PPE2 binds to DNA region containing promoter activity.",
+        "doi": "10.1016/j.bbrc.2021.06.044",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34166913/",
+        "date": "2021"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 94.6,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

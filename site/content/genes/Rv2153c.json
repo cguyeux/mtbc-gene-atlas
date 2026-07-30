@@ -1,0 +1,979 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2153c",
+  "mtbc0": "mtbc0_002289",
+  "np_id": "NP_216669.1",
+  "gene": "murG",
+  "len_aa": 410,
+  "strand": "-",
+  "start_mtbc0": 2439498,
+  "end_mtbc0": 2440730,
+  "product_h37rv": "UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol-N-acetylglucosamine transferase",
+  "product_mtbc0_pgap": "undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase",
+  "function_revised": "Undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase. Pfam: Glyco_transf_28 (PF03033.27), Glyco_tran_28_C (PF04101.23).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MKDTVSQPAGGRGATAPRPADAASPSCGSSPSADSLSVVLAGGGTAGHVEPAMAVADALVALDPRVRITALGTLRGLETRLVPQRGYHLELITAVPMPRKPGGDLARLPSRVWRAVREARDVLDDVDADVVVGFGGYVALPAYLAARGLPLPPRRRRRIPVVIHEANARAGLANRVGAHTADRVLSAVPDSGLRRAEVVGVPVRASIAALDRAVLRAEARAHFGFPDDARVLLVFGGSQGAVSLNRAVSGAAADLAAAGVCVLHAHGPQNVLELRRRAQGDPPYVAVPYLDRMELAYAAADLVICRAGAMTVAEVSAVGLPAIYVPLPIGNGEQRLNALPVVNAGGGMVVADAALTPELVARQVAGLLTDPARLAAMTAAAARVGHRDAAGQVARAALAVATGAGARTTT",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Glyco_transf_28",
+      "pfam_acc": "PF03033.27",
+      "i_evalue": 3.7e-35,
+      "ali_from": 38,
+      "ali_to": 185,
+      "description": "Glycosyltransferase family 28 N-terminal domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "Glyco_tran_28_C",
+      "pfam_acc": "PF04101.23",
+      "i_evalue": 8.3e-43,
+      "ali_from": 231,
+      "ali_to": 392,
+      "description": "Glycosyltransferase family 28 C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0707",
+    "cog_cat": "M",
+    "description": "Cell wall formation. Catalyzes the transfer of a GlcNAc subunit on undecaprenyl-pyrophosphoryl-MurNAc-pentapeptide (lipid intermediate I) to form undecaprenyl-pyrophosphoryl-MurNAc- (pentapeptide)GlcNAc (lipid intermediate II)",
+    "preferred_name": "murG",
+    "ec": [
+      "2.4.1.227"
+    ],
+    "kegg_ko": [
+      "K02563"
+    ],
+    "kegg_pathway": [
+      "map00550",
+      "map01100",
+      "map01502",
+      "map04112"
+    ],
+    "kegg_module": [],
+    "cazy": [
+      "GT28"
+    ],
+    "go": [
+      "GO:0008150",
+      "GO:0040007"
+    ],
+    "pfams": [
+      "Glyco_tran_28_C",
+      "Glyco_transf_28"
+    ],
+    "seed_ortholog": "419947.MRA_2168",
+    "evalue": "1.97e-276"
+  },
+  "uniprot": {
+    "acc": "P9WJK9",
+    "reviewed": true,
+    "protein_name": "UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase",
+    "ec": [
+      "2.4.1.227"
+    ],
+    "function": "Cell wall formation. Catalyzes the transfer of a GlcNAc subunit on undecaprenyl-pyrophosphoryl-MurNAc-pentapeptide (lipid intermediate I) to form undecaprenyl-pyrophosphoryl-MurNAc-(pentapeptide)GlcNAc (lipid intermediate II)",
+    "go": [
+      "GO:0005886",
+      "GO:0005975",
+      "GO:0008360",
+      "GO:0009252",
+      "GO:0016757",
+      "GO:0050511",
+      "GO:0051301",
+      "GO:0051991",
+      "GO:0071555"
+    ],
+    "kegg": [
+      "mtu:Rv2153c",
+      "mtv:RVBD_2153c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 11,
+    "syn": 3,
+    "missense": 8,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 1.113,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2153c",
+    "n_partners": 74,
+    "n_context_driven": 22,
+    "partners": [
+      {
+        "rv": "Rv2155c",
+        "gene": "murD",
+        "product": "UDP-N-acetylmuramoylalanine--D-glutamate ligase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 876,
+          "fusion": 0,
+          "cooccurence": 713,
+          "coexpression": 968,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 894
+        }
+      },
+      {
+        "rv": "Rv2156c",
+        "gene": "murX",
+        "product": "phospho-N-acetylmuramoyl-pentappeptidetransferase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 998,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 876,
+          "fusion": 0,
+          "cooccurence": 713,
+          "coexpression": 493,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 798
+        }
+      },
+      {
+        "rv": "Rv2157c",
+        "gene": "murF",
+        "product": "UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 996,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 876,
+          "fusion": 0,
+          "cooccurence": 703,
+          "coexpression": 903,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 944
+        }
+      },
+      {
+        "rv": "Rv2152c",
+        "gene": "murC",
+        "product": "UDP-N-acetylmuramate--alanine ligase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 996,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 658,
+          "coexpression": 918,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 879
+        }
+      },
+      {
+        "rv": "Rv2154c",
+        "gene": "ftsW",
+        "product": "lipid II flippase FtsW",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 995,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 322,
+          "cooccurence": 462,
+          "coexpression": 893,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 902
+        }
+      },
+      {
+        "rv": "Rv2151c",
+        "gene": "ftsQ",
+        "product": "cell division protein FtsQ",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 995,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 962,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 746
+        }
+      },
+      {
+        "rv": "Rv2158c",
+        "gene": "murE",
+        "product": "UDP-N-acetylmuramoylalanyl-D-glutamate--2,6-diaminopimelate ligase",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 980,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 876,
+          "fusion": 0,
+          "cooccurence": 664,
+          "coexpression": 430,
+          "experimental": 263,
+          "database": 0,
+          "textmining": 855
+        }
+      },
+      {
+        "rv": "Rv3712",
+        "gene": "",
+        "product": "ligase",
+        "hypothetical": false,
+        "combined": 961,
+        "combined_no_tm": 956,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 416,
+          "experimental": 263,
+          "database": 900,
+          "textmining": 164
+        }
+      },
+      {
+        "rv": "Rv2150c",
+        "gene": "ftsZ",
+        "product": "cell division protein FtsZ",
+        "hypothetical": false,
+        "combined": 981,
+        "combined_no_tm": 908,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 566,
+          "fusion": 0,
+          "cooccurence": 416,
+          "coexpression": 270,
+          "experimental": 563,
+          "database": 0,
+          "textmining": 801
+        }
+      },
+      {
+        "rv": "Rv3713",
+        "gene": "cobQ2",
+        "product": "cobyric acid synthase CobQ",
+        "hypothetical": false,
+        "combined": 907,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 48,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 92
+        }
+      },
+      {
+        "rv": "Rv2981c",
+        "gene": "ddlA",
+        "product": "D-alanine--D-alanine ligase",
+        "hypothetical": false,
+        "combined": 964,
+        "combined_no_tm": 822,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 427,
+          "coexpression": 678,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 808
+        }
+      },
+      {
+        "rv": "Rv2163c",
+        "gene": "pbpB",
+        "product": "penicillin-binding membrane protein PbpB",
+        "hypothetical": false,
+        "combined": 964,
+        "combined_no_tm": 787,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 499,
+          "coexpression": 142,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 839
+        }
+      },
+      {
+        "rv": "Rv2894c",
+        "gene": "xerC",
+        "product": "tyrosine recombinase XerC",
+        "hypothetical": false,
+        "combined": 780,
+        "combined_no_tm": 770,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 152,
+          "coexpression": 731,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 86
+        }
+      },
+      {
+        "rv": "Rv2149c",
+        "gene": "yfiH",
+        "product": "laccase domain-containing protein",
+        "hypothetical": false,
+        "combined": 904,
+        "combined_no_tm": 767,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 715,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 215,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 607
+        }
+      },
+      {
+        "rv": "Rv0482",
+        "gene": "murB",
+        "product": "UDP-N-acetylenolpyruvoylglucosamine reductase",
+        "hypothetical": false,
+        "combined": 969,
+        "combined_no_tm": 727,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 512,
+          "coexpression": 390,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 892
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2155c",
+      "gene": "murD",
+      "product": "UDP-N-acetylmuramoylalanine--D-glutamate ligase",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 876,
+        "fusion": 0,
+        "cooccurence": 713,
+        "coexpression": 968,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 894
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol-N-acetylglucosamine transferase",
+    "MTBC0 PGAP product: undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase",
+    "Pfam (hmmscan --cut_ga): Glyco_transf_28 PF03033.27 (E=4e-35), Glyco_tran_28_C PF04101.23 (E=8e-43)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 87.9,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1nlm-assembly1_B",
+        "evalue": 1.199e-26,
+        "prob": 1.0,
+        "tmscore": 0.841,
+        "description": "1nlm-assembly1_B CRYSTAL STRUCTURE OF MURG:GLCNAC COMPLEX",
+        "significant": true
+      },
+      {
+        "target": "3s2u-assembly1_A",
+        "evalue": 7.62e-26,
+        "prob": 1.0,
+        "tmscore": 0.8557,
+        "description": "3s2u-assembly1_A Crystal structure of the Pseudomonas aeruginosa MurG:UDP-GlcNAc substrate complex",
+        "significant": true
+      },
+      {
+        "target": "7d1i-assembly1_A-2",
+        "evalue": 5.618e-21,
+        "prob": 1.0,
+        "tmscore": 0.7977,
+        "description": "7d1i-assembly1_A-2 Crystal structure of acinetobacter baumannii MurG",
+        "significant": true
+      },
+      {
+        "target": "7d1i-assembly1_C-2",
+        "evalue": 1.814e-19,
+        "prob": 1.0,
+        "tmscore": 0.8217,
+        "description": "7d1i-assembly1_C-2 Crystal structure of acinetobacter baumannii MurG",
+        "significant": true
+      },
+      {
+        "target": "7d1i-assembly1_B-2",
+        "evalue": 1.296e-19,
+        "prob": 1.0,
+        "tmscore": 0.8057,
+        "description": "7d1i-assembly1_B-2 Crystal structure of acinetobacter baumannii MurG",
+        "significant": true
+      },
+      {
+        "target": "4x1t-assembly1_A",
+        "evalue": 2.073e-12,
+        "prob": 1.0,
+        "tmscore": 0.6686,
+        "description": "4x1t-assembly1_A The crystal structure of Arabidopsis thaliana galactolipid synthase MGD1 in complex with UDP",
+        "significant": true
+      },
+      {
+        "target": "2iya-assembly2_B",
+        "evalue": 9.955e-12,
+        "prob": 1.0,
+        "tmscore": 0.6264,
+        "description": "2iya-assembly2_B The crystal structure of macrolide glycosyltransferases: A blueprint for antibiotic engineering",
+        "significant": true
+      },
+      {
+        "target": "6j32-assembly2_C",
+        "evalue": 1.114e-11,
+        "prob": 1.0,
+        "tmscore": 0.6463,
+        "description": "6j32-assembly2_C Crystal Structure Analysis of the Glycotransferase of kitacinnamycin",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 44.6,
+    "abundance_rank": 1828,
+    "n_ranked": 3519,
+    "abundance_percentile": 48.1,
+    "n_datasets": 12,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 410,
+    "mw_kda": 41.9,
+    "pi": 10.05,
+    "gravy": 0.222,
+    "instability_index": 38.1,
+    "instability_class": "stable",
+    "aromaticity": 0.029,
+    "aliphatic_index": 10317.1,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2177c",
+        "identity": 99.3,
+        "evalue": 2.93e-278
+      },
+      "M. leprae": {
+        "locus": "ML0914",
+        "identity": 81.3,
+        "evalue": 5.75e-195
+      },
+      "M. marinum": {
+        "locus": "MMAR_3193",
+        "identity": 80.0,
+        "evalue": 6.59e-208
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_4227",
+        "identity": 75.9,
+        "evalue": 3.27e-179
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002224",
+        "identity": 99.5,
+        "evalue": 2.35e-279
+      },
+      "M. abscessus": {
+        "locus": "MAB_2006",
+        "identity": 76.5,
+        "evalue": 1.14e-181
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2152c",
+      "gene": "murC",
+      "strand": "-",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv2154c",
+      "gene": "ftsW",
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv2151c",
+        "gene": "ftsQ"
+      },
+      {
+        "locus": "Rv2152c",
+        "gene": "murC"
+      },
+      {
+        "locus": "Rv2153c",
+        "gene": "murG"
+      },
+      {
+        "locus": "Rv2154c",
+        "gene": "ftsW"
+      },
+      {
+        "locus": "Rv2155c",
+        "gene": "murD"
+      },
+      {
+        "locus": "Rv2156c",
+        "gene": "murX"
+      },
+      {
+        "locus": "Rv2157c",
+        "gene": "murF"
+      },
+      {
+        "locus": "Rv2158c",
+        "gene": "murE"
+      },
+      {
+        "locus": "Rv2159c",
+        "gene": null
+      }
+    ],
+    "operon_size": 9,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1033c",
+        "tf_gene": "trcR",
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable UPD-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol-N-acetylglucosamine transferase MurG",
+    "legacy_function": "Involved in cell wall formation; peptidoglycan biosynthesis.",
+    "legacy_ec": [
+      "2.4.1.227"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.4.1.227"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "SigD",
+        "function": "Sigma Factor that governs the expression of ribosomal genes and plays a role in virulence",
+        "category": "Virulence/Persistence",
+        "regulator": "sigD"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": -7.395,
+    "ci_low": -7.725,
+    "ci_high": -7.073,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 0,
+      "n_nonsyn": 2,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 52,
+      "n_total": 53,
+      "frac": 0.981,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 84.4,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 56.6,
+      "length_aa": 410,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 13,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 8,
+    "n_other": 7,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "5"
+    },
+    "summary": "13 publication(s) discuss this gene (8 in a M. tuberculosis context, 7 in other mycobacteria — M. smegmatis (5)).",
+    "papers": [
+      {
+        "title": "Rational design, synthesis, molecular modeling, biological activity, and mechanism of action of polypharmacological norfloxacin hydroxamic acid derivatives.",
+        "doi": "10.1039/d3md00309d",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/38099058/",
+        "date": "2023"
+      },
+      {
+        "title": "Polar protein Wag31 both activates and inhibits cell wall metabolism at the poles and septum.",
+        "doi": "10.3389/fmicb.2022.1085918",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36713172/",
+        "date": "2022"
+      },
+      {
+        "title": "Arginine methylation sites on SepIVA help balance elongation and septation in Mycobacterium smegmatis.",
+        "doi": "10.1111/mmi.15006",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36416406/",
+        "date": "2023"
+      },
+      {
+        "title": "Cell Wall Damage Reveals Spatial Flexibility in Peptidoglycan Synthesis and a Nonredundant Role for RodA in Mycobacteria.",
+        "doi": "10.1128/jb.00540-21",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35543537/",
+        "date": "2022"
+      },
+      {
+        "title": "The Diagnosis of Nontuberculous Mycobacterial Pulmonary Disease by Single Bacterial Isolation Plus Anti-GPL-Core IgA Antibody.",
+        "doi": "10.1128/spectrum.01406-21",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/34985326/",
+        "date": "2022"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.134,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 45,
+    "total_idr_residues": 45,
+    "idr_regions": [
+      [
+        0,
+        45
+      ]
+    ],
+    "mean_plddt": 87.9,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "murG-tetOn18",
+    "gene": "murG",
+    "teton_promoter": "18",
+    "baseline_doublings_median": 4.569,
+    "n_screens": 6,
+    "strain_category": "Used in PCL analysis",
+    "used_in_pcl": true,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

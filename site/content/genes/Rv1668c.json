@@ -1,0 +1,603 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1668c",
+  "gene": "Rv1668c",
+  "len_aa": 372,
+  "strand": "-",
+  "start_mtbc0": 1894224,
+  "end_mtbc0": 1895342,
+  "product_h37rv": "Probable first part of macrolide-transport ATP-binding protein ABC transporter",
+  "function_revised": "Thought to be involved in active transport of macrolide across the membrane (export). Macrolide antibiotics resistance by an export mechanism. Responsible for energy coupling to the transport system.",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MAHLLGAEAVHLAYPTQVVFEAVTLGVNDGARIGIVGRNGDGKSSLLGLLTGQLRPDSGRVTRRSGLRVNALSQTDTLDPNRTVGWTLIGDQPEHQWAGNPRIRDVVAGLVSDIAWDTPVSTLSGGQRRRVQLASLLVGEWDVIALDEPTNHLDIQGITWLADHLRRRWARNTGGLLVVTHDRWFLDEVATTTWEVHDGIVEPFEGGYAAYVLQRVERDRLTAAAEAKRQNLLRKELAWLRRGAPARTCKPKFRIEAANQLIADVPPPRNTVELAKLAAARLGKDVVDLLGVSVSYQPSGGRPVLRDIEWRIGPGERIGIVGANGAGKSTLLGLIAGTVQPGVGRVKPSGWQCSISTGTIWHRLPTTGSPMC",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable first part of macrolide-transport ATP-binding protein ABC transporter",
+    "legacy_function": "Thought to be involved in active transport of macrolide across the membrane (export). Macrolide antibiotics resistance by an export mechanism. Responsible for energy coupling to the transport system.",
+    "legacy_ec": null,
+    "functional_category": "cell wall and cell processes",
+    "comments": "Rv1668c, (MTV047.04c), len: 372 aa. Probable first part of macrolide-transport ATP-binding protein ABC transporter (see citation below), similar to many ATP-binding proteins ABC transporter e.g. X80735|SEABCT_1|Q54072 Saccharopolyspora erythraea ertX gene (481 aa), FASTA scores: opt: 938, E(): 0, (45.6% identity in 353 aa overlap); etc. Similarity to other NBD components of ABC transporters suggests that Rv1667c and Rv1668c should be contiguous. However, sequence has been checked and no error found, also same sequence in Mycobacterium tuberculosis CSU93 and Mycobacterium bovis. Contains PS00211 ABC transporters family signature and two times PS00017 ATP/GTP-binding site motif A. Belongs to the ATP-binding transport protein family (ABC transporters).",
+    "uniprot_ac": "O53916",
+    "go": "GO:0016887,GO:0005524",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 372,
+    "mw_kda": 40.3,
+    "pi": 9.57,
+    "gravy": -0.174,
+    "instability_index": 32.2,
+    "instability_class": "stable",
+    "aromaticity": 0.054,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O53916",
+    "reviewed": false,
+    "protein_name": "Probable first part of macrolide-transport ATP-binding protein ABC transporter",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0005524",
+      "GO:0016887"
+    ],
+    "kegg": [
+      "mtv:RVBD_1668c"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG0488",
+    "cog_cat": "S",
+    "description": "ABC transporter",
+    "preferred_name": "yjjK",
+    "ec": [],
+    "kegg_ko": [
+      "ko:K15738"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 15.0,
+    "abundance_rank": 2490,
+    "n_ranked": 3519,
+    "abundance_percentile": 29.3,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0047c",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0678",
+        "tf_gene": "mmpR5",
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 11,
+    "syn": 4,
+    "missense": 7,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.639,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "reference-fixed",
+    "disrupt_strains": 140939,
+    "disrupt_frac": 0.9706,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1668c",
+    "n_partners": 89,
+    "n_context_driven": 2,
+    "partners": [
+      {
+        "rv": "Rv1667c",
+        "gene": "",
+        "product": "Rv1667c, (MTV047.03c), len: 217 aa. Probable second part of macrolide-transport ATP-binding protein ABC transporter (see citation below), wi",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 999,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 900,
+          "cooccurence": 304,
+          "coexpression": 369,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 315
+        }
+      },
+      {
+        "rv": "Rv1666c",
+        "gene": "cyp139",
+        "product": "cytochrome P450 Cyp139",
+        "hypothetical": false,
+        "combined": 824,
+        "combined_no_tm": 824,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 775,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 163,
+          "experimental": 140,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2442c",
+        "gene": "rplU",
+        "product": "50S ribosomal protein L21",
+        "hypothetical": false,
+        "combined": 820,
+        "combined_no_tm": 820,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 56,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 229,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2785c",
+        "gene": "rpsO",
+        "product": "30S ribosomal protein S15",
+        "hypothetical": false,
+        "combined": 822,
+        "combined_no_tm": 815,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 217,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 76
+        }
+      },
+      {
+        "rv": "Rv3443c",
+        "gene": "rplM",
+        "product": "50S ribosomal protein L13",
+        "hypothetical": false,
+        "combined": 814,
+        "combined_no_tm": 815,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 70,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 192,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0723",
+        "gene": "rplO",
+        "product": "50S ribosomal protein L15",
+        "hypothetical": false,
+        "combined": 814,
+        "combined_no_tm": 814,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 156,
+          "coexpression": 103,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 44
+        }
+      },
+      {
+        "rv": "Rv0707",
+        "gene": "rpsC",
+        "product": "30S ribosomal protein S3",
+        "hypothetical": false,
+        "combined": 813,
+        "combined_no_tm": 814,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 211,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0704",
+        "gene": "rplB",
+        "product": "50S ribosomal protein L2",
+        "hypothetical": false,
+        "combined": 813,
+        "combined_no_tm": 814,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 165,
+          "coexpression": 95,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0721",
+        "gene": "rpsE",
+        "product": "30S ribosomal protein S5",
+        "hypothetical": false,
+        "combined": 818,
+        "combined_no_tm": 813,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 162,
+          "coexpression": 90,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 68
+        }
+      },
+      {
+        "rv": "Rv0702",
+        "gene": "rplD",
+        "product": "50S ribosomal protein L4",
+        "hypothetical": false,
+        "combined": 819,
+        "combined_no_tm": 807,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 185,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1642",
+        "gene": "rpmI",
+        "product": "50S ribosomal protein L35",
+        "hypothetical": false,
+        "combined": 812,
+        "combined_no_tm": 806,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 66,
+          "fusion": 0,
+          "cooccurence": 152,
+          "coexpression": 46,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 75
+        }
+      },
+      {
+        "rv": "Rv0720",
+        "gene": "rplR",
+        "product": "50S ribosomal protein L18",
+        "hypothetical": false,
+        "combined": 799,
+        "combined_no_tm": 800,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 150,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0701",
+        "gene": "rplC",
+        "product": "50S ribosomal protein L3",
+        "hypothetical": false,
+        "combined": 808,
+        "combined_no_tm": 797,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 139,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 97
+        }
+      },
+      {
+        "rv": "Rv0979A",
+        "gene": "rpmF",
+        "product": "50S ribosomal protein L32",
+        "hypothetical": false,
+        "combined": 796,
+        "combined_no_tm": 797,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 48,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 134,
+          "experimental": 773,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2909c",
+        "gene": "rpsP",
+        "product": "30S ribosomal protein S16",
+        "hypothetical": false,
+        "combined": 795,
+        "combined_no_tm": 795,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 58,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 123,
+          "experimental": 772,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1667c",
+      "gene": "",
+      "product": "Rv1667c, (MTV047.03c), len: 217 aa. Probable second part of macrolide-transport ATP-binding protein ABC transporter (see citation below), wi",
+      "combined_no_tm": 999,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 773,
+        "fusion": 900,
+        "cooccurence": 304,
+        "coexpression": 369,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 315
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 79.8,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "7msm-assembly1_x",
+        "evalue": 1.312e-27,
+        "prob": 1.0,
+        "tmscore": 0.7422,
+        "description": "7msm-assembly1_x Mtb 70SIC in complex with MtbEttA at Trans_R0 state",
+        "significant": true
+      },
+      {
+        "target": "3puy-assembly1_B",
+        "evalue": 6.024e-14,
+        "prob": 1.0,
+        "tmscore": 0.797,
+        "description": "3puy-assembly1_B Crystal Structure of an outward-facing MBP-Maltose transporter complex bound to AMP-PNP after crystal soaking of the pretranslocation state",
+        "significant": true
+      },
+      {
+        "target": "3fvq-assembly1_A",
+        "evalue": 4.749e-14,
+        "prob": 1.0,
+        "tmscore": 0.7666,
+        "description": "3fvq-assembly1_A Crystal structure of the nucleotide binding domain FbpC complexed with ATP",
+        "significant": true
+      },
+      {
+        "target": "4yer-assembly1_B",
+        "evalue": 1.14e-14,
+        "prob": 1.0,
+        "tmscore": 0.7322,
+        "description": "4yer-assembly1_B Crystal structure of an ABC transporter ATP-binding protein (TM_1403) from Thermotoga maritima MSB8 at 2.35 A resolution",
+        "significant": true
+      },
+      {
+        "target": "3pux-assembly1_B",
+        "evalue": 3.743e-14,
+        "prob": 1.0,
+        "tmscore": 0.7561,
+        "description": "3pux-assembly1_B Crystal Structure of an outward-facing MBP-Maltose transporter complex bound to ADP-BeF3",
+        "significant": true
+      },
+      {
+        "target": "3fvq-assembly1_B",
+        "evalue": 1.159e-13,
+        "prob": 1.0,
+        "tmscore": 0.7641,
+        "description": "3fvq-assembly1_B Crystal structure of the nucleotide binding domain FbpC complexed with ATP",
+        "significant": true
+      },
+      {
+        "target": "4yer-assembly1_A",
+        "evalue": 2.62e-14,
+        "prob": 1.0,
+        "tmscore": 0.7156,
+        "description": "4yer-assembly1_A Crystal structure of an ABC transporter ATP-binding protein (TM_1403) from Thermotoga maritima MSB8 at 2.35 A resolution",
+        "significant": true
+      },
+      {
+        "target": "3rlf-assembly1_B",
+        "evalue": 1.385e-13,
+        "prob": 1.0,
+        "tmscore": 0.7431,
+        "description": "3rlf-assembly1_B Crystal structure of the maltose-binding protein/maltose transporter complex in an outward-facing conformation bound to MgAMPPNP",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF00005",
+      "pfam_name": "ABC_tran",
+      "description": "ABC_tran",
+      "n_matches": "2"
+    },
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF12848",
+      "pfam_name": "ABC_tran_Xtn",
+      "description": "ABC_tran_Xtn",
+      "n_matches": "1"
+    }
+  ]
+}

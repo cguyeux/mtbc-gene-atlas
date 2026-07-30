@@ -1,0 +1,937 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1237",
+  "mtbc0": "mtbc0_001326",
+  "np_id": "NP_215753.1",
+  "gene": "sugB",
+  "len_aa": 274,
+  "strand": "+",
+  "start_mtbc0": 1388299,
+  "end_mtbc0": 1389123,
+  "product_h37rv": "sugar ABC transporter permease SugB",
+  "product_mtbc0_pgap": "trehalose ABC transporter permease SugB",
+  "function_revised": "Trehalose ABC transporter permease SugB. Pfam: BPD_transp_1 (PF00528.28).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MGARRATYWAVLDTLVVGYALLPVLWIFSLSLKPTSTVKDGKLIPSTVTFDNYRGIFRGDLFSSALINSIGIGLITTVIAVVLGAMAAYAVARLEFPGKRLLIGAALLITMFPSISLVTPLFNIERAIGLFDTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGATPGQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSLTATKAAITAPVAIANFTGSSQFEEPTGSIAAGAIVITIPIIVFVLIFQRRIVAGLTSGAVKG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "BPD_transp_1",
+      "pfam_acc": "PF00528.28",
+      "i_evalue": 6.5e-21,
+      "ali_from": 80,
+      "ali_to": 266,
+      "description": "Binding-protein-dependent transport system inner membrane component"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0395",
+    "cog_cat": "P",
+    "description": "inner membrane component",
+    "preferred_name": "sugB",
+    "ec": [],
+    "kegg_ko": [
+      "K02026"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [
+      "M00207"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0008150",
+      "GO:0040007",
+      "GO:0044110",
+      "GO:0044116",
+      "GO:0044117",
+      "GO:0044403",
+      "GO:0044419",
+      "GO:0051704"
+    ],
+    "pfams": [
+      "BPD_transp_1"
+    ],
+    "seed_ortholog": "419947.MRA_1246",
+    "evalue": "2.1e-182"
+  },
+  "uniprot": {
+    "acc": "P9WG01",
+    "reviewed": true,
+    "protein_name": "Trehalose transport system permease protein SugB",
+    "ec": [],
+    "function": "Part of the ABC transporter complex LpqY-SugA-SugB-SugC, which is highly specific for uptake of trehalose. Involved in the recycling of extracellular trehalose released from trehalose-containing molecules synthesized by M.tuberculosis. Trehalose uptake is essential for virulence. Probably responsible for the translocation of the substrate across the membrane",
+    "go": [
+      "GO:0005886",
+      "GO:0051701",
+      "GO:0055085"
+    ],
+    "kegg": [
+      "mtu:Rv1237",
+      "mtv:RVBD_1237"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 3,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.123,
+    "selection": "strong purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1237",
+    "n_partners": 19,
+    "n_context_driven": 13,
+    "partners": [
+      {
+        "rv": "Rv1236",
+        "gene": "sugA",
+        "product": "sugar ABC transporter permease SugA",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 19,
+          "cooccurence": 774,
+          "coexpression": 557,
+          "experimental": 932,
+          "database": 900,
+          "textmining": 977
+        }
+      },
+      {
+        "rv": "Rv1238",
+        "gene": "sugC",
+        "product": "sugar ABC transporter ATP-binding protein SugC",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 46,
+          "cooccurence": 771,
+          "coexpression": 463,
+          "experimental": 997,
+          "database": 900,
+          "textmining": 900
+        }
+      },
+      {
+        "rv": "Rv1235",
+        "gene": "lpqY",
+        "product": "trehalose ABC transporter substrate-binding lipoprotein LpqY",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 771,
+          "coexpression": 451,
+          "experimental": 997,
+          "database": 0,
+          "textmining": 902
+        }
+      },
+      {
+        "rv": "Rv2832c",
+        "gene": "ugpC",
+        "product": "sn-glycerol-3-phosphate ABC transporter ATP-binding protein UgpC",
+        "hypothetical": false,
+        "combined": 982,
+        "combined_no_tm": 979,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 30,
+          "cooccurence": 741,
+          "coexpression": 440,
+          "experimental": 858,
+          "database": 0,
+          "textmining": 211
+        }
+      },
+      {
+        "rv": "Rv2038c",
+        "gene": "ugpC",
+        "product": "sugar ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 981,
+        "combined_no_tm": 979,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 32,
+          "cooccurence": 739,
+          "coexpression": 441,
+          "experimental": 858,
+          "database": 0,
+          "textmining": 158
+        }
+      },
+      {
+        "rv": "Rv2833c",
+        "gene": "ugpB",
+        "product": "sn-glycerol-3-phosphate ABC transporter substrate-binding lipoprotein UgpB",
+        "hypothetical": false,
+        "combined": 976,
+        "combined_no_tm": 961,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 150,
+          "fusion": 0,
+          "cooccurence": 160,
+          "coexpression": 446,
+          "experimental": 914,
+          "database": 0,
+          "textmining": 424
+        }
+      },
+      {
+        "rv": "Rv2041c",
+        "gene": "",
+        "product": "sugar ABC transporter substrate-binding lipoprotein",
+        "hypothetical": false,
+        "combined": 959,
+        "combined_no_tm": 943,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 404,
+          "coexpression": 449,
+          "experimental": 828,
+          "database": 0,
+          "textmining": 315
+        }
+      },
+      {
+        "rv": "Rv2040c",
+        "gene": "",
+        "product": "sugar ABC transporter permease",
+        "hypothetical": false,
+        "combined": 949,
+        "combined_no_tm": 925,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 17,
+          "cooccurence": 765,
+          "coexpression": 486,
+          "experimental": 412,
+          "database": 0,
+          "textmining": 356
+        }
+      },
+      {
+        "rv": "Rv2316",
+        "gene": "uspA",
+        "product": "sugar ABC transporter permease UspA",
+        "hypothetical": false,
+        "combined": 954,
+        "combined_no_tm": 923,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 16,
+          "cooccurence": 760,
+          "coexpression": 480,
+          "experimental": 412,
+          "database": 0,
+          "textmining": 438
+        }
+      },
+      {
+        "rv": "Rv2835c",
+        "gene": "ugpA",
+        "product": "sn-glycerol-3-phosphate ABC transporter permease UgpA",
+        "hypothetical": false,
+        "combined": 953,
+        "combined_no_tm": 909,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 15,
+          "cooccurence": 716,
+          "coexpression": 480,
+          "experimental": 412,
+          "database": 0,
+          "textmining": 517
+        }
+      },
+      {
+        "rv": "Rv1234",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 846,
+        "combined_no_tm": 846,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 844,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 54,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2318",
+        "gene": "uspC",
+        "product": "sugar ABC transporter substrate-binding lipoprotein UspC",
+        "hypothetical": false,
+        "combined": 825,
+        "combined_no_tm": 673,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 449,
+          "experimental": 412,
+          "database": 0,
+          "textmining": 487
+        }
+      },
+      {
+        "rv": "Rv1233c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 504,
+        "combined_no_tm": 505,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 502,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1231c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 426,
+        "combined_no_tm": 425,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 420,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3604c",
+        "gene": "",
+        "product": "transmembrane protein",
+        "hypothetical": false,
+        "combined": 443,
+        "combined_no_tm": 422,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 402,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 76
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1236",
+      "gene": "sugA",
+      "product": "sugar ABC transporter permease SugA",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 19,
+        "cooccurence": 774,
+        "coexpression": 557,
+        "experimental": 932,
+        "database": 900,
+        "textmining": 977
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: sugar ABC transporter permease SugB",
+    "MTBC0 PGAP product: trehalose ABC transporter permease SugB",
+    "Pfam (hmmscan --cut_ga): BPD_transp_1 PF00528.28 (E=6e-21)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 91.2,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8ja7-assembly1_B",
+        "evalue": 5.279e-28,
+        "prob": 1.0,
+        "tmscore": 0.908,
+        "description": "8ja7-assembly1_B Cryo-EM structure of Mycobacterium tuberculosis LpqY-SugABC in complex with trehalose",
+        "significant": true
+      },
+      {
+        "target": "7cad-assembly1_B",
+        "evalue": 2.624e-26,
+        "prob": 1.0,
+        "tmscore": 0.9434,
+        "description": "7cad-assembly1_B Mycobacterium smegmatis SugABC complex",
+        "significant": true
+      },
+      {
+        "target": "8hpn-assembly1_B",
+        "evalue": 3.126e-23,
+        "prob": 1.0,
+        "tmscore": 0.9139,
+        "description": "8hpn-assembly1_B LpqY-SugABC in state 3",
+        "significant": true
+      },
+      {
+        "target": "8hpr-assembly1_B",
+        "evalue": 1.183e-22,
+        "prob": 1.0,
+        "tmscore": 0.8583,
+        "description": "8hpr-assembly1_B LpqY-SugABC in state 4",
+        "significant": true
+      },
+      {
+        "target": "3puv-assembly1_G",
+        "evalue": 4.588e-12,
+        "prob": 1.0,
+        "tmscore": 0.8231,
+        "description": "3puv-assembly1_G Crystal Structure of an outward-facing MBP-Maltose transporter complex bound to ADP-VO4",
+        "significant": true
+      },
+      {
+        "target": "2r6g-assembly1_G",
+        "evalue": 1.736e-11,
+        "prob": 1.0,
+        "tmscore": 0.8235,
+        "description": "2r6g-assembly1_G The Crystal Structure of the E. coli Maltose Transporter",
+        "significant": true
+      },
+      {
+        "target": "4jbw-assembly2_I",
+        "evalue": 1.009e-10,
+        "prob": 1.0,
+        "tmscore": 0.8466,
+        "description": "4jbw-assembly2_I Crystal structure of E. coli maltose transporter MalFGK2 in complex with its regulatory protein EIIAglc",
+        "significant": true
+      },
+      {
+        "target": "4tqv-assembly2_F",
+        "evalue": 5.955e-09,
+        "prob": 1.0,
+        "tmscore": 0.7501,
+        "description": "4tqv-assembly2_F Crystal structure of a bacterial ABC transporter involved in the import of the acidic polysaccharide alginate",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 6,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (6 TM helixes)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 11.7,
+    "abundance_rank": 2613,
+    "n_ranked": 3519,
+    "abundance_percentile": 25.8,
+    "n_datasets": 8,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 274,
+    "mw_kda": 29.2,
+    "pi": 9.69,
+    "gravy": 0.916,
+    "instability_index": 26.0,
+    "instability_class": "stable",
+    "aromaticity": 0.106,
+    "aliphatic_index": 13003.6,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1269",
+        "identity": 100.0,
+        "evalue": 1.89e-185
+      },
+      "M. leprae": {
+        "locus": "ML1088",
+        "identity": 89.8,
+        "evalue": 8.41e-168
+      },
+      "M. marinum": {
+        "locus": "MMAR_4204",
+        "identity": 90.1,
+        "evalue": 3.61e-168
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5059",
+        "identity": 85.0,
+        "evalue": 4.88e-160
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001303",
+        "identity": 100.0,
+        "evalue": 1.77e-185
+      },
+      "M. abscessus": {
+        "locus": "MAB_1374",
+        "identity": 80.9,
+        "evalue": 2.89e-152
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 3,
+    "n_in_vivo": 2,
+    "phenotypes": [
+      {
+        "condition": "fitness after prolonged in vitro passage",
+        "category": "in vitro passage",
+        "log2fc": -9.53,
+        "qval": 0.0068,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": -4.86,
+        "qval": 0.041,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": -4.1,
+        "qval": 0.047,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "8ja7",
+        "method": "Electron Microscopy",
+        "resolution": 3.02,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "P9WG01",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1236",
+      "gene": "sugA",
+      "strand": "+",
+      "gap": 4
+    },
+    "right": {
+      "locus": "Rv1238",
+      "gene": "sugC",
+      "strand": "+",
+      "gap": 4
+    },
+    "operon": [
+      {
+        "locus": "Rv1234",
+        "gene": null
+      },
+      {
+        "locus": "Rv1235",
+        "gene": "lpqY"
+      },
+      {
+        "locus": "Rv1236",
+        "gene": "sugA"
+      },
+      {
+        "locus": "Rv1237",
+        "gene": "sugB"
+      },
+      {
+        "locus": "Rv1238",
+        "gene": "sugC"
+      }
+    ],
+    "operon_size": 5,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1473A",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv3574",
+        "tf_gene": "kstR",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable sugar-transport integral membrane protein ABC transporter SugB",
+    "legacy_function": "Involved in active transport of sugar across the membrane (import). Responsible for the translocation of the substrate across the membrane.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 1.61,
+    "ci_low": -0.199,
+    "ci_high": 4.708,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 52,
+      "n_total": 53,
+      "frac": 0.981,
+      "in_mtbap": 4,
+      "in_mkc": 5,
+      "mean_pident": 89.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 12,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 53.1,
+      "length_aa": 274,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 3,
+    "n_papers_listed": 3,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 3,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "3 publication(s) discuss this gene (3 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Mutations in sugar metabolism-related genes driving global drug-resistant Mycobacterium tuberculosis transmission revealed by whole-genome sequencing.",
+        "doi": "10.1186/s12879-026-12559-5",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41618188/",
+        "date": "2026"
+      },
+      {
+        "title": "PPE51 mediates uptake of trehalose across the mycomembrane of Mycobacterium tuberculosis.",
+        "doi": "10.1038/s41598-022-06109-7",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35136132/",
+        "date": "2022"
+      },
+      {
+        "title": "Trehalose-recycling ABC transporter LpqY-SugA-SugB-SugC is essential for virulence of Mycobacterium tuberculosis.",
+        "doi": "10.1073/pnas.1014642108",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/21118978/",
+        "date": "2010"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 91.2,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

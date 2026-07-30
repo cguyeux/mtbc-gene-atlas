@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3454",
+  "gene": "Rv3454",
+  "len_aa": 422,
+  "strand": "+",
+  "start_mtbc0": 3874822,
+  "end_mtbc0": 3876090,
+  "product_h37rv": "Probable conserved integral membrane protein",
+  "function_revised": "Probable conserved integral membrane protein",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MAQGLKLGLHIPLWAGYACSTLIIFPLVVYGMKVLSQLQLWTTPLWLILMAAPFGYLVVSHPDSIGQFFSYAGKDGHGGLSFGSVLLAAGVCLSLIAQIAEQIDYLRFMPPRTPENANRWWTWTLLAGPGWVAFGATKQIIGLFLAVYLMANIPGSSTIANQPVHQFMQIYRTFVPGWLALTLAVILVVLSQIKINVTNAYSGSLAWTNSFTRLTKHYPGRVVFLGVNLAIALILMEANMFDFLNTILGCYANCGMAWVVAVASDIGFNKYLLGLSPKTPEFRRGMLYAINPVGFGSLLLAAGLSIVTFFGGLGAALQPYSPLVAIVTALVMPPILAAATKGKYYLRRTHDGIDLPMYDEHGNPSAAVLTCHVCHQDFERPDMLACQTHGAHVCSLCLSTDKQAEHVLPGLARAHIPGDQVP",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable conserved integral membrane protein",
+    "legacy_function": "Unknown",
+    "legacy_ec": null,
+    "functional_category": "cell wall and cell processes",
+    "comments": "Rv3454, (MTCY13E12.07), len: 422 aa. Probable conserved integral membrane protein, showing some similarity to various proteins (generally transporters) e.g. Q9I5C8|PA0811 probable MFS transporter from Pseudomonas aeruginosa (415 aa), FASTA scores: opt: 145, E(): 0.13, (28.2% identity in 188 aa overlap); Q01266|YHYC_PSESN hypothetical protein in HYUC 3'region (ORF 5) (fragment) from Pseudomonas sp. strain NS671 (245 aa), FASTA scores: opt: 130, E(): 0.75, (24.65% identity in 134 aa overlap); Q9I242|PA2073 probable transporter (membrane subunit) from Pseudomonas aeruginosa (476 aa), FASTA scores: opt: 125, E(): 2.5, (24.6% identity in 252 aa overlap); etc. Equivalent to AAK47900 from Mycobacterium tuberculosis strain CDC1551 (562 aa) but shorter 140 aa. Contains PS00013 Prokaryotic membrane lipoprotein lipid attachment site.",
+    "uniprot_ac": "O06321",
+    "go": null,
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 422,
+    "mw_kda": 45.8,
+    "pi": 8.51,
+    "gravy": 0.525,
+    "instability_index": 40.0,
+    "instability_class": "unstable",
+    "aromaticity": 0.109,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O06321",
+    "reviewed": false,
+    "protein_name": "Probable conserved integral membrane protein",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0005886",
+      "GO:0015209"
+    ],
+    "kegg": [
+      "mtv:RVBD_3454"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG1457",
+    "cog_cat": "F",
+    "description": "Permease for cytosine purines, uracil, thiamine, allantoin",
+    "preferred_name": null,
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 24,
+    "syn": 4,
+    "missense": 19,
+    "nonsense": 1,
+    "frameshift": 0,
+    "pN_pS": 1.679,
+    "selection": "diversifying/relaxed",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 1433,
+    "disrupt_frac": 0.0099,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP+TM",
+    "tm_helices": 9,
+    "signal_peptide": true,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein with signal peptide (9 TM helixes)"
+  },
+  "string": {
+    "string_id": "83332.Rv3454",
+    "n_partners": 12,
+    "n_context_driven": 4,
+    "partners": [
+      {
+        "rv": "Rv3453",
+        "gene": "",
+        "product": "Rv3453, (MTCY13E12.06), len: 110 aa. Possible conserved transmembrane protein, showing weak similarity with other proteins e.g. Q9F6C3 putat",
+        "hypothetical": false,
+        "combined": 996,
+        "combined_no_tm": 997,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 545,
+          "fusion": 900,
+          "cooccurence": 774,
+          "coexpression": 729,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0758",
+        "gene": "phoR",
+        "product": "two component system response sensor kinase PhoR",
+        "hypothetical": false,
+        "combined": 836,
+        "combined_no_tm": 836,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 836,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1380",
+        "gene": "pyrB",
+        "product": "aspartate carbamoyltransferase",
+        "hypothetical": false,
+        "combined": 584,
+        "combined_no_tm": 585,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 52,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 580,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1384",
+        "gene": "carB",
+        "product": "carbamoyl-phosphate synthase large subunit",
+        "hypothetical": false,
+        "combined": 497,
+        "combined_no_tm": 498,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 52,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 492,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1383",
+        "gene": "carA",
+        "product": "carbamoyl-phosphate synthase small subunit",
+        "hypothetical": false,
+        "combined": 482,
+        "combined_no_tm": 483,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 52,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 477,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0422c",
+        "gene": "thiD",
+        "product": "hydroxymethylpyrimidine/phosphomethylpyrimidine kinase",
+        "hypothetical": false,
+        "combined": 479,
+        "combined_no_tm": 437,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 405,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 114
+        }
+      },
+      {
+        "rv": "Rv1382",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 437,
+        "combined_no_tm": 437,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 437,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0543c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 435,
+        "combined_no_tm": 436,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 432,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3309c",
+        "gene": "upp",
+        "product": "uracil phosphoribosyltransferase",
+        "hypothetical": false,
+        "combined": 468,
+        "combined_no_tm": 415,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 414,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 129
+        }
+      },
+      {
+        "rv": "Rv3046c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 406,
+        "combined_no_tm": 406,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 406,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0414c",
+        "gene": "thiE",
+        "product": "thiamine-phosphate synthase",
+        "hypothetical": false,
+        "combined": 425,
+        "combined_no_tm": 399,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 102,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 358,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 84
+        }
+      },
+      {
+        "rv": "Rv3659c",
+        "gene": "",
+        "product": "conjugal transfer protein",
+        "hypothetical": false,
+        "combined": 416,
+        "combined_no_tm": 52,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 410
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3453",
+      "gene": "",
+      "product": "Rv3453, (MTCY13E12.06), len: 110 aa. Possible conserved transmembrane protein, showing weak similarity with other proteins e.g. Q9F6C3 putat",
+      "combined_no_tm": 997,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 545,
+        "fusion": 900,
+        "cooccurence": 774,
+        "coexpression": 729,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 88.5,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8e1e-assembly1_C",
+        "evalue": 2.523,
+        "prob": 0.076,
+        "tmscore": 0.2085,
+        "description": "8e1e-assembly1_C Scaffolding protein functional sites using deep learning",
+        "significant": false
+      },
+      {
+        "target": "7phh-assembly1_C",
+        "evalue": 3.56,
+        "prob": 0.029,
+        "tmscore": 0.1377,
+        "description": "7phh-assembly1_C Human voltage-gated potassium channel Kv3.1 (apo condition)",
+        "significant": false
+      },
+      {
+        "target": "4z3p-assembly1_A",
+        "evalue": 9.577,
+        "prob": 0.01,
+        "tmscore": 0.1255,
+        "description": "4z3p-assembly1_A MATE transporter ClbM in complex with Rb+",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  }
+}

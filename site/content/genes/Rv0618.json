@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0618",
+  "gene": "galTa",
+  "len_aa": 231,
+  "strand": "+",
+  "start_mtbc0": 711536,
+  "end_mtbc0": 712231,
+  "product_h37rv": "Probable galactose-1-phosphate uridylyltransferase GalTa [first part]",
+  "function_revised": "Involved in galactose metabolism (leloir pathway) [catalytic activity: UTP + alpha-D-galactose 1-phosphate = diphosphate + UDP-galactose].",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "MSATPPPGGLDASVFIANERGRQLDEALPVGFCVVTAPTRWTLADGRDLLFFSLPGHVPAPVSDRRPLPERDPAPSRLRFDRATGQWVIVAAQRQDRTYKPPAARCPLCPGPTGLSSEVPAPDYDVVVFENRFPSLAGAGIAPIGAPDGDGFVSAPGHGRCEVICFSADHTGSFAGLDPAHARLVVHAWRHRTAELTALPGVAQVFCFENRGEEIGVTLPTRTARFTPIRI",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable galactose-1-phosphate uridylyltransferase GalTa [first part]",
+    "legacy_function": "Involved in galactose metabolism (leloir pathway) [catalytic activity: UTP + alpha-D-galactose 1-phosphate = diphosphate + UDP-galactose].",
+    "legacy_ec": "2.7.7.10",
+    "functional_category": "intermediary metabolism and respiration",
+    "comments": "Rv0618, (MTCY19H5.03c), len: 231 aa (probable partial CDS). Probable galTa, first part of galactose-1-phosphate uridylyltransferase, highly similar to N-terminal half of other galT proteins e.g. P13212|GAL7_STRLI galactose-1-phosphate uridylyltransferase from Streptomyces lividans (354 aa), FASTA scores: opt: 296, E(): 1.4e-11, (50.8% identity in 177 aa overlap); etc. Also highly similar to N-terminal half of some UDP glucose--hexose-1-phosphate uridylyltransferases. N-terminal 28 aa similar to MTCY20H11.08|Rv0627|MTCY20H11.08 conserved hypothetical protein from Mycobacterium tuberculosis (135 aa), FASTA score: (71.4% identity in 28 overlap). Cosmid sequence is correct but there may be a frameshift mutation in this region which would allow the two ORFs to be joined. Belongs to the galactose-1-phosphate uridylyltransferase family 1. Note that previously known as galT'.",
+    "uniprot_ac": "Q79FY4",
+    "go": "GO:0017103,GO:0006012,GO:0008270,GO:0008108",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 231,
+    "mw_kda": 24.7,
+    "pi": 6.59,
+    "gravy": -0.11,
+    "instability_index": 43.3,
+    "instability_class": "unstable",
+    "aromaticity": 0.078,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "Q79FY4",
+    "reviewed": false,
+    "protein_name": "Galactose-1-phosphate uridylyltransferase",
+    "ec": [],
+    "function": null,
+    "go": [
+      "GO:0008108",
+      "GO:0008270",
+      "GO:0006012"
+    ],
+    "kegg": [
+      "mtv:RVBD_0618"
+    ],
+    "protein_existence": "4: Predicted",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG1085",
+    "cog_cat": "C",
+    "description": "galactose-1-phosphate uridylyltransferase",
+    "preferred_name": "galT",
+    "ec": [
+      "2.7.7.12"
+    ],
+    "kegg_ko": [
+      "ko:K00965"
+    ],
+    "kegg_pathway": [
+      "ko00052",
+      "ko00520",
+      "ko01100",
+      "ko04917",
+      "map00052",
+      "map00520",
+      "map01100",
+      "map04917"
+    ],
+    "kegg_module": [
+      "M00362",
+      "M00554",
+      "M00632"
+    ],
+    "cazy": [],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 2.95,
+    "abundance_rank": 3096,
+    "n_ranked": 3519,
+    "abundance_percentile": 12.0,
+    "n_datasets": 6,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {},
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 3,
+    "missense": 5,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.62,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 43059,
+    "disrupt_frac": 0.2965,
+    "pseudogene_flag": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv0618",
+    "n_partners": 21,
+    "n_context_driven": 4,
+    "partners": [
+      {
+        "rv": "Rv0620",
+        "gene": "galK",
+        "product": "galactokinase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 800,
+          "fusion": 564,
+          "cooccurence": 753,
+          "coexpression": 729,
+          "experimental": 400,
+          "database": 900,
+          "textmining": 880
+        }
+      },
+      {
+        "rv": "Rv0619",
+        "gene": "galTb",
+        "product": "Rv0619, (MTCY19H5.02c), len: 181 aa (probable partial CDS). Probable galTb, second part of galactose-1-phosphate uridylyltransferase, highly",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 994,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 900,
+          "cooccurence": 774,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 803
+        }
+      },
+      {
+        "rv": "Rv3809c",
+        "gene": "glf",
+        "product": "UDP-galactopyranose mutase",
+        "hypothetical": false,
+        "combined": 909,
+        "combined_no_tm": 904,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 96
+        }
+      },
+      {
+        "rv": "Rv3468c",
+        "gene": "",
+        "product": "dTDP-glucose 4,6-dehydratase",
+        "hypothetical": false,
+        "combined": 907,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv0501",
+        "gene": "galE2",
+        "product": "UDP-glucose 4-epimerase GalE",
+        "hypothetical": false,
+        "combined": 907,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv3634c",
+        "gene": "galE1",
+        "product": "UDP-glucose 4-epimerase",
+        "hypothetical": false,
+        "combined": 907,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 47,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv0993",
+        "gene": "galU",
+        "product": "UTP--glucose-1-phosphate uridylyltransferase",
+        "hypothetical": false,
+        "combined": 910,
+        "combined_no_tm": 900,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 140
+        }
+      },
+      {
+        "rv": "Rv0322",
+        "gene": "udgA",
+        "product": "UDP-glucose 6-dehydrogenase UdgA",
+        "hypothetical": false,
+        "combined": 829,
+        "combined_no_tm": 823,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 150,
+          "database": 800,
+          "textmining": 80
+        }
+      },
+      {
+        "rv": "Rv0536",
+        "gene": "galE3",
+        "product": "UDP-glucose 4-epimerase GalE",
+        "hypothetical": false,
+        "combined": 593,
+        "combined_no_tm": 576,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 159,
+          "coexpression": 73,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 81
+        }
+      },
+      {
+        "rv": "Rv0617",
+        "gene": "vapC29",
+        "product": "ribonuclease VapC29",
+        "hypothetical": false,
+        "combined": 514,
+        "combined_no_tm": 514,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 508,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 53,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0616A",
+        "gene": "vapB29",
+        "product": "antitoxin VapB29",
+        "hypothetical": false,
+        "combined": 507,
+        "combined_no_tm": 508,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 508,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0806c",
+        "gene": "cpsY",
+        "product": "exopolysaccharide phosphotransferase CpsY",
+        "hypothetical": false,
+        "combined": 525,
+        "combined_no_tm": 507,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 54,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 77
+        }
+      },
+      {
+        "rv": "Rv3068c",
+        "gene": "pgmA",
+        "product": "phosphoglucomutase PgmA",
+        "hypothetical": false,
+        "combined": 561,
+        "combined_no_tm": 502,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 45,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv3464",
+        "gene": "rmlB",
+        "product": "dTDP-glucose 4,6-dehydratase",
+        "hypothetical": false,
+        "combined": 571,
+        "combined_no_tm": 448,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 447,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 256
+        }
+      },
+      {
+        "rv": "Rv3784",
+        "gene": "",
+        "product": "dTDP-glucose 4,6-dehydratase",
+        "hypothetical": false,
+        "combined": 482,
+        "combined_no_tm": 448,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 43,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 447,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 101
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0620",
+      "gene": "galK",
+      "product": "galactokinase",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 800,
+        "fusion": 564,
+        "cooccurence": 753,
+        "coexpression": 729,
+        "experimental": 400,
+        "database": 900,
+        "textmining": 880
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 76.4,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6k9z-assembly1_A",
+        "evalue": 4.602e-07,
+        "prob": 1.0,
+        "tmscore": 0.6247,
+        "description": "6k9z-assembly1_A STRUCTURE OF URIDYLYLTRANSFERASE MUTANT",
+        "significant": true
+      },
+      {
+        "target": "1hxq-assembly1_B",
+        "evalue": 1.073e-06,
+        "prob": 1.0,
+        "tmscore": 0.5884,
+        "description": "1hxq-assembly1_B THE STRUCTURE OF NUCLEOTIDYLATED GALACTOSE-1-PHOSPHATE URIDYLYLTRANSFERASE FROM ESCHERICHIA COLI AT 1.86 ANGSTROMS RESOLUTION",
+        "significant": true
+      },
+      {
+        "target": "1hxp-assembly1_A",
+        "evalue": 3.382e-06,
+        "prob": 1.0,
+        "tmscore": 0.5584,
+        "description": "1hxp-assembly1_A NUCLEOTIDE TRANSFERASE",
+        "significant": true
+      },
+      {
+        "target": "1guq-assembly1_B",
+        "evalue": 1.963e-06,
+        "prob": 1.0,
+        "tmscore": 0.5264,
+        "description": "1guq-assembly1_B STRUCTURE OF NUCLEOTIDYLTRANSFERASE COMPLEXED WITH UDP-GLUCOSE",
+        "significant": true
+      },
+      {
+        "target": "6gqd-assembly1_A-2",
+        "evalue": 1.203e-05,
+        "prob": 1.0,
+        "tmscore": 0.5912,
+        "description": "6gqd-assembly1_A-2 Structure of human galactose-1-phosphate uridylyltransferase (GALT), with crystallization epitope mutations A21Y:A22T:T23P:R25L",
+        "significant": true
+      },
+      {
+        "target": "1hxq-assembly1_A",
+        "evalue": 1.066e-05,
+        "prob": 1.0,
+        "tmscore": 0.5334,
+        "description": "1hxq-assembly1_A THE STRUCTURE OF NUCLEOTIDYLATED GALACTOSE-1-PHOSPHATE URIDYLYLTRANSFERASE FROM ESCHERICHIA COLI AT 1.86 ANGSTROMS RESOLUTION",
+        "significant": true
+      },
+      {
+        "target": "1z84-assembly1_A",
+        "evalue": 6.942e-05,
+        "prob": 1.0,
+        "tmscore": 0.5725,
+        "description": "1z84-assembly1_A X-ray structure of galt-like protein from arabidopsis thaliana at5g18200",
+        "significant": true
+      },
+      {
+        "target": "2h39-assembly1_B",
+        "evalue": 0.000135,
+        "prob": 1.0,
+        "tmscore": 0.5794,
+        "description": "2h39-assembly1_B Crystal Structure of an ADP-Glucose Phosphorylase from Arabidopsis thaliana with bound ADP-Glucose",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF01087",
+      "pfam_name": "GalP_UDP_transf",
+      "description": "GalP_UDP_transf",
+      "n_matches": "1"
+    }
+  ]
+}

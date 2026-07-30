@@ -1,0 +1,1140 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2027c",
+  "mtbc0": "mtbc0_002160",
+  "np_id": "NP_216543.1",
+  "gene": "dosT",
+  "len_aa": 573,
+  "strand": "-",
+  "start_mtbc0": 2301400,
+  "end_mtbc0": 2303121,
+  "product_h37rv": "two component sensor histidine kinase DosT",
+  "product_mtbc0_pgap": "two-component system sensor histidine kinase DosT",
+  "function_revised": "Two-component system sensor histidine kinase DosT. Pfam: GAF (PF01590.33), GAF_2 (PF13185.13), GAF_3 (PF13492.13), HisKA_3 (PF07730.20), HATPase_c (PF02518.32).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTHPDRANVNPGSPPLRETLSQLRLRELLLEVQDRIEQIVEGRDRLDGLIDAILAITSGLKLDATLRAIVHTAAELVDARYGALGVRGYDHRLVEFVYEGIDEETRHLIGSLPEGRGVLGALIEEPKPIRLDDISRHPASVGFPLHHPPMRTFLGVPVRIRDEVFGNLYLTEKADGQPFSDDDEVLVQALAAAAGIAVDNARLFEESRTREAWIEATRDIGTQMLAGADPAMVFRLIAEEALTLMAGAATLVAVPLDDEAPACEVDDLVIVEVAGEISPAVKQMTVAVSGTSIGGVFHDRTPRRFDRLDLAVDGPVEPGPALVLPLRAADTVAGVLVALRSADEQPFSDKQLDMMAAFADQAALAWRLATAQRQMREVEILTDRDRIARDLHDHVIQRLFAVGLTLQGAAPRARVPAVRESIYSSIDDLQEIIQEIRSAIFDLHAGPSRATGLRHRLDKVIDQLAIPALHTTVQYTGPLSVVDTVLANHAEAVLREAVSNAVRHANATSLAINVSVEDDVRVEVVDDGVGISGDITESGLRNLRQRADDAGGEFTVENMPTGGTLLRWSAPLR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "GAF",
+      "pfam_acc": "PF01590.33",
+      "i_evalue": 3.2e-16,
+      "ali_from": 62,
+      "ali_to": 198,
+      "description": "GAF domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "GAF_2",
+      "pfam_acc": "PF13185.13",
+      "i_evalue": 4.3e-18,
+      "ali_from": 62,
+      "ali_to": 199,
+      "description": "GAF domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "GAF_3",
+      "pfam_acc": "PF13492.13",
+      "i_evalue": 2.5e-08,
+      "ali_from": 317,
+      "ali_to": 365,
+      "description": "GAF domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "HisKA_3",
+      "pfam_acc": "PF07730.20",
+      "i_evalue": 1e-10,
+      "ali_from": 384,
+      "ali_to": 445,
+      "description": "Histidine kinase"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "HATPase_c",
+      "pfam_acc": "PF02518.32",
+      "i_evalue": 3.8e-09,
+      "ali_from": 489,
+      "ali_to": 572,
+      "description": "Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG2203",
+    "cog_cat": "F",
+    "description": "the two-component regulatory system DevR DevS (DosR DosS) involved in onset of the dormancy response. May act as a",
+    "preferred_name": "",
+    "ec": [
+      "2.7.13.3"
+    ],
+    "kegg_ko": [
+      "K07682"
+    ],
+    "kegg_pathway": [
+      "map02020"
+    ],
+    "kegg_module": [
+      "M00482"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0000166",
+      "GO:0000287",
+      "GO:0001666",
+      "GO:0003032",
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004672",
+      "GO:0004673",
+      "GO:0005488",
+      "GO:0005509",
+      "GO:0005524",
+      "GO:0006464",
+      "GO:0006468",
+      "GO:0006793",
+      "GO:0006796",
+      "GO:0006807",
+      "GO:0006950",
+      "GO:0008144",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009593",
+      "GO:0009628",
+      "GO:0009987",
+      "GO:0016301",
+      "GO:0016310",
+      "GO:0016740",
+      "GO:0016772",
+      "GO:0016773",
+      "GO:0016775",
+      "GO:0017076",
+      "GO:0018106",
+      "GO:0018193",
+      "GO:0018202",
+      "GO:0019538",
+      "GO:0019825",
+      "GO:0019826",
+      "GO:0020037",
+      "GO:0030554",
+      "GO:0032553",
+      "GO:0032555",
+      "GO:0032559",
+      "GO:0035639",
+      "GO:0036094",
+      "GO:0036211",
+      "GO:0036293",
+      "GO:0042165",
+      "GO:0042221",
+      "GO:0043167",
+      "GO:0043168",
+      "GO:0043169",
+      "GO:0043170",
+      "GO:0043412",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044260",
+      "GO:0044267",
+      "GO:0046777",
+      "GO:0046872",
+      "GO:0046906",
+      "GO:0048037",
+      "GO:0050896",
+      "GO:0051606",
+      "GO:0070025",
+      "GO:0070026",
+      "GO:0070482",
+      "GO:0070483",
+      "GO:0071704",
+      "GO:0097159",
+      "GO:0097367",
+      "GO:0140096",
+      "GO:1901265",
+      "GO:1901363",
+      "GO:1901564"
+    ],
+    "pfams": [
+      "GAF",
+      "GAF_2",
+      "GAF_3",
+      "HATPase_c",
+      "HisKA_3"
+    ],
+    "seed_ortholog": "419947.MRA_2042",
+    "evalue": "0.0"
+  },
+  "uniprot": {
+    "acc": "P9WGK1",
+    "reviewed": true,
+    "protein_name": "Oxygen sensor histidine kinase response regulator DosT",
+    "ec": [
+      "2.7.13.3"
+    ],
+    "function": "Interacts with the two-component regulatory system DevR/DevS (DosR/DosS) involved in onset of the dormancy response. Required for full induction of the DevR (DosR) regulon; required during early adaptation to anaerobiosis, to start induction of the DevR regulon. May act as a direct hypoxia/oxygen sensor. O(2) acts as a switch, with the Fe(2+)-O(2)-bound protein inactive in autophosphorylation. Autophosphorylates under anaerobic but not aerobic conditions, binding of NO or CO has no effect on autophosphorylation. Binds a number of gases; O(2), NO, CO. May be a secondary sensor for CO. Donates a",
+    "go": [
+      "GO:0000155",
+      "GO:0000287",
+      "GO:0004672",
+      "GO:0004673",
+      "GO:0005509",
+      "GO:0005524",
+      "GO:0005737",
+      "GO:0005886",
+      "GO:0019825",
+      "GO:0019826",
+      "GO:0020037",
+      "GO:0046983",
+      "GO:0070025",
+      "GO:0070026",
+      "GO:0070483"
+    ],
+    "kegg": [
+      "mtu:Rv2027c",
+      "mtv:RVBD_2027c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 9,
+    "syn": 6,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 1,
+    "pN_pS": 0.178,
+    "selection": "strong purifying",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 37352,
+    "disrupt_frac": 0.2572,
+    "pseudogene_flag": true
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2027c",
+    "n_partners": 47,
+    "n_context_driven": 14,
+    "partners": [
+      {
+        "rv": "Rv2026c",
+        "gene": "",
+        "product": "universal stress protein",
+        "hypothetical": false,
+        "combined": 944,
+        "combined_no_tm": 928,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 659,
+          "fusion": 0,
+          "cooccurence": 274,
+          "coexpression": 731,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 258
+        }
+      },
+      {
+        "rv": "Rv3133c",
+        "gene": "devR",
+        "product": "two component transcriptional regulator DevR",
+        "hypothetical": false,
+        "combined": 993,
+        "combined_no_tm": 883,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 140,
+          "fusion": 0,
+          "cooccurence": 767,
+          "coexpression": 290,
+          "experimental": 273,
+          "database": 0,
+          "textmining": 946
+        }
+      },
+      {
+        "rv": "Rv0844c",
+        "gene": "narL",
+        "product": "nitrate/nitrite response transcriptional regulator NarL",
+        "hypothetical": false,
+        "combined": 912,
+        "combined_no_tm": 770,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 573,
+          "coexpression": 280,
+          "experimental": 273,
+          "database": 0,
+          "textmining": 635
+        }
+      },
+      {
+        "rv": "Rv2032",
+        "gene": "acg",
+        "product": "NAD(P)H nitroreductase",
+        "hypothetical": false,
+        "combined": 781,
+        "combined_no_tm": 756,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 437,
+          "fusion": 0,
+          "cooccurence": 580,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 140
+        }
+      },
+      {
+        "rv": "Rv2028c",
+        "gene": "",
+        "product": "universal stress protein",
+        "hypothetical": false,
+        "combined": 788,
+        "combined_no_tm": 719,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 607,
+          "fusion": 0,
+          "cooccurence": 295,
+          "coexpression": 68,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 277
+        }
+      },
+      {
+        "rv": "Rv0195",
+        "gene": "",
+        "product": "two component transcriptional regulator",
+        "hypothetical": false,
+        "combined": 749,
+        "combined_no_tm": 650,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 348,
+          "coexpression": 282,
+          "experimental": 273,
+          "database": 0,
+          "textmining": 312
+        }
+      },
+      {
+        "rv": "Rv1747",
+        "gene": "",
+        "product": "ABC transporter ATP-binding protein/permease",
+        "hypothetical": false,
+        "combined": 730,
+        "combined_no_tm": 639,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 497,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 312,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 284
+        }
+      },
+      {
+        "rv": "Rv2029c",
+        "gene": "pfkB",
+        "product": "6-phosphofructokinase PfkB",
+        "hypothetical": false,
+        "combined": 620,
+        "combined_no_tm": 613,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 607,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 55,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 59
+        }
+      },
+      {
+        "rv": "Rv2030c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 586,
+        "combined_no_tm": 587,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 582,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 52,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2031c",
+        "gene": "hspX",
+        "product": "alpha-crystallin",
+        "hypothetical": false,
+        "combined": 848,
+        "combined_no_tm": 578,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 574,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 655
+        }
+      },
+      {
+        "rv": "Rv1364c",
+        "gene": "",
+        "product": "sigma factor regulatory protein",
+        "hypothetical": false,
+        "combined": 691,
+        "combined_no_tm": 564,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 541,
+          "fusion": 2,
+          "cooccurence": 0,
+          "coexpression": 90,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 320
+        }
+      },
+      {
+        "rv": "Rv3127",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 564,
+        "combined_no_tm": 564,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 551,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0890c",
+        "gene": "",
+        "product": "HTH-type transcriptional regulator",
+        "hypothetical": false,
+        "combined": 593,
+        "combined_no_tm": 551,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 106,
+          "fusion": 0,
+          "cooccurence": 152,
+          "coexpression": 281,
+          "experimental": 273,
+          "database": 0,
+          "textmining": 131
+        }
+      },
+      {
+        "rv": "Rv2847c",
+        "gene": "cysG",
+        "product": "multifunctional uroporphyrin-III C-methyltransferase/precorrin-2 oxidase/ferrochelatase",
+        "hypothetical": false,
+        "combined": 546,
+        "combined_no_tm": 547,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3131",
+        "gene": "",
+        "product": "NAD(P)H nitroreductase",
+        "hypothetical": false,
+        "combined": 583,
+        "combined_no_tm": 534,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 502,
+          "coexpression": 51,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 143
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2026c",
+      "gene": "",
+      "product": "universal stress protein",
+      "combined_no_tm": 928,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 659,
+        "fusion": 0,
+        "cooccurence": 274,
+        "coexpression": 731,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 258
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: two component sensor histidine kinase DosT",
+    "MTBC0 PGAP product: two-component system sensor histidine kinase DosT",
+    "Pfam (hmmscan --cut_ga): GAF PF01590.33 (E=3e-16), GAF_2 PF13185.13 (E=4e-18), GAF_3 PF13492.13 (E=2e-08), HisKA_3 PF07730.20 (E=1e-10), HATPase_c PF02518.32 (E=4e-09)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 85.3,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2vzw-assembly1_A",
+        "evalue": 1.791e-20,
+        "prob": 1.0,
+        "tmscore": 0.9409,
+        "description": "2vzw-assembly1_A X-ray structure of the heme-bound GAF domain of sensory histidine kinase DosT of Mycobacterium tuberculosis",
+        "significant": true
+      },
+      {
+        "target": "2y79-assembly1_B",
+        "evalue": 6.695e-19,
+        "prob": 1.0,
+        "tmscore": 0.9374,
+        "description": "2y79-assembly1_B STRUCTURE OF THE FIRST GAF DOMAIN E87A MUTANT OF MYCOBACTERIUM TUBERCULOSIS DOSS",
+        "significant": true
+      },
+      {
+        "target": "2w3h-assembly1_B",
+        "evalue": 1.656e-18,
+        "prob": 1.0,
+        "tmscore": 0.9445,
+        "description": "2w3h-assembly1_B Cyanide bound structure of the first GAF domain of Mycobacterium tuberculosis DosS",
+        "significant": true
+      },
+      {
+        "target": "2y8h-assembly1_B",
+        "evalue": 1.57e-18,
+        "prob": 1.0,
+        "tmscore": 0.9421,
+        "description": "2y8h-assembly1_B STRUCTURE OF THE FIRST GAF DOMAIN E87G MUTANT OF MYCOBACTERIUM TUBERCULOSIS DOSS",
+        "significant": true
+      },
+      {
+        "target": "4ynr-assembly1_A",
+        "evalue": 1.943e-18,
+        "prob": 1.0,
+        "tmscore": 0.9381,
+        "description": "4ynr-assembly1_A DosS GAFA Domain Reduced CO Bound Crystal Structure",
+        "significant": true
+      },
+      {
+        "target": "4yof-assembly1_A",
+        "evalue": 1.819e-17,
+        "prob": 1.0,
+        "tmscore": 0.9192,
+        "description": "4yof-assembly1_A DosS GAFA Domain Reduced Nitric Oxide Bound Crystal Structure",
+        "significant": true
+      },
+      {
+        "target": "3zxo-assembly1_A",
+        "evalue": 1.64e-13,
+        "prob": 1.0,
+        "tmscore": 0.8853,
+        "description": "3zxo-assembly1_A CRYSTAL STRUCTURE OF THE MUTANT ATP-BINDING DOMAIN OF MYCOBACTERIUM TUBERCULOSIS DOSS",
+        "significant": true
+      },
+      {
+        "target": "8sbm-assembly2_B",
+        "evalue": 1.309e-12,
+        "prob": 1.0,
+        "tmscore": 0.8785,
+        "description": "8sbm-assembly2_B Crystal structure of the wild-type Catalytic ATP-binding domain of Mtb DosS",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 25.2,
+    "abundance_rank": 2177,
+    "n_ranked": 3519,
+    "abundance_percentile": 38.2,
+    "n_datasets": 11,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 573,
+    "mw_kda": 62.2,
+    "pi": 4.85,
+    "gravy": -0.029,
+    "instability_index": 37.2,
+    "instability_class": "stable",
+    "aromaticity": 0.04,
+    "aliphatic_index": 10659.7,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "regulatory proteins",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2052c",
+        "identity": 99.7,
+        "evalue": 0.0
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5241",
+        "identity": 68.5,
+        "evalue": 2.68e-261
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002099",
+        "identity": 99.7,
+        "evalue": 0.0
+      },
+      "M. abscessus": {
+        "locus": "MAB_3890c",
+        "identity": 53.3,
+        "evalue": 4.41e-185
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 8,
+    "n_in_vivo": 8,
+    "phenotypes": [
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.87,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.59,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.55,
+        "qval": 0.041,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.39,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection, day 10",
+        "category": "in vivo",
+        "log2fc": 1.22,
+        "qval": 0.011,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.15,
+        "qval": 0.0075,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.08,
+        "qval": 0.0056,
+        "effect": "disruption advantageous (mutant enriched)"
+      },
+      {
+        "condition": "fitness in mouse infection",
+        "category": "in vivo",
+        "log2fc": 1.02,
+        "qval": 0.01,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {
+    "n_structures": 2,
+    "structures": [
+      {
+        "pdb_id": "2vzw",
+        "method": "X-ray diffraction",
+        "resolution": 2.3,
+        "coverage": 0.26
+      },
+      {
+        "pdb_id": "3zxq",
+        "method": "X-ray diffraction",
+        "resolution": 1.9,
+        "coverage": 0.21
+      }
+    ],
+    "acc": "P9WGK1",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2026c",
+      "gene": null,
+      "strand": "-",
+      "gap": 39
+    },
+    "right": {
+      "locus": "Rv2028c",
+      "gene": null,
+      "strand": "-",
+      "gap": 60
+    },
+    "operon": [
+      {
+        "locus": "Rv2026c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2027c",
+        "gene": "dosT"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0022c",
+        "tf_gene": "whiB5",
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1990c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Two component sensor histidine kinase DosT",
+    "legacy_function": "Sensor part of the two component regulatory system DEVR/DEVS/dost; O2, NO and CO are ligands, dost is inactive when bound to oxygen",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [
+      "2.7.13.3"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "ptm": {
+    "n_sites": 1,
+    "n_phospho": 1,
+    "sites": [
+      {
+        "pos": 392,
+        "type": "Phosphohistidine; by autocatalysis"
+      }
+    ],
+    "note": "Experimentally reported post-translational modification(s). A phosphosite indicates the protein is expressed and is a substrate of the M. tuberculosis Ser/Thr/Tyr kinase signalling network — a regulatory context, NOT a molecular function.",
+    "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+    "reference": {
+      "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+      "db": "UniProtKB",
+      "url": "https://www.uniprot.org"
+    }
+  },
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "DevR-2",
+        "function": "Transcription factor that is one of the primary regulators of hypoxia onset response",
+        "category": "Redox",
+        "regulator": "devR"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 1.171,
+    "ci_low": -0.715,
+    "ci_high": 3.948,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 1,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.357,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 50,
+      "n_total": 53,
+      "frac": 0.943,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 54.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 50/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 5,
+      "crossgenus_genomes": [
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2"
+      ],
+      "mean_pident": 49.2,
+      "length_aa": 573,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 59,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 56,
+    "n_other": 5,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. abscessus": "1",
+      "M. marinum": "1",
+      "M. smegmatis": "4"
+    },
+    "summary": "59 publication(s) discuss this gene (56 in a M. tuberculosis context, 5 in other mycobacteria — M. smegmatis (4), M. abscessus (1), M. marinum (1)).",
+    "papers": [
+      {
+        "title": "From DOTS to DOST: a new framework for TB elimination in India.",
+        "doi": "10.1016/j.lansea.2026.100721",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/41868818/",
+        "date": "2026"
+      },
+      {
+        "title": "Comparison of active and dormant Mycobacterium tuberculosis DosR/DevR regulon polymerase chain reaction-restriction fragment length polymorphism patterns.",
+        "doi": "10.1093/labmed/lmaf046",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40796094/",
+        "date": "2025"
+      },
+      {
+        "title": "Expression of Resuscitation-Promoting Factor C Stimulates the Growth of Mycobacterium bovis BCG and Delays DevR Regulon Activation in Hypoxia.",
+        "doi": "10.1155/ijm/2139933",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39996126/",
+        "date": "2025"
+      },
+      {
+        "title": "Impact of a pilot mHealth intervention on treatment outcomes of TB patients seeking care in the private sector using Propensity Scores Matching-Evidence collated from New Delhi, India.",
+        "doi": "10.1371/journal.pdig.0000421",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/39259731/",
+        "date": "2024"
+      },
+      {
+        "title": "Oxygen affinities of DosT and DosS sensor kinases with implications for hypoxia adaptation in Mycobacterium tuberculosis.",
+        "doi": "10.1016/j.jinorgbio.2024.112576",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/38761578/",
+        "date": "2024"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.024,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 14,
+    "total_idr_residues": 14,
+    "idr_regions": [
+      [
+        0,
+        14
+      ]
+    ],
+    "mean_plddt": 85.3,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

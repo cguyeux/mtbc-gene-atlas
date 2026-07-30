@@ -1,0 +1,827 @@
+{
+  "schema_version": 1,
+  "rv": "Rv3093c",
+  "mtbc0": "mtbc0_003287",
+  "np_id": "NP_217609.1",
+  "gene": "",
+  "len_aa": 334,
+  "strand": "-",
+  "start_mtbc0": 3483124,
+  "end_mtbc0": 3484128,
+  "product_h37rv": "oxidoreductase",
+  "product_mtbc0_pgap": "LLM class F420-dependent oxidoreductase",
+  "function_revised": "LLM class F420-dependent oxidoreductase. Pfam: Bac_luciferase (PF00296.27).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTDIEVALPFWLDRPDHEATDVALAAADTGFAALWIGEMATYDAFALATSIGLRTPNMTLKVGPLAVGVRGPVGLALGVSSVASLTGCRVDLALGASSPAIVAGWHGRPWAHHVPVMRETIECLRSIFTGARVEYSGRHVNSRGFRLRGAAPDTRIALGAFGPGMIRLAAQHADEVVLNLASPFRVGRVRAAIDSAAAAAGRAAPRLTVWVPVAVNPGAAAHSQLAAQLAVYLAPPGYGEMFSALGFDGLVRSARSRATRRELAVAVPSELLDRVCALGSPDRVAARLRAYADAGADCVAVVPATAEDPGGRVALRALRPGGLYGTAGDNDGRR",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "Bac_luciferase",
+      "pfam_acc": "PF00296.27",
+      "i_evalue": 2.2e-40,
+      "ali_from": 17,
+      "ali_to": 297,
+      "description": "Luciferase-like monooxygenase"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG2141",
+    "cog_cat": "C",
+    "description": "Luciferase-like monooxygenase",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "Bac_luciferase"
+    ],
+    "seed_ortholog": "419947.MRA_3125",
+    "evalue": "2.81e-233"
+  },
+  "uniprot": {
+    "acc": "O05772",
+    "reviewed": false,
+    "protein_name": "Hypothetical oxidoreductase",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0016705"
+    ],
+    "kegg": [
+      "mtu:Rv3093c",
+      "mtv:RVBD_3093c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 4,
+    "pN_pS": 0.588,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 4,
+    "disrupt_mode": "convergent",
+    "disrupt_strains": 13866,
+    "disrupt_frac": 0.0955,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv3093c",
+    "n_partners": 24,
+    "n_context_driven": 24,
+    "partners": [
+      {
+        "rv": "Rv3094c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 983,
+        "combined_no_tm": 983,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 865,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3095",
+        "gene": "",
+        "product": "HTH-type transcriptional regulator",
+        "hypothetical": false,
+        "combined": 898,
+        "combined_no_tm": 899,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 636,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 733,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3262",
+        "gene": "fbiB",
+        "product": "coenzyme F420:L-glutamate ligase",
+        "hypothetical": false,
+        "combined": 781,
+        "combined_no_tm": 767,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 737,
+          "coexpression": 103,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv3261",
+        "gene": "fbiA",
+        "product": "2-phospho-L-lactate transferase",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 747,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 739,
+          "coexpression": 45,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 92
+        }
+      },
+      {
+        "rv": "Rv2951c",
+        "gene": "",
+        "product": "phthiodiolone/phenolphthiodiolone dimycocerosates ketoreductase",
+        "hypothetical": false,
+        "combined": 742,
+        "combined_no_tm": 743,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 742,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2893",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 735,
+        "combined_no_tm": 735,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 735,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2161c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 730,
+        "combined_no_tm": 730,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 730,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3092c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 723,
+        "combined_no_tm": 723,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 707,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 95,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1261c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 718,
+        "combined_no_tm": 719,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 718,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3547",
+        "gene": "ddn",
+        "product": "deazaflavin-dependent nitroreductase",
+        "hypothetical": false,
+        "combined": 730,
+        "combined_no_tm": 713,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 713,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv3072c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 705,
+        "combined_no_tm": 705,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 703,
+          "coexpression": 49,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0132c",
+        "gene": "fgd2",
+        "product": "F420-dependent glucose-6-phosphate dehydrogenase",
+        "hypothetical": false,
+        "combined": 705,
+        "combined_no_tm": 705,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 705,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1855c",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 700,
+        "combined_no_tm": 701,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 700,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3178",
+        "gene": "",
+        "product": "nitroreductase",
+        "hypothetical": false,
+        "combined": 702,
+        "combined_no_tm": 684,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 684,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 98
+        }
+      },
+      {
+        "rv": "Rv1360",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 662,
+        "combined_no_tm": 662,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 660,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv3095",
+      "gene": "",
+      "product": "HTH-type transcriptional regulator",
+      "combined_no_tm": 899,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 636,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 733,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 0
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: oxidoreductase",
+    "MTBC0 PGAP product: LLM class F420-dependent oxidoreductase",
+    "Pfam (hmmscan --cut_ga): Bac_luciferase PF00296.27 (E=2e-40)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 93.9,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "8qpm-assembly2_D",
+        "evalue": 6.194e-18,
+        "prob": 1.0,
+        "tmscore": 0.8306,
+        "description": "8qpm-assembly2_D Structure of methylene-tetrahydromethanopterin reductase from Methanocaldococcus jannaschii",
+        "significant": true
+      },
+      {
+        "target": "8qq8-assembly1_A-2",
+        "evalue": 1.53e-17,
+        "prob": 1.0,
+        "tmscore": 0.8263,
+        "description": "8qq8-assembly1_A-2 Crystal Structure of F420-dependent Methylene-Tetrahydromethanopterin Reductase Mutant E6Q from Methanocaldococcus Jannaschii",
+        "significant": true
+      },
+      {
+        "target": "8qpl-assembly1_B",
+        "evalue": 7.451e-17,
+        "prob": 1.0,
+        "tmscore": 0.8347,
+        "description": "8qpl-assembly1_B F420-Dependent Methylene-Tetrahydromethanopterin Reductase with F420 from Methanocaldococcus jannaschii",
+        "significant": true
+      },
+      {
+        "target": "1z69-assembly1_C",
+        "evalue": 1.74e-16,
+        "prob": 1.0,
+        "tmscore": 0.7713,
+        "description": "1z69-assembly1_C Crystal structure of methylenetetrahydromethanopterin reductase (Mer) in complex with coenzyme F420",
+        "significant": true
+      },
+      {
+        "target": "1f07-assembly1_A",
+        "evalue": 3.24e-16,
+        "prob": 1.0,
+        "tmscore": 0.7688,
+        "description": "1f07-assembly1_A STRUCTURE OF COENZYME F420 DEPENDENT TETRAHYDROMETHANOPTERIN REDUCTASE FROM METHANOBACTERIUM THERMOAUTOTROPHICUM",
+        "significant": true
+      },
+      {
+        "target": "1ezw-assembly1_A",
+        "evalue": 1.766e-15,
+        "prob": 1.0,
+        "tmscore": 0.7864,
+        "description": "1ezw-assembly1_A STRUCTURE OF COENZYME F420 DEPENDENT TETRAHYDROMETHANOPTERIN REDUCTASE FROM METHANOPYRUS KANDLERI",
+        "significant": true
+      },
+      {
+        "target": "1nqk-assembly1_A",
+        "evalue": 2.937e-15,
+        "prob": 1.0,
+        "tmscore": 0.7015,
+        "description": "1nqk-assembly1_A Structural Genomics, Crystal structure of Alkanesulfonate monooxygenase",
+        "significant": true
+      },
+      {
+        "target": "7k64-assembly2_H",
+        "evalue": 1.351e-14,
+        "prob": 1.0,
+        "tmscore": 0.6909,
+        "description": "7k64-assembly2_H Binary titrated soak structure of alkanesulfonate monooxygenase MsuD from Pseudomonas fluorescens with FMN",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 57.3,
+    "abundance_rank": 1668,
+    "n_ranked": 3519,
+    "abundance_percentile": 52.6,
+    "n_datasets": 10,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 334,
+    "mw_kda": 34.6,
+    "pi": 9.33,
+    "gravy": 0.221,
+    "instability_index": 38.3,
+    "instability_class": "stable",
+    "aromaticity": 0.06,
+    "aliphatic_index": 9598.8,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb3120c",
+        "identity": 99.7,
+        "evalue": 1.25e-236
+      },
+      "M. marinum": {
+        "locus": "MMAR_1557",
+        "identity": 72.1,
+        "evalue": 4.4e-152
+      },
+      "M. orygis": {
+        "locus": "RJtmp_003197",
+        "identity": 99.7,
+        "evalue": 1.17e-236
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv3092c",
+      "gene": null,
+      "strand": "-",
+      "gap": 25
+    },
+    "right": {
+      "locus": "Rv3094c",
+      "gene": null,
+      "strand": "-",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv3092c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3093c",
+        "gene": null
+      },
+      {
+        "locus": "Rv3094c",
+        "gene": null
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0494",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv3095",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 3,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Hypothetical oxidoreductase",
+    "legacy_function": "Function unknown; could be involved in cellular metabolism.",
+    "legacy_ec": [
+      "1.-.-.-"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 1,
+    "imodulons": [
+      {
+        "name": "Rv3095",
+        "function": "iModulon labeled with predicted regulon with unknown function",
+        "category": "Unknown Function",
+        "regulator": "Rv3095"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 1.101,
+    "ci_low": -1.794,
+    "ci_high": 4.719,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 0,
+      "n_nonsyn": 2,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 14,
+      "n_total": 53,
+      "frac": 0.264,
+      "in_mtbap": 1,
+      "in_mkc": 5,
+      "mean_pident": 76.8,
+      "classification": "restricted",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_basiliense",
+        "M_decipiens",
+        "M_gordonae",
+        "M_innocens",
+        "M_kansasii",
+        "M_liflandii",
+        "M_marinum",
+        "M_paragordonae",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_szulgai",
+        "M_ulcerans"
+      ],
+      "interpretation": "present in a subset of the genus (14/53 NTM; in 1 of the 4 closest MTBAP relatives) — partial/intermediate conservation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 334,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 2,
+    "n_papers_listed": 2,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 2,
+    "n_other": 0,
+    "n_ortholog_tag": 0,
+    "other_species": {},
+    "summary": "2 publication(s) discuss this gene (2 in a M. tuberculosis context).",
+    "papers": [
+      {
+        "title": "Omics analysis of Mycobacterium tuberculosis isolates uncovers Rv3094c, an ethionamide metabolism-associated gene.",
+        "doi": "10.1038/s42003-023-04433-w",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/36750726/",
+        "date": "2023"
+      },
+      {
+        "title": "[MxyR of Mycobacterium tuberculosis Responds to Xylan; an Unusual Ligand for a MarR Family Transcriptional Regulator].",
+        "doi": "10.31857/S0026898422010074",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35082266/",
+        "date": "2022"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.045,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 15,
+    "total_idr_residues": 15,
+    "idr_regions": [
+      [
+        319,
+        334
+      ]
+    ],
+    "mean_plddt": 93.9,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

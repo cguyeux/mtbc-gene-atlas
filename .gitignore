@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Databases (rebuilt on first run from content/ via auto-ingest)
+*.sqlite
+*.sqlite3
+*.db
+
+# Backups / scratch
+*.predup
+*.bak
+*.orig
+*~
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

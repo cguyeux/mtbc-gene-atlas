@@ -1,0 +1,780 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1435c",
+  "mtbc0": "mtbc0_001535",
+  "np_id": "NP_215951.1",
+  "gene": "hsr1",
+  "len_aa": 209,
+  "strand": "-",
+  "start_mtbc0": 1621686,
+  "end_mtbc0": 1622315,
+  "product_h37rv": "hypothetical protein",
+  "product_mtbc0_pgap": "hypothetical protein",
+  "function_revised": "Hsr1 (host splicing regulator 1), a secreted virulence factor that disrupts host snRNP biogenesis. RefSeq leaves it 'hypothetical'. Secreted Rv1435c/hsr1 targets specific exon-skipping events and facilitates a direct interaction between Mtb phagosomes and U5 snRNA and SNRPF; genetic deletion reverses the splicing changes and attenuates growth ex vivo and in vivo (Chauhan 2025).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": false,
+  "needs_review": false,
+  "protein_mtbc0": "MTLMAIVNRFNIKVIAGAGLFAAAIALSPDAAADPLMTGGYACIQGMAGDAPVAAGDPVAAGGPAAAGACSAALTDMAGVPFVAPGPVPAAAPVPIGAPVPIPGAPVPIPGAPVPIPGAPVPIPGGPVPIPGAPVPVPAVPAPVIPVGTPLIALGPVLAGAPGDGVVSAPIIGMSGVKDALTDPAPAGGPVPGQPVLPGPSASAPAGAR",
+  "domains": [],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "29WFS",
+    "cog_cat": "",
+    "description": "",
+    "preferred_name": "",
+    "ec": [],
+    "kegg_ko": [],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [],
+    "seed_ortholog": "419947.MRA_1443",
+    "evalue": "3.35e-51"
+  },
+  "uniprot": {
+    "acc": "O06823",
+    "reviewed": false,
+    "protein_name": "Probable conserved proline, glycine, valine-rich secreted protein",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0005576"
+    ],
+    "kegg": [
+      "mtu:Rv1435c",
+      "mtv:RVBD_1435c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 2,
+    "missense": 3,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.623,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {
+    "mean_plddt": 69.7,
+    "n_residues": 209,
+    "band": "low"
+  },
+  "string": {
+    "string_id": "83332.Rv1435c",
+    "n_partners": 119,
+    "n_context_driven": 89,
+    "partners": [
+      {
+        "rv": "Rv1005c",
+        "gene": "pabB",
+        "product": "para-aminobenzoate synthase component I",
+        "hypothetical": false,
+        "combined": 820,
+        "combined_no_tm": 809,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 648,
+          "experimental": 461,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1609",
+        "gene": "trpE",
+        "product": "anthranilate synthase component I",
+        "hypothetical": false,
+        "combined": 819,
+        "combined_no_tm": 808,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 647,
+          "experimental": 461,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv2386c",
+        "gene": "mbtI",
+        "product": "salicylate synthase",
+        "hypothetical": false,
+        "combined": 819,
+        "combined_no_tm": 807,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 646,
+          "experimental": 461,
+          "database": 0,
+          "textmining": 99
+        }
+      },
+      {
+        "rv": "Rv1006",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 775,
+        "combined_no_tm": 775,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 774,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1868",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 773,
+        "combined_no_tm": 773,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 773,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2894c",
+        "gene": "xerC",
+        "product": "tyrosine recombinase XerC",
+        "hypothetical": false,
+        "combined": 780,
+        "combined_no_tm": 770,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 770,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 85
+        }
+      },
+      {
+        "rv": "Rv2047c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 784,
+        "combined_no_tm": 761,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 57,
+          "fusion": 0,
+          "cooccurence": 756,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 134
+        }
+      },
+      {
+        "rv": "Rv2192c",
+        "gene": "trpD",
+        "product": "anthranilate phosphoribosyltransferase",
+        "hypothetical": false,
+        "combined": 781,
+        "combined_no_tm": 751,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 737,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv1612",
+        "gene": "trpB",
+        "product": "tryptophan synthase subunit beta",
+        "hypothetical": false,
+        "combined": 776,
+        "combined_no_tm": 746,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 731,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv3899c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 745,
+        "combined_no_tm": 746,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 744,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1613",
+        "gene": "trpA",
+        "product": "tryptophan synthase subunit alpha",
+        "hypothetical": false,
+        "combined": 775,
+        "combined_no_tm": 745,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 730,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv3033",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 745,
+        "combined_no_tm": 745,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 745,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0013",
+        "gene": "trpG",
+        "product": "anthranilate synthase component II",
+        "hypothetical": false,
+        "combined": 774,
+        "combined_no_tm": 744,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 729,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv0063",
+        "gene": "",
+        "product": "oxidoreductase",
+        "hypothetical": false,
+        "combined": 740,
+        "combined_no_tm": 740,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 740,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2082",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 738,
+        "combined_no_tm": 739,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 738,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": null
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Secreted protein interacting with host splicing factors; targets exon-skipping (Chauhan 2025, PMID 40601628)",
+    "Links Mtb phagosomes to U5 snRNA / SNRPF; Δhsr1 attenuated in macrophages and mice",
+    "Named hsr1",
+    "Curated from the literature crible (project 'Still unknown gene function', 2026-06-09)"
+  ],
+  "references": [
+    {
+      "authors": "Chauhan K, Datta D, Kapoor Y, Passricha N, Dutt R, Arora N, Das M, Rao K, Singh L, Gautam A, et al.",
+      "year": 2025,
+      "title": "A Mycobacterium tuberculosis secreted virulence factor Rv1435c/hsr1 disrupts host snRNP biogenesis",
+      "journal": "Proc Natl Acad Sci USA 122(27):e2423349122",
+      "doi": "10.1073/pnas.2423349122",
+      "pmid": "40601628"
+    }
+  ],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 57.4,
+    "band": "low",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [],
+    "plddt_gated": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "SP",
+    "tm_helices": 0,
+    "signal_peptide": true,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted secreted protein (signal peptide)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 173.0,
+    "abundance_rank": 924,
+    "n_ranked": 3519,
+    "abundance_percentile": 73.8,
+    "n_datasets": 5,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 209,
+    "mw_kda": 19.1,
+    "pi": 4.1,
+    "gravy": 0.778,
+    "instability_index": 65.1,
+    "instability_class": "unstable",
+    "aromaticity": 0.019,
+    "aliphatic_index": 10196.2,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "cell wall and cell processes",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1470c",
+        "identity": 96.2,
+        "evalue": 1.43e-54
+      },
+      "M. marinum": {
+        "locus": "MMAR_2238",
+        "identity": 67.9,
+        "evalue": 3.59e-13
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001514",
+        "identity": 96.2,
+        "evalue": 1.34e-54
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 2,
+    "n_in_vivo": 0,
+    "phenotypes": [
+      {
+        "condition": "altered fitness under Rifampicin",
+        "category": "drug exposure",
+        "log2fc": -2.38,
+        "qval": 0.02,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "altered fitness under 6 weeks hypoxia",
+        "category": "stress",
+        "log2fc": -1.39,
+        "qval": 0.019,
+        "effect": "required (mutant depleted)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv1434",
+      "gene": null,
+      "strand": "+",
+      "gap": -52
+    },
+    "right": {
+      "locus": "Rv1436",
+      "gene": "gap",
+      "strand": "+",
+      "gap": 356
+    },
+    "operon": [
+      {
+        "locus": "Rv1435c",
+        "gene": null
+      }
+    ],
+    "operon_size": 1,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0081",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv0324",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1985c",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv3597c",
+        "tf_gene": "lsr2",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 4,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable conserved proline, glycine, valine-rich secreted protein",
+    "legacy_function": "",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "phenotype_lead": {
+    "lead": "disruption sensitises to Rifampicin (cell-envelope / intrinsic drug tolerance); required under 6 weeks hypoxia; predicted secreted (signal peptide).",
+    "priority": 3.0,
+    "categories": [
+      "drug exposure",
+      "stress"
+    ],
+    "corroboration": [
+      "conserved / under constraint intra-MTBC"
+    ],
+    "n_significant": 2,
+    "n_in_vivo": 0
+  },
+  "vulnerability": {
+    "vi": -0.845,
+    "ci_low": -2.458,
+    "ci_high": 1.512,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "expression": {
+    "n_imodulons": 2,
+    "imodulons": [
+      {
+        "name": "SigH",
+        "function": "Sigma Factor involved in heat shock and oxidative stress response",
+        "category": "Virulence/Persistence",
+        "regulator": "sigH"
+      },
+      {
+        "name": "Rv1828/SigH",
+        "function": "iModulon that maps to the union of the Rv1828 and Rv3223c regulons",
+        "category": "Redox",
+        "regulator": "Rv1828 or sigH"
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 0,
+      "n_total": 53,
+      "frac": 0.0,
+      "in_mtbap": 0,
+      "in_mkc": 0,
+      "mean_pident": 0.0,
+      "classification": "MTBC-specific",
+      "species_present": [],
+      "interpretation": "absent from ALL 53 non-MTBC Mycobacterium genomes tested (incl. the closest MTBAP relatives) — a candidate MTBC-specific genetic innovation / host-adaptation factor (confirm by synteny; rule out a short/low-complexity ORF and extreme divergence)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 0,
+      "stratum_label": "MTBC-specific",
+      "deepest_outgroup_clade": "none",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 209,
+      "short_gene_caveat": false,
+      "interpretation": "absent from the whole genus and from all outgroups tested — a candidate MTBC-specific innovation (confirm by synteny; rule out detection failure for short/divergent ORFs)",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 3,
+    "n_papers_listed": 3,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "by_alias": {
+      "H37Rv": "3"
+    },
+    "summary": "3 publication(s) mention this gene (title/abstract), verified against the text. The atlas states the function; these are the primary sources that discuss it.",
+    "papers": [
+      {
+        "title": "A Mycobacterium tuberculosis secreted virulence factor Rv1435c/hsr1 disrupts host snRNP biogenesis.",
+        "doi": "10.1073/pnas.2423349122",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40601628/",
+        "date": "2025"
+      },
+      {
+        "title": "Genome-Wide Study of Drug Resistant Mycobacterium tuberculosis and Its Intra-Host Evolution during Treatment.",
+        "doi": "10.3390/microorganisms10071440",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35889159/",
+        "date": "2022"
+      },
+      {
+        "title": "Identification of novel mutations associated with cycloserine resistance in Mycobacterium tuberculosis.",
+        "doi": "10.1093/jac/dkx316",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28961957/",
+        "date": "2017"
+      }
+    ],
+    "caveat": "This layer CITES the literature, it does not change the verdict or the function. A gene may be heavily studied (as an antigen, a resistance determinant, a drug target) while its molecular function is settled elsewhere in the fiche.",
+    "source": "PubMed (whole), MULTI-ALIAS sweep: H37Rv locus tag AND every ortholog identifier (M. bovis Mb…, M. marinum MMAR_…, M. smegmatis MSMEG_…, M. leprae ML…, M. abscessus MAB_…), each hit VERIFIED against the abstract text (word-boundary regex). phase73/phase75, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 1.0,
+    "classification": "highly disordered",
+    "n_idr": 1,
+    "longest_idr": 209,
+    "total_idr_residues": 209,
+    "idr_regions": [
+      [
+        0,
+        209
+      ]
+    ],
+    "mean_plddt": 57.4,
+    "idr_orphan": false,
+    "interpretation": "carries a substantial disordered region (209/209 residues); disorder is a property, not a function",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

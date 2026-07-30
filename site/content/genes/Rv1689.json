@@ -1,0 +1,1001 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1689",
+  "mtbc0": "mtbc0_001797",
+  "np_id": "NP_216205.1",
+  "gene": "tyrS",
+  "len_aa": 424,
+  "strand": "+",
+  "start_mtbc0": 1925617,
+  "end_mtbc0": 1926891,
+  "product_h37rv": "tyrosine--tRNA ligase",
+  "product_mtbc0_pgap": "tyrosine--tRNA ligase",
+  "function_revised": "Tyrosine--tRNA ligase. Pfam: tRNA-synt_1b (PF00579.32), SYY_C-terminal (PF22421.2).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MSGMILDELSWRGLIAQSTDLDTLAAEAQRGPMTVYAGFDPTAPSLHAGHLVPLLTLRRFQRAGHRPIVLAGGATGMIGDPRDVGERSLNEADTVAEWTERIRGQLERFVDFDDSPMGAIVENNLEWTGSLSAIEFLRDIGKHFSVNVMLARDTIRRRLAGEGISYTEFSYLLLQANDYVELHRRHGCTLQIGGADQWGNIIAGVRLVRQKLGATVHALTVPLVTAADGTKFGKSTGGGSLWLDPQMTSPYAWYQYFVNTADADVIRYLRWFTFLSADELAELEQATAQRPQQRAAQRRLASELTVLVHGEAATAAVEHASRALFGRGELARLDEATLAAALRETTVAELKPGSPDGIVDLLVASGLSASKGAARRTIHEGGVSVNNIRVDNEEWVPQSSDFLHGRWLVLRRGKRSIAGVERIG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "tRNA-synt_1b",
+      "pfam_acc": "PF00579.32",
+      "i_evalue": 2e-84,
+      "ali_from": 30,
+      "ali_to": 325,
+      "description": "tRNA synthetases class I (W and Y)"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "SYY_C-terminal",
+      "pfam_acc": "PF22421.2",
+      "i_evalue": 4.3e-14,
+      "ali_from": 354,
+      "ali_to": 415,
+      "description": "Tyrosine--tRNA ligase SYY-like C-terminal domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0162",
+    "cog_cat": "J",
+    "description": "Catalyzes the attachment of tyrosine to tRNA(Tyr) in a two-step reaction tyrosine is first activated by ATP to form Tyr- AMP and then transferred to the acceptor end of tRNA(Tyr)",
+    "preferred_name": "tyrS",
+    "ec": [
+      "6.1.1.1"
+    ],
+    "kegg_ko": [
+      "K01866"
+    ],
+    "kegg_pathway": [
+      "map00970"
+    ],
+    "kegg_module": [
+      "M00359",
+      "M00360"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004812",
+      "GO:0004831",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006082",
+      "GO:0006139",
+      "GO:0006399",
+      "GO:0006520",
+      "GO:0006725",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009987",
+      "GO:0016020",
+      "GO:0016070",
+      "GO:0016874",
+      "GO:0016875",
+      "GO:0019752",
+      "GO:0030312",
+      "GO:0034641",
+      "GO:0034660",
+      "GO:0040007",
+      "GO:0043038",
+      "GO:0043039",
+      "GO:0043170",
+      "GO:0043436",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044281",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044464",
+      "GO:0046483",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:0090304",
+      "GO:0140098",
+      "GO:0140101",
+      "GO:1901360",
+      "GO:1901564"
+    ],
+    "pfams": [
+      "S4",
+      "tRNA-synt_1b"
+    ],
+    "seed_ortholog": "419947.MRA_1699",
+    "evalue": "1.59e-305"
+  },
+  "uniprot": {
+    "acc": "P9WFT1",
+    "reviewed": true,
+    "protein_name": "Tyrosine--tRNA ligase",
+    "ec": [
+      "6.1.1.1"
+    ],
+    "function": "Catalyzes the attachment of tyrosine to tRNA(Tyr) in a two-step reaction: tyrosine is first activated by ATP to form Tyr-AMP and then transferred to the acceptor end of tRNA(Tyr)",
+    "go": [
+      "GO:0003723",
+      "GO:0004831",
+      "GO:0005524",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006437",
+      "GO:0009274",
+      "GO:0042803",
+      "GO:0043039"
+    ],
+    "kegg": [
+      "mtu:Rv1689",
+      "mtv:RVBD_1689"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 8,
+    "syn": 4,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.337,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1689",
+    "n_partners": 70,
+    "n_context_driven": 7,
+    "partners": [
+      {
+        "rv": "Rv1650",
+        "gene": "pheT",
+        "product": "phenylalanine--tRNA ligase subunit beta",
+        "hypothetical": false,
+        "combined": 956,
+        "combined_no_tm": 907,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 544,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 804,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 554
+        }
+      },
+      {
+        "rv": "Rv1688",
+        "gene": "mpg",
+        "product": "3-methyladenine DNA glycosylase",
+        "hypothetical": false,
+        "combined": 884,
+        "combined_no_tm": 872,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 872,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 139
+        }
+      },
+      {
+        "rv": "Rv2889c",
+        "gene": "tsf",
+        "product": "elongation factor EF-Ts",
+        "hypothetical": false,
+        "combined": 760,
+        "combined_no_tm": 697,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 296,
+          "coexpression": 511,
+          "experimental": 145,
+          "database": 0,
+          "textmining": 240
+        }
+      },
+      {
+        "rv": "Rv2524c",
+        "gene": "fas",
+        "product": "fatty acid synthase",
+        "hypothetical": false,
+        "combined": 691,
+        "combined_no_tm": 690,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 68,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 645,
+          "experimental": 139,
+          "database": 0,
+          "textmining": 45
+        }
+      },
+      {
+        "rv": "Rv1292",
+        "gene": "argS",
+        "product": "arginine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 972,
+        "combined_no_tm": 680,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 111,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 655,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 919
+        }
+      },
+      {
+        "rv": "Rv1299",
+        "gene": "prfA",
+        "product": "peptide chain release factor PrfA",
+        "hypothetical": false,
+        "combined": 849,
+        "combined_no_tm": 645,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 108,
+          "fusion": 0,
+          "cooccurence": 168,
+          "coexpression": 560,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 593
+        }
+      },
+      {
+        "rv": "Rv1687c",
+        "gene": "",
+        "product": "ABC transporter ATP-binding protein",
+        "hypothetical": false,
+        "combined": 644,
+        "combined_no_tm": 644,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 600,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 147,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1536",
+        "gene": "ileS",
+        "product": "isoleucine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 934,
+        "combined_no_tm": 634,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 186,
+          "coexpression": 544,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 829
+        }
+      },
+      {
+        "rv": "Rv1686c",
+        "gene": "",
+        "product": "ABC transporter permease",
+        "hypothetical": false,
+        "combined": 631,
+        "combined_no_tm": 631,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 631,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0041",
+        "gene": "leuS",
+        "product": "leucine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 966,
+        "combined_no_tm": 609,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 182,
+          "coexpression": 406,
+          "experimental": 235,
+          "database": 0,
+          "textmining": 917
+        }
+      },
+      {
+        "rv": "Rv2793c",
+        "gene": "truB",
+        "product": "tRNA pseudouridine synthase B",
+        "hypothetical": false,
+        "combined": 640,
+        "combined_no_tm": 592,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 113,
+          "fusion": 0,
+          "cooccurence": 199,
+          "coexpression": 157,
+          "experimental": 399,
+          "database": 0,
+          "textmining": 155
+        }
+      },
+      {
+        "rv": "Rv1649",
+        "gene": "pheS",
+        "product": "phenylalanine--tRNA ligase subunit alpha",
+        "hypothetical": false,
+        "combined": 683,
+        "combined_no_tm": 587,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 486,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv2357c",
+        "gene": "glyS",
+        "product": "glycine--tRNA ligase",
+        "hypothetical": false,
+        "combined": 674,
+        "combined_no_tm": 575,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 171,
+          "coexpression": 468,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv1643",
+        "gene": "rplT",
+        "product": "50S ribosomal protein L20",
+        "hypothetical": false,
+        "combined": 571,
+        "combined_no_tm": 572,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 178,
+          "fusion": 0,
+          "cooccurence": 198,
+          "coexpression": 403,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1279",
+        "gene": "",
+        "product": "GMC-type oxidoreductase",
+        "hypothetical": false,
+        "combined": 555,
+        "combined_no_tm": 555,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 505,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 136,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1650",
+      "gene": "pheT",
+      "product": "phenylalanine--tRNA ligase subunit beta",
+      "combined_no_tm": 907,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 544,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 804,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 554
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: tyrosine--tRNA ligase",
+    "MTBC0 PGAP product: tyrosine--tRNA ligase",
+    "Pfam (hmmscan --cut_ga): tRNA-synt_1b PF00579.32 (E=2e-84), SYY_C-terminal PF22421.2 (E=4e-14)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 92.6,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "2jan-assembly1_A",
+        "evalue": 3.475e-69,
+        "prob": 1.0,
+        "tmscore": 0.958,
+        "description": "2jan-assembly1_A TYROSYL-TRNA SYNTHETASE FROM MYCOBACTERIUM TUBERCULOSIS IN UNLIGANDED STATE",
+        "significant": true
+      },
+      {
+        "target": "2jan-assembly2_C",
+        "evalue": 3.128e-69,
+        "prob": 1.0,
+        "tmscore": 0.9261,
+        "description": "2jan-assembly2_C TYROSYL-TRNA SYNTHETASE FROM MYCOBACTERIUM TUBERCULOSIS IN UNLIGANDED STATE",
+        "significant": true
+      },
+      {
+        "target": "2jan-assembly2_B",
+        "evalue": 1.059e-67,
+        "prob": 1.0,
+        "tmscore": 0.974,
+        "description": "2jan-assembly2_B TYROSYL-TRNA SYNTHETASE FROM MYCOBACTERIUM TUBERCULOSIS IN UNLIGANDED STATE",
+        "significant": true
+      },
+      {
+        "target": "6hb6-assembly1_B",
+        "evalue": 6.275e-48,
+        "prob": 1.0,
+        "tmscore": 0.9354,
+        "description": "6hb6-assembly1_B Crystal structure of E. coli tyrRS in complex with 5'-O-(N-L-tyrosyl)sulfamoyl-uridine",
+        "significant": true
+      },
+      {
+        "target": "7ap3-assembly1_A",
+        "evalue": 3.375e-47,
+        "prob": 1.0,
+        "tmscore": 0.9363,
+        "description": "7ap3-assembly1_A Crystal structure of E. coli tyrosyl-tRNA synthetase in complex with TyrS7HMDDA",
+        "significant": true
+      },
+      {
+        "target": "6i5y-assembly1_A",
+        "evalue": 4.165e-47,
+        "prob": 1.0,
+        "tmscore": 0.9366,
+        "description": "6i5y-assembly1_A Crystal structure of E. coli tyrRS in complex with 5'-O-(N-L-tyrosyl)sulfamoyl-adenosine",
+        "significant": true
+      },
+      {
+        "target": "6hb6-assembly1_A",
+        "evalue": 1.007e-47,
+        "prob": 1.0,
+        "tmscore": 0.9268,
+        "description": "6hb6-assembly1_A Crystal structure of E. coli tyrRS in complex with 5'-O-(N-L-tyrosyl)sulfamoyl-uridine",
+        "significant": true
+      },
+      {
+        "target": "6hb7-assembly1_B",
+        "evalue": 1.381e-47,
+        "prob": 1.0,
+        "tmscore": 0.9188,
+        "description": "6hb7-assembly1_B Crystal structure of E. coli tyrRS in complex with 5'-O-(N-L-tyrosyl)sulfamoyl-N3-methyluridine",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 135.0,
+    "abundance_rank": 1077,
+    "n_ranked": 3519,
+    "abundance_percentile": 69.4,
+    "n_datasets": 15,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 424,
+    "mw_kda": 46.3,
+    "pi": 6.03,
+    "gravy": -0.159,
+    "instability_index": 38.7,
+    "instability_class": "stable",
+    "aromaticity": 0.071,
+    "aliphatic_index": 9325.5,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "information pathways",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1715",
+        "identity": 100.0,
+        "evalue": 2.48e-309
+      },
+      "M. leprae": {
+        "locus": "ML1352",
+        "identity": 83.6,
+        "evalue": 3.27e-263
+      },
+      "M. marinum": {
+        "locus": "MMAR_2488",
+        "identity": 87.9,
+        "evalue": 1.11e-275
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3758",
+        "identity": 79.4,
+        "evalue": 1.27e-247
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001766",
+        "identity": 100.0,
+        "evalue": 2.32e-309
+      },
+      "M. abscessus": {
+        "locus": "MAB_2354",
+        "identity": 76.3,
+        "evalue": 9.34e-238
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "2jan",
+        "method": "X-ray diffraction",
+        "resolution": 2.9,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "P9WFT1",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1688",
+      "gene": "mpg",
+      "strand": "+",
+      "gap": 11
+    },
+    "right": {
+      "locus": "RVnc0010",
+      "gene": "G2",
+      "strand": "-",
+      "gap": 85
+    },
+    "operon": [
+      {
+        "locus": "Rv1688",
+        "gene": "mpg"
+      },
+      {
+        "locus": "Rv1689",
+        "gene": "tyrS"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0081",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 1,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable tyrosyl-tRNA synthase TyrS (TYRRS)",
+    "legacy_function": "Involved in translation mechanism [catalytic activity: ATP + L-tyrosine + tRNA(TYR) = AMP + diphosphate + L-tyrosyl-tRNA(TYR)]",
+    "legacy_ec": [
+      "6.1.1.1"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "6.1.1.1"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -9.774,
+    "ci_low": -10.298,
+    "ci_high": -9.248,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 1,
+      "n_syn": 0,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": Infinity,
+      "power": "low",
+      "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 87.1,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 60.3,
+      "length_aa": 424,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 4,
+    "n_papers_listed": 4,
+    "category": "studied_elsewhere",
+    "category_label": "biology documented at least as much outside M. tuberculosis",
+    "n_tb": 1,
+    "n_other": 4,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. abscessus": "1",
+      "M. smegmatis": "3"
+    },
+    "summary": "4 publication(s) discuss this gene. **Its biology is documented at least as much OUTSIDE M. tuberculosis as within it** (4 papers in a non-TB mycobacterial context — M. smegmatis (3), M. abscessus (1) — vs 1 in a TB context). Mycobacterial genetics is largely done in M. smegmatis, so part of what is 'known' about this gene is known by proxy.",
+    "papers": [
+      {
+        "title": "Organization and Characterization of the Promoter Elements of the rRNA Operons in the Slow-Growing Pathogen Mycobacterium kumamotonense.",
+        "doi": "10.3390/genes14051023",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37239384/",
+        "date": "2023"
+      },
+      {
+        "title": "The organization of two rRNA (rrn) operons of the slow-growing pathogen Mycobacterium celatum provides key insights into mycobacterial evolution.",
+        "doi": "10.1111/j.1574-6968.2007.01050.x",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/18248431/",
+        "date": "2008"
+      },
+      {
+        "title": "Characterization of an rRNA operon (rrnB) of Mycobacterium fortuitum and other mycobacterial species: implications for the classification of mycobacteria.",
+        "doi": "10.1128/jb.184.4.1078-1088.2002",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/11807068/",
+        "date": "2002"
+      },
+      {
+        "title": "Effects of growth conditions on expression of mycobacterial murA and tyrS genes and contributions of their transcripts to precursor rRNA synthesis.",
+        "doi": "10.1128/JB.181.15.4617-4627.1999",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/10419962/",
+        "date": "1999"
+      }
+    ],
+    "papers_elsewhere": [
+      {
+        "title": "Organization and Characterization of the Promoter Elements of the rRNA Operons in the Slow-Growing Pathogen Mycobacterium kumamotonense.",
+        "doi": "10.3390/genes14051023",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/37239384/",
+        "date": "2023"
+      },
+      {
+        "title": "The organization of two rRNA (rrn) operons of the slow-growing pathogen Mycobacterium celatum provides key insights into mycobacterial evolution.",
+        "doi": "10.1111/j.1574-6968.2007.01050.x",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/18248431/",
+        "date": "2008"
+      },
+      {
+        "title": "Characterization of an rRNA operon (rrnB) of Mycobacterium fortuitum and other mycobacterial species: implications for the classification of mycobacteria.",
+        "doi": "10.1128/jb.184.4.1078-1088.2002",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/11807068/",
+        "date": "2002"
+      }
+    ],
+    "caveat": "IMPORTANT — 'better studied elsewhere' does NOT mean 'function established in M. tuberculosis'. Findings obtained in M. smegmatis (a non-pathogenic, fast-growing species with a different lifestyle and regulation), or in M. marinum / M. leprae / M. abscessus, do NOT transfer automatically to M. tuberculosis. Treat this body of work as CONTEXT to verify, not as settled knowledge.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 92.6,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "Rv1689 (tyrS)_flag/DAS + pTetON-10",
+    "gene": "tyrS",
+    "teton_promoter": "10",
+    "baseline_doublings_median": 4.34,
+    "n_screens": 6,
+    "strain_category": "Used in PCL analysis",
+    "used_in_pcl": true,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

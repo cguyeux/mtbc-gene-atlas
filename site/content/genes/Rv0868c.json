@@ -1,0 +1,867 @@
+{
+  "schema_version": 1,
+  "rv": "Rv0868c",
+  "mtbc0": "mtbc0_000923",
+  "np_id": "NP_215383.1",
+  "gene": "moaD2",
+  "len_aa": 92,
+  "strand": "-",
+  "start_mtbc0": 969186,
+  "end_mtbc0": 969464,
+  "product_h37rv": "cyclic pyranopterin monophosphate synthase",
+  "product_mtbc0_pgap": "molybdopterin synthase subunit MoaD2",
+  "function_revised": "Molybdopterin synthase subunit MoaD2. Pfam: ThiS (PF02597.27).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTQVSDESAGIQVTVRYFAAARAAAGAGSEKVTLRSGATVAELIDGLSVRDVRLATVLSRCSYLRDGIVVRDDAVALSAGDTIDVLPPFAGG",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "ThiS",
+      "pfam_acc": "PF02597.27",
+      "i_evalue": 8.2e-13,
+      "ali_from": 15,
+      "ali_to": 92,
+      "description": "ThiS family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1977",
+    "cog_cat": "H",
+    "description": "Molybdopterin converting factor, small subunit",
+    "preferred_name": "moaD2",
+    "ec": [],
+    "kegg_ko": [
+      "K03636"
+    ],
+    "kegg_pathway": [
+      "map04122"
+    ],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "ThiS"
+    ],
+    "seed_ortholog": "419947.MRA_0875",
+    "evalue": "1.21e-54"
+  },
+  "uniprot": {
+    "acc": "I6XWG2",
+    "reviewed": false,
+    "protein_name": "Molybdopterin synthase sulfur carrier subunit",
+    "ec": [],
+    "function": "",
+    "go": [
+      "GO:0000166",
+      "GO:0006777",
+      "GO:1990133"
+    ],
+    "kegg": [
+      "mtu:Rv0868c",
+      "mtv:RVBD_0868c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 2,
+    "syn": 1,
+    "missense": 1,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.404,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv0868c",
+    "n_partners": 40,
+    "n_context_driven": 5,
+    "partners": [
+      {
+        "rv": "Rv0866",
+        "gene": "moaE2",
+        "product": "molybdopterin synthase catalytic subunit 2",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 238,
+          "coexpression": 494,
+          "experimental": 999,
+          "database": 900,
+          "textmining": 663
+        }
+      },
+      {
+        "rv": "Rv3323c",
+        "gene": "moaX",
+        "product": "MoaD-MoaE fusion protein MoaX",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 993,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 498,
+          "experimental": 868,
+          "database": 900,
+          "textmining": 600
+        }
+      },
+      {
+        "rv": "Rv3119",
+        "gene": "moaE1",
+        "product": "molybdopterin synthase catalytic subunit 1",
+        "hypothetical": false,
+        "combined": 997,
+        "combined_no_tm": 993,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 94,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 491,
+          "experimental": 868,
+          "database": 900,
+          "textmining": 597
+        }
+      },
+      {
+        "rv": "Rv0869c",
+        "gene": "moaA2",
+        "product": "molybdenum cofactor biosynthesis protein MoaA",
+        "hypothetical": false,
+        "combined": 970,
+        "combined_no_tm": 962,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 404,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 269
+        }
+      },
+      {
+        "rv": "Rv3206c",
+        "gene": "moeB1",
+        "product": "adenylyltransferase/sulfurtransferase MoeZ",
+        "hypothetical": false,
+        "combined": 984,
+        "combined_no_tm": 955,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 151,
+          "fusion": 0,
+          "cooccurence": 192,
+          "coexpression": 58,
+          "experimental": 415,
+          "database": 900,
+          "textmining": 670
+        }
+      },
+      {
+        "rv": "Rv3116",
+        "gene": "moeB2",
+        "product": "molybdenum cofactor biosynthesis protein MoeB",
+        "hypothetical": false,
+        "combined": 994,
+        "combined_no_tm": 954,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 151,
+          "fusion": 0,
+          "cooccurence": 168,
+          "coexpression": 61,
+          "experimental": 415,
+          "database": 900,
+          "textmining": 885
+        }
+      },
+      {
+        "rv": "Rv1335",
+        "gene": "cysO",
+        "product": "sulfur carrier protein CysO",
+        "hypothetical": false,
+        "combined": 949,
+        "combined_no_tm": 901,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 511
+        }
+      },
+      {
+        "rv": "Rv3112",
+        "gene": "moaD1",
+        "product": "molybdenum cofactor biosynthesis protein MoaD",
+        "hypothetical": false,
+        "combined": 979,
+        "combined_no_tm": 900,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 803
+        }
+      },
+      {
+        "rv": "Rv0870c",
+        "gene": "",
+        "product": "integral membrane protein",
+        "hypothetical": false,
+        "combined": 887,
+        "combined_no_tm": 887,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 82,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0865",
+        "gene": "mog",
+        "product": "molybdopterin biosynthesis protein",
+        "hypothetical": false,
+        "combined": 814,
+        "combined_no_tm": 799,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 224,
+          "coexpression": 407,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 118
+        }
+      },
+      {
+        "rv": "Rv3111",
+        "gene": "moaC1",
+        "product": "cyclic pyranopterin monophosphate synthase accessory protein",
+        "hypothetical": false,
+        "combined": 880,
+        "combined_no_tm": 792,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 229,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 504,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 448
+        }
+      },
+      {
+        "rv": "Rv0871",
+        "gene": "cspB",
+        "product": "cold shock-like protein CspB",
+        "hypothetical": false,
+        "combined": 768,
+        "combined_no_tm": 769,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 768,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3324c",
+        "gene": "moaC3",
+        "product": "cyclic pyranopterin monophosphate synthase accessory protein",
+        "hypothetical": false,
+        "combined": 912,
+        "combined_no_tm": 761,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 107,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 507,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 649
+        }
+      },
+      {
+        "rv": "Rv0864",
+        "gene": "moaC2",
+        "product": "cyclic pyranopterin monophosphate synthase accessory protein",
+        "hypothetical": false,
+        "combined": 813,
+        "combined_no_tm": 760,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 107,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 505,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 255
+        }
+      },
+      {
+        "rv": "Rv3109",
+        "gene": "moaA1",
+        "product": "cyclic pyranopterin monophosphate synthase",
+        "hypothetical": false,
+        "combined": 872,
+        "combined_no_tm": 714,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 145,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 385,
+          "experimental": 0,
+          "database": 500,
+          "textmining": 571
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv0869c",
+      "gene": "moaA2",
+      "product": "molybdenum cofactor biosynthesis protein MoaA",
+      "combined_no_tm": 962,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 404,
+        "experimental": 0,
+        "database": 500,
+        "textmining": 269
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: cyclic pyranopterin monophosphate synthase",
+    "MTBC0 PGAP product: molybdopterin synthase subunit MoaD2",
+    "Pfam (hmmscan --cut_ga): ThiS PF02597.27 (E=8e-13)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 83.6,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6jbz-assembly1_D",
+        "evalue": 1.747e-16,
+        "prob": 1.0,
+        "tmscore": 0.9626,
+        "description": "6jbz-assembly1_D Structural analysis of molybdopterin synthases from two mycobacteria pathogens",
+        "significant": true
+      },
+      {
+        "target": "6jc0-assembly1_A",
+        "evalue": 1.235e-11,
+        "prob": 1.0,
+        "tmscore": 0.9329,
+        "description": "6jc0-assembly1_A Structural analysis of molybdopterin synthases from two mycobacteria pathogens",
+        "significant": true
+      },
+      {
+        "target": "2m19-assembly1_A",
+        "evalue": 2.541e-07,
+        "prob": 1.0,
+        "tmscore": 0.8197,
+        "description": "2m19-assembly1_A Solution structure of the Haloferax volcanii HVO 2177 protein",
+        "significant": true
+      },
+      {
+        "target": "3po0-assembly1_A",
+        "evalue": 2.63e-06,
+        "prob": 1.0,
+        "tmscore": 0.7958,
+        "description": "3po0-assembly1_A Crystal structure of SAMP1 from Haloferax volcanii",
+        "significant": true
+      },
+      {
+        "target": "4hro-assembly1_A",
+        "evalue": 2.806e-06,
+        "prob": 1.0,
+        "tmscore": 0.788,
+        "description": "4hro-assembly1_A Crystal structure of H. volcanii small archaeal modifier protein 1",
+        "significant": true
+      },
+      {
+        "target": "1vjk-assembly1_A",
+        "evalue": 1.028e-05,
+        "prob": 1.0,
+        "tmscore": 0.8226,
+        "description": "1vjk-assembly1_A Putative molybdopterin converting factor, subunit 1 from Pyrococcus furiosus, Pfu-562899-001",
+        "significant": true
+      },
+      {
+        "target": "5mpo-assembly1_A",
+        "evalue": 5.731e-06,
+        "prob": 1.0,
+        "tmscore": 0.7937,
+        "description": "5mpo-assembly1_A Crystal structure of human molybdopterin synthase complex",
+        "significant": true
+      },
+      {
+        "target": "2l52-assembly1_A",
+        "evalue": 2.391e-05,
+        "prob": 1.0,
+        "tmscore": 0.7639,
+        "description": "2l52-assembly1_A Solution structure of the small archaeal modifier protein 1 (SAMP1) from Methanosarcina acetivorans",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 14.2,
+    "abundance_rank": 2518,
+    "n_ranked": 3519,
+    "abundance_percentile": 28.5,
+    "n_datasets": 7,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 92,
+    "mw_kda": 9.4,
+    "pi": 4.85,
+    "gravy": 0.33,
+    "instability_index": 20.1,
+    "instability_class": "stable",
+    "aromaticity": 0.043,
+    "aliphatic_index": 10500.0,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb0892c",
+        "identity": 100.0,
+        "evalue": 1.09e-57
+      },
+      "M. marinum": {
+        "locus": "MMAR_4664",
+        "identity": 74.2,
+        "evalue": 3.03e-39
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_5699",
+        "identity": 56.3,
+        "evalue": 6.01e-24
+      },
+      "M. orygis": {
+        "locus": "RJtmp_000918",
+        "identity": 98.9,
+        "evalue": 1.7e-56
+      },
+      "M. abscessus": {
+        "locus": "MAB_0870c",
+        "identity": 52.5,
+        "evalue": 7.69e-21
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {
+    "n_structures": 1,
+    "structures": [
+      {
+        "pdb_id": "6jbz",
+        "method": "X-ray diffraction",
+        "resolution": 2.603,
+        "coverage": 1.0
+      }
+    ],
+    "acc": "I6XWG2",
+    "source": "PDBe / SIFTS (experimental structures mapped from UniProt)",
+    "refs": [
+      {
+        "authors": "Dana JM, Gutmanas A, Tyagi N, et al.",
+        "year": 2019,
+        "title": "SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins",
+        "journal": "Nucleic Acids Research",
+        "doi": "10.1093/nar/gky1114"
+      }
+    ]
+  },
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv0867c",
+      "gene": "rpfA",
+      "strand": "-",
+      "gap": 447
+    },
+    "right": {
+      "locus": "Rv0869c",
+      "gene": "moaA2",
+      "strand": "-",
+      "gap": 3
+    },
+    "operon": [
+      {
+        "locus": "Rv0868c",
+        "gene": "moaD2"
+      },
+      {
+        "locus": "Rv0869c",
+        "gene": "moaA2"
+      },
+      {
+        "locus": "Rv0870c",
+        "gene": null
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable molybdenum cofactor biosynthesis protein D 2 MoaD2 (molybdopterin converting factor small subunit) (molybdopterin [MPT] converting factor, subunit 1)",
+    "legacy_function": "Involved in molybdenum cofactor biosynthesis.",
+    "legacy_ec": [],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": null,
+    "atlas_ec": [],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": 0.971,
+    "ci_low": -0.318,
+    "ci_high": 3.005,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 51,
+      "n_total": 53,
+      "frac": 0.962,
+      "in_mtbap": 4,
+      "in_mkc": 5,
+      "mean_pident": 69.5,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 51/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 7,
+      "crossgenus_genomes": [
+        "Cacnes_KPA171202",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 47.3,
+      "length_aa": 92,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 4,
+    "n_papers_listed": 4,
+    "category": "studied_elsewhere",
+    "category_label": "biology documented at least as much outside M. tuberculosis",
+    "n_tb": 3,
+    "n_other": 3,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. smegmatis": "3"
+    },
+    "summary": "4 publication(s) discuss this gene. **Its biology is documented at least as much OUTSIDE M. tuberculosis as within it** (3 papers in a non-TB mycobacterial context — M. smegmatis (3) — vs 3 in a TB context). Mycobacterial genetics is largely done in M. smegmatis, so part of what is 'known' about this gene is known by proxy.",
+    "papers": [
+      {
+        "title": "Structural analysis of molybdopterin synthases from two mycobacterial pathogens.",
+        "doi": "10.1016/j.bbrc.2019.02.024",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30765225/",
+        "date": "2019"
+      },
+      {
+        "title": "Cleavage of the moaX-encoded fused molybdopterin synthase from Mycobacterium tuberculosis is necessary for activity.",
+        "doi": "10.1186/s12866-015-0355-2",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/25651977/",
+        "date": "2015"
+      },
+      {
+        "title": "Elucidation of the dual role of Mycobacterial MoeZR in molybdenum cofactor biosynthesis and cysteine biosynthesis.",
+        "doi": "10.1371/journal.pone.0028170",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/22140533/",
+        "date": "2011"
+      },
+      {
+        "title": "Functional analysis of molybdopterin biosynthesis in mycobacteria identifies a fused molybdopterin synthase in Mycobacterium tuberculosis.",
+        "doi": "10.1128/JB.00774-10",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/20971904/",
+        "date": "2011"
+      }
+    ],
+    "papers_elsewhere": [
+      {
+        "title": "Structural analysis of molybdopterin synthases from two mycobacterial pathogens.",
+        "doi": "10.1016/j.bbrc.2019.02.024",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30765225/",
+        "date": "2019"
+      },
+      {
+        "title": "Cleavage of the moaX-encoded fused molybdopterin synthase from Mycobacterium tuberculosis is necessary for activity.",
+        "doi": "10.1186/s12866-015-0355-2",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/25651977/",
+        "date": "2015"
+      },
+      {
+        "title": "Functional analysis of molybdopterin biosynthesis in mycobacteria identifies a fused molybdopterin synthase in Mycobacterium tuberculosis.",
+        "doi": "10.1128/JB.00774-10",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/20971904/",
+        "date": "2011"
+      }
+    ],
+    "caveat": "IMPORTANT — 'better studied elsewhere' does NOT mean 'function established in M. tuberculosis'. Findings obtained in M. smegmatis (a non-pathogenic, fast-growing species with a different lifestyle and regulation), or in M. marinum / M. leprae / M. abscessus, do NOT transfer automatically to M. tuberculosis. Treat this body of work as CONTEXT to verify, not as settled knowledge.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.076,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 83.6,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

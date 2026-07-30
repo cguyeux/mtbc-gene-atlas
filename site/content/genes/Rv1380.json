@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1380",
+  "mtbc0": "mtbc0_001481",
+  "np_id": "NP_215896.1",
+  "gene": "pyrB",
+  "len_aa": 319,
+  "strand": "+",
+  "start_mtbc0": 1562576,
+  "end_mtbc0": 1563535,
+  "product_h37rv": "aspartate carbamoyltransferase",
+  "product_mtbc0_pgap": "aspartate carbamoyltransferase catalytic subunit",
+  "function_revised": "Aspartate carbamoyltransferase catalytic subunit. Pfam: OTCace_N (PF02729.27), OTCace (PF00185.31).",
+  "verdict": "family_assigned",
+  "confidence": "medium",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTPRHLLTAADLSRDDATAILDDADRFAQALVGRDIKKLPTLRGRTVVTMFYENSTRTRVSFEVAGKWMSADVINVSAAGSSVGKGESLRDTALTLRAAGADALIIRHPASGAAHLLAQWTGAHNDGPAVINAGDGTHEHPTQALLDALTIRQRLGGIEGRRIVIVGDILHSRVARSNVMLLDTLGAEVVLVAPPTLLPVGVTGWPATVSHDFDAELPAADAVLMLRVQAERMNGGFFPSVREYSVRYGLTERRQAMLPGHAVVLHPGPMVRGMEITSSVADSSQSAVLQQVSNGVQVRMAVLFHVLVGAQDAGKEGAA",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "OTCace_N",
+      "pfam_acc": "PF02729.27",
+      "i_evalue": 1e-41,
+      "ali_from": 4,
+      "ali_to": 153,
+      "description": "Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding domain"
+    },
+    {
+      "source": "pfam",
+      "pfam_name": "OTCace",
+      "pfam_acc": "PF00185.31",
+      "i_evalue": 1.1e-19,
+      "ali_from": 160,
+      "ali_to": 305,
+      "description": "Aspartate/ornithine carbamoyltransferase, Asp/Orn binding domain"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG0540",
+    "cog_cat": "F",
+    "description": "Belongs to the ATCase OTCase family",
+    "preferred_name": "pyrB",
+    "ec": [
+      "2.1.3.2"
+    ],
+    "kegg_ko": [
+      "K00609"
+    ],
+    "kegg_pathway": [
+      "map00240",
+      "map00250",
+      "map01100"
+    ],
+    "kegg_module": [
+      "M00051"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004070",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005622",
+      "GO:0005623",
+      "GO:0005737",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006139",
+      "GO:0006220",
+      "GO:0006221",
+      "GO:0006725",
+      "GO:0006753",
+      "GO:0006793",
+      "GO:0006796",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0009058",
+      "GO:0009117",
+      "GO:0009165",
+      "GO:0009218",
+      "GO:0009220",
+      "GO:0009259",
+      "GO:0009260",
+      "GO:0009987",
+      "GO:0016020",
+      "GO:0016740",
+      "GO:0016741",
+      "GO:0016743",
+      "GO:0018130",
+      "GO:0019438",
+      "GO:0019637",
+      "GO:0019693",
+      "GO:0030312",
+      "GO:0034641",
+      "GO:0034654",
+      "GO:0040007",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044249",
+      "GO:0044271",
+      "GO:0044281",
+      "GO:0044424",
+      "GO:0044444",
+      "GO:0044464",
+      "GO:0046390",
+      "GO:0046483",
+      "GO:0055086",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:0072527",
+      "GO:0072528",
+      "GO:0090407",
+      "GO:1901135",
+      "GO:1901137",
+      "GO:1901293",
+      "GO:1901360",
+      "GO:1901362",
+      "GO:1901564",
+      "GO:1901566",
+      "GO:1901576"
+    ],
+    "pfams": [
+      "OTCace",
+      "OTCace_N"
+    ],
+    "seed_ortholog": "419947.MRA_1389",
+    "evalue": "1.95e-221"
+  },
+  "uniprot": {
+    "acc": "P9WIT7",
+    "reviewed": true,
+    "protein_name": "Aspartate carbamoyltransferase catalytic subunit",
+    "ec": [
+      "2.1.3.2"
+    ],
+    "function": "Catalyzes the condensation of carbamoyl phosphate and aspartate to form carbamoyl aspartate and inorganic phosphate, the committed step in the de novo pyrimidine nucleotide biosynthesis pathway",
+    "go": [
+      "GO:0004070",
+      "GO:0005829",
+      "GO:0005886",
+      "GO:0006207",
+      "GO:0006520",
+      "GO:0009274",
+      "GO:0016597",
+      "GO:0044205"
+    ],
+    "kegg": [
+      "mtu:Rv1380",
+      "mtv:RVBD_1380"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 9,
+    "syn": 5,
+    "missense": 4,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.297,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv1380",
+    "n_partners": 87,
+    "n_context_driven": 13,
+    "partners": [
+      {
+        "rv": "Rv1383",
+        "gene": "carA",
+        "product": "carbamoyl-phosphate synthase small subunit",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 900,
+          "cooccurence": 422,
+          "coexpression": 865,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 449
+        }
+      },
+      {
+        "rv": "Rv1381",
+        "gene": "pyrC",
+        "product": "dihydroorotase",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 900,
+          "cooccurence": 771,
+          "coexpression": 958,
+          "experimental": 915,
+          "database": 900,
+          "textmining": 815
+        }
+      },
+      {
+        "rv": "Rv1384",
+        "gene": "carB",
+        "product": "carbamoyl-phosphate synthase large subunit",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 900,
+          "cooccurence": 508,
+          "coexpression": 861,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 860
+        }
+      },
+      {
+        "rv": "Rv1379",
+        "gene": "pyrR",
+        "product": "bifunctional pyrimidine operon regulatory protein/uracil phosphoribosyltransferase",
+        "hypothetical": false,
+        "combined": 998,
+        "combined_no_tm": 997,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 727,
+          "coexpression": 860,
+          "experimental": 444,
+          "database": 0,
+          "textmining": 436
+        }
+      },
+      {
+        "rv": "Rv1385",
+        "gene": "pyrF",
+        "product": "orotidine 5'-phosphate decarboxylase",
+        "hypothetical": false,
+        "combined": 992,
+        "combined_no_tm": 983,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 881,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 859,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 588
+        }
+      },
+      {
+        "rv": "Rv1382",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 981,
+        "combined_no_tm": 975,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 794,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 279
+        }
+      },
+      {
+        "rv": "Rv1416",
+        "gene": "ribH",
+        "product": "6,7-dimethyl-8-ribityllumazine synthase",
+        "hypothetical": false,
+        "combined": 948,
+        "combined_no_tm": 948,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 93,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 945,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0357c",
+        "gene": "purA",
+        "product": "adenylosuccinate synthetase",
+        "hypothetical": false,
+        "combined": 943,
+        "combined_no_tm": 926,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 109,
+          "fusion": 0,
+          "cooccurence": 175,
+          "coexpression": 118,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv2139",
+        "gene": "pyrD",
+        "product": "dihydroorotate dehydrogenase",
+        "hypothetical": false,
+        "combined": 960,
+        "combined_no_tm": 913,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 179,
+          "fusion": 0,
+          "cooccurence": 316,
+          "coexpression": 857,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 571
+        }
+      },
+      {
+        "rv": "Rv2201",
+        "gene": "asnB",
+        "product": "asparagine synthetase",
+        "hypothetical": false,
+        "combined": 922,
+        "combined_no_tm": 910,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 167
+        }
+      },
+      {
+        "rv": "Rv1658",
+        "gene": "argG",
+        "product": "argininosuccinate synthase",
+        "hypothetical": false,
+        "combined": 912,
+        "combined_no_tm": 907,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 60,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 94,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 93
+        }
+      },
+      {
+        "rv": "Rv1595",
+        "gene": "nadB",
+        "product": "L-aspartate oxidase",
+        "hypothetical": false,
+        "combined": 909,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 50,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 112
+        }
+      },
+      {
+        "rv": "Rv1538c",
+        "gene": "ansA",
+        "product": "L-aparaginase",
+        "hypothetical": false,
+        "combined": 906,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 59,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 85
+        }
+      },
+      {
+        "rv": "Rv1656",
+        "gene": "argF",
+        "product": "ornithine carbamoyltransferase",
+        "hypothetical": false,
+        "combined": 861,
+        "combined_no_tm": 840,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 150,
+          "fusion": 0,
+          "cooccurence": 129,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 800,
+          "textmining": 167
+        }
+      },
+      {
+        "rv": "Rv3709c",
+        "gene": "ask",
+        "product": "aspartokinase",
+        "hypothetical": false,
+        "combined": 821,
+        "combined_no_tm": 804,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 53,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 800,
+          "textmining": 126
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1383",
+      "gene": "carA",
+      "product": "carbamoyl-phosphate synthase small subunit",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 900,
+        "cooccurence": 422,
+        "coexpression": 865,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 449
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: aspartate carbamoyltransferase",
+    "MTBC0 PGAP product: aspartate carbamoyltransferase catalytic subunit",
+    "Pfam (hmmscan --cut_ga): OTCace_N PF02729.27 (E=1e-41), OTCace PF00185.31 (E=1e-19)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 92.3,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "6pnz-assembly1_C",
+        "evalue": 8.249e-31,
+        "prob": 1.0,
+        "tmscore": 0.9405,
+        "description": "6pnz-assembly1_C The structure of the Aspartate Transcarbamoylase trimer from Staphylococcus aureus complexed with PALA at 2.27 Resolution.",
+        "significant": true
+      },
+      {
+        "target": "3r7l-assembly2_D",
+        "evalue": 1.72e-29,
+        "prob": 1.0,
+        "tmscore": 0.9461,
+        "description": "3r7l-assembly2_D Crystal Structure of PALA-bound Aspartate Transcarbamoylase from Bacillus subtilis",
+        "significant": true
+      },
+      {
+        "target": "4bjh-assembly1_B",
+        "evalue": 1.543e-28,
+        "prob": 1.0,
+        "tmscore": 0.937,
+        "description": "4bjh-assembly1_B Crystal Structure of the Aquifex Reactor Complex Formed by Dihydroorotase (H180A, H232A) with Dihydroorotate and Aspartate Transcarbamoylase with N-(phosphonacetyl)-L-aspartate (PALA)",
+        "significant": true
+      },
+      {
+        "target": "5g1n-assembly1_D",
+        "evalue": 3.404e-27,
+        "prob": 1.0,
+        "tmscore": 0.869,
+        "description": "5g1n-assembly1_D Aspartate transcarbamoylase domain of human CAD bound to PALA",
+        "significant": true
+      },
+      {
+        "target": "1ml4-assembly1_A",
+        "evalue": 7.945e-26,
+        "prob": 1.0,
+        "tmscore": 0.8655,
+        "description": "1ml4-assembly1_A The PALA-liganded Aspartate transcarbamoylase catalytic subunit from Pyrococcus abyssi",
+        "significant": true
+      },
+      {
+        "target": "1acm-assembly1_A",
+        "evalue": 2.187e-25,
+        "prob": 1.0,
+        "tmscore": 0.8559,
+        "description": "1acm-assembly1_A ARGININE 54 IN THE ACTIVE SITE OF ESCHERICHIA COLI ASPARTATE TRANSCARBAMOYLASE IS CRITICAL FOR CATALYSIS: A SITE-SPECIFIC MUTAGENESIS, NMR AND X-RAY CRYSTALLOGRAPHY STUDY",
+        "significant": true
+      },
+      {
+        "target": "6yw9-assembly1_B",
+        "evalue": 5.379e-25,
+        "prob": 1.0,
+        "tmscore": 0.872,
+        "description": "6yw9-assembly1_B Arabidopsis aspartate transcarbamoylase mutant F161A complex with PALA",
+        "significant": true
+      },
+      {
+        "target": "1xjw-assembly1_A",
+        "evalue": 3.242e-25,
+        "prob": 1.0,
+        "tmscore": 0.8525,
+        "description": "1xjw-assembly1_A The Structure of E. coli Aspartate Transcarbamoylase Q137A Mutant in The R-State",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 318.0,
+    "abundance_rank": 615,
+    "n_ranked": 3519,
+    "abundance_percentile": 82.6,
+    "n_datasets": 14,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 319,
+    "mw_kda": 33.8,
+    "pi": 6.6,
+    "gravy": 0.08,
+    "instability_index": 30.8,
+    "instability_class": "stable",
+    "aromaticity": 0.041,
+    "aliphatic_index": 9940.4,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb1415",
+        "identity": 100.0,
+        "evalue": 3.03e-225
+      },
+      "M. leprae": {
+        "locus": "ML0532",
+        "identity": 89.9,
+        "evalue": 1.47e-197
+      },
+      "M. marinum": {
+        "locus": "MMAR_2195",
+        "identity": 89.4,
+        "evalue": 2.71e-199
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_3043",
+        "identity": 83.9,
+        "evalue": 1.52e-182
+      },
+      "M. orygis": {
+        "locus": "RJtmp_001460",
+        "identity": 100.0,
+        "evalue": 2.84e-225
+      },
+      "M. abscessus": {
+        "locus": "MAB_2831c",
+        "identity": 82.6,
+        "evalue": 7.62e-183
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "+",
+    "left": {
+      "locus": "Rv1379",
+      "gene": "pyrR",
+      "strand": "+",
+      "gap": -4
+    },
+    "right": {
+      "locus": "Rv1381",
+      "gene": "pyrC",
+      "strand": "+",
+      "gap": -4
+    },
+    "operon": [
+      {
+        "locus": "Rv1379",
+        "gene": "pyrR"
+      },
+      {
+        "locus": "Rv1380",
+        "gene": "pyrB"
+      },
+      {
+        "locus": "Rv1381",
+        "gene": "pyrC"
+      },
+      {
+        "locus": "Rv1382",
+        "gene": null
+      },
+      {
+        "locus": "Rv1383",
+        "gene": "carA"
+      },
+      {
+        "locus": "Rv1384",
+        "gene": "carB"
+      },
+      {
+        "locus": "Rv1385",
+        "gene": "pyrF"
+      }
+    ],
+    "operon_size": 7,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {},
+  "mycobrowser": {
+    "legacy_product": "Probable aspartate carbamoyltransferase PyrB (ATCase) (aspartate transcarbamylase)",
+    "legacy_function": "Involved in pyrimidine biosynthesis (second step) [catalytic activity: carbamoyl phosphate + L-aspartate = phosphate + N-carbamoyl-L-aspartate]",
+    "legacy_ec": [
+      "2.1.3.2"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.1.3.2"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "vulnerability": {
+    "vi": -5.581,
+    "ci_low": -6.107,
+    "ci_high": -5.05,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 1,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.372,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 90.0,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 5,
+      "stratum_label": "Bacteria",
+      "deepest_outgroup_clade": "Bacteria",
+      "n_crossgenus_genomes": 13,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Bsubtilis_168",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Ecoli_K12_MG1655",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 60.4,
+      "length_aa": 319,
+      "short_gene_caveat": false,
+      "interpretation": "detected down to outside the phylum (Proteobacteria/Firmicutes controls) — a universally conserved, ancient bacterial gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.0,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 92.3,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  },
+  "prospect": {
+    "strain": "pyrB-TetOn6.1",
+    "gene": "pyrB",
+    "teton_promoter": "6",
+    "baseline_doublings_median": 2.183,
+    "n_screens": 6,
+    "strain_category": "Excluded - noisy growth (conditions with GR>20)",
+    "used_in_pcl": false,
+    "in_hypomorph_panel": true,
+    "source": "Bond AN et al., Nat Commun 2025;16:9673 (doi:10.1038/s41467-025-64662-x); PROSPECT chemical-genetic platform"
+  }
+}

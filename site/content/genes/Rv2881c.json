@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2881c",
+  "mtbc0": "mtbc0_003063",
+  "np_id": "NP_217397.1",
+  "gene": "cdsA",
+  "len_aa": 306,
+  "strand": "-",
+  "start_mtbc0": 3211423,
+  "end_mtbc0": 3212343,
+  "product_h37rv": "phosphatidate cytidylyltransferase",
+  "product_mtbc0_pgap": "phosphatidate cytidylyltransferase",
+  "function_revised": "Phosphatidate cytidylyltransferase. Pfam: CTP_transf_1 (PF01148.26).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MTTNDAGTGNPAEQPARGAKQQPATETSRAGRDLRAAIVVGLSIGLVLIAVLVFVPRVWVAIVAVATLVATHEVVRRLREAGYLIPVIPLLIGGQAAVWLTWPFGAVGALAGFGGMVVVCMIWRLFMQDSVTRPTTGGAPSPGNYLSDVSATVFLAVWVPLFCSFGAMLVYPENGSGWVFCMMIAVIASDVGGYAVGVLFGKHPMVPTISPKKSWEGFAGSLVCGITATIITATFLVGKTPWIGALLGVLFVLTTALGDLVESQVKRDLGIKDMGRLLPGHGGLMDRLDGILPSAVAAWIVLTLLP",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "CTP_transf_1",
+      "pfam_acc": "PF01148.26",
+      "i_evalue": 8.2e-63,
+      "ali_from": 37,
+      "ali_to": 304,
+      "description": "Cytidylyltransferase family"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG4589",
+    "cog_cat": "S",
+    "description": "Belongs to the CDS family",
+    "preferred_name": "cdsA",
+    "ec": [
+      "2.7.7.41"
+    ],
+    "kegg_ko": [
+      "K00981"
+    ],
+    "kegg_pathway": [
+      "map00564",
+      "map01100",
+      "map01110",
+      "map04070"
+    ],
+    "kegg_module": [
+      "M00093"
+    ],
+    "cazy": [],
+    "go": [
+      "GO:0003674",
+      "GO:0003824",
+      "GO:0004605",
+      "GO:0005575",
+      "GO:0005618",
+      "GO:0005623",
+      "GO:0006139",
+      "GO:0006220",
+      "GO:0006221",
+      "GO:0006629",
+      "GO:0006644",
+      "GO:0006650",
+      "GO:0006655",
+      "GO:0006725",
+      "GO:0006753",
+      "GO:0006793",
+      "GO:0006796",
+      "GO:0006807",
+      "GO:0008150",
+      "GO:0008152",
+      "GO:0008610",
+      "GO:0008654",
+      "GO:0009058",
+      "GO:0009117",
+      "GO:0009165",
+      "GO:0009987",
+      "GO:0016020",
+      "GO:0016024",
+      "GO:0016740",
+      "GO:0016772",
+      "GO:0016779",
+      "GO:0018130",
+      "GO:0019438",
+      "GO:0019637",
+      "GO:0030312",
+      "GO:0034641",
+      "GO:0034654",
+      "GO:0040007",
+      "GO:0044237",
+      "GO:0044238",
+      "GO:0044249",
+      "GO:0044255",
+      "GO:0044271",
+      "GO:0044281",
+      "GO:0044464",
+      "GO:0045017",
+      "GO:0046341",
+      "GO:0046471",
+      "GO:0046474",
+      "GO:0046483",
+      "GO:0046486",
+      "GO:0055086",
+      "GO:0070567",
+      "GO:0071704",
+      "GO:0071944",
+      "GO:0072527",
+      "GO:0072528",
+      "GO:0090407",
+      "GO:1901293",
+      "GO:1901360",
+      "GO:1901362",
+      "GO:1901564",
+      "GO:1901566",
+      "GO:1901576"
+    ],
+    "pfams": [
+      "CTP_transf_1"
+    ],
+    "seed_ortholog": "419947.MRA_2906",
+    "evalue": "1.32e-217"
+  },
+  "uniprot": {
+    "acc": "P9WPF7",
+    "reviewed": true,
+    "protein_name": "Phosphatidate cytidylyltransferase",
+    "ec": [
+      "2.7.7.41"
+    ],
+    "function": "Transferase that catalyzes the synthesis of a CDP-diacylglycerol (CDP-DAG), the activated form of a phosphatidate",
+    "go": [
+      "GO:0004605",
+      "GO:0005886",
+      "GO:0009274",
+      "GO:0016024"
+    ],
+    "kegg": [
+      "mtu:Rv2881c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 5,
+    "syn": 3,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.246,
+    "selection": "purifying",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2881c",
+    "n_partners": 71,
+    "n_context_driven": 17,
+    "partners": [
+      {
+        "rv": "Rv2746c",
+        "gene": "pgsA3",
+        "product": "CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase",
+        "hypothetical": false,
+        "combined": 964,
+        "combined_no_tm": 919,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 198,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 574
+        }
+      },
+      {
+        "rv": "Rv0436c",
+        "gene": "pssA",
+        "product": "CDP-diacylglycerol--serine O-phosphatidyltransferase",
+        "hypothetical": false,
+        "combined": 932,
+        "combined_no_tm": 908,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 108,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 304
+        }
+      },
+      {
+        "rv": "Rv2612c",
+        "gene": "pgsA1",
+        "product": "CDP-diacylglycerol--inositol 3-phosphatidyltransferase",
+        "hypothetical": false,
+        "combined": 958,
+        "combined_no_tm": 906,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 67,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 582
+        }
+      },
+      {
+        "rv": "Rv2182c",
+        "gene": "",
+        "product": "1-acylglycerol-3-phosphate O-acyltransferase",
+        "hypothetical": false,
+        "combined": 960,
+        "combined_no_tm": 905,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 72,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 63,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 604
+        }
+      },
+      {
+        "rv": "Rv2252",
+        "gene": "dagK",
+        "product": "diacylglycerol kinase",
+        "hypothetical": false,
+        "combined": 957,
+        "combined_no_tm": 904,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 78,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 573
+        }
+      },
+      {
+        "rv": "Rv1822",
+        "gene": "pgsA2",
+        "product": "CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase",
+        "hypothetical": false,
+        "combined": 931,
+        "combined_no_tm": 904,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 73,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 311
+        }
+      },
+      {
+        "rv": "Rv2289",
+        "gene": "cdh",
+        "product": "CDP-diacylglycerol pyrophosphatase",
+        "hypothetical": false,
+        "combined": 903,
+        "combined_no_tm": 903,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 70,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2883c",
+        "gene": "pyrH",
+        "product": "uridylate kinase",
+        "hypothetical": false,
+        "combined": 901,
+        "combined_no_tm": 870,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 728,
+          "fusion": 0,
+          "cooccurence": 442,
+          "coexpression": 215,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv2882c",
+        "gene": "frr",
+        "product": "ribosome recycling factor",
+        "hypothetical": false,
+        "combined": 883,
+        "combined_no_tm": 868,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 853,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 140,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 149
+        }
+      },
+      {
+        "rv": "Rv1438",
+        "gene": "tpi",
+        "product": "triosephosphate isomerase",
+        "hypothetical": false,
+        "combined": 811,
+        "combined_no_tm": 774,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 83,
+          "fusion": 0,
+          "cooccurence": 238,
+          "coexpression": 703,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 201
+        }
+      },
+      {
+        "rv": "Rv2879c",
+        "gene": "rlmN",
+        "product": "Conserved hypothetical protein; Specifically methylates position 2 of adenine 2503 in 23S rRNA and position 2 of adenine 37 in tRNAs; Belong",
+        "hypothetical": false,
+        "combined": 756,
+        "combined_no_tm": 756,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 744,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 86,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2880c",
+        "gene": "",
+        "product": "Rv2880c, (MTCY274.11c), len: 275 aa. Conserved hypothetical protein, highly similar in N-terminus to others e.g. O86754|SC6A9.22c hypothetic",
+        "hypothetical": false,
+        "combined": 756,
+        "combined_no_tm": 756,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 744,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 85,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2476c",
+        "gene": "gdh",
+        "product": "NAD-dependent glutamate dehydrogenase",
+        "hypothetical": false,
+        "combined": 734,
+        "combined_no_tm": 734,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 734,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0175",
+        "gene": "",
+        "product": "Mce associated membrane protein",
+        "hypothetical": false,
+        "combined": 731,
+        "combined_no_tm": 731,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 731,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2361c",
+        "gene": "uppS",
+        "product": "decaprenyl diphosphate synthase",
+        "hypothetical": false,
+        "combined": 826,
+        "combined_no_tm": 730,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 158,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 693,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 381
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2883c",
+      "gene": "pyrH",
+      "product": "uridylate kinase",
+      "combined_no_tm": 870,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 728,
+        "fusion": 0,
+        "cooccurence": 442,
+        "coexpression": 215,
+        "experimental": 0,
+        "database": 0,
+        "textmining": 266
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: phosphatidate cytidylyltransferase",
+    "MTBC0 PGAP product: phosphatidate cytidylyltransferase",
+    "Pfam (hmmscan --cut_ga): CTP_transf_1 PF01148.26 (E=8e-63)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "ES",
+    "essential": true,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 81.5,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4q2g-assembly1_A",
+        "evalue": 2.671e-07,
+        "prob": 1.0,
+        "tmscore": 0.8019,
+        "description": "4q2g-assembly1_A CRYSTAL STRUCTURE OF AN INTRAMEMBRANE CDP-DAG SYNTHETASE CENTRAL FOR PHOSPHOLIPID BIOSYNTHESIS (S200C/S223C, inactive mutant)",
+        "significant": true
+      },
+      {
+        "target": "4q2e-assembly1_A",
+        "evalue": 1.376e-06,
+        "prob": 1.0,
+        "tmscore": 0.8057,
+        "description": "4q2e-assembly1_A CRYSTAL STRUCTURE OF AN INTRAMEMBRANE CDP-DAG SYNTHETASE CENTRAL FOR PHOSPHOLIPID BIOSYNTHESIS (S200C/S258C, active mutant)",
+        "significant": true
+      },
+      {
+        "target": "7ytb-assembly1_B",
+        "evalue": 1.422,
+        "prob": 0.138,
+        "tmscore": 0.2548,
+        "description": "7ytb-assembly1_B Crystal structure of Kin4B8",
+        "significant": false
+      },
+      {
+        "target": "3aq0-assembly4_H",
+        "evalue": 3.227,
+        "prob": 0.057,
+        "tmscore": 0.2025,
+        "description": "3aq0-assembly4_H Ligand-bound form of Arabidopsis medium/long-chain length prenyl pyrophosphate synthase (surface polar residue mutant)",
+        "significant": false
+      },
+      {
+        "target": "6r37-assembly1_A-2",
+        "evalue": 9.489,
+        "prob": 0.024,
+        "tmscore": 0.2011,
+        "description": "6r37-assembly1_A-2 T. brucei FPPS in complex with 2-(5-chlorobenzo[b]thiophen-3-yl)acetic acid",
+        "significant": false
+      },
+      {
+        "target": "4q4a-assembly1_B",
+        "evalue": 7.325,
+        "prob": 0.024,
+        "tmscore": 0.1662,
+        "description": "4q4a-assembly1_B Improved model of AMP-PNP bound TM287/288",
+        "significant": false
+      },
+      {
+        "target": "8ykx-assembly1_R",
+        "evalue": 9.489,
+        "prob": 0.016,
+        "tmscore": 0.1712,
+        "description": "8ykx-assembly1_R Cryo-EM structure of succinate receptor SUCR1 bound to maleic acid",
+        "significant": false
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "TM",
+    "tm_helices": 9,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted membrane protein (9 TM helixes)"
+  },
+  "proteomics": {
+    "detected": true,
+    "abundance_ppm": 35.9,
+    "abundance_rank": 1978,
+    "n_ranked": 3519,
+    "abundance_percentile": 43.8,
+    "n_datasets": 10,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 306,
+    "mw_kda": 32.0,
+    "pi": 8.75,
+    "gravy": 0.743,
+    "instability_index": 28.4,
+    "instability_class": "stable",
+    "aromaticity": 0.082,
+    "aliphatic_index": 11562.1,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "lipid metabolism",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2905c",
+        "identity": 99.7,
+        "evalue": 1.19e-220
+      },
+      "M. leprae": {
+        "locus": "ML1589c",
+        "identity": 70.5,
+        "evalue": 1.04e-152
+      },
+      "M. marinum": {
+        "locus": "MMAR_1828",
+        "identity": 75.4,
+        "evalue": 1.3e-162
+      },
+      "M. smegmatis": {
+        "locus": "MSMEG_2543",
+        "identity": 65.1,
+        "evalue": 3.19e-130
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002972",
+        "identity": 99.7,
+        "evalue": 1.11e-220
+      },
+      "M. abscessus": {
+        "locus": "MAB_3186c",
+        "identity": 59.6,
+        "evalue": 1.92e-117
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2878c",
+      "gene": "mpt53",
+      "strand": "-",
+      "gap": 1303
+    },
+    "right": {
+      "locus": "Rv2882c",
+      "gene": "frr",
+      "strand": "-",
+      "gap": 22
+    },
+    "operon": [
+      {
+        "locus": "Rv2881c",
+        "gene": "cdsA"
+      },
+      {
+        "locus": "Rv2882c",
+        "gene": "frr"
+      }
+    ],
+    "operon_size": 2,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0023",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv1353c",
+        "tf_gene": null,
+        "effect": "activates"
+      }
+    ],
+    "n_regulators": 2,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Probable integral membrane phosphatidate cytidylyltransferase CdsA (CDP-diglyceride synthetase) (CDP-diglyceride pyrophosphorylase) (CDP-diacylglycerol synthase) (CDS) (CTP:phosphatidate cytidylyltransferase) (CDP-DAG synthase) (CDP-DG synthetase)",
+    "legacy_function": "Involved in the phospholipid biosynthesis [catalytic activity: CTP + phosphatidate = pyrophosphate + CDP-diacylglycerol].",
+    "legacy_ec": [
+      "2.7.7.41"
+    ],
+    "conserved_hypothetical": false,
+    "atlas_ahead": false,
+    "ahead_via": [],
+    "ec_status": "agree",
+    "atlas_ec": [
+      "2.7.7.41"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "ptm": {
+    "n_sites": 1,
+    "n_phospho": 0,
+    "sites": [
+      {
+        "pos": 2,
+        "type": "N-acetylthreonine"
+      }
+    ],
+    "note": "Experimentally reported post-translational modification(s). A phosphosite indicates the protein is expressed and is a substrate of the M. tuberculosis Ser/Thr/Tyr kinase signalling network — a regulatory context, NOT a molecular function.",
+    "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+    "reference": {
+      "source": "UniProt (Modified residue features; PTM sites curated from the M. tuberculosis literature)",
+      "db": "UniProtKB",
+      "url": "https://www.uniprot.org"
+    }
+  },
+  "vulnerability": {
+    "vi": -4.446,
+    "ci_low": -4.823,
+    "ci_high": -4.054,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "ntm": {
+      "n_present": 53,
+      "n_total": 53,
+      "frac": 1.0,
+      "in_mtbap": 4,
+      "in_mkc": 6,
+      "mean_pident": 71.8,
+      "classification": "genus-core",
+      "species_present": [
+        "M_asiaticum",
+        "M_attenuatum",
+        "M_avium",
+        "M_basiliense",
+        "M_bouchedurhonense",
+        "M_celatum",
+        "M_colombiense",
+        "M_cookii",
+        "M_decipiens",
+        "M_europaeum",
+        "M_florentinum",
+        "M_gallinarum",
+        "M_genavense",
+        "M_gordonae",
+        "M_hackensackense",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_interjectum",
+        "M_intracellulare",
+        "M_kansasii",
+        "M_kyorinense",
+        "M_lacus",
+        "M_lentiflavum",
+        "M_leprae",
+        "M_lepromatosis",
+        "M_liflandii",
+        "M_malmoense",
+        "M_mantenii",
+        "M_marinum",
+        "M_marseillense",
+        "M_montefiorense",
+        "M_paraffinicum",
+        "M_paragordonae",
+        "M_paraintracellulare",
+        "M_paraseoulense",
+        "M_persicum",
+        "M_pseudokansasii",
+        "M_pseudoshottsii",
+        "M_riyadhense",
+        "M_saskatchewanense",
+        "M_scrofulaceum",
+        "M_seoulense",
+        "M_shigaense",
+        "M_shimoidei",
+        "M_shinjukuense",
+        "M_simiae",
+        "M_spongiae",
+        "M_syngnathidarum",
+        "M_szulgai",
+        "M_timonense",
+        "M_triplex",
+        "M_ulcerans",
+        "M_xenopi"
+      ],
+      "interpretation": "conserved across the genus (present in 53/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 4,
+      "stratum_label": "Actinomycetia",
+      "deepest_outgroup_clade": "Actinomycetia",
+      "n_crossgenus_genomes": 11,
+      "crossgenus_genomes": [
+        "Blongum_NCC2705",
+        "Cacnes_KPA171202",
+        "Cdiphtheriae_NCTC13129",
+        "Cglutamicum_ATCC13032",
+        "Gbronchialis_DSM43247",
+        "Mabscessus_ATCC19977",
+        "Mluteus_NCTC2665",
+        "Nfarcinica_IFM10152",
+        "Rjostii_RHA1",
+        "Scoelicolor_A3-2",
+        "Tpaurometabola_DSM20162"
+      ],
+      "mean_pident": 47.5,
+      "length_aa": 306,
+      "short_gene_caveat": false,
+      "interpretation": "detected across the class Actinomycetia (beyond Corynebacteriales) but not outside the phylum — an Actinobacteria-level ancient gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 0,
+    "category": "unstudied",
+    "category_label": "no publication mentions this gene",
+    "summary": "No publication mentions this gene in its title or abstract — not under its H37Rv locus tag, not under its gene name, and not under any ortholog identifier. Its annotation rests on sequence/structure evidence, with no primary study behind it.",
+    "papers": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.105,
+    "classification": "ordered",
+    "n_idr": 1,
+    "longest_idr": 31,
+    "total_idr_residues": 31,
+    "idr_regions": [
+      [
+        0,
+        31
+      ]
+    ],
+    "mean_plddt": 81.5,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}

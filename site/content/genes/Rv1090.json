@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "rv": "Rv1090",
+  "gene": "celA2b",
+  "len_aa": 151,
+  "strand": "+",
+  "start_mtbc0": 1215599,
+  "end_mtbc0": 1216054,
+  "product_h37rv": "Probable cellulase CelA2b (endo-1,4-beta-glucanase) (endoglucanase) (carboxymethyl cellulase)",
+  "function_revised": "The biological conversion of cellulose to glucose generally requires three types of hydrolytic enzymes: (1) endoglucanases which cut internal beta-1,4-glucosidic bonds; (2) exocellobiohydrolases that cut the dissaccharide cellobiose from the nonreducing end of the cellulose polymer chain; (3) beta-1,4-glucosidases which hydrolyze the cellobiose and other short cello-oligosaccharides to glucose [catalytic activity:endohydrolysis of 1,4-beta-D-glucosidic linkages in cellulose].",
+  "verdict": "family_assigned",
+  "confidence": "low",
+  "auto": true,
+  "needs_review": true,
+  "protein_mtbc0": "VGTNLPTEVGQILSAPTSIDYNYPTTGVWDASYDICLDSTPKTTGVNQQEIMIWFNHQGSIQPVGSPVGNTTIEGKNFVVWDGSNGMNNAMAYVATEPIEVWSFDVMSFVDHTATMEPITDSWYLTSIRAGLEPWSDGVGLGVDSFSAKVN",
+  "is_hypothetical": false,
+  "curation_note": "Added P16.5d: Mycobrowser-annotated gene absent from RefSeq NC_000962.3 (the atlas' original 3906-CDS reference). Foundation record from the Mycobrowser release + translated H37Rv sequence; heavy enrichment layers (structure, orthology, conservation, interaction) pending.",
+  "mycobrowser": {
+    "legacy_product": "Probable cellulase CelA2b (endo-1,4-beta-glucanase) (endoglucanase) (carboxymethyl cellulase)",
+    "legacy_function": "The biological conversion of cellulose to glucose generally requires three types of hydrolytic enzymes: (1) endoglucanases which cut internal beta-1,4-glucosidic bonds; (2) exocellobiohydrolases that cut the dissaccharide cellobiose from the nonreducing end of the cellulose polymer chain; (3) beta-1,4-glucosidases which hydrolyze the cellobiose and other short cello-oligosaccharides to glucose [catalytic activity:endohydrolysis of 1,4-beta-D-glucosidic linkages in cellulose].",
+    "legacy_ec": "3.2.1.4",
+    "functional_category": "intermediary metabolism and respiration",
+    "comments": "Rv1090, (MTV017.43), len: 151 aa. Probable celA2b, second part of cellulase (endoglucanase), similar to C-terminus of others e.g. O08468 cellulase CEL2 from Streptomyces halstedi (377 aa), FASTA scores: opt: 554, E(): 1.2e-30, (52.0% identity in 152 aa overlap); etc. Gene appears to have been inactivated by frameshift mutations but no errors could be found that would account for this. This region is a possible MT-complex-specific genomic island (See Becq et al., 2007).",
+    "uniprot_ac": "O53438",
+    "go": "GO:0000272,GO:0008810",
+    "source": "Mycobrowser release 5 (H37Rv)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal",
+        "journal": "Tuberculosis 91:8-13"
+      }
+    ]
+  },
+  "funccat": {
+    "category": "intermediary metabolism and respiration",
+    "source": "TubercuList functional category (via Mycobrowser release 5)"
+  },
+  "protparam": {
+    "length_aa": 151,
+    "mw_kda": 16.4,
+    "pi": 4.05,
+    "gravy": -0.113,
+    "instability_index": 35.6,
+    "instability_class": "stable",
+    "aromaticity": 0.106,
+    "source": "Biopython ProtParam (ExPASy method)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server"
+      }
+    ]
+  },
+  "uniprot": {
+    "acc": "O53438",
+    "reviewed": true,
+    "protein_name": "Probable cellulase Cel12b",
+    "ec": [
+      "3.2.1.-"
+    ],
+    "function": "Probable cellulase (PubMed:20826214). Can hydrolyze barley beta-glucan in vitro (PubMed:20826214). Could be important for the survival of M.tuberculosis in the environment, perhaps in amoebal hosts (PubMed:20826214)",
+    "go": [
+      "GO:0008810",
+      "GO:0051275"
+    ],
+    "kegg": [
+      "mtv:RVBD_1090"
+    ],
+    "protein_existence": "1: Evidence at protein level",
+    "source": "UniProt REST API (curated)",
+    "refs": [
+      {
+        "authors": "The UniProt Consortium",
+        "year": 2023,
+        "title": "UniProt: the Universal Protein Knowledgebase in 2023",
+        "journal": "Nucleic Acids Res 51:D523-D531"
+      }
+    ]
+  },
+  "eggnog": {
+    "og": "COG5297",
+    "cog_cat": "G",
+    "description": "Belongs to the glycosyl hydrolase 12 (cellulase H) family",
+    "preferred_name": "celA1",
+    "ec": [
+      "3.2.1.4"
+    ],
+    "kegg_ko": [
+      "ko:K01179"
+    ],
+    "kegg_pathway": [
+      "ko00500",
+      "ko01100",
+      "map00500",
+      "map01100"
+    ],
+    "kegg_module": [],
+    "cazy": [
+      "GH5",
+      "GH9"
+    ],
+    "go": [],
+    "source": "eggNOG-mapper v2 (diamond), eggNOG 5.0",
+    "refs": [
+      {
+        "authors": "Cantalapiedra CP, Hernández-Plaza A, Letunic I, Bork P, Huerta-Cepas J",
+        "year": 2021,
+        "title": "eggNOG-mapper v2",
+        "journal": "Mol Biol Evol 38:5825-5829"
+      }
+    ]
+  },
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "mutant_phenotypes": {},
+  "genomic_context": {},
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv0023",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0465c",
+        "tf_gene": "ramB",
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv0474",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv0691c",
+        "tf_gene": "mftR",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv2011c",
+        "tf_gene": null,
+        "effect": "represses"
+      },
+      {
+        "tf": "Rv3849",
+        "tf_gene": "espR",
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 6,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "rd": {},
+  "resistance": {},
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 4,
+    "syn": 1,
+    "missense": 2,
+    "nonsense": 1,
+    "frameshift": 0,
+    "pN_pS": 0.864,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 1,
+    "disrupt_mode": "clonal",
+    "disrupt_strains": 375,
+    "disrupt_frac": 0.0026,
+    "pseudogene_flag": false
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "string": {
+    "string_id": "83332.Rv1090",
+    "n_partners": 30,
+    "n_context_driven": 10,
+    "partners": [
+      {
+        "rv": "Rv1089A",
+        "gene": "celA2a",
+        "product": "Rv1089A, len: 34 aa. Probable celA2a, first part of cellulase (endoglucanase), similar to N-terminus of others. This region is a possible MT",
+        "hypothetical": false,
+        "combined": 991,
+        "combined_no_tm": 978,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 773,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 100,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 653
+        }
+      },
+      {
+        "rv": "Rv0062",
+        "gene": "celA1",
+        "product": "cellulase CelA",
+        "hypothetical": false,
+        "combined": 972,
+        "combined_no_tm": 942,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 441,
+          "coexpression": 47,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 547
+        }
+      },
+      {
+        "rv": "Rv0186",
+        "gene": "bglS",
+        "product": "beta-glucosidase BglS",
+        "hypothetical": false,
+        "combined": 981,
+        "combined_no_tm": 902,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 53,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 900,
+          "textmining": 819
+        }
+      },
+      {
+        "rv": "Rv0888",
+        "gene": "spmT",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 687,
+        "combined_no_tm": 687,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 685,
+          "coexpression": 43,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0330c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 584,
+        "combined_no_tm": 585,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 581,
+          "coexpression": 50,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2159c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 565,
+        "combined_no_tm": 565,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 565,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1907c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 539,
+        "combined_no_tm": 539,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 538,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2775",
+        "gene": "",
+        "product": "GCN5-like N-acetyltransferase",
+        "hypothetical": false,
+        "combined": 519,
+        "combined_no_tm": 519,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 519,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv1084",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 591,
+        "combined_no_tm": 498,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 46,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 122,
+          "experimental": 449,
+          "database": 0,
+          "textmining": 220
+        }
+      },
+      {
+        "rv": "Rv0093c",
+        "gene": "",
+        "product": "membrane protein",
+        "hypothetical": false,
+        "combined": 478,
+        "combined_no_tm": 479,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 476,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0941c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 468,
+        "combined_no_tm": 469,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 468,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0518",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 459,
+        "combined_no_tm": 428,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 69,
+          "experimental": 392,
+          "database": 0,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv1075c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 459,
+        "combined_no_tm": 428,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 69,
+          "experimental": 392,
+          "database": 0,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv2418c",
+        "gene": "octT",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 458,
+        "combined_no_tm": 426,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 71,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 66,
+          "experimental": 392,
+          "database": 0,
+          "textmining": 94
+        }
+      },
+      {
+        "rv": "Rv3903c",
+        "gene": "cpnT",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 446,
+        "combined_no_tm": 420,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 70,
+          "fusion": 0,
+          "cooccurence": 150,
+          "coexpression": 86,
+          "experimental": 292,
+          "database": 0,
+          "textmining": 86
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv1089A",
+      "gene": "celA2a",
+      "product": "Rv1089A, len: 34 aa. Probable celA2a, first part of cellulase (endoglucanase), similar to N-terminus of others. This region is a possible MT",
+      "combined_no_tm": 978,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 773,
+        "fusion": 0,
+        "cooccurence": 0,
+        "coexpression": 100,
+        "experimental": 0,
+        "database": 900,
+        "textmining": 653
+      }
+    }
+  },
+  "plddt_af": {
+    "mean_plddt": 96.1,
+    "band": "very high",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "1oa4-assembly1_A",
+        "evalue": 1.831e-18,
+        "prob": 1.0,
+        "tmscore": 0.9834,
+        "description": "1oa4-assembly1_A Comparison of Family 12 Glycoside Hydrolases and Recruited Substitutions Important for Thermal Stability",
+        "significant": true
+      },
+      {
+        "target": "1nlr-assembly1_A",
+        "evalue": 2.805e-17,
+        "prob": 1.0,
+        "tmscore": 0.9811,
+        "description": "1nlr-assembly1_A ENDO-1,4-BETA-GLUCANASE CELB2, CELLULASE, NATIVE STRUCTURE",
+        "significant": true
+      },
+      {
+        "target": "7mkr-assembly1_AAA",
+        "evalue": 5.588e-13,
+        "prob": 1.0,
+        "tmscore": 0.9291,
+        "description": "7mkr-assembly1_AAA Crystal structure of the GH12 domain from Acidothermus cellulolyticus GuxA",
+        "significant": true
+      },
+      {
+        "target": "7mks-assembly1_AAA",
+        "evalue": 9.045e-13,
+        "prob": 1.0,
+        "tmscore": 0.9289,
+        "description": "7mks-assembly1_AAA Crystal structure of the GH12 domain from Acidothermus cellulolyticus GuxA bound to cellobiose",
+        "significant": true
+      },
+      {
+        "target": "5m2d-assembly2_B",
+        "evalue": 8.573e-13,
+        "prob": 1.0,
+        "tmscore": 0.894,
+        "description": "5m2d-assembly2_B CRYSTAL STRUCTURE 4Ac Endoglucanase-like protein from Acremonium chrysogenum",
+        "significant": true
+      },
+      {
+        "target": "3b7m-assembly1_A",
+        "evalue": 4.751e-12,
+        "prob": 1.0,
+        "tmscore": 0.9104,
+        "description": "3b7m-assembly1_A Crystal structure of a meso-active thermo-stable cellulase (MT Cel12A) derived by making non-contiguous mutations in the active surface of the Cel12A cellulase of Rhodothermus marinus",
+        "significant": true
+      },
+      {
+        "target": "1oa2-assembly6_F",
+        "evalue": 2.018e-12,
+        "prob": 1.0,
+        "tmscore": 0.8961,
+        "description": "1oa2-assembly6_F Comparison of Family 12 Glycoside Hydrolases and Recruited Substitutions Important for Thermal Stability",
+        "significant": true
+      },
+      {
+        "target": "4h7m-assembly2_B",
+        "evalue": 1.913e-12,
+        "prob": 1.0,
+        "tmscore": 0.8925,
+        "description": "4h7m-assembly2_B The X-ray Crystal Structure of the Trichoderma harzianum Endoglucanase 3 from family GH12",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "domains": [
+    {
+      "source": "UniProt (Pfam xref)",
+      "pfam_acc": "PF01670",
+      "pfam_name": "Glyco_hydro_12",
+      "description": "Glyco_hydro_12",
+      "n_matches": "1"
+    }
+  ]
+}

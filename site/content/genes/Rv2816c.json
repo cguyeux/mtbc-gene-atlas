@@ -1,0 +1,874 @@
+{
+  "schema_version": 1,
+  "rv": "Rv2816c",
+  "mtbc0": "mtbc0_002994",
+  "np_id": "NP_217332.1",
+  "gene": "cas2",
+  "len_aa": 113,
+  "strand": "-",
+  "start_mtbc0": 3144282,
+  "end_mtbc0": 3144623,
+  "product_h37rv": "CRISPR-associated endoribonuclease Cas2",
+  "product_mtbc0_pgap": "CRISPR-associated endonuclease Cas2",
+  "function_revised": "CRISPR-associated endonuclease Cas2. Pfam: CRISPR_Cas2 (PF09827.15).",
+  "verdict": "requalified",
+  "confidence": "high",
+  "auto": true,
+  "needs_review": false,
+  "protein_mtbc0": "MPTRSREEYFNLPLKVDESSGTIGKMFVLVIYDISDNRRRASLAKILAGFGYRVQESAFEAMLTKGQLAKLVARIDRFAIDCDNIRIYKIRGVAAVTFYGRGRLVSAEEFVFF",
+  "domains": [
+    {
+      "source": "pfam",
+      "pfam_name": "CRISPR_Cas2",
+      "pfam_acc": "PF09827.15",
+      "i_evalue": 7.3e-18,
+      "ali_from": 26,
+      "ali_to": 91,
+      "description": "CRISPR associated protein Cas2"
+    }
+  ],
+  "struct_hits": [],
+  "eggnog": {
+    "og": "COG1343",
+    "cog_cat": "L",
+    "description": "CRISPR (clustered regularly interspaced short palindromic repeat), is an adaptive immune system that provides protection against mobile genetic elements (viruses, transposable elements and conjugative plasmids). CRISPR clusters contain sequences complementary to antecedent mobile elements and target invading nucleic acids. CRISPR clusters are transcribed and processed into CRISPR RNA (crRNA). Functions as a ssRNA-specific endoribonuclease. Involved in the integration of spacer DNA into the CRISPR cassette",
+    "preferred_name": "cas2",
+    "ec": [],
+    "kegg_ko": [
+      "K09951"
+    ],
+    "kegg_pathway": [],
+    "kegg_module": [],
+    "cazy": [],
+    "go": [],
+    "pfams": [
+      "CRISPR_Cas2"
+    ],
+    "seed_ortholog": "419947.MRA_2840",
+    "evalue": "2.86e-74"
+  },
+  "uniprot": {
+    "acc": "P9WPJ3",
+    "reviewed": true,
+    "protein_name": "CRISPR-associated endoribonuclease Cas2",
+    "ec": [
+      "3.1.-.-"
+    ],
+    "function": "CRISPR (clustered regularly interspaced short palindromic repeat) is an adaptive immune system that provides protection against mobile genetic elements (viruses, transposable elements and conjugative plasmids). CRISPR clusters contain spacers, sequences complementary to antecedent mobile elements, and target invading nucleic acids. CRISPR clusters are transcribed and processed into CRISPR RNA (crRNA). The type III-A Csm effector complex binds crRNA and acts as a crRNA-guided RNase, DNase and cyclic oligoadenylate synthase; binding of target RNA cognate to the crRNA is required for all activiti",
+    "go": [
+      "GO:0004521",
+      "GO:0016787",
+      "GO:0043571",
+      "GO:0046872",
+      "GO:0051607"
+    ],
+    "kegg": [
+      "mtu:Rv2816c",
+      "mtv:RVBD_2816c"
+    ],
+    "evidence": "Evidence at protein level"
+  },
+  "conservation": {
+    "n_strains": 145209,
+    "snp_sites": 3,
+    "syn": 1,
+    "missense": 2,
+    "nonsense": 0,
+    "frameshift": 0,
+    "pN_pS": 0.617,
+    "selection": "relaxed/neutral",
+    "disrupt_sites": 0,
+    "disrupt_mode": "",
+    "disrupt_strains": 0,
+    "disrupt_frac": 0.0,
+    "pseudogene_flag": false
+  },
+  "plddt": {},
+  "string": {
+    "string_id": "83332.Rv2816c",
+    "n_partners": 25,
+    "n_context_driven": 12,
+    "partners": [
+      {
+        "rv": "Rv2817c",
+        "gene": "cas1",
+        "product": "CRISPR-associated endonuclease Cas1",
+        "hypothetical": false,
+        "combined": 999,
+        "combined_no_tm": 1000,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 882,
+          "fusion": 0,
+          "cooccurence": 646,
+          "coexpression": 865,
+          "experimental": 928,
+          "database": 0,
+          "textmining": 266
+        }
+      },
+      {
+        "rv": "Rv2823c",
+        "gene": "cas10",
+        "product": "CRISPR-associated protein Cas10/Csm1",
+        "hypothetical": false,
+        "combined": 972,
+        "combined_no_tm": 874,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 559,
+          "fusion": 0,
+          "cooccurence": 727,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 790
+        }
+      },
+      {
+        "rv": "Rv2821c",
+        "gene": "csm3",
+        "product": "CRISPR type III-associated RAMP protein Csm3",
+        "hypothetical": false,
+        "combined": 933,
+        "combined_no_tm": 862,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 559,
+          "fusion": 0,
+          "cooccurence": 699,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 538
+        }
+      },
+      {
+        "rv": "Rv2820c",
+        "gene": "csm4",
+        "product": "CRISPR type III-associated RAMP protein Csm4",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 859,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 559,
+          "fusion": 0,
+          "cooccurence": 694,
+          "coexpression": 42,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 491
+        }
+      },
+      {
+        "rv": "Rv2824c",
+        "gene": "cas6",
+        "product": "CRISPR-associated endoribonuclease Cas6",
+        "hypothetical": false,
+        "combined": 969,
+        "combined_no_tm": 851,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 570,
+          "fusion": 0,
+          "cooccurence": 668,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 806
+        }
+      },
+      {
+        "rv": "Rv2819c",
+        "gene": "csm5",
+        "product": "CRISPR type III-associated RAMP protein Csm5",
+        "hypothetical": false,
+        "combined": 920,
+        "combined_no_tm": 851,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 559,
+          "fusion": 0,
+          "cooccurence": 675,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 489
+        }
+      },
+      {
+        "rv": "Rv2822c",
+        "gene": "csm2",
+        "product": "CRISPR type III-associated protein Csm2",
+        "hypothetical": false,
+        "combined": 961,
+        "combined_no_tm": 848,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 559,
+          "fusion": 0,
+          "cooccurence": 670,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 759
+        }
+      },
+      {
+        "rv": "Rv0071",
+        "gene": "",
+        "product": "maturase",
+        "hypothetical": false,
+        "combined": 819,
+        "combined_no_tm": 806,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 114,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 790,
+          "database": 0,
+          "textmining": 109
+        }
+      },
+      {
+        "rv": "Rv2818c",
+        "gene": "csm6",
+        "product": "CRISPR-associated protein Csm6",
+        "hypothetical": false,
+        "combined": 925,
+        "combined_no_tm": 775,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 775,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 680
+        }
+      },
+      {
+        "rv": "Rv2825c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 464,
+        "combined_no_tm": 463,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 334,
+          "fusion": 0,
+          "cooccurence": 225,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2949c",
+        "gene": "",
+        "product": "chorismate pyruvate-lyase",
+        "hypothetical": false,
+        "combined": 456,
+        "combined_no_tm": 457,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 454,
+          "coexpression": 46,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv2986c",
+        "gene": "hupB",
+        "product": "DNA-binding protein HU",
+        "hypothetical": false,
+        "combined": 447,
+        "combined_no_tm": 425,
+        "context_driven": false,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 0,
+          "coexpression": 50,
+          "experimental": 420,
+          "database": 0,
+          "textmining": 78
+        }
+      },
+      {
+        "rv": "Rv2337c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 416,
+        "combined_no_tm": 416,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 56,
+          "fusion": 0,
+          "cooccurence": 407,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv0355c",
+        "gene": "PPE8",
+        "product": "PPE family protein PPE8",
+        "hypothetical": false,
+        "combined": 415,
+        "combined_no_tm": 416,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 414,
+          "coexpression": 44,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      },
+      {
+        "rv": "Rv3403c",
+        "gene": "",
+        "product": "hypothetical protein",
+        "hypothetical": true,
+        "combined": 414,
+        "combined_no_tm": 414,
+        "context_driven": true,
+        "channels": {
+          "neighborhood": 0,
+          "fusion": 0,
+          "cooccurence": 414,
+          "coexpression": 0,
+          "experimental": 0,
+          "database": 0,
+          "textmining": 0
+        }
+      }
+    ],
+    "anchor": {
+      "rv": "Rv2817c",
+      "gene": "cas1",
+      "product": "CRISPR-associated endonuclease Cas1",
+      "combined_no_tm": 1000,
+      "confidence": "high",
+      "channels": {
+        "neighborhood": 882,
+        "fusion": 0,
+        "cooccurence": 646,
+        "coexpression": 865,
+        "experimental": 928,
+        "database": 0,
+        "textmining": 266
+      }
+    }
+  },
+  "esm": {
+    "protein_hash": null,
+    "mean_plddt": null,
+    "n_homologs": 0,
+    "max_similarity": null,
+    "top_sae_features": []
+  },
+  "evidence": [
+    "Legacy H37Rv annotation: CRISPR-associated endoribonuclease Cas2",
+    "MTBC0 PGAP product: CRISPR-associated endonuclease Cas2",
+    "Pfam (hmmscan --cut_ga): CRISPR_Cas2 PF09827.15 (E=7e-18)",
+    "(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)"
+  ],
+  "references": [],
+  "essentiality": {
+    "dejesus2017": "NE",
+    "essential": false,
+    "cholesterol_required": false,
+    "refs": [
+      {
+        "authors": "DeJesus MA, Gerrick ER, Xu W, et al.",
+        "year": 2017,
+        "title": "Comprehensive Essentiality Analysis of the Mycobacterium tuberculosis Genome via Saturating Transposon Mutagenesis",
+        "journal": "mBio",
+        "doi": "10.1128/mBio.02133-16"
+      },
+      {
+        "authors": "Griffin JE, Gawronski JD, DeJesus MA, Ioerger TR, Akerley BJ, Sassetti CM",
+        "year": 2011,
+        "title": "High-resolution phenotypic profiling defines genes essential for mycobacterial growth and cholesterol catabolism",
+        "journal": "PLoS Pathogens",
+        "doi": "10.1371/journal.ppat.1002251"
+      }
+    ]
+  },
+  "plddt_af": {
+    "mean_plddt": 79.1,
+    "band": "confident",
+    "source": "AlphaFold DB v6"
+  },
+  "struct_af": {
+    "hits": [
+      {
+        "target": "4es3-assembly1_A-2",
+        "evalue": 3.415e-06,
+        "prob": 1.0,
+        "tmscore": 0.8541,
+        "description": "4es3-assembly1_A-2 Double-stranded Endonuclease Activity in B. halodurans Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-associated Cas2 Protein",
+        "significant": true
+      },
+      {
+        "target": "1zpw-assembly1_X",
+        "evalue": 6.051e-06,
+        "prob": 1.0,
+        "tmscore": 0.85,
+        "description": "1zpw-assembly1_X Crystal structure of a hypothetical protein TT1823 from Thermus thermophilus",
+        "significant": true
+      },
+      {
+        "target": "4es1-assembly1_A-2",
+        "evalue": 6.448e-06,
+        "prob": 1.0,
+        "tmscore": 0.842,
+        "description": "4es1-assembly1_A-2 Double-stranded Endonuclease Activity in B. halodurans Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-associated Cas2 Protein",
+        "significant": true
+      },
+      {
+        "target": "4es2-assembly1_A-2",
+        "evalue": 1.57e-05,
+        "prob": 1.0,
+        "tmscore": 0.874,
+        "description": "4es2-assembly1_A-2 Double-stranded Endonuclease Activity in B. halodurans Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-associated Cas2 Protein",
+        "significant": true
+      },
+      {
+        "target": "6k2e-assembly1_B",
+        "evalue": 7.217e-05,
+        "prob": 1.0,
+        "tmscore": 0.9045,
+        "description": "6k2e-assembly1_B Crystal structure of cas2",
+        "significant": true
+      },
+      {
+        "target": "7f84-assembly1_B",
+        "evalue": 1.382e-05,
+        "prob": 1.0,
+        "tmscore": 0.7817,
+        "description": "7f84-assembly1_B Crystal structure of CRISPR-associated Cas2c of Leptospira interrogans",
+        "significant": true
+      },
+      {
+        "target": "8d3q-assembly1_F",
+        "evalue": 1.142e-05,
+        "prob": 1.0,
+        "tmscore": 0.7397,
+        "description": "8d3q-assembly1_F Type I-C Cas4-Cas1-Cas2 complex bound to a PAM/NoPAM prespacer",
+        "significant": true
+      },
+      {
+        "target": "3oq2-assembly1_B",
+        "evalue": 2.964e-05,
+        "prob": 1.0,
+        "tmscore": 0.7901,
+        "description": "3oq2-assembly1_B Structure of a CRISPR associated protein Cas2 from Desulfovibrio vulgaris",
+        "significant": true
+      }
+    ],
+    "plddt_gated": true
+  },
+  "localization": {
+    "method": "DeepTMHMM",
+    "type": "GLOB",
+    "tm_helices": 0,
+    "signal_peptide": false,
+    "lipoprotein": false,
+    "lipobox_cys": null,
+    "prediction": "predicted cytoplasmic / globular"
+  },
+  "proteomics": {
+    "detected": false,
+    "abundance_ppm": null,
+    "abundance_rank": null,
+    "n_datasets": 0,
+    "n_datasets_total": 16,
+    "source": "PaxDb 5.0 (M. tuberculosis H37Rv, org 83332)",
+    "refs": [
+      {
+        "authors": "Huang Q, Szklarczyk D, Wang M, Simonovic M, von Mering C",
+        "year": 2023,
+        "title": "PaxDb 5.0: Curated Protein Quantification Data Suggests Adaptive Proteome Changes in Yeasts",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1016/j.mcpro.2023.100640"
+      },
+      {
+        "authors": "Schubert OT, Mouritsen J, Ludwig C, et al.",
+        "year": 2013,
+        "title": "The Mtb proteome library: a resource of assays to quantify the complete proteome of Mycobacterium tuberculosis",
+        "journal": "Cell Host & Microbe",
+        "doi": "10.1016/j.chom.2013.04.008"
+      },
+      {
+        "authors": "Albrethsen J, Agner J, Piersma SR, et al.",
+        "year": 2013,
+        "title": "Proteomic profiling of Mycobacterium tuberculosis identifies nutrient-starvation-responsive toxin-antitoxin systems",
+        "journal": "Molecular & Cellular Proteomics",
+        "doi": "10.1074/mcp.M112.018846"
+      }
+    ]
+  },
+  "protparam": {
+    "length_aa": 113,
+    "mw_kda": 12.9,
+    "pi": 9.6,
+    "gravy": 0.035,
+    "instability_index": 46.8,
+    "instability_class": "unstable",
+    "aromaticity": 0.124,
+    "aliphatic_index": 9495.6,
+    "source": "Biopython ProtParam (méthode ExPASy ProtParam)",
+    "refs": [
+      {
+        "authors": "Gasteiger E, Hoogland C, Gattiker A, et al.",
+        "year": 2005,
+        "title": "Protein Identification and Analysis Tools on the ExPASy Server",
+        "journal": "The Proteomics Protocols Handbook (Humana Press)",
+        "doi": "10.1385/1-59259-890-0:571"
+      }
+    ]
+  },
+  "resistance": {},
+  "funccat": {
+    "category": "conserved hypotheticals",
+    "source": "TubercuList functional category (via Mycobrowser release 5)",
+    "refs": [
+      {
+        "authors": "Cole ST, Brosch R, Parkhill J, et al.",
+        "year": 1998,
+        "title": "Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence",
+        "journal": "Nature",
+        "doi": "10.1038/31159"
+      },
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "orthologs": {
+    "orthologs": {
+      "M. bovis": {
+        "locus": "Mb2840c",
+        "identity": 100.0,
+        "evalue": 4.46e-78
+      },
+      "M. orygis": {
+        "locus": "RJtmp_002903",
+        "identity": 100.0,
+        "evalue": 4.17e-78
+      }
+    },
+    "source": "Reciprocal-best-hit DIAMOND vs Mycobrowser reference proteomes (release 5)",
+    "refs": [
+      {
+        "authors": "Buchfink B, Reuter K, Drost HG",
+        "year": 2021,
+        "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+        "journal": "Nature Methods",
+        "doi": "10.1038/s41592-021-01101-x"
+      }
+    ]
+  },
+  "mutant_phenotypes": {
+    "n_significant": 2,
+    "n_in_vivo": 0,
+    "phenotypes": [
+      {
+        "condition": "Differential genetic requirements of clinical Mtb strain (ID=621) from East Asian lineage (compared to H37Rv control)",
+        "category": "other",
+        "log2fc": -5.11,
+        "qval": 0.028,
+        "effect": "required (mutant depleted)"
+      },
+      {
+        "condition": "altered fitness under high iron concentrations",
+        "category": "stress",
+        "log2fc": 2.88,
+        "qval": 0.0,
+        "effect": "disruption advantageous (mutant enriched)"
+      }
+    ],
+    "source": "MtbTnDB (standardized Tn-seq compendium, ~146 conditions)",
+    "refs": [
+      {
+        "authors": "Jinich A, Zaveri A, DeJesus MA, et al.",
+        "year": 2025,
+        "title": "The Mycobacterium tuberculosis Transposon Sequencing Database (MtbTnDB): A Large-Scale Guide to Genetic Conditional Essentiality",
+        "journal": "Molecular Microbiology",
+        "doi": "10.1111/mmi.15370"
+      }
+    ]
+  },
+  "pdb": {},
+  "genomic_context": {
+    "strand": "-",
+    "left": {
+      "locus": "Rv2813",
+      "gene": null,
+      "strand": "+",
+      "gap": 4588
+    },
+    "right": {
+      "locus": "Rv2817c",
+      "gene": null,
+      "strand": "-",
+      "gap": 0
+    },
+    "operon": [
+      {
+        "locus": "Rv2816c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2817c",
+        "gene": null
+      },
+      {
+        "locus": "Rv2818c",
+        "gene": null
+      }
+    ],
+    "operon_size": 3,
+    "source": "Genomic context from H37Rv annotation; operon predicted by co-directional intergenic distance (<=50 bp)",
+    "refs": [
+      {
+        "authors": "Salgado H, Moreno-Hagelsieb G, Smith TF, Collado-Vides J",
+        "year": 2000,
+        "title": "Operons in Escherichia coli: genomic analyses and predictions",
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.030539397"
+      }
+    ]
+  },
+  "regulation": {
+    "regulated_by": [
+      {
+        "tf": "Rv1985c",
+        "tf_gene": null,
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv3133c",
+        "tf_gene": "devR",
+        "effect": "activates"
+      },
+      {
+        "tf": "Rv3830c",
+        "tf_gene": null,
+        "effect": "represses"
+      }
+    ],
+    "n_regulators": 3,
+    "is_tf": false,
+    "regulon_size": 0,
+    "source": "MTB signed transcriptional regulatory network (ISB MTB Network Portal)",
+    "refs": [
+      {
+        "authors": "Minch KJ, Rustad TR, Peterson EJR, et al.",
+        "year": 2015,
+        "title": "The DNA-binding network of Mycobacterium tuberculosis",
+        "journal": "Nature Communications",
+        "doi": "10.1038/ncomms6829"
+      },
+      {
+        "authors": "Rustad TR, Minch KJ, Ma S, et al.",
+        "year": 2014,
+        "title": "Mapping and manipulating the Mycobacterium tuberculosis transcriptome using a transcription factor overexpression-derived regulatory network",
+        "journal": "Genome Biology",
+        "doi": "10.1186/gb-2014-15-11-502"
+      }
+    ]
+  },
+  "mycobrowser": {
+    "legacy_product": "Conserved hypothetical protein",
+    "legacy_function": "Function unknown",
+    "legacy_ec": [],
+    "conserved_hypothetical": true,
+    "atlas_ahead": true,
+    "ahead_via": [
+      "curated function (UniProt)",
+      "EC number",
+      "COG category",
+      "requalified function"
+    ],
+    "ec_status": null,
+    "atlas_ec": [
+      "3.1.-.-"
+    ],
+    "source": "Field-by-field comparison against the Mycobrowser legacy record (release 5)",
+    "refs": [
+      {
+        "authors": "Kapopoulou A, Lew JM, Cole ST",
+        "year": 2011,
+        "title": "The MycoBrowser portal: a comprehensive and manually annotated resource for mycobacterial genomes",
+        "journal": "Tuberculosis",
+        "doi": "10.1016/j.tube.2010.09.006"
+      }
+    ]
+  },
+  "rd": {},
+  "expression": {
+    "n_imodulons": 2,
+    "imodulons": [
+      {
+        "name": "Nucleic Acid Hydrolysis ",
+        "function": "iModulon enriched with the Nucleic Acid Hydrolysis KEGG pathway",
+        "category": "Nucleic Acids",
+        "regulator": null
+      },
+      {
+        "name": "Unc_9",
+        "function": "Uncharacterized iModulon 9",
+        "category": "Uncharacterized",
+        "regulator": null
+      }
+    ],
+    "note": "iModulon membership (independently-modulated gene sets from a 647-sample RNA-seq compendium): the conditional co-expression context. Co-expression is a regulatory context, NOT a molecular function.",
+    "source": "iModulonDB / modulome_mtb (Yoo 2022)",
+    "reference": {
+      "authors": "Yoo R, Rychel K, Poudel S, et al.",
+      "year": 2022,
+      "title": "Machine Learning of All Mycobacterium tuberculosis H37Rv RNA-seq Data Reveals a Structured Interplay between Metabolism, Stress Response, and Infection",
+      "journal": "mSphere",
+      "doi": "10.1128/msphere.00033-22"
+    }
+  },
+  "vulnerability": {
+    "vi": 0.609,
+    "ci_low": -1.529,
+    "ci_high": 3.801,
+    "source": "CRISPRi vulnerability index (Bosch 2021, pebble.rockefeller.edu)",
+    "reference": {
+      "authors": "Bosch B, DeJesus MA, Poulton NC, et al.",
+      "year": 2021,
+      "title": "Genome-wide gene expression tuning reveals diverse vulnerabilities of M. tuberculosis",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2021.06.033"
+    }
+  },
+  "outgroup": {
+    "canettii": {
+      "n_substitutions": 2,
+      "n_syn": 1,
+      "n_nonsyn": 1,
+      "n_disruptive": 0,
+      "dN_dS": 0.311,
+      "power": "low",
+      "interpretation": "low power (2 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+      "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+    },
+    "ntm": {
+      "n_present": 4,
+      "n_total": 53,
+      "frac": 0.075,
+      "in_mtbap": 0,
+      "in_mkc": 3,
+      "mean_pident": 43.8,
+      "classification": "MTBC-near-specific",
+      "species_present": [
+        "M_attenuatum",
+        "M_heckeshornense",
+        "M_innocens",
+        "M_persicum"
+      ],
+      "interpretation": "absent from the closest MTBAP relatives and nearly all NTM (4/53) — a strong MTBC-restricted candidate (possible host-adaptation innovation, confirm by synteny)",
+      "source": "presence/absence by tblastn vs ~53 assembled non-MTBC Mycobacterium genomes (annotation_mtbc P10.2)"
+    },
+    "phylostratum": {
+      "stratum": 1,
+      "stratum_label": "Mycobacterium",
+      "deepest_outgroup_clade": "genus Mycobacterium",
+      "n_crossgenus_genomes": 0,
+      "crossgenus_genomes": [],
+      "mean_pident": 0.0,
+      "length_aa": 113,
+      "short_gene_caveat": false,
+      "interpretation": "present across the genus Mycobacterium (NTM) but not detected in any non-Mycobacterium genome — a Mycobacterium-genus gene",
+      "source": "cross-genus phylostratigraphy: tblastn vs 13 non-Mycobacterium reference genomes (Mycobacteriaceae>Corynebacteriales>Actinomycetia>outside-phylum) + intra-genus NTM presence (annotation_mtbc P10.3)"
+    }
+  },
+  "literature": {
+    "n_papers": 10,
+    "n_papers_listed": 5,
+    "category": "cited",
+    "category_label": "cited in the literature",
+    "n_tb": 9,
+    "n_other": 2,
+    "n_ortholog_tag": 0,
+    "other_species": {
+      "M. abscessus": "1",
+      "M. smegmatis": "1"
+    },
+    "summary": "10 publication(s) discuss this gene (9 in a M. tuberculosis context, 2 in other mycobacteria — M. abscessus (1), M. smegmatis (1)).",
+    "papers": [
+      {
+        "title": "Interred mechanisms of resistance and host immune evasion revealed through network-connectivity analysis of M. tuberculosis complex graph pangenome.",
+        "doi": "10.1128/msystems.00499-24",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40261029/",
+        "date": "2025"
+      },
+      {
+        "title": "Pangenome-wide association study reveals the selective absence of CRISPR genes (Rv2816c-19c) in drug-resistant Mycobacterium tuberculosis.",
+        "doi": "10.1128/spectrum.00527-24",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/38916315/",
+        "date": "2024"
+      },
+      {
+        "title": "Paraphocaeicola brunensis gen. nov., sp. nov., Carrying Two Variants of nimB Resistance Gene from Bacteroides fragilis, and Caecibacteroides pullorum gen. nov., sp. nov., Two Novel Genera Isolated from Chicken Caeca.",
+        "doi": "10.1128/spectrum.01954-21",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/35170999/",
+        "date": "2022"
+      },
+      {
+        "title": "Genetic diversity of multidrug-resistant Mycobacterium tuberculosis isolates in Punjab, Pakistan.",
+        "doi": "10.1016/j.meegid.2019.02.029",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30822549/",
+        "date": "2019"
+      },
+      {
+        "title": "Trends in spoligotype patterns of Mycobacterium tuberculosis strains in central India.",
+        "doi": "10.4103/ijmm.IJMM_16_12",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28303834/",
+        "date": "2017"
+      }
+    ],
+    "papers_elsewhere": [],
+    "caveat": "This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche.",
+    "source": "PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13"
+  },
+  "disorder": {
+    "frac_disordered": 0.062,
+    "classification": "ordered",
+    "n_idr": 0,
+    "longest_idr": 0,
+    "total_idr_residues": 0,
+    "idr_regions": [],
+    "mean_plddt": 79.1,
+    "idr_orphan": false,
+    "interpretation": "predominantly ordered / globular",
+    "caveat": "A property (biophysics), not a function. No LLPS/condensate claim is made from disorder alone. Verdict unchanged.",
+    "source": "metapredict v3 (Emenecker/Holehouse) per-residue disorder + AlphaFold mean pLDDT (annotation_mtbc P16.13)"
+  }
+}
