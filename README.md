@@ -4,7 +4,8 @@ A continuously updated, structure- and population-scale functional re-annotation
 of the *Mycobacterium tuberculosis* complex (MTBC) gene set, anchored on the MTBC0
 ancestral genome (Harrison et al. 2024). This repository holds the companion code,
 the annotation pipeline and the derived per-gene records for the web resource served
-at https://mtbc.gclab.fr.
+at https://mtbc.gclab.fr (also reachable via the persistent, domain-independent
+identifier https://w3id.org/mtbc-atlas/).
 
 The project takes over from Mycobrowser (EPFL/UNIBE), the reference *Mycobacterium*
 annotation database, which is no longer maintained. Its central aim is to verify,
