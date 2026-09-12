@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="prose">
+  <h1>About</h1>
+  <p>
+    Mycobrowser, the reference annotation resource for <em>Mycobacterium</em>, is no longer
+    maintained, and a large share of MTBC genes are still labelled <em>hypothetical protein</em>.
+    This site takes over that role and re-annotates the MTBC gene set, with two distinctive choices.
+  </p>
+  
+  <p class="muted">
+    Continuously updated. This live version serves <strong>3974</strong> MTBC genes
+    (1814 requalified, 1950 family-assigned,
+    210 still unknown) plus <strong>200</strong> microproteins.
+    Counts on this page are read live from the database; the accompanying manuscript describes the
+    3,906-gene submission set, so its figures may differ. <a href="/changelog.csv">Download the per-gene changelog</a>.
+  </p>
+  <h2>Anchored on the ancestral genome</h2>
+  <p>
+    Annotation starts from <strong>MTBC0</strong>, the imputed ancestral genome of the most recent
+    common ancestor of the MTBC (Harrison et&nbsp;al. 2024), rather than from H37Rv. Each protein
+    shown here is the ancestral MTBC0 sequence; H37Rv remains as the historical anchor (its Rv
+    locus tag and legacy product).
+  </p>
+  <h2>A traceable, graded pipeline</h2>
+  <p>
+    Every gene goes through: the MTBC0 PGAP re-annotation, a Pfam domain scan
+    (<code>hmmscan --cut_ga</code>), the ESM&nbsp;Atlas protein-language-model signal (used only as
+    an exploratory indicator), and a literature check. Each fiche carries an explicit verdict
+    (<span class="badge badge-requalified">Resolved</span>,
+    <span class="badge badge-family_assigned">Family assigned</span>,
+    <span class="badge badge-dark">Still unknown</span>), a confidence level, and a
+    <strong>Sources</strong> section that cites the provenance of every field.
+  </p>
+  <h2>Reading a conjunction of criteria: correlated, not independent</h2>
+  <p>
+    A single evidence layer here (dark verdict, no Pfam domain, undetected by mass spectrometry, few
+    TA&nbsp;sites) is informative on its own, but they are <strong>not statistically independent of
+    each other</strong>: all four correlate strongly with gene <em>length</em>. Measured across the
+    atlas (2026-07-31, signalled by a companion project's characterisation of Rv2438A): between CDS
+    under 150&nbsp;nt and over 1200&nbsp;nt, the dark rate is <strong>38&times;</strong> higher (38%
+    vs 1%), the no-domain rate <strong>17&times;</strong> higher (50% vs 3%), and the
+    undetected-in-MS rate <strong>9&times;</strong> higher (62% vs 7%). Reading &ldquo;dark AND short
+    AND no domain AND undetected&rdquo; as four independent confirmations therefore overstates the
+    evidence: it is closer to counting the same underlying fact (a short ORF gives every method less
+    material to work with) up to four times. This does not invalidate any individual layer &mdash;
+    it is a caution about how to read their <em>conjunction</em>, most relevant for very short genes
+    &mdash; each gene page flags essentiality calls resting on very few Himar1&nbsp;TA sites for the
+    same reason.
+  </p>
+  <h2>The codon-position test: a confirmatory tool, not a general screen</h2>
+  <p>
+    A reading frame under purifying selection accumulates substitutions preferentially at the third
+    codon position. This statistic is implemented as a reusable, standalone module
+    (<code>codon_phase.py</code>, released with a companion project's characterisation of Rv2438A) and
+    can in principle be run on any gene, but it is <strong>not recommended as a general screen</strong>
+    without its measured limits in view. On five H37Rv genes whose protein is directly attested by mass
+    spectrometry, it recovers only <strong>two of five</strong> as coding: specific (no false positive
+    observed across these controls) but insensitive, so a negative result carries a likelihood ratio of
+    only about&nbsp;1.7. The reason is biological, not a shortfall of data: the statistic tracks
+    <strong>purifying constraint</strong> rather than translation as such &mdash; the third-position
+    fraction correlates with a locus's variant density (Spearman &rho;&nbsp;=&nbsp;&minus;0.534), not
+    with gene length (&rho;&nbsp;=&nbsp;+0.159, p&nbsp;=&nbsp;0.23) &mdash; so a gene that is genuinely
+    translated but only weakly constrained stays invisible to it, and more sequencing depth would not
+    change that. Below a density of <strong>0.55&nbsp;variants&nbsp;per&nbsp;nucleotide</strong> the
+    test recovers most coding genes; above it, only a minority &mdash; a condition met by roughly a
+    third of essential genes on this atlas, and by very few non-essential ones. The tool enforces this
+    itself: above the threshold it reports a negative verdict as <strong>uninformative</strong> rather
+    than as an absence of coding, and it refuses to run without a positive control of comparable length
+    in the same query.
+  </p>
+  <h2>What the atlas changed vs Mycobrowser</h2>
+  <p>
+    A per-gene changelog (one row per gene) records, for every gene, the Mycobrowser legacy annotation,
+    the atlas result (verdict, revised function, EC), and <strong>what is new</strong>: the novelty class,
+    whether the atlas is ahead of Mycobrowser, the EC status, the evidence that provided the handle, and the
+    annotation route (literature-curated vs orthology/structure). Highlights, in the companion analysis
+    (the 3,906-gene submission set): <strong>869 of the 1013 Mycobrowser &ldquo;conserved hypotheticals&rdquo;
+    gained a functional handle</strong> and 304 EC numbers were updated. In the live resource today,
+    <strong>210</strong> of the <strong>3974</strong> genes
+    remain honestly unknown.
+  </p>
+  <p><a class="btn" href="/changelog.csv">&#8681;&nbsp;Download the per-gene changelog (CSV)</a> &middot;
+     also queryable via the <a href="/api/v1/docs">JSON API</a>. For what changed release to release
+     rather than gene to gene, see the <a href="/changelog">site changelog</a> (current version
+     <strong>v106</strong>, 2026-09-12).</p>
+
+  <h2>Toxin-antitoxin repertoire</h2>
+  <p>
+    A companion study curated the MTBC toxin-antitoxin repertoire (57 loci), published in the manuscript and
+    the Zenodo bundle as Table S4 but not previously linked from this site.
+    <a class="btn" href="/table_s4_ta_repertoire.tsv">&#8681;&nbsp;Download the TA repertoire (TSV, 57 loci)</a>
+  </p>
+
+  <h2>Anchored in the literature &mdash; including under other names</h2>
+  <p>
+    Every gene carries an <strong>In the literature</strong> section. Publications are found not only under the
+    H37Rv locus tag, but also under the <strong>gene name</strong> and under the identifiers the gene bears in
+    related species (<em>M.&nbsp;bovis</em>, <em>M.&nbsp;marinum</em>, <em>M.&nbsp;smegmatis</em>,
+    <em>M.&nbsp;leprae</em>, <em>M.&nbsp;abscessus</em>). This matters: a gene may be well characterised under the
+    name of its ortholog and completely invisible to a search on its <code>Rv</code> tag. Each hit is verified
+    against the abstract text, so a stated absence of literature is a verified absence &mdash; itself an
+    informative statement about an annotation with no primary study behind it.
+  </p>
+  <p>
+    Two consequences are made explicit on the fiche. A gene can be <strong>dark yet heavily studied</strong>
+    (Rv2660c has no known molecular function, but is a component of the H56 vaccine candidate in clinical trials),
+    which separates &ldquo;dark because nobody looked&rdquo; from &ldquo;dark despite being studied&rdquo;. And a
+    gene can have its <strong>biology documented mostly outside <em>M.&nbsp;tuberculosis</em></strong>, because
+    mycobacterial genetics is largely done in <em>M.&nbsp;smegmatis</em>; the fiche says so, and warns that such
+    findings do not transfer automatically to <em>M.&nbsp;tuberculosis</em>.
+  </p>
+
+  <h2>Code and data availability</h2>
+  <p>
+    The annotation pipeline and the derived per-gene records are openly available at
+    <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">https://github.com/cguyeux/mtbc-gene-atlas</a>. The pipeline and
+    application code are released under the MIT licence; the annotation records and derived data under
+    CC-BY&nbsp;4.0. Redistributed third-party annotations retain the licences of their sources (UniProt and
+    STRING under CC-BY&nbsp;4.0; Pfam; eggNOG), listed in the <strong>Sources</strong> section of every fiche.
+  </p>
+
+  <h2>Cite this resource</h2>
+  <p>
+    Christophe Guyeux. <em>From hypothetical to functional: a continuously updated, structure- and population-scale re-annotation of the Mycobacterium tuberculosis complex gene set, anchored on the MTBC0 ancestral genome</em>. FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur (Université de Franche-Comté), Besançon, France.
+    
+      Archived on Zenodo:
+      <a href="https://doi.org/10.5281/zenodo.20815246">doi:10.5281/zenodo.20815246</a>
+      (concept DOI, always resolves to the latest release) or
+      <a href="https://doi.org/10.5281/zenodo.20815247">doi:10.5281/zenodo.20815247</a>
+      (the exact snapshot the manuscript was written against).
+    
+  </p>
+
+  <h2>Citing a stable link</h2>
+  <p>
+    Because this atlas is updated continuously, cite one of two persistent identifiers rather than a
+    hosting URL. For the <strong>living resource</strong>, use the stable domain
+    <a href="https://mtbc.gclab.fr">https://mtbc.gclab.fr</a>, which is author-controlled and resolves to
+    the current instance independently of the hosting provider, so the service can be migrated without
+    breaking published links; the community-maintained redirector
+    <a href="https://w3id.org/mtbc-atlas/">https://w3id.org/mtbc-atlas/</a> (e.g. <code>https://w3id.org/mtbc-atlas/gene/Rv1908c</code>) gives a
+    second, domain-independent identifier for the same live instance, registered through the w3id.org
+    permanent-identifier service. For a <strong>fixed, quotable state</strong>, cite the Zenodo concept DOI
+    above (latest release) or a version DOI (one specific release). Provider-specific endpoints are
+    deliberately not advertised: they change when the deployment changes.
+  </p>
+
+  <p class="muted">FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur (Université de Franche-Comté), Besançon, France. Content under CC-BY&nbsp;4.0.</p>
+</article>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+</body>
+</html>

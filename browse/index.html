@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Genome browser · MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="browse">
+  <h1>Genome browser</h1>
+  <p class="muted">Linear view of the <em>M. tuberculosis</em> complex genome (MTBC0 ancestral coordinates,
+    H37Rv locus tags). Each arrow is a gene, pointing in its coding direction and coloured by annotation verdict.
+    Click a gene to open its page.</p>
+
+  <form class="browse-jump" id="bw-jump" action="/browse/" method="get" style="margin:.6rem 0">
+    <input type="text" name="center" placeholder="jump to a gene (e.g. Rv3222c)" value="">
+    <input type="hidden" name="span" value="40000">
+    <button type="submit">Go</button>
+  </form>
+
+  <div class="browse-nav" id="bw-nav" style="display:flex; gap:.4rem; align-items:center; flex-wrap:wrap; margin:.4rem 0"></div><p class="muted" id="bw-meta"></p>
+
+  
+<div class="genome-track" id="bw-svg" style="overflow-x:auto; border:1px solid #e3e3e3; border-radius:6px; background:#fafafa"></div>
+
+
+  <p class="muted" style="margin-top:.5rem">
+    <span style="color:#2e7d32">&#9632;</span> resolved (requalified) &nbsp;
+    <span style="color:#1565c0">&#9632;</span> family assigned &nbsp;
+    <span style="color:#8a8a8a">&#9632;</span> still unknown (dark) &nbsp;&middot;&nbsp;
+    the centred gene is outlined in black.
+  </p>
+</article>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+<script src="/static/app/browse.js"></script>
+</body>
+</html>

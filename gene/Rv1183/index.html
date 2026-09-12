@@ -1,0 +1,1594 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mmpL10 &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/vendor/pdbe-molstar/pdbe-molstar-light.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="gene">
+  <header class="gene-head">
+    <h1>mmpL10
+      <span class="badge badge-requalified">Resolved &middot; high</span>
+      <span class="badge badge-auto">auto-curated</span>
+    </h1>
+    <p class="muted">
+      H37Rv <code>Rv1183</code> &middot; MTBC0 <code>mtbc0_001271</code> &middot;
+      1017 aa &middot;
+      <span title="Coordinates are in the MTBC0 frame. Anchored loci are placed on MTBC0, unanchored ones on H37Rv; the offset between the two frames varies along the chromosome (up to ~32 kb), so coordinates from different frames must never be compared or applied to the wrong genome.">1329917–1332970 <strong>MTBC0</strong></span>
+      (+) &middot;
+      RefSeq NP_215699.1
+    </p>
+    
+      
+      
+    
+    
+    
+    <div class="callout callout-warn">
+      <strong>Ancestral anchor flagged: coordinates anchored on a paralogue.</strong>
+      The MTBC0 coordinates of this record point to a paralogous locus (-45 bp away, near Rv1182), but the stored ancestral protein is the right one (99% identity to the H37Rv product), the paralogues being nearly identical. Protein-based layers stand; do not use start_mtbc0/end_mtbc0 for this locus.
+      <br><span class="muted">Affects: coordinates only. Verified by 1:1 H37Rv&ndash;MTBC0 position liftover
+      (P19.6/P19.7); annotation_mtbc P19.6/P19.7 — 1:1 liftover (Harrison et al., liftovers/H37Rv_NC_000962.3.on.MTBC0.all.positions.tsv.gz) vs RefSeq NC_000962.3 annotation, similarity by difflib ratio calibrated on 60 correctly anchored controls.</span>
+      
+      
+    </div>
+    
+    
+  </header>
+
+  
+
+  
+  <section class="gene-browser">
+    <div style="display:flex; justify-content:space-between; align-items:baseline">
+      <h2>Genomic neighbourhood <span class="muted">(genome browser)</span></h2>
+      <a href="/browse?center=Rv1183&span=40000">Open in full genome browser &#8594;</a>
+    </div>
+    
+<div class="genome-track" style="overflow-x:auto; border:1px solid #e3e3e3; border-radius:6px; background:#fafafa">
+  <svg viewBox="0 0 760 120" width="100%" style="min-width:640px; display:block"
+       font-family="system-ui, sans-serif">
+    <line x1="0" y1="52" x2="760" y2="52" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="4" y="12" font-size="9" fill="#aaa">+ strand</text>
+    <text x="4" y="88" font-size="9" fill="#aaa">&minus; strand</text>
+    
+    <a href="/gene/Rv1179c">
+      <title>Rv1179c (Rv1179c) — family_assigned: DEAD/DEAH box helicase family protein</title>
+      <polygon points="72.7,63 7.0,63 0.0,70.5 7.0,78 72.7,78" fill="#1565c0"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="36.4" y="89" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">Rv1179c</text>
+    </a>
+    
+    <a href="/gene/Rv1182">
+      <title>papA3 (Rv1182) — requalified: acyltransferase PapA3</title>
+      <polygon points="286.1,26 324.0,26 331.0,33.5 324.0,41 286.1,41" fill="#2e7d32"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="308.5" y="22" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">papA3</text>
+    </a>
+    
+    <a href="/gene/Rv1183">
+      <title>mmpL10 (Rv1183) — requalified: RND transporter MmpL10</title>
+      <polygon points="331.7,26 421.4,26 428.4,33.5 421.4,41 331.7,41" fill="#2e7d32"
+               stroke="#111"
+               stroke-width="2"
+               opacity="1"/>
+      <text x="380.0" y="22" text-anchor="middle" font-size="10"
+              fill="#111"
+              font-weight="600">mmpL10</text>
+    </a>
+    
+    <a href="/gene/Rv1184c">
+      <title>chp2 (Rv1184c) — requalified: diacyltrehalose acyltransferase Chp2</title>
+      <polygon points="462.7,63 435.5,63 428.5,70.5 435.5,78 462.7,78" fill="#2e7d32"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="445.6" y="89" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">chp2</text>
+    </a>
+    
+    <a href="/gene/Rv1185c">
+      <title>fadD21 (Rv1185c) — requalified: fatty-acid--AMP ligase FAAL21/FadD21</title>
+      <polygon points="522.8,63 474.9,63 467.9,70.5 474.9,78 522.8,78" fill="#2e7d32"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="495.4" y="89" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">fadD21</text>
+    </a>
+    
+    <a href="/gene/Rv1186c">
+      <title>Rv1186c (Rv1186c) — family_assigned: PucR family transcriptional regulator</title>
+      <polygon points="579.6,63 535.5,63 528.5,70.5 535.5,78 579.6,78" fill="#1565c0"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="554.0" y="89" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">Rv1186c</text>
+    </a>
+    
+    <a href="/gene/Rv1187">
+      <title>rocA (Rv1187) — requalified: L-glutamate gamma-semialdehyde dehydrogenase</title>
+      <polygon points="582.3,26 627.0,26 634.0,33.5 627.0,41 582.3,41" fill="#2e7d32"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="608.1" y="22" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">rocA</text>
+    </a>
+    
+    <a href="/gene/Rv1188">
+      <title>Rv1188 (Rv1188) — requalified: proline dehydrogenase</title>
+      <polygon points="634.0,26 658.3,26 665.3,33.5 658.3,41 634.0,41" fill="#2e7d32"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="649.6" y="22" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">Rv1188</text>
+    </a>
+    
+    <a href="/gene/Rv1189">
+      <title>sigI (Rv1189) — requalified: RNA polymerase sigma factor SigI</title>
+      <polygon points="667.9,26 688.5,26 695.5,33.5 688.5,41 667.9,41" fill="#2e7d32"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="681.7" y="22" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">sigI</text>
+    </a>
+    
+    <a href="/gene/Rv1190">
+      <title>Rv1190 (Rv1190) — requalified: alpha/beta fold hydrolase</title>
+      <polygon points="696.0,26 716.8,26 723.8,33.5 716.8,41 696.0,41" fill="#2e7d32"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="709.9" y="22" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">Rv1190</text>
+    </a>
+    
+    <a href="/gene/Rv1191">
+      <title>Rv1191 (Rv1191) — family_assigned: alpha/beta hydrolase</title>
+      <polygon points="726.1,26 748.1,26 755.1,33.5 748.1,41 726.1,41" fill="#1565c0"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      <text x="740.6" y="22" text-anchor="middle" font-size="10"
+              fill="#444"
+              font-weight="400">Rv1191</text>
+    </a>
+    
+    <a href="/gene/Rv1192">
+      <title>Rv1192 (Rv1192) — family_assigned: alpha/beta hydrolase</title>
+      <polygon points="757.7,26 757.7,26 762.7,33.5 757.7,41 757.7,41" fill="#1565c0"
+               stroke="#ffffff"
+               stroke-width="0.6"
+               opacity="0.9"/>
+      
+    </a>
+    
+    
+    <line x1="17.6" y1="100" x2="17.6" y2="105" stroke="#bbb"/>
+    <text x="17.6" y="116" text-anchor="middle" font-size="9" fill="#999">1 320 kb</text>
+    
+    <line x1="144.3" y1="100" x2="144.3" y2="105" stroke="#bbb"/>
+    <text x="144.3" y="116" text-anchor="middle" font-size="9" fill="#999">1 324 kb</text>
+    
+    <line x1="271.0" y1="100" x2="271.0" y2="105" stroke="#bbb"/>
+    <text x="271.0" y="116" text-anchor="middle" font-size="9" fill="#999">1 328 kb</text>
+    
+    <line x1="397.6" y1="100" x2="397.6" y2="105" stroke="#bbb"/>
+    <text x="397.6" y="116" text-anchor="middle" font-size="9" fill="#999">1 332 kb</text>
+    
+    <line x1="524.3" y1="100" x2="524.3" y2="105" stroke="#bbb"/>
+    <text x="524.3" y="116" text-anchor="middle" font-size="9" fill="#999">1 336 kb</text>
+    
+    <line x1="651.0" y1="100" x2="651.0" y2="105" stroke="#bbb"/>
+    <text x="651.0" y="116" text-anchor="middle" font-size="9" fill="#999">1 340 kb</text>
+    
+  </svg>
+</div>
+
+    <p class="muted">This gene (outlined) in its genomic context; arrows are neighbouring genes coloured by verdict.
+      Click any gene to navigate. Pan and zoom in the full browser.</p>
+  </section>
+  
+
+  <section>
+    <h2>Annotation: from legacy to revised</h2>
+    <table class="kv">
+      <tr><th>Legacy (H37Rv / Mycobrowser)</th><td>transmembrane transport protein MmpL10</td></tr>
+      <tr><th>MTBC0 PGAP re-annotation</th><td>RND transporter MmpL10</td></tr>
+      <tr><th>Revised (this work)</th><td><strong>RND transporter MmpL10. Pfam: MMPL (PF03176.22).</strong></td></tr>
+      <tr><th>Functional category <span class="muted">(TubercuList)</span></th><td>cell wall and cell processes</td></tr>
+    </table>
+    
+    
+    
+    <p class="note">Auto-curated: this verdict and function were generated by rules from
+      PGAP + Pfam + Foldseek and have not been hand-reviewed.</p>
+    
+    
+  </section>
+
+  
+  
+  <section>
+    <h2>In the literature <span class="muted">(TB corpus sweep)</span>
+      
+      <span class="badge badge-family_assigned">14 publications</span>
+    </h2>
+    
+    
+    
+    <p><strong>14</strong> TB publications mention this gene.
+      14 publication(s) discuss this gene (10 in a M. tuberculosis context, 4 in other mycobacteria — M. abscessus (2), M. leprae (1)).
+      </p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <table class="genes">
+      <caption class="muted">Most recent 5 of 14.</caption>
+      <thead><tr><th>Publication</th><th>Date</th></tr></thead>
+      <tbody>
+      
+      <tr>
+        <td><a href="https://pubmed.ncbi.nlm.nih.gov/40468558/" target="_blank" rel="noopener">A coiled-coil domain triggers oligomerization of MmpL10, the mycobacterial transporter of trehalose polyphleate precursor.</a> <span class="muted">doi:10.1002/1873-3468.70085</span></td>
+        <td class="muted">2025</td>
+      </tr>
+      
+      <tr>
+        <td><a href="https://pubmed.ncbi.nlm.nih.gov/39475242/" target="_blank" rel="noopener">Trehalose polyphleates participate in Mycobacterium abscessus fitness and pathogenesis.</a> <span class="muted">doi:10.1128/mbio.02970-24</span></td>
+        <td class="muted">2024</td>
+      </tr>
+      
+      <tr>
+        <td><a href="https://pubmed.ncbi.nlm.nih.gov/39222120/" target="_blank" rel="noopener">Enhancement of mycobacterial pathogenesis by host interferon-γ.</a> <span class="muted">doi:10.1007/s00018-024-05425-7</span></td>
+        <td class="muted">2024</td>
+      </tr>
+      
+      <tr>
+        <td><a href="https://pubmed.ncbi.nlm.nih.gov/37239050/" target="_blank" rel="noopener">Understanding the Phage-Host Interaction Mechanism toward Improving the Efficacy of Current Antibiotics in Mycobacterium abscessus.</a> <span class="muted">doi:10.3390/biomedicines11051379</span></td>
+        <td class="muted">2023</td>
+      </tr>
+      
+      <tr>
+        <td><a href="https://pubmed.ncbi.nlm.nih.gov/37120636/" target="_blank" rel="noopener">In vivo imaging of MmpL transporters reveals distinct subcellular locations for export of mycolic acids and non-essential trehalose polyphleates in the mycobacterial outer membrane.</a> <span class="muted">doi:10.1038/s41598-023-34315-4</span></td>
+        <td class="muted">2023</td>
+      </tr>
+      
+      </tbody>
+    </table>
+    
+    
+    <details class="litfull" id="litfull">
+      <summary><strong>All 15</strong> publications found for this gene
+        </summary>
+      <p class="muted">Searched as: <code>Rv1183</code>, <code>mmpL10</code>, <code>Mb1215</code>, <code>ML1231</code>, <code>MSMEG_0410</code>, <code>MAB_0937c</code>
+        &mdash; each in conjunction with a mycobacterial context term. Swept 2026-09-07.</p>
+      
+      
+      <p class="muted"><input type="search" class="litfilter" data-target="litfull-table"
+        placeholder="filter these 15 publications by title, journal or year&hellip;" style="width:100%;max-width:38rem"></p>
+      <table class="genes" id="litfull-table">
+        <thead><tr><th>Publication</th><th>Journal</th><th>Year</th></tr></thead>
+        <tbody>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/42685068/" target="_blank" rel="noopener">The SigD regulon of Mycobacterium abscessus determines cell envelope composition and antibiotic susceptibility.</a>
+             <span class="muted">doi:10.1371/journal.pgen.1012286</span>
+            </td>
+          <td class="muted">PLoS Genet</td>
+          <td class="muted">2026</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/40468558/" target="_blank" rel="noopener">A coiled-coil domain triggers oligomerization of MmpL10, the mycobacterial transporter of trehalose polyphleate precursor.</a>
+             <span class="muted">doi:10.1002/1873-3468.70085</span>
+             <span class="badge badge-family_assigned" title="the title itself names this gene">names it</span>
+            </td>
+          <td class="muted">FEBS Lett</td>
+          <td class="muted">2025</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/39475242/" target="_blank" rel="noopener">Trehalose polyphleates participate in Mycobacterium abscessus fitness and pathogenesis.</a>
+             <span class="muted">doi:10.1128/mbio.02970-24</span>
+            </td>
+          <td class="muted">mBio</td>
+          <td class="muted">2024</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/39222120/" target="_blank" rel="noopener">Enhancement of mycobacterial pathogenesis by host interferon-γ.</a>
+             <span class="muted">doi:10.1007/s00018-024-05425-7</span>
+            </td>
+          <td class="muted">Cell Mol Life Sci</td>
+          <td class="muted">2024</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/37239050/" target="_blank" rel="noopener">Understanding the Phage-Host Interaction Mechanism toward Improving the Efficacy of Current Antibiotics in Mycobacterium abscessus.</a>
+             <span class="muted">doi:10.3390/biomedicines11051379</span>
+            </td>
+          <td class="muted">Biomedicines</td>
+          <td class="muted">2023</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/37120636/" target="_blank" rel="noopener">In vivo imaging of MmpL transporters reveals distinct subcellular locations for export of mycolic acids and non-essential trehalose polyphleates in the mycobacterial outer membrane.</a>
+             <span class="muted">doi:10.1038/s41598-023-34315-4</span>
+            </td>
+          <td class="muted">Sci Rep</td>
+          <td class="muted">2023</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/36456824/" target="_blank" rel="noopener">Mycobacterium tuberculosis senses host Interferon-γ via the membrane protein MmpL10.</a>
+             <span class="muted">doi:10.1038/s42003-022-04265-0</span>
+             <span class="badge badge-family_assigned" title="the title itself names this gene">names it</span>
+            </td>
+          <td class="muted">Commun Biol</td>
+          <td class="muted">2022</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/29618733/" target="_blank" rel="noopener">Use of Soluble Extracellular Regions of MmpL (SERoM) as Vaccines for Tuberculosis.</a>
+             <span class="muted">doi:10.1038/s41598-018-23893-3</span>
+            </td>
+          <td class="muted">Sci Rep</td>
+          <td class="muted">2018</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/27481640/" target="_blank" rel="noopener">A hypervariable genomic island identified in clinical and environmental Mycobacterium avium subsp. hominissuis isolates from Germany.</a>
+             <span class="muted">doi:10.1016/j.ijmm.2016.07.001</span>
+            </td>
+          <td class="muted">Int J Med Microbiol</td>
+          <td class="muted">2016</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/26319139/" target="_blank" rel="noopener">Comparative metabolic profiling of mce1 operon mutant vs wild-type Mycobacterium tuberculosis strains.</a>
+             <span class="muted">doi:10.1093/femspd/ftv066</span>
+            </td>
+          <td class="muted">Pathog Dis</td>
+          <td class="muted">2015</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/25986884/" target="_blank" rel="noopener">Lipid transport in Mycobacterium tuberculosis and its implications in virulence and drug development.</a>
+             <span class="muted">doi:10.1016/j.bcp.2015.05.001</span>
+            </td>
+          <td class="muted">Biochem Pharmacol</td>
+          <td class="muted">2015</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/25331437/" target="_blank" rel="noopener">The rv1184c locus encodes Chp2, an acyltransferase in Mycobacterium tuberculosis polyacyltrehalose lipid biosynthesis.</a>
+             <span class="muted">doi:10.1128/JB.02015-14</span>
+            </td>
+          <td class="muted">J Bacteriol</td>
+          <td class="muted">2015</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/25124040/" target="_blank" rel="noopener">Biosynthesis and translocation of unsulfated acyltrehaloses in Mycobacterium tuberculosis.</a>
+             <span class="muted">doi:10.1074/jbc.M114.581199</span>
+            </td>
+          <td class="muted">J Biol Chem</td>
+          <td class="muted">2014</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/23472191/" target="_blank" rel="noopener">Transcription of genes involved in sulfolipid and polyacyltrehalose biosynthesis of Mycobacterium tuberculosis in experimental latent tuberculosis infection.</a>
+             <span class="muted">doi:10.1371/journal.pone.0058378</span>
+            </td>
+          <td class="muted">PLoS One</td>
+          <td class="muted">2013</td>
+        </tr>
+        
+        <tr>
+          <td><a href="https://pubmed.ncbi.nlm.nih.gov/15784600/" target="_blank" rel="noopener">Designer arrays for defined mutant analysis to detect genes essential for survival of Mycobacterium tuberculosis in mouse lungs.</a>
+             <span class="muted">doi:10.1128/IAI.73.4.2533-2540.2005</span>
+            </td>
+          <td class="muted">Infect Immun</td>
+          <td class="muted">2005</td>
+        </tr>
+        
+        </tbody>
+      </table>
+      <p class="muted">Title+abstract index only: a paper that names this gene solely in its body text, a figure legend or a supplement is invisible here. That is why this list sits beside the curated layer rather than replacing it - Rv0007&#39;s characterisation, found by a full-text sweep, returns zero in this one. Absence from this list is not absence from the literature. Source: PubMed E-utilities sweep (esearch + esummary), every alias of the gene searched in conjunction with a mycobacterial context term; ambiguous common-word aliases excluded. phase198, 2026-09-06.</p>
+    </details>
+    <script>
+    (function(){
+      var box = document.querySelector('#litfull .litfilter');
+      if (!box) return;
+      box.addEventListener('input', function(){
+        var q = this.value.toLowerCase();
+        var rows = document.querySelectorAll('#litfull-table tbody tr');
+        for (var i = 0; i < rows.length; i++) {
+          rows[i].hidden = q && rows[i].textContent.toLowerCase().indexOf(q) === -1;
+        }
+      });
+    })();
+    </script>
+    
+    <p class="muted">This layer CITES the literature and adds context; it does not change the verdict or the function stated elsewhere in this fiche. This distinguishes a gene that is dark because <em>nobody has looked</em> from
+      one that is dark <em>despite</em> having been studied. Source: PubMed (whole): H37Rv locus tag + GENE NAME + ortholog identifiers (Mb…, MMAR_…, MSMEG_…, ML…, MAB_…), under a mycobacterial context filter; hits verified against the abstract text. Species-context counts distinguish M. tuberculosis literature from literature on other mycobacteria. phase76/phase77, 2026-07-13.</p>
+  </section>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <section>
+    <h2>CRISPRi vulnerability</h2>
+    <p>Vulnerability index <strong>0.81</strong>
+      (95% CI -1.24 to 3.98).
+      A more negative index = more vulnerable to knockdown (better drug-target quality); indicative threshold VI &le; -6 = highly vulnerable.</p>
+    <p class="muted">Quantitative CRISPRi knockdown, graded (finer than binary Tn-seq essentiality). Source: CRISPRi vulnerability index (Bosch 2021, supplementary Table S2 &#39;mmc3.xlsx&#39;, bulk import via Europe PMC -- supersedes the per-gene pebble.rockefeller.edu scrape of phase46_crispri_vulnerability.py).</p>
+  </section>
+  
+
+  
+  <section>
+    <h2>Legacy record &amp; comparison <span class="muted">(Mycobrowser)</span>
+      
+    </h2>
+    <table class="kv">
+      <tr><th>Mycobrowser function</th><td>Unknown. Thought to be involved in fatty acid transport.</td></tr>
+      
+    </table>
+    
+    <p class="muted">The legacy Mycobrowser record is shown for verification. Mycobrowser is no longer maintained; its
+      EC numbers predate recent nomenclature revisions, so a class change usually reflects re-numbering, not a conflict.</p>
+    
+  </section>
+  
+
+  
+  <section>
+    <h2>Orthologues <span class="muted">(reciprocal best hits across mycobacteria)</span></h2>
+    <table class="kv">
+      
+      <tr><th><em>M. bovis</em></th><td>
+        <a href="https://mycobrowser.epfl.ch/genes/Mb1215"><code>Mb1215</code></a>
+        <span class="muted">&middot; 100.0% identity</span></td></tr>
+      
+      <tr><th><em>M. leprae</em></th><td>
+        <a href="https://mycobrowser.epfl.ch/genes/ML1231"><code>ML1231</code></a>
+        <span class="muted">&middot; 68.5% identity</span></td></tr>
+      
+      <tr><th><em>M. smegmatis</em></th><td>
+        <a href="https://mycobrowser.epfl.ch/genes/MSMEG_0410"><code>MSMEG_0410</code></a>
+        <span class="muted">&middot; 55.9% identity</span></td></tr>
+      
+      <tr><th><em>M. abscessus</em></th><td>
+        <a href="https://mycobrowser.epfl.ch/genes/MAB_0937c"><code>MAB_0937c</code></a>
+        <span class="muted">&middot; 55.0% identity</span></td></tr>
+      
+    </table>
+    <p class="muted">Reciprocal-best-hit orthologues (DIAMOND) against the Mycobrowser reference proteomes. A missing
+      species is informative: e.g. a gene absent from <em>M. leprae</em> was likely lost in its reductive genome
+      evolution. Locus tags link to Mycobrowser.</p>
+  </section>
+  
+
+  
+  <section>
+    <h2>Curated reference <span class="muted">(UniProt)</span></h2>
+    <table class="kv">
+      <tr><th>UniProt</th><td>
+        <a href="https://www.uniprot.org/uniprotkb/P9WJU1"><code>P9WJU1</code></a>
+        <span class="badge badge-requalified">SwissProt &middot; reviewed</span>
+        <span class="muted">&middot; Evidence at protein level</span>
+      </td></tr>
+      <tr><th>UniProt name</th><td>Acyltrehalose exporter MmpL10</td></tr>
+      
+      <tr><th>Curated function</th><td>Required for the biosynthesis of polyacyltrehalose (PAT) and the transport of diacyltrehalose (DAT) and possibly PAT to the cell surface.</td></tr>
+    </table>
+    
+  </section>
+  
+
+  
+  <section>
+    <h2>Functional vocabulary <span class="muted">(eggNOG-mapper, orthology transfer)</span></h2>
+    <table class="kv">
+      
+      <tr><th>COG category</th><td>
+        <code>S</code> Function unknown
+      </td></tr>
+      <tr><th>Preferred name</th><td><strong>mmpL10</strong></td></tr>
+      <tr><th>eggNOG description</th><td>transport protein</td></tr>
+      <tr><th>Orthologous group</th><td><code>COG2409</code></td></tr>
+      
+      
+      <tr><th>KEGG orthology</th><td>
+        <a href="https://www.kegg.jp/entry/K06994"><code>K06994</code></a>
+      </td></tr>
+      
+      
+      
+      
+      <tr><th>Gene Ontology <span class="muted">(14)</span></th><td>
+        <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005575"><code>GO:0005575</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005576"><code>GO:0005576</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005618"><code>GO:0005618</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005622"><code>GO:0005622</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005623"><code>GO:0005623</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005737"><code>GO:0005737</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005829"><code>GO:0005829</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0005886"><code>GO:0005886</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0016020"><code>GO:0016020</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0030312"><code>GO:0030312</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044424"><code>GO:0044424</code></a>, <a href="https://www.ebi.ac.uk/QuickGO/term/GO:0044444"><code>GO:0044444</code></a> <span class="muted">+2 more</span>
+      </td></tr>
+    </table>
+    <p class="muted">Orthology-based transfer (eggNOG 5.0.2, diamond). EC/KO/GO/CAZy are
+      computed annotations, not manual curation; cross-check against the primary literature
+      before treating a specific reaction as established.</p>
+  </section>
+  
+
+  
+  <section>
+    
+    <h2>Conservation &amp; selection <span class="muted">(intra-MTBC, 145 209 strains, snapshot of 2026-06-03)</span>
+      
+    </h2>
+    <table class="kv">
+      <tr><th>pN/pS</th><td>
+        <strong>1.942</strong> &middot; diversifying/relaxed
+      </td></tr>
+      <tr><th>Polymorphic sites <span class="muted">(&ge; 0.1% of strains)</span></th><td>
+        4 synonymous, 22 missense, 0 nonsense, 0 frameshift
+      </td></tr>
+      
+      
+    </table>
+    
+    <p class="muted">pN/pS from segregating SNPs (singletons removed) normalised by possible sites.
+      <strong>Low pN/pS = purifying selection</strong> (a strong signal that a "hypothetical" is a real, constrained gene).
+      A <strong>high pN/pS is ambiguous</strong>: relaxed constraint <em>or</em> positive selection (drug resistance, antigenic
+      variation) inflate it; e.g. rpoB/katG/pncA score high here for resistance, not loss of function. A
+      <em>clonal</em> disruption (one allele over a clade) suggests lineage pseudogenisation; a
+      <em>convergent</em> one (many independent alleles) is typical of resistance loss-of-function.</p>
+  </section>
+  
+
+  
+
+  
+  
+  
+  <section>
+    <h2>Outgroup conservation <span class="muted">(beyond the MTBC)</span>
+      <span class="badge">Corynebacteriales</span>
+    </h2>
+    <table class="kv">
+      
+      <tr><th><em>M. canettii</em> dN/dS <span class="muted">(deep-divergence selection)</span></th><td>
+        0.118 <span class="muted">(low power)</span>
+        &middot; 4 consensus substitution(s)<br>
+        <span class="muted">low power (4 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable</span>
+      </td></tr>
+      
+      
+      <tr><th>Genus-wide presence <span class="muted">(~53 non-MTBC <em>Mycobacterium</em>)</span></th><td>
+        present in <strong>52/53</strong> (98%) &middot; mean identity 58.5%
+        &middot; 4/4 closest MTBAP relatives<br>
+        <span class="muted">conserved across the genus (present in 52/53 non-MTBC Mycobacterium genomes, incl. distant relatives) — an ancient core gene predating the genus radiation</span>
+        
+      </td></tr>
+      
+      
+      <tr><th>Phylostratum <span class="muted">(deepest detected homolog)</span></th><td>
+        
+        <span class="muted">MTBC-specific</span> <span class="muted">&rarr;</span> <span class="muted">Mycobacterium</span> <span class="muted">&rarr;</span> <span class="muted">Mycobacteriaceae</span> <span class="muted">&rarr;</span> <strong>Corynebacteriales</strong> <span class="muted">&rarr;</span> <span class="muted">Actinomycetia</span> <span class="muted">&rarr;</span> <span class="muted">Bacteria</span><br>
+        detected in <strong>3/13</strong> non-<em>Mycobacterium</em> reference genomes (down to Corynebacteriales) &middot; mean identity 43.8%
+        <br>
+        <span class="muted">detected across the order Corynebacteriales (Corynebacterium/Nocardia/Rhodococcus/…) but not in more distant Actinomycetia — a Corynebacteriales-level gene</span>
+      </td></tr>
+      
+    </table>
+    <p class="muted">Two orthogonal outgroup signals. <em>M. canettii</em> (the immediate outgroup) gives a
+      <strong>deep-divergence dN/dS</strong> (a low value confirms a constrained, real gene; shown as confident only at
+      &ge;8 substitutions, else flagged low-power). Genus-wide <strong>presence/absence</strong> (tblastn vs assembled
+      non-MTBC genomes) places the gene on the ancient-core &harr; MTBC-specific axis: a gene absent even from the closest
+      MTBAP relatives is a <strong>candidate MTBC-specific innovation</strong> (possible host-adaptation factor, to confirm
+      by synteny). The <strong>phylostratum</strong> extends that axis <em>outside</em> the genus (tblastn vs 13 reference
+      genomes spanning Mycobacteriaceae &rarr; Corynebacteriales &rarr; Actinomycetia &rarr; outside the phylum): it is the
+      deepest clade in which a homolog is still detected, i.e. a proxy for gene age. Read it with the null model in mind:
+      a shallow (young) stratum can also reflect <strong>homology-detection failure</strong> for short or fast-evolving
+      ORFs, so it is a descriptive axis, not a proof of novelty.</p>
+  </section>
+  
+
+  
+
+  
+  <section>
+    <h2>Essentiality <span class="muted">(transposon mutagenesis)</span>
+      
+      <span class="badge">cholesterol-required</span>
+    </h2>
+    
+    <table class="kv">
+      <tr><th>DeJesus 2017 call</th><td><strong>NE</strong> &middot;
+        non-essential
+      </td></tr>
+      
+      <tr><th>What the call means</th><td>non-essential</td></tr>
+      
+      
+      <tr><th>TA sites (Himar1)</th><td>
+        <strong>53</strong> in the ORF &mdash;
+        <strong>0</strong> in the essential state,
+        0 growth-defect,
+        <strong>53</strong> non-essential,
+        0 growth-advantage.
+        Saturation 0.868,
+        mean read count 58.7826086957.
+        <em>A region of the protein devoid of TA sites is invisible to this assay: nothing can be
+        inferred about it, in either direction.</em>
+        
+        <br><span class="muted">All 53 sites lie in this ORF alone
+        (no overlapping CDS shares any), so the call is attributable to this gene.</span>
+        
+      </td></tr>
+      
+      
+      
+      <tr><th>Cholesterol catabolism</th><td>required for growth on cholesterol (Griffin 2011)</td></tr>
+      
+    </table>
+    <p class="muted">Genome-wide Himar1 transposon essentiality in H37Rv (DeJesus 2017). An
+      <strong>essential</strong> call (ES/ESD/GD) is strong, independent evidence that a "hypothetical"
+      locus encodes a functional, selectively required gene &mdash; orthogonal to intra-species conservation.</p>
+  </section>
+  
+
+  
+  
+  <section>
+    <h2>Conditional fitness <span class="muted">(RB-TnSeq, 95 conditions)</span>
+      
+      <span class="badge">carbon source</span>
+    </h2>
+    
+    <table class="genes">
+      <thead><tr><th>Condition</th><th>Group</th><th>Direction</th><th>log2 fitness</th><th>t</th></tr></thead>
+      <tbody>
+      
+      <tr>
+        <td>Sodium propionate</td>
+        <td class="muted">carbon source</td>
+        <td>mutant depleted <span class="muted">(gene required)</span></td>
+        <td>-1.166</td>
+        <td>-6.635</td>
+      </tr>
+      
+      </tbody>
+    </table>
+    <p class="muted">Randomly-barcoded transposon screen across 95 carbon/nitrogen sources, pH, stressors and
+      antibiotics (1 condition-specific phenotype(s) for this gene). A conditional fitness
+      phenotype is a <strong>context lead</strong>, not a proven function, and never changes the verdict here.
+      Note the blind spot: RB-TnSeq cannot measure essential genes. Source: RB-TnSeq 95-condition barcoded transposon screen, Mtb (PLoS Biol 2026, doi:10.1371/journal.pbio.3003529).</p>
+  </section>
+  
+
+  
+
+  
+
+  
+  <section>
+    <h2>Mutant phenotypes <span class="muted">(conditional Tn-seq, MtbTnDB)</span>
+      <span class="badge badge-dark">in-vivo phenotype</span>
+    </h2>
+    <table class="genes">
+      <thead><tr><th>Condition</th><th>log2FC</th><th>q</th><th>Effect</th></tr></thead>
+      <tbody>
+      
+      <tr><td>fitness on cholesterol (vs glycerol) <span class="muted">(carbon source)</span></td>
+        <td>-3.23</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-2.85</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-2.51</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-2.22</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness after prolonged in vitro passage <span class="muted">(in vitro passage)</span></td>
+        <td>-2.19</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-2.11</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-2.06</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-1.99</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-1.95</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-1.94</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection <span class="muted">(in vivo)</span></td>
+        <td>-1.88</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      <tr><td>fitness in mouse infection, day 10 <span class="muted">(in vivo)</span></td>
+        <td>-1.87</td><td>0.0</td>
+        <td>required</td></tr>
+      
+      </tbody>
+    </table>
+    <p class="muted">Conditional fitness of transposon-disruption mutants across 53
+      significant condition(s) (|log2FC|&ge;1, q&le;0.05), from the standardized MtbTnDB compendium. A negative log2FC
+      means the mutant is <em>depleted</em> &mdash; the gene contributes to fitness in that condition. An
+      <strong>in-vivo</strong> defect for a "hypothetical" is strong evidence it matters for infection, even without a
+      known molecular function. Disruption (Tn insertion), not a clean deletion; genetic-interaction screens excluded.</p>
+  </section>
+  
+
+  
+
+  
+  <section>
+    <h2>Proteomics <span class="muted">(mass spectrometry)</span>
+      <span class="badge badge-dark">detected</span>
+    </h2>
+    
+    <table class="kv">
+      <tr><th>MS detection</th><td>detected in <strong>8</strong> of 16 independent MS datasets</td></tr>
+      
+      <tr><th>Integrated abundance</th><td>2.46 ppm
+        &middot; rank 3132/3519
+        (11.0th percentile)</td></tr>
+      
+    </table>
+    <p class="muted">Detection by mass spectrometry is direct, experimental evidence that the protein product
+      <strong>exists</strong> &mdash; orthogonal to sequence conservation and to Tn-seq essentiality, and especially
+      decisive for a "hypothetical" locus. <strong>Read the dataset count as abundance, not as replication.</strong>
+      Measured across this atlas (3,491 detected proteins), the number of datasets a protein appears in tracks its
+      abundance almost monotonically: median 1.2&nbsp;ppm at 1 dataset of 16, 27&nbsp;ppm at 10, 392&nbsp;ppm at 15,
+      1,325&nbsp;ppm at 16 &mdash; three orders of magnitude. A high count therefore says the protein is abundant more
+      than it says several independent experiments confirmed it. What the count does establish, at any value, is that
+      the product exists.</p>
+    
+  </section>
+  
+
+  
+  
+  <section>
+    <h2>Predicted localisation <span class="muted">(DeepTMHMM + lipobox)</span>
+      
+      <span class="badge">lipoprotein</span>
+      
+      
+    </h2>
+    
+    <table class="kv">
+      <tr><th>Prediction</th><td>predicted lipoprotein (lipobox + signal peptide)</td></tr>
+      <tr><th>DeepTMHMM class</th><td>TM</td></tr>
+      <tr><th>TM helices (DeepTMHMM)</th><td>12</td></tr>
+      <tr><th>Lipobox</th><td>signal-peptidase-II lipobox; lipidated Cys near position 19</td></tr>
+    </table>
+    
+    
+    <p class="muted">Transmembrane topology and signal peptide from DeepTMHMM (deep-learning reference
+      predictor); lipoproteins from a (myco)bacterial lipobox motif. A sequence-based prediction of
+      subcellular context.</p>
+    
+  </section>
+  
+
+  
+  <section>
+    <h2>Physico-chemical properties <span class="muted">(computed, ProtParam)</span></h2>
+    <table class="kv">
+      <tr><th>Length</th><td>1017 aa</td></tr>
+      <tr><th>Molecular weight</th><td>108.2 kDa</td></tr>
+      <tr><th>Theoretical pI</th><td>9.02</td></tr>
+      <tr><th>GRAVY</th><td>0.304 <span class="muted">(hydrophobic)</span></td></tr>
+      <tr><th>Aliphatic index</th><td>106.7</td></tr>
+      <tr><th>Aromaticity</th><td>0.059</td></tr>
+      <tr><th>Instability index</th><td>31.6 <span class="muted">(stable)</span></td></tr>
+    </table>
+    <p class="muted">Computed from the ancestral MTBC0 sequence with the ExPASy ProtParam method (Biopython). Descriptive
+      biophysical context: a positive GRAVY flags a hydrophobic (often membrane) protein, a high instability index
+      (&gt;40) predicts a short in-vitro half-life, an extreme pI hints at compartment or binding partner.</p>
+  </section>
+  
+
+  <section>
+    <h2>Domains (Pfam, hmmscan --cut_ga)</h2>
+    
+    <table class="genes">
+      <thead><tr><th>Pfam</th><th>Accession</th><th>i-Evalue</th><th>Residues</th><th>Description</th></tr></thead>
+      <tbody>
+        
+        <tr><td><code>MMPL</code></td><td>PF03176.22</td>
+            <td>5.5e-111</td><td>45–372</td>
+            <td class="muted">MMPL family</td></tr>
+        
+      </tbody>
+    </table>
+    
+    
+    
+  </section>
+
+  
+  <section>
+    <h2>3D structure <span class="muted">(interactive &mdash; Mol*/pdbe-molstar)</span></h2>
+    
+    <pdbe-molstar id="molstar-viewer"
+      custom-data-url="https://alphafold.ebi.ac.uk/files/AF-P9WJU1-F1-model_v6.cif"
+      custom-data-format="cif" alphafold-view="true" hide-water="true"
+      bg-color-r="255" bg-color-g="255" bg-color-b="255"
+      style="width:100%;height:480px;display:block;position:relative;border:1px solid var(--line);border-radius:8px"></pdbe-molstar>
+    <p class="muted">No experimental structure is deposited for this gene: showing the
+      <strong>AlphaFold&nbsp;DB predicted model</strong> (mean pLDDT
+      82.4, confident), coloured by per-residue confidence (dark blue
+      = very high, orange/red = low &mdash; treat low-confidence regions as unreliable, especially termini and
+      loops). Drag to rotate, scroll to zoom.</p>
+    
+    
+  </section>
+  
+
+  
+
+  
+
+  
+  
+  
+  <section>
+    <h2>Structural search <span class="muted">(AlphaFold&nbsp;DB model, Foldseek vs PDB &mdash; genome-wide)</span>
+      <span class="badge">pLDDT 82.4</span>
+    </h2>
+    <table class="genes">
+      <thead><tr><th>PDB hit</th><th>prob</th><th>TM-score</th><th>E-value</th><th>Description</th></tr></thead>
+      <tbody>
+        
+        <tr><td><code>9b43-assembly1_A</code></td>
+            <td>1.00</td>
+            <td>0.92</td>
+            <td>7.4e-46 <span class="badge badge-requalified">sig</span></td>
+            <td class="muted">9b43-assembly1_A Mycolicibacterium smegmatis MmpL4 structure</td></tr>
+        
+        <tr><td><code>9b46-assembly1_A</code></td>
+            <td>1.00</td>
+            <td>0.93</td>
+            <td>5.4e-45 <span class="badge badge-requalified">sig</span></td>
+            <td class="muted">9b46-assembly1_A Mycolicibacterium smegmatis MmpL5 structure</td></tr>
+        
+        <tr><td><code>7wnx-assembly1_A</code></td>
+            <td>1.00</td>
+            <td>0.78</td>
+            <td>1.5e-21 <span class="badge badge-requalified">sig</span></td>
+            <td class="muted">7wnx-assembly1_A Cryo-EM structure of Mycobacterium smegmatis MmpL3 complexed with ST004 in lipid nanodiscs</td></tr>
+        
+        <tr><td><code>7k8b-assembly1_A</code></td>
+            <td>1.00</td>
+            <td>0.80</td>
+            <td>9.0e-21 <span class="badge badge-requalified">sig</span></td>
+            <td class="muted">7k8b-assembly1_A CryoEM structure of a trehalose monomycolate transporter in lipid nanodiscs</td></tr>
+        
+        <tr><td><code>6ajj-assembly1_A</code></td>
+            <td>1.00</td>
+            <td>0.65</td>
+            <td>6.7e-22 <span class="badge badge-requalified">sig</span></td>
+            <td class="muted">6ajj-assembly1_A Crystal structure of mycolic acid transporter MmpL3 from Mycobacterium smegmatis complexed with ICA38</td></tr>
+        
+      </tbody>
+    </table>
+    <p class="muted">Foldseek search of the AlphaFold&nbsp;DB model (mean pLDDT 82.4,
+      gated at 70) against the PDB &mdash; a genome-wide extension of the ESMFold dark-gene search that also
+      covers proteins beyond the single-sequence length limit. Confident structural neighbours (E&nbsp;&lt;&nbsp;0.01) shown.</p>
+  </section>
+  
+  
+
+  
+
+  
+  <section>
+    <h2>Genomic context <span class="muted">(neighbours &amp; predicted operon)</span>
+      
+    </h2>
+    <table class="kv">
+      <tr><th>Upstream (5' on genome)</th><td><a href="/gene/Rv1182"><code>papA3</code></a> <span class="muted">(+ strand, 66 bp gap)</span></td></tr>
+      <tr><th>Downstream (3' on genome)</th><td><a href="/gene/Rv1184c"><code>Rv1184c</code></a> <span class="muted">(- strand, 3 bp gap)</span></td></tr>
+      
+    </table>
+    <p class="muted">Neighbours from the H37Rv annotation (+ strand). The operon is
+      <em>predicted</em> by co-directional intergenic distance (same strand, gaps &le;50&nbsp;bp) &mdash; a
+      transcription-unit hypothesis, not a mapped TSS. For a "hypothetical", co-transcription with a characterised
+      operon is a concrete functional lead (complements the STRING neighborhood channel below).</p>
+
+    
+    
+    <h3>Published operon evidence <span class="muted">(two independent sources)</span></h3>
+    <table class="kv">
+      
+      
+      <tr><th>Roback 2007 <span class="muted">(logistic regression: distance + expression correlation,
+        474 microarrays)</span></th><td>
+        
+          no multi-gene operon predicted (singleton)
+        
+        
+      </td></tr>
+      
+      
+      
+      <tr><th>REMap 2016 <span class="muted">(RNA-seq coverage continuity, CDC1551, tag MT1220)</span></th>
+        <td>
+        
+          
+            not expressed (exponential phase)
+          
+          <br>
+        
+        
+          
+            stationary phase: operon of 3,
+            <a href="/gene/Rv1181"><code>Rv1181</code></a> &middot; <a href="/gene/Rv1182"><code>Rv1182</code></a> &middot; <a href="/gene/Rv1183"><code>Rv1183</code></a>
+            (coverage 41.43)
+          
+        
+        
+          &mdash; <span class="muted">disagrees
+          with the distance heuristic above</span>
+        
+      </td></tr>
+      
+    </table>
+    <p class="muted">Two independent published operon maps, cited alongside the distance heuristic above: an
+      <strong>association corroborating or contradicting</strong> the heuristic, never proof of shared function.
+      REMap's RNA-seq coverage continuity is the most direct of the three signals; Roback's logistic regression and
+      the intergenic-distance heuristic are statistical proxies.</p>
+    
+  </section>
+  
+
+  
+
+  
+  <section>
+    <h2>Transcriptional regulation <span class="muted">(signed TRN: ChIP-seq + TFOE)</span>
+      
+    </h2>
+    <table class="kv">
+      
+      <tr><th>Regulated by (1 TF)</th><td>
+        <a href="/gene/Rv1353c"><code>Rv1353c</code></a><span class="muted">&nbsp;(activates)</span>
+      </td></tr>
+      
+    </table>
+    <p class="muted">Regulatory edges from the ISB signed transcriptional regulatory network (TF ChIP-seq binding,
+      Minch 2015 + TF-overexpression response, Rustad 2014). An edge is regulatory evidence (binding and/or
+      expression change), not necessarily direct. For a "hypothetical", membership in a known regulon (e.g. DosR
+      dormancy, PhoP virulence) is a physiological-context lead, not a function.</p>
+    
+    <p class="muted"><strong>Condition:</strong> Condition-blind by construction. These edges come from transcription-factor OVEREXPRESSION in a single laboratory condition, so a listed regulator is not a claim that it governs this gene in every circumstance. Measured counter-examples exist within this atlas (see Rv2516c, where the DosR regulon collapses under moxifloxacin while the gene itself rises). Read a regulator as &#39;capable of shifting this gene&#39;, and look for the condition before building a hypothesis on it.</p>
+    
+    
+  </section>
+  
+
+  
+
+  
+  <section>
+    <div style="display:flex; justify-content:space-between; align-items:baseline">
+      <h2>Functional interaction network <span class="muted">(STRING v12, guilt-by-association)</span></h2>
+      <a href="/network?center=Rv1183">Explore full network &#8594;</a>
+    </div>
+    
+    
+<div class="net-graph" style="overflow-x:auto; border:1px solid #e3e3e3; border-radius:6px; background:#fafafa">
+  <svg viewBox="0 0 900 560" width="100%" style="min-width:620px; display:block"
+       font-family="system-ui, sans-serif">
+    
+    <line x1="450.0" y1="280.0" x2="450.0" y2="130.0"
+          stroke="#ef6c00" stroke-width="3.64" stroke-opacity="0.69"/>
+    
+    <line x1="450.0" y1="280.0" x2="538.2" y2="158.6"
+          stroke="#ef6c00" stroke-width="3.5" stroke-opacity="0.67"/>
+    
+    <line x1="450.0" y1="280.0" x2="592.7" y2="233.6"
+          stroke="#9e9e9e" stroke-width="3.22" stroke-opacity="0.62"/>
+    
+    <line x1="450.0" y1="280.0" x2="592.7" y2="326.4"
+          stroke="#9e9e9e" stroke-width="3.04" stroke-opacity="0.59"/>
+    
+    <line x1="450.0" y1="280.0" x2="538.2" y2="401.4"
+          stroke="#9e9e9e" stroke-width="3.02" stroke-opacity="0.59"/>
+    
+    <line x1="450.0" y1="280.0" x2="450.0" y2="430.0"
+          stroke="#9e9e9e" stroke-width="2.7" stroke-opacity="0.54"/>
+    
+    <line x1="450.0" y1="280.0" x2="361.8" y2="401.4"
+          stroke="#9e9e9e" stroke-width="2.62" stroke-opacity="0.52"/>
+    
+    <line x1="450.0" y1="280.0" x2="307.3" y2="326.4"
+          stroke="#ef6c00" stroke-width="2.49" stroke-opacity="0.5"/>
+    
+    <line x1="450.0" y1="280.0" x2="307.3" y2="233.6"
+          stroke="#ef6c00" stroke-width="2.28" stroke-opacity="0.47"/>
+    
+    <line x1="450.0" y1="280.0" x2="361.8" y2="158.6"
+          stroke="#ef6c00" stroke-width="2.25" stroke-opacity="0.46"/>
+    
+    <line x1="450.0" y1="130.0" x2="538.2" y2="158.6"
+          stroke="#2e7d32" stroke-width="3.77" stroke-opacity="0.71"/>
+    
+    <line x1="450.0" y1="130.0" x2="450.0" y2="430.0"
+          stroke="#ef6c00" stroke-width="3.58" stroke-opacity="0.68"/>
+    
+    <line x1="538.2" y1="158.6" x2="450.0" y2="430.0"
+          stroke="#2e7d32" stroke-width="3.8" stroke-opacity="0.72"/>
+    
+    <line x1="592.7" y1="233.6" x2="361.8" y2="401.4"
+          stroke="#ef6c00" stroke-width="3.61" stroke-opacity="0.69"/>
+    
+    <line x1="592.7" y1="233.6" x2="307.3" y2="326.4"
+          stroke="#ef6c00" stroke-width="2.49" stroke-opacity="0.5"/>
+    
+    <line x1="592.7" y1="233.6" x2="361.8" y2="158.6"
+          stroke="#ef6c00" stroke-width="2.32" stroke-opacity="0.47"/>
+    
+    <line x1="592.7" y1="233.6" x2="307.3" y2="233.6"
+          stroke="#ef6c00" stroke-width="2.3" stroke-opacity="0.47"/>
+    
+    <line x1="592.7" y1="233.6" x2="450.0" y2="130.0"
+          stroke="#9e9e9e" stroke-width="2.25" stroke-opacity="0.46"/>
+    
+    <line x1="592.7" y1="233.6" x2="592.7" y2="326.4"
+          stroke="#9e9e9e" stroke-width="1.68" stroke-opacity="0.37"/>
+    
+    <line x1="592.7" y1="233.6" x2="538.2" y2="158.6"
+          stroke="#9e9e9e" stroke-width="1.45" stroke-opacity="0.33"/>
+    
+    <line x1="592.7" y1="326.4" x2="450.0" y2="130.0"
+          stroke="#2e7d32" stroke-width="2.4" stroke-opacity="0.49"/>
+    
+    <line x1="592.7" y1="326.4" x2="361.8" y2="401.4"
+          stroke="#9e9e9e" stroke-width="1.75" stroke-opacity="0.38"/>
+    
+    <line x1="592.7" y1="326.4" x2="538.2" y2="158.6"
+          stroke="#9e9e9e" stroke-width="1.08" stroke-opacity="0.27"/>
+    
+    <line x1="592.7" y1="326.4" x2="450.0" y2="430.0"
+          stroke="#9e9e9e" stroke-width="1.08" stroke-opacity="0.27"/>
+    
+    <line x1="361.8" y1="401.4" x2="538.2" y2="158.6"
+          stroke="#2e7d32" stroke-width="3.38" stroke-opacity="0.65"/>
+    
+    <line x1="307.3" y1="326.4" x2="361.8" y2="158.6"
+          stroke="#ef6c00" stroke-width="2.85" stroke-opacity="0.56"/>
+    
+    
+    <a href="/gene/Rv1183">
+      <title>mmpL10 (requalified) — RND transporter MmpL10</title>
+      <circle cx="450.0" cy="280.0" r="22" fill="#2e7d32"
+              stroke="#111"
+              stroke-width="2.5"
+              />
+      
+      <text x="450.0" y="284.0" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">mmpL10</text>
+      
+    </a>
+    
+    <a href="/gene/Rv1182">
+      <title>papA3 (requalified) — acyltransferase PapA3</title>
+      <circle cx="450.0" cy="130.0" r="13" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              />
+      
+      <text x="466.0" y="134.0" text-anchor="start" font-size="10" fill="#333">papA3</text>
+      
+    </a>
+    
+    <a href="/gene/Rv1181">
+      <title>pks4 (requalified) — polyketide beta-ketoacyl synthase</title>
+      <circle cx="538.2" cy="158.6" r="13" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              />
+      
+      <text x="554.2" y="162.6" text-anchor="start" font-size="10" fill="#333">pks4</text>
+      
+    </a>
+    
+    <a href="/gene/Rv3823c">
+      <title>mmpL8 (requalified) — sulfolipid-1 RND transporter MmpL8</title>
+      <circle cx="592.7" cy="233.6" r="13" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              />
+      
+      <text x="608.7" y="237.6" text-anchor="start" font-size="10" fill="#333">mmpL8</text>
+      
+    </a>
+    
+    <a href="/gene/Rv1184c">
+      <title>chp2 (requalified) — diacyltrehalose acyltransferase Chp2</title>
+      <circle cx="592.7" cy="326.4" r="12" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              stroke-dasharray="2.5,2"/>
+      
+      <text x="608.7" y="330.4" text-anchor="start" font-size="10" fill="#333">chp2</text>
+      
+    </a>
+    
+    <a href="/gene/Rv3492c">
+      <title>Rv3492c (requalified) — Mce associated protein</title>
+      <circle cx="538.2" cy="401.4" r="13" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              />
+      
+      <text x="554.2" y="405.4" text-anchor="start" font-size="10" fill="#333">Rv3492c</text>
+      
+    </a>
+    
+    <a href="/gene/Rv1180">
+      <title>pks3 (requalified) — polyketide beta-ketoacyl synthase</title>
+      <circle cx="450.0" cy="430.0" r="13" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              />
+      
+      <text x="466.0" y="434.0" text-anchor="start" font-size="10" fill="#333">pks3</text>
+      
+    </a>
+    
+    <a href="/gene/Rv3824c">
+      <title>papA1 (requalified) — acyltransferase PapA1</title>
+      <circle cx="361.8" cy="401.4" r="13" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              />
+      
+      <text x="345.8" y="405.4" text-anchor="end" font-size="10" fill="#333">papA1</text>
+      
+    </a>
+    
+    <a href="/gene/Rv1598c">
+      <title>Rv1598c (family_assigned) — nitroreductase family deazaflavin-dependent oxidor</title>
+      <circle cx="307.3" cy="326.4" r="12" fill="#1565c0"
+              stroke="#ffffff"
+              stroke-width="1"
+              stroke-dasharray="2.5,2"/>
+      
+      <text x="291.3" y="330.4" text-anchor="end" font-size="10" fill="#333">Rv1598c</text>
+      
+    </a>
+    
+    <a href="/gene/Rv1145">
+      <title>Rv1145 (requalified) — transmembrane transport protein</title>
+      <circle cx="307.3" cy="233.6" r="13" fill="#2e7d32"
+              stroke="#ffffff"
+              stroke-width="1"
+              />
+      
+      <text x="291.3" y="237.6" text-anchor="end" font-size="10" fill="#333">Rv1145</text>
+      
+    </a>
+    
+    <a href="/gene/Rv1303">
+      <title>Rv1303 (family_assigned) — ATP synthase subunit I</title>
+      <circle cx="361.8" cy="158.6" r="12" fill="#1565c0"
+              stroke="#ffffff"
+              stroke-width="1"
+              stroke-dasharray="2.5,2"/>
+      
+      <text x="345.8" y="162.6" text-anchor="end" font-size="10" fill="#333">Rv1303</text>
+      
+    </a>
+    
+  </svg>
+</div>
+
+    <p class="muted" style="margin:.3rem 0 .8rem">Node colour = verdict, dashed = hypothetical; edge colour = evidence
+      (<span style="color:#2e7d32">green</span> experimental, <span style="color:#ef6c00">orange</span> genomic-context,
+      grey co-expression), width &prop; score. Click a partner to open its page; "Explore full network" to walk the graph.</p>
+    
+    
+    <p class="note">Closest characterised functional partner:
+      <strong>papA3</strong> (acyltransferase papA3),
+      <strong>high</strong> confidence from genomic context alone
+      (score 948 excluding text-mining).
+      </p>
+    
+    <table class="genes">
+      <thead><tr><th>Partner</th><th>Product</th><th>Score</th><th>No text-mining</th><th>Channels (&ge;400)</th></tr></thead>
+      <tbody>
+        
+        <tr>
+          <td><a href="/gene/Rv1182"><code>Rv1182</code></a> <strong>papA3</strong></td>
+          <td class="muted">acyltransferase papA3</td>
+          <td>992</td>
+          <td>948 <span class="badge badge-requalified">ctx</span></td>
+          <td class="muted">neighborhood:628 coexpression:806 textmining:858 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv1181"><code>Rv1181</code></a> <strong>pks4</strong></td>
+          <td class="muted">polyketide beta-ketoacyl synthase</td>
+          <td>968</td>
+          <td>900 <span class="badge badge-requalified">ctx</span></td>
+          <td class="muted">neighborhood:475 coexpression:797 textmining:700 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv3823c"><code>Rv3823c</code></a> <strong>mmpL8</strong></td>
+          <td class="muted">integral membrane transport protein MmpL8</td>
+          <td>813</td>
+          <td>808</td>
+          <td class="muted">coexpression:803 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv1184c"><code>Rv1184c</code></a> <strong>chp2</strong> <span class="badge badge-dark">hyp</span></td>
+          <td class="muted">hypothetical protein</td>
+          <td>850</td>
+          <td>747</td>
+          <td class="muted">coexpression:733 textmining:434 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv3492c"><code>Rv3492c</code></a></td>
+          <td class="muted">Mce associated protein</td>
+          <td>740</td>
+          <td>740</td>
+          <td class="muted">coexpression:740 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv1180"><code>Rv1180</code></a> <strong>pks3</strong></td>
+          <td class="muted">polyketide beta-ketoacyl synthase</td>
+          <td>826</td>
+          <td>632</td>
+          <td class="muted">textmining:548 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv3824c"><code>Rv3824c</code></a> <strong>papA1</strong></td>
+          <td class="muted">acyltransferase</td>
+          <td>848</td>
+          <td>605</td>
+          <td class="muted">coexpression:404 textmining:632 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv1598c"><code>Rv1598c</code></a> <span class="badge badge-dark">hyp</span></td>
+          <td class="muted">hypothetical protein</td>
+          <td>564</td>
+          <td>564 <span class="badge badge-requalified">ctx</span></td>
+          <td class="muted">cooccurence:563 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv1145"><code>Rv1145</code></a> <strong>mmpL13a</strong></td>
+          <td class="muted">transmembrane transport protein</td>
+          <td>549</td>
+          <td>494 <span class="badge badge-requalified">ctx</span></td>
+          <td class="muted">cooccurence:491 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv1303"><code>Rv1303</code></a> <span class="badge badge-dark">hyp</span></td>
+          <td class="muted">hypothetical protein</td>
+          <td>485</td>
+          <td>485 <span class="badge badge-requalified">ctx</span></td>
+          <td class="muted">cooccurence:485 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv3825c"><code>Rv3825c</code></a> <strong>pks2</strong></td>
+          <td class="muted">phthioceranic/hydroxyphthioceranic acid synthase</td>
+          <td>666</td>
+          <td>421</td>
+          <td class="muted">textmining:448 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv3479"><code>Rv3479</code></a></td>
+          <td class="muted">transmembrane protein</td>
+          <td>414</td>
+          <td>415</td>
+          <td class="muted">coexpression:415 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv3820c"><code>Rv3820c</code></a> <strong>papA2</strong></td>
+          <td class="muted">trehalose-2-sulfate acyltransferase</td>
+          <td>750</td>
+          <td>348</td>
+          <td class="muted">textmining:632 </td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv2942"><code>Rv2942</code></a> <strong>mmpL7</strong></td>
+          <td class="muted">transmembrane transport protein MmpL7</td>
+          <td>449</td>
+          <td>317</td>
+          <td class="muted"></td>
+        </tr>
+        
+        <tr>
+          <td><a href="/gene/Rv0383c"><code>Rv0383c</code></a> <strong>ttfA</strong> <span class="badge badge-dark">hyp</span></td>
+          <td class="muted">hypothetical protein</td>
+          <td>412</td>
+          <td>284</td>
+          <td class="muted"></td>
+        </tr>
+        
+      </tbody>
+    </table>
+    <p class="muted">STRING combines evidence channels (neighborhood, fusion, cooccurrence, coexpression,
+      experimental, database, text-mining) into a 0–1000 score. The <span class="badge badge-requalified">ctx</span>
+      badge marks edges carried by the <strong>genomic-context</strong> channels (conserved neighborhood, fusion,
+      phylogenetic co-occurrence), which are independent of orthology and structure and the strongest signal for an
+      unknown gene. The <span class="badge badge-requalified">exp</span> badge marks an
+      <strong>experimentally-supported</strong> partner (measured interaction, experimental/database channel &ge;400) as
+      opposed to a purely predicted one &mdash; but note that the M. tuberculosis experimental interactome is dominated by
+      a noisy bacterial-two-hybrid screen, so a strong measured link that contradicts the operon/localisation context is
+      likely a false positive. The <em>no text-mining</em> column recomputes the score from data alone, so a link that does not
+      depend on the literature is visible. Association is a function <em>hypothesis</em>, not proof: corroborate with
+      the operon context and the primary literature before assigning a function.</p>
+  </section>
+  
+
+  
+  <section>
+    <h2>Evidence</h2>
+    <ul><li>Legacy H37Rv annotation: transmembrane transport protein MmpL10</li><li>MTBC0 PGAP product: RND transporter MmpL10</li><li>Pfam (hmmscan --cut_ga): MMPL PF03176.22 (E=5e-111)</li><li>(auto-curated by rules from PGAP + Pfam + Foldseek; not hand-reviewed)</li></ul>
+  </section>
+  
+
+  
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><strong>Ancestral sequence &amp; coordinates:</strong> Harrison LB et al. (2024),
+        <em>An imputed ancestral reference genome for the MTBC</em>,
+        <a href="https://doi.org/10.1101/2023.09.07.556366">doi:10.1101/2023.09.07.556366</a></li>
+      <li><strong>Product annotation:</strong> NCBI PGAP on MTBC0; legacy from H37Rv NC_000962.3 (RefSeq NP_215699.1)</li>
+      <li><strong>Domains:</strong> Pfam-A via hmmscan --cut_ga — MMPL (PF03176.22)</li>
+      <li><strong>Sequence-level signal:</strong> ESM Atlas (EvolutionaryScale &times; BioHub) — exploratory</li>
+      
+      <li><strong>Controlled vocabulary:</strong> eggNOG-mapper 2.1.12 (Cantalapiedra et al. 2021,
+        <a href="https://doi.org/10.1093/molbev/msab293">doi:10.1093/molbev/msab293</a>), eggNOG 5.0 DB
+        (Huerta-Cepas et al. 2019) — OG <code>COG2409</code></li>
+      
+      
+      <li><strong>Curated reference:</strong> UniProt
+        <a href="https://www.uniprot.org/uniprotkb/P9WJU1">P9WJU1</a>
+        (SwissProt, reviewed; Evidence at protein level)</li>
+      
+      
+      <li><strong>Intra-MTBC selection:</strong> pN/pS and disruption from SPDI variants of
+        145 209 MTBC strains (this work, local collection vs H37Rv NC_000962.3)</li>
+      
+      
+      
+      <li><strong>Genome-wide structure:</strong> AlphaFold DB model (Jumper et al. 2021,
+        <a href="https://doi.org/10.1038/s41586-021-03819-2">doi:10.1038/s41586-021-03819-2</a>; Varadi et al. 2024,
+        <a href="https://doi.org/10.1093/nar/gkad1011">doi:10.1093/nar/gkad1011</a>) searched vs PDB with Foldseek
+        (mean pLDDT 82.4)</li>
+      
+      
+      
+      <li><strong>Interaction network:</strong> STRING v12.0 (Szklarczyk et al. 2023,
+        <a href="https://doi.org/10.1093/nar/gkac1000">doi:10.1093/nar/gkac1000</a>), taxon 83332, CC-BY 4.0 —
+        19 functional partner(s); context anchor <code>papA3</code></li>
+      
+      
+      <li><strong>Essentiality:</strong> genome-wide transposon mutagenesis in H37Rv — DeJesus et al. 2017 (mBio,
+        <a href="https://doi.org/10.1128/mBio.02133-16">doi:10.1128/mBio.02133-16</a>, CC BY);
+        cholesterol requirement from Griffin et al. 2011 (<a href="https://doi.org/10.1371/journal.ppat.1002251">doi:10.1371/journal.ppat.1002251</a>)</li>
+      
+      
+      <li><strong>Proteomics:</strong> integrated mass-spectrometry abundance from PaxDb 5.0 (Huang et al. 2023,
+        <a href="https://doi.org/10.1016/j.mcpro.2023.100640">doi:10.1016/j.mcpro.2023.100640</a>), taxon 83332 —
+        weighted average of 16 datasets, incl. Schubert et al. 2013
+        (<a href="https://doi.org/10.1016/j.chom.2013.04.008">doi:10.1016/j.chom.2013.04.008</a>) and Albrethsen
+        et al. 2013 (<a href="https://doi.org/10.1074/mcp.M112.018846">doi:10.1074/mcp.M112.018846</a>)</li>
+      
+      
+      <li><strong>Functional category:</strong> TubercuList scheme (Cole et al. 1998,
+        <a href="https://doi.org/10.1038/31159">doi:10.1038/31159</a>), via Mycobrowser (Kapopoulou et al. 2011,
+        <a href="https://doi.org/10.1016/j.tube.2010.09.006">doi:10.1016/j.tube.2010.09.006</a>)</li>
+      
+      
+      <li><strong>Orthologues:</strong> reciprocal best hits (DIAMOND, Buchfink et al. 2021,
+        <a href="https://doi.org/10.1038/s41592-021-01101-x">doi:10.1038/s41592-021-01101-x</a>) against Mycobrowser
+        release 5 reference proteomes</li>
+      
+      
+      
+      
+      <li><strong>Genomic context / operon:</strong> H37Rv annotation; operon predicted by co-directional
+        intergenic distance (Salgado et al. 2000, <a href="https://doi.org/10.1073/pnas.030539397">doi:10.1073/pnas.030539397</a>)</li>
+      
+      
+      
+      
+      <li><strong>Transcriptional regulation:</strong> ISB signed TRN &mdash; TF ChIP-seq (Minch et al. 2015,
+        <a href="https://doi.org/10.1038/ncomms6829">doi:10.1038/ncomms6829</a>) + TF overexpression (Rustad et al. 2014,
+        <a href="https://doi.org/10.1186/gb-2014-15-11-502">doi:10.1186/gb-2014-15-11-502</a>)</li>
+      
+      
+      <li><strong>Mutant phenotypes:</strong> standardized Tn-seq compendium MtbTnDB (Jinich et al. 2025,
+        <a href="https://doi.org/10.1111/mmi.15370">doi:10.1111/mmi.15370</a>), aggregating many primary Tn-seq
+        studies across conditions</li>
+      
+      
+      
+      <li><strong>Physico-chemical properties:</strong> ExPASy ProtParam method via Biopython (Gasteiger et al. 2005),
+        computed from the MTBC0 sequence</li>
+      
+      
+      <li><strong>Predicted localisation:</strong>
+        DeepTMHMM (Hallgren et al. 2022,
+        <a href="https://doi.org/10.1101/2022.04.08.487609">doi:10.1101/2022.04.08.487609</a>) for transmembrane
+        topology and signal peptide; (myco)bacterial lipobox (Sutcliffe &amp; Harrington 2004,
+        <a href="https://doi.org/10.1099/mic.0.26804-0">doi:10.1099/mic.0.26804-0</a>)</li>
+      
+      
+      <li><strong>Primary literature:</strong> none located yet; annotation rests on the domain/homology sources above.</li>
+      
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ancestral MTBC0 protein sequence</h2>
+    <pre class="seq">&gt;mtbc0_001271|Rv1183|mmpL10
+MFARLGELVARRPWVVVGCWVALALVLPMAVPSLAEMAQRHPVAVLPADAPSSVAVRQMAEAFHESGSENILVVLLTDEKGLGAADENVYHTLVDRLRNDAKDVVMLQDFLTTPPLREVLGSKDGKAWILPIGLAGDLGTPKSYHAYTDVERIVKRTVAGTTLTANVTGPAATVADLTDAGARDRASIELAIAVMLLVILMVIYRNPVTMLLPLVTIGASLMTAQALVAGVSLVGGLAVSNQAIVLLSAMIAGAGTDYAVFLISRYHEYVRLGEHPERAVQRAMMSVGKVIAASAATVGITFLGMRFAKLGVFSTVGPALAIGIAVSFLAAVTLLPAILVLASPRGWVAPRGERMATFWRRAGTRIVRRPKAYLGASLIGLVALASCASLAHFNYDDRKQLPPSDPSSVGYAAMEHHFSVNQTIPEYLIIHSAHDLRTPRGLADLEQLAQRVSQIPGVAMVRGVTRPNGETLEQARATYQAGQVGNRLGGASRMIDERTGDLNRLASGANLLADNLGDVRGQVSRAVAGVRSLVDALAYIQNQFGGNKTFNEIDNAARLVSNIHALGDALQVNFDGIANSFDWLDSVVAALDTSPVCDSNPMCGNARVQFHKLQTARDNGTLDKVVGLARQLQSTRSPQTVSAVVNDLGRSLNSVVRSLKSLGLDNPDAARARLISMQNGANDLASAGRQVADGVQMLVDQTKNMGIGLNQASAFLMAMGNDASQPSMAGFNVPPQVLKSEEFKKVAQAFISPDGHTVRYFIQTDLNPFSTAAMDQVNTIIDTAKGAQPNTSLADASISMSGYPVMLRDIRDYYERDMRLIVAVTVVVVILILMALLRAIVAPLYLVGSVVISYMSAIGLGVVVFQVFLGQELHWSVPGLAFVVLVAVGADYNMLLASRLRDESALGVRSSVIRTVRCTGGVITAAGLIFAASMSGLLFSSIGTVVQGGFIIGVGILIDTFVVRTITVPAMATLLGRASWWPGHPWQRCAPEEGQMSARMSARTKTVFQAVADGSKR</pre>
+  </section>
+
+  <section class="feedback">
+    <h2>Spot an error? Suggest an improvement</h2>
+    <p>Found a mistake, a missing reference, or have a better functional hypothesis for
+      <strong>mmpL10</strong>? Report it below — the message is emailed to the
+      maintainer with this gene's details, reviewed by hand (no automatic edits).</p>
+    <form id="fb-form" action="/feedback" method="post">
+      <input type="hidden" name="gene_rv" value="Rv1183">
+      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <label>Your email (optional, only if you want a reply)
+        <input type="email" name="email" maxlength="255"></label>
+      <label>Correction, missing reference, or suggested function
+        <textarea name="message" rows="4" maxlength="4000" required></textarea></label>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p id="fb-status" class="muted" hidden></p>
+    
+    
+    <p class="muted">Prefer email directly? <a href="mailto:guyeux@gmail.com?subject=MTBC%20Gene%20Atlas%20%E2%80%94%20Rv1183%20%28mmpL10%29&body=Gene%3A%20Rv1183%20%28mmpL10%29%0APage%3A%20https%3A//mtbc.gclab.fr/gene/Rv1183%0ACurrent%20verdict%3A%20requalified%0A%0APlease%20describe%20the%20correction%2C%20the%20missing%20reference%2C%20or%20the%20suggested%20function%3A%0A%0A">&#9993;&nbsp;Email a correction about mmpL10</a></p>
+    <script>
+      document.getElementById("fb-form").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        if (form.website.value) return;  // honeypot tripped, silently drop
+        const status = document.getElementById("fb-status");
+        try {
+          const res = await fetch("/feedback", { method: "POST", body: new FormData(form) });
+          const data = await res.json();
+          status.textContent = data.ok ? "Thanks — your report was sent." : "Could not send, please try the email link instead.";
+          if (data.ok) form.reset();
+        } catch (err) {
+          status.textContent = "Could not send, please try the email link instead.";
+        }
+        status.hidden = false;
+      });
+    </script>
+  </section>
+</article>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+
+<script src="/static/vendor/pdbe-molstar/pdbe-molstar-component.js" defer></script>
+
+
+</body>
+</html>

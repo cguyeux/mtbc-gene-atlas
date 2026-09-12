@@ -1,0 +1,2079 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microproteome &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<section class="list">
+  <h1>Microproteome <span class="muted">(non-canonical smORFs)</span></h1>
+  <p class="muted" style="max-width:74ch">
+    A separate track of small proteins whose existence is experimentally supported but which the H37Rv annotation
+    excluded. These are <strong>not</strong> counted among the 3906 canonical genes or the dark stock. Each is classified
+    by genomic geometry against the reference CDS set (not the source label): <em>intergenic</em> (a novel locus),
+    <em>antisense</em> (opposite strand of a known gene), or <em>same-strand overlap</em> (an alternative reading
+    frame within a known gene). Existence supported; function unknown. Three orthogonal sources:
+    <strong>mass-spectrometry compendium</strong> (de Souza et al., <em>Sci Rep</em> 2024),
+    <strong>VapC4 ribosome-stalling proteogenomics</strong> (Troian et al., <em>Nucleic Acids Res</em> 2026), and
+    <strong>ribosome-profiling translatome</strong> (Smith et al., <em>eLife</em> 2022; confident subset with MS or
+    coding-signature support).
+  </p>
+
+  <form class="filters" onsubmit="return false"><input type="text" id="lf-q" placeholder="filter this list…"></form><p class="muted" id="lf-count"></p>
+
+  <p class="muted">200 microproteins matched.</p>
+
+  <table class="genes">
+    <thead><tr><th>ID</th><th>Class</th><th>Overlaps</th><th>Length</th><th>Detection</th><th>Localisation</th><th>Essentiality</th></tr></thead>
+    <tbody>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_17">ORF_17</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>95 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_19">ORF_19</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>13 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_2">ORF_2</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>126 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_20">ORF_20</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>41 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_21">ORF_21</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>67 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_22">ORF_22</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>138 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_23">ORF_23</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>43 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_25">ORF_25</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>405 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_26">ORF_26</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>104 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_27">ORF_27</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>37 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_31">ORF_31</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>285 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_32">ORF_32</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>122 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_37">ORF_37</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>152 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_38">ORF_38</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>76 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_4">ORF_4</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>139 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_42">ORF_42</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>185 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_43">ORF_43</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>96 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_51">ORF_51</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>134 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_52">ORF_52</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>30 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_53">ORF_53</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>62 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_55">ORF_55</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>226 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_56">ORF_56</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>258 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_72">ORF_72</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>43 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_73">ORF_73</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>35 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_74">ORF_74</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>177 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_77">ORF_77</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>85 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_81">ORF_81</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>99 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_84">ORF_84</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>62 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_91">ORF_91</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>45 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_96">ORF_96</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>154 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_3531146_p">Smith_3531146_p</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>31 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_101064">gORF_101064</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>49 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_105604">gORF_105604</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv3343c">PPE54</a></td>
+        <td>100 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Membrane</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_107229">gORF_107229</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>60 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_111295">gORF_111295</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv0355c">PPE8</a></td>
+        <td>92 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_113929">gORF_113929</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv3590c">PE_PGRS58</a></td>
+        <td>58 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_29356">gORF_29356</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv3025c">iscS</a></td>
+        <td>27 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">growth-defect when disrupted</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_32165">gORF_32165</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv0980c">PE_PGRS18</a></td>
+        <td>36 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_36517">gORF_36517</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>66 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_47860">gORF_47860</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv1448c">tal</a></td>
+        <td>55 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_50161">gORF_50161</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>81 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_54773">gORF_54773</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv2224c">caeA</a></td>
+        <td>90 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_6190">gORF_6190</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv3759c">proX</a></td>
+        <td>92 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_66553">gORF_66553</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>70 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_68556">gORF_68556</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv2095c">pafC</a></td>
+        <td>99 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_74686">gORF_74686</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>16 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_83446">gORF_83446</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv1327c">glgE</a></td>
+        <td>64 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_92020">gORF_92020</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv2902c">rnhB</a></td>
+        <td>36 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_94112">gORF_94112</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv0973c">accA2</a></td>
+        <td>53 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_38722">tORF_38722</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv1430">PE16</a></td>
+        <td>48 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_99968">tORF_99968</a></td>
+        <td><span class="badge">Antisense to a gene</span></td>
+        <td><a href="/gene/Rv3721c">dnaZX</a></td>
+        <td>57 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="badge badge-dark">essential</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_1">ORF_1</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>62 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_10">ORF_10</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>27 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_16">ORF_16</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>28 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_29">ORF_29</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>27 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_3">ORF_3</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>29 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_33">ORF_33</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>21 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_34">ORF_34</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>30 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_35">ORF_35</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>27 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_40">ORF_40</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>19 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+    
+      
+      <tr>
+        <td><a href="/microprotein/ORF_46">ORF_46</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>84 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_54">ORF_54</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>15 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_57">ORF_57</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>15 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_59">ORF_59</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>87 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_6">ORF_6</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>75 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_61">ORF_61</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>11 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_62">ORF_62</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>14 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_63">ORF_63</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>33 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_64">ORF_64</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>55 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_65">ORF_65</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>33 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_66">ORF_66</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>22 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_68">ORF_68</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>32 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_69">ORF_69</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>42 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_7">ORF_7</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>19 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_70">ORF_70</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>85 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_78">ORF_78</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>40 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_80">ORF_80</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>106 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_82">ORF_82</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>18 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_83">ORF_83</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>139 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_86">ORF_86</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>15 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_87">ORF_87</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>19 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_88">ORF_88</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>28 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_89">ORF_89</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>49 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_9">ORF_9</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>26 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_90">ORF_90</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>23 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_94">ORF_94</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>43 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1058034_m">Smith_1058034_m</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>19 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1163937_p">Smith_1163937_p</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>82 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1272036_m">Smith_1272036_m</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>43 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1697977_m">Smith_1697977_m</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>20 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1998936_p">Smith_1998936_p</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>44 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_31824_m">Smith_31824_m</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>47 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_4056710_p">Smith_4056710_p</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>23 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_4148967_m">Smith_4148967_m</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>12 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_4153620_p">Smith_4153620_p</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>13 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_103397">gORF_103397</a></td>
+        <td><span class="badge">Intergenic (novel locus)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>77 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_11">ORF_11</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>105 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_12">ORF_12</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>255 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_13">ORF_13</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>62 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_14">ORF_14</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>29 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_15">ORF_15</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>39 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_18">ORF_18</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>225 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_24">ORF_24</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>183 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_28">ORF_28</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>19 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_30">ORF_30</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>230 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_36">ORF_36</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>67 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_39">ORF_39</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>43 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_41">ORF_41</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>16 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_44">ORF_44</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>37 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_45">ORF_45</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>97 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_47">ORF_47</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>86 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_48">ORF_48</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>37 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_49">ORF_49</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>68 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_5">ORF_5</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>44 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_50">ORF_50</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>40 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_58">ORF_58</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>55 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_60">ORF_60</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>43 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_67">ORF_67</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>37 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_71">ORF_71</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>56 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_75">ORF_75</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>27 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+    
+      
+      <tr>
+        <td><a href="/microprotein/ORF_76">ORF_76</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>8 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_79">ORF_79</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>43 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_8">ORF_8</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>153 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_85">ORF_85</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>42 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_92">ORF_92</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>62 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_93">ORF_93</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>32 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/ORF_95">ORF_95</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>48 aa</td>
+        <td class="muted">ribosome-stalling</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1073327_p">Smith_1073327_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>73 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1113861_p">Smith_1113861_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>83 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_1282030_p">Smith_1282030_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>62 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2205277_m">Smith_2205277_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>90 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2225841_m">Smith_2225841_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>86 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2228676_p">Smith_2228676_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>76 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2234643_m">Smith_2234643_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>82 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2402507_m">Smith_2402507_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>70 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2510351_m">Smith_2510351_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>63 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_274710_m">Smith_274710_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>64 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2772098_m">Smith_2772098_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>80 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_2869253_m">Smith_2869253_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>124 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_3110507_m">Smith_3110507_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>76 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_3136330_m">Smith_3136330_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>89 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_3502945_m">Smith_3502945_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>110 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_3556873_p">Smith_3556873_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>63 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_3580526_p">Smith_3580526_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>52 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_4140239_m">Smith_4140239_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>74 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_4310811_p">Smith_4310811_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>73 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_4359779_m">Smith_4359779_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>75 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_710782_p">Smith_710782_p</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>75 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/Smith_908015_m">Smith_908015_m</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>32 aa</td>
+        <td class="muted">Ribo-seq</td>
+        <td class="muted">—</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_106483">gORF_106483</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>53 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_117009">gORF_117009</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv0162c">adhE1</a></td>
+        <td>71 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_11817">gORF_11817</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3576">lppH</a></td>
+        <td>22 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_121862">gORF_121862</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv0009">ppiA</a></td>
+        <td>48 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_122227">gORF_122227</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3876">espI</a></td>
+        <td>91 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_2002">gORF_2002</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3868">eccA1</a></td>
+        <td>97 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_20316">gORF_20316</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3308">pmmB</a></td>
+        <td>96 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_25784">gORF_25784</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3138">pflA</a></td>
+        <td>58 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Membrane</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_35414">gORF_35414</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv2873">mpt83</a></td>
+        <td>88 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_35757">gORF_35757</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1091">PE_PGRS22</a></td>
+        <td>72 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_37048">gORF_37048</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>81 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_42930">gORF_42930</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1302">rfe</a></td>
+        <td>69 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="badge badge-dark">essential</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_44524">gORF_44524</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1345">mbtM</a></td>
+        <td>87 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_48161">gORF_48161</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>30 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">growth-advantage when disrupted</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_56876">gORF_56876</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>36 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_57646">gORF_57646</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv2127">ansP1</a></td>
+        <td>37 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_6673">gORF_6673</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>89 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_68833">gORF_68833</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1782">eccB5</a></td>
+        <td>78 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Periplasmic</td>
+        <td><span class="muted">growth-defect when disrupted</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_69007">gORF_69007</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1777">cyp144</a></td>
+        <td>51 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_69072">gORF_69072</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>44 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_74745">gORF_74745</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1604">impA</a></td>
+        <td>93 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Periplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_7579">gORF_7579</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>80 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_75871">gORF_75871</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1553">frdB</a></td>
+        <td>70 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_75976">gORF_75976</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1551">plsB1</a></td>
+        <td>25 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_78109">gORF_78109</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1492">mutA</a></td>
+        <td>90 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_90691">gORF_90691</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1091">PE_PGRS22</a></td>
+        <td>93 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/gORF_95760">gORF_95760</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>35 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_100857">tORF_100857</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3759c">proX</a></td>
+        <td>92 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_103888">tORF_103888</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3876">espI</a></td>
+        <td>91 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_11242">tORF_11242</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>77 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_19112">tORF_19112</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv0685">tuf</a></td>
+        <td>46 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="badge badge-dark">essential</span></td>
+      </tr>
+      
+    
+      
+      <tr>
+        <td><a href="/microprotein/tORF_2047">tORF_2047</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv0069c">sdaA</a></td>
+        <td>20 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_26369">tORF_26369</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv0973c">accA2</a></td>
+        <td>53 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_28759">tORF_28759</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>67 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_33916">tORF_33916</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>74 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_35175">tORF_35175</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1327c">glgE</a></td>
+        <td>64 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="badge badge-dark">essential</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_35700">tORF_35700</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1345">mbtM</a></td>
+        <td>87 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_42121">tORF_42121</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv1550">fadD11</a></td>
+        <td>20 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_47070">tORF_47070</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>36 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_56419">tORF_56419</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>38 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_60096">tORF_60096</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv2224c">caeA</a></td>
+        <td>90 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Cytoplasmic</td>
+        <td><span class="muted">growth-advantage when disrupted</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_61297">tORF_61297</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv2268c">cyp128</a></td>
+        <td>64 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_69156">tORF_69156</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv2530c">vapC39</a></td>
+        <td>34 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_72141">tORF_72141</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>67 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_75796">tORF_75796</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>77 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_79117">tORF_79117</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv2933">ppsC</a></td>
+        <td>45 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_87698">tORF_87698</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3245c">mtrB</a></td>
+        <td>59 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="badge badge-dark">essential</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_88201">tORF_88201</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3264c">manB</a></td>
+        <td>41 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_89298">tORF_89298</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3303c">lpdA</a></td>
+        <td>66 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_92272">tORF_92272</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><span class="muted">&mdash;</span></td>
+        <td>50 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/microprotein/tORF_94745">tORF_94745</a></td>
+        <td><span class="badge">Same-strand overlap (alternative frame)</span></td>
+        <td><a href="/gene/Rv3514">PE_PGRS57</a></td>
+        <td>77 aa</td>
+        <td class="muted">MS</td>
+        <td class="muted">Extracellular</td>
+        <td><span class="muted">—</span></td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  
+  
+  
+</section>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+<script src="/static/app/listfilter.js"></script>
+</body>
+</html>

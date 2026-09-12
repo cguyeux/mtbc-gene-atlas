@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ncRv11179c &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="prose">
+  <h1>ncRv11179c
+    <span class="muted">MTB000128</span></h1>
+
+  <p>
+    <span class="badge">ncRNA</span>
+    
+    Putative small regulatory RNA
+  </p>
+
+  <p class="muted">
+    This is an <strong>RNA</strong>, not a coding gene: it belongs to a separate track and carries
+    none of the protein evidence layers.
+  </p>
+
+  <h2>Location</h2>
+  <p>
+    1313343–1313452 (- strand), 110 nt, on H37Rv
+    (<code>NC_000962.3</code>).
+    
+    
+      Intergenic (no overlapping coding sequence).
+    
+    
+      Upstream neighbour <a href="/gene/Rv1179c">Rv1179c</a>
+      (44 bp).
+    
+    
+      Downstream neighbour <a href="/gene/Rv1180">Rv1180</a>
+      (273 bp).
+    
+  </p>
+
+  
+  
+  <h2>Intra-MTBC variation</h2>
+  
+  <table class="table">
+    <tr><td>Genomes surveyed</td><td>145,209</td></tr>
+    <tr><td>Variable sites</td><td>116</td></tr>
+    <tr><td>Variants reaching 0.1 % of genomes</td>
+        <td><strong>0</strong></td></tr>
+    <tr><td>Carriers of the most widespread variant</td><td>127</td></tr>
+  </table>
+
+  
+  
+  <h3>Coverage control</h3>
+  <p>
+    Variant density inside this RNA: <strong>105.5</strong> sites/100 bp,
+    versus <strong>66.1</strong> in the flanking ±500 bp
+    (GC 65.5 %). The flanks act as an internal witness: if variants are called
+    normally around the RNA but none becomes widespread inside it, the constraint is real rather
+    than a sequencing gap.
+  </p>
+  <p><em>Verdict:</em> COUVERTURE OK -&gt; invariance biologique plausible</p>
+  
+  
+
+  
+  <p class="muted">
+    Read with care: <strong>constraint is not function</strong>. This RNA mutates like its
+    surroundings, but no variant spreads through the population — which is evidence of selection
+    acting on it, not evidence of what it does. Secondary-structure pairing was tested across the
+    RNA set and did <em>not</em> explain this constraint.
+  </p>
+  
+  
+
+  
+  <h2>Predicted secondary structure</h2>
+  <p>
+    72.7 % of bases are paired in the minimum-free-energy fold
+    (80 paired, 30 unpaired).
+    <span class="muted">Folded in isolation; the in vivo structure may differ (partners,
+    co-transcriptional folding).</span>
+  </p>
+  
+
+  
+  
+  <h2>Literature
+    <span class="badge badge-dark">no publication</span>
+    
+  </h2>
+  <p>No mention of &#39;ncRv11179c&#39; anywhere in the TB literature corpus. This RNA carries no widespread variant across 145,209 MTBC genomes and passes the coverage control, yet nobody has studied it.</p>
+  <p class="muted"><strong>Read with care.</strong> Constraint is not function: an invariant RNA is a candidate, with neither a known target nor a demonstrated role.</p>
+  
+  
+  <p class="muted">Sweep: tbmonitor TB corpus (~330k PubMed abstracts), name sweep of 2026-08-10; positive controls MTS2823 (6 papers), mcr11 (3), Mcr7 (2) all returned hits, so a zero here is a measured absence and not a broken query.</p>
+  
+
+  
+  <h2>Legacy record</h2>
+  <p>Supported by sRNA-Seq in H37Rv (see DeJesus et al. 2017)</p>
+  
+
+  <h2>Sources</h2>
+  <ul>
+    <li>Descriptive record (locus, name, product, comment, coordinates): Mycobrowser v5,
+      <em>stable RNAs</em> (Kapopoulou et al. 2011,
+      <a href="https://doi.org/10.1016/j.tube.2010.09.006">doi:10.1016/j.tube.2010.09.006</a>).</li>
+    <li>Intra-MTBC variation and coverage control: computed for this atlas over
+      145,209 genomes.</li>
+    <li>Secondary structure: ViennaRNA 2.7.2, MFE fold.</li>
+  </ul>
+
+  <p><a href="/rnas">&larr; all RNAs</a></p>
+</article>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+</body>
+</html>

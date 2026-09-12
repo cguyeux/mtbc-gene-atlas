@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Genes &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<section class="list">
+  <h1>Genes</h1>
+  <form class="filters" id="gl-filters" action="/genes/" method="get">
+    <input type="text" name="q" placeholder="gene, Rv, product…" value="">
+    <select name="verdict">
+      <option value="">any verdict</option>
+      <option value="requalified" >Resolved</option>
+      <option value="family_assigned" >Family assigned</option>
+      <option value="dark" >Still unknown</option>
+    </select>
+    <label><input type="checkbox" name="hypo" value="1" > legacy hypothetical</label>
+    <label><input type="checkbox" name="enriched" value="1" > enriched only</label>
+    <label><input type="checkbox" name="review" value="1" > to review</label>
+    <button type="submit">Filter</button>
+  </form>
+
+  <p class="muted" id="gl-count"></p>
+
+  <table class="genes">
+    <thead><tr><th>Gene</th><th>MTBC0</th><th>Legacy (H37Rv)</th><th>MTBC0 PGAP / revised</th><th>Pfam</th><th>Verdict</th></tr></thead>
+    <tbody id="gl-rows"></tbody>
+  </table>
+
+  
+  <nav class="pager" id="gl-pager"></nav>
+  
+</section>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+<script src="/static/app/genes.js"></script>
+</body>
+</html>

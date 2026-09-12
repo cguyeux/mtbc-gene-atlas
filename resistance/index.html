@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resistance tester &middot; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="res">
+  <header class="res-hero">
+    <h1>Drug-resistance tester</h1>
+    <p class="lead">Predict anti-tuberculosis drug resistance for an MTBC strain. Give an
+      <strong>SRA accession</strong>, paste its <strong>variants</strong> (SPDI or VCF), or test a
+      <strong>single mutation</strong>. Matching is reconciled across representations (SNP, MNV, indel),
+      so blind spots such as the gyrA fluoroquinolone MNV are caught.</p>
+    <div class="callout callout-warn">
+      <strong>Research tool, not a clinical diagnostic.</strong> Verdicts come only from catalogued
+      mutation&ndash;resistance associations (WHO catalogue of mutations, 2nd ed. 2023, with tb-profiler and
+      CRyPTIC empirical signal). The absence of a determinant is <em>not</em> evidence of susceptibility,
+      and this output must not be used to guide treatment.
+    </div>
+  </header>
+
+  <section class="res-card">
+    <form action="/resistance" method="post" class="resform">
+      <div class="resform-top">
+        <label class="field">Input type
+          <select name="mode">
+            <option value="auto">auto-detect</option>
+            <option value="sra">SRA accession</option>
+            <option value="spdi">SPDI variant list</option>
+            <option value="vcf">VCF (H37Rv)</option>
+            <option value="mutation">single mutation</option>
+          </select>
+        </label>
+        <span class="muted small">Catalogue: 4255 R-associated determinants &middot; 15 drugs.</span>
+      </div>
+      <textarea name="payload" rows="8" spellcheck="false"
+        placeholder="ERR11252738&#10;&#10;or paste SPDI variants (one per line):&#10;NC_000962.3:2155167:C:G&#10;NC_000962.3:761154:C:T&#10;&#10;or a single mutation:  katG S315T  /  rpoB_p.Ser450Leu  /  rrs n.1401A>G"></textarea>
+      <div class="resform-actions">
+        <button type="submit">Predict resistance</button>
+        <span class="examples muted small">Try
+          <button type="button" class="chip" data-fill="ERR11252738">an SRA</button>
+          <button type="button" class="chip" data-fill="katG S315T">katG S315T</button>
+          <button type="button" class="chip" data-fill="rpoB S450L&#10;katG S315T">an MDR pair</button>
+        </span>
+      </div>
+    </form>
+  </section>
+
+  
+
+  <section class="sources">
+    <h2>Method &amp; sources</h2>
+    <ul>
+      <li><strong>Catalogue:</strong> WHO Catalogue of mutations in <em>Mycobacterium tuberculosis</em> complex
+        (2nd ed., 2023), consolidated with the tb-profiler reference database and CRyPTIC empirical signal.
+        Only <code>R-associated</code> determinants drive a verdict.</li>
+      <li><strong>Matching:</strong> reconciled at the variant-representation level (SNP exact, MNV decomposition
+        into component SNPs, indel exact) to avoid the systematic under-call of a raw SPDI equality.</li>
+      <li><strong>SRA resolution:</strong> variants of an accession are fetched on demand from the TBannotator
+        database; coverage depends on whether the accession has been annotated there.</li>
+      <li><strong>Scope:</strong> deterministic catalogue baseline. A lineage-stratified machine-learning
+        residual layer is planned but not yet served here.</li>
+      <li><strong>Companion:</strong> for the gene-level functional annotation of any locus, see the
+        <a href="/genes">gene atlas</a>.</li>
+    </ul>
+  </section>
+</article>
+<script>
+document.querySelectorAll('.chip[data-fill]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var ta = document.querySelector('textarea[name=payload]');
+    ta.value = this.getAttribute('data-fill').replace(/&#10;/g, '\n');
+    ta.focus();
+  });
+});
+</script>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+</body>
+</html>

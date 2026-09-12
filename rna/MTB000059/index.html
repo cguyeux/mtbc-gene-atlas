@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C8 &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="prose">
+  <h1>C8
+    <span class="muted">MTB000059</span></h1>
+
+  <p>
+    <span class="badge">ncRNA</span>
+    
+    Possible 4.5S RNA in signal recognition particle (small cytoplasmic RNA) (SC-RNA)
+  </p>
+
+  <p class="muted">
+    This is an <strong>RNA</strong>, not a coding gene: it belongs to a separate track and carries
+    none of the protein evidence layers.
+  </p>
+
+  <h2>Location</h2>
+  <p>
+    4168154–4168281 (- strand), 128 nt, on H37Rv
+    (<code>NC_000962.3</code>).
+    
+    
+      Intergenic (no overlapping coding sequence).
+    
+    
+      Upstream neighbour <a href="/gene/Rv3722c">Rv3722c</a>
+      (26 bp).
+    
+    
+      Downstream neighbour <a href="/gene/Rv3723">Rv3723</a>
+      (255 bp).
+    
+  </p>
+
+  
+  
+  <h2>Intra-MTBC variation</h2>
+  
+  <table class="table">
+    <tr><td>Genomes surveyed</td><td>145,209</td></tr>
+    <tr><td>Variable sites</td><td>61</td></tr>
+    <tr><td>Variants reaching 0.1 % of genomes</td>
+        <td>1</td></tr>
+    <tr><td>Carriers of the most widespread variant</td><td>797</td></tr>
+  </table>
+
+  
+  
+  <h3>Coverage control</h3>
+  <p>
+    Variant density inside this RNA: <strong>47.7</strong> sites/100 bp,
+    versus <strong>56.3</strong> in the flanking ±500 bp
+    (GC 68.8 %). The flanks act as an internal witness: if variants are called
+    normally around the RNA but none becomes widespread inside it, the constraint is real rather
+    than a sequencing gap.
+  </p>
+  <p><em>Verdict:</em> n/a (a des variants communs)</p>
+  
+  
+
+  
+  
+
+  
+  <h2>Predicted secondary structure</h2>
+  <p>
+    60.9 % of bases are paired in the minimum-free-energy fold
+    (78 paired, 50 unpaired).
+    <span class="muted">Folded in isolation; the in vivo structure may differ (partners,
+    co-transcriptional folding).</span>
+  </p>
+  
+
+  
+  
+  <h2>Literature
+    <span class="badge badge-dark">name not searchable</span>
+    
+  </h2>
+  <p>The name &#39;C8&#39; is too short and too generic for a text search of the literature to be specific.</p>
+  <p class="muted"><strong>Read with care.</strong> Neither studied nor unstudied: UNDECIDED by this method. Reading it as an absence would be a false negative, reading the hit count as a presence a false positive.</p>
+  
+  
+  <p class="muted">Sweep: tbmonitor TB corpus (~330k PubMed abstracts), name sweep of 2026-08-10; positive controls MTS2823 (6 papers), mcr11 (3), Mcr7 (2) all returned hits, so a zero here is a measured absence and not a broken query.</p>
+  
+
+  
+  <h2>Legacy record</h2>
+  <p>C8, possible 4.5S RNA (See Arnvig and Young, 2009; DiChiara et al., 2010), part of signal recognition particle with protein Ffh. Alternate 3&#39;-ends at positions 4168212 and 4168224.</p>
+  
+
+  <h2>Sources</h2>
+  <ul>
+    <li>Descriptive record (locus, name, product, comment, coordinates): Mycobrowser v5,
+      <em>stable RNAs</em> (Kapopoulou et al. 2011,
+      <a href="https://doi.org/10.1016/j.tube.2010.09.006">doi:10.1016/j.tube.2010.09.006</a>).</li>
+    <li>Intra-MTBC variation and coverage control: computed for this atlas over
+      145,209 genomes.</li>
+    <li>Secondary structure: ViennaRNA 2.7.2, MFE fold.</li>
+  </ul>
+
+  <p><a href="/rnas">&larr; all RNAs</a></p>
+</article>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+</body>
+</html>

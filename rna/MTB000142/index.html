@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ncRv11846 &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="prose">
+  <h1>ncRv11846 <span class="muted">/ MrsI</span>
+    <span class="muted">MTB000142</span></h1>
+
+  <p>
+    <span class="badge">ncRNA</span>
+    
+    Putative small regulatory RNA
+  </p>
+
+  <p class="muted">
+    This is an <strong>RNA</strong>, not a coding gene: it belongs to a separate track and carries
+    none of the protein evidence layers.
+  </p>
+
+  <h2>Location</h2>
+  <p>
+    2096766–2096867 (+ strand), 102 nt, on H37Rv
+    (<code>NC_000962.3</code>).
+    
+    
+      Intergenic (no overlapping coding sequence).
+    
+    
+      Upstream neighbour <a href="/gene/Rv1846c">Rv1846c</a>
+      (167 bp).
+    
+    
+      Downstream neighbour <a href="/gene/Rv1847">Rv1847</a>
+      (10 bp).
+    
+  </p>
+
+  
+  
+  <h2>Intra-MTBC variation</h2>
+  
+  <table class="table">
+    <tr><td>Genomes surveyed</td><td>145,209</td></tr>
+    <tr><td>Variable sites</td><td>81</td></tr>
+    <tr><td>Variants reaching 0.1 % of genomes</td>
+        <td><strong>0</strong></td></tr>
+    <tr><td>Carriers of the most widespread variant</td><td>60</td></tr>
+  </table>
+
+  
+  
+  <h3>Coverage control</h3>
+  <p>
+    Variant density inside this RNA: <strong>79.4</strong> sites/100 bp,
+    versus <strong>76.3</strong> in the flanking ±500 bp
+    (GC 70.6 %). The flanks act as an internal witness: if variants are called
+    normally around the RNA but none becomes widespread inside it, the constraint is real rather
+    than a sequencing gap.
+  </p>
+  <p><em>Verdict:</em> COUVERTURE OK -&gt; invariance biologique plausible</p>
+  
+  
+
+  
+  <p class="muted">
+    Read with care: <strong>constraint is not function</strong>. This RNA mutates like its
+    surroundings, but no variant spreads through the population — which is evidence of selection
+    acting on it, not evidence of what it does. Secondary-structure pairing was tested across the
+    RNA set and did <em>not</em> explain this constraint.
+  </p>
+  
+  
+
+  
+  <h2>Predicted secondary structure</h2>
+  <p>
+    62.7 % of bases are paired in the minimum-free-energy fold
+    (64 paired, 38 unpaired).
+    <span class="muted">Folded in isolation; the in vivo structure may differ (partners,
+    co-transcriptional folding).</span>
+  </p>
+  
+
+  
+  
+  <h2>Literature
+    <span class="badge">characterised</span>
+    
+  </h2>
+  <p>Renamed MrsI (mycobacterial regulatory sRNA in iron) by Gerrick et al. (2018), who characterised its regulon and showed direct binding to bfrA: MrsI drives an ANTICIPATORY iron-sparing response, induced ahead of iron limitation under several stresses.</p>
+  <p class="muted"><strong>Read with care.</strong> The regulon and the bfrA interaction are established in the cited work; this atlas adds only the intra-MTBC invariance, which is consistent with a functional RNA but does not by itself demonstrate anything.</p>
+  <p class="muted"><strong>Why we nearly missed it.</strong>
+    Invisible to any search by identifier: the paper renames the RNA, so &#39;ncRv11846&#39; appears once and &#39;MrsI&#39; everywhere after. Same failure mode as Rv1363c/OmamC (P8.5) — an object renamed by its authors disappears from identifier-based sweeps.</p>
+  
+  <ul>
+    
+    <li>Gerrick ER, Barbier T, Chase MR, Xu R, Francois J, Lin VH, Szucs MJ, Rock JM, Ahmad R, Tjaden B, Livny J, Fortune SM (2018) <em>Small RNA profiling in Mycobacterium tuberculosis identifies MrsI as necessary for an anticipatory iron sparing response</em>. Proceedings of the National Academy of Sciences.
+      <a href="https://doi.org/10.1073/pnas.1718003115">doi:10.1073/pnas.1718003115</a>,
+      <a href="https://pubmed.ncbi.nlm.nih.gov/29871950/">PMID 29871950</a>.</li>
+    
+  </ul>
+  
+  <p class="muted">Sweep: tbmonitor TB corpus (~330k PubMed abstracts), name sweep of 2026-08-10; positive controls MTS2823 (6 papers), mcr11 (3), Mcr7 (2) all returned hits, so a zero here is a measured absence and not a broken query.</p>
+  
+
+  
+  <h2>Legacy record</h2>
+  <p>Supported by sRNA-Seq in H37Rv (see DeJesus et al. 2017)</p>
+  
+
+  <h2>Sources</h2>
+  <ul>
+    <li>Descriptive record (locus, name, product, comment, coordinates): Mycobrowser v5,
+      <em>stable RNAs</em> (Kapopoulou et al. 2011,
+      <a href="https://doi.org/10.1016/j.tube.2010.09.006">doi:10.1016/j.tube.2010.09.006</a>).</li>
+    <li>Intra-MTBC variation and coverage control: computed for this atlas over
+      145,209 genomes.</li>
+    <li>Secondary structure: ViennaRNA 2.7.2, MFE fold.</li>
+  </ul>
+
+  <p><a href="/rnas">&larr; all RNAs</a></p>
+</article>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+</body>
+</html>

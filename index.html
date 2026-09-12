@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<section class="hero">
+  <h1>Re-annotating the <em>Mycobacterium tuberculosis</em> complex</h1>
+  <p>
+    Taking over from Mycobrowser: every MTBC gene is re-examined from the
+    <strong>MTBC0 ancestral genome</strong> (Harrison et&nbsp;al. 2024), its legacy
+    annotation verified, and its <em>hypothetical proteins</em> resolved through PGAP,
+    Pfam domains, ESM&nbsp;Atlas signal and the literature &mdash; every claim sourced.
+  </p>
+  <form class="search big" action="/genes" method="get">
+    <input type="text" name="q" placeholder="Search a gene name, Rv tag or product…">
+    <button type="submit">Search</button>
+  </form>
+</section>
+
+<section class="stats">
+  <a class="stat" href="/genes">
+    <span class="num">3974</span><span class="lab">genes catalogued</span>
+  </a>
+  <a class="stat" href="/genes?hypo=1">
+    <span class="num">1086</span><span class="lab">legacy “hypothetical”</span>
+  </a>
+  <div class="stat">
+    <span class="num">610</span>
+    <span class="lab">already re-annotated by PGAP on MTBC0</span>
+  </div>
+  <a class="stat" href="/genes?enriched=1">
+    <span class="num">3974</span><span class="lab">fully enriched fiches</span>
+  </a>
+  
+  <a class="stat" href="/microproteins">
+    <span class="num">200</span><span class="lab">MS-proven microproteins (separate track)</span>
+  </a>
+  
+</section>
+
+
+<section class="verdicts">
+  <h2>Curated verdicts</h2>
+  <ul class="verdict-list">
+    
+      <li><span class="badge badge-dark">Still unknown</span> 210</li>
+    
+      <li><span class="badge badge-family_assigned">Family assigned</span> 1950</li>
+    
+      <li><span class="badge badge-requalified">Resolved</span> 1814</li>
+    
+  </ul>
+</section>
+
+
+
+<section class="showcase">
+  <h2>Enriched genes</h2>
+  <table class="genes">
+    <thead><tr><th>Gene</th><th>MTBC0</th><th>Legacy</th><th>Revised</th><th>Pfam</th><th>Verdict</th></tr></thead>
+    <tbody>
+      
+      <tr>
+        <td><a href="/gene/Rv0001">dnaA</a><br><small>Rv0001</small></td>
+        <td><code>mtbc0_000001</code></td>
+        <td class="muted">chromosomal replication initiator protein DnaA</td>
+        <td>Chromosomal replication initiator protein DnaA. Pfam: Bac_DnaA (PF00308.25), Ist</td>
+        <td><code>Bac_DnaA</code> <code>IstB_IS21</code> <code>AAA</code> <code>Bac_DnaA_C</code> </td>
+        <td><span class="badge badge-requalified">Resolved</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0002">dnaN</a><br><small>Rv0002</small></td>
+        <td><code>mtbc0_000002</code></td>
+        <td class="muted">DNA polymerase III subunit beta</td>
+        <td>DNA polymerase III subunit beta. Pfam: DNA_pol3_beta (PF00712.25), DNA_pol3_beta</td>
+        <td><code>DNA_pol3_beta</code> <code>DNA_pol3_beta_2</code> <code>DNA_pol3_beta_3</code> </td>
+        <td><span class="badge badge-family_assigned">Family assigned</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0003">recF</a><br><small>Rv0003</small></td>
+        <td><code>mtbc0_000003</code></td>
+        <td class="muted">DNA replication/repair protein RecF</td>
+        <td>DNA replication/repair protein RecF. Pfam: SMC_N (PF02463.26), AAA_23 (PF13476.1</td>
+        <td><code>SMC_N</code> <code>AAA_23</code> </td>
+        <td><span class="badge badge-requalified">Resolved</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0004">Rv0004</a><br><small>Rv0004</small></td>
+        <td><code>mtbc0_000004</code></td>
+        <td class="muted">hypothetical protein</td>
+        <td>DciA, DNA replication protein. Directly binds DNA and the replicative helicase D</td>
+        <td><code>DciA</code> </td>
+        <td><span class="badge badge-requalified">Resolved</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0005">gyrB</a><br><small>Rv0005</small></td>
+        <td><code>mtbc0_000005</code></td>
+        <td class="muted">DNA gyrase subunit B</td>
+        <td>DNA topoisomerase (ATP-hydrolyzing) subunit B. Pfam: HATPase_c (PF02518.32), DNA</td>
+        <td><code>HATPase_c</code> <code>DNA_gyraseB</code> <code>Toprim</code> <code>DNA_gyraseB_C</code> </td>
+        <td><span class="badge badge-family_assigned">Family assigned</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0006">gyrA</a><br><small>Rv0006</small></td>
+        <td><code>mtbc0_000006</code></td>
+        <td class="muted">DNA gyrase subunit A</td>
+        <td>DNA topoisomerase (ATP-hydrolyzing) subunit A. Pfam: DNA_topoisoIV (PF00521.27),</td>
+        <td><code>DNA_topoisoIV</code> <code>DNA_gyraseA_C</code> </td>
+        <td><span class="badge badge-family_assigned">Family assigned</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0007">Rv0007</a><br><small>Rv0007</small></td>
+        <td><code>mtbc0_000007</code></td>
+        <td class="muted">membrane protein</td>
+        <td>Actinobacterial CofA-family membrane protein (Pfam DUF3566, 2 TM helices). Repor</td>
+        <td><code>DUF3566</code> </td>
+        <td><span class="badge badge-requalified">Resolved</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0008c">Rv0008c</a><br><small>Rv0008c</small></td>
+        <td><code>-</code></td>
+        <td class="muted">cell wall synthesis protein CwsA</td>
+        <td>Cell wall synthesis protein CwsA. Pfam: CwsA (PF10814.15).</td>
+        <td><code>CwsA</code> </td>
+        <td><span class="badge badge-requalified">Resolved</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0009">ppiA</a><br><small>Rv0009</small></td>
+        <td><code>-</code></td>
+        <td class="muted">iron-regulated peptidyl-prolyl cis-trans isomerase PpiA</td>
+        <td>Iron-regulated peptidyl-prolyl cis-trans isomerase PpiA. Pfam: Pro_isomerase (PF</td>
+        <td><code>Pro_isomerase</code> </td>
+        <td><span class="badge badge-requalified">Resolved</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0010c">Rv0010c</a><br><small>Rv0010c</small></td>
+        <td><code>mtbc0_000014</code></td>
+        <td class="muted">membrane protein</td>
+        <td>PH domain-containing protein. Pfam: bPH_6 (PF10756.16).</td>
+        <td><code>bPH_6</code> </td>
+        <td><span class="badge badge-family_assigned">Family assigned</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0011c">crgA</a><br><small>Rv0011c</small></td>
+        <td><code>mtbc0_000015</code></td>
+        <td class="muted">cell division protein CrgA</td>
+        <td>Cell division protein CrgA. Pfam: CrgA (PF06781.18).</td>
+        <td><code>CrgA</code> </td>
+        <td><span class="badge badge-requalified">Resolved</span></td>
+      </tr>
+      
+      <tr>
+        <td><a href="/gene/Rv0012">Rv0012</a><br><small>Rv0012</small></td>
+        <td><code>-</code></td>
+        <td class="muted">membrane protein</td>
+        <td>Membrane protein.</td>
+        <td><code>DUF881</code> </td>
+        <td><span class="badge badge-family_assigned">Family assigned</span></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</section>
+
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+</body>
+</html>

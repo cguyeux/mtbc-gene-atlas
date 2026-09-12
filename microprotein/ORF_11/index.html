@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ORF_11 &mdash; microprotein &mdash; MTBC Gene Atlas</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">MTBC Gene Atlas</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/genes">Genes</a>
+      <a href="/microproteins">Microproteome</a>
+      <a href="/rnas">RNAs</a>
+      <a href="/browse">Browser</a>
+      <a href="/network">Network</a>
+      <a href="/resistance">Resistance</a>
+      <a href="/about">About</a>
+    </nav>
+    <form class="search" action="/genes" method="get">
+      <input type="text" name="q" placeholder="gene, Rv tag, product, position (e.g. 2367322 or 1.5Mb)…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+<article class="gene">
+  <header class="gene-head">
+    <h1>ORF_11 <span class="muted">microprotein</span></h1>
+    <div class="badges">
+      <span class="badge">Same-strand overlap (alternative frame)</span>
+      <span class="badge">existence proven (MS)</span>
+      <span class="badge badge-dark">function unknown</span>
+      
+      <span class="badge">105 aa</span>
+    </div>
+  </header>
+
+  <section>
+    <p style="max-width:72ch">A non-canonical small protein (smORF) excluded from the H37Rv annotation, detected
+      by proteogenomics with a high-confidence peptide-spectrum match. It is served here as part of a
+      <strong>separate microproteome track</strong>: it is not one of the 3906 canonical genes and does not count
+      in the dark stock. Its <strong>existence is proven; its molecular function is unknown.</strong>
+      
+    </p>
+  </section>
+
+  <section>
+    <h2>Evidence &amp; coordinates</h2>
+    
+    <table class="genes">
+      <tbody>
+        <tr><th>Detection method</th><td>VapC4 ribosome-stalling (5&#39;-OH RNA-seq)</td></tr>
+        <tr><th>Existence evidence</th><td>VapC4 ribosome-stalling (5&#39;-OH RNA-seq); MS-validated (ProteomeXchange PXD010929, PXD011466, PXD025774, PXD050763, PXD060534, PXD071729)</td></tr>
+        
+        <tr><th>Cysteines</th><td>9 <span class="muted">(the VapC4 method targets Cys codons)</span></td></tr>
+        
+        <tr><th>Cross-validation</th><td class="muted">no Ribo-RET footprint at this start (Smith et al. 2022).
+          <strong>Not informative on its own</strong>: measured genome-wide, this Ribo-RET dataset recovers
+          only <strong>29.1&nbsp;%</strong> of annotated H37Rv starts (1136/3906), so its absence here does
+          not argue against this microprotein &mdash; existence is already established by the MS evidence
+          above. (P20.5)</td></tr>
+        
+        <tr><th>H37Rv coordinates</th><td>573835&ndash;574152 (+ strand)</td></tr>
+        <tr><th>Length</th><td>105 amino acids</td></tr>
+        
+        
+        
+        
+        
+        
+        
+        
+      </tbody>
+    </table>
+  </section>
+
+  
+  <section>
+    <h2>Sequence</h2>
+    <pre style="white-space:pre-wrap;word-break:break-all"><code>VCTTAPCSARRPRVFSRARVVAAPFAAPDRYTSAGVANRTRPLELGEERPCTRLTAPHSHSAASPAASTSCDRTVTSCRRRCTCPIPRLRPSSGPCVCVVRSVGT</code></pre>
+  </section>
+  
+
+  <p class="muted">Source: Troian EA et al., Nucleic Acids Res. 2026;54(7):gkag252 (doi:10.1093/nar/gkag252; PMC13096801); VapC4 ribosome-stalling proteogenomics. Overlap class is assigned by geometry against the H37Rv CDS set,
+    not by the source's own label. <a href="/microproteins">&larr; all microproteins</a></p>
+</article>
+</main>
+
+  <footer class="site-footer">
+    <small>
+      MTBC Gene Atlas &middot; successor to Mycobrowser, anchored on the MTBC0 ancestral genome
+      (Harrison et al. 2024) &middot; FEMTO-ST Institute, CNRS UMR 6174, Université Marie et Louis Pasteur
+      &middot; <a href="https://github.com/cguyeux/mtbc-gene-atlas" target="_blank" rel="noopener">Source code</a> (MIT) &middot; data CC-BY 4.0
+      &middot; <a href="/about">Cite</a>
+      &middot; <a href="/changelog" title="What changed since the previous version">v106</a> (2026-09-12)
+    </small>
+  </footer>
+  
+</body>
+</html>
