@@ -1,0 +1,11 @@
+{
+  "file": "mtbc_atlas_genes.jsonl.gz",
+  "format": "one JSON record per line (one gene record per H37Rv locus served by the atlas), gzip",
+  "records": 3974,
+  "sha256": "6a69d298a52b8b1cc8dbc2dc9fa71195729d4bcc7469e0c0867de9039f7c2944",
+  "bytes": 41686996,
+  "built_utc": "2026-11-26T14:50:40Z",
+  "source": "site/content/genes/*.json, read in the same pass that renders the static pages",
+  "cite": "https://doi.org/10.5281/zenodo.20815246",
+  "scope": "gene records only; microproteins and RNAs are available through /api/v1/microproteins and /api/v1/rnas"
+}

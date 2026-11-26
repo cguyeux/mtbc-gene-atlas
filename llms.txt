@@ -1,0 +1,17 @@
+# MTBC Gene Atlas
+
+> Gene-by-gene functional annotation records for the Mycobacterium tuberculosis complex (H37Rv / MTBC0 reference). Each record lists its evidence layers with their sources; the annotation status (dark, requalified, family_assigned) is a status of this atlas, not a proven function.
+
+## Machine-readable access
+
+- [Sitemap](https://mtbc.gclab.fr/sitemap.xml)
+- [Gene record, one per locus](https://mtbc.gclab.fr/api/v1/genes/Rv0001): JSON, same path for every Rv locus
+- [Gene list](https://mtbc.gclab.fr/api/v1/genes)
+- [Microproteins](https://mtbc.gclab.fr/api/v1/microproteins) and [RNAs](https://mtbc.gclab.fr/api/v1/rnas)
+- [Full dump of gene records](https://mtbc.gclab.fr/downloads/mtbc_atlas_genes.jsonl.gz) and its [manifest](https://mtbc.gclab.fr/downloads/mtbc_atlas_genes.manifest.json) (record count, sha256, build time)
+
+## Notes
+
+- A missing layer on a record is a missing record, not evidence of absence.
+- The static API answers with content type text/html; the body is valid JSON.
+- To cite: https://doi.org/10.5281/zenodo.20815246
